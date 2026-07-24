@@ -164,19 +164,21 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
 
               // Letter Grid
               Expanded(
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 4),
-                  child: LetterGridWidget(
-                    grid: state.currentGrid,
-                    currentSelection: state.currentSelection,
-                    foundWordCells: state.foundWordCells,
-                    wordColorIndices: state.wordColorIndices,
-                    hintCells: state.hintCells,
-                    showWrongFeedback: state.showWrongFeedback,
-                    onDragStart: notifier.onDragStart,
-                    onDragUpdate: notifier.onDragUpdate,
-                    onDragEnd: notifier.onDragEnd,
-                  ).animate().fadeIn(delay: 150.ms),
+                child: Center(
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 2),
+                    child: LetterGridWidget(
+                      grid: state.currentGrid,
+                      currentSelection: state.currentSelection,
+                      foundWordCells: state.foundWordCells,
+                      wordColorIndices: state.wordColorIndices,
+                      hintCells: state.hintCells,
+                      showWrongFeedback: state.showWrongFeedback,
+                      onDragStart: notifier.onDragStart,
+                      onDragUpdate: notifier.onDragUpdate,
+                      onDragEnd: notifier.onDragEnd,
+                    ).animate().fadeIn(delay: 150.ms),
+                  ),
                 ),
               ),
 
@@ -211,6 +213,7 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
 
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         // Back Button
         GestureDetector(
@@ -238,27 +241,29 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
 
         // Moves Counter Badge
         Container(
-          width: 54,
-          height: 54,
-          decoration: BoxDecoration(
-            color: const Color(0xFFFFF8E1),
-            shape: BoxShape.circle,
-            border: Border.all(color: const Color(0xFFFFB300), width: 2.5),
-            boxShadow: const [
-              BoxShadow(color: Colors.black12, blurRadius: 4, offset: Offset(0, 2)),
-            ],
+          width: 52,
+          height: 50,
+          decoration: const BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage(AppImages.movesLeftBg),
+              fit: BoxFit.contain,
+            ),
           ),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
                 'Moves',
-                style: GoogleFonts.fredoka(fontSize: 10, color: const Color(0xFF8D6E63)),
+                style: GoogleFonts.fredoka(
+                  fontSize: 10,
+                  color: const Color(0xFF8D6E63),
+                  fontWeight: FontWeight.bold,
+                ),
               ),
               Text(
                 '${state.moves}',
                 style: GoogleFonts.fredoka(
-                  fontSize: 18,
+                  fontSize: 17,
                   fontWeight: FontWeight.bold,
                   color: const Color(0xFFE65100),
                 ),
@@ -271,34 +276,29 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
         GestureDetector(
           onTap: () => ShopScreen.show(context),
           child: Container(
-            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
-            decoration: BoxDecoration(
-              color: const Color(0xFF263238).withValues(alpha: 0.85),
-              borderRadius: BorderRadius.circular(20),
-              border: Border.all(color: Colors.white30, width: 1.5),
+            width: 106,
+            height: 42,
+            decoration: const BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage(AppImages.coinsBalanceBg),
+                fit: BoxFit.fill,
+              ),
             ),
-            child: Row(
-              children: [
-                Image.asset(AppImages.iconCoin, width: 20, height: 20),
-                const SizedBox(width: 6),
-                Text(
+            child: Center(
+              child: Padding(
+                padding: const EdgeInsets.only(left: 28, right: 28),
+                child: Text(
                   '${progress.coins}',
                   style: GoogleFonts.fredoka(
-                    fontSize: 14,
+                    fontSize: 15,
                     fontWeight: FontWeight.bold,
                     color: Colors.white,
+                    shadows: const [
+                      Shadow(color: Colors.black45, blurRadius: 2, offset: Offset(0, 1)),
+                    ],
                   ),
                 ),
-                const SizedBox(width: 6),
-                Container(
-                  padding: const EdgeInsets.all(2),
-                  decoration: const BoxDecoration(
-                    color: Color(0xFF8CE62C),
-                    shape: BoxShape.circle,
-                  ),
-                  child: const Icon(Icons.add, color: Colors.white, size: 12),
-                ),
-              ],
+              ),
             ),
           ),
         ),

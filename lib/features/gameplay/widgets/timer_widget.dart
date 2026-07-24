@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../../../core/constants/app_colors.dart';
-import '../../../core/constants/app_text_styles.dart';
+import '../../../core/constants/app_images.dart';
 import '../gameplay_provider.dart';
 
 class TimerWidget extends StatelessWidget {
@@ -20,26 +21,36 @@ class TimerWidget extends StatelessWidget {
     final minutes = (timeRemaining ~/ 60).toString().padLeft(2, '0');
     final seconds = (timeRemaining % 60).toString().padLeft(2, '0');
 
-    return Row(
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        Icon(
-          isFrozen ? Icons.ac_unit_rounded : Icons.timer_rounded,
-          size: 18,
-          color: isFrozen
-              ? AppColors.skyBlue
-              : (isWarning ? AppColors.timerWarning : AppColors.timerNormal),
+    final textColor = isFrozen
+        ? const Color(0xFF00E5FF)
+        : (isWarning ? AppColors.timerWarning : Colors.white);
+
+    return Container(
+      width: 104,
+      height: 44,
+      decoration: const BoxDecoration(
+        image: DecorationImage(
+          image: AssetImage(AppImages.timerBg),
+          fit: BoxFit.fill,
         ),
-        const SizedBox(width: 4),
-        Text(
-          '$minutes:$seconds',
-          style: (isWarning && !isFrozen)
-              ? AppTextStyles.timerWarning
-              : AppTextStyles.timerNormal.copyWith(
-                  color: isFrozen ? AppColors.skyBlue : null,
-                ),
+      ),
+      child: Center(
+        child: Padding(
+          padding: const EdgeInsets.only(left: 32, right: 6),
+          child: Text(
+            '$minutes:$seconds',
+            style: GoogleFonts.fredoka(
+              fontSize: 16,
+              fontWeight: FontWeight.bold,
+              color: textColor,
+              shadows: const [
+                Shadow(color: Colors.black45, blurRadius: 2, offset: Offset(0, 1)),
+              ],
+            ),
+          ),
         ),
-      ],
+      ),
     );
   }
 }
+

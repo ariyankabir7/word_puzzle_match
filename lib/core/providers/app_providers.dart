@@ -18,7 +18,12 @@ final levelServiceProvider = Provider<LevelService>((ref) {
 });
 
 final audioServiceProvider = Provider<AudioService>((ref) {
+  final storage = ref.watch(storageServiceProvider);
   final audio = AudioService();
+  audio.updateSettings(
+    sound: storage.getSoundEnabled(),
+    music: storage.getMusicEnabled(),
+  );
   ref.onDispose(() => audio.dispose());
   return audio;
 });

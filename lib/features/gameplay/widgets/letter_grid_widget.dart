@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import '../../../core/constants/app_colors.dart';
+import '../../../core/constants/app_images.dart';
 import '../../../core/constants/app_text_styles.dart';
 import '../gameplay_provider.dart';
 
@@ -75,35 +76,42 @@ class _LetterGridWidgetState extends State<LetterGridWidget> {
 
     return LayoutBuilder(
       builder: (context, constraints) {
-        final totalSize = constraints.maxWidth;
-        final cellSize = totalSize / gridSize;
+        final outerWidth = constraints.maxWidth;
+        const double paddingAmount = 14.0;
+        final innerSize = outerWidth - (paddingAmount * 2);
+        final cellSize = innerSize / gridSize;
 
-        return GestureDetector(
-          onPanStart: (details) {
-            final cell = _getCellAtPosition(details.localPosition, cellSize, gridSize);
-            if (cell != null) widget.onDragStart(cell.row, cell.col);
-          },
-          onPanUpdate: (details) {
-            final cell = _getCellAtPosition(details.localPosition, cellSize, gridSize);
-            if (cell != null) widget.onDragUpdate(cell.row, cell.col);
-          },
-          onPanEnd: (_) => widget.onDragEnd(),
-          child: Container(
-            width: totalSize,
-            height: totalSize,
-            decoration: BoxDecoration(
-              color: AppColors.gridBackground,
-              borderRadius: BorderRadius.circular(16),
-              boxShadow: [
-                BoxShadow(
-                  color: Colors.black.withValues(alpha: 0.08),
-                  blurRadius: 8,
-                  offset: const Offset(0, 2),
-                ),
-              ],
+        return Container(
+          width: outerWidth,
+          height: outerWidth,
+          padding: const EdgeInsets.all(paddingAmount),
+          decoration: BoxDecoration(
+            image: const DecorationImage(
+              image: AssetImage(AppImages.wordsGridBg),
+              fit: BoxFit.fill,
             ),
+            borderRadius: BorderRadius.circular(24),
+            boxShadow: [
+              BoxShadow(
+                color: Colors.black.withValues(alpha: 0.12),
+                blurRadius: 10,
+                offset: const Offset(0, 4),
+              ),
+            ],
+          ),
+          child: GestureDetector(
+            onPanStart: (details) {
+              final cell = _getCellAtPosition(details.localPosition, cellSize, gridSize);
+              if (cell != null) widget.onDragStart(cell.row, cell.col);
+            },
+            onPanUpdate: (details) {
+              final cell = _getCellAtPosition(details.localPosition, cellSize, gridSize);
+              if (cell != null) widget.onDragUpdate(cell.row, cell.col);
+            },
+            onPanEnd: (_) => widget.onDragEnd(),
             child: GridView.builder(
               physics: const NeverScrollableScrollPhysics(),
+              padding: EdgeInsets.zero,
               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: gridSize,
                 childAspectRatio: 1,

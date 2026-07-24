@@ -172,39 +172,11 @@ class _LevelCompleteScreenState extends ConsumerState<LevelCompleteScreen> {
   }
 
   Widget _buildBanner() {
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 14),
-      decoration: BoxDecoration(
-        gradient: const LinearGradient(
-          colors: [Color(0xFFE53935), Color(0xFFFF5252)],
-        ),
-        borderRadius: BorderRadius.circular(30),
-        border: Border.all(color: Colors.white, width: 3),
-        boxShadow: const [
-          BoxShadow(
-            color: Color(0xFFB71C1C),
-            offset: Offset(0, 5),
-            blurRadius: 0,
-          ),
-          BoxShadow(
-            color: Color(0x55000000),
-            blurRadius: 10,
-            offset: Offset(0, 5),
-          ),
-        ],
-      ),
-      child: Text(
-        'Level Complete!',
-        style: GoogleFonts.fredoka(
-          fontSize: 30,
-          fontWeight: FontWeight.bold,
-          color: Colors.white,
-          letterSpacing: 1.2,
-          shadows: const [
-            Shadow(color: Colors.black45, offset: Offset(0, 2), blurRadius: 4),
-          ],
-        ),
-      ),
+    return Image.asset(
+      AppImages.levelComplete,
+      width: 300,
+      height: 90,
+      fit: BoxFit.contain,
     )
         .animate()
         .fadeIn(duration: 400.ms)
@@ -322,30 +294,15 @@ class _LevelCompleteScreenState extends ConsumerState<LevelCompleteScreen> {
           },
         );
       },
-      child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 12),
-        decoration: BoxDecoration(
-          color: const Color(0xFF5D4037),
-          borderRadius: BorderRadius.circular(20),
-          border: Border.all(color: const Color(0xFFFFD54F), width: 2),
-          boxShadow: const [
-            BoxShadow(color: Colors.black26, blurRadius: 4, offset: Offset(0, 2)),
-          ],
-        ),
-        child: Row(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Text(
-              'Watch Ad x2',
-              style: GoogleFonts.fredoka(
-                fontSize: 14,
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
-              ),
-            ),
-          ],
-        ),
-      ),
+      child: Image.asset(
+        AppImages.watchAndWin2x,
+        width: 150,
+        height: 60,
+        fit: BoxFit.contain,
+      )
+          .animate()
+          .fadeIn(delay: 500.ms)
+          .scale(begin: const Offset(0.8, 0.8), curve: Curves.elasticOut),
     );
   }
 }

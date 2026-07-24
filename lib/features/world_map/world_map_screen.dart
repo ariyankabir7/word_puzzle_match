@@ -6,7 +6,6 @@ import '../../core/constants/app_images.dart';
 import '../../core/models/player_progress.dart';
 import '../../core/providers/app_providers.dart';
 import '../../core/router/app_router.dart';
-import '../daily_rewards/daily_rewards_dialog.dart';
 import '../shop/shop_screen.dart';
 import 'widgets/level_node_widget.dart';
 import 'widgets/path_painter.dart';
@@ -26,7 +25,6 @@ class _WorldMapScreenState extends ConsumerState<WorldMapScreen> {
   late int _activeWorldNumber;
   static const int levelsPerWorld = 50;
 
-  static const double canvasWidth = 360;
   static const double nodeSpacingY = 110.0;
   static const double canvasHeight = levelsPerWorld * nodeSpacingY + 200;
 
@@ -61,22 +59,21 @@ class _WorldMapScreenState extends ConsumerState<WorldMapScreen> {
     }
   }
 
-  List<Offset> _computeNodePositions() {
-    const leftX = 70.0;
-    const rightX = canvasWidth - 70.0;
-    const centerX = canvasWidth / 2;
+  List<Offset> _computeNodePositions(double screenWidth) {
+    final centerX = screenWidth / 2;
+    final amplitude = (screenWidth * 0.32).clamp(70.0, 150.0);
 
     final positions = <Offset>[];
     for (int i = 0; i < levelsPerWorld; i++) {
-      final y = canvasHeight - 90 - i * nodeSpacingY;
+      final y = canvasHeight - 100 - i * nodeSpacingY;
       double x;
       switch (i % 6) {
-        case 0: x = leftX; break;
-        case 1: x = centerX - 30; break;
-        case 2: x = rightX; break;
-        case 3: x = rightX - 20; break;
-        case 4: x = centerX + 20; break;
-        case 5: x = leftX + 10; break;
+        case 0: x = centerX - amplitude; break;
+        case 1: x = centerX - (amplitude * 0.4); break;
+        case 2: x = centerX + (amplitude * 0.7); break;
+        case 3: x = centerX + amplitude; break;
+        case 4: x = centerX + (amplitude * 0.3); break;
+        case 5: x = centerX - (amplitude * 0.8); break;
         default: x = centerX;
       }
       positions.add(Offset(x, y));
@@ -88,7 +85,6 @@ class _WorldMapScreenState extends ConsumerState<WorldMapScreen> {
   Widget build(BuildContext context) {
     final worldState = ref.watch(worldMapProvider(_activeWorldNumber));
     final progress = worldState.progress;
-    final nodePositions = _computeNodePositions();
     final startLevel = (_activeWorldNumber - 1) * levelsPerWorld + 1;
     final unlockedCount = (progress.currentLevel - startLevel).clamp(0, levelsPerWorld);
 
@@ -112,55 +108,59 @@ class _WorldMapScreenState extends ConsumerState<WorldMapScreen> {
                 // Level Progress Card
                 _buildLevelProgressBar(progress),
 
-                // Map Path and Level Nodes
+                // Map Path and Level Nodes (Centered, Full Height)
                 Expanded(
-                  child: SingleChildScrollView(
-                    controller: _scrollController,
-                    physics: const BouncingScrollPhysics(),
-                    child: SizedBox(
-                      width: double.infinity,
-                      height: canvasHeight,
-                      child: Stack(
-                        children: [
-                          // Path Line
-                          Positioned.fill(
-                            child: CustomPaint(
-                              painter: PathPainter(
-                                nodePositions: nodePositions,
-                                unlockedUpTo: unlockedCount,
-                                pathColor: const Color(0xFFD7CCC8),
-                                pathDashColor: const Color(0xFF8D6E63),
+                  child: LayoutBuilder(
+                    builder: (context, constraints) {
+                      final screenWidth = constraints.maxWidth;
+                      final nodePositions = _computeNodePositions(screenWidth);
+
+                      return SingleChildScrollView(
+                        controller: _scrollController,
+                        physics: const BouncingScrollPhysics(),
+                        child: SizedBox(
+                          width: double.infinity,
+                          height: canvasHeight,
+                          child: Stack(
+                            children: [
+                              // Path Line (High Contrast & Centered)
+                              Positioned.fill(
+                                child: CustomPaint(
+                                  painter: PathPainter(
+                                    nodePositions: nodePositions,
+                                    unlockedUpTo: unlockedCount,
+                                    pathColor: const Color(0xFFFFB300),
+                                    pathDashColor: const Color(0xFFFFFBEA),
+                                  ),
+                                ),
                               ),
-                            ),
+
+                              // Floating Chests & Trophy Decors
+                              ..._buildDecorations(nodePositions),
+
+                              // Level Nodes
+                              ...List.generate(levelsPerWorld, (index) {
+                                final lvlNumber = startLevel + index;
+                                final pos = nodePositions[index];
+                                final state = worldState.nodeStateForLevel(lvlNumber);
+
+                                return Positioned(
+                                  left: pos.dx - 27,
+                                  top: pos.dy - 27,
+                                  child: LevelNodeWidget(
+                                    levelNumber: lvlNumber,
+                                    state: state,
+                                    onTap: () => context.push('${AppRoutes.gameplay}?level=$lvlNumber'),
+                                  ),
+                                );
+                              }),
+                            ],
                           ),
-
-                          // Floating Chests & Trophy Decors
-                          ..._buildDecorations(nodePositions),
-
-                          // Level Nodes
-                          ...List.generate(levelsPerWorld, (index) {
-                            final lvlNumber = startLevel + index;
-                            final pos = nodePositions[index];
-                            final state = worldState.nodeStateForLevel(lvlNumber);
-
-                            return Positioned(
-                              left: pos.dx - 27,
-                              top: pos.dy - 27,
-                              child: LevelNodeWidget(
-                                levelNumber: lvlNumber,
-                                state: state,
-                                onTap: () => context.push('${AppRoutes.gameplay}?level=$lvlNumber'),
-                              ),
-                            );
-                          }),
-                        ],
-                      ),
-                    ),
+                        ),
+                      );
+                    },
                   ),
                 ),
-
-                // Bottom Tab Bar
-                _buildBottomTabBar(context),
               ],
             ),
           ),
@@ -287,45 +287,10 @@ class _WorldMapScreenState extends ConsumerState<WorldMapScreen> {
       ),
     ];
   }
-
-  Widget _buildBottomTabBar(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.symmetric(vertical: 8),
-      decoration: const BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
-        boxShadow: [
-          BoxShadow(color: Colors.black12, blurRadius: 10, offset: Offset(0, -3)),
-        ],
-      ),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
-        children: [
-          _TabItem(
-            icon: Icons.map_rounded,
-            label: 'Map',
-            isSelected: true,
-            onTap: () {},
-          ),
-          _TabItem(
-            icon: Icons.card_giftcard_rounded,
-            label: 'Events',
-            isSelected: false,
-            onTap: () => DailyRewardsDialog.show(context),
-          ),
-          _TabItem(
-            icon: Icons.shopping_basket_rounded,
-            label: 'Store',
-            isSelected: false,
-            onTap: () => ShopScreen.show(context),
-          ),
-        ],
-      ),
-    );
-  }
 }
 
 class _ResourcePill extends StatelessWidget {
+
   final Widget? icon;
   final String? imagePath;
   final Color badgeColor;
@@ -354,10 +319,10 @@ class _ResourcePill extends StatelessWidget {
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          if (imagePath != null)
-            Image.asset(imagePath!, width: 20, height: 20)
-          else if (icon != null)
-            icon!,
+          if (imagePath case final path?)
+            Image.asset(path, width: 20, height: 20)
+          else
+            ?icon,
           const SizedBox(width: 6),
           Text(
             label,
@@ -387,51 +352,3 @@ class _ResourcePill extends StatelessWidget {
   }
 }
 
-class _TabItem extends StatelessWidget {
-  final IconData icon;
-  final String label;
-  final bool isSelected;
-  final VoidCallback onTap;
-
-  const _TabItem({
-    required this.icon,
-    required this.label,
-    required this.isSelected,
-    required this.onTap,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: onTap,
-      child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 6),
-        decoration: isSelected
-            ? BoxDecoration(
-                color: const Color(0xFFAB47BC).withValues(alpha: 0.15),
-                borderRadius: BorderRadius.circular(20),
-              )
-            : null,
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Icon(
-              icon,
-              color: isSelected ? const Color(0xFFAB47BC) : const Color(0xFF90A4AE),
-              size: 24,
-            ),
-            const SizedBox(height: 2),
-            Text(
-              label,
-              style: GoogleFonts.fredoka(
-                fontSize: 12,
-                fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
-                color: isSelected ? const Color(0xFFAB47BC) : const Color(0xFF90A4AE),
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}

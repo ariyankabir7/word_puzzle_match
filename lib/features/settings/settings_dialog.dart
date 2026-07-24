@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/constants/app_colors.dart';
+import '../../core/constants/app_images.dart';
 import '../../core/constants/app_text_styles.dart';
 import '../../core/providers/app_providers.dart';
 
@@ -35,6 +36,7 @@ class _SettingsDialogState extends ConsumerState<SettingsDialog> {
   @override
   Widget build(BuildContext context) {
     final storage = ref.read(storageServiceProvider);
+    final audio = ref.read(audioServiceProvider);
 
     return Dialog(
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(28)),
@@ -46,7 +48,13 @@ class _SettingsDialogState extends ConsumerState<SettingsDialog> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text('Settings ⚙️', style: AppTextStyles.headingMedium),
+                Row(
+                  children: [
+                    Image.asset(AppImages.gear, width: 32, height: 32),
+                    const SizedBox(width: 10),
+                    Text('Settings', style: AppTextStyles.headingMedium),
+                  ],
+                ),
                 IconButton(
                   icon: const Icon(Icons.close_rounded),
                   onPressed: () => Navigator.of(context).pop(),
@@ -63,6 +71,8 @@ class _SettingsDialogState extends ConsumerState<SettingsDialog> {
               onChanged: (val) {
                 setState(() => soundEnabled = val);
                 storage.setSoundEnabled(val);
+                audio.updateSettings(sound: val, music: musicEnabled);
+                if (val) audio.playButtonTap();
               },
             ),
 
@@ -74,6 +84,12 @@ class _SettingsDialogState extends ConsumerState<SettingsDialog> {
               onChanged: (val) {
                 setState(() => musicEnabled = val);
                 storage.setMusicEnabled(val);
+                audio.updateSettings(sound: soundEnabled, music: val);
+                if (val) {
+                  audio.playMusic('audio/bg_music.mp3');
+                } else {
+                  audio.stopMusic();
+                }
               },
             ),
 
@@ -85,6 +101,9 @@ class _SettingsDialogState extends ConsumerState<SettingsDialog> {
               onChanged: (val) {
                 setState(() => hapticEnabled = val);
                 storage.setHapticEnabled(val);
+                if (val) {
+                  ref.read(hapticsServiceProvider).selectionClick();
+                }
               },
             ),
 

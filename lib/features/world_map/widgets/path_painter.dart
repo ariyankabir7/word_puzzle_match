@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../../core/constants/app_colors.dart';
 
-/// CustomPainter that draws the winding path between level nodes.
+/// CustomPainter that draws the winding path between level nodes with high visual contrast.
 class PathPainter extends CustomPainter {
   final List<Offset> nodePositions;
   final int unlockedUpTo; // index of last unlocked node
@@ -19,38 +18,56 @@ class PathPainter extends CustomPainter {
   void paint(Canvas canvas, Size size) {
     if (nodePositions.length < 2) return;
 
-    // Draw locked path (gray)
+    // Outer border for locked path
+    final outerLockedPaint = Paint()
+      ..color = const Color(0xFF3E2723).withValues(alpha: 0.7)
+      ..strokeWidth = 20
+      ..style = PaintingStyle.stroke
+      ..strokeCap = StrokeCap.round
+      ..strokeJoin = StrokeJoin.round;
+
+    // Locked path fill
     final lockedPaint = Paint()
-      ..color = AppColors.nodeLocked.withValues(alpha: 0.4)
-      ..strokeWidth = 12
+      ..color = const Color(0xFF8D6E63).withValues(alpha: 0.85)
+      ..strokeWidth = 14
       ..style = PaintingStyle.stroke
       ..strokeCap = StrokeCap.round
       ..strokeJoin = StrokeJoin.round;
 
-    // Draw unlocked path
+    // Outer border for unlocked path
+    final outerUnlockedPaint = Paint()
+      ..color = const Color(0xFF4E270A)
+      ..strokeWidth = 20
+      ..style = PaintingStyle.stroke
+      ..strokeCap = StrokeCap.round
+      ..strokeJoin = StrokeJoin.round;
+
+    // Unlocked path fill (vibrant golden yellow)
     final unlockedPaint = Paint()
-      ..color = pathColor ?? AppColors.sunshineYellow
-      ..strokeWidth = 12
+      ..color = pathColor ?? const Color(0xFFFFB300)
+      ..strokeWidth = 14
       ..style = PaintingStyle.stroke
       ..strokeCap = StrokeCap.round
       ..strokeJoin = StrokeJoin.round;
 
-    // Dashes for path
+    // Dashes for unlocked path
     final dashPaint = Paint()
-      ..color = pathDashColor ?? Colors.white70
-      ..strokeWidth = 2.5
+      ..color = pathDashColor ?? const Color(0xFFFFFBEA)
+      ..strokeWidth = 3.5
       ..style = PaintingStyle.stroke
       ..strokeCap = StrokeCap.round;
 
     // Build full path
     final fullPath = _buildPath();
 
-    // Draw gray base path
+    // Draw base locked path with outer border
+    canvas.drawPath(fullPath, outerLockedPaint);
     canvas.drawPath(fullPath, lockedPaint);
 
     // Draw unlocked portion (first N segments)
     if (unlockedUpTo > 0) {
       final unlockedPath = _buildPath(maxIndex: unlockedUpTo.clamp(0, nodePositions.length - 1));
+      canvas.drawPath(unlockedPath, outerUnlockedPaint);
       canvas.drawPath(unlockedPath, unlockedPaint);
 
       // Dashes on unlocked path
@@ -78,7 +95,7 @@ class PathPainter extends CustomPainter {
       while (dist < metric.length) {
         final segment = metric.extractPath(dist, (dist + 8).clamp(0, metric.length));
         canvas.drawPath(segment, paint);
-        dist += 16;
+        dist += 18;
       }
     }
   }
@@ -90,3 +107,4 @@ class PathPainter extends CustomPainter {
       old.pathColor != pathColor ||
       old.pathDashColor != pathDashColor;
 }
+

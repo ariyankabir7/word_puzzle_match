@@ -24,10 +24,7 @@ class HomeScreen extends ConsumerWidget {
         children: [
           // Background Image
           Positioned.fill(
-            child: Image.asset(
-              AppImages.bgHome,
-              fit: BoxFit.cover,
-            ),
+            child: Image.asset(AppImages.bgHome, fit: BoxFit.cover),
           ),
 
           // Main Content
@@ -41,11 +38,11 @@ class HomeScreen extends ConsumerWidget {
 
                 // 3D Title Logo
                 Image.asset(
-                  AppImages.logoTitle,
-                  width: 320,
-                  height: 180,
-                  fit: BoxFit.contain,
-                )
+                      AppImages.logoTitle,
+                      width: 387,
+                      height: 219,
+                      fit: BoxFit.contain,
+                    )
                     .animate()
                     .fadeIn(duration: 500.ms)
                     .slideY(begin: -0.2, end: 0),
@@ -54,7 +51,10 @@ class HomeScreen extends ConsumerWidget {
 
                 // Ribbon Tagline Badge
                 Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 8),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 24,
+                    vertical: 8,
+                  ),
                   decoration: BoxDecoration(
                     gradient: const LinearGradient(
                       colors: [Color(0xFF8E24AA), Color(0xFFAB47BC)],
@@ -66,7 +66,7 @@ class HomeScreen extends ConsumerWidget {
                         color: Color(0x44000000),
                         blurRadius: 6,
                         offset: Offset(0, 3),
-                      )
+                      ),
                     ],
                   ),
                   child: Text(
@@ -78,21 +78,19 @@ class HomeScreen extends ConsumerWidget {
                       letterSpacing: 0.8,
                     ),
                   ),
-                )
-                    .animate()
-                    .fadeIn(delay: 200.ms, duration: 400.ms),
+                ).animate().fadeIn(delay: 200.ms, duration: 400.ms),
 
                 const Spacer(flex: 2),
 
                 // 3D PLAY Button
                 GameButton(
-                  text: 'PLAY',
-                  onTap: () => context.push(AppRoutes.worldMap),
-                  buttonColor: GameButtonColor.green,
-                  width: 260,
-                  height: 72,
-                  fontSize: 32,
-                )
+                      text: 'PLAY',
+                      onTap: () => context.push(AppRoutes.worldMap),
+                      buttonColor: GameButtonColor.green,
+                      width: 260,
+                      height: 72,
+                      fontSize: 32,
+                    )
                     .animate()
                     .fadeIn(delay: 300.ms, duration: 400.ms)
                     .scale(
@@ -104,9 +102,9 @@ class HomeScreen extends ConsumerWidget {
                 const SizedBox(height: 14),
 
                 // Level Progress Pill
-                _buildLevelBadge(progress.currentLevel)
-                    .animate()
-                    .fadeIn(delay: 400.ms, duration: 400.ms),
+                _buildLevelBadge(
+                  progress.currentLevel,
+                ).animate().fadeIn(delay: 400.ms, duration: 400.ms),
 
                 const Spacer(flex: 2),
 
@@ -128,16 +126,28 @@ class HomeScreen extends ConsumerWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           // Settings Gear Button
-          _CircleIconButton(
-            icon: Icons.settings_rounded,
-            color: const Color(0xFFFF9800),
+          GestureDetector(
             onTap: () => SettingsDialog.show(context),
-          ),
-          // Sound Speaker Button
-          _CircleIconButton(
-            icon: Icons.volume_up_rounded,
-            color: const Color(0xFF2196F3),
-            onTap: () => SettingsDialog.show(context),
+            child: Container(
+              width: 52,
+              height: 52,
+              decoration: const BoxDecoration(
+                shape: BoxShape.circle,
+                boxShadow: [
+                  BoxShadow(
+                    color: Color(0x44000000),
+                    blurRadius: 6,
+                    offset: Offset(0, 3),
+                  ),
+                ],
+              ),
+              child: Image.asset(
+                AppImages.gear,
+                width: 52,
+                height: 52,
+                fit: BoxFit.contain,
+              ),
+            ),
           ),
         ],
       ),
@@ -194,49 +204,7 @@ class HomeScreen extends ConsumerWidget {
             label: 'Shop',
             onTap: () => ShopScreen.show(context),
           ),
-          _BottomNavCard(
-            icon: Icons.card_giftcard_rounded,
-            iconColor: const Color(0xFFFF5722),
-            label: 'Offers',
-            onTap: () => ShopScreen.show(context),
-          ),
         ],
-      ),
-    );
-  }
-}
-
-class _CircleIconButton extends StatelessWidget {
-  final IconData icon;
-  final Color color;
-  final VoidCallback onTap;
-
-  const _CircleIconButton({
-    required this.icon,
-    required this.color,
-    required this.onTap,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: onTap,
-      child: Container(
-        width: 52,
-        height: 52,
-        decoration: BoxDecoration(
-          color: color,
-          shape: BoxShape.circle,
-          border: Border.all(color: Colors.white, width: 3),
-          boxShadow: const [
-            BoxShadow(
-              color: Color(0x44000000),
-              blurRadius: 6,
-              offset: Offset(0, 3),
-            ),
-          ],
-        ),
-        child: Icon(icon, color: Colors.white, size: 28),
       ),
     );
   }
@@ -289,9 +257,13 @@ class _BottomNavCard extends StatelessWidget {
             style: GoogleFonts.fredoka(
               fontSize: 12,
               fontWeight: FontWeight.bold,
-              color: Colors.white,
+              color: const Color(0xFF4A2E12),
               shadows: const [
-                Shadow(color: Colors.black45, offset: Offset(0, 1), blurRadius: 3),
+                Shadow(
+                  color: Color(0x55FFFFFF),
+                  offset: Offset(0, 1),
+                  blurRadius: 2,
+                ),
               ],
             ),
           ),
