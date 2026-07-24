@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animate/flutter_animate.dart';
-import '../../../core/constants/app_colors.dart';
-import '../../../core/constants/app_text_styles.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class WordListPanel extends StatelessWidget {
   final List<String> words;
@@ -15,116 +13,68 @@ class WordListPanel extends StatelessWidget {
     required this.wordColorIndices,
   });
 
+  static const List<Color> _wordColors = [
+    Color(0xFF2E7D32), // Green
+    Color(0xFFD84315), // Deep Orange
+    Color(0xFFC2185B), // Pink
+    Color(0xFF1565C0), // Blue
+    Color(0xFF6A1B9A), // Purple
+    Color(0xFFE65100), // Orange
+    Color(0xFF00838F), // Teal
+  ];
+
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+      width: double.infinity,
+      padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
       decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(16),
-        boxShadow: [
+        color: const Color(0xFFFFFBEA),
+        borderRadius: BorderRadius.circular(24),
+        border: Border.all(color: const Color(0xFFFFE082), width: 2.5),
+        boxShadow: const [
           BoxShadow(
-            color: Colors.black.withValues(alpha: 0.08),
+            color: Color(0x22000000),
             blurRadius: 8,
-            offset: const Offset(0, 2),
+            offset: Offset(0, 4),
           ),
         ],
       ),
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        mainAxisSize: MainAxisSize.min,
         children: [
           Text(
             'FIND THESE WORDS',
-            style: AppTextStyles.bodySmall.copyWith(
-              color: AppColors.textLight,
-              fontSize: 11,
+            style: GoogleFonts.fredoka(
+              fontSize: 13,
+              fontWeight: FontWeight.bold,
+              color: const Color(0xFF8E24AA),
               letterSpacing: 1.2,
             ),
           ),
-          const SizedBox(height: 8),
-          _buildWordGrid(),
+          const SizedBox(height: 10),
+          Wrap(
+            spacing: 18,
+            runSpacing: 8,
+            alignment: WrapAlignment.center,
+            children: List.generate(words.length, (index) {
+              final word = words[index];
+              final isFound = foundWords.contains(word);
+              final textColor = _wordColors[index % _wordColors.length];
+
+              return Text(
+                word,
+                style: GoogleFonts.fredoka(
+                  fontSize: 16,
+                  fontWeight: FontWeight.bold,
+                  color: isFound ? textColor.withValues(alpha: 0.35) : textColor,
+                  decoration: isFound ? TextDecoration.lineThrough : null,
+                  decorationThickness: 2,
+                ),
+              );
+            }),
+          ),
         ],
       ),
     );
-  }
-
-  Widget _buildWordGrid() {
-    final leftWords = <String>[];
-    final rightWords = <String>[];
-    for (int i = 0; i < words.length; i++) {
-      if (i % 2 == 0) {
-        leftWords.add(words[i]);
-      } else {
-        rightWords.add(words[i]);
-      }
-    }
-
-    return Row(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Expanded(child: _WordColumn(words: leftWords, foundWords: foundWords, colorIndices: wordColorIndices)),
-        Expanded(child: _WordColumn(words: rightWords, foundWords: foundWords, colorIndices: wordColorIndices)),
-      ],
-    );
-  }
-}
-
-class _WordColumn extends StatelessWidget {
-  final List<String> words;
-  final Set<String> foundWords;
-  final Map<String, int> colorIndices;
-
-  const _WordColumn({required this.words, required this.foundWords, required this.colorIndices});
-
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: words.map((word) => _WordItem(
-        word: word,
-        isFound: foundWords.contains(word),
-        colorIndex: colorIndices[word],
-      )).toList(),
-    );
-  }
-}
-
-class _WordItem extends StatelessWidget {
-  final String word;
-  final bool isFound;
-  final int? colorIndex;
-
-  const _WordItem({
-    required this.word,
-    required this.isFound,
-    this.colorIndex,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    final color = colorIndex != null
-        ? AppColors.wordFoundColors[colorIndex! % AppColors.wordFoundColors.length]
-        : null;
-
-    Widget child = Padding(
-      padding: const EdgeInsets.symmetric(vertical: 3),
-      child: Text(
-        word,
-        style: isFound
-            ? AppTextStyles.wordListItemFound.copyWith(
-                color: color?.withValues(alpha: 0.6),
-              )
-            : AppTextStyles.wordListItem,
-      ),
-    );
-
-    if (isFound) {
-      child = child
-          .animate()
-          .shimmer(duration: 600.ms, color: color ?? AppColors.lushGreen);
-    }
-
-    return child;
   }
 }

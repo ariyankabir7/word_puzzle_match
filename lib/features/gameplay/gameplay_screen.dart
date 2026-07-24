@@ -2,9 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import '../../core/constants/app_colors.dart';
-import '../../core/constants/app_text_styles.dart';
-import '../../core/models/level_model.dart';
+import 'package:google_fonts/google_fonts.dart';
+import '../../core/constants/app_images.dart';
 import '../../core/providers/app_providers.dart';
 import '../../core/router/app_router.dart';
 import '../shop/shop_screen.dart';
@@ -49,9 +48,13 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
       barrierDismissible: false,
       builder: (ctx) => AlertDialog(
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
-        title: const Text('Out of Lives! ❤️'),
-        content: const Text(
-          'You have 0 hearts remaining. Refill your lives in the shop or wait for the 30-minute timer!',
+        title: Text(
+          'Out of Lives! ❤️',
+          style: GoogleFonts.fredoka(fontWeight: FontWeight.bold),
+        ),
+        content: Text(
+          'You have 0 hearts remaining. Refill your lives in the shop!',
+          style: GoogleFonts.fredoka(),
         ),
         actions: [
           TextButton(
@@ -59,15 +62,15 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
               Navigator.of(ctx).pop();
               context.go(AppRoutes.worldMap);
             },
-            child: const Text('Back to Map'),
+            child: Text('Back to Map', style: GoogleFonts.fredoka()),
           ),
           ElevatedButton(
-            style: ElevatedButton.styleFrom(backgroundColor: AppColors.lushGreen),
+            style: ElevatedButton.styleFrom(backgroundColor: const Color(0xFF8CE62C)),
             onPressed: () {
               Navigator.of(ctx).pop();
               ShopScreen.show(context);
             },
-            child: const Text('Go to Shop', style: TextStyle(color: Colors.white)),
+            child: Text('Go to Shop', style: GoogleFonts.fredoka(color: Colors.white)),
           ),
         ],
       ),
@@ -101,27 +104,30 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
     });
 
     return Scaffold(
-      body: Container(
-        decoration: const BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            colors: [Color(0xFF87CEEB), Color(0xFFEEF5FF)],
+      body: Stack(
+        children: [
+          // Gameplay Background Image
+          Positioned.fill(
+            child: Image.asset(
+              AppImages.bgGameplay,
+              fit: BoxFit.cover,
+            ),
           ),
-        ),
-        child: SafeArea(
-          child: switch (state.status) {
-            GameStatus.loading => _buildLoading(),
-            _ => _buildGameplay(context, state, notifier),
-          },
-        ),
+
+          SafeArea(
+            child: switch (state.status) {
+              GameStatus.loading => _buildLoading(),
+              _ => _buildGameplay(context, state, notifier),
+            },
+          ),
+        ],
       ),
     );
   }
 
   Widget _buildLoading() {
     return const Center(
-      child: CircularProgressIndicator(color: AppColors.skyBlue),
+      child: CircularProgressIndicator(color: Color(0xFF0288D1)),
     );
   }
 
@@ -133,7 +139,6 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
     final level = state.level;
     if (level == null) return _buildLoading();
     final isFrozen = state.status == GameStatus.frozen;
-    final adsService = ref.watch(adsServiceProvider);
 
     return Stack(
       children: [
@@ -141,12 +146,14 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
           padding: const EdgeInsets.symmetric(horizontal: 16),
           child: Column(
             children: [
-              // ── Header ───────────────────────────────────────────────
-              _buildHeader(context, state, level),
+              const SizedBox(height: 6),
+
+              // Header Bar (Timer, Moves, Coins)
+              _buildHeader(context, state),
 
               const SizedBox(height: 10),
 
-              // ── Word list panel ──────────────────────────────────────
+              // Word List Panel ("FIND THESE WORDS")
               WordListPanel(
                 words: level.words,
                 foundWords: state.foundWords,
@@ -155,7 +162,7 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
 
               const SizedBox(height: 12),
 
-              // ── Letter grid ──────────────────────────────────────────
+              // Letter Grid
               Expanded(
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 4),
@@ -175,7 +182,7 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
 
               const SizedBox(height: 16),
 
-              // ── Power-up bar ─────────────────────────────────────────
+              // Power-up Boosters Bar
               PowerUpBar(
                 hintsRemaining: state.hintsRemaining,
                 shufflesRemaining: state.shufflesRemaining,
@@ -186,120 +193,116 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
                 onFreeze: notifier.useFreeze,
               ).animate().fadeIn(delay: 200.ms),
 
-              const SizedBox(height: 12),
-
-              adsService.buildBannerAdWidget(),
-
-              const SizedBox(height: 12),
+              const SizedBox(height: 16),
             ],
           ),
         ),
 
-        // ── Overlays ─────────────────────────────────────────────────
+        // Overlays
         if (state.status == GameStatus.won) const GreatJobOverlay(),
         if (state.status == GameStatus.lost)
           TimeUpOverlay(onRetry: notifier.retry),
-
-        if (isFrozen) _buildFreezeBar(),
       ],
     );
   }
 
-  Widget _buildHeader(BuildContext context, GameState state, LevelModel level) {
+  Widget _buildHeader(BuildContext context, GameState state) {
     final progress = ref.watch(playerProgressProvider);
 
     return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        // Back button
+        // Back Button
         GestureDetector(
           onTap: () => context.pop(),
           child: Container(
-            width: 36,
-            height: 36,
+            width: 44,
+            height: 44,
             decoration: BoxDecoration(
-              color: Colors.white.withValues(alpha: 0.8),
+              color: Colors.white,
               shape: BoxShape.circle,
-              boxShadow: [
-                BoxShadow(color: Colors.black.withValues(alpha: 0.1), blurRadius: 4),
+              border: Border.all(color: const Color(0xFFB0BEC5), width: 2),
+              boxShadow: const [
+                BoxShadow(color: Colors.black12, blurRadius: 4, offset: Offset(0, 2)),
               ],
             ),
-            child: const Icon(Icons.arrow_back_ios_rounded, size: 16, color: AppColors.textDark),
+            child: const Icon(Icons.arrow_back_ios_rounded, size: 20, color: Color(0xFF37474F)),
           ),
         ),
 
-        const SizedBox(width: 8),
-
-        // Timer
+        // Timer Pill
         TimerWidget(
           timeRemaining: state.timeRemaining,
           status: state.status,
         ),
 
-        const Spacer(),
-
-        // Moves
+        // Moves Counter Badge
         Container(
-          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+          width: 54,
+          height: 54,
           decoration: BoxDecoration(
-            color: Colors.white.withValues(alpha: 0.8),
-            borderRadius: BorderRadius.circular(20),
+            color: const Color(0xFFFFF8E1),
+            shape: BoxShape.circle,
+            border: Border.all(color: const Color(0xFFFFB300), width: 2.5),
+            boxShadow: const [
+              BoxShadow(color: Colors.black12, blurRadius: 4, offset: Offset(0, 2)),
+            ],
           ),
           child: Column(
-            mainAxisSize: MainAxisSize.min,
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text('Moves', style: AppTextStyles.bodySmall.copyWith(fontSize: 10)),
               Text(
-                state.moves.toString(),
-                style: AppTextStyles.headingMedium.copyWith(fontSize: 16),
+                'Moves',
+                style: GoogleFonts.fredoka(fontSize: 10, color: const Color(0xFF8D6E63)),
+              ),
+              Text(
+                '${state.moves}',
+                style: GoogleFonts.fredoka(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                  color: const Color(0xFFE65100),
+                ),
               ),
             ],
           ),
         ),
 
-        const SizedBox(width: 8),
-
-        // Coins (Tap to open shop)
+        // Coins Pill
         GestureDetector(
           onTap: () => ShopScreen.show(context),
           child: Container(
-            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
             decoration: BoxDecoration(
-              color: Colors.white.withValues(alpha: 0.8),
+              color: const Color(0xFF263238).withValues(alpha: 0.85),
               borderRadius: BorderRadius.circular(20),
+              border: Border.all(color: Colors.white30, width: 1.5),
             ),
             child: Row(
               children: [
-                const Text('🪙', style: TextStyle(fontSize: 14)),
-                const SizedBox(width: 4),
+                Image.asset(AppImages.iconCoin, width: 20, height: 20),
+                const SizedBox(width: 6),
                 Text(
-                  progress.coins > 999 ? '${(progress.coins / 1000).toStringAsFixed(1)}K' : progress.coins.toString(),
-                  style: AppTextStyles.coinCount.copyWith(fontSize: 14),
+                  '${progress.coins}',
+                  style: GoogleFonts.fredoka(
+                    fontSize: 14,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                  ),
                 ),
-                const SizedBox(width: 4),
-                const Icon(Icons.add_circle, size: 14, color: AppColors.lushGreen),
+                const SizedBox(width: 6),
+                Container(
+                  padding: const EdgeInsets.all(2),
+                  decoration: const BoxDecoration(
+                    color: Color(0xFF8CE62C),
+                    shape: BoxShape.circle,
+                  ),
+                  child: const Icon(Icons.add, color: Colors.white, size: 12),
+                ),
               ],
             ),
           ),
         ),
       ],
-    );
-  }
-
-  Widget _buildFreezeBar() {
-    return Positioned(
-      top: 0,
-      left: 0,
-      right: 0,
-      child: Container(
-        height: 4,
-        decoration: const BoxDecoration(
-          gradient: LinearGradient(
-            colors: [AppColors.skyBlue, Colors.white, AppColors.skyBlue],
-          ),
-        ),
-      )
-          .animate(onPlay: (c) => c.repeat(reverse: true))
-          .shimmer(duration: 1000.ms, color: Colors.white),
     );
   }
 }

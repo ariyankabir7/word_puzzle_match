@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import '../../core/constants/app_colors.dart';
-import '../../core/constants/app_text_styles.dart';
-import '../../core/constants/world_themes.dart';
+import 'package:google_fonts/google_fonts.dart';
+import '../../core/constants/app_images.dart';
 import '../../core/models/player_progress.dart';
 import '../../core/providers/app_providers.dart';
 import '../../core/router/app_router.dart';
@@ -60,36 +58,25 @@ class _WorldMapScreenState extends ConsumerState<WorldMapScreen> {
           curve: Curves.easeInOut,
         );
       }
-    } else {
-      if (_scrollController.hasClients) {
-        _scrollController.jumpTo(0);
-      }
     }
   }
 
-  void _changeWorld(int newWorldNumber) {
-    if (newWorldNumber < 1 || newWorldNumber > 10) return;
-    setState(() {
-      _activeWorldNumber = newWorldNumber;
-    });
-    _scrollToCurrentLevel();
-  }
-
   List<Offset> _computeNodePositions() {
-    const leftX = 60.0;
-    const rightX = canvasWidth - 60.0;
+    const leftX = 70.0;
+    const rightX = canvasWidth - 70.0;
     const centerX = canvasWidth / 2;
 
     final positions = <Offset>[];
     for (int i = 0; i < levelsPerWorld; i++) {
-      final y = canvasHeight - 80 - i * nodeSpacingY;
+      final y = canvasHeight - 90 - i * nodeSpacingY;
       double x;
-      switch (i % 5) {
-        case 0: x = centerX - 20; break;
-        case 1: x = rightX; break;
-        case 2: x = rightX - 30; break;
-        case 3: x = leftX + 10; break;
-        case 4: x = leftX; break;
+      switch (i % 6) {
+        case 0: x = leftX; break;
+        case 1: x = centerX - 30; break;
+        case 2: x = rightX; break;
+        case 3: x = rightX - 20; break;
+        case 4: x = centerX + 20; break;
+        case 5: x = leftX + 10; break;
         default: x = centerX;
       }
       positions.add(Offset(x, y));
@@ -99,355 +86,317 @@ class _WorldMapScreenState extends ConsumerState<WorldMapScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final worldTheme = WorldTheme.getTheme(_activeWorldNumber);
     final worldState = ref.watch(worldMapProvider(_activeWorldNumber));
-    final adsService = ref.watch(adsServiceProvider);
     final progress = worldState.progress;
     final nodePositions = _computeNodePositions();
     final startLevel = (_activeWorldNumber - 1) * levelsPerWorld + 1;
     final unlockedCount = (progress.currentLevel - startLevel).clamp(0, levelsPerWorld);
 
     return Scaffold(
-      body: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            colors: worldTheme.bgGradient,
-            stops: const [0, 0.5, 1],
+      body: Stack(
+        children: [
+          // Map Background
+          Positioned.fill(
+            child: Image.asset(
+              AppImages.bgMap,
+              fit: BoxFit.cover,
+            ),
           ),
-        ),
-        child: SafeArea(
-          child: Column(
-            children: [
-              // ── Header ─────────────────────────────────────────────────
-              _buildHeader(progress, context),
 
-              // ── World Switcher Bar ─────────────────────────────────────
-              _buildWorldSwitcher(worldTheme),
+          SafeArea(
+            child: Column(
+              children: [
+                // Top Resources Header (Lives, Coins, Gems)
+                _buildTopResourcesBar(progress, context),
 
-              // ── Map area ───────────────────────────────────────────────
-              Expanded(
-                child: SingleChildScrollView(
-                  controller: _scrollController,
-                  reverse: false,
-                  physics: const BouncingScrollPhysics(),
-                  child: SizedBox(
-                    width: double.infinity,
-                    height: canvasHeight,
-                    child: Stack(
-                      children: [
-                        // Background elements
-                        ..._buildBackgroundElements(worldTheme),
+                // Level Progress Card
+                _buildLevelProgressBar(progress),
 
-                        // Path
-                        Positioned.fill(
-                          child: CustomPaint(
-                            painter: PathPainter(
-                              nodePositions: nodePositions,
-                              unlockedUpTo: unlockedCount,
-                              pathColor: worldTheme.pathColor,
-                              pathDashColor: worldTheme.pathDashColor,
+                // Map Path and Level Nodes
+                Expanded(
+                  child: SingleChildScrollView(
+                    controller: _scrollController,
+                    physics: const BouncingScrollPhysics(),
+                    child: SizedBox(
+                      width: double.infinity,
+                      height: canvasHeight,
+                      child: Stack(
+                        children: [
+                          // Path Line
+                          Positioned.fill(
+                            child: CustomPaint(
+                              painter: PathPainter(
+                                nodePositions: nodePositions,
+                                unlockedUpTo: unlockedCount,
+                                pathColor: const Color(0xFFD7CCC8),
+                                pathDashColor: const Color(0xFF8D6E63),
+                              ),
                             ),
                           ),
-                        ),
 
-                        // Level nodes
-                        ...List.generate(levelsPerWorld, (i) {
-                          final levelId = startLevel + i;
-                          final pos = nodePositions[i];
-                          final nodeState = worldState.nodeStateForLevel(levelId);
+                          // Floating Chests & Trophy Decors
+                          ..._buildDecorations(nodePositions),
 
-                          Widget? marker;
-                          if (i == 9 || i == 24 || i == 49) {
-                            marker = _buildMilestoneMarker(i == 49, worldTheme);
-                          }
+                          // Level Nodes
+                          ...List.generate(levelsPerWorld, (index) {
+                            final lvlNumber = startLevel + index;
+                            final pos = nodePositions[index];
+                            final state = worldState.nodeStateForLevel(lvlNumber);
 
-                          return Positioned(
-                            left: pos.dx - (nodeState == NodeState.current ? 31 : 27),
-                            top: pos.dy - (nodeState == NodeState.current ? 31 : 27),
-                            child: Column(
-                              mainAxisSize: MainAxisSize.min,
-                              children: [
-                                if (marker != null) ...[marker, const SizedBox(height: 4)],
-                                LevelNodeWidget(
-                                  levelNumber: levelId,
-                                  state: nodeState,
-                                  onTap: () => context.push(
-                                    '${AppRoutes.gameplay}?level=$levelId',
-                                  ),
-                                ).animate().fadeIn(
-                                      delay: Duration(milliseconds: (i % 10) * 20),
-                                      duration: 250.ms,
-                                    ),
-                              ],
-                            ),
-                          );
-                        }),
-                      ],
+                            return Positioned(
+                              left: pos.dx - 27,
+                              top: pos.dy - 27,
+                              child: LevelNodeWidget(
+                                levelNumber: lvlNumber,
+                                state: state,
+                                onTap: () => context.push('${AppRoutes.gameplay}?level=$lvlNumber'),
+                              ),
+                            );
+                          }),
+                        ],
+                      ),
                     ),
                   ),
                 ),
-              ),
 
-              // Banner Ad Container
-              adsService.buildBannerAdWidget(),
-
-              // ── Bottom Nav ─────────────────────────────────────────────
-              _buildBottomNav(context),
-            ],
+                // Bottom Tab Bar
+                _buildBottomTabBar(context),
+              ],
+            ),
           ),
-        ),
+        ],
       ),
     );
   }
 
-  Widget _buildHeader(PlayerProgress progress, BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-      child: Column(
+  Widget _buildTopResourcesBar(PlayerProgress progress, BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Row(
-            children: [
-              // Back button
-              GestureDetector(
-                onTap: () => context.go(AppRoutes.home),
-                child: Container(
-                  width: 36,
-                  height: 36,
-                  decoration: BoxDecoration(
-                    color: Colors.white.withValues(alpha: 0.25),
-                    shape: BoxShape.circle,
-                  ),
-                  child: const Icon(Icons.arrow_back_ios_rounded, color: Colors.white, size: 18),
-                ),
-              ),
-              const SizedBox(width: 10),
+          // Lives Pill
+          _ResourcePill(
+            icon: const Icon(Icons.favorite_rounded, color: Colors.white, size: 16),
+            badgeColor: const Color(0xFFE91E63),
+            label: '${progress.lives} Full',
+          ),
+          // Coins Pill
+          _ResourcePill(
+            imagePath: AppImages.iconCoin,
+            badgeColor: const Color(0xFFFFB300),
+            label: '${progress.coins}',
+            showAdd: true,
+            onAdd: () => ShopScreen.show(context),
+          ),
+          // Gems Pill
+          _ResourcePill(
+            imagePath: AppImages.iconGem,
+            badgeColor: const Color(0xFFAB47BC),
+            label: '${progress.gems}',
+            showAdd: true,
+            onAdd: () => ShopScreen.show(context),
+          ),
+        ],
+      ),
+    );
+  }
 
-              // Level progress bar
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+  Widget _buildLevelProgressBar(PlayerProgress progress) {
+    final double ratio = (progress.currentLevel / 500).clamp(0.0, 1.0);
+
+    return Container(
+      margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 4),
+      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
+      decoration: BoxDecoration(
+        color: const Color(0xFFFFFBEA),
+        borderRadius: BorderRadius.circular(24),
+        border: Border.all(color: const Color(0xFFFFD54F), width: 2),
+        boxShadow: const [
+          BoxShadow(
+            color: Color(0x22000000),
+            blurRadius: 6,
+            offset: Offset(0, 3),
+          ),
+        ],
+      ),
+      child: Row(
+        children: [
+          Image.asset(AppImages.iconStar, width: 24, height: 24),
+          const SizedBox(width: 8),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Row(
-                      children: [
-                        const Icon(Icons.star_rounded, color: AppColors.sunshineYellow, size: 16),
-                        const SizedBox(width: 4),
-                        Text(
-                          'Overall Progress',
-                          style: AppTextStyles.bodySmall.copyWith(color: Colors.white),
-                        ),
-                        const Spacer(),
-                        Text(
-                          '${progress.currentLevel}/500',
-                          style: AppTextStyles.bodySmall.copyWith(color: Colors.white),
-                        ),
-                      ],
+                    Text(
+                      'Level Progress',
+                      style: GoogleFonts.fredoka(
+                        fontSize: 12,
+                        fontWeight: FontWeight.bold,
+                        color: const Color(0xFF5D4037),
+                      ),
                     ),
-                    const SizedBox(height: 4),
-                    ClipRRect(
-                      borderRadius: BorderRadius.circular(10),
-                      child: LinearProgressIndicator(
-                        value: (progress.currentLevel - 1) / 500.0,
-                        backgroundColor: Colors.white.withValues(alpha: 0.3),
-                        valueColor: const AlwaysStoppedAnimation<Color>(AppColors.sunshineYellow),
-                        minHeight: 10,
+                    Text(
+                      '${progress.currentLevel}/500',
+                      style: GoogleFonts.fredoka(
+                        fontSize: 12,
+                        fontWeight: FontWeight.bold,
+                        color: const Color(0xFF8D6E63),
                       ),
                     ),
                   ],
                 ),
-              ),
-
-              const SizedBox(width: 10),
-
-              // Daily Reward chest icon
-              GestureDetector(
-                onTap: () => DailyRewardsDialog.show(context),
-                child: Container(
-                  width: 36,
-                  height: 36,
-                  decoration: BoxDecoration(
-                    color: Colors.white.withValues(alpha: 0.25),
-                    shape: BoxShape.circle,
-                  ),
-                  child: const Icon(Icons.card_giftcard_rounded, color: Colors.white, size: 20),
-                ),
-              ),
-            ],
-          ),
-        ],
-      ),
-    );
-  }
-
-  Widget _buildWorldSwitcher(WorldTheme worldTheme) {
-    final canPrev = _activeWorldNumber > 1;
-    final canNext = _activeWorldNumber < 10;
-
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-      child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-        decoration: BoxDecoration(
-          color: Colors.white.withValues(alpha: 0.25),
-          borderRadius: BorderRadius.circular(24),
-          border: Border.all(color: Colors.white.withValues(alpha: 0.4), width: 1.5),
-        ),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            IconButton(
-              padding: EdgeInsets.zero,
-              constraints: const BoxConstraints(minWidth: 32, minHeight: 32),
-              icon: Icon(
-                Icons.arrow_back_ios_rounded,
-                color: canPrev ? Colors.white : Colors.white30,
-                size: 18,
-              ),
-              onPressed: canPrev ? () => _changeWorld(_activeWorldNumber - 1) : null,
-            ),
-            Row(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Text(
-                  worldTheme.iconEmoji,
-                  style: const TextStyle(fontSize: 18),
-                ),
-                const SizedBox(width: 6),
-                Text(
-                  'World $_activeWorldNumber: ${worldTheme.name}',
-                  style: AppTextStyles.bodyLarge.copyWith(
-                    color: Colors.white,
-                    fontSize: 16,
+                const SizedBox(height: 3),
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(10),
+                  child: LinearProgressIndicator(
+                    value: ratio,
+                    minHeight: 10,
+                    backgroundColor: const Color(0xFFE0E0E0),
+                    valueColor: const AlwaysStoppedAnimation<Color>(Color(0xFFFFB300)),
                   ),
                 ),
               ],
             ),
-            IconButton(
-              padding: EdgeInsets.zero,
-              constraints: const BoxConstraints(minWidth: 32, minHeight: 32),
-              icon: Icon(
-                Icons.arrow_forward_ios_rounded,
-                color: canNext ? Colors.white : Colors.white30,
-                size: 18,
-              ),
-              onPressed: canNext ? () => _changeWorld(_activeWorldNumber + 1) : null,
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-
-  Widget _buildMilestoneMarker(bool isGold, WorldTheme worldTheme) {
-    return Container(
-      width: 36,
-      height: 36,
-      decoration: BoxDecoration(
-        color: isGold ? AppColors.sunshineYellow : Colors.white,
-        shape: BoxShape.circle,
-        border: Border.all(
-          color: isGold ? AppColors.sunshineYellowDark : worldTheme.accentColor,
-          width: 2,
-        ),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withValues(alpha: 0.2),
-            blurRadius: 6,
-            offset: const Offset(0, 3),
           ),
+          const SizedBox(width: 8),
+          Image.asset(AppImages.iconChest, width: 28, height: 28),
         ],
       ),
-      child: Icon(
-        isGold ? Icons.emoji_events_rounded : Icons.card_giftcard_rounded,
-        size: 18,
-        color: isGold ? Colors.white : worldTheme.accentColor,
-      ),
     );
   }
 
-  List<Widget> _buildBackgroundElements(WorldTheme worldTheme) {
+  List<Widget> _buildDecorations(List<Offset> nodePositions) {
+    if (nodePositions.length < 20) return [];
     return [
+      // Floating Chest at node 10
       Positioned(
-        bottom: 40,
-        left: 20,
-        child: Icon(
-          worldTheme.decorationIcon,
-          size: 48,
-          color: Colors.white.withValues(alpha: 0.35),
-        ),
+        left: nodePositions[9].dx + 30,
+        top: nodePositions[9].dy - 10,
+        child: Image.asset(AppImages.iconChest, width: 36, height: 36),
       ),
+      // Floating Chest at node 25
       Positioned(
-        top: 120,
-        right: 25,
-        child: Icon(
-          worldTheme.decorationIcon,
-          size: 56,
-          color: Colors.white.withValues(alpha: 0.35),
-        ).animate(onPlay: (c) => c.repeat(reverse: true)).moveY(begin: 0, end: -15, duration: 4000.ms),
-      ),
-      Positioned(
-        top: 40,
-        left: 10,
-        child: CustomPaint(
-          size: const Size(90, 42),
-          painter: const _CloudPainter(),
-        ).animate(onPlay: (c) => c.repeat(reverse: true)).moveX(begin: 0, end: 10, duration: 5000.ms),
+        left: nodePositions[24].dx - 45,
+        top: nodePositions[24].dy - 10,
+        child: Image.asset(AppImages.iconChest, width: 36, height: 36),
       ),
     ];
   }
 
-  Widget _buildBottomNav(BuildContext context) {
+  Widget _buildBottomTabBar(BuildContext context) {
     return Container(
+      padding: const EdgeInsets.symmetric(vertical: 8),
       decoration: const BoxDecoration(
         color: Colors.white,
+        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
         boxShadow: [
-          BoxShadow(color: Color(0x22000000), blurRadius: 10, offset: Offset(0, -3)),
+          BoxShadow(color: Colors.black12, blurRadius: 10, offset: Offset(0, -3)),
         ],
       ),
-      child: SafeArea(
-        top: false,
-        child: Padding(
-          padding: const EdgeInsets.symmetric(vertical: 8),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: [
-              _NavItem(
-                icon: Icons.map_rounded,
-                label: 'Map',
-                isActive: true,
-                onTap: () {},
-              ),
-              _NavItem(
-                icon: Icons.celebration_rounded,
-                label: 'Events',
-                isActive: false,
-                onTap: () => DailyRewardsDialog.show(context),
-              ),
-              _NavItem(
-                icon: Icons.storefront_rounded,
-                label: 'Store',
-                isActive: false,
-                onTap: () => ShopScreen.show(context),
-              ),
-            ],
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        children: [
+          _TabItem(
+            icon: Icons.map_rounded,
+            label: 'Map',
+            isSelected: true,
+            onTap: () {},
           ),
-        ),
+          _TabItem(
+            icon: Icons.card_giftcard_rounded,
+            label: 'Events',
+            isSelected: false,
+            onTap: () => DailyRewardsDialog.show(context),
+          ),
+          _TabItem(
+            icon: Icons.shopping_basket_rounded,
+            label: 'Store',
+            isSelected: false,
+            onTap: () => ShopScreen.show(context),
+          ),
+        ],
       ),
     );
   }
 }
 
-class _NavItem extends StatelessWidget {
+class _ResourcePill extends StatelessWidget {
+  final Widget? icon;
+  final String? imagePath;
+  final Color badgeColor;
+  final String label;
+  final bool showAdd;
+  final VoidCallback? onAdd;
+
+  const _ResourcePill({
+    this.icon,
+    this.imagePath,
+    required this.badgeColor,
+    required this.label,
+    this.showAdd = false,
+    this.onAdd,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+      decoration: BoxDecoration(
+        color: const Color(0xFF263238).withValues(alpha: 0.8),
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: Colors.white24, width: 1.5),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          if (imagePath != null)
+            Image.asset(imagePath!, width: 20, height: 20)
+          else if (icon != null)
+            icon!,
+          const SizedBox(width: 6),
+          Text(
+            label,
+            style: GoogleFonts.fredoka(
+              fontSize: 13,
+              fontWeight: FontWeight.bold,
+              color: Colors.white,
+            ),
+          ),
+          if (showAdd) ...[
+            const SizedBox(width: 6),
+            GestureDetector(
+              onTap: onAdd,
+              child: Container(
+                padding: const EdgeInsets.all(2),
+                decoration: const BoxDecoration(
+                  color: Color(0xFF8CE62C),
+                  shape: BoxShape.circle,
+                ),
+                child: const Icon(Icons.add, color: Colors.white, size: 14),
+              ),
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+}
+
+class _TabItem extends StatelessWidget {
   final IconData icon;
   final String label;
-  final bool isActive;
+  final bool isSelected;
   final VoidCallback onTap;
 
-  const _NavItem({
+  const _TabItem({
     required this.icon,
     required this.label,
-    required this.isActive,
+    required this.isSelected,
     required this.onTap,
   });
 
@@ -455,38 +404,34 @@ class _NavItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: onTap,
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Icon(
-            icon,
-            color: isActive ? AppColors.navActive : AppColors.navInactive,
-            size: 26,
-          ),
-          const SizedBox(height: 2),
-          Text(
-            label,
-            style: isActive ? AppTextStyles.navLabelActive : AppTextStyles.navLabel,
-          ),
-        ],
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 6),
+        decoration: isSelected
+            ? BoxDecoration(
+                color: const Color(0xFFAB47BC).withValues(alpha: 0.15),
+                borderRadius: BorderRadius.circular(20),
+              )
+            : null,
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(
+              icon,
+              color: isSelected ? const Color(0xFFAB47BC) : const Color(0xFF90A4AE),
+              size: 24,
+            ),
+            const SizedBox(height: 2),
+            Text(
+              label,
+              style: GoogleFonts.fredoka(
+                fontSize: 12,
+                fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
+                color: isSelected ? const Color(0xFFAB47BC) : const Color(0xFF90A4AE),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
-}
-
-class _CloudPainter extends CustomPainter {
-  const _CloudPainter();
-
-  @override
-  void paint(Canvas canvas, Size size) {
-    final paint = Paint()..color = Colors.white.withValues(alpha: 0.45);
-    canvas.drawCircle(Offset(size.width * 0.3, size.height * 0.6), size.height * 0.42, paint);
-    canvas.drawCircle(Offset(size.width * 0.5, size.height * 0.42), size.height * 0.5, paint);
-    canvas.drawCircle(Offset(size.width * 0.72, size.height * 0.6), size.height * 0.36, paint);
-    canvas.drawRect(
-        Rect.fromLTRB(size.width * 0.1, size.height * 0.6, size.width * 0.9, size.height), paint);
-  }
-
-  @override
-  bool shouldRepaint(_) => false;
 }

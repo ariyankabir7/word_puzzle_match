@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animate/flutter_animate.dart';
-import '../../../core/constants/app_colors.dart';
-import '../../../core/constants/app_text_styles.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class PowerUpBar extends StatelessWidget {
   final int hintsRemaining;
@@ -29,21 +27,21 @@ class PowerUpBar extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
         _PowerUpButton(
-          icon: '💡',
+          icon: Icons.lightbulb_rounded,
           label: 'Hint',
           count: hintsRemaining,
           isDisabled: hintsRemaining <= 0,
           onTap: hintsRemaining > 0 ? onHint : null,
         ),
         _PowerUpButton(
-          icon: '🔄',
+          icon: Icons.shuffle_rounded,
           label: 'Shuffle',
           count: shufflesRemaining,
           isDisabled: shufflesRemaining <= 0,
           onTap: shufflesRemaining > 0 ? onShuffle : null,
         ),
         _PowerUpButton(
-          icon: '❄️',
+          icon: Icons.ac_unit_rounded,
           label: 'Freeze',
           count: freezesRemaining,
           isDisabled: freezesRemaining <= 0 || isFrozen,
@@ -56,7 +54,7 @@ class PowerUpBar extends StatelessWidget {
 }
 
 class _PowerUpButton extends StatelessWidget {
-  final String icon;
+  final IconData icon;
   final String label;
   final int count;
   final bool isDisabled;
@@ -74,7 +72,7 @@ class _PowerUpButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final opacity = isDisabled ? 0.45 : 1.0;
+    final opacity = isDisabled ? 0.5 : 1.0;
 
     return GestureDetector(
       onTap: onTap,
@@ -87,52 +85,62 @@ class _PowerUpButton extends StatelessWidget {
               clipBehavior: Clip.none,
               children: [
                 Container(
-                  width: 60,
-                  height: 60,
+                  width: 64,
+                  height: 64,
                   decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                      begin: Alignment.topCenter,
-                      end: Alignment.bottomCenter,
-                      colors: isActive
-                          ? [AppColors.skyBlue, AppColors.skyBlueDark]
-                          : [Colors.white, const Color(0xFFF0F4FF)],
-                    ),
                     shape: BoxShape.circle,
-                    border: Border.all(
-                      color: isActive ? AppColors.skyBlue : const Color(0xFFDDE0EE),
-                      width: 2.5,
-                    ),
-                    boxShadow: [
+                    boxShadow: const [
                       BoxShadow(
-                        color: (isActive ? AppColors.skyBlue : AppColors.textLight)
-                            .withValues(alpha: 0.3),
-                        offset: const Offset(0, 4),
+                        color: Color(0xFF0D47A1),
+                        offset: Offset(0, 4),
                         blurRadius: 0,
+                      ),
+                      BoxShadow(
+                        color: Color(0x33000000),
+                        offset: Offset(0, 5),
+                        blurRadius: 6,
                       ),
                     ],
                   ),
-                  child: Center(
-                    child: Text(
-                      icon,
-                      style: const TextStyle(fontSize: 26),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      gradient: const LinearGradient(
+                        begin: Alignment.topCenter,
+                        end: Alignment.bottomCenter,
+                        colors: [Color(0xFF4FC3F7), Color(0xFF0288D1)],
+                      ),
+                      border: Border.all(color: Colors.white, width: 2.5),
+                    ),
+                    child: Center(
+                      child: Icon(
+                        icon,
+                        color: Colors.white,
+                        size: 32,
+                      ),
                     ),
                   ),
                 ),
+                // Badge Pill
                 Positioned(
-                  right: -2,
+                  right: -4,
                   bottom: -2,
                   child: Container(
-                    width: 22,
-                    height: 22,
+                    padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
                     decoration: BoxDecoration(
-                      color: AppColors.softPurple,
-                      shape: BoxShape.circle,
-                      border: Border.all(color: Colors.white, width: 2),
+                      color: const Color(0xFFFF7043),
+                      borderRadius: BorderRadius.circular(10),
+                      border: Border.all(color: Colors.white, width: 1.5),
+                      boxShadow: const [
+                        BoxShadow(color: Colors.black26, blurRadius: 2, offset: Offset(0, 1)),
+                      ],
                     ),
-                    child: Center(
-                      child: Text(
-                        'x$count',
-                        style: AppTextStyles.powerUpCount.copyWith(fontSize: 10),
+                    child: Text(
+                      'x$count',
+                      style: GoogleFonts.fredoka(
+                        fontSize: 11,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
                       ),
                     ),
                   ),
@@ -142,18 +150,18 @@ class _PowerUpButton extends StatelessWidget {
             const SizedBox(height: 4),
             Text(
               label,
-              style: AppTextStyles.bodySmall.copyWith(fontSize: 12),
+              style: GoogleFonts.fredoka(
+                fontSize: 12,
+                fontWeight: FontWeight.bold,
+                color: Colors.white,
+                shadows: const [
+                  Shadow(color: Colors.black38, offset: Offset(0, 1), blurRadius: 2),
+                ],
+              ),
             ),
           ],
         ),
       ),
-    )
-        .animate(target: isActive ? 1 : 0)
-        .scale(
-          begin: const Offset(1, 1),
-          end: const Offset(1.05, 1.05),
-          duration: 600.ms,
-          curve: Curves.easeInOut,
-        );
+    );
   }
 }
