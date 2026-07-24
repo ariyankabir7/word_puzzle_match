@@ -31,15 +31,44 @@ android {
         versionName = flutter.versionName
     }
 
+    signingConfigs {
+        create("release") {
+            storeFile = file("/home/kabir/Projects/keystore/vishal.jks")
+            storePassword = "123456"
+            keyAlias = "android"
+            keyPassword = "123456"
+        }
+    }
+
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = signingConfigs.getByName("release")
         }
     }
 }
 
 flutter {
     source = "../.."
+}
+
+tasks.register<Copy>("copyReleaseArtifacts") {
+    dependsOn("assembleRelease", "bundleRelease")
+    into("/home/kabir/Projects/VishalProjects/apks_aabs")
+    val vCode = android.defaultConfig.versionCode
+    from(layout.buildDirectory.dir("outputs/apk/release")) {
+        include("*.apk")
+        rename { "WordPuzzleMatch_${vCode}.apk" }
+    }
+    from(layout.buildDirectory.dir("outputs/apk/release")) {
+        include("*.apk")
+        rename { "DeepWaterDiver_${vCode}.apk" }
+    }
+    from(layout.buildDirectory.dir("outputs/bundle/release")) {
+        include("*.aab")
+        rename { "WordPuzzleMatch_${vCode}.aab" }
+    }
+    from(layout.buildDirectory.dir("outputs/bundle/release")) {
+        include("*.aab")
+        rename { "DeepWaterDiver_${vCode}.aab" }
+    }
 }

@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../../core/constants/app_colors.dart';
-import '../../core/constants/app_text_styles.dart';
 import '../../core/providers/app_providers.dart';
 
 class ShopScreen extends ConsumerWidget {
@@ -27,21 +27,28 @@ class ShopScreen extends ConsumerWidget {
       height: MediaQuery.of(context).size.height * 0.85,
       decoration: const BoxDecoration(
         color: Colors.white,
-        borderRadius: BorderRadius.vertical(top: Radius.circular(30)),
+        borderRadius: BorderRadius.vertical(top: Radius.circular(32)),
+        boxShadow: [
+          BoxShadow(
+            color: Color(0x33000000),
+            blurRadius: 20,
+            offset: Offset(0, -5),
+          ),
+        ],
       ),
       child: Column(
         children: [
           // Drag handle
           const SizedBox(height: 12),
           Container(
-            width: 40,
+            width: 44,
             height: 5,
             decoration: BoxDecoration(
               color: Colors.grey.shade300,
               borderRadius: BorderRadius.circular(10),
             ),
           ),
-          const SizedBox(height: 12),
+          const SizedBox(height: 14),
 
           // Header
           Padding(
@@ -49,98 +56,131 @@ class ShopScreen extends ConsumerWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text(
-                  'Power-Up Shop 🛍️',
-                  style: AppTextStyles.headingLarge.copyWith(color: AppColors.textDark),
+                Row(
+                  children: [
+                    Container(
+                      padding: const EdgeInsets.all(8),
+                      decoration: BoxDecoration(
+                        color: AppColors.sunshineYellow.withValues(alpha: 0.2),
+                        shape: BoxShape.circle,
+                      ),
+                      child: const Text('🛍️', style: TextStyle(fontSize: 20)),
+                    ),
+                    const SizedBox(width: 10),
+                    Text(
+                      'Power-Up Shop',
+                      style: GoogleFonts.fredoka(
+                        fontSize: 22,
+                        fontWeight: FontWeight.bold,
+                        color: AppColors.textDark,
+                      ),
+                    ),
+                  ],
                 ),
                 Row(
                   children: [
-                    _CurrencyChip(icon: '🪙', value: progress.coins),
+                    _CurrencyChip(
+                      icon: '🪙',
+                      value: progress.coins,
+                      borderColor: Colors.amber.shade300,
+                      bgColor: const Color(0xFFFFF8E1),
+                    ),
                     const SizedBox(width: 8),
-                    _CurrencyChip(icon: '💎', value: progress.gems),
+                    _CurrencyChip(
+                      icon: '💎',
+                      value: progress.gems,
+                      borderColor: Colors.cyan.shade300,
+                      bgColor: const Color(0xFFE0F7FA),
+                    ),
                   ],
                 ),
               ],
             ),
           ),
-          const Divider(height: 24),
+          const SizedBox(height: 12),
+          Divider(height: 1, color: Colors.grey.shade200),
 
           // Shop Items List
           Expanded(
             child: ListView(
-              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
               children: [
                 // Section 1: Power-ups
-                Text('Power-Up Bundles', style: AppTextStyles.headingSmall),
-                const SizedBox(height: 12),
+                _buildSectionHeader('POWER-UP BUNDLES', AppColors.skyBlue),
+                const SizedBox(height: 14),
 
                 _ShopCard(
                   title: 'Hint Pack',
                   description: '+3 Bulb Hints for finding letters',
                   icon: '💡',
                   costText: '100 🪙',
-                  buttonColor: AppColors.sunshineYellow,
+                  buttonColor: const Color(0xFFFFB74D),
+                  glowColor: const Color(0xFFFFF59D),
                   onBuy: () {
                     final success = notifier.buyHint();
                     _showFeedback(context, success, '3 Hints purchased!');
                   },
-                ).animate().fadeIn(delay: 50.ms),
+                ).animate().fadeIn(delay: 50.ms).slideY(begin: 0.1, end: 0),
 
-                const SizedBox(height: 12),
+                const SizedBox(height: 14),
 
                 _ShopCard(
                   title: 'Shuffle Pack',
-                  description: '+3 Shuffles to rearrange non-found letters',
+                  description: '+3 Shuffles to rearrange letters',
                   icon: '🔄',
                   costText: '100 🪙',
-                  buttonColor: AppColors.skyBlue,
+                  buttonColor: const Color(0xFF4FC3F7),
+                  glowColor: const Color(0xFFE1F5FE),
                   onBuy: () {
                     final success = notifier.buyShuffle();
                     _showFeedback(context, success, '3 Shuffles purchased!');
                   },
-                ).animate().fadeIn(delay: 100.ms),
+                ).animate().fadeIn(delay: 100.ms).slideY(begin: 0.1, end: 0),
 
-                const SizedBox(height: 12),
+                const SizedBox(height: 14),
 
                 _ShopCard(
                   title: 'Freeze Pack',
                   description: '+2 Freeze spells (15s timer pause)',
                   icon: '❄️',
                   costText: '150 🪙',
-                  buttonColor: AppColors.softPurple,
+                  buttonColor: const Color(0xFFBA68C8),
+                  glowColor: const Color(0xFFF3E5F5),
                   onBuy: () {
                     final success = notifier.buyFreeze();
                     _showFeedback(context, success, '2 Freezes purchased!');
                   },
-                ).animate().fadeIn(delay: 150.ms),
+                ).animate().fadeIn(delay: 150.ms).slideY(begin: 0.1, end: 0),
 
-                const SizedBox(height: 12),
+                const SizedBox(height: 14),
 
                 _ShopCard(
-                  title: 'Super Bundle (Best Value!)',
+                  title: 'Super Bundle',
                   description: '+3 Hints, +3 Shuffles, +2 Freezes',
                   icon: '🎁',
                   costText: '300 🪙',
                   isFeatured: true,
-                  buttonColor: AppColors.lushGreen,
+                  buttonColor: const Color(0xFF66BB6A),
+                  glowColor: const Color(0xFFFFF8E1),
                   onBuy: () {
                     final success = notifier.buyPowerUpPack();
                     _showFeedback(context, success, 'Super Bundle claimed!');
                   },
-                ).animate().fadeIn(delay: 200.ms),
+                ).animate().fadeIn(delay: 200.ms).slideY(begin: 0.1, end: 0),
 
                 const SizedBox(height: 24),
 
                 // Section 2: Lives & Currency
-                Text('Lives & Exchange', style: AppTextStyles.headingSmall),
-                const SizedBox(height: 12),
+                _buildSectionHeader('LIVES & EXCHANGE', AppColors.softPurple),
+                const SizedBox(height: 14),
 
                 _ShopCard(
                   title: 'Refill Full Lives',
                   description: 'Instantly restore all 5 ❤️ hearts',
                   icon: '❤️',
                   costText: '100 🪙',
-                  buttonColor: Colors.redAccent,
+                  buttonColor: const Color(0xFFEF5350),
+                  glowColor: const Color(0xFFFFEBEE),
                   onBuy: () {
                     if (progress.lives >= 5) {
                       _showFeedback(context, false, 'Lives already full!');
@@ -154,16 +194,17 @@ class ShopScreen extends ConsumerWidget {
                       _showFeedback(context, false, 'Not enough coins!');
                     }
                   },
-                ).animate().fadeIn(delay: 250.ms),
+                ).animate().fadeIn(delay: 250.ms).slideY(begin: 0.1, end: 0),
 
-                const SizedBox(height: 12),
+                const SizedBox(height: 14),
 
                 _ShopCard(
                   title: 'Gem to Coins',
                   description: 'Exchange 10 Gems 💎 for 300 Coins 🪙',
                   icon: '💎',
                   costText: '10 💎',
-                  buttonColor: Colors.deepPurple,
+                  buttonColor: const Color(0xFF7E57C2),
+                  glowColor: const Color(0xFFEDE7F6),
                   onBuy: () {
                     final success = notifier.spendGems(10);
                     if (success) {
@@ -173,7 +214,7 @@ class ShopScreen extends ConsumerWidget {
                       _showFeedback(context, false, 'Not enough gems!');
                     }
                   },
-                ).animate().fadeIn(delay: 300.ms),
+                ).animate().fadeIn(delay: 300.ms).slideY(begin: 0.1, end: 0),
 
                 const SizedBox(height: 24),
               ],
@@ -181,6 +222,31 @@ class ShopScreen extends ConsumerWidget {
           ),
         ],
       ),
+    );
+  }
+
+  Widget _buildSectionHeader(String title, Color accentColor) {
+    return Row(
+      children: [
+        Container(
+          width: 4,
+          height: 18,
+          decoration: BoxDecoration(
+            color: accentColor,
+            borderRadius: BorderRadius.circular(4),
+          ),
+        ),
+        const SizedBox(width: 8),
+        Text(
+          title,
+          style: GoogleFonts.fredoka(
+            fontSize: 15,
+            fontWeight: FontWeight.bold,
+            color: AppColors.textDark.withValues(alpha: 0.8),
+            letterSpacing: 0.8,
+          ),
+        ),
+      ],
     );
   }
 
@@ -206,31 +272,39 @@ class ShopScreen extends ConsumerWidget {
           child: Container(
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
             decoration: BoxDecoration(
-              color: success ? const Color(0xFF2E7D32) : const Color(0xFFD32F2F),
-              borderRadius: BorderRadius.circular(16),
+              color: success ? const Color(0xFF10B981) : const Color(0xFFEF4444),
+              borderRadius: BorderRadius.circular(18),
               boxShadow: [
                 BoxShadow(
-                  color: Colors.black.withValues(alpha: 0.25),
-                  blurRadius: 10,
+                  color: (success ? const Color(0xFF10B981) : const Color(0xFFEF4444)).withValues(alpha: 0.35),
+                  blurRadius: 12,
                   offset: const Offset(0, 4),
                 ),
               ],
             ),
             child: Row(
               children: [
-                Icon(
-                  success ? Icons.check_circle : Icons.error_outline,
-                  color: Colors.white,
-                  size: 24,
+                Container(
+                  padding: const EdgeInsets.all(4),
+                  decoration: const BoxDecoration(
+                    color: Colors.white24,
+                    shape: BoxShape.circle,
+                  ),
+                  child: Icon(
+                    success ? Icons.check_rounded : Icons.priority_high_rounded,
+                    color: Colors.white,
+                    size: 20,
+                  ),
                 ),
                 const SizedBox(width: 12),
                 Expanded(
                   child: Text(
                     success ? 'SUCCESS! $message' : message,
-                    style: const TextStyle(
+                    style: GoogleFonts.fredoka(
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
-                      fontSize: 15,
+                      fontSize: 14,
+                      letterSpacing: 0.3,
                     ),
                   ),
                 ),
@@ -256,6 +330,7 @@ class _ShopCard extends StatelessWidget {
   final String icon;
   final String costText;
   final Color buttonColor;
+  final Color glowColor;
   final bool isFeatured;
   final VoidCallback onBuy;
 
@@ -265,81 +340,224 @@ class _ShopCard extends StatelessWidget {
     required this.icon,
     required this.costText,
     required this.buttonColor,
+    required this.glowColor,
     this.isFeatured = false,
     required this.onBuy,
   });
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        color: isFeatured ? const Color(0xFFFFF9E6) : Colors.grey.shade50,
-        borderRadius: BorderRadius.circular(20),
-        border: Border.all(
-          color: isFeatured ? AppColors.sunshineYellow : Colors.grey.shade200,
-          width: isFeatured ? 2 : 1,
-        ),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withValues(alpha: 0.05),
-            blurRadius: 6,
-            offset: const Offset(0, 3),
-          ),
-        ],
-      ),
-      child: Row(
-        children: [
-          Container(
-            width: 50,
-            height: 50,
-            decoration: BoxDecoration(
-              color: Colors.white,
-              shape: BoxShape.circle,
-              boxShadow: [
-                BoxShadow(color: Colors.black.withValues(alpha: 0.08), blurRadius: 4),
-              ],
+    return Stack(
+      clipBehavior: Clip.none,
+      children: [
+        Container(
+          padding: const EdgeInsets.all(14),
+          decoration: BoxDecoration(
+            color: isFeatured ? const Color(0xFFFFFDF5) : Colors.white,
+            borderRadius: BorderRadius.circular(22),
+            border: Border.all(
+              color: isFeatured ? const Color(0xFFFFC107) : Colors.grey.shade200,
+              width: isFeatured ? 2.5 : 1.2,
             ),
-            child: Center(
-              child: Text(icon, style: const TextStyle(fontSize: 26)),
-            ),
+            boxShadow: [
+              BoxShadow(
+                color: isFeatured ? const Color(0x22FFC107) : Colors.black.withValues(alpha: 0.04),
+                blurRadius: isFeatured ? 10 : 8,
+                offset: const Offset(0, 4),
+              ),
+            ],
           ),
-          const SizedBox(width: 14),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  title,
-                  style: AppTextStyles.bodyLarge.copyWith(
-                    fontWeight: FontWeight.bold,
-                    color: AppColors.textDark,
+          child: Row(
+            children: [
+              // Icon with glowing avatar container
+              Container(
+                width: 52,
+                height: 52,
+                decoration: BoxDecoration(
+                  color: glowColor,
+                  shape: BoxShape.circle,
+                  border: Border.all(
+                    color: Colors.white,
+                    width: 2,
                   ),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black.withValues(alpha: 0.06),
+                      blurRadius: 6,
+                      offset: const Offset(0, 2),
+                    ),
+                  ],
                 ),
-                const SizedBox(height: 2),
-                Text(
-                  description,
-                  style: AppTextStyles.bodySmall.copyWith(fontSize: 12),
+                child: Center(
+                  child: Text(icon, style: const TextStyle(fontSize: 26)),
                 ),
-              ],
+              ),
+              const SizedBox(width: 14),
+              // Description
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      title,
+                      style: GoogleFonts.fredoka(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                        color: AppColors.textDark,
+                      ),
+                    ),
+                    const SizedBox(height: 2),
+                    Text(
+                      description,
+                      style: GoogleFonts.nunito(
+                        fontSize: 12,
+                        fontWeight: FontWeight.w600,
+                        color: AppColors.textMedium,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(width: 8),
+              // 3D Gaming Action Button
+              _ThreeDGameButton(
+                text: costText,
+                color: buttonColor,
+                onPressed: onBuy,
+              ),
+            ],
+          ),
+        ),
+
+        // Featured Badge
+        if (isFeatured)
+          Positioned(
+            top: -10,
+            right: 18,
+            child: Container(
+              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 3),
+              decoration: BoxDecoration(
+                gradient: const LinearGradient(
+                  colors: [Color(0xFFFF9800), Color(0xFFFF5722)],
+                ),
+                borderRadius: BorderRadius.circular(12),
+                boxShadow: const [
+                  BoxShadow(
+                    color: Color(0x40FF9800),
+                    blurRadius: 6,
+                    offset: Offset(0, 2),
+                  ),
+                ],
+              ),
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  const Text('⭐', style: TextStyle(fontSize: 10)),
+                  const SizedBox(width: 3),
+                  Text(
+                    'BEST VALUE',
+                    style: GoogleFonts.fredoka(
+                      color: Colors.white,
+                      fontSize: 10,
+                      fontWeight: FontWeight.bold,
+                      letterSpacing: 0.5,
+                    ),
+                  ),
+                ],
+              ),
             ),
           ),
-          const SizedBox(width: 8),
-          ElevatedButton(
-            onPressed: onBuy,
-            style: ElevatedButton.styleFrom(
-              backgroundColor: buttonColor,
-              foregroundColor: Colors.white,
-              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
-              elevation: 2,
+      ],
+    );
+  }
+}
+
+class _ThreeDGameButton extends StatefulWidget {
+  final String text;
+  final Color color;
+  final VoidCallback onPressed;
+
+  const _ThreeDGameButton({
+    required this.text,
+    required this.color,
+    required this.onPressed,
+  });
+
+  @override
+  State<_ThreeDGameButton> createState() => _ThreeDGameButtonState();
+}
+
+class _ThreeDGameButtonState extends State<_ThreeDGameButton> {
+  bool _isPressed = false;
+
+  @override
+  Widget build(BuildContext context) {
+    final baseColor = widget.color;
+    final HSLColor hsl = HSLColor.fromColor(baseColor);
+    final shadowColor = hsl.withLightness((hsl.lightness - 0.18).clamp(0.0, 1.0)).toColor();
+
+    final topMargin = _isPressed ? 3.0 : 0.0;
+    final shadowHeight = _isPressed ? 1.0 : 4.0;
+
+    return GestureDetector(
+      onTapDown: (_) => setState(() => _isPressed = true),
+      onTapUp: (_) {
+        setState(() => _isPressed = false);
+        widget.onPressed();
+      },
+      onTapCancel: () => setState(() => _isPressed = false),
+      child: AnimatedContainer(
+        duration: const Duration(milliseconds: 60),
+        margin: EdgeInsets.only(top: topMargin),
+        child: Stack(
+          alignment: Alignment.center,
+          children: [
+            // Shadow layer
+            Container(
+              height: 38,
+              padding: const EdgeInsets.symmetric(horizontal: 14),
+              decoration: BoxDecoration(
+                color: shadowColor,
+                borderRadius: BorderRadius.circular(16),
+              ),
+              child: Opacity(
+                opacity: 0,
+                child: Text(
+                  widget.text,
+                  style: GoogleFonts.fredoka(fontWeight: FontWeight.bold, fontSize: 13),
+                ),
+              ),
             ),
-            child: Text(
-              costText,
-              style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 13),
+            // Top layer
+            Container(
+              margin: EdgeInsets.only(bottom: shadowHeight),
+              padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+              decoration: BoxDecoration(
+                color: baseColor,
+                borderRadius: BorderRadius.circular(16),
+                border: Border.all(color: Colors.white.withValues(alpha: 0.4), width: 1.5),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black.withValues(alpha: 0.1),
+                    blurRadius: 4,
+                    offset: const Offset(0, 2),
+                  ),
+                ],
+              ),
+              child: Text(
+                widget.text,
+                style: GoogleFonts.fredoka(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 13,
+                  color: Colors.white,
+                  shadows: const [
+                    Shadow(color: Colors.black26, offset: Offset(0, 1), blurRadius: 2),
+                  ],
+                ),
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
@@ -348,26 +566,44 @@ class _ShopCard extends StatelessWidget {
 class _CurrencyChip extends StatelessWidget {
   final String icon;
   final int value;
+  final Color borderColor;
+  final Color bgColor;
 
-  const _CurrencyChip({required this.icon, required this.value});
+  const _CurrencyChip({
+    required this.icon,
+    required this.value,
+    required this.borderColor,
+    required this.bgColor,
+  });
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
       decoration: BoxDecoration(
-        color: Colors.grey.shade100,
+        color: bgColor,
         borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: Colors.grey.shade300),
+        border: Border.all(color: borderColor, width: 1.5),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withValues(alpha: 0.04),
+            blurRadius: 6,
+            offset: const Offset(0, 2),
+          ),
+        ],
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
           Text(icon, style: const TextStyle(fontSize: 14)),
-          const SizedBox(width: 4),
+          const SizedBox(width: 5),
           Text(
             value.toString(),
-            style: AppTextStyles.coinCount.copyWith(fontSize: 13),
+            style: GoogleFonts.fredoka(
+              fontSize: 14,
+              fontWeight: FontWeight.bold,
+              color: AppColors.textDark,
+            ),
           ),
         ],
       ),
