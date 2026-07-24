@@ -1,0 +1,5584 @@
+{
+  "world": "Mystic Forest",
+  "worldNumber": 3,
+  "levels": [
+    {
+      "id": 101,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "WORD",
+        "MUD",
+        "FIRE",
+        "PLUM",
+        "MINE",
+        "WICK"
+      ],
+      "grid": [
+        [
+          "D",
+          "B",
+          "U",
+          "V",
+          "J",
+          "Q",
+          "M"
+        ],
+        [
+          "S",
+          "E",
+          "U",
+          "D",
+          "P",
+          "S",
+          "I"
+        ],
+        [
+          "P",
+          "F",
+          "J",
+          "O",
+          "X",
+          "B",
+          "N"
+        ],
+        [
+          "L",
+          "I",
+          "W",
+          "O",
+          "R",
+          "D",
+          "E"
+        ],
+        [
+          "U",
+          "R",
+          "I",
+          "M",
+          "U",
+          "D",
+          "N"
+        ],
+        [
+          "M",
+          "E",
+          "C",
+          "I",
+          "W",
+          "K",
+          "A"
+        ],
+        [
+          "M",
+          "Q",
+          "K",
+          "Z",
+          "F",
+          "G",
+          "C"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "WORD",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "MUD",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "FIRE",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "PLUM",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "MINE",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "WICK",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 102,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "MOON",
+        "CAKE",
+        "LEMON",
+        "EEL",
+        "BREAD",
+        "APE"
+      ],
+      "grid": [
+        [
+          "X",
+          "M",
+          "C",
+          "D",
+          "K",
+          "N",
+          "W"
+        ],
+        [
+          "S",
+          "T",
+          "G",
+          "N",
+          "C",
+          "D",
+          "B"
+        ],
+        [
+          "M",
+          "F",
+          "O",
+          "B",
+          "A",
+          "I",
+          "S"
+        ],
+        [
+          "N",
+          "O",
+          "E",
+          "E",
+          "K",
+          "A",
+          "F"
+        ],
+        [
+          "M",
+          "Z",
+          "R",
+          "E",
+          "E",
+          "P",
+          "S"
+        ],
+        [
+          "N",
+          "B",
+          "V",
+          "Q",
+          "L",
+          "E",
+          "J"
+        ],
+        [
+          "M",
+          "M",
+          "L",
+          "E",
+          "M",
+          "O",
+          "N"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MOON",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CAKE",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "LEMON",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "EEL",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BREAD",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "APE",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 103,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "ROSE",
+        "MOTH",
+        "SUN",
+        "MOON"
+      ],
+      "grid": [
+        [
+          "L",
+          "M",
+          "W",
+          "H",
+          "S",
+          "C",
+          "L"
+        ],
+        [
+          "T",
+          "O",
+          "T",
+          "B",
+          "E",
+          "L",
+          "W"
+        ],
+        [
+          "C",
+          "O",
+          "P",
+          "Z",
+          "C",
+          "N",
+          "E"
+        ],
+        [
+          "M",
+          "N",
+          "C",
+          "S",
+          "U",
+          "S",
+          "J"
+        ],
+        [
+          "R",
+          "S",
+          "K",
+          "S",
+          "O",
+          "L",
+          "H"
+        ],
+        [
+          "L",
+          "L",
+          "B",
+          "R",
+          "V",
+          "T",
+          "Y"
+        ],
+        [
+          "L",
+          "M",
+          "B",
+          "Q",
+          "W",
+          "R",
+          "J"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "ROSE",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "MOTH",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SUN",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "MOON",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 104,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "GOLD",
+        "ROPE",
+        "CART",
+        "CANDY",
+        "NET"
+      ],
+      "grid": [
+        [
+          "Q",
+          "R",
+          "Y",
+          "Z",
+          "G",
+          "N",
+          "T"
+        ],
+        [
+          "U",
+          "C",
+          "A",
+          "N",
+          "D",
+          "Y",
+          "A"
+        ],
+        [
+          "J",
+          "C",
+          "O",
+          "J",
+          "R",
+          "A",
+          "E"
+        ],
+        [
+          "J",
+          "A",
+          "N",
+          "L",
+          "K",
+          "P",
+          "B"
+        ],
+        [
+          "Z",
+          "R",
+          "N",
+          "G",
+          "O",
+          "L",
+          "D"
+        ],
+        [
+          "K",
+          "T",
+          "E",
+          "R",
+          "O",
+          "R",
+          "O"
+        ],
+        [
+          "Y",
+          "U",
+          "T",
+          "A",
+          "K",
+          "B",
+          "D"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "GOLD",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "ROPE",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CART",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "CANDY",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "NET",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 105,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "GIFT",
+        "COAT",
+        "BANANA",
+        "JUG"
+      ],
+      "grid": [
+        [
+          "B",
+          "B",
+          "A",
+          "N",
+          "A",
+          "N",
+          "A"
+        ],
+        [
+          "C",
+          "B",
+          "S",
+          "G",
+          "E",
+          "L",
+          "F"
+        ],
+        [
+          "V",
+          "B",
+          "J",
+          "C",
+          "I",
+          "N",
+          "Z"
+        ],
+        [
+          "G",
+          "X",
+          "U",
+          "O",
+          "Y",
+          "F",
+          "O"
+        ],
+        [
+          "J",
+          "Q",
+          "G",
+          "A",
+          "M",
+          "N",
+          "T"
+        ],
+        [
+          "V",
+          "Y",
+          "E",
+          "T",
+          "K",
+          "A",
+          "S"
+        ],
+        [
+          "H",
+          "A",
+          "Q",
+          "X",
+          "O",
+          "D",
+          "Q"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "GIFT",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "COAT",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "BANANA",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "JUG",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 106,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "DEER",
+        "FOX",
+        "CORD",
+        "IRON"
+      ],
+      "grid": [
+        [
+          "V",
+          "J",
+          "P",
+          "P",
+          "E",
+          "T",
+          "C"
+        ],
+        [
+          "R",
+          "O",
+          "C",
+          "P",
+          "Y",
+          "I",
+          "P"
+        ],
+        [
+          "C",
+          "O",
+          "R",
+          "D",
+          "W",
+          "R",
+          "K"
+        ],
+        [
+          "E",
+          "W",
+          "X",
+          "D",
+          "A",
+          "O",
+          "Q"
+        ],
+        [
+          "H",
+          "O",
+          "L",
+          "H",
+          "E",
+          "N",
+          "O"
+        ],
+        [
+          "F",
+          "G",
+          "V",
+          "T",
+          "B",
+          "E",
+          "P"
+        ],
+        [
+          "U",
+          "G",
+          "H",
+          "T",
+          "Y",
+          "N",
+          "R"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "DEER",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "FOX",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CORD",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "IRON",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 107,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "JADE",
+        "VALE",
+        "HILL",
+        "WATER",
+        "COIN"
+      ],
+      "grid": [
+        [
+          "Z",
+          "P",
+          "C",
+          "O",
+          "I",
+          "N",
+          "U"
+        ],
+        [
+          "W",
+          "A",
+          "T",
+          "E",
+          "R",
+          "K",
+          "K"
+        ],
+        [
+          "V",
+          "T",
+          "P",
+          "H",
+          "I",
+          "L",
+          "L"
+        ],
+        [
+          "N",
+          "A",
+          "J",
+          "A",
+          "D",
+          "E",
+          "T"
+        ],
+        [
+          "W",
+          "H",
+          "L",
+          "Q",
+          "J",
+          "C",
+          "W"
+        ],
+        [
+          "W",
+          "Q",
+          "P",
+          "E",
+          "Z",
+          "X",
+          "P"
+        ],
+        [
+          "F",
+          "P",
+          "R",
+          "T",
+          "H",
+          "Y",
+          "G"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "JADE",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "VALE",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "HILL",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "WATER",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "COIN",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 108,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "BEE",
+        "FORK",
+        "RULE",
+        "MILL",
+        "DISH"
+      ],
+      "grid": [
+        [
+          "K",
+          "T",
+          "I",
+          "D",
+          "D",
+          "Q",
+          "N"
+        ],
+        [
+          "O",
+          "J",
+          "H",
+          "N",
+          "I",
+          "B",
+          "R"
+        ],
+        [
+          "R",
+          "U",
+          "L",
+          "E",
+          "B",
+          "S",
+          "C"
+        ],
+        [
+          "D",
+          "S",
+          "X",
+          "L",
+          "E",
+          "Y",
+          "H"
+        ],
+        [
+          "W",
+          "X",
+          "L",
+          "I",
+          "E",
+          "U",
+          "G"
+        ],
+        [
+          "F",
+          "I",
+          "F",
+          "O",
+          "R",
+          "K",
+          "N"
+        ],
+        [
+          "M",
+          "U",
+          "J",
+          "L",
+          "S",
+          "Q",
+          "D"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BEE",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "FORK",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "RULE",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "MILL",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "DISH",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 109,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "SHOE",
+        "WAVE",
+        "BOOT",
+        "BANANA",
+        "SAND"
+      ],
+      "grid": [
+        [
+          "P",
+          "P",
+          "H",
+          "I",
+          "B",
+          "T",
+          "Q"
+        ],
+        [
+          "N",
+          "R",
+          "D",
+          "F",
+          "O",
+          "B",
+          "X"
+        ],
+        [
+          "K",
+          "X",
+          "P",
+          "O",
+          "E",
+          "A",
+          "S"
+        ],
+        [
+          "Z",
+          "S",
+          "B",
+          "V",
+          "U",
+          "N",
+          "H"
+        ],
+        [
+          "T",
+          "N",
+          "A",
+          "U",
+          "Q",
+          "A",
+          "O"
+        ],
+        [
+          "E",
+          "W",
+          "Q",
+          "N",
+          "B",
+          "N",
+          "E"
+        ],
+        [
+          "K",
+          "D",
+          "X",
+          "Y",
+          "D",
+          "A",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SHOE",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "WAVE",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BOOT",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BANANA",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "SAND",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 110,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "SHOE",
+        "NEST",
+        "PLAN",
+        "DESERT",
+        "MAGIC",
+        "SKY"
+      ],
+      "grid": [
+        [
+          "S",
+          "C",
+          "P",
+          "S",
+          "K",
+          "Y",
+          "M"
+        ],
+        [
+          "H",
+          "P",
+          "V",
+          "L",
+          "T",
+          "H",
+          "A"
+        ],
+        [
+          "O",
+          "R",
+          "C",
+          "S",
+          "A",
+          "B",
+          "G"
+        ],
+        [
+          "E",
+          "Y",
+          "E",
+          "E",
+          "J",
+          "N",
+          "I"
+        ],
+        [
+          "D",
+          "N",
+          "F",
+          "Q",
+          "I",
+          "D",
+          "C"
+        ],
+        [
+          "D",
+          "E",
+          "S",
+          "E",
+          "R",
+          "T",
+          "S"
+        ],
+        [
+          "U",
+          "N",
+          "A",
+          "W",
+          "H",
+          "W",
+          "P"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SHOE",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "NEST",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "PLAN",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "DESERT",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "MAGIC",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "SKY",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 111,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "LYNX",
+        "SILVER",
+        "WORD",
+        "WORM",
+        "BAT"
+      ],
+      "grid": [
+        [
+          "B",
+          "K",
+          "C",
+          "E",
+          "O",
+          "M",
+          "J"
+        ],
+        [
+          "I",
+          "A",
+          "T",
+          "W",
+          "P",
+          "G",
+          "R"
+        ],
+        [
+          "C",
+          "P",
+          "T",
+          "D",
+          "O",
+          "W",
+          "L"
+        ],
+        [
+          "W",
+          "T",
+          "S",
+          "J",
+          "F",
+          "R",
+          "M"
+        ],
+        [
+          "O",
+          "M",
+          "L",
+          "Y",
+          "N",
+          "X",
+          "D"
+        ],
+        [
+          "R",
+          "S",
+          "I",
+          "L",
+          "V",
+          "E",
+          "R"
+        ],
+        [
+          "M",
+          "H",
+          "A",
+          "K",
+          "T",
+          "W",
+          "M"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "LYNX",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "SILVER",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "WORD",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "WORM",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "BAT",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 112,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "TUB",
+        "NOTE",
+        "PUMP",
+        "MILK",
+        "BALL",
+        "WHALE"
+      ],
+      "grid": [
+        [
+          "L",
+          "Q",
+          "I",
+          "I",
+          "U",
+          "Y",
+          "W"
+        ],
+        [
+          "Y",
+          "B",
+          "A",
+          "L",
+          "L",
+          "S",
+          "V"
+        ],
+        [
+          "M",
+          "W",
+          "T",
+          "U",
+          "B",
+          "Y",
+          "B"
+        ],
+        [
+          "I",
+          "P",
+          "H",
+          "N",
+          "T",
+          "P",
+          "L"
+        ],
+        [
+          "L",
+          "U",
+          "Y",
+          "A",
+          "O",
+          "X",
+          "R"
+        ],
+        [
+          "K",
+          "M",
+          "U",
+          "L",
+          "L",
+          "T",
+          "D"
+        ],
+        [
+          "E",
+          "P",
+          "N",
+          "C",
+          "L",
+          "E",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "TUB",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "NOTE",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "PUMP",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "MILK",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "BALL",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "WHALE",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 113,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "LIGHT",
+        "GEAR",
+        "GLUE",
+        "CHERRY",
+        "RULE",
+        "SONG"
+      ],
+      "grid": [
+        [
+          "G",
+          "V",
+          "B",
+          "T",
+          "F",
+          "Z",
+          "R"
+        ],
+        [
+          "E",
+          "R",
+          "Q",
+          "Z",
+          "T",
+          "G",
+          "S"
+        ],
+        [
+          "A",
+          "X",
+          "U",
+          "H",
+          "N",
+          "L",
+          "O"
+        ],
+        [
+          "R",
+          "V",
+          "G",
+          "L",
+          "W",
+          "U",
+          "N"
+        ],
+        [
+          "M",
+          "I",
+          "Y",
+          "J",
+          "E",
+          "E",
+          "G"
+        ],
+        [
+          "L",
+          "C",
+          "H",
+          "E",
+          "R",
+          "R",
+          "Y"
+        ],
+        [
+          "Y",
+          "G",
+          "X",
+          "G",
+          "M",
+          "X",
+          "V"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "LIGHT",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GEAR",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "GLUE",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "CHERRY",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "RULE",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "SONG",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 114,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "SQUID",
+        "KITE",
+        "SHOE",
+        "RAT"
+      ],
+      "grid": [
+        [
+          "X",
+          "K",
+          "I",
+          "T",
+          "E",
+          "J",
+          "R"
+        ],
+        [
+          "A",
+          "D",
+          "V",
+          "T",
+          "Q",
+          "V",
+          "A"
+        ],
+        [
+          "K",
+          "U",
+          "G",
+          "O",
+          "T",
+          "X",
+          "T"
+        ],
+        [
+          "O",
+          "S",
+          "Q",
+          "U",
+          "I",
+          "D",
+          "P"
+        ],
+        [
+          "D",
+          "N",
+          "S",
+          "H",
+          "O",
+          "E",
+          "Y"
+        ],
+        [
+          "S",
+          "C",
+          "Y",
+          "W",
+          "X",
+          "S",
+          "Q"
+        ],
+        [
+          "Q",
+          "J",
+          "E",
+          "T",
+          "V",
+          "L",
+          "A"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SQUID",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "KITE",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "SHOE",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "RAT",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 115,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "PLAN",
+        "GNU",
+        "GLUE",
+        "MAZE",
+        "CAGE"
+      ],
+      "grid": [
+        [
+          "B",
+          "G",
+          "N",
+          "G",
+          "X",
+          "Y",
+          "W"
+        ],
+        [
+          "J",
+          "N",
+          "T",
+          "L",
+          "T",
+          "P",
+          "U"
+        ],
+        [
+          "C",
+          "U",
+          "Z",
+          "U",
+          "E",
+          "L",
+          "X"
+        ],
+        [
+          "A",
+          "A",
+          "P",
+          "E",
+          "P",
+          "A",
+          "B"
+        ],
+        [
+          "O",
+          "B",
+          "G",
+          "N",
+          "A",
+          "N",
+          "N"
+        ],
+        [
+          "U",
+          "E",
+          "T",
+          "E",
+          "O",
+          "B",
+          "F"
+        ],
+        [
+          "M",
+          "A",
+          "Z",
+          "E",
+          "Z",
+          "U",
+          "U"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PLAN",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "GNU",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "GLUE",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "MAZE",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "CAGE",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 116,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "BEACH",
+        "STORM",
+        "LYNX",
+        "FIRE"
+      ],
+      "grid": [
+        [
+          "E",
+          "P",
+          "Z",
+          "Q",
+          "L",
+          "U",
+          "I"
+        ],
+        [
+          "W",
+          "F",
+          "L",
+          "I",
+          "G",
+          "M",
+          "A"
+        ],
+        [
+          "N",
+          "I",
+          "U",
+          "Y",
+          "R",
+          "L",
+          "G"
+        ],
+        [
+          "I",
+          "R",
+          "M",
+          "O",
+          "N",
+          "R",
+          "H"
+        ],
+        [
+          "V",
+          "E",
+          "T",
+          "V",
+          "E",
+          "X",
+          "T"
+        ],
+        [
+          "E",
+          "S",
+          "B",
+          "E",
+          "A",
+          "C",
+          "H"
+        ],
+        [
+          "A",
+          "N",
+          "A",
+          "Y",
+          "D",
+          "S",
+          "N"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BEACH",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "STORM",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "LYNX",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "FIRE",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 117,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "TEAL",
+        "NET",
+        "BULL",
+        "HONEY",
+        "CUP"
+      ],
+      "grid": [
+        [
+          "G",
+          "Z",
+          "O",
+          "W",
+          "H",
+          "M",
+          "X"
+        ],
+        [
+          "B",
+          "J",
+          "Z",
+          "N",
+          "E",
+          "T",
+          "B"
+        ],
+        [
+          "U",
+          "M",
+          "M",
+          "C",
+          "U",
+          "P",
+          "J"
+        ],
+        [
+          "L",
+          "S",
+          "H",
+          "L",
+          "W",
+          "D",
+          "A"
+        ],
+        [
+          "L",
+          "A",
+          "A",
+          "H",
+          "J",
+          "E",
+          "T"
+        ],
+        [
+          "I",
+          "E",
+          "B",
+          "K",
+          "Y",
+          "E",
+          "M"
+        ],
+        [
+          "T",
+          "R",
+          "H",
+          "O",
+          "N",
+          "E",
+          "Y"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "TEAL",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "NET",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "BULL",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "HONEY",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "CUP",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 118,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "RAT",
+        "SOFA",
+        "ROCK",
+        "STAR"
+      ],
+      "grid": [
+        [
+          "L",
+          "F",
+          "E",
+          "L",
+          "T",
+          "P",
+          "R"
+        ],
+        [
+          "R",
+          "T",
+          "F",
+          "R",
+          "O",
+          "C",
+          "K"
+        ],
+        [
+          "Z",
+          "R",
+          "A",
+          "T",
+          "W",
+          "D",
+          "G"
+        ],
+        [
+          "J",
+          "F",
+          "S",
+          "U",
+          "M",
+          "X",
+          "L"
+        ],
+        [
+          "U",
+          "C",
+          "T",
+          "O",
+          "V",
+          "E",
+          "M"
+        ],
+        [
+          "U",
+          "G",
+          "A",
+          "S",
+          "F",
+          "I",
+          "B"
+        ],
+        [
+          "X",
+          "S",
+          "R",
+          "C",
+          "E",
+          "A",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "RAT",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "SOFA",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "ROCK",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "STAR",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 119,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "DUCK",
+        "PUMP",
+        "FROG",
+        "HORN",
+        "MOTH",
+        "DREAM"
+      ],
+      "grid": [
+        [
+          "H",
+          "M",
+          "O",
+          "T",
+          "H",
+          "Q",
+          "B"
+        ],
+        [
+          "O",
+          "P",
+          "U",
+          "M",
+          "P",
+          "B",
+          "K"
+        ],
+        [
+          "F",
+          "D",
+          "T",
+          "I",
+          "C",
+          "C",
+          "H"
+        ],
+        [
+          "O",
+          "R",
+          "K",
+          "H",
+          "U",
+          "E",
+          "O"
+        ],
+        [
+          "I",
+          "E",
+          "O",
+          "D",
+          "I",
+          "Y",
+          "R"
+        ],
+        [
+          "V",
+          "A",
+          "P",
+          "G",
+          "R",
+          "K",
+          "N"
+        ],
+        [
+          "P",
+          "M",
+          "H",
+          "U",
+          "X",
+          "V",
+          "K"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "DUCK",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "PUMP",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "FROG",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "HORN",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "MOTH",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "DREAM",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 120,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "DRUM",
+        "SLUG",
+        "SEED",
+        "POST"
+      ],
+      "grid": [
+        [
+          "B",
+          "G",
+          "W",
+          "D",
+          "X",
+          "L",
+          "C"
+        ],
+        [
+          "R",
+          "O",
+          "E",
+          "P",
+          "U",
+          "C",
+          "G"
+        ],
+        [
+          "D",
+          "E",
+          "U",
+          "A",
+          "O",
+          "B",
+          "K"
+        ],
+        [
+          "S",
+          "S",
+          "L",
+          "U",
+          "G",
+          "S",
+          "J"
+        ],
+        [
+          "O",
+          "K",
+          "O",
+          "I",
+          "U",
+          "J",
+          "T"
+        ],
+        [
+          "D",
+          "R",
+          "U",
+          "M",
+          "D",
+          "U",
+          "R"
+        ],
+        [
+          "J",
+          "G",
+          "B",
+          "X",
+          "O",
+          "V",
+          "L"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "DRUM",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "SLUG",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "SEED",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "POST",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 121,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "PUMP",
+        "RING",
+        "HALL",
+        "FERN",
+        "BULL"
+      ],
+      "grid": [
+        [
+          "H",
+          "B",
+          "C",
+          "X",
+          "C",
+          "T",
+          "G"
+        ],
+        [
+          "N",
+          "U",
+          "P",
+          "K",
+          "K",
+          "N",
+          "F"
+        ],
+        [
+          "D",
+          "L",
+          "D",
+          "S",
+          "I",
+          "O",
+          "E"
+        ],
+        [
+          "D",
+          "L",
+          "Y",
+          "R",
+          "B",
+          "L",
+          "R"
+        ],
+        [
+          "P",
+          "U",
+          "M",
+          "P",
+          "L",
+          "Y",
+          "N"
+        ],
+        [
+          "Y",
+          "P",
+          "D",
+          "A",
+          "S",
+          "L",
+          "Y"
+        ],
+        [
+          "A",
+          "W",
+          "H",
+          "N",
+          "M",
+          "M",
+          "D"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PUMP",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "RING",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "HALL",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "FERN",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "BULL",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 122,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "OTTER",
+        "RAT",
+        "GOWN",
+        "WIND",
+        "MOTH",
+        "SAIL"
+      ],
+      "grid": [
+        [
+          "Z",
+          "D",
+          "C",
+          "E",
+          "C",
+          "K",
+          "E"
+        ],
+        [
+          "O",
+          "U",
+          "S",
+          "W",
+          "R",
+          "Q",
+          "N"
+        ],
+        [
+          "Y",
+          "W",
+          "G",
+          "A",
+          "W",
+          "A",
+          "R"
+        ],
+        [
+          "K",
+          "I",
+          "O",
+          "L",
+          "I",
+          "E",
+          "T"
+        ],
+        [
+          "C",
+          "N",
+          "W",
+          "J",
+          "T",
+          "L",
+          "C"
+        ],
+        [
+          "F",
+          "D",
+          "N",
+          "T",
+          "N",
+          "A",
+          "Q"
+        ],
+        [
+          "J",
+          "M",
+          "O",
+          "T",
+          "H",
+          "H",
+          "M"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "OTTER",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "RAT",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "GOWN",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "WIND",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "MOTH",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "SAIL",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 123,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "HAWK",
+        "GNU",
+        "HOOD",
+        "GRAY",
+        "APPLE",
+        "CAT"
+      ],
+      "grid": [
+        [
+          "B",
+          "A",
+          "U",
+          "Y",
+          "D",
+          "W",
+          "W"
+        ],
+        [
+          "A",
+          "F",
+          "P",
+          "O",
+          "T",
+          "L",
+          "G"
+        ],
+        [
+          "A",
+          "Q",
+          "O",
+          "P",
+          "H",
+          "U",
+          "F"
+        ],
+        [
+          "V",
+          "H",
+          "H",
+          "C",
+          "L",
+          "K",
+          "S"
+        ],
+        [
+          "W",
+          "I",
+          "T",
+          "A",
+          "A",
+          "E",
+          "Z"
+        ],
+        [
+          "G",
+          "N",
+          "U",
+          "E",
+          "W",
+          "T",
+          "R"
+        ],
+        [
+          "Y",
+          "G",
+          "R",
+          "A",
+          "Y",
+          "K",
+          "I"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HAWK",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "GNU",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "HOOD",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GRAY",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "APPLE",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "CAT",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 124,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "RULE",
+        "FORK",
+        "PIG",
+        "GNU",
+        "MAZE",
+        "FOREST"
+      ],
+      "grid": [
+        [
+          "F",
+          "O",
+          "R",
+          "E",
+          "S",
+          "T",
+          "V"
+        ],
+        [
+          "D",
+          "Q",
+          "I",
+          "R",
+          "G",
+          "I",
+          "L"
+        ],
+        [
+          "D",
+          "A",
+          "H",
+          "U",
+          "G",
+          "N",
+          "U"
+        ],
+        [
+          "F",
+          "N",
+          "R",
+          "L",
+          "A",
+          "M",
+          "D"
+        ],
+        [
+          "P",
+          "O",
+          "T",
+          "E",
+          "A",
+          "A",
+          "J"
+        ],
+        [
+          "I",
+          "S",
+          "R",
+          "U",
+          "K",
+          "Z",
+          "C"
+        ],
+        [
+          "G",
+          "M",
+          "X",
+          "K",
+          "Q",
+          "E",
+          "G"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "RULE",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "FORK",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "PIG",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "GNU",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "MAZE",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "FOREST",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 125,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "KOALA",
+        "BULL",
+        "DEW",
+        "DOG"
+      ],
+      "grid": [
+        [
+          "D",
+          "B",
+          "U",
+          "L",
+          "L",
+          "A",
+          "A"
+        ],
+        [
+          "D",
+          "I",
+          "U",
+          "Q",
+          "L",
+          "V",
+          "B"
+        ],
+        [
+          "O",
+          "X",
+          "H",
+          "A",
+          "U",
+          "Y",
+          "S"
+        ],
+        [
+          "G",
+          "M",
+          "O",
+          "Q",
+          "J",
+          "D",
+          "M"
+        ],
+        [
+          "D",
+          "K",
+          "P",
+          "E",
+          "J",
+          "E",
+          "O"
+        ],
+        [
+          "O",
+          "M",
+          "M",
+          "W",
+          "B",
+          "W",
+          "U"
+        ],
+        [
+          "K",
+          "S",
+          "G",
+          "Z",
+          "G",
+          "Y",
+          "X"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "KOALA",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BULL",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "DEW",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "DOG",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 126,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "ROCK",
+        "BIRD",
+        "NEWT",
+        "SHOP"
+      ],
+      "grid": [
+        [
+          "H",
+          "R",
+          "K",
+          "N",
+          "E",
+          "W",
+          "T"
+        ],
+        [
+          "Z",
+          "X",
+          "O",
+          "Z",
+          "L",
+          "R",
+          "X"
+        ],
+        [
+          "H",
+          "S",
+          "S",
+          "C",
+          "U",
+          "U",
+          "J"
+        ],
+        [
+          "I",
+          "H",
+          "B",
+          "H",
+          "K",
+          "R",
+          "K"
+        ],
+        [
+          "L",
+          "M",
+          "B",
+          "I",
+          "O",
+          "O",
+          "W"
+        ],
+        [
+          "N",
+          "E",
+          "B",
+          "E",
+          "R",
+          "P",
+          "T"
+        ],
+        [
+          "Z",
+          "U",
+          "H",
+          "H",
+          "L",
+          "D",
+          "L"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "ROCK",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BIRD",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "NEWT",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "SHOP",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 127,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "PIZZA",
+        "BALL",
+        "SOCK",
+        "LYNX"
+      ],
+      "grid": [
+        [
+          "E",
+          "S",
+          "P",
+          "N",
+          "Y",
+          "P",
+          "E"
+        ],
+        [
+          "A",
+          "O",
+          "V",
+          "D",
+          "K",
+          "E",
+          "S"
+        ],
+        [
+          "B",
+          "C",
+          "P",
+          "L",
+          "Y",
+          "N",
+          "X"
+        ],
+        [
+          "A",
+          "K",
+          "Z",
+          "I",
+          "R",
+          "G",
+          "Y"
+        ],
+        [
+          "L",
+          "B",
+          "K",
+          "L",
+          "Z",
+          "R",
+          "V"
+        ],
+        [
+          "L",
+          "I",
+          "Y",
+          "V",
+          "M",
+          "Z",
+          "B"
+        ],
+        [
+          "Q",
+          "Q",
+          "W",
+          "R",
+          "A",
+          "X",
+          "A"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PIZZA",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BALL",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "SOCK",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "LYNX",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 128,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "CROW",
+        "FOX",
+        "DUSK",
+        "COW",
+        "PLAN",
+        "SMILE"
+      ],
+      "grid": [
+        [
+          "H",
+          "S",
+          "M",
+          "I",
+          "L",
+          "E",
+          "S"
+        ],
+        [
+          "C",
+          "T",
+          "K",
+          "U",
+          "L",
+          "K",
+          "U"
+        ],
+        [
+          "L",
+          "R",
+          "B",
+          "N",
+          "S",
+          "C",
+          "E"
+        ],
+        [
+          "P",
+          "R",
+          "O",
+          "U",
+          "C",
+          "O",
+          "W"
+        ],
+        [
+          "L",
+          "G",
+          "D",
+          "W",
+          "F",
+          "D",
+          "P"
+        ],
+        [
+          "A",
+          "H",
+          "N",
+          "T",
+          "F",
+          "O",
+          "X"
+        ],
+        [
+          "N",
+          "X",
+          "C",
+          "M",
+          "P",
+          "U",
+          "X"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CROW",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "FOX",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "DUSK",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "COW",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "PLAN",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "SMILE",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 129,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "KOI",
+        "WHALE",
+        "TEAL",
+        "SONG",
+        "CART",
+        "PEN"
+      ],
+      "grid": [
+        [
+          "T",
+          "E",
+          "A",
+          "L",
+          "J",
+          "Q",
+          "M"
+        ],
+        [
+          "U",
+          "D",
+          "W",
+          "H",
+          "A",
+          "L",
+          "E"
+        ],
+        [
+          "F",
+          "D",
+          "H",
+          "H",
+          "I",
+          "S",
+          "V"
+        ],
+        [
+          "C",
+          "F",
+          "Q",
+          "O",
+          "P",
+          "O",
+          "E"
+        ],
+        [
+          "J",
+          "A",
+          "K",
+          "P",
+          "E",
+          "N",
+          "J"
+        ],
+        [
+          "T",
+          "V",
+          "R",
+          "P",
+          "N",
+          "G",
+          "G"
+        ],
+        [
+          "A",
+          "T",
+          "O",
+          "T",
+          "H",
+          "Z",
+          "D"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "KOI",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "WHALE",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "TEAL",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "SONG",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "CART",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "PEN",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 130,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "DEER",
+        "MAP",
+        "BANANA",
+        "BALL"
+      ],
+      "grid": [
+        [
+          "K",
+          "N",
+          "I",
+          "E",
+          "I",
+          "B",
+          "B"
+        ],
+        [
+          "M",
+          "J",
+          "B",
+          "Y",
+          "C",
+          "O",
+          "A"
+        ],
+        [
+          "F",
+          "P",
+          "M",
+          "A",
+          "H",
+          "R",
+          "N"
+        ],
+        [
+          "O",
+          "D",
+          "U",
+          "A",
+          "L",
+          "I",
+          "A"
+        ],
+        [
+          "S",
+          "C",
+          "E",
+          "D",
+          "P",
+          "L",
+          "N"
+        ],
+        [
+          "A",
+          "F",
+          "O",
+          "E",
+          "A",
+          "I",
+          "A"
+        ],
+        [
+          "N",
+          "Y",
+          "I",
+          "J",
+          "R",
+          "C",
+          "F"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "DEER",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "MAP",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BANANA",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "BALL",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 131,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "LEMON",
+        "BOX",
+        "FOX",
+        "RULE",
+        "CHEESE",
+        "HOSE"
+      ],
+      "grid": [
+        [
+          "P",
+          "F",
+          "O",
+          "X",
+          "E",
+          "J",
+          "V"
+        ],
+        [
+          "P",
+          "I",
+          "X",
+          "L",
+          "H",
+          "L",
+          "Y"
+        ],
+        [
+          "D",
+          "O",
+          "U",
+          "H",
+          "X",
+          "G",
+          "L"
+        ],
+        [
+          "B",
+          "R",
+          "U",
+          "U",
+          "O",
+          "E",
+          "D"
+        ],
+        [
+          "X",
+          "R",
+          "O",
+          "F",
+          "E",
+          "S",
+          "V"
+        ],
+        [
+          "H",
+          "L",
+          "E",
+          "M",
+          "O",
+          "N",
+          "E"
+        ],
+        [
+          "P",
+          "C",
+          "H",
+          "E",
+          "E",
+          "S",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "LEMON",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "BOX",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "FOX",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "RULE",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CHEESE",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "HOSE",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 132,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "PLAN",
+        "GOLD",
+        "SILVER",
+        "ROCK",
+        "COMB",
+        "SAW"
+      ],
+      "grid": [
+        [
+          "W",
+          "R",
+          "A",
+          "A",
+          "C",
+          "D",
+          "I"
+        ],
+        [
+          "R",
+          "O",
+          "C",
+          "K",
+          "L",
+          "R",
+          "N"
+        ],
+        [
+          "D",
+          "S",
+          "K",
+          "O",
+          "E",
+          "A",
+          "B"
+        ],
+        [
+          "H",
+          "A",
+          "G",
+          "V",
+          "L",
+          "M",
+          "S"
+        ],
+        [
+          "Z",
+          "W",
+          "L",
+          "P",
+          "O",
+          "X",
+          "U"
+        ],
+        [
+          "D",
+          "I",
+          "L",
+          "C",
+          "N",
+          "P",
+          "U"
+        ],
+        [
+          "S",
+          "G",
+          "J",
+          "E",
+          "Y",
+          "H",
+          "F"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PLAN",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GOLD",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SILVER",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "ROCK",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "COMB",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SAW",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 133,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "HARP",
+        "IVY",
+        "CARD",
+        "CAGE",
+        "RAT"
+      ],
+      "grid": [
+        [
+          "C",
+          "A",
+          "G",
+          "E",
+          "E",
+          "S",
+          "V"
+        ],
+        [
+          "Z",
+          "P",
+          "H",
+          "Z",
+          "S",
+          "Z",
+          "R"
+        ],
+        [
+          "Y",
+          "F",
+          "C",
+          "A",
+          "R",
+          "D",
+          "Z"
+        ],
+        [
+          "Q",
+          "T",
+          "I",
+          "X",
+          "R",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "O",
+          "B",
+          "V",
+          "T",
+          "P",
+          "F"
+        ],
+        [
+          "C",
+          "F",
+          "Z",
+          "A",
+          "Y",
+          "L",
+          "Q"
+        ],
+        [
+          "S",
+          "J",
+          "R",
+          "R",
+          "I",
+          "K",
+          "C"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HARP",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "IVY",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "CARD",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "CAGE",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "RAT",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 134,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "SWAN",
+        "MUG",
+        "CALF",
+        "PIPE",
+        "WATER",
+        "BEACH"
+      ],
+      "grid": [
+        [
+          "E",
+          "S",
+          "L",
+          "Y",
+          "E",
+          "Q",
+          "O"
+        ],
+        [
+          "C",
+          "P",
+          "W",
+          "P",
+          "E",
+          "B",
+          "O"
+        ],
+        [
+          "W",
+          "W",
+          "I",
+          "A",
+          "R",
+          "E",
+          "P"
+        ],
+        [
+          "Q",
+          "P",
+          "A",
+          "H",
+          "N",
+          "A",
+          "C"
+        ],
+        [
+          "S",
+          "N",
+          "M",
+          "T",
+          "H",
+          "C",
+          "A"
+        ],
+        [
+          "I",
+          "C",
+          "Q",
+          "U",
+          "E",
+          "H",
+          "L"
+        ],
+        [
+          "T",
+          "M",
+          "R",
+          "X",
+          "G",
+          "R",
+          "F"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SWAN",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "MUG",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "CALF",
+          "startRow": 3,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "PIPE",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "WATER",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BEACH",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 135,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "LEMON",
+        "DAWN",
+        "FISH",
+        "DOME",
+        "NAIL"
+      ],
+      "grid": [
+        [
+          "D",
+          "A",
+          "W",
+          "N",
+          "W",
+          "T",
+          "H"
+        ],
+        [
+          "N",
+          "M",
+          "F",
+          "K",
+          "T",
+          "S",
+          "G"
+        ],
+        [
+          "L",
+          "A",
+          "R",
+          "L",
+          "I",
+          "I",
+          "Y"
+        ],
+        [
+          "Y",
+          "E",
+          "I",
+          "F",
+          "L",
+          "Q",
+          "E"
+        ],
+        [
+          "W",
+          "S",
+          "M",
+          "L",
+          "A",
+          "M",
+          "Q"
+        ],
+        [
+          "O",
+          "A",
+          "Y",
+          "O",
+          "O",
+          "I",
+          "W"
+        ],
+        [
+          "J",
+          "Z",
+          "B",
+          "D",
+          "N",
+          "Z",
+          "S"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "LEMON",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "DAWN",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "FISH",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "DOME",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "NAIL",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 136,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "OTTER",
+        "HOOK",
+        "RUBY",
+        "CART"
+      ],
+      "grid": [
+        [
+          "O",
+          "T",
+          "R",
+          "F",
+          "I",
+          "H",
+          "K"
+        ],
+        [
+          "Q",
+          "A",
+          "A",
+          "F",
+          "J",
+          "N",
+          "I"
+        ],
+        [
+          "O",
+          "T",
+          "T",
+          "E",
+          "R",
+          "Y",
+          "U"
+        ],
+        [
+          "V",
+          "C",
+          "T",
+          "P",
+          "B",
+          "H",
+          "Q"
+        ],
+        [
+          "I",
+          "Y",
+          "A",
+          "U",
+          "Q",
+          "O",
+          "I"
+        ],
+        [
+          "Q",
+          "V",
+          "R",
+          "R",
+          "M",
+          "O",
+          "S"
+        ],
+        [
+          "N",
+          "G",
+          "T",
+          "X",
+          "T",
+          "K",
+          "Y"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "OTTER",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "HOOK",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "RUBY",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CART",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 137,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "MAZE",
+        "CALL",
+        "CLAY",
+        "ANT",
+        "HAIL"
+      ],
+      "grid": [
+        [
+          "N",
+          "C",
+          "A",
+          "L",
+          "L",
+          "V",
+          "K"
+        ],
+        [
+          "A",
+          "B",
+          "M",
+          "A",
+          "Z",
+          "E",
+          "T"
+        ],
+        [
+          "L",
+          "S",
+          "P",
+          "X",
+          "H",
+          "N",
+          "A"
+        ],
+        [
+          "C",
+          "L",
+          "A",
+          "Y",
+          "A",
+          "E",
+          "I"
+        ],
+        [
+          "S",
+          "H",
+          "Q",
+          "A",
+          "I",
+          "A",
+          "G"
+        ],
+        [
+          "Y",
+          "Z",
+          "V",
+          "U",
+          "L",
+          "V",
+          "B"
+        ],
+        [
+          "R",
+          "W",
+          "J",
+          "J",
+          "H",
+          "Y",
+          "J"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MAZE",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "CALL",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "CLAY",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "ANT",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "HAIL",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 138,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "HONEY",
+        "CLOD",
+        "KOALA",
+        "SNOW",
+        "PIG",
+        "CAKE"
+      ],
+      "grid": [
+        [
+          "C",
+          "D",
+          "V",
+          "C",
+          "B",
+          "A",
+          "A"
+        ],
+        [
+          "U",
+          "M",
+          "T",
+          "C",
+          "A",
+          "L",
+          "Q"
+        ],
+        [
+          "A",
+          "S",
+          "H",
+          "L",
+          "A",
+          "K",
+          "D"
+        ],
+        [
+          "P",
+          "I",
+          "G",
+          "O",
+          "U",
+          "L",
+          "E"
+        ],
+        [
+          "X",
+          "J",
+          "K",
+          "D",
+          "N",
+          "X",
+          "Q"
+        ],
+        [
+          "D",
+          "F",
+          "U",
+          "L",
+          "U",
+          "E",
+          "D"
+        ],
+        [
+          "S",
+          "N",
+          "O",
+          "W",
+          "B",
+          "G",
+          "Y"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HONEY",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "CLOD",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "KOALA",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SNOW",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "PIG",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "CAKE",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 139,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "GOLD",
+        "SHARK",
+        "CORN",
+        "HAPPY"
+      ],
+      "grid": [
+        [
+          "Q",
+          "X",
+          "G",
+          "I",
+          "O",
+          "J",
+          "O"
+        ],
+        [
+          "D",
+          "B",
+          "O",
+          "A",
+          "C",
+          "S",
+          "P"
+        ],
+        [
+          "Z",
+          "G",
+          "L",
+          "G",
+          "U",
+          "V",
+          "P"
+        ],
+        [
+          "G",
+          "M",
+          "D",
+          "P",
+          "K",
+          "S",
+          "U"
+        ],
+        [
+          "H",
+          "A",
+          "P",
+          "P",
+          "Y",
+          "X",
+          "H"
+        ],
+        [
+          "S",
+          "H",
+          "A",
+          "R",
+          "K",
+          "W",
+          "I"
+        ],
+        [
+          "C",
+          "O",
+          "R",
+          "N",
+          "F",
+          "F",
+          "H"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "GOLD",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "SHARK",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "CORN",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "HAPPY",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 140,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "BOOT",
+        "BEACH",
+        "EMU",
+        "IBIS"
+      ],
+      "grid": [
+        [
+          "D",
+          "O",
+          "R",
+          "I",
+          "B",
+          "I",
+          "S"
+        ],
+        [
+          "D",
+          "D",
+          "G",
+          "T",
+          "T",
+          "D",
+          "U"
+        ],
+        [
+          "S",
+          "B",
+          "O",
+          "H",
+          "Z",
+          "B",
+          "G"
+        ],
+        [
+          "J",
+          "O",
+          "E",
+          "W",
+          "S",
+          "V",
+          "F"
+        ],
+        [
+          "B",
+          "U",
+          "Q",
+          "A",
+          "D",
+          "L",
+          "U"
+        ],
+        [
+          "C",
+          "V",
+          "B",
+          "K",
+          "C",
+          "M",
+          "D"
+        ],
+        [
+          "I",
+          "W",
+          "K",
+          "X",
+          "E",
+          "H",
+          "O"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BOOT",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BEACH",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "EMU",
+          "startRow": 6,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "IBIS",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 141,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "FOREST",
+        "BEAR",
+        "CASE",
+        "PIG",
+        "ELK"
+      ],
+      "grid": [
+        [
+          "P",
+          "D",
+          "P",
+          "Q",
+          "R",
+          "J",
+          "E"
+        ],
+        [
+          "H",
+          "I",
+          "I",
+          "W",
+          "G",
+          "S",
+          "T"
+        ],
+        [
+          "O",
+          "T",
+          "G",
+          "W",
+          "A",
+          "S",
+          "E"
+        ],
+        [
+          "R",
+          "Z",
+          "D",
+          "C",
+          "E",
+          "O",
+          "L"
+        ],
+        [
+          "M",
+          "X",
+          "C",
+          "R",
+          "H",
+          "N",
+          "K"
+        ],
+        [
+          "F",
+          "W",
+          "O",
+          "B",
+          "E",
+          "A",
+          "R"
+        ],
+        [
+          "K",
+          "F",
+          "A",
+          "X",
+          "C",
+          "K",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "FOREST",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BEAR",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "CASE",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "PIG",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "ELK",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 142,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "SOIL",
+        "GOWN",
+        "PEN",
+        "ROPE"
+      ],
+      "grid": [
+        [
+          "L",
+          "X",
+          "K",
+          "G",
+          "P",
+          "X",
+          "M"
+        ],
+        [
+          "R",
+          "L",
+          "G",
+          "X",
+          "S",
+          "E",
+          "B"
+        ],
+        [
+          "O",
+          "R",
+          "V",
+          "J",
+          "O",
+          "N",
+          "N"
+        ],
+        [
+          "P",
+          "Q",
+          "G",
+          "J",
+          "I",
+          "W",
+          "R"
+        ],
+        [
+          "E",
+          "P",
+          "C",
+          "B",
+          "L",
+          "Z",
+          "X"
+        ],
+        [
+          "C",
+          "G",
+          "O",
+          "W",
+          "N",
+          "L",
+          "M"
+        ],
+        [
+          "W",
+          "Q",
+          "A",
+          "A",
+          "R",
+          "M",
+          "B"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SOIL",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "GOWN",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "PEN",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "ROPE",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 143,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "TAP",
+        "OTTER",
+        "MOON",
+        "PLUM",
+        "FORK"
+      ],
+      "grid": [
+        [
+          "M",
+          "N",
+          "C",
+          "C",
+          "U",
+          "A",
+          "R"
+        ],
+        [
+          "M",
+          "M",
+          "R",
+          "I",
+          "N",
+          "I",
+          "S"
+        ],
+        [
+          "D",
+          "O",
+          "T",
+          "T",
+          "E",
+          "R",
+          "B"
+        ],
+        [
+          "P",
+          "P",
+          "O",
+          "W",
+          "P",
+          "P",
+          "F"
+        ],
+        [
+          "Y",
+          "L",
+          "J",
+          "N",
+          "A",
+          "K",
+          "O"
+        ],
+        [
+          "D",
+          "O",
+          "U",
+          "T",
+          "P",
+          "S",
+          "R"
+        ],
+        [
+          "Y",
+          "P",
+          "W",
+          "M",
+          "T",
+          "D",
+          "K"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "TAP",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "OTTER",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "MOON",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "PLUM",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "FORK",
+          "startRow": 3,
+          "startCol": 6,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 144,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "MINT",
+        "HARP",
+        "WOOL",
+        "PUMP",
+        "HOSE",
+        "WAVE"
+      ],
+      "grid": [
+        [
+          "G",
+          "F",
+          "W",
+          "T",
+          "I",
+          "M",
+          "K"
+        ],
+        [
+          "G",
+          "M",
+          "O",
+          "S",
+          "H",
+          "P",
+          "X"
+        ],
+        [
+          "J",
+          "I",
+          "O",
+          "D",
+          "E",
+          "L",
+          "E"
+        ],
+        [
+          "P",
+          "N",
+          "L",
+          "H",
+          "E",
+          "V",
+          "N"
+        ],
+        [
+          "U",
+          "T",
+          "P",
+          "S",
+          "A",
+          "T",
+          "T"
+        ],
+        [
+          "M",
+          "D",
+          "O",
+          "W",
+          "P",
+          "R",
+          "T"
+        ],
+        [
+          "P",
+          "H",
+          "T",
+          "D",
+          "C",
+          "O",
+          "P"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MINT",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "HARP",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "WOOL",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "PUMP",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "HOSE",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "WAVE",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 145,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "DAWN",
+        "BEE",
+        "ZEBRA",
+        "COAT"
+      ],
+      "grid": [
+        [
+          "C",
+          "O",
+          "A",
+          "T",
+          "F",
+          "K",
+          "R"
+        ],
+        [
+          "J",
+          "A",
+          "W",
+          "T",
+          "L",
+          "A",
+          "F"
+        ],
+        [
+          "F",
+          "L",
+          "Y",
+          "L",
+          "R",
+          "L",
+          "T"
+        ],
+        [
+          "I",
+          "E",
+          "G",
+          "B",
+          "T",
+          "M",
+          "N"
+        ],
+        [
+          "F",
+          "B",
+          "E",
+          "D",
+          "A",
+          "W",
+          "N"
+        ],
+        [
+          "D",
+          "Z",
+          "E",
+          "O",
+          "G",
+          "V",
+          "T"
+        ],
+        [
+          "T",
+          "J",
+          "K",
+          "E",
+          "K",
+          "M",
+          "N"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "DAWN",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "BEE",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "ZEBRA",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "COAT",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 146,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "MOON",
+        "REEF",
+        "MUD",
+        "YAK",
+        "PINE",
+        "FOG"
+      ],
+      "grid": [
+        [
+          "F",
+          "C",
+          "P",
+          "B",
+          "D",
+          "O",
+          "W"
+        ],
+        [
+          "O",
+          "O",
+          "P",
+          "I",
+          "N",
+          "E",
+          "U"
+        ],
+        [
+          "G",
+          "V",
+          "M",
+          "O",
+          "O",
+          "N",
+          "K"
+        ],
+        [
+          "F",
+          "O",
+          "E",
+          "R",
+          "I",
+          "Y",
+          "X"
+        ],
+        [
+          "L",
+          "B",
+          "K",
+          "E",
+          "M",
+          "U",
+          "D"
+        ],
+        [
+          "S",
+          "A",
+          "Y",
+          "E",
+          "N",
+          "T",
+          "L"
+        ],
+        [
+          "Y",
+          "E",
+          "H",
+          "F",
+          "B",
+          "D",
+          "H"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MOON",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "REEF",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "MUD",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "YAK",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "PINE",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "FOG",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 147,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "MILK",
+        "WOOL",
+        "POST",
+        "VALE",
+        "LYNX",
+        "WOOD"
+      ],
+      "grid": [
+        [
+          "I",
+          "Q",
+          "J",
+          "W",
+          "L",
+          "P",
+          "D"
+        ],
+        [
+          "P",
+          "L",
+          "Y",
+          "N",
+          "X",
+          "O",
+          "G"
+        ],
+        [
+          "X",
+          "L",
+          "A",
+          "P",
+          "O",
+          "T",
+          "Z"
+        ],
+        [
+          "Z",
+          "F",
+          "Y",
+          "W",
+          "O",
+          "M",
+          "I"
+        ],
+        [
+          "H",
+          "B",
+          "Y",
+          "X",
+          "O",
+          "S",
+          "Z"
+        ],
+        [
+          "G",
+          "V",
+          "A",
+          "L",
+          "E",
+          "O",
+          "T"
+        ],
+        [
+          "C",
+          "M",
+          "I",
+          "L",
+          "K",
+          "J",
+          "L"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MILK",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "WOOL",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "POST",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "VALE",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "LYNX",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "WOOD",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 148,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "CASE",
+        "TEAL",
+        "RAT",
+        "TIGER",
+        "DOOR"
+      ],
+      "grid": [
+        [
+          "B",
+          "H",
+          "O",
+          "D",
+          "R",
+          "Q",
+          "B"
+        ],
+        [
+          "E",
+          "N",
+          "R",
+          "E",
+          "O",
+          "F",
+          "J"
+        ],
+        [
+          "D",
+          "L",
+          "G",
+          "A",
+          "E",
+          "O",
+          "F"
+        ],
+        [
+          "X",
+          "I",
+          "V",
+          "C",
+          "T",
+          "K",
+          "R"
+        ],
+        [
+          "T",
+          "B",
+          "T",
+          "E",
+          "A",
+          "L",
+          "Z"
+        ],
+        [
+          "K",
+          "S",
+          "Z",
+          "I",
+          "L",
+          "S",
+          "C"
+        ],
+        [
+          "X",
+          "Y",
+          "B",
+          "R",
+          "C",
+          "O",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CASE",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "TEAL",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "RAT",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "TIGER",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "DOOR",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 149,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "WASP",
+        "GOAT",
+        "PAGE",
+        "DRUM",
+        "CLOUDS",
+        "RED"
+      ],
+      "grid": [
+        [
+          "X",
+          "F",
+          "M",
+          "D",
+          "D",
+          "B",
+          "C"
+        ],
+        [
+          "G",
+          "D",
+          "R",
+          "U",
+          "M",
+          "P",
+          "L"
+        ],
+        [
+          "T",
+          "O",
+          "T",
+          "F",
+          "S",
+          "F",
+          "O"
+        ],
+        [
+          "R",
+          "Z",
+          "A",
+          "A",
+          "M",
+          "E",
+          "U"
+        ],
+        [
+          "E",
+          "X",
+          "W",
+          "T",
+          "G",
+          "C",
+          "D"
+        ],
+        [
+          "D",
+          "H",
+          "D",
+          "A",
+          "P",
+          "V",
+          "S"
+        ],
+        [
+          "R",
+          "Q",
+          "P",
+          "M",
+          "X",
+          "D",
+          "X"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "WASP",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GOAT",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "PAGE",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "DRUM",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "CLOUDS",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "RED",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 150,
+      "world": "Mystic Forest",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "SUN",
+        "GUST",
+        "GOWN",
+        "VINE",
+        "SEED",
+        "PEACH"
+      ],
+      "grid": [
+        [
+          "K",
+          "V",
+          "G",
+          "G",
+          "O",
+          "W",
+          "N"
+        ],
+        [
+          "A",
+          "O",
+          "I",
+          "U",
+          "E",
+          "K",
+          "J"
+        ],
+        [
+          "D",
+          "L",
+          "H",
+          "N",
+          "S",
+          "T",
+          "R"
+        ],
+        [
+          "D",
+          "V",
+          "C",
+          "X",
+          "E",
+          "T",
+          "D"
+        ],
+        [
+          "P",
+          "E",
+          "A",
+          "C",
+          "H",
+          "E",
+          "S"
+        ],
+        [
+          "A",
+          "Q",
+          "X",
+          "L",
+          "E",
+          "S",
+          "U"
+        ],
+        [
+          "F",
+          "M",
+          "M",
+          "S",
+          "F",
+          "W",
+          "N"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SUN",
+          "startRow": 4,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "GUST",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "GOWN",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "VINE",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "SEED",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "PEACH",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    }
+  ]
+}

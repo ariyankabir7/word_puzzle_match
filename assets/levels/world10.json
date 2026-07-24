@@ -1,0 +1,7664 @@
+{
+  "world": "Star Galaxy",
+  "worldNumber": 10,
+  "levels": [
+    {
+      "id": 451,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "LYNX",
+        "BOWL",
+        "MANGO",
+        "BOX",
+        "SILK"
+      ],
+      "grid": [
+        [
+          "S",
+          "L",
+          "V",
+          "Q",
+          "H",
+          "B",
+          "O",
+          "I",
+          "N"
+        ],
+        [
+          "H",
+          "C",
+          "D",
+          "E",
+          "T",
+          "O",
+          "L",
+          "G",
+          "O"
+        ],
+        [
+          "Q",
+          "O",
+          "F",
+          "S",
+          "V",
+          "W",
+          "V",
+          "P",
+          "W"
+        ],
+        [
+          "I",
+          "G",
+          "H",
+          "V",
+          "V",
+          "L",
+          "J",
+          "N",
+          "D"
+        ],
+        [
+          "V",
+          "N",
+          "I",
+          "T",
+          "Y",
+          "Y",
+          "R",
+          "T",
+          "E"
+        ],
+        [
+          "P",
+          "A",
+          "W",
+          "B",
+          "W",
+          "N",
+          "U",
+          "D",
+          "K"
+        ],
+        [
+          "Z",
+          "M",
+          "O",
+          "K",
+          "F",
+          "X",
+          "O",
+          "B",
+          "L"
+        ],
+        [
+          "D",
+          "X",
+          "P",
+          "E",
+          "G",
+          "S",
+          "Y",
+          "L",
+          "I"
+        ],
+        [
+          "V",
+          "Z",
+          "S",
+          "W",
+          "B",
+          "F",
+          "O",
+          "E",
+          "S"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "LYNX",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "BOWL",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "MANGO",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "BT"
+        },
+        {
+          "word": "BOX",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "SILK",
+          "startRow": 8,
+          "startCol": 8,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 452,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "POST",
+        "TIDE",
+        "HAIL",
+        "SAIL",
+        "BARK"
+      ],
+      "grid": [
+        [
+          "O",
+          "H",
+          "W",
+          "Y",
+          "J",
+          "E",
+          "F",
+          "E",
+          "F"
+        ],
+        [
+          "P",
+          "A",
+          "U",
+          "C",
+          "K",
+          "I",
+          "D",
+          "C",
+          "A"
+        ],
+        [
+          "W",
+          "I",
+          "N",
+          "W",
+          "J",
+          "J",
+          "H",
+          "I",
+          "Y"
+        ],
+        [
+          "P",
+          "L",
+          "J",
+          "V",
+          "C",
+          "G",
+          "S",
+          "R",
+          "T"
+        ],
+        [
+          "O",
+          "V",
+          "W",
+          "A",
+          "P",
+          "B",
+          "A",
+          "R",
+          "K"
+        ],
+        [
+          "S",
+          "W",
+          "S",
+          "G",
+          "H",
+          "G",
+          "W",
+          "V",
+          "S"
+        ],
+        [
+          "T",
+          "T",
+          "X",
+          "Y",
+          "P",
+          "J",
+          "T",
+          "V",
+          "A"
+        ],
+        [
+          "U",
+          "N",
+          "F",
+          "Y",
+          "P",
+          "Q",
+          "N",
+          "V",
+          "I"
+        ],
+        [
+          "C",
+          "S",
+          "L",
+          "Y",
+          "L",
+          "B",
+          "Z",
+          "N",
+          "L"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "POST",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "TIDE",
+          "startRow": 3,
+          "startCol": 8,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "HAIL",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "SAIL",
+          "startRow": 5,
+          "startCol": 8,
+          "direction": "TB"
+        },
+        {
+          "word": "BARK",
+          "startRow": 4,
+          "startCol": 5,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 453,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "WICK",
+        "PEACH",
+        "GRAY",
+        "CALF",
+        "GATE",
+        "TAP"
+      ],
+      "grid": [
+        [
+          "H",
+          "L",
+          "Y",
+          "B",
+          "P",
+          "Y",
+          "K",
+          "H",
+          "Z"
+        ],
+        [
+          "P",
+          "D",
+          "E",
+          "A",
+          "A",
+          "E",
+          "L",
+          "Y",
+          "L"
+        ],
+        [
+          "W",
+          "I",
+          "C",
+          "K",
+          "R",
+          "U",
+          "A",
+          "W",
+          "W"
+        ],
+        [
+          "S",
+          "B",
+          "U",
+          "T",
+          "C",
+          "G",
+          "R",
+          "C",
+          "O"
+        ],
+        [
+          "M",
+          "B",
+          "M",
+          "E",
+          "P",
+          "R",
+          "S",
+          "T",
+          "H"
+        ],
+        [
+          "U",
+          "G",
+          "B",
+          "Y",
+          "A",
+          "Y",
+          "F",
+          "N",
+          "D"
+        ],
+        [
+          "U",
+          "D",
+          "A",
+          "W",
+          "T",
+          "S",
+          "L",
+          "Z",
+          "N"
+        ],
+        [
+          "M",
+          "M",
+          "E",
+          "T",
+          "G",
+          "H",
+          "A",
+          "A",
+          "X"
+        ],
+        [
+          "E",
+          "Y",
+          "K",
+          "T",
+          "E",
+          "E",
+          "C",
+          "V",
+          "A"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "WICK",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "PEACH",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "GRAY",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "CALF",
+          "startRow": 8,
+          "startCol": 6,
+          "direction": "BT"
+        },
+        {
+          "word": "GATE",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "TAP",
+          "startRow": 6,
+          "startCol": 4,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 454,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "HOOD",
+        "ANT",
+        "ELM",
+        "CARD",
+        "ZEBRA"
+      ],
+      "grid": [
+        [
+          "Q",
+          "M",
+          "M",
+          "F",
+          "I",
+          "C",
+          "T",
+          "S",
+          "T"
+        ],
+        [
+          "N",
+          "D",
+          "R",
+          "A",
+          "C",
+          "K",
+          "T",
+          "N",
+          "A"
+        ],
+        [
+          "A",
+          "Z",
+          "K",
+          "N",
+          "C",
+          "X",
+          "N",
+          "T",
+          "P"
+        ],
+        [
+          "Q",
+          "M",
+          "C",
+          "H",
+          "F",
+          "J",
+          "Z",
+          "O",
+          "P"
+        ],
+        [
+          "T",
+          "Y",
+          "N",
+          "R",
+          "O",
+          "E",
+          "A",
+          "X",
+          "J"
+        ],
+        [
+          "T",
+          "S",
+          "C",
+          "R",
+          "B",
+          "O",
+          "N",
+          "T",
+          "D"
+        ],
+        [
+          "C",
+          "S",
+          "Q",
+          "R",
+          "U",
+          "M",
+          "D",
+          "F",
+          "O"
+        ],
+        [
+          "S",
+          "N",
+          "A",
+          "K",
+          "L",
+          "V",
+          "J",
+          "B",
+          "T"
+        ],
+        [
+          "R",
+          "Y",
+          "U",
+          "E",
+          "U",
+          "Q",
+          "J",
+          "D",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HOOD",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "ANT",
+          "startRow": 1,
+          "startCol": 8,
+          "direction": "RL"
+        },
+        {
+          "word": "ELM",
+          "startRow": 8,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CARD",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "ZEBRA",
+          "startRow": 3,
+          "startCol": 6,
+          "direction": "DIAG_DOWN_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 455,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "BEE",
+        "FERN",
+        "SWAN",
+        "SONG",
+        "IRON",
+        "PUMP"
+      ],
+      "grid": [
+        [
+          "O",
+          "J",
+          "S",
+          "W",
+          "A",
+          "N",
+          "S",
+          "I",
+          "H"
+        ],
+        [
+          "I",
+          "R",
+          "O",
+          "N",
+          "G",
+          "N",
+          "Y",
+          "G",
+          "J"
+        ],
+        [
+          "H",
+          "K",
+          "D",
+          "N",
+          "L",
+          "P",
+          "H",
+          "U",
+          "E"
+        ],
+        [
+          "G",
+          "E",
+          "O",
+          "P",
+          "E",
+          "P",
+          "M",
+          "O",
+          "N"
+        ],
+        [
+          "V",
+          "S",
+          "B",
+          "Q",
+          "S",
+          "V",
+          "P",
+          "U",
+          "O"
+        ],
+        [
+          "N",
+          "E",
+          "V",
+          "W",
+          "F",
+          "A",
+          "C",
+          "D",
+          "P"
+        ],
+        [
+          "E",
+          "E",
+          "B",
+          "E",
+          "C",
+          "B",
+          "P",
+          "E",
+          "T"
+        ],
+        [
+          "Z",
+          "I",
+          "R",
+          "F",
+          "R",
+          "Z",
+          "W",
+          "Z",
+          "I"
+        ],
+        [
+          "N",
+          "N",
+          "C",
+          "J",
+          "G",
+          "G",
+          "B",
+          "F",
+          "Z"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BEE",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "FERN",
+          "startRow": 5,
+          "startCol": 4,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "SWAN",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "SONG",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "IRON",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "PUMP",
+          "startRow": 5,
+          "startCol": 8,
+          "direction": "DIAG_UP_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 456,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "WORM",
+        "ROBIN",
+        "KOALA",
+        "YELLOW",
+        "HONEY"
+      ],
+      "grid": [
+        [
+          "G",
+          "O",
+          "B",
+          "N",
+          "C",
+          "W",
+          "P",
+          "Z",
+          "K"
+        ],
+        [
+          "V",
+          "I",
+          "F",
+          "M",
+          "W",
+          "A",
+          "X",
+          "I",
+          "T"
+        ],
+        [
+          "X",
+          "W",
+          "R",
+          "F",
+          "K",
+          "O",
+          "A",
+          "L",
+          "A"
+        ],
+        [
+          "N",
+          "O",
+          "Y",
+          "I",
+          "H",
+          "W",
+          "H",
+          "Q",
+          "W"
+        ],
+        [
+          "M",
+          "I",
+          "L",
+          "E",
+          "O",
+          "D",
+          "R",
+          "T",
+          "O"
+        ],
+        [
+          "H",
+          "D",
+          "B",
+          "R",
+          "N",
+          "X",
+          "B",
+          "U",
+          "L"
+        ],
+        [
+          "Q",
+          "D",
+          "M",
+          "O",
+          "S",
+          "O",
+          "F",
+          "A",
+          "L"
+        ],
+        [
+          "E",
+          "D",
+          "F",
+          "M",
+          "R",
+          "G",
+          "H",
+          "I",
+          "E"
+        ],
+        [
+          "I",
+          "V",
+          "H",
+          "X",
+          "W",
+          "T",
+          "V",
+          "N",
+          "Y"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "WORM",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "ROBIN",
+          "startRow": 7,
+          "startCol": 4,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "KOALA",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "YELLOW",
+          "startRow": 8,
+          "startCol": 8,
+          "direction": "BT"
+        },
+        {
+          "word": "HONEY",
+          "startRow": 7,
+          "startCol": 6,
+          "direction": "DIAG_UP_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 457,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "NAIL",
+        "MAGIC",
+        "ROSE",
+        "CART",
+        "MAZE"
+      ],
+      "grid": [
+        [
+          "R",
+          "S",
+          "M",
+          "T",
+          "M",
+          "N",
+          "A",
+          "I",
+          "L"
+        ],
+        [
+          "T",
+          "Y",
+          "N",
+          "A",
+          "F",
+          "E",
+          "A",
+          "K",
+          "M"
+        ],
+        [
+          "V",
+          "X",
+          "G",
+          "T",
+          "S",
+          "P",
+          "P",
+          "R",
+          "A"
+        ],
+        [
+          "V",
+          "I",
+          "E",
+          "F",
+          "L",
+          "T",
+          "N",
+          "M",
+          "Z"
+        ],
+        [
+          "C",
+          "C",
+          "S",
+          "H",
+          "T",
+          "V",
+          "R",
+          "F",
+          "E"
+        ],
+        [
+          "T",
+          "H",
+          "O",
+          "O",
+          "M",
+          "B",
+          "Z",
+          "A",
+          "S"
+        ],
+        [
+          "E",
+          "L",
+          "R",
+          "B",
+          "R",
+          "X",
+          "J",
+          "B",
+          "C"
+        ],
+        [
+          "F",
+          "M",
+          "Q",
+          "V",
+          "B",
+          "R",
+          "P",
+          "T",
+          "R"
+        ],
+        [
+          "A",
+          "S",
+          "N",
+          "D",
+          "H",
+          "I",
+          "K",
+          "D",
+          "X"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "NAIL",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "LR"
+        },
+        {
+          "word": "MAGIC",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "ROSE",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "BT"
+        },
+        {
+          "word": "CART",
+          "startRow": 6,
+          "startCol": 8,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "MAZE",
+          "startRow": 1,
+          "startCol": 8,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 458,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "NET",
+        "CLAY",
+        "ELK",
+        "CALL",
+        "DESERT",
+        "LION",
+        "MAP"
+      ],
+      "grid": [
+        [
+          "T",
+          "T",
+          "W",
+          "D",
+          "N",
+          "N",
+          "E",
+          "T",
+          "Q"
+        ],
+        [
+          "K",
+          "B",
+          "L",
+          "N",
+          "E",
+          "H",
+          "X",
+          "P",
+          "K"
+        ],
+        [
+          "H",
+          "W",
+          "H",
+          "K",
+          "C",
+          "S",
+          "F",
+          "M",
+          "I"
+        ],
+        [
+          "L",
+          "I",
+          "O",
+          "N",
+          "A",
+          "S",
+          "E",
+          "P",
+          "K"
+        ],
+        [
+          "U",
+          "V",
+          "F",
+          "M",
+          "L",
+          "Y",
+          "E",
+          "R",
+          "A"
+        ],
+        [
+          "H",
+          "P",
+          "L",
+          "M",
+          "L",
+          "A",
+          "D",
+          "R",
+          "T"
+        ],
+        [
+          "F",
+          "L",
+          "A",
+          "C",
+          "B",
+          "L",
+          "D",
+          "G",
+          "Y"
+        ],
+        [
+          "K",
+          "V",
+          "V",
+          "M",
+          "E",
+          "C",
+          "H",
+          "Q",
+          "N"
+        ],
+        [
+          "N",
+          "H",
+          "I",
+          "E",
+          "L",
+          "K",
+          "K",
+          "Q",
+          "W"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "NET",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "LR"
+        },
+        {
+          "word": "CLAY",
+          "startRow": 7,
+          "startCol": 5,
+          "direction": "BT"
+        },
+        {
+          "word": "ELK",
+          "startRow": 8,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "CALL",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "DESERT",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "LION",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "MAP",
+          "startRow": 7,
+          "startCol": 3,
+          "direction": "DIAG_UP_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 459,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "PEACH",
+        "RULE",
+        "COW",
+        "BOOK",
+        "LION",
+        "FOX",
+        "EAGLE"
+      ],
+      "grid": [
+        [
+          "Y",
+          "O",
+          "L",
+          "W",
+          "B",
+          "F",
+          "F",
+          "O",
+          "X"
+        ],
+        [
+          "U",
+          "S",
+          "I",
+          "O",
+          "P",
+          "U",
+          "K",
+          "J",
+          "B"
+        ],
+        [
+          "J",
+          "S",
+          "O",
+          "C",
+          "E",
+          "E",
+          "M",
+          "T",
+          "Q"
+        ],
+        [
+          "U",
+          "K",
+          "N",
+          "A",
+          "S",
+          "S",
+          "A",
+          "H",
+          "D"
+        ],
+        [
+          "U",
+          "F",
+          "G",
+          "B",
+          "D",
+          "L",
+          "W",
+          "C",
+          "C"
+        ],
+        [
+          "D",
+          "L",
+          "C",
+          "O",
+          "R",
+          "R",
+          "C",
+          "L",
+          "H"
+        ],
+        [
+          "E",
+          "S",
+          "K",
+          "O",
+          "T",
+          "U",
+          "Y",
+          "U",
+          "T"
+        ],
+        [
+          "A",
+          "M",
+          "H",
+          "K",
+          "M",
+          "L",
+          "X",
+          "H",
+          "Z"
+        ],
+        [
+          "A",
+          "A",
+          "Z",
+          "Y",
+          "K",
+          "E",
+          "A",
+          "G",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PEACH",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "RULE",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "COW",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "BT"
+        },
+        {
+          "word": "BOOK",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "LION",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "FOX",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "LR"
+        },
+        {
+          "word": "EAGLE",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "DIAG_DOWN_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 460,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "CASE",
+        "SMILE",
+        "PANDA",
+        "FOREST",
+        "PLAN",
+        "IBIS"
+      ],
+      "grid": [
+        [
+          "F",
+          "K",
+          "E",
+          "P",
+          "D",
+          "X",
+          "F",
+          "K",
+          "V"
+        ],
+        [
+          "O",
+          "M",
+          "B",
+          "Y",
+          "A",
+          "B",
+          "W",
+          "H",
+          "M"
+        ],
+        [
+          "R",
+          "F",
+          "I",
+          "J",
+          "H",
+          "N",
+          "G",
+          "Q",
+          "K"
+        ],
+        [
+          "E",
+          "N",
+          "T",
+          "T",
+          "R",
+          "P",
+          "D",
+          "E",
+          "Q"
+        ],
+        [
+          "S",
+          "M",
+          "I",
+          "L",
+          "E",
+          "L",
+          "S",
+          "A",
+          "X"
+        ],
+        [
+          "T",
+          "E",
+          "N",
+          "I",
+          "V",
+          "A",
+          "D",
+          "S",
+          "D"
+        ],
+        [
+          "U",
+          "S",
+          "B",
+          "M",
+          "C",
+          "N",
+          "D",
+          "M",
+          "U"
+        ],
+        [
+          "G",
+          "I",
+          "I",
+          "A",
+          "S",
+          "S",
+          "H",
+          "B",
+          "E"
+        ],
+        [
+          "S",
+          "N",
+          "W",
+          "M",
+          "X",
+          "K",
+          "E",
+          "C",
+          "Y"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CASE",
+          "startRow": 6,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SMILE",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "PANDA",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "FOREST",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "PLAN",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "IBIS",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_DOWN_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 461,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "MUD",
+        "SOCK",
+        "GRID",
+        "LOCK",
+        "CROP"
+      ],
+      "grid": [
+        [
+          "H",
+          "X",
+          "C",
+          "U",
+          "M",
+          "F",
+          "S",
+          "R",
+          "K"
+        ],
+        [
+          "R",
+          "I",
+          "Q",
+          "R",
+          "Y",
+          "T",
+          "O",
+          "A",
+          "C"
+        ],
+        [
+          "A",
+          "E",
+          "M",
+          "O",
+          "F",
+          "T",
+          "C",
+          "U",
+          "O"
+        ],
+        [
+          "B",
+          "E",
+          "D",
+          "U",
+          "M",
+          "M",
+          "K",
+          "H",
+          "L"
+        ],
+        [
+          "B",
+          "C",
+          "R",
+          "O",
+          "P",
+          "X",
+          "D",
+          "A",
+          "O"
+        ],
+        [
+          "M",
+          "D",
+          "I",
+          "R",
+          "G",
+          "Q",
+          "W",
+          "V",
+          "Z"
+        ],
+        [
+          "S",
+          "A",
+          "V",
+          "F",
+          "B",
+          "W",
+          "W",
+          "H",
+          "A"
+        ],
+        [
+          "O",
+          "A",
+          "X",
+          "N",
+          "W",
+          "S",
+          "A",
+          "K",
+          "J"
+        ],
+        [
+          "W",
+          "P",
+          "E",
+          "X",
+          "B",
+          "C",
+          "O",
+          "D",
+          "H"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MUD",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "SOCK",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "GRID",
+          "startRow": 5,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "LOCK",
+          "startRow": 3,
+          "startCol": 8,
+          "direction": "BT"
+        },
+        {
+          "word": "CROP",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 462,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "FERN",
+        "FORK",
+        "DESERT",
+        "GIFT",
+        "SAW",
+        "WIND"
+      ],
+      "grid": [
+        [
+          "V",
+          "Q",
+          "K",
+          "T",
+          "D",
+          "G",
+          "Q",
+          "H",
+          "J"
+        ],
+        [
+          "W",
+          "R",
+          "Q",
+          "B",
+          "G",
+          "T",
+          "I",
+          "R",
+          "D"
+        ],
+        [
+          "I",
+          "X",
+          "N",
+          "Q",
+          "R",
+          "B",
+          "W",
+          "F",
+          "C"
+        ],
+        [
+          "N",
+          "K",
+          "A",
+          "E",
+          "K",
+          "Q",
+          "V",
+          "D",
+          "T"
+        ],
+        [
+          "D",
+          "O",
+          "S",
+          "F",
+          "T",
+          "F",
+          "K",
+          "O",
+          "V"
+        ],
+        [
+          "S",
+          "E",
+          "E",
+          "O",
+          "O",
+          "N",
+          "R",
+          "N",
+          "V"
+        ],
+        [
+          "D",
+          "A",
+          "B",
+          "O",
+          "I",
+          "R",
+          "R",
+          "I",
+          "Y"
+        ],
+        [
+          "D",
+          "R",
+          "W",
+          "H",
+          "M",
+          "E",
+          "K",
+          "U",
+          "E"
+        ],
+        [
+          "W",
+          "J",
+          "N",
+          "I",
+          "F",
+          "G",
+          "K",
+          "S",
+          "C"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "FERN",
+          "startRow": 8,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "FORK",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "DESERT",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GIFT",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "SAW",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "WIND",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 463,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "DREAM",
+        "HAT",
+        "VINE",
+        "CLOD",
+        "NET",
+        "RED"
+      ],
+      "grid": [
+        [
+          "Q",
+          "S",
+          "T",
+          "Z",
+          "Z",
+          "O",
+          "E",
+          "I",
+          "B"
+        ],
+        [
+          "E",
+          "C",
+          "V",
+          "T",
+          "W",
+          "Q",
+          "R",
+          "J",
+          "K"
+        ],
+        [
+          "P",
+          "M",
+          "V",
+          "E",
+          "A",
+          "A",
+          "Z",
+          "X",
+          "Z"
+        ],
+        [
+          "T",
+          "A",
+          "L",
+          "N",
+          "R",
+          "H",
+          "C",
+          "Z",
+          "B"
+        ],
+        [
+          "K",
+          "E",
+          "N",
+          "G",
+          "M",
+          "H",
+          "C",
+          "F",
+          "Q"
+        ],
+        [
+          "N",
+          "R",
+          "Y",
+          "U",
+          "F",
+          "L",
+          "S",
+          "N",
+          "O"
+        ],
+        [
+          "P",
+          "D",
+          "G",
+          "R",
+          "O",
+          "E",
+          "N",
+          "I",
+          "V"
+        ],
+        [
+          "X",
+          "H",
+          "E",
+          "D",
+          "E",
+          "K",
+          "G",
+          "T",
+          "D"
+        ],
+        [
+          "H",
+          "F",
+          "O",
+          "I",
+          "J",
+          "D",
+          "V",
+          "N",
+          "W"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "DREAM",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "BT"
+        },
+        {
+          "word": "HAT",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "VINE",
+          "startRow": 6,
+          "startCol": 8,
+          "direction": "RL"
+        },
+        {
+          "word": "CLOD",
+          "startRow": 4,
+          "startCol": 6,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "NET",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "BT"
+        },
+        {
+          "word": "RED",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 464,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "KITE",
+        "ELM",
+        "CALL",
+        "PEAT",
+        "PURPLE",
+        "DUSK",
+        "GNU"
+      ],
+      "grid": [
+        [
+          "A",
+          "H",
+          "G",
+          "Q",
+          "K",
+          "T",
+          "H",
+          "P",
+          "N"
+        ],
+        [
+          "X",
+          "P",
+          "C",
+          "H",
+          "J",
+          "H",
+          "T",
+          "E",
+          "P"
+        ],
+        [
+          "Y",
+          "H",
+          "X",
+          "Y",
+          "P",
+          "G",
+          "B",
+          "A",
+          "U"
+        ],
+        [
+          "A",
+          "T",
+          "L",
+          "R",
+          "U",
+          "P",
+          "P",
+          "T",
+          "B"
+        ],
+        [
+          "C",
+          "I",
+          "A",
+          "K",
+          "U",
+          "G",
+          "B",
+          "S",
+          "F"
+        ],
+        [
+          "E",
+          "L",
+          "M",
+          "R",
+          "S",
+          "Q",
+          "L",
+          "C",
+          "K"
+        ],
+        [
+          "G",
+          "D",
+          "P",
+          "J",
+          "G",
+          "U",
+          "U",
+          "A",
+          "I"
+        ],
+        [
+          "M",
+          "L",
+          "K",
+          "R",
+          "N",
+          "F",
+          "D",
+          "L",
+          "T"
+        ],
+        [
+          "E",
+          "L",
+          "V",
+          "K",
+          "U",
+          "L",
+          "O",
+          "L",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "KITE",
+          "startRow": 5,
+          "startCol": 8,
+          "direction": "TB"
+        },
+        {
+          "word": "ELM",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "CALL",
+          "startRow": 5,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "PEAT",
+          "startRow": 0,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "PURPLE",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "DUSK",
+          "startRow": 7,
+          "startCol": 6,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "GNU",
+          "startRow": 6,
+          "startCol": 4,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 465,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "REEF",
+        "FROG",
+        "DRUM",
+        "PEACH",
+        "MOLE",
+        "SEED",
+        "CAGE"
+      ],
+      "grid": [
+        [
+          "T",
+          "D",
+          "X",
+          "P",
+          "E",
+          "A",
+          "C",
+          "H",
+          "I"
+        ],
+        [
+          "L",
+          "C",
+          "M",
+          "F",
+          "L",
+          "D",
+          "Q",
+          "H",
+          "B"
+        ],
+        [
+          "N",
+          "I",
+          "U",
+          "W",
+          "N",
+          "M",
+          "O",
+          "L",
+          "E"
+        ],
+        [
+          "M",
+          "S",
+          "R",
+          "G",
+          "D",
+          "F",
+          "V",
+          "L",
+          "M"
+        ],
+        [
+          "Q",
+          "C",
+          "D",
+          "D",
+          "R",
+          "V",
+          "E",
+          "F",
+          "R"
+        ],
+        [
+          "T",
+          "A",
+          "H",
+          "X",
+          "E",
+          "A",
+          "E",
+          "E",
+          "N"
+        ],
+        [
+          "N",
+          "G",
+          "C",
+          "L",
+          "W",
+          "E",
+          "O",
+          "N",
+          "R"
+        ],
+        [
+          "R",
+          "E",
+          "N",
+          "M",
+          "A",
+          "S",
+          "S",
+          "H",
+          "T"
+        ],
+        [
+          "A",
+          "N",
+          "I",
+          "C",
+          "R",
+          "F",
+          "R",
+          "O",
+          "G"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "REEF",
+          "startRow": 6,
+          "startCol": 8,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "FROG",
+          "startRow": 8,
+          "startCol": 5,
+          "direction": "LR"
+        },
+        {
+          "word": "DRUM",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "BT"
+        },
+        {
+          "word": "PEACH",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "MOLE",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "LR"
+        },
+        {
+          "word": "SEED",
+          "startRow": 7,
+          "startCol": 6,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "CAGE",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 466,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "DEER",
+        "WICK",
+        "HARE",
+        "SOFA",
+        "PEAT",
+        "JAY"
+      ],
+      "grid": [
+        [
+          "Q",
+          "S",
+          "M",
+          "F",
+          "Y",
+          "O",
+          "D",
+          "A",
+          "M"
+        ],
+        [
+          "Y",
+          "Q",
+          "M",
+          "D",
+          "A",
+          "A",
+          "E",
+          "E",
+          "D"
+        ],
+        [
+          "C",
+          "M",
+          "M",
+          "I",
+          "X",
+          "L",
+          "J",
+          "E",
+          "G"
+        ],
+        [
+          "X",
+          "L",
+          "I",
+          "U",
+          "P",
+          "E",
+          "E",
+          "W",
+          "F"
+        ],
+        [
+          "F",
+          "H",
+          "A",
+          "R",
+          "E",
+          "R",
+          "K",
+          "B",
+          "I"
+        ],
+        [
+          "Q",
+          "Q",
+          "S",
+          "K",
+          "B",
+          "T",
+          "S",
+          "Y",
+          "V"
+        ],
+        [
+          "R",
+          "R",
+          "C",
+          "X",
+          "K",
+          "R",
+          "A",
+          "N",
+          "I"
+        ],
+        [
+          "Q",
+          "I",
+          "L",
+          "J",
+          "M",
+          "H",
+          "T",
+          "E",
+          "E"
+        ],
+        [
+          "W",
+          "X",
+          "S",
+          "O",
+          "F",
+          "A",
+          "L",
+          "X",
+          "P"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "DEER",
+          "startRow": 1,
+          "startCol": 8,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "WICK",
+          "startRow": 8,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "HARE",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "SOFA",
+          "startRow": 8,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "PEAT",
+          "startRow": 8,
+          "startCol": 8,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "JAY",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "DIAG_UP_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 467,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "WREN",
+        "KITE",
+        "PURPLE",
+        "PEAT",
+        "HONEY",
+        "SONG"
+      ],
+      "grid": [
+        [
+          "H",
+          "O",
+          "N",
+          "E",
+          "Y",
+          "T",
+          "A",
+          "E",
+          "P"
+        ],
+        [
+          "R",
+          "R",
+          "G",
+          "K",
+          "I",
+          "T",
+          "E",
+          "Z",
+          "H"
+        ],
+        [
+          "A",
+          "X",
+          "Y",
+          "L",
+          "G",
+          "S",
+          "X",
+          "M",
+          "Q"
+        ],
+        [
+          "K",
+          "N",
+          "T",
+          "W",
+          "P",
+          "U",
+          "T",
+          "Y",
+          "U"
+        ],
+        [
+          "A",
+          "S",
+          "R",
+          "R",
+          "U",
+          "C",
+          "H",
+          "A",
+          "D"
+        ],
+        [
+          "V",
+          "E",
+          "C",
+          "Y",
+          "R",
+          "J",
+          "D",
+          "G",
+          "I"
+        ],
+        [
+          "N",
+          "L",
+          "L",
+          "J",
+          "P",
+          "G",
+          "N",
+          "O",
+          "S"
+        ],
+        [
+          "D",
+          "I",
+          "E",
+          "S",
+          "L",
+          "V",
+          "F",
+          "I",
+          "E"
+        ],
+        [
+          "E",
+          "O",
+          "J",
+          "F",
+          "E",
+          "Q",
+          "M",
+          "T",
+          "D"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "WREN",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "KITE",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "PURPLE",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "PEAT",
+          "startRow": 0,
+          "startCol": 8,
+          "direction": "RL"
+        },
+        {
+          "word": "HONEY",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "SONG",
+          "startRow": 6,
+          "startCol": 8,
+          "direction": "RL"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 468,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "PAN",
+        "DEW",
+        "STEM",
+        "FISH",
+        "PIPE",
+        "GOAT"
+      ],
+      "grid": [
+        [
+          "I",
+          "X",
+          "E",
+          "Y",
+          "T",
+          "B",
+          "W",
+          "E",
+          "N"
+        ],
+        [
+          "R",
+          "E",
+          "H",
+          "L",
+          "B",
+          "E",
+          "X",
+          "P",
+          "O"
+        ],
+        [
+          "D",
+          "S",
+          "C",
+          "S",
+          "D",
+          "S",
+          "U",
+          "I",
+          "F"
+        ],
+        [
+          "W",
+          "V",
+          "T",
+          "F",
+          "V",
+          "I",
+          "S",
+          "P",
+          "R"
+        ],
+        [
+          "N",
+          "E",
+          "G",
+          "U",
+          "M",
+          "H",
+          "S",
+          "I",
+          "F"
+        ],
+        [
+          "M",
+          "K",
+          "U",
+          "O",
+          "O",
+          "P",
+          "L",
+          "X",
+          "R"
+        ],
+        [
+          "I",
+          "F",
+          "X",
+          "P",
+          "A",
+          "T",
+          "G",
+          "J",
+          "F"
+        ],
+        [
+          "I",
+          "X",
+          "A",
+          "S",
+          "C",
+          "T",
+          "N",
+          "F",
+          "R"
+        ],
+        [
+          "I",
+          "N",
+          "H",
+          "I",
+          "K",
+          "P",
+          "Y",
+          "T",
+          "G"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PAN",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "DEW",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "STEM",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "FISH",
+          "startRow": 4,
+          "startCol": 8,
+          "direction": "RL"
+        },
+        {
+          "word": "PIPE",
+          "startRow": 3,
+          "startCol": 7,
+          "direction": "BT"
+        },
+        {
+          "word": "GOAT",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 469,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "CART",
+        "GEAR",
+        "MINT",
+        "WATER",
+        "BELL",
+        "NEST"
+      ],
+      "grid": [
+        [
+          "X",
+          "R",
+          "K",
+          "G",
+          "E",
+          "A",
+          "R",
+          "G",
+          "Y"
+        ],
+        [
+          "W",
+          "G",
+          "Z",
+          "V",
+          "V",
+          "L",
+          "R",
+          "E",
+          "T"
+        ],
+        [
+          "C",
+          "A",
+          "N",
+          "I",
+          "L",
+          "Z",
+          "R",
+          "J",
+          "S"
+        ],
+        [
+          "A",
+          "F",
+          "T",
+          "E",
+          "E",
+          "N",
+          "A",
+          "A",
+          "E"
+        ],
+        [
+          "R",
+          "L",
+          "B",
+          "E",
+          "Z",
+          "B",
+          "S",
+          "S",
+          "N"
+        ],
+        [
+          "T",
+          "S",
+          "N",
+          "G",
+          "R",
+          "G",
+          "G",
+          "A",
+          "M"
+        ],
+        [
+          "V",
+          "K",
+          "N",
+          "T",
+          "N",
+          "I",
+          "M",
+          "X",
+          "P"
+        ],
+        [
+          "X",
+          "C",
+          "H",
+          "T",
+          "O",
+          "Q",
+          "F",
+          "N",
+          "D"
+        ],
+        [
+          "E",
+          "T",
+          "P",
+          "Q",
+          "Y",
+          "D",
+          "M",
+          "H",
+          "R"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CART",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "GEAR",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "MINT",
+          "startRow": 6,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "WATER",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BELL",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "NEST",
+          "startRow": 4,
+          "startCol": 8,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 470,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "DEW",
+        "HONEY",
+        "BAG",
+        "CLOD",
+        "WATER"
+      ],
+      "grid": [
+        [
+          "E",
+          "J",
+          "G",
+          "B",
+          "Y",
+          "F",
+          "H",
+          "H",
+          "T"
+        ],
+        [
+          "M",
+          "A",
+          "Q",
+          "I",
+          "H",
+          "Z",
+          "O",
+          "V",
+          "N"
+        ],
+        [
+          "B",
+          "I",
+          "Z",
+          "W",
+          "D",
+          "N",
+          "Q",
+          "H",
+          "B"
+        ],
+        [
+          "R",
+          "D",
+          "C",
+          "U",
+          "E",
+          "C",
+          "S",
+          "A",
+          "T"
+        ],
+        [
+          "W",
+          "T",
+          "E",
+          "Y",
+          "N",
+          "E",
+          "B",
+          "D",
+          "L"
+        ],
+        [
+          "A",
+          "H",
+          "Q",
+          "W",
+          "F",
+          "K",
+          "O",
+          "B",
+          "V"
+        ],
+        [
+          "T",
+          "B",
+          "D",
+          "N",
+          "B",
+          "L",
+          "J",
+          "I",
+          "Z"
+        ],
+        [
+          "E",
+          "U",
+          "W",
+          "R",
+          "C",
+          "Y",
+          "U",
+          "L",
+          "O"
+        ],
+        [
+          "R",
+          "S",
+          "Z",
+          "A",
+          "P",
+          "Q",
+          "B",
+          "J",
+          "N"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "DEW",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "HONEY",
+          "startRow": 0,
+          "startCol": 7,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "BAG",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CLOD",
+          "startRow": 7,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "WATER",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 471,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "BOX",
+        "HILL",
+        "GALAXIES",
+        "BOOT",
+        "STEP"
+      ],
+      "grid": [
+        [
+          "U",
+          "D",
+          "S",
+          "K",
+          "E",
+          "D",
+          "E",
+          "P",
+          "M"
+        ],
+        [
+          "G",
+          "L",
+          "B",
+          "A",
+          "B",
+          "H",
+          "O",
+          "P",
+          "I"
+        ],
+        [
+          "A",
+          "A",
+          "D",
+          "Z",
+          "I",
+          "O",
+          "J",
+          "H",
+          "X"
+        ],
+        [
+          "B",
+          "D",
+          "L",
+          "L",
+          "E",
+          "B",
+          "O",
+          "Z",
+          "X"
+        ],
+        [
+          "O",
+          "K",
+          "L",
+          "A",
+          "Q",
+          "Z",
+          "I",
+          "T",
+          "R"
+        ],
+        [
+          "X",
+          "Y",
+          "G",
+          "P",
+          "X",
+          "P",
+          "U",
+          "Y",
+          "U"
+        ],
+        [
+          "H",
+          "N",
+          "E",
+          "M",
+          "L",
+          "I",
+          "I",
+          "U",
+          "V"
+        ],
+        [
+          "M",
+          "T",
+          "J",
+          "J",
+          "X",
+          "O",
+          "E",
+          "D",
+          "P"
+        ],
+        [
+          "S",
+          "A",
+          "C",
+          "U",
+          "Y",
+          "C",
+          "A",
+          "S",
+          "B"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BOX",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "HILL",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "GALAXIES",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BOOT",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "STEP",
+          "startRow": 8,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 472,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "RAIN",
+        "COIN",
+        "JAY",
+        "DREAM",
+        "WOOD",
+        "BAT"
+      ],
+      "grid": [
+        [
+          "G",
+          "X",
+          "L",
+          "W",
+          "G",
+          "F",
+          "T",
+          "S",
+          "P"
+        ],
+        [
+          "R",
+          "A",
+          "I",
+          "N",
+          "R",
+          "A",
+          "S",
+          "J",
+          "C"
+        ],
+        [
+          "D",
+          "O",
+          "D",
+          "I",
+          "M",
+          "K",
+          "Y",
+          "Z",
+          "C"
+        ],
+        [
+          "A",
+          "D",
+          "Z",
+          "W",
+          "H",
+          "A",
+          "P",
+          "S",
+          "F"
+        ],
+        [
+          "I",
+          "D",
+          "T",
+          "O",
+          "J",
+          "F",
+          "E",
+          "G",
+          "F"
+        ],
+        [
+          "U",
+          "Y",
+          "Q",
+          "O",
+          "F",
+          "D",
+          "A",
+          "R",
+          "Q"
+        ],
+        [
+          "U",
+          "A",
+          "F",
+          "D",
+          "C",
+          "B",
+          "P",
+          "Q",
+          "D"
+        ],
+        [
+          "G",
+          "C",
+          "O",
+          "I",
+          "N",
+          "A",
+          "N",
+          "W",
+          "J"
+        ],
+        [
+          "D",
+          "M",
+          "D",
+          "Z",
+          "Y",
+          "T",
+          "K",
+          "C",
+          "A"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "RAIN",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "COIN",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "JAY",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "DREAM",
+          "startRow": 6,
+          "startCol": 8,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "WOOD",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "BAT",
+          "startRow": 6,
+          "startCol": 5,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 473,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "RING",
+        "NAIL",
+        "CORD",
+        "BELT",
+        "HAIL",
+        "CAMEL"
+      ],
+      "grid": [
+        [
+          "M",
+          "D",
+          "Q",
+          "Z",
+          "V",
+          "L",
+          "B",
+          "C",
+          "R"
+        ],
+        [
+          "T",
+          "F",
+          "N",
+          "A",
+          "L",
+          "P",
+          "O",
+          "I",
+          "I"
+        ],
+        [
+          "N",
+          "Q",
+          "C",
+          "E",
+          "L",
+          "R",
+          "N",
+          "Y",
+          "K"
+        ],
+        [
+          "D",
+          "A",
+          "M",
+          "L",
+          "D",
+          "G",
+          "G",
+          "T",
+          "B"
+        ],
+        [
+          "P",
+          "A",
+          "I",
+          "V",
+          "H",
+          "W",
+          "N",
+          "O",
+          "C"
+        ],
+        [
+          "C",
+          "A",
+          "Z",
+          "L",
+          "I",
+          "F",
+          "W",
+          "Q",
+          "O"
+        ],
+        [
+          "H",
+          "Q",
+          "A",
+          "S",
+          "D",
+          "J",
+          "Y",
+          "C",
+          "Y"
+        ],
+        [
+          "Y",
+          "O",
+          "T",
+          "L",
+          "E",
+          "B",
+          "B",
+          "Y",
+          "F"
+        ],
+        [
+          "W",
+          "Z",
+          "D",
+          "Q",
+          "W",
+          "I",
+          "F",
+          "H",
+          "O"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "RING",
+          "startRow": 0,
+          "startCol": 8,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "NAIL",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "CORD",
+          "startRow": 0,
+          "startCol": 7,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "BELT",
+          "startRow": 7,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "HAIL",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CAMEL",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 474,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "PINK",
+        "YAK",
+        "MILK",
+        "MAP",
+        "PAN",
+        "GEAR",
+        "OWL"
+      ],
+      "grid": [
+        [
+          "Y",
+          "O",
+          "M",
+          "J",
+          "T",
+          "P",
+          "X",
+          "A",
+          "W"
+        ],
+        [
+          "D",
+          "A",
+          "G",
+          "H",
+          "T",
+          "F",
+          "S",
+          "U",
+          "R"
+        ],
+        [
+          "P",
+          "H",
+          "P",
+          "A",
+          "B",
+          "Z",
+          "Y",
+          "P",
+          "C"
+        ],
+        [
+          "T",
+          "A",
+          "Y",
+          "P",
+          "O",
+          "S",
+          "F",
+          "R",
+          "F"
+        ],
+        [
+          "N",
+          "O",
+          "I",
+          "A",
+          "Y",
+          "Y",
+          "P",
+          "T",
+          "J"
+        ],
+        [
+          "I",
+          "N",
+          "W",
+          "M",
+          "K",
+          "Q",
+          "P",
+          "F",
+          "G"
+        ],
+        [
+          "K",
+          "I",
+          "M",
+          "L",
+          "E",
+          "F",
+          "N",
+          "X",
+          "X"
+        ],
+        [
+          "M",
+          "M",
+          "I",
+          "L",
+          "K",
+          "W",
+          "C",
+          "K",
+          "M"
+        ],
+        [
+          "J",
+          "H",
+          "O",
+          "I",
+          "G",
+          "E",
+          "A",
+          "R",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PINK",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "YAK",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "MILK",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "MAP",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "PAN",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "GEAR",
+          "startRow": 8,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "OWL",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 475,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "CAKE",
+        "DOG",
+        "CORN",
+        "BED",
+        "CROP",
+        "ROD"
+      ],
+      "grid": [
+        [
+          "U",
+          "W",
+          "F",
+          "B",
+          "N",
+          "A",
+          "X",
+          "R",
+          "C"
+        ],
+        [
+          "M",
+          "H",
+          "B",
+          "B",
+          "X",
+          "D",
+          "O",
+          "R",
+          "B"
+        ],
+        [
+          "Y",
+          "N",
+          "D",
+          "E",
+          "V",
+          "S",
+          "M",
+          "G",
+          "W"
+        ],
+        [
+          "J",
+          "J",
+          "I",
+          "D",
+          "Z",
+          "J",
+          "H",
+          "O",
+          "P"
+        ],
+        [
+          "S",
+          "K",
+          "Y",
+          "T",
+          "J",
+          "I",
+          "I",
+          "D",
+          "O"
+        ],
+        [
+          "N",
+          "H",
+          "R",
+          "C",
+          "A",
+          "K",
+          "E",
+          "P",
+          "R"
+        ],
+        [
+          "R",
+          "I",
+          "E",
+          "X",
+          "B",
+          "U",
+          "E",
+          "S",
+          "C"
+        ],
+        [
+          "O",
+          "V",
+          "G",
+          "W",
+          "M",
+          "W",
+          "R",
+          "P",
+          "Z"
+        ],
+        [
+          "C",
+          "T",
+          "S",
+          "G",
+          "S",
+          "L",
+          "S",
+          "F",
+          "Z"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CAKE",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "DOG",
+          "startRow": 4,
+          "startCol": 7,
+          "direction": "BT"
+        },
+        {
+          "word": "CORN",
+          "startRow": 8,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "BED",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "CROP",
+          "startRow": 6,
+          "startCol": 8,
+          "direction": "BT"
+        },
+        {
+          "word": "ROD",
+          "startRow": 1,
+          "startCol": 7,
+          "direction": "RL"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 476,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "NEST",
+        "SAND",
+        "WORM",
+        "HILL",
+        "GEAR"
+      ],
+      "grid": [
+        [
+          "H",
+          "R",
+          "T",
+          "S",
+          "E",
+          "N",
+          "J",
+          "A",
+          "Y"
+        ],
+        [
+          "V",
+          "V",
+          "K",
+          "I",
+          "D",
+          "O",
+          "M",
+          "Z",
+          "V"
+        ],
+        [
+          "A",
+          "J",
+          "D",
+          "S",
+          "G",
+          "R",
+          "Q",
+          "T",
+          "H"
+        ],
+        [
+          "P",
+          "D",
+          "N",
+          "Z",
+          "O",
+          "K",
+          "P",
+          "Y",
+          "F"
+        ],
+        [
+          "O",
+          "O",
+          "U",
+          "W",
+          "C",
+          "L",
+          "D",
+          "T",
+          "B"
+        ],
+        [
+          "G",
+          "H",
+          "I",
+          "L",
+          "L",
+          "Q",
+          "N",
+          "D",
+          "S"
+        ],
+        [
+          "R",
+          "E",
+          "E",
+          "Q",
+          "H",
+          "F",
+          "A",
+          "T",
+          "E"
+        ],
+        [
+          "G",
+          "P",
+          "A",
+          "L",
+          "U",
+          "P",
+          "S",
+          "H",
+          "H"
+        ],
+        [
+          "I",
+          "B",
+          "P",
+          "R",
+          "F",
+          "X",
+          "W",
+          "Z",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "NEST",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "SAND",
+          "startRow": 7,
+          "startCol": 6,
+          "direction": "BT"
+        },
+        {
+          "word": "WORM",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "HILL",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "GEAR",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 477,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "BULL",
+        "WREN",
+        "CLOD",
+        "GRID",
+        "LEAF",
+        "ZEBRA"
+      ],
+      "grid": [
+        [
+          "N",
+          "P",
+          "Y",
+          "W",
+          "F",
+          "A",
+          "E",
+          "L",
+          "U"
+        ],
+        [
+          "K",
+          "X",
+          "F",
+          "V",
+          "L",
+          "L",
+          "N",
+          "N",
+          "R"
+        ],
+        [
+          "L",
+          "N",
+          "Q",
+          "Z",
+          "B",
+          "A",
+          "L",
+          "T",
+          "V"
+        ],
+        [
+          "H",
+          "A",
+          "A",
+          "R",
+          "D",
+          "A",
+          "O",
+          "U",
+          "S"
+        ],
+        [
+          "G",
+          "I",
+          "D",
+          "K",
+          "R",
+          "O",
+          "R",
+          "S",
+          "B"
+        ],
+        [
+          "R",
+          "G",
+          "T",
+          "B",
+          "N",
+          "O",
+          "L",
+          "S",
+          "Q"
+        ],
+        [
+          "I",
+          "J",
+          "E",
+          "J",
+          "E",
+          "R",
+          "I",
+          "C",
+          "Y"
+        ],
+        [
+          "D",
+          "Z",
+          "G",
+          "U",
+          "R",
+          "U",
+          "P",
+          "W",
+          "Z"
+        ],
+        [
+          "F",
+          "U",
+          "A",
+          "Y",
+          "W",
+          "E",
+          "A",
+          "A",
+          "Z"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BULL",
+          "startRow": 4,
+          "startCol": 8,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "WREN",
+          "startRow": 8,
+          "startCol": 4,
+          "direction": "BT"
+        },
+        {
+          "word": "CLOD",
+          "startRow": 6,
+          "startCol": 7,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "GRID",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "LEAF",
+          "startRow": 0,
+          "startCol": 7,
+          "direction": "RL"
+        },
+        {
+          "word": "ZEBRA",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 478,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "POT",
+        "FOG",
+        "PIZZA",
+        "VALE",
+        "CLAY"
+      ],
+      "grid": [
+        [
+          "B",
+          "E",
+          "I",
+          "N",
+          "O",
+          "W",
+          "D",
+          "Z",
+          "A"
+        ],
+        [
+          "M",
+          "V",
+          "B",
+          "C",
+          "K",
+          "O",
+          "S",
+          "F",
+          "X"
+        ],
+        [
+          "W",
+          "A",
+          "G",
+          "S",
+          "C",
+          "S",
+          "P",
+          "O",
+          "T"
+        ],
+        [
+          "D",
+          "J",
+          "I",
+          "O",
+          "A",
+          "Z",
+          "Z",
+          "I",
+          "P"
+        ],
+        [
+          "U",
+          "V",
+          "O",
+          "C",
+          "F",
+          "Y",
+          "S",
+          "O",
+          "X"
+        ],
+        [
+          "W",
+          "W",
+          "A",
+          "G",
+          "C",
+          "Z",
+          "L",
+          "O",
+          "M"
+        ],
+        [
+          "U",
+          "H",
+          "J",
+          "L",
+          "T",
+          "F",
+          "R",
+          "O",
+          "M"
+        ],
+        [
+          "N",
+          "W",
+          "A",
+          "D",
+          "E",
+          "G",
+          "Q",
+          "B",
+          "W"
+        ],
+        [
+          "I",
+          "Y",
+          "A",
+          "Q",
+          "E",
+          "A",
+          "W",
+          "A",
+          "F"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "POT",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "LR"
+        },
+        {
+          "word": "FOG",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "PIZZA",
+          "startRow": 3,
+          "startCol": 8,
+          "direction": "RL"
+        },
+        {
+          "word": "VALE",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "CLAY",
+          "startRow": 5,
+          "startCol": 4,
+          "direction": "DIAG_DOWN_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 479,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "ICE",
+        "STORM",
+        "DUSK",
+        "WIND",
+        "WIRE"
+      ],
+      "grid": [
+        [
+          "Y",
+          "W",
+          "W",
+          "O",
+          "D",
+          "D",
+          "R",
+          "Z",
+          "O"
+        ],
+        [
+          "L",
+          "O",
+          "M",
+          "N",
+          "U",
+          "A",
+          "F",
+          "S",
+          "H"
+        ],
+        [
+          "Q",
+          "I",
+          "I",
+          "S",
+          "Z",
+          "C",
+          "M",
+          "O",
+          "Y"
+        ],
+        [
+          "X",
+          "W",
+          "K",
+          "R",
+          "M",
+          "L",
+          "R",
+          "X",
+          "L"
+        ],
+        [
+          "F",
+          "O",
+          "L",
+          "N",
+          "L",
+          "Z",
+          "O",
+          "R",
+          "Y"
+        ],
+        [
+          "S",
+          "E",
+          "C",
+          "P",
+          "R",
+          "J",
+          "T",
+          "K",
+          "L"
+        ],
+        [
+          "F",
+          "W",
+          "R",
+          "T",
+          "G",
+          "I",
+          "S",
+          "H",
+          "K"
+        ],
+        [
+          "W",
+          "E",
+          "Q",
+          "I",
+          "P",
+          "C",
+          "X",
+          "E",
+          "A"
+        ],
+        [
+          "C",
+          "K",
+          "Y",
+          "N",
+          "W",
+          "E",
+          "X",
+          "C",
+          "Y"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "ICE",
+          "startRow": 6,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "STORM",
+          "startRow": 6,
+          "startCol": 6,
+          "direction": "BT"
+        },
+        {
+          "word": "DUSK",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "WIND",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "WIRE",
+          "startRow": 8,
+          "startCol": 4,
+          "direction": "DIAG_UP_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 480,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "WIRE",
+        "BUCK",
+        "CORN",
+        "MINE",
+        "PIG",
+        "TIN",
+        "WOOL"
+      ],
+      "grid": [
+        [
+          "S",
+          "B",
+          "Q",
+          "W",
+          "F",
+          "F",
+          "U",
+          "B",
+          "O"
+        ],
+        [
+          "G",
+          "A",
+          "P",
+          "F",
+          "C",
+          "B",
+          "U",
+          "C",
+          "K"
+        ],
+        [
+          "I",
+          "I",
+          "W",
+          "H",
+          "A",
+          "J",
+          "B",
+          "E",
+          "L"
+        ],
+        [
+          "Y",
+          "A",
+          "P",
+          "I",
+          "H",
+          "Y",
+          "W",
+          "N",
+          "R"
+        ],
+        [
+          "W",
+          "Q",
+          "E",
+          "Y",
+          "R",
+          "O",
+          "F",
+          "I",
+          "U"
+        ],
+        [
+          "V",
+          "C",
+          "K",
+          "I",
+          "O",
+          "E",
+          "N",
+          "M",
+          "I"
+        ],
+        [
+          "N",
+          "R",
+          "O",
+          "L",
+          "E",
+          "I",
+          "Y",
+          "V",
+          "R"
+        ],
+        [
+          "C",
+          "J",
+          "R",
+          "R",
+          "T",
+          "G",
+          "K",
+          "B",
+          "R"
+        ],
+        [
+          "P",
+          "D",
+          "O",
+          "H",
+          "N",
+          "T",
+          "C",
+          "C",
+          "G"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "WIRE",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BUCK",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "LR"
+        },
+        {
+          "word": "CORN",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "MINE",
+          "startRow": 5,
+          "startCol": 7,
+          "direction": "BT"
+        },
+        {
+          "word": "PIG",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "TIN",
+          "startRow": 7,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "WOOL",
+          "startRow": 3,
+          "startCol": 6,
+          "direction": "DIAG_DOWN_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 481,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "BALL",
+        "FORK",
+        "SAW",
+        "MAZE",
+        "PLAN",
+        "DESERT"
+      ],
+      "grid": [
+        [
+          "S",
+          "X",
+          "D",
+          "S",
+          "D",
+          "M",
+          "A",
+          "Z",
+          "E"
+        ],
+        [
+          "T",
+          "O",
+          "J",
+          "R",
+          "J",
+          "G",
+          "W",
+          "F",
+          "L"
+        ],
+        [
+          "R",
+          "W",
+          "F",
+          "P",
+          "S",
+          "D",
+          "O",
+          "K",
+          "L"
+        ],
+        [
+          "E",
+          "C",
+          "L",
+          "Q",
+          "A",
+          "X",
+          "A",
+          "N",
+          "A"
+        ],
+        [
+          "S",
+          "P",
+          "R",
+          "K",
+          "W",
+          "P",
+          "R",
+          "A",
+          "B"
+        ],
+        [
+          "E",
+          "H",
+          "Z",
+          "O",
+          "R",
+          "O",
+          "M",
+          "L",
+          "B"
+        ],
+        [
+          "D",
+          "S",
+          "C",
+          "S",
+          "N",
+          "O",
+          "M",
+          "P",
+          "T"
+        ],
+        [
+          "G",
+          "Z",
+          "Q",
+          "K",
+          "S",
+          "G",
+          "F",
+          "H",
+          "K"
+        ],
+        [
+          "U",
+          "T",
+          "S",
+          "V",
+          "Z",
+          "P",
+          "S",
+          "H",
+          "I"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BALL",
+          "startRow": 4,
+          "startCol": 8,
+          "direction": "BT"
+        },
+        {
+          "word": "FORK",
+          "startRow": 7,
+          "startCol": 6,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "SAW",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "MAZE",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "LR"
+        },
+        {
+          "word": "PLAN",
+          "startRow": 6,
+          "startCol": 7,
+          "direction": "BT"
+        },
+        {
+          "word": "DESERT",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 482,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "ROPE",
+        "EEL",
+        "SWEET",
+        "MAZE",
+        "LION",
+        "SNOW",
+        "HOOK"
+      ],
+      "grid": [
+        [
+          "Y",
+          "Z",
+          "R",
+          "W",
+          "K",
+          "W",
+          "Y",
+          "D",
+          "G"
+        ],
+        [
+          "U",
+          "E",
+          "P",
+          "O",
+          "R",
+          "Q",
+          "X",
+          "M",
+          "B"
+        ],
+        [
+          "S",
+          "H",
+          "O",
+          "Z",
+          "R",
+          "C",
+          "Y",
+          "A",
+          "P"
+        ],
+        [
+          "J",
+          "H",
+          "G",
+          "E",
+          "E",
+          "L",
+          "R",
+          "D",
+          "J"
+        ],
+        [
+          "Y",
+          "U",
+          "S",
+          "S",
+          "X",
+          "D",
+          "S",
+          "Q",
+          "K"
+        ],
+        [
+          "X",
+          "Q",
+          "N",
+          "W",
+          "S",
+          "L",
+          "E",
+          "V",
+          "A"
+        ],
+        [
+          "W",
+          "O",
+          "M",
+          "M",
+          "E",
+          "Z",
+          "I",
+          "N",
+          "J"
+        ],
+        [
+          "W",
+          "A",
+          "C",
+          "S",
+          "A",
+          "E",
+          "K",
+          "O",
+          "L"
+        ],
+        [
+          "V",
+          "Y",
+          "Z",
+          "M",
+          "G",
+          "I",
+          "T",
+          "K",
+          "N"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "ROPE",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "EEL",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "SWEET",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "MAZE",
+          "startRow": 8,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "LION",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "SNOW",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "HOOK",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 483,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "APE",
+        "KITE",
+        "KOI",
+        "WASP",
+        "MINT",
+        "STORM",
+        "HOOD"
+      ],
+      "grid": [
+        [
+          "U",
+          "P",
+          "E",
+          "M",
+          "Q",
+          "B",
+          "I",
+          "F",
+          "C"
+        ],
+        [
+          "H",
+          "E",
+          "U",
+          "M",
+          "R",
+          "W",
+          "Q",
+          "H",
+          "T"
+        ],
+        [
+          "O",
+          "T",
+          "L",
+          "V",
+          "I",
+          "O",
+          "L",
+          "L",
+          "M"
+        ],
+        [
+          "O",
+          "I",
+          "J",
+          "W",
+          "O",
+          "K",
+          "T",
+          "T",
+          "R"
+        ],
+        [
+          "D",
+          "K",
+          "P",
+          "S",
+          "A",
+          "W",
+          "O",
+          "S",
+          "W"
+        ],
+        [
+          "T",
+          "O",
+          "W",
+          "B",
+          "O",
+          "A",
+          "Q",
+          "I",
+          "T"
+        ],
+        [
+          "E",
+          "W",
+          "G",
+          "U",
+          "Q",
+          "L",
+          "U",
+          "N",
+          "N"
+        ],
+        [
+          "I",
+          "X",
+          "E",
+          "V",
+          "K",
+          "C",
+          "I",
+          "Y",
+          "G"
+        ],
+        [
+          "T",
+          "Q",
+          "N",
+          "Q",
+          "C",
+          "M",
+          "A",
+          "P",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "APE",
+          "startRow": 8,
+          "startCol": 6,
+          "direction": "LR"
+        },
+        {
+          "word": "KITE",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "BT"
+        },
+        {
+          "word": "KOI",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "WASP",
+          "startRow": 4,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "MINT",
+          "startRow": 8,
+          "startCol": 5,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "STORM",
+          "startRow": 4,
+          "startCol": 7,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "HOOD",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 484,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "IVY",
+        "DREAM",
+        "BANANA",
+        "WOOL",
+        "SALT"
+      ],
+      "grid": [
+        [
+          "W",
+          "G",
+          "B",
+          "O",
+          "C",
+          "J",
+          "H",
+          "E",
+          "J"
+        ],
+        [
+          "O",
+          "H",
+          "A",
+          "N",
+          "Y",
+          "I",
+          "P",
+          "Y",
+          "Y"
+        ],
+        [
+          "A",
+          "P",
+          "N",
+          "V",
+          "V",
+          "T",
+          "X",
+          "W",
+          "W"
+        ],
+        [
+          "C",
+          "F",
+          "A",
+          "I",
+          "I",
+          "L",
+          "K",
+          "D",
+          "G"
+        ],
+        [
+          "Q",
+          "D",
+          "N",
+          "G",
+          "E",
+          "A",
+          "R",
+          "J",
+          "S"
+        ],
+        [
+          "N",
+          "R",
+          "A",
+          "T",
+          "J",
+          "S",
+          "N",
+          "W",
+          "M"
+        ],
+        [
+          "L",
+          "E",
+          "Y",
+          "S",
+          "E",
+          "H",
+          "E",
+          "O",
+          "P"
+        ],
+        [
+          "O",
+          "A",
+          "S",
+          "Z",
+          "Y",
+          "O",
+          "G",
+          "O",
+          "O"
+        ],
+        [
+          "M",
+          "M",
+          "W",
+          "L",
+          "V",
+          "L",
+          "T",
+          "L",
+          "J"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "IVY",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "BT"
+        },
+        {
+          "word": "DREAM",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "BANANA",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "WOOL",
+          "startRow": 5,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "SALT",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 485,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "EEL",
+        "PONY",
+        "WORD",
+        "CLOUDS",
+        "BEE",
+        "TUB",
+        "HOOD"
+      ],
+      "grid": [
+        [
+          "Q",
+          "N",
+          "M",
+          "D",
+          "V",
+          "F",
+          "F",
+          "W",
+          "H"
+        ],
+        [
+          "E",
+          "Z",
+          "L",
+          "Q",
+          "T",
+          "U",
+          "B",
+          "S",
+          "A"
+        ],
+        [
+          "W",
+          "E",
+          "E",
+          "L",
+          "E",
+          "E",
+          "B",
+          "O",
+          "A"
+        ],
+        [
+          "C",
+          "A",
+          "A",
+          "N",
+          "B",
+          "O",
+          "S",
+          "W",
+          "D"
+        ],
+        [
+          "L",
+          "H",
+          "J",
+          "G",
+          "T",
+          "P",
+          "G",
+          "J",
+          "H"
+        ],
+        [
+          "O",
+          "G",
+          "O",
+          "P",
+          "O",
+          "N",
+          "Y",
+          "V",
+          "W"
+        ],
+        [
+          "U",
+          "W",
+          "S",
+          "O",
+          "I",
+          "D",
+          "M",
+          "O",
+          "Z"
+        ],
+        [
+          "D",
+          "C",
+          "Y",
+          "Z",
+          "D",
+          "D",
+          "R",
+          "J",
+          "J"
+        ],
+        [
+          "S",
+          "A",
+          "V",
+          "N",
+          "T",
+          "D",
+          "Z",
+          "B",
+          "Z"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "EEL",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "PONY",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "WORD",
+          "startRow": 5,
+          "startCol": 8,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "CLOUDS",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "BEE",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "TUB",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "HOOD",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 486,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "GREEN",
+        "SUGAR",
+        "SHOP",
+        "ANT",
+        "GATE"
+      ],
+      "grid": [
+        [
+          "G",
+          "R",
+          "E",
+          "E",
+          "N",
+          "R",
+          "D",
+          "J",
+          "A"
+        ],
+        [
+          "H",
+          "D",
+          "S",
+          "P",
+          "I",
+          "Q",
+          "I",
+          "G",
+          "S"
+        ],
+        [
+          "E",
+          "O",
+          "H",
+          "T",
+          "N",
+          "A",
+          "O",
+          "V",
+          "U"
+        ],
+        [
+          "T",
+          "A",
+          "O",
+          "I",
+          "V",
+          "W",
+          "S",
+          "O",
+          "G"
+        ],
+        [
+          "A",
+          "M",
+          "P",
+          "L",
+          "I",
+          "Y",
+          "U",
+          "J",
+          "A"
+        ],
+        [
+          "G",
+          "U",
+          "T",
+          "L",
+          "L",
+          "V",
+          "R",
+          "L",
+          "R"
+        ],
+        [
+          "D",
+          "Y",
+          "M",
+          "M",
+          "K",
+          "F",
+          "P",
+          "H",
+          "Y"
+        ],
+        [
+          "D",
+          "G",
+          "J",
+          "W",
+          "W",
+          "P",
+          "T",
+          "L",
+          "L"
+        ],
+        [
+          "Y",
+          "Z",
+          "F",
+          "P",
+          "N",
+          "X",
+          "Y",
+          "F",
+          "W"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "GREEN",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "SUGAR",
+          "startRow": 1,
+          "startCol": 8,
+          "direction": "TB"
+        },
+        {
+          "word": "SHOP",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "ANT",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "GATE",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 487,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "DOME",
+        "RIVER",
+        "ROSE",
+        "DUCK",
+        "TIN",
+        "COMB"
+      ],
+      "grid": [
+        [
+          "L",
+          "U",
+          "Q",
+          "O",
+          "U",
+          "D",
+          "W",
+          "C",
+          "D"
+        ],
+        [
+          "B",
+          "R",
+          "F",
+          "E",
+          "R",
+          "D",
+          "W",
+          "C",
+          "M"
+        ],
+        [
+          "F",
+          "F",
+          "J",
+          "C",
+          "S",
+          "I",
+          "T",
+          "D",
+          "F"
+        ],
+        [
+          "I",
+          "J",
+          "O",
+          "D",
+          "D",
+          "O",
+          "V",
+          "G",
+          "H"
+        ],
+        [
+          "K",
+          "M",
+          "U",
+          "G",
+          "O",
+          "D",
+          "R",
+          "E",
+          "W"
+        ],
+        [
+          "B",
+          "C",
+          "K",
+          "Q",
+          "M",
+          "Q",
+          "J",
+          "T",
+          "R"
+        ],
+        [
+          "K",
+          "Z",
+          "C",
+          "G",
+          "E",
+          "A",
+          "B",
+          "I",
+          "A"
+        ],
+        [
+          "I",
+          "A",
+          "J",
+          "X",
+          "T",
+          "U",
+          "D",
+          "N",
+          "H"
+        ],
+        [
+          "S",
+          "R",
+          "Z",
+          "T",
+          "U",
+          "U",
+          "Y",
+          "W",
+          "N"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "DOME",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "RIVER",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "ROSE",
+          "startRow": 4,
+          "startCol": 6,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "DUCK",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "TIN",
+          "startRow": 5,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "COMB",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "DIAG_DOWN_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 488,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "PIG",
+        "WHALE",
+        "REEF",
+        "HAT",
+        "SHOE",
+        "SOFA"
+      ],
+      "grid": [
+        [
+          "C",
+          "R",
+          "S",
+          "I",
+          "R",
+          "L",
+          "M",
+          "C",
+          "O"
+        ],
+        [
+          "K",
+          "H",
+          "P",
+          "E",
+          "S",
+          "G",
+          "U",
+          "B",
+          "L"
+        ],
+        [
+          "R",
+          "G",
+          "E",
+          "E",
+          "O",
+          "H",
+          "U",
+          "R",
+          "W"
+        ],
+        [
+          "H",
+          "F",
+          "J",
+          "O",
+          "Q",
+          "E",
+          "O",
+          "X",
+          "S"
+        ],
+        [
+          "T",
+          "F",
+          "H",
+          "Y",
+          "L",
+          "B",
+          "P",
+          "E",
+          "A"
+        ],
+        [
+          "V",
+          "A",
+          "F",
+          "A",
+          "Z",
+          "A",
+          "Q",
+          "I",
+          "M"
+        ],
+        [
+          "N",
+          "U",
+          "H",
+          "O",
+          "D",
+          "F",
+          "J",
+          "B",
+          "G"
+        ],
+        [
+          "Q",
+          "W",
+          "T",
+          "M",
+          "V",
+          "O",
+          "N",
+          "T",
+          "U"
+        ],
+        [
+          "M",
+          "L",
+          "Z",
+          "J",
+          "R",
+          "S",
+          "W",
+          "X",
+          "X"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PIG",
+          "startRow": 4,
+          "startCol": 6,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "WHALE",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "REEF",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "HAT",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "SHOE",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "SOFA",
+          "startRow": 8,
+          "startCol": 5,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 489,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "JUICE",
+        "ICE",
+        "CROW",
+        "COAT",
+        "YELLOW",
+        "FIRE"
+      ],
+      "grid": [
+        [
+          "X",
+          "X",
+          "F",
+          "G",
+          "W",
+          "O",
+          "R",
+          "C",
+          "Y"
+        ],
+        [
+          "A",
+          "Y",
+          "S",
+          "L",
+          "P",
+          "E",
+          "M",
+          "P",
+          "I"
+        ],
+        [
+          "W",
+          "S",
+          "Z",
+          "J",
+          "I",
+          "H",
+          "R",
+          "C",
+          "F"
+        ],
+        [
+          "F",
+          "W",
+          "Y",
+          "C",
+          "E",
+          "M",
+          "O",
+          "I",
+          "C"
+        ],
+        [
+          "H",
+          "H",
+          "E",
+          "X",
+          "G",
+          "A",
+          "H",
+          "R",
+          "F"
+        ],
+        [
+          "B",
+          "K",
+          "J",
+          "M",
+          "T",
+          "V",
+          "C",
+          "X",
+          "Z"
+        ],
+        [
+          "J",
+          "K",
+          "F",
+          "J",
+          "U",
+          "I",
+          "C",
+          "E",
+          "V"
+        ],
+        [
+          "T",
+          "G",
+          "Z",
+          "V",
+          "X",
+          "V",
+          "E",
+          "P",
+          "I"
+        ],
+        [
+          "Y",
+          "E",
+          "L",
+          "L",
+          "O",
+          "W",
+          "R",
+          "T",
+          "P"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "JUICE",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "ICE",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "CROW",
+          "startRow": 0,
+          "startCol": 7,
+          "direction": "RL"
+        },
+        {
+          "word": "COAT",
+          "startRow": 2,
+          "startCol": 7,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "YELLOW",
+          "startRow": 8,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "FIRE",
+          "startRow": 4,
+          "startCol": 8,
+          "direction": "DIAG_UP_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 490,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "SHIP",
+        "RAT",
+        "CHERRY",
+        "ROCK",
+        "GIFT"
+      ],
+      "grid": [
+        [
+          "Z",
+          "H",
+          "K",
+          "D",
+          "F",
+          "R",
+          "G",
+          "Q",
+          "I"
+        ],
+        [
+          "T",
+          "V",
+          "P",
+          "M",
+          "B",
+          "Z",
+          "L",
+          "K",
+          "W"
+        ],
+        [
+          "F",
+          "R",
+          "B",
+          "R",
+          "K",
+          "H",
+          "C",
+          "U",
+          "M"
+        ],
+        [
+          "I",
+          "A",
+          "J",
+          "Y",
+          "P",
+          "O",
+          "E",
+          "F",
+          "C"
+        ],
+        [
+          "G",
+          "T",
+          "U",
+          "I",
+          "R",
+          "R",
+          "N",
+          "H",
+          "G"
+        ],
+        [
+          "S",
+          "I",
+          "H",
+          "K",
+          "G",
+          "B",
+          "E",
+          "N",
+          "P"
+        ],
+        [
+          "Q",
+          "S",
+          "U",
+          "P",
+          "M",
+          "R",
+          "N",
+          "H",
+          "V"
+        ],
+        [
+          "K",
+          "R",
+          "L",
+          "P",
+          "R",
+          "S",
+          "W",
+          "P",
+          "K"
+        ],
+        [
+          "H",
+          "S",
+          "T",
+          "Y",
+          "D",
+          "D",
+          "G",
+          "N",
+          "M"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SHIP",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "RAT",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "CHERRY",
+          "startRow": 3,
+          "startCol": 8,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "ROCK",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GIFT",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 491,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "RAT",
+        "GREEN",
+        "MINE",
+        "HEN",
+        "MAGIC"
+      ],
+      "grid": [
+        [
+          "M",
+          "O",
+          "O",
+          "M",
+          "Q",
+          "F",
+          "S",
+          "G",
+          "A"
+        ],
+        [
+          "D",
+          "Z",
+          "K",
+          "U",
+          "X",
+          "K",
+          "N",
+          "E",
+          "H"
+        ],
+        [
+          "F",
+          "E",
+          "C",
+          "O",
+          "M",
+          "C",
+          "Z",
+          "Y",
+          "T"
+        ],
+        [
+          "E",
+          "E",
+          "N",
+          "I",
+          "C",
+          "O",
+          "J",
+          "R",
+          "X"
+        ],
+        [
+          "X",
+          "N",
+          "L",
+          "E",
+          "G",
+          "M",
+          "T",
+          "O",
+          "Q"
+        ],
+        [
+          "K",
+          "F",
+          "I",
+          "C",
+          "E",
+          "A",
+          "M",
+          "C",
+          "C"
+        ],
+        [
+          "C",
+          "D",
+          "E",
+          "M",
+          "R",
+          "R",
+          "M",
+          "I",
+          "X"
+        ],
+        [
+          "V",
+          "B",
+          "F",
+          "U",
+          "W",
+          "H",
+          "G",
+          "V",
+          "J"
+        ],
+        [
+          "G",
+          "O",
+          "X",
+          "P",
+          "Q",
+          "B",
+          "U",
+          "V",
+          "P"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "RAT",
+          "startRow": 6,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GREEN",
+          "startRow": 7,
+          "startCol": 6,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "MINE",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "HEN",
+          "startRow": 1,
+          "startCol": 8,
+          "direction": "RL"
+        },
+        {
+          "word": "MAGIC",
+          "startRow": 6,
+          "startCol": 6,
+          "direction": "DIAG_UP_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 492,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "CAKE",
+        "SNOW",
+        "MILL",
+        "CUP",
+        "WREN",
+        "SWEET"
+      ],
+      "grid": [
+        [
+          "Y",
+          "D",
+          "H",
+          "N",
+          "S",
+          "W",
+          "C",
+          "P",
+          "D"
+        ],
+        [
+          "D",
+          "I",
+          "E",
+          "L",
+          "A",
+          "W",
+          "L",
+          "V",
+          "O"
+        ],
+        [
+          "H",
+          "R",
+          "F",
+          "Y",
+          "L",
+          "N",
+          "E",
+          "U",
+          "D"
+        ],
+        [
+          "W",
+          "Q",
+          "I",
+          "X",
+          "K",
+          "I",
+          "Q",
+          "E",
+          "E"
+        ],
+        [
+          "O",
+          "A",
+          "A",
+          "Z",
+          "B",
+          "L",
+          "M",
+          "K",
+          "T"
+        ],
+        [
+          "S",
+          "B",
+          "U",
+          "P",
+          "S",
+          "W",
+          "A",
+          "Z",
+          "H"
+        ],
+        [
+          "N",
+          "W",
+          "O",
+          "N",
+          "S",
+          "C",
+          "C",
+          "E",
+          "X"
+        ],
+        [
+          "P",
+          "O",
+          "L",
+          "K",
+          "C",
+          "B",
+          "U",
+          "R",
+          "T"
+        ],
+        [
+          "E",
+          "H",
+          "L",
+          "N",
+          "A",
+          "N",
+          "P",
+          "Q",
+          "W"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CAKE",
+          "startRow": 6,
+          "startCol": 5,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SNOW",
+          "startRow": 6,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "MILL",
+          "startRow": 4,
+          "startCol": 6,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "CUP",
+          "startRow": 6,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "WREN",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SWEET",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 493,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "HOOD",
+        "CARD",
+        "PIPE",
+        "GATE",
+        "HARE",
+        "RAIN",
+        "MINE"
+      ],
+      "grid": [
+        [
+          "M",
+          "D",
+          "U",
+          "R",
+          "A",
+          "I",
+          "N",
+          "N",
+          "M"
+        ],
+        [
+          "E",
+          "N",
+          "I",
+          "M",
+          "J",
+          "R",
+          "I",
+          "J",
+          "S"
+        ],
+        [
+          "V",
+          "R",
+          "F",
+          "D",
+          "C",
+          "L",
+          "V",
+          "V",
+          "P"
+        ],
+        [
+          "O",
+          "X",
+          "W",
+          "C",
+          "G",
+          "J",
+          "P",
+          "S",
+          "P"
+        ],
+        [
+          "A",
+          "S",
+          "G",
+          "A",
+          "O",
+          "H",
+          "P",
+          "K",
+          "S"
+        ],
+        [
+          "S",
+          "J",
+          "T",
+          "R",
+          "N",
+          "O",
+          "P",
+          "E",
+          "T"
+        ],
+        [
+          "F",
+          "E",
+          "Z",
+          "D",
+          "R",
+          "E",
+          "P",
+          "R",
+          "U"
+        ],
+        [
+          "H",
+          "O",
+          "O",
+          "D",
+          "O",
+          "I",
+          "O",
+          "A",
+          "H"
+        ],
+        [
+          "T",
+          "Q",
+          "Z",
+          "M",
+          "P",
+          "M",
+          "E",
+          "H",
+          "J"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HOOD",
+          "startRow": 7,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "CARD",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "PIPE",
+          "startRow": 8,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GATE",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "HARE",
+          "startRow": 8,
+          "startCol": 7,
+          "direction": "BT"
+        },
+        {
+          "word": "RAIN",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "MINE",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "RL"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 494,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "CASE",
+        "CAKE",
+        "IBIS",
+        "PLAN",
+        "FORK"
+      ],
+      "grid": [
+        [
+          "F",
+          "P",
+          "L",
+          "F",
+          "C",
+          "G",
+          "U",
+          "F",
+          "R"
+        ],
+        [
+          "P",
+          "C",
+          "K",
+          "N",
+          "S",
+          "B",
+          "G",
+          "E",
+          "V"
+        ],
+        [
+          "L",
+          "U",
+          "X",
+          "Y",
+          "N",
+          "L",
+          "H",
+          "K",
+          "F"
+        ],
+        [
+          "A",
+          "E",
+          "U",
+          "H",
+          "Z",
+          "K",
+          "S",
+          "A",
+          "Z"
+        ],
+        [
+          "N",
+          "S",
+          "K",
+          "W",
+          "Z",
+          "I",
+          "V",
+          "C",
+          "P"
+        ],
+        [
+          "R",
+          "U",
+          "R",
+          "M",
+          "B",
+          "B",
+          "Q",
+          "A",
+          "A"
+        ],
+        [
+          "Q",
+          "Q",
+          "O",
+          "I",
+          "U",
+          "C",
+          "A",
+          "S",
+          "E"
+        ],
+        [
+          "G",
+          "N",
+          "F",
+          "L",
+          "Q",
+          "V",
+          "I",
+          "C",
+          "Q"
+        ],
+        [
+          "F",
+          "Y",
+          "N",
+          "U",
+          "H",
+          "T",
+          "G",
+          "U",
+          "B"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CASE",
+          "startRow": 6,
+          "startCol": 5,
+          "direction": "LR"
+        },
+        {
+          "word": "CAKE",
+          "startRow": 4,
+          "startCol": 7,
+          "direction": "BT"
+        },
+        {
+          "word": "IBIS",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "PLAN",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "FORK",
+          "startRow": 7,
+          "startCol": 2,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 495,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "BRONZE",
+        "FORK",
+        "CORN",
+        "DUCK",
+        "NET",
+        "ROCK"
+      ],
+      "grid": [
+        [
+          "U",
+          "E",
+          "A",
+          "I",
+          "M",
+          "N",
+          "J",
+          "K",
+          "N"
+        ],
+        [
+          "C",
+          "J",
+          "Z",
+          "X",
+          "B",
+          "E",
+          "W",
+          "P",
+          "R"
+        ],
+        [
+          "X",
+          "S",
+          "R",
+          "N",
+          "Q",
+          "B",
+          "W",
+          "N",
+          "O"
+        ],
+        [
+          "D",
+          "K",
+          "A",
+          "N",
+          "O",
+          "M",
+          "G",
+          "T",
+          "C"
+        ],
+        [
+          "K",
+          "C",
+          "Y",
+          "E",
+          "B",
+          "R",
+          "Z",
+          "H",
+          "O"
+        ],
+        [
+          "C",
+          "O",
+          "V",
+          "T",
+          "M",
+          "H",
+          "B",
+          "Q",
+          "W"
+        ],
+        [
+          "U",
+          "R",
+          "J",
+          "E",
+          "S",
+          "C",
+          "L",
+          "Q",
+          "K"
+        ],
+        [
+          "D",
+          "F",
+          "O",
+          "R",
+          "K",
+          "F",
+          "Y",
+          "R",
+          "Z"
+        ],
+        [
+          "C",
+          "H",
+          "D",
+          "Z",
+          "Q",
+          "E",
+          "O",
+          "Q",
+          "H"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BRONZE",
+          "startRow": 5,
+          "startCol": 6,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "FORK",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "CORN",
+          "startRow": 3,
+          "startCol": 8,
+          "direction": "BT"
+        },
+        {
+          "word": "DUCK",
+          "startRow": 7,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "NET",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "ROCK",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 496,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "SAIL",
+        "WASP",
+        "GRAY",
+        "BEACH",
+        "PIPE"
+      ],
+      "grid": [
+        [
+          "H",
+          "L",
+          "A",
+          "U",
+          "O",
+          "F",
+          "B",
+          "J",
+          "W"
+        ],
+        [
+          "I",
+          "I",
+          "B",
+          "I",
+          "T",
+          "F",
+          "I",
+          "S",
+          "M"
+        ],
+        [
+          "U",
+          "O",
+          "H",
+          "P",
+          "U",
+          "C",
+          "O",
+          "P",
+          "V"
+        ],
+        [
+          "U",
+          "Y",
+          "S",
+          "H",
+          "H",
+          "E",
+          "P",
+          "L",
+          "X"
+        ],
+        [
+          "Z",
+          "D",
+          "A",
+          "F",
+          "S",
+          "S",
+          "Y",
+          "Y",
+          "B"
+        ],
+        [
+          "N",
+          "G",
+          "Y",
+          "R",
+          "A",
+          "E",
+          "Y",
+          "I",
+          "E"
+        ],
+        [
+          "M",
+          "O",
+          "A",
+          "W",
+          "G",
+          "L",
+          "C",
+          "R",
+          "A"
+        ],
+        [
+          "W",
+          "J",
+          "K",
+          "P",
+          "S",
+          "A",
+          "I",
+          "L",
+          "C"
+        ],
+        [
+          "O",
+          "S",
+          "O",
+          "E",
+          "E",
+          "P",
+          "I",
+          "P",
+          "H"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SAIL",
+          "startRow": 7,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "WASP",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GRAY",
+          "startRow": 6,
+          "startCol": 4,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "BEACH",
+          "startRow": 4,
+          "startCol": 8,
+          "direction": "TB"
+        },
+        {
+          "word": "PIPE",
+          "startRow": 8,
+          "startCol": 7,
+          "direction": "RL"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 497,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "ROD",
+        "CALF",
+        "HAT",
+        "CASE",
+        "SHIP",
+        "RAIN",
+        "JAY"
+      ],
+      "grid": [
+        [
+          "T",
+          "P",
+          "C",
+          "A",
+          "L",
+          "F",
+          "Y",
+          "K",
+          "E"
+        ],
+        [
+          "X",
+          "A",
+          "Q",
+          "P",
+          "C",
+          "H",
+          "R",
+          "O",
+          "D"
+        ],
+        [
+          "G",
+          "R",
+          "E",
+          "H",
+          "P",
+          "Q",
+          "M",
+          "C",
+          "Z"
+        ],
+        [
+          "S",
+          "Q",
+          "W",
+          "A",
+          "Y",
+          "U",
+          "K",
+          "I",
+          "B"
+        ],
+        [
+          "Y",
+          "O",
+          "I",
+          "T",
+          "P",
+          "X",
+          "O",
+          "V",
+          "A"
+        ],
+        [
+          "Y",
+          "X",
+          "T",
+          "S",
+          "L",
+          "H",
+          "E",
+          "R",
+          "W"
+        ],
+        [
+          "H",
+          "A",
+          "H",
+          "Q",
+          "Q",
+          "S",
+          "A",
+          "N",
+          "K"
+        ],
+        [
+          "A",
+          "I",
+          "J",
+          "S",
+          "A",
+          "I",
+          "L",
+          "O",
+          "V"
+        ],
+        [
+          "P",
+          "M",
+          "P",
+          "C",
+          "N",
+          "B",
+          "I",
+          "R",
+          "H"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "ROD",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "LR"
+        },
+        {
+          "word": "CALF",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "HAT",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "CASE",
+          "startRow": 8,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SHIP",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "RAIN",
+          "startRow": 5,
+          "startCol": 7,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "JAY",
+          "startRow": 7,
+          "startCol": 2,
+          "direction": "DIAG_UP_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 498,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "LYNX",
+        "RING",
+        "SHOE",
+        "CORK",
+        "YAK"
+      ],
+      "grid": [
+        [
+          "O",
+          "X",
+          "A",
+          "C",
+          "E",
+          "A",
+          "Y",
+          "A",
+          "K"
+        ],
+        [
+          "F",
+          "B",
+          "O",
+          "E",
+          "K",
+          "F",
+          "D",
+          "W",
+          "Z"
+        ],
+        [
+          "U",
+          "R",
+          "K",
+          "C",
+          "P",
+          "N",
+          "G",
+          "Z",
+          "Z"
+        ],
+        [
+          "K",
+          "Z",
+          "Y",
+          "V",
+          "K",
+          "S",
+          "N",
+          "I",
+          "D"
+        ],
+        [
+          "S",
+          "O",
+          "H",
+          "L",
+          "Q",
+          "S",
+          "I",
+          "Z",
+          "S"
+        ],
+        [
+          "H",
+          "O",
+          "W",
+          "M",
+          "T",
+          "X",
+          "R",
+          "X",
+          "U"
+        ],
+        [
+          "O",
+          "A",
+          "D",
+          "K",
+          "Z",
+          "N",
+          "W",
+          "N",
+          "P"
+        ],
+        [
+          "E",
+          "O",
+          "C",
+          "Y",
+          "U",
+          "X",
+          "O",
+          "Y",
+          "R"
+        ],
+        [
+          "C",
+          "N",
+          "O",
+          "D",
+          "U",
+          "K",
+          "H",
+          "L",
+          "A"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "LYNX",
+          "startRow": 8,
+          "startCol": 7,
+          "direction": "BT"
+        },
+        {
+          "word": "RING",
+          "startRow": 5,
+          "startCol": 6,
+          "direction": "BT"
+        },
+        {
+          "word": "SHOE",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "CORK",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "YAK",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 499,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "HARP",
+        "SOCK",
+        "EMU",
+        "HARE",
+        "COW",
+        "FLOWER"
+      ],
+      "grid": [
+        [
+          "P",
+          "O",
+          "V",
+          "A",
+          "R",
+          "H",
+          "V",
+          "P",
+          "P"
+        ],
+        [
+          "J",
+          "C",
+          "O",
+          "W",
+          "T",
+          "K",
+          "A",
+          "K",
+          "C"
+        ],
+        [
+          "X",
+          "N",
+          "E",
+          "P",
+          "E",
+          "R",
+          "C",
+          "R",
+          "J"
+        ],
+        [
+          "R",
+          "R",
+          "N",
+          "M",
+          "O",
+          "O",
+          "I",
+          "N",
+          "E"
+        ],
+        [
+          "B",
+          "O",
+          "U",
+          "N",
+          "S",
+          "J",
+          "Y",
+          "L",
+          "W"
+        ],
+        [
+          "F",
+          "L",
+          "O",
+          "W",
+          "E",
+          "R",
+          "O",
+          "F",
+          "M"
+        ],
+        [
+          "P",
+          "H",
+          "U",
+          "C",
+          "S",
+          "A",
+          "M",
+          "X",
+          "W"
+        ],
+        [
+          "L",
+          "P",
+          "R",
+          "A",
+          "H",
+          "H",
+          "G",
+          "H",
+          "R"
+        ],
+        [
+          "H",
+          "Q",
+          "S",
+          "M",
+          "P",
+          "M",
+          "C",
+          "P",
+          "Y"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HARP",
+          "startRow": 7,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "SOCK",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "EMU",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "HARE",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "COW",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "FLOWER",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 500,
+      "world": "Star Galaxy",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "OPAL",
+        "DREAM",
+        "MAZE",
+        "MAP",
+        "PAGE",
+        "ROBIN",
+        "POOL"
+      ],
+      "grid": [
+        [
+          "L",
+          "T",
+          "O",
+          "D",
+          "L",
+          "I",
+          "P",
+          "B",
+          "N"
+        ],
+        [
+          "C",
+          "W",
+          "R",
+          "G",
+          "R",
+          "O",
+          "H",
+          "I",
+          "V"
+        ],
+        [
+          "P",
+          "Y",
+          "O",
+          "V",
+          "O",
+          "E",
+          "B",
+          "N",
+          "Q"
+        ],
+        [
+          "E",
+          "A",
+          "G",
+          "L",
+          "F",
+          "O",
+          "A",
+          "Q",
+          "G"
+        ],
+        [
+          "O",
+          "N",
+          "G",
+          "O",
+          "R",
+          "Y",
+          "R",
+          "M",
+          "S"
+        ],
+        [
+          "P",
+          "R",
+          "V",
+          "E",
+          "P",
+          "F",
+          "Z",
+          "R",
+          "J"
+        ],
+        [
+          "F",
+          "A",
+          "C",
+          "T",
+          "M",
+          "A",
+          "Z",
+          "E",
+          "A"
+        ],
+        [
+          "Q",
+          "T",
+          "M",
+          "J",
+          "A",
+          "F",
+          "L",
+          "C",
+          "V"
+        ],
+        [
+          "Z",
+          "C",
+          "U",
+          "D",
+          "P",
+          "X",
+          "A",
+          "Z",
+          "S"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "OPAL",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "DREAM",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "MAZE",
+          "startRow": 6,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "MAP",
+          "startRow": 7,
+          "startCol": 2,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "PAGE",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "ROBIN",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "POOL",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "DIAG_DOWN_REV"
+        }
+      ],
+      "timeLimit": 105
+    }
+  ]
+}

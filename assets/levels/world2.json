@@ -1,0 +1,5521 @@
+{
+  "world": "Sunny Beach",
+  "worldNumber": 2,
+  "levels": [
+    {
+      "id": 51,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "YAK",
+        "BEAR",
+        "BLUE",
+        "KITE"
+      ],
+      "grid": [
+        [
+          "O",
+          "B",
+          "L",
+          "U",
+          "E",
+          "O",
+          "N"
+        ],
+        [
+          "B",
+          "C",
+          "A",
+          "E",
+          "P",
+          "W",
+          "G"
+        ],
+        [
+          "P",
+          "F",
+          "A",
+          "E",
+          "T",
+          "E",
+          "E"
+        ],
+        [
+          "B",
+          "N",
+          "J",
+          "M",
+          "P",
+          "T",
+          "Y"
+        ],
+        [
+          "U",
+          "E",
+          "Y",
+          "T",
+          "I",
+          "I",
+          "A"
+        ],
+        [
+          "A",
+          "K",
+          "A",
+          "K",
+          "B",
+          "I",
+          "K"
+        ],
+        [
+          "C",
+          "U",
+          "A",
+          "R",
+          "Z",
+          "P",
+          "W"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "YAK",
+          "startRow": 3,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "BEAR",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BLUE",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "KITE",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 52,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "CANDY",
+        "YELLOW",
+        "CAGE",
+        "CAMEL",
+        "COIN"
+      ],
+      "grid": [
+        [
+          "J",
+          "Y",
+          "L",
+          "C",
+          "W",
+          "G",
+          "F"
+        ],
+        [
+          "X",
+          "E",
+          "P",
+          "A",
+          "O",
+          "I",
+          "B"
+        ],
+        [
+          "C",
+          "L",
+          "Y",
+          "M",
+          "G",
+          "S",
+          "Y"
+        ],
+        [
+          "A",
+          "L",
+          "D",
+          "E",
+          "L",
+          "D",
+          "N"
+        ],
+        [
+          "G",
+          "O",
+          "Q",
+          "L",
+          "N",
+          "I",
+          "H"
+        ],
+        [
+          "E",
+          "W",
+          "B",
+          "A",
+          "O",
+          "B",
+          "L"
+        ],
+        [
+          "S",
+          "F",
+          "C",
+          "C",
+          "Y",
+          "O",
+          "A"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CANDY",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "YELLOW",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "CAGE",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "CAMEL",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "COIN",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 53,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "RED",
+        "DUSK",
+        "GOLD",
+        "MUG"
+      ],
+      "grid": [
+        [
+          "G",
+          "G",
+          "Y",
+          "A",
+          "W",
+          "Y",
+          "C"
+        ],
+        [
+          "R",
+          "M",
+          "I",
+          "G",
+          "Y",
+          "J",
+          "P"
+        ],
+        [
+          "M",
+          "E",
+          "S",
+          "D",
+          "O",
+          "A",
+          "S"
+        ],
+        [
+          "K",
+          "Z",
+          "D",
+          "U",
+          "S",
+          "L",
+          "G"
+        ],
+        [
+          "E",
+          "Y",
+          "P",
+          "S",
+          "U",
+          "P",
+          "D"
+        ],
+        [
+          "M",
+          "U",
+          "G",
+          "K",
+          "V",
+          "K",
+          "U"
+        ],
+        [
+          "V",
+          "F",
+          "E",
+          "B",
+          "G",
+          "K",
+          "B"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "RED",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "DUSK",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "GOLD",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "MUG",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 54,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "ROD",
+        "HAWK",
+        "DESERT",
+        "GOAT"
+      ],
+      "grid": [
+        [
+          "E",
+          "K",
+          "I",
+          "O",
+          "Y",
+          "B",
+          "T"
+        ],
+        [
+          "W",
+          "Q",
+          "Y",
+          "K",
+          "U",
+          "R",
+          "M"
+        ],
+        [
+          "Q",
+          "Q",
+          "W",
+          "T",
+          "E",
+          "X",
+          "N"
+        ],
+        [
+          "O",
+          "A",
+          "A",
+          "S",
+          "R",
+          "I",
+          "R"
+        ],
+        [
+          "H",
+          "O",
+          "E",
+          "I",
+          "V",
+          "O",
+          "F"
+        ],
+        [
+          "G",
+          "D",
+          "F",
+          "Y",
+          "B",
+          "Y",
+          "D"
+        ],
+        [
+          "E",
+          "D",
+          "V",
+          "E",
+          "G",
+          "S",
+          "G"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "ROD",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "HAWK",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "DESERT",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GOAT",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 55,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "FERN",
+        "BOOK",
+        "SEED",
+        "TIN"
+      ],
+      "grid": [
+        [
+          "U",
+          "N",
+          "V",
+          "O",
+          "S",
+          "J",
+          "F"
+        ],
+        [
+          "L",
+          "H",
+          "A",
+          "F",
+          "E",
+          "T",
+          "N"
+        ],
+        [
+          "J",
+          "D",
+          "V",
+          "O",
+          "E",
+          "L",
+          "R"
+        ],
+        [
+          "B",
+          "O",
+          "O",
+          "K",
+          "D",
+          "R",
+          "E"
+        ],
+        [
+          "T",
+          "B",
+          "O",
+          "J",
+          "V",
+          "N",
+          "N"
+        ],
+        [
+          "W",
+          "H",
+          "U",
+          "E",
+          "I",
+          "I",
+          "M"
+        ],
+        [
+          "N",
+          "Z",
+          "T",
+          "T",
+          "C",
+          "P",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "FERN",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BOOK",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "SEED",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "TIN",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 56,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "VINE",
+        "LOCK",
+        "PURPLE",
+        "BULL"
+      ],
+      "grid": [
+        [
+          "C",
+          "I",
+          "S",
+          "T",
+          "Y",
+          "E",
+          "K"
+        ],
+        [
+          "P",
+          "V",
+          "H",
+          "F",
+          "L",
+          "N",
+          "X"
+        ],
+        [
+          "E",
+          "T",
+          "I",
+          "P",
+          "O",
+          "K",
+          "Z"
+        ],
+        [
+          "X",
+          "V",
+          "R",
+          "N",
+          "C",
+          "I",
+          "L"
+        ],
+        [
+          "O",
+          "U",
+          "H",
+          "O",
+          "E",
+          "L",
+          "M"
+        ],
+        [
+          "P",
+          "Z",
+          "L",
+          "T",
+          "U",
+          "S",
+          "Q"
+        ],
+        [
+          "T",
+          "C",
+          "J",
+          "B",
+          "U",
+          "B",
+          "W"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "VINE",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "LOCK",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "PURPLE",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BULL",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 57,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "BOOK",
+        "BRONZE",
+        "DRUM",
+        "PINK",
+        "BELL"
+      ],
+      "grid": [
+        [
+          "F",
+          "W",
+          "B",
+          "K",
+          "N",
+          "K",
+          "H"
+        ],
+        [
+          "Q",
+          "W",
+          "N",
+          "Z",
+          "O",
+          "B",
+          "A"
+        ],
+        [
+          "D",
+          "I",
+          "G",
+          "O",
+          "B",
+          "R",
+          "B"
+        ],
+        [
+          "P",
+          "R",
+          "B",
+          "C",
+          "E",
+          "O",
+          "N"
+        ],
+        [
+          "D",
+          "R",
+          "U",
+          "M",
+          "L",
+          "N",
+          "S"
+        ],
+        [
+          "X",
+          "H",
+          "T",
+          "J",
+          "L",
+          "Z",
+          "H"
+        ],
+        [
+          "N",
+          "G",
+          "C",
+          "N",
+          "P",
+          "E",
+          "H"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BOOK",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BRONZE",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "DRUM",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "PINK",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BELL",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 58,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "TREE",
+        "NEWT",
+        "HEN",
+        "SAND",
+        "COAT"
+      ],
+      "grid": [
+        [
+          "Y",
+          "E",
+          "S",
+          "L",
+          "B",
+          "G",
+          "A"
+        ],
+        [
+          "V",
+          "H",
+          "U",
+          "A",
+          "W",
+          "I",
+          "C"
+        ],
+        [
+          "D",
+          "H",
+          "N",
+          "T",
+          "N",
+          "Z",
+          "O"
+        ],
+        [
+          "P",
+          "E",
+          "P",
+          "N",
+          "R",
+          "D",
+          "A"
+        ],
+        [
+          "H",
+          "I",
+          "Z",
+          "E",
+          "K",
+          "E",
+          "T"
+        ],
+        [
+          "O",
+          "E",
+          "Y",
+          "W",
+          "G",
+          "J",
+          "E"
+        ],
+        [
+          "S",
+          "X",
+          "V",
+          "T",
+          "Q",
+          "R",
+          "A"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "TREE",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "NEWT",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "HEN",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SAND",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "COAT",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 59,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "BEAR",
+        "MILK",
+        "WOOD",
+        "VAN"
+      ],
+      "grid": [
+        [
+          "Q",
+          "R",
+          "V",
+          "Y",
+          "B",
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "Z",
+          "K",
+          "E",
+          "E",
+          "O",
+          "R"
+        ],
+        [
+          "V",
+          "C",
+          "T",
+          "D",
+          "A",
+          "C",
+          "E"
+        ],
+        [
+          "U",
+          "H",
+          "O",
+          "M",
+          "R",
+          "F",
+          "A"
+        ],
+        [
+          "W",
+          "O",
+          "H",
+          "N",
+          "I",
+          "J",
+          "F"
+        ],
+        [
+          "W",
+          "Z",
+          "J",
+          "P",
+          "O",
+          "L",
+          "J"
+        ],
+        [
+          "D",
+          "S",
+          "T",
+          "V",
+          "A",
+          "N",
+          "K"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BEAR",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "MILK",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "WOOD",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "VAN",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 60,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "OCEAN",
+        "ROBIN",
+        "GATE",
+        "POT",
+        "STEP"
+      ],
+      "grid": [
+        [
+          "G",
+          "A",
+          "T",
+          "E",
+          "R",
+          "R",
+          "K"
+        ],
+        [
+          "V",
+          "S",
+          "F",
+          "N",
+          "M",
+          "N",
+          "B"
+        ],
+        [
+          "E",
+          "F",
+          "T",
+          "D",
+          "A",
+          "R",
+          "O"
+        ],
+        [
+          "F",
+          "T",
+          "P",
+          "E",
+          "M",
+          "O",
+          "U"
+        ],
+        [
+          "H",
+          "Y",
+          "C",
+          "O",
+          "P",
+          "B",
+          "O"
+        ],
+        [
+          "D",
+          "O",
+          "M",
+          "H",
+          "T",
+          "I",
+          "Q"
+        ],
+        [
+          "N",
+          "J",
+          "B",
+          "H",
+          "L",
+          "N",
+          "W"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "OCEAN",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "ROBIN",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "GATE",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "POT",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "STEP",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 61,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "CAGE",
+        "SHIP",
+        "MAZE",
+        "BELL"
+      ],
+      "grid": [
+        [
+          "H",
+          "Q",
+          "C",
+          "L",
+          "T",
+          "E",
+          "S"
+        ],
+        [
+          "D",
+          "Z",
+          "L",
+          "E",
+          "J",
+          "F",
+          "H"
+        ],
+        [
+          "O",
+          "E",
+          "Z",
+          "C",
+          "E",
+          "O",
+          "I"
+        ],
+        [
+          "B",
+          "A",
+          "R",
+          "A",
+          "O",
+          "U",
+          "P"
+        ],
+        [
+          "M",
+          "H",
+          "P",
+          "G",
+          "A",
+          "V",
+          "Y"
+        ],
+        [
+          "A",
+          "M",
+          "V",
+          "E",
+          "Z",
+          "X",
+          "F"
+        ],
+        [
+          "M",
+          "U",
+          "G",
+          "T",
+          "R",
+          "T",
+          "B"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CAGE",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "SHIP",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "MAZE",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BELL",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 62,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "HAWK",
+        "KOI",
+        "DOVE",
+        "NOTE",
+        "WAVE",
+        "BED"
+      ],
+      "grid": [
+        [
+          "O",
+          "D",
+          "T",
+          "D",
+          "C",
+          "Z",
+          "M"
+        ],
+        [
+          "H",
+          "K",
+          "E",
+          "E",
+          "V",
+          "I",
+          "L"
+        ],
+        [
+          "J",
+          "B",
+          "T",
+          "K",
+          "O",
+          "Q",
+          "E"
+        ],
+        [
+          "J",
+          "O",
+          "W",
+          "K",
+          "W",
+          "V",
+          "W"
+        ],
+        [
+          "N",
+          "A",
+          "B",
+          "I",
+          "O",
+          "C",
+          "A"
+        ],
+        [
+          "H",
+          "Z",
+          "M",
+          "D",
+          "Z",
+          "O",
+          "V"
+        ],
+        [
+          "P",
+          "G",
+          "S",
+          "J",
+          "D",
+          "I",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HAWK",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "KOI",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "DOVE",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "NOTE",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "WAVE",
+          "startRow": 3,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "BED",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 63,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "YAK",
+        "PONY",
+        "GATE",
+        "BOX",
+        "SWEET",
+        "ELK"
+      ],
+      "grid": [
+        [
+          "S",
+          "W",
+          "E",
+          "E",
+          "T",
+          "C",
+          "Z"
+        ],
+        [
+          "G",
+          "Y",
+          "U",
+          "K",
+          "X",
+          "B",
+          "Y"
+        ],
+        [
+          "A",
+          "P",
+          "Y",
+          "A",
+          "K",
+          "O",
+          "T"
+        ],
+        [
+          "T",
+          "T",
+          "O",
+          "E",
+          "I",
+          "X",
+          "E"
+        ],
+        [
+          "E",
+          "I",
+          "M",
+          "N",
+          "M",
+          "T",
+          "L"
+        ],
+        [
+          "B",
+          "P",
+          "P",
+          "S",
+          "Y",
+          "F",
+          "K"
+        ],
+        [
+          "M",
+          "B",
+          "F",
+          "K",
+          "X",
+          "G",
+          "P"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "YAK",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "PONY",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "GATE",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "BOX",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "SWEET",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "ELK",
+          "startRow": 3,
+          "startCol": 6,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 64,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "CAT",
+        "HALL",
+        "DOME",
+        "ELM",
+        "DOG",
+        "WICK"
+      ],
+      "grid": [
+        [
+          "R",
+          "P",
+          "B",
+          "B",
+          "H",
+          "Q",
+          "M"
+        ],
+        [
+          "D",
+          "H",
+          "A",
+          "L",
+          "L",
+          "A",
+          "D"
+        ],
+        [
+          "M",
+          "O",
+          "D",
+          "F",
+          "O",
+          "Y",
+          "O"
+        ],
+        [
+          "D",
+          "B",
+          "G",
+          "N",
+          "X",
+          "R",
+          "M"
+        ],
+        [
+          "C",
+          "A",
+          "T",
+          "O",
+          "G",
+          "K",
+          "E"
+        ],
+        [
+          "T",
+          "B",
+          "I",
+          "H",
+          "R",
+          "L",
+          "L"
+        ],
+        [
+          "E",
+          "U",
+          "W",
+          "I",
+          "C",
+          "K",
+          "M"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CAT",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "HALL",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "DOME",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "ELM",
+          "startRow": 4,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "DOG",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "WICK",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 65,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "SHOP",
+        "VALE",
+        "MINE",
+        "HONEY",
+        "TIGER",
+        "SWEET"
+      ],
+      "grid": [
+        [
+          "Z",
+          "A",
+          "H",
+          "O",
+          "N",
+          "E",
+          "Y"
+        ],
+        [
+          "Z",
+          "T",
+          "I",
+          "G",
+          "E",
+          "R",
+          "S"
+        ],
+        [
+          "W",
+          "H",
+          "V",
+          "A",
+          "L",
+          "E",
+          "W"
+        ],
+        [
+          "K",
+          "J",
+          "S",
+          "U",
+          "F",
+          "E",
+          "E"
+        ],
+        [
+          "K",
+          "C",
+          "H",
+          "H",
+          "N",
+          "R",
+          "E"
+        ],
+        [
+          "Z",
+          "Q",
+          "L",
+          "I",
+          "O",
+          "W",
+          "T"
+        ],
+        [
+          "B",
+          "S",
+          "M",
+          "L",
+          "R",
+          "P",
+          "A"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SHOP",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "VALE",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "MINE",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "HONEY",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "TIGER",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "SWEET",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 66,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "WATER",
+        "BRONZE",
+        "GRID",
+        "DAWN",
+        "WIRE"
+      ],
+      "grid": [
+        [
+          "S",
+          "V",
+          "K",
+          "F",
+          "B",
+          "A",
+          "Q"
+        ],
+        [
+          "B",
+          "R",
+          "O",
+          "N",
+          "Z",
+          "E",
+          "N"
+        ],
+        [
+          "I",
+          "T",
+          "W",
+          "I",
+          "R",
+          "E",
+          "N"
+        ],
+        [
+          "A",
+          "S",
+          "K",
+          "E",
+          "N",
+          "S",
+          "G"
+        ],
+        [
+          "O",
+          "H",
+          "T",
+          "W",
+          "D",
+          "G",
+          "R"
+        ],
+        [
+          "U",
+          "A",
+          "A",
+          "I",
+          "M",
+          "S",
+          "I"
+        ],
+        [
+          "W",
+          "D",
+          "C",
+          "B",
+          "E",
+          "I",
+          "D"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "WATER",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BRONZE",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "GRID",
+          "startRow": 3,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "DAWN",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "WIRE",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 67,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "MAP",
+        "KITE",
+        "RUG",
+        "WIND",
+        "CART",
+        "LAMB"
+      ],
+      "grid": [
+        [
+          "L",
+          "A",
+          "M",
+          "B",
+          "G",
+          "R",
+          "W"
+        ],
+        [
+          "X",
+          "L",
+          "L",
+          "U",
+          "A",
+          "X",
+          "E"
+        ],
+        [
+          "P",
+          "S",
+          "R",
+          "O",
+          "P",
+          "T",
+          "B"
+        ],
+        [
+          "C",
+          "Q",
+          "F",
+          "A",
+          "I",
+          "D",
+          "N"
+        ],
+        [
+          "S",
+          "A",
+          "M",
+          "K",
+          "N",
+          "T",
+          "A"
+        ],
+        [
+          "Y",
+          "C",
+          "R",
+          "I",
+          "V",
+          "G",
+          "W"
+        ],
+        [
+          "T",
+          "I",
+          "W",
+          "T",
+          "G",
+          "P",
+          "D"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MAP",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "KITE",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "RUG",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "WIND",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CART",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "LAMB",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 68,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "LEAF",
+        "WOOL",
+        "CAT",
+        "PARK",
+        "TIN"
+      ],
+      "grid": [
+        [
+          "C",
+          "G",
+          "R",
+          "L",
+          "I",
+          "N",
+          "T"
+        ],
+        [
+          "P",
+          "A",
+          "R",
+          "K",
+          "F",
+          "P",
+          "I"
+        ],
+        [
+          "U",
+          "V",
+          "T",
+          "A",
+          "T",
+          "Z",
+          "N"
+        ],
+        [
+          "E",
+          "L",
+          "E",
+          "J",
+          "U",
+          "L",
+          "L"
+        ],
+        [
+          "X",
+          "L",
+          "P",
+          "G",
+          "O",
+          "L",
+          "I"
+        ],
+        [
+          "O",
+          "A",
+          "F",
+          "O",
+          "D",
+          "D",
+          "M"
+        ],
+        [
+          "T",
+          "T",
+          "W",
+          "K",
+          "Y",
+          "D",
+          "B"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "LEAF",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "WOOL",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CAT",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "PARK",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "TIN",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 69,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "POT",
+        "CROW",
+        "CALF",
+        "DEER"
+      ],
+      "grid": [
+        [
+          "V",
+          "F",
+          "D",
+          "V",
+          "N",
+          "O",
+          "Z"
+        ],
+        [
+          "S",
+          "Z",
+          "R",
+          "P",
+          "H",
+          "L",
+          "D"
+        ],
+        [
+          "C",
+          "K",
+          "Q",
+          "N",
+          "Z",
+          "Z",
+          "L"
+        ],
+        [
+          "A",
+          "V",
+          "V",
+          "N",
+          "W",
+          "D",
+          "R"
+        ],
+        [
+          "L",
+          "T",
+          "T",
+          "O",
+          "V",
+          "E",
+          "E"
+        ],
+        [
+          "F",
+          "O",
+          "R",
+          "F",
+          "U",
+          "E",
+          "T"
+        ],
+        [
+          "P",
+          "C",
+          "N",
+          "O",
+          "H",
+          "R",
+          "C"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "POT",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CROW",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CALF",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "DEER",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 70,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "LION",
+        "DISH",
+        "HALL",
+        "BOAT",
+        "FOG"
+      ],
+      "grid": [
+        [
+          "F",
+          "Z",
+          "Y",
+          "V",
+          "P",
+          "P",
+          "L"
+        ],
+        [
+          "O",
+          "O",
+          "D",
+          "V",
+          "X",
+          "L",
+          "E"
+        ],
+        [
+          "G",
+          "L",
+          "O",
+          "I",
+          "A",
+          "L",
+          "B"
+        ],
+        [
+          "E",
+          "I",
+          "N",
+          "H",
+          "S",
+          "V",
+          "B"
+        ],
+        [
+          "D",
+          "O",
+          "P",
+          "U",
+          "L",
+          "H",
+          "O"
+        ],
+        [
+          "N",
+          "N",
+          "W",
+          "V",
+          "Y",
+          "K",
+          "A"
+        ],
+        [
+          "D",
+          "H",
+          "V",
+          "J",
+          "D",
+          "E",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "LION",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "DISH",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "HALL",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BOAT",
+          "startRow": 3,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "FOG",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 71,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "SEA",
+        "CASE",
+        "HAPPY",
+        "RING"
+      ],
+      "grid": [
+        [
+          "X",
+          "H",
+          "H",
+          "C",
+          "J",
+          "J",
+          "Y"
+        ],
+        [
+          "R",
+          "W",
+          "A",
+          "B",
+          "J",
+          "E",
+          "S"
+        ],
+        [
+          "Z",
+          "I",
+          "Z",
+          "P",
+          "S",
+          "W",
+          "V"
+        ],
+        [
+          "K",
+          "A",
+          "N",
+          "A",
+          "P",
+          "A",
+          "R"
+        ],
+        [
+          "B",
+          "H",
+          "C",
+          "G",
+          "W",
+          "Y",
+          "S"
+        ],
+        [
+          "D",
+          "H",
+          "A",
+          "V",
+          "S",
+          "E",
+          "A"
+        ],
+        [
+          "L",
+          "M",
+          "H",
+          "P",
+          "I",
+          "N",
+          "P"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SEA",
+          "startRow": 5,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "CASE",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "HAPPY",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "RING",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 72,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "POOL",
+        "SILK",
+        "FISH",
+        "SHIP",
+        "HONEY",
+        "DAWN"
+      ],
+      "grid": [
+        [
+          "E",
+          "T",
+          "D",
+          "B",
+          "I",
+          "M",
+          "R"
+        ],
+        [
+          "M",
+          "A",
+          "U",
+          "D",
+          "M",
+          "P",
+          "Q"
+        ],
+        [
+          "S",
+          "S",
+          "P",
+          "U",
+          "A",
+          "Y",
+          "G"
+        ],
+        [
+          "I",
+          "H",
+          "K",
+          "O",
+          "E",
+          "W",
+          "H"
+        ],
+        [
+          "L",
+          "I",
+          "L",
+          "N",
+          "O",
+          "S",
+          "N"
+        ],
+        [
+          "K",
+          "P",
+          "O",
+          "E",
+          "I",
+          "L",
+          "L"
+        ],
+        [
+          "C",
+          "H",
+          "I",
+          "F",
+          "Z",
+          "I",
+          "Z"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "POOL",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "SILK",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "FISH",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SHIP",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "HONEY",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "DAWN",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 73,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "WIND",
+        "SUGAR",
+        "GRID",
+        "DUCK"
+      ],
+      "grid": [
+        [
+          "H",
+          "F",
+          "L",
+          "M",
+          "K",
+          "R",
+          "D"
+        ],
+        [
+          "N",
+          "Z",
+          "Q",
+          "F",
+          "Y",
+          "J",
+          "D"
+        ],
+        [
+          "Z",
+          "D",
+          "P",
+          "U",
+          "I",
+          "I",
+          "P"
+        ],
+        [
+          "S",
+          "U",
+          "G",
+          "A",
+          "R",
+          "E",
+          "D"
+        ],
+        [
+          "Q",
+          "C",
+          "J",
+          "G",
+          "C",
+          "N",
+          "B"
+        ],
+        [
+          "G",
+          "K",
+          "S",
+          "W",
+          "I",
+          "I",
+          "Z"
+        ],
+        [
+          "Z",
+          "V",
+          "J",
+          "W",
+          "V",
+          "M",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "WIND",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SUGAR",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "GRID",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "DUCK",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 74,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "LEMON",
+        "EMU",
+        "YAK",
+        "MOLE"
+      ],
+      "grid": [
+        [
+          "J",
+          "J",
+          "G",
+          "L",
+          "Y",
+          "Y",
+          "F"
+        ],
+        [
+          "Q",
+          "C",
+          "Z",
+          "U",
+          "G",
+          "K",
+          "N"
+        ],
+        [
+          "V",
+          "M",
+          "M",
+          "M",
+          "A",
+          "E",
+          "K"
+        ],
+        [
+          "R",
+          "E",
+          "M",
+          "O",
+          "X",
+          "A",
+          "A"
+        ],
+        [
+          "D",
+          "S",
+          "Z",
+          "L",
+          "Y",
+          "Z",
+          "V"
+        ],
+        [
+          "A",
+          "H",
+          "L",
+          "E",
+          "M",
+          "O",
+          "N"
+        ],
+        [
+          "N",
+          "Q",
+          "T",
+          "V",
+          "I",
+          "T",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "LEMON",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "EMU",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "YAK",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "MOLE",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 75,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "SEED",
+        "DEER",
+        "TEAL",
+        "BELL",
+        "LION"
+      ],
+      "grid": [
+        [
+          "U",
+          "Y",
+          "S",
+          "P",
+          "Q",
+          "R",
+          "V"
+        ],
+        [
+          "K",
+          "U",
+          "E",
+          "L",
+          "E",
+          "U",
+          "A"
+        ],
+        [
+          "V",
+          "M",
+          "E",
+          "E",
+          "I",
+          "G",
+          "U"
+        ],
+        [
+          "G",
+          "B",
+          "D",
+          "P",
+          "E",
+          "O",
+          "L"
+        ],
+        [
+          "B",
+          "R",
+          "E",
+          "Q",
+          "Z",
+          "A",
+          "N"
+        ],
+        [
+          "Y",
+          "T",
+          "I",
+          "L",
+          "E",
+          "J",
+          "M"
+        ],
+        [
+          "R",
+          "F",
+          "Q",
+          "T",
+          "L",
+          "M",
+          "O"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SEED",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "DEER",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "TEAL",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BELL",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "LION",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 76,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "GIFT",
+        "GOLD",
+        "BEAR",
+        "CRAB",
+        "KEY"
+      ],
+      "grid": [
+        [
+          "G",
+          "P",
+          "B",
+          "E",
+          "A",
+          "R",
+          "B"
+        ],
+        [
+          "O",
+          "N",
+          "C",
+          "R",
+          "A",
+          "B",
+          "T"
+        ],
+        [
+          "L",
+          "Z",
+          "K",
+          "M",
+          "A",
+          "O",
+          "I"
+        ],
+        [
+          "D",
+          "O",
+          "G",
+          "Z",
+          "L",
+          "B",
+          "T"
+        ],
+        [
+          "H",
+          "A",
+          "F",
+          "Y",
+          "C",
+          "F",
+          "S"
+        ],
+        [
+          "W",
+          "U",
+          "E",
+          "E",
+          "I",
+          "U",
+          "S"
+        ],
+        [
+          "Q",
+          "K",
+          "L",
+          "G",
+          "H",
+          "N",
+          "M"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "GIFT",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GOLD",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "BEAR",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "CRAB",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "KEY",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 77,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "PAGE",
+        "GNU",
+        "KEY",
+        "SMILE",
+        "ICE",
+        "FISH"
+      ],
+      "grid": [
+        [
+          "L",
+          "A",
+          "F",
+          "G",
+          "L",
+          "W",
+          "E"
+        ],
+        [
+          "Y",
+          "O",
+          "Y",
+          "F",
+          "C",
+          "L",
+          "I"
+        ],
+        [
+          "P",
+          "A",
+          "G",
+          "E",
+          "I",
+          "I",
+          "C"
+        ],
+        [
+          "G",
+          "H",
+          "Q",
+          "M",
+          "E",
+          "S",
+          "E"
+        ],
+        [
+          "N",
+          "W",
+          "S",
+          "N",
+          "W",
+          "Y",
+          "H"
+        ],
+        [
+          "G",
+          "N",
+          "U",
+          "A",
+          "E",
+          "F",
+          "H"
+        ],
+        [
+          "I",
+          "S",
+          "E",
+          "K",
+          "I",
+          "V",
+          "H"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PAGE",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "GNU",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "KEY",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SMILE",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "ICE",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "FISH",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 78,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "PIZZA",
+        "CHEESE",
+        "GOAT",
+        "CAKE"
+      ],
+      "grid": [
+        [
+          "C",
+          "H",
+          "E",
+          "E",
+          "S",
+          "E",
+          "P"
+        ],
+        [
+          "P",
+          "J",
+          "G",
+          "P",
+          "K",
+          "V",
+          "Y"
+        ],
+        [
+          "Q",
+          "M",
+          "O",
+          "I",
+          "N",
+          "K",
+          "S"
+        ],
+        [
+          "C",
+          "A",
+          "A",
+          "Z",
+          "X",
+          "M",
+          "L"
+        ],
+        [
+          "R",
+          "A",
+          "T",
+          "Z",
+          "I",
+          "Z",
+          "V"
+        ],
+        [
+          "T",
+          "G",
+          "K",
+          "A",
+          "E",
+          "P",
+          "D"
+        ],
+        [
+          "L",
+          "R",
+          "N",
+          "E",
+          "V",
+          "F",
+          "N"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PIZZA",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "CHEESE",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "GOAT",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "CAKE",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 79,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "CROP",
+        "BEE",
+        "PEACH",
+        "BANANA"
+      ],
+      "grid": [
+        [
+          "L",
+          "O",
+          "G",
+          "O",
+          "H",
+          "A",
+          "C"
+        ],
+        [
+          "L",
+          "V",
+          "V",
+          "C",
+          "O",
+          "B",
+          "X"
+        ],
+        [
+          "N",
+          "A",
+          "A",
+          "R",
+          "G",
+          "A",
+          "X"
+        ],
+        [
+          "H",
+          "E",
+          "X",
+          "O",
+          "G",
+          "N",
+          "H"
+        ],
+        [
+          "P",
+          "D",
+          "E",
+          "P",
+          "J",
+          "A",
+          "T"
+        ],
+        [
+          "K",
+          "E",
+          "N",
+          "R",
+          "V",
+          "N",
+          "D"
+        ],
+        [
+          "B",
+          "B",
+          "V",
+          "W",
+          "K",
+          "A",
+          "Y"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CROP",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "BEE",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "PEACH",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BANANA",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 80,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "ELM",
+        "PLUM",
+        "DRUM",
+        "FROG",
+        "ROBIN",
+        "STEM"
+      ],
+      "grid": [
+        [
+          "W",
+          "W",
+          "X",
+          "W",
+          "H",
+          "M",
+          "A"
+        ],
+        [
+          "F",
+          "R",
+          "O",
+          "G",
+          "U",
+          "O",
+          "N"
+        ],
+        [
+          "B",
+          "U",
+          "P",
+          "R",
+          "E",
+          "I",
+          "U"
+        ],
+        [
+          "D",
+          "E",
+          "D",
+          "L",
+          "B",
+          "I",
+          "M"
+        ],
+        [
+          "K",
+          "L",
+          "J",
+          "O",
+          "U",
+          "E",
+          "R"
+        ],
+        [
+          "G",
+          "M",
+          "R",
+          "E",
+          "T",
+          "M",
+          "F"
+        ],
+        [
+          "T",
+          "U",
+          "T",
+          "S",
+          "P",
+          "P",
+          "H"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "ELM",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "PLUM",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "DRUM",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "FROG",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "ROBIN",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "STEM",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 81,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "ICE",
+        "GOWN",
+        "BED",
+        "NAIL",
+        "RUBY",
+        "OCEAN"
+      ],
+      "grid": [
+        [
+          "N",
+          "A",
+          "I",
+          "L",
+          "N",
+          "V",
+          "E"
+        ],
+        [
+          "G",
+          "T",
+          "E",
+          "Y",
+          "Q",
+          "C",
+          "J"
+        ],
+        [
+          "V",
+          "O",
+          "B",
+          "S",
+          "I",
+          "O",
+          "U"
+        ],
+        [
+          "R",
+          "U",
+          "W",
+          "U",
+          "U",
+          "C",
+          "F"
+        ],
+        [
+          "R",
+          "B",
+          "B",
+          "N",
+          "H",
+          "E",
+          "P"
+        ],
+        [
+          "L",
+          "Y",
+          "E",
+          "M",
+          "N",
+          "A",
+          "B"
+        ],
+        [
+          "H",
+          "O",
+          "X",
+          "D",
+          "R",
+          "N",
+          "V"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "ICE",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GOWN",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BED",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "NAIL",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "RUBY",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "OCEAN",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 82,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "CARD",
+        "GOAT",
+        "MINE",
+        "PAN",
+        "PUMP"
+      ],
+      "grid": [
+        [
+          "H",
+          "D",
+          "L",
+          "X",
+          "P",
+          "N",
+          "M"
+        ],
+        [
+          "Y",
+          "N",
+          "F",
+          "M",
+          "A",
+          "Q",
+          "I"
+        ],
+        [
+          "I",
+          "A",
+          "U",
+          "P",
+          "K",
+          "Y",
+          "N"
+        ],
+        [
+          "G",
+          "P",
+          "C",
+          "A",
+          "R",
+          "D",
+          "E"
+        ],
+        [
+          "S",
+          "O",
+          "T",
+          "I",
+          "X",
+          "P",
+          "S"
+        ],
+        [
+          "B",
+          "V",
+          "A",
+          "V",
+          "X",
+          "X",
+          "Q"
+        ],
+        [
+          "V",
+          "Q",
+          "J",
+          "T",
+          "P",
+          "G",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CARD",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "GOAT",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "MINE",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "PAN",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "PUMP",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 83,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "NOTE",
+        "JADE",
+        "WIRE",
+        "BREAD",
+        "RAIN"
+      ],
+      "grid": [
+        [
+          "E",
+          "N",
+          "A",
+          "E",
+          "V",
+          "W",
+          "Y"
+        ],
+        [
+          "C",
+          "N",
+          "D",
+          "V",
+          "R",
+          "T",
+          "B"
+        ],
+        [
+          "J",
+          "A",
+          "D",
+          "H",
+          "A",
+          "J",
+          "R"
+        ],
+        [
+          "J",
+          "O",
+          "F",
+          "V",
+          "I",
+          "Q",
+          "E"
+        ],
+        [
+          "E",
+          "Y",
+          "G",
+          "K",
+          "N",
+          "N",
+          "A"
+        ],
+        [
+          "Y",
+          "E",
+          "N",
+          "O",
+          "T",
+          "E",
+          "D"
+        ],
+        [
+          "L",
+          "V",
+          "W",
+          "I",
+          "R",
+          "E",
+          "G"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "NOTE",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "JADE",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "WIRE",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "BREAD",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "RAIN",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 84,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "WIRE",
+        "SUGAR",
+        "HOOK",
+        "RING",
+        "YAK",
+        "CALF"
+      ],
+      "grid": [
+        [
+          "C",
+          "T",
+          "R",
+          "I",
+          "N",
+          "G",
+          "U"
+        ],
+        [
+          "A",
+          "D",
+          "E",
+          "W",
+          "K",
+          "A",
+          "R"
+        ],
+        [
+          "L",
+          "V",
+          "T",
+          "A",
+          "L",
+          "A",
+          "S"
+        ],
+        [
+          "F",
+          "W",
+          "Y",
+          "H",
+          "G",
+          "Z",
+          "D"
+        ],
+        [
+          "U",
+          "Y",
+          "I",
+          "U",
+          "O",
+          "J",
+          "U"
+        ],
+        [
+          "H",
+          "I",
+          "S",
+          "R",
+          "R",
+          "O",
+          "U"
+        ],
+        [
+          "P",
+          "O",
+          "E",
+          "Z",
+          "E",
+          "P",
+          "K"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "WIRE",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "SUGAR",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "HOOK",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "RING",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "YAK",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CALF",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 85,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "CLOD",
+        "KITE",
+        "SONG",
+        "BALL",
+        "YAK"
+      ],
+      "grid": [
+        [
+          "Y",
+          "L",
+          "X",
+          "J",
+          "Y",
+          "S",
+          "I"
+        ],
+        [
+          "J",
+          "J",
+          "N",
+          "W",
+          "A",
+          "S",
+          "X"
+        ],
+        [
+          "S",
+          "A",
+          "J",
+          "C",
+          "K",
+          "V",
+          "S"
+        ],
+        [
+          "O",
+          "W",
+          "S",
+          "L",
+          "I",
+          "V",
+          "W"
+        ],
+        [
+          "N",
+          "G",
+          "L",
+          "O",
+          "T",
+          "P",
+          "G"
+        ],
+        [
+          "G",
+          "A",
+          "S",
+          "D",
+          "E",
+          "I",
+          "J"
+        ],
+        [
+          "B",
+          "K",
+          "E",
+          "U",
+          "E",
+          "R",
+          "R"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CLOD",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "KITE",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "SONG",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "BALL",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "YAK",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 86,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "TOAD",
+        "SEA",
+        "DESERT",
+        "BREAD",
+        "DOME",
+        "PIPE"
+      ],
+      "grid": [
+        [
+          "A",
+          "N",
+          "D",
+          "S",
+          "B",
+          "G",
+          "I"
+        ],
+        [
+          "S",
+          "E",
+          "A",
+          "Q",
+          "V",
+          "L",
+          "D"
+        ],
+        [
+          "T",
+          "D",
+          "C",
+          "S",
+          "D",
+          "N",
+          "E"
+        ],
+        [
+          "O",
+          "F",
+          "O",
+          "A",
+          "F",
+          "E",
+          "S"
+        ],
+        [
+          "A",
+          "R",
+          "E",
+          "M",
+          "P",
+          "T",
+          "E"
+        ],
+        [
+          "D",
+          "R",
+          "Q",
+          "I",
+          "E",
+          "X",
+          "R"
+        ],
+        [
+          "B",
+          "N",
+          "P",
+          "Q",
+          "Q",
+          "H",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "TOAD",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "SEA",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "DESERT",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "BREAD",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "DOME",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "PIPE",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 87,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "KITE",
+        "SONG",
+        "MUD",
+        "GOLD",
+        "BELL",
+        "BAT"
+      ],
+      "grid": [
+        [
+          "R",
+          "W",
+          "L",
+          "G",
+          "I",
+          "N",
+          "L"
+        ],
+        [
+          "S",
+          "N",
+          "U",
+          "L",
+          "O",
+          "L",
+          "V"
+        ],
+        [
+          "B",
+          "O",
+          "B",
+          "I",
+          "E",
+          "L",
+          "D"
+        ],
+        [
+          "B",
+          "K",
+          "N",
+          "B",
+          "A",
+          "U",
+          "D"
+        ],
+        [
+          "A",
+          "F",
+          "I",
+          "G",
+          "M",
+          "J",
+          "F"
+        ],
+        [
+          "T",
+          "U",
+          "N",
+          "T",
+          "Z",
+          "T",
+          "T"
+        ],
+        [
+          "C",
+          "J",
+          "R",
+          "O",
+          "E",
+          "L",
+          "G"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "KITE",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "SONG",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "MUD",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GOLD",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BELL",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BAT",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 88,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "MUD",
+        "BULL",
+        "SWEET",
+        "TEAL"
+      ],
+      "grid": [
+        [
+          "T",
+          "B",
+          "N",
+          "I",
+          "P",
+          "C",
+          "Q"
+        ],
+        [
+          "X",
+          "S",
+          "W",
+          "E",
+          "E",
+          "T",
+          "P"
+        ],
+        [
+          "L",
+          "M",
+          "B",
+          "B",
+          "L",
+          "F",
+          "T"
+        ],
+        [
+          "M",
+          "U",
+          "M",
+          "U",
+          "L",
+          "Q",
+          "E"
+        ],
+        [
+          "Q",
+          "D",
+          "B",
+          "L",
+          "D",
+          "G",
+          "A"
+        ],
+        [
+          "Z",
+          "S",
+          "B",
+          "L",
+          "U",
+          "O",
+          "L"
+        ],
+        [
+          "L",
+          "S",
+          "H",
+          "M",
+          "H",
+          "X",
+          "X"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MUD",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "BULL",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "SWEET",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "TEAL",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 89,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "BAG",
+        "GREEN",
+        "ROCK",
+        "PINK",
+        "PLAN",
+        "WIND"
+      ],
+      "grid": [
+        [
+          "D",
+          "E",
+          "K",
+          "L",
+          "U",
+          "X",
+          "P"
+        ],
+        [
+          "A",
+          "J",
+          "C",
+          "I",
+          "O",
+          "K",
+          "L"
+        ],
+        [
+          "G",
+          "R",
+          "E",
+          "E",
+          "N",
+          "T",
+          "A"
+        ],
+        [
+          "W",
+          "V",
+          "O",
+          "I",
+          "P",
+          "B",
+          "N"
+        ],
+        [
+          "F",
+          "I",
+          "P",
+          "C",
+          "V",
+          "A",
+          "S"
+        ],
+        [
+          "F",
+          "H",
+          "N",
+          "N",
+          "K",
+          "G",
+          "O"
+        ],
+        [
+          "R",
+          "A",
+          "Z",
+          "D",
+          "H",
+          "D",
+          "Y"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BAG",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "GREEN",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "ROCK",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "PINK",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "PLAN",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "WIND",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 90,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "GRID",
+        "TIGER",
+        "HALL",
+        "WORM",
+        "FOREST"
+      ],
+      "grid": [
+        [
+          "G",
+          "L",
+          "W",
+          "U",
+          "Q",
+          "Q",
+          "C"
+        ],
+        [
+          "H",
+          "R",
+          "M",
+          "Q",
+          "Y",
+          "F",
+          "D"
+        ],
+        [
+          "W",
+          "Q",
+          "I",
+          "L",
+          "T",
+          "O",
+          "H"
+        ],
+        [
+          "H",
+          "O",
+          "L",
+          "D",
+          "I",
+          "R",
+          "J"
+        ],
+        [
+          "Q",
+          "A",
+          "R",
+          "M",
+          "G",
+          "E",
+          "K"
+        ],
+        [
+          "H",
+          "F",
+          "J",
+          "M",
+          "E",
+          "S",
+          "D"
+        ],
+        [
+          "T",
+          "X",
+          "Z",
+          "H",
+          "R",
+          "T",
+          "H"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "GRID",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "TIGER",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "HALL",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "WORM",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "FOREST",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 91,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "CROP",
+        "SAW",
+        "FOREST",
+        "ANT"
+      ],
+      "grid": [
+        [
+          "A",
+          "R",
+          "T",
+          "N",
+          "L",
+          "T",
+          "B"
+        ],
+        [
+          "I",
+          "N",
+          "U",
+          "B",
+          "S",
+          "N",
+          "G"
+        ],
+        [
+          "T",
+          "C",
+          "T",
+          "E",
+          "H",
+          "R",
+          "K"
+        ],
+        [
+          "T",
+          "R",
+          "R",
+          "Z",
+          "O",
+          "M",
+          "V"
+        ],
+        [
+          "F",
+          "O",
+          "H",
+          "C",
+          "S",
+          "W",
+          "B"
+        ],
+        [
+          "F",
+          "P",
+          "I",
+          "Q",
+          "A",
+          "S",
+          "X"
+        ],
+        [
+          "N",
+          "F",
+          "I",
+          "S",
+          "W",
+          "B",
+          "G"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CROP",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "SAW",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "FOREST",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "ANT",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 92,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "OTTER",
+        "RIVER",
+        "CAMEL",
+        "CROP",
+        "MAP"
+      ],
+      "grid": [
+        [
+          "C",
+          "A",
+          "M",
+          "E",
+          "L",
+          "R",
+          "H"
+        ],
+        [
+          "R",
+          "D",
+          "O",
+          "C",
+          "Y",
+          "I",
+          "V"
+        ],
+        [
+          "O",
+          "Q",
+          "K",
+          "R",
+          "O",
+          "V",
+          "R"
+        ],
+        [
+          "C",
+          "T",
+          "T",
+          "O",
+          "Z",
+          "E",
+          "W"
+        ],
+        [
+          "A",
+          "F",
+          "T",
+          "P",
+          "S",
+          "R",
+          "K"
+        ],
+        [
+          "E",
+          "F",
+          "C",
+          "E",
+          "Y",
+          "V",
+          "Z"
+        ],
+        [
+          "G",
+          "M",
+          "A",
+          "P",
+          "R",
+          "H",
+          "B"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "OTTER",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "RIVER",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "CAMEL",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "CROP",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "MAP",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 93,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "OPAL",
+        "HARP",
+        "HOOK",
+        "APPLE",
+        "CART"
+      ],
+      "grid": [
+        [
+          "N",
+          "O",
+          "O",
+          "V",
+          "R",
+          "O",
+          "Z"
+        ],
+        [
+          "E",
+          "H",
+          "T",
+          "I",
+          "E",
+          "I",
+          "L"
+        ],
+        [
+          "I",
+          "O",
+          "O",
+          "L",
+          "X",
+          "D",
+          "D"
+        ],
+        [
+          "U",
+          "H",
+          "P",
+          "O",
+          "W",
+          "H",
+          "J"
+        ],
+        [
+          "O",
+          "P",
+          "A",
+          "L",
+          "K",
+          "A",
+          "C"
+        ],
+        [
+          "A",
+          "K",
+          "C",
+          "C",
+          "A",
+          "R",
+          "T"
+        ],
+        [
+          "K",
+          "X",
+          "Q",
+          "R",
+          "O",
+          "P",
+          "R"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "OPAL",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "HARP",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "HOOK",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "APPLE",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CART",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 94,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "BULL",
+        "FERN",
+        "GOWN",
+        "GOLD",
+        "GOLD"
+      ],
+      "grid": [
+        [
+          "I",
+          "Z",
+          "J",
+          "C",
+          "B",
+          "P",
+          "Q"
+        ],
+        [
+          "B",
+          "G",
+          "L",
+          "K",
+          "Z",
+          "F",
+          "U"
+        ],
+        [
+          "A",
+          "U",
+          "O",
+          "S",
+          "W",
+          "E",
+          "G"
+        ],
+        [
+          "R",
+          "G",
+          "L",
+          "W",
+          "F",
+          "R",
+          "O"
+        ],
+        [
+          "N",
+          "R",
+          "O",
+          "L",
+          "N",
+          "N",
+          "L"
+        ],
+        [
+          "W",
+          "S",
+          "V",
+          "L",
+          "P",
+          "H",
+          "D"
+        ],
+        [
+          "Z",
+          "L",
+          "W",
+          "Q",
+          "D",
+          "H",
+          "B"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BULL",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "FERN",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "GOWN",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "GOLD",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "GOLD",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 95,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "GRAY",
+        "GRID",
+        "DAWN",
+        "BELL"
+      ],
+      "grid": [
+        [
+          "J",
+          "V",
+          "P",
+          "L",
+          "E",
+          "O",
+          "I"
+        ],
+        [
+          "V",
+          "B",
+          "G",
+          "R",
+          "A",
+          "Y",
+          "F"
+        ],
+        [
+          "I",
+          "S",
+          "E",
+          "D",
+          "J",
+          "D",
+          "H"
+        ],
+        [
+          "P",
+          "G",
+          "I",
+          "L",
+          "M",
+          "A",
+          "I"
+        ],
+        [
+          "K",
+          "R",
+          "T",
+          "U",
+          "L",
+          "W",
+          "Z"
+        ],
+        [
+          "G",
+          "M",
+          "C",
+          "T",
+          "A",
+          "N",
+          "F"
+        ],
+        [
+          "N",
+          "Z",
+          "Z",
+          "F",
+          "M",
+          "M",
+          "S"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "GRAY",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "GRID",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "DAWN",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "BELL",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 96,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "DESERT",
+        "WIND",
+        "BED",
+        "BAG"
+      ],
+      "grid": [
+        [
+          "W",
+          "A",
+          "O",
+          "D",
+          "P",
+          "T",
+          "N"
+        ],
+        [
+          "J",
+          "T",
+          "D",
+          "Q",
+          "R",
+          "S",
+          "Z"
+        ],
+        [
+          "T",
+          "E",
+          "J",
+          "E",
+          "U",
+          "L",
+          "I"
+        ],
+        [
+          "H",
+          "W",
+          "S",
+          "W",
+          "H",
+          "O",
+          "X"
+        ],
+        [
+          "A",
+          "E",
+          "Q",
+          "D",
+          "I",
+          "P",
+          "V"
+        ],
+        [
+          "D",
+          "Y",
+          "E",
+          "W",
+          "J",
+          "N",
+          "I"
+        ],
+        [
+          "Q",
+          "B",
+          "B",
+          "A",
+          "G",
+          "Y",
+          "D"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "DESERT",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "WIND",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BED",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BAG",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 97,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "SWAN",
+        "PARK",
+        "CAT",
+        "ROBIN"
+      ],
+      "grid": [
+        [
+          "U",
+          "K",
+          "G",
+          "T",
+          "N",
+          "V",
+          "M"
+        ],
+        [
+          "R",
+          "W",
+          "P",
+          "A",
+          "V",
+          "E",
+          "T"
+        ],
+        [
+          "D",
+          "T",
+          "W",
+          "A",
+          "Q",
+          "J",
+          "L"
+        ],
+        [
+          "K",
+          "S",
+          "Z",
+          "P",
+          "R",
+          "I",
+          "E"
+        ],
+        [
+          "U",
+          "Q",
+          "Y",
+          "Y",
+          "J",
+          "K",
+          "A"
+        ],
+        [
+          "U",
+          "U",
+          "R",
+          "O",
+          "B",
+          "I",
+          "N"
+        ],
+        [
+          "C",
+          "A",
+          "T",
+          "H",
+          "Q",
+          "D",
+          "N"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SWAN",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "PARK",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "CAT",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "ROBIN",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 98,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "MAP",
+        "RED",
+        "HOOK",
+        "MOTH",
+        "STEP",
+        "OTTER"
+      ],
+      "grid": [
+        [
+          "M",
+          "P",
+          "K",
+          "V",
+          "I",
+          "S",
+          "M"
+        ],
+        [
+          "O",
+          "C",
+          "R",
+          "B",
+          "N",
+          "T",
+          "M"
+        ],
+        [
+          "E",
+          "T",
+          "H",
+          "W",
+          "N",
+          "E",
+          "O"
+        ],
+        [
+          "W",
+          "U",
+          "T",
+          "O",
+          "M",
+          "P",
+          "T"
+        ],
+        [
+          "R",
+          "N",
+          "I",
+          "E",
+          "O",
+          "A",
+          "H"
+        ],
+        [
+          "Z",
+          "E",
+          "X",
+          "X",
+          "R",
+          "K",
+          "P"
+        ],
+        [
+          "H",
+          "V",
+          "D",
+          "Q",
+          "N",
+          "X",
+          "B"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MAP",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "RED",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "HOOK",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "MOTH",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "STEP",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "OTTER",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 99,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "SAW",
+        "ROCK",
+        "SILK",
+        "CROW"
+      ],
+      "grid": [
+        [
+          "Q",
+          "R",
+          "F",
+          "R",
+          "N",
+          "J",
+          "I"
+        ],
+        [
+          "J",
+          "Y",
+          "N",
+          "O",
+          "C",
+          "Z",
+          "K"
+        ],
+        [
+          "C",
+          "K",
+          "Q",
+          "C",
+          "E",
+          "Q",
+          "U"
+        ],
+        [
+          "S",
+          "R",
+          "K",
+          "K",
+          "H",
+          "I",
+          "D"
+        ],
+        [
+          "I",
+          "R",
+          "O",
+          "K",
+          "B",
+          "A",
+          "N"
+        ],
+        [
+          "L",
+          "Z",
+          "X",
+          "W",
+          "S",
+          "A",
+          "W"
+        ],
+        [
+          "K",
+          "H",
+          "C",
+          "H",
+          "T",
+          "F",
+          "U"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SAW",
+          "startRow": 5,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "ROCK",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "SILK",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "CROW",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 100,
+      "world": "Sunny Beach",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "DOG",
+        "BULL",
+        "COIN",
+        "MINE",
+        "RUG"
+      ],
+      "grid": [
+        [
+          "N",
+          "G",
+          "R",
+          "A",
+          "P",
+          "G",
+          "O"
+        ],
+        [
+          "Q",
+          "V",
+          "N",
+          "N",
+          "S",
+          "S",
+          "E"
+        ],
+        [
+          "G",
+          "B",
+          "I",
+          "Z",
+          "R",
+          "U",
+          "G"
+        ],
+        [
+          "M",
+          "O",
+          "U",
+          "V",
+          "E",
+          "K",
+          "F"
+        ],
+        [
+          "C",
+          "A",
+          "D",
+          "L",
+          "V",
+          "I",
+          "Y"
+        ],
+        [
+          "M",
+          "I",
+          "N",
+          "E",
+          "L",
+          "J",
+          "C"
+        ],
+        [
+          "K",
+          "D",
+          "O",
+          "G",
+          "U",
+          "A",
+          "U"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "DOG",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "BULL",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "COIN",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "MINE",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "RUG",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    }
+  ]
+}

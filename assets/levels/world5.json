@@ -1,0 +1,6693 @@
+{
+  "world": "Desert Dunes",
+  "worldNumber": 5,
+  "levels": [
+    {
+      "id": 201,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "RULE",
+        "VAN",
+        "DOME",
+        "BEACH",
+        "BRONZE"
+      ],
+      "grid": [
+        [
+          "G",
+          "R",
+          "D",
+          "O",
+          "M",
+          "E",
+          "Q",
+          "N"
+        ],
+        [
+          "G",
+          "D",
+          "B",
+          "E",
+          "A",
+          "C",
+          "H",
+          "I"
+        ],
+        [
+          "P",
+          "O",
+          "L",
+          "Z",
+          "R",
+          "N",
+          "B",
+          "T"
+        ],
+        [
+          "J",
+          "E",
+          "R",
+          "N",
+          "U",
+          "I",
+          "D",
+          "N"
+        ],
+        [
+          "W",
+          "S",
+          "A",
+          "O",
+          "L",
+          "R",
+          "B",
+          "A"
+        ],
+        [
+          "X",
+          "A",
+          "Q",
+          "R",
+          "E",
+          "P",
+          "Y",
+          "V"
+        ],
+        [
+          "C",
+          "T",
+          "M",
+          "B",
+          "U",
+          "L",
+          "G",
+          "L"
+        ],
+        [
+          "F",
+          "I",
+          "Y",
+          "T",
+          "P",
+          "A",
+          "Q",
+          "V"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "RULE",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "VAN",
+          "startRow": 5,
+          "startCol": 7,
+          "direction": "BT"
+        },
+        {
+          "word": "DOME",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "BEACH",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "BRONZE",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 202,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "VAN",
+        "VINE",
+        "SAW",
+        "ROCK",
+        "ELM",
+        "NEWT"
+      ],
+      "grid": [
+        [
+          "C",
+          "E",
+          "C",
+          "Z",
+          "R",
+          "H",
+          "J",
+          "F"
+        ],
+        [
+          "H",
+          "C",
+          "M",
+          "A",
+          "O",
+          "D",
+          "U",
+          "T"
+        ],
+        [
+          "E",
+          "P",
+          "W",
+          "X",
+          "C",
+          "H",
+          "W",
+          "W"
+        ],
+        [
+          "N",
+          "G",
+          "G",
+          "O",
+          "K",
+          "E",
+          "F",
+          "R"
+        ],
+        [
+          "I",
+          "S",
+          "V",
+          "A",
+          "N",
+          "W",
+          "V",
+          "B"
+        ],
+        [
+          "V",
+          "Q",
+          "A",
+          "X",
+          "S",
+          "Q",
+          "T",
+          "Z"
+        ],
+        [
+          "A",
+          "D",
+          "V",
+          "W",
+          "E",
+          "L",
+          "M",
+          "I"
+        ],
+        [
+          "H",
+          "G",
+          "Q",
+          "K",
+          "N",
+          "O",
+          "Q",
+          "P"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "VAN",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "VINE",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "SAW",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "ROCK",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "ELM",
+          "startRow": 6,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "NEWT",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 203,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "SHARK",
+        "FORK",
+        "APPLE",
+        "GALAXIES",
+        "PINE"
+      ],
+      "grid": [
+        [
+          "S",
+          "E",
+          "I",
+          "X",
+          "A",
+          "L",
+          "A",
+          "G"
+        ],
+        [
+          "V",
+          "E",
+          "X",
+          "F",
+          "O",
+          "R",
+          "K",
+          "Y"
+        ],
+        [
+          "E",
+          "B",
+          "A",
+          "P",
+          "P",
+          "L",
+          "E",
+          "E"
+        ],
+        [
+          "A",
+          "E",
+          "X",
+          "M",
+          "G",
+          "K",
+          "S",
+          "Q"
+        ],
+        [
+          "O",
+          "A",
+          "S",
+          "P",
+          "R",
+          "K",
+          "Q",
+          "P"
+        ],
+        [
+          "I",
+          "F",
+          "X",
+          "A",
+          "I",
+          "U",
+          "K",
+          "S"
+        ],
+        [
+          "E",
+          "V",
+          "H",
+          "H",
+          "E",
+          "N",
+          "C",
+          "S"
+        ],
+        [
+          "M",
+          "S",
+          "S",
+          "J",
+          "C",
+          "B",
+          "E",
+          "N"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SHARK",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "FORK",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "APPLE",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "GALAXIES",
+          "startRow": 0,
+          "startCol": 7,
+          "direction": "RL"
+        },
+        {
+          "word": "PINE",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 204,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "HOOD",
+        "STEP",
+        "HAT",
+        "JAY",
+        "GOWN"
+      ],
+      "grid": [
+        [
+          "G",
+          "X",
+          "Q",
+          "E",
+          "J",
+          "H",
+          "T",
+          "O"
+        ],
+        [
+          "S",
+          "W",
+          "V",
+          "D",
+          "N",
+          "P",
+          "P",
+          "T"
+        ],
+        [
+          "T",
+          "J",
+          "C",
+          "X",
+          "L",
+          "E",
+          "D",
+          "N"
+        ],
+        [
+          "E",
+          "A",
+          "U",
+          "I",
+          "M",
+          "V",
+          "O",
+          "K"
+        ],
+        [
+          "P",
+          "Y",
+          "H",
+          "U",
+          "R",
+          "X",
+          "O",
+          "O"
+        ],
+        [
+          "N",
+          "W",
+          "O",
+          "G",
+          "Z",
+          "W",
+          "H",
+          "V"
+        ],
+        [
+          "J",
+          "E",
+          "W",
+          "U",
+          "P",
+          "Z",
+          "J",
+          "B"
+        ],
+        [
+          "K",
+          "E",
+          "H",
+          "A",
+          "T",
+          "V",
+          "R",
+          "D"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HOOD",
+          "startRow": 5,
+          "startCol": 6,
+          "direction": "BT"
+        },
+        {
+          "word": "STEP",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "HAT",
+          "startRow": 7,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "JAY",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "GOWN",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "RL"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 205,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "ANT",
+        "HAWK",
+        "CART",
+        "FAWN",
+        "BAT",
+        "GRID",
+        "LIGHT"
+      ],
+      "grid": [
+        [
+          "L",
+          "I",
+          "G",
+          "H",
+          "T",
+          "N",
+          "A",
+          "G"
+        ],
+        [
+          "C",
+          "T",
+          "H",
+          "Y",
+          "W",
+          "R",
+          "K",
+          "S"
+        ],
+        [
+          "F",
+          "I",
+          "I",
+          "A",
+          "E",
+          "D",
+          "U",
+          "T"
+        ],
+        [
+          "D",
+          "X",
+          "F",
+          "C",
+          "T",
+          "N",
+          "N",
+          "T"
+        ],
+        [
+          "I",
+          "R",
+          "K",
+          "C",
+          "R",
+          "A",
+          "D",
+          "M"
+        ],
+        [
+          "R",
+          "V",
+          "W",
+          "I",
+          "A",
+          "B",
+          "A",
+          "T"
+        ],
+        [
+          "G",
+          "S",
+          "A",
+          "X",
+          "C",
+          "E",
+          "K",
+          "L"
+        ],
+        [
+          "C",
+          "T",
+          "H",
+          "C",
+          "S",
+          "D",
+          "O",
+          "A"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "ANT",
+          "startRow": 4,
+          "startCol": 5,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "HAWK",
+          "startRow": 7,
+          "startCol": 2,
+          "direction": "BT"
+        },
+        {
+          "word": "CART",
+          "startRow": 6,
+          "startCol": 4,
+          "direction": "BT"
+        },
+        {
+          "word": "FAWN",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BAT",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "LR"
+        },
+        {
+          "word": "GRID",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "LIGHT",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 206,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "CORD",
+        "BEACH",
+        "MOLE",
+        "WOOL",
+        "JUICE",
+        "LAMP",
+        "TAP"
+      ],
+      "grid": [
+        [
+          "J",
+          "N",
+          "R",
+          "X",
+          "J",
+          "O",
+          "P",
+          "D"
+        ],
+        [
+          "J",
+          "C",
+          "O",
+          "R",
+          "D",
+          "O",
+          "R",
+          "X"
+        ],
+        [
+          "U",
+          "Z",
+          "M",
+          "W",
+          "O",
+          "O",
+          "L",
+          "A"
+        ],
+        [
+          "I",
+          "B",
+          "W",
+          "O",
+          "Q",
+          "V",
+          "E",
+          "V"
+        ],
+        [
+          "C",
+          "E",
+          "C",
+          "L",
+          "L",
+          "P",
+          "C",
+          "D"
+        ],
+        [
+          "E",
+          "A",
+          "A",
+          "Z",
+          "A",
+          "E",
+          "T",
+          "S"
+        ],
+        [
+          "F",
+          "C",
+          "U",
+          "T",
+          "O",
+          "M",
+          "V",
+          "G"
+        ],
+        [
+          "U",
+          "H",
+          "Z",
+          "M",
+          "Q",
+          "S",
+          "P",
+          "U"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CORD",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "BEACH",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "MOLE",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "WOOL",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "JUICE",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "LAMP",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "TAP",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 207,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "CORK",
+        "COW",
+        "KOI",
+        "FISH",
+        "SHARK",
+        "OWL"
+      ],
+      "grid": [
+        [
+          "S",
+          "L",
+          "D",
+          "N",
+          "M",
+          "F",
+          "P",
+          "B"
+        ],
+        [
+          "H",
+          "H",
+          "K",
+          "B",
+          "R",
+          "I",
+          "N",
+          "M"
+        ],
+        [
+          "O",
+          "Q",
+          "A",
+          "P",
+          "K",
+          "S",
+          "I",
+          "C"
+        ],
+        [
+          "W",
+          "V",
+          "E",
+          "R",
+          "C",
+          "H",
+          "O",
+          "M"
+        ],
+        [
+          "L",
+          "L",
+          "O",
+          "F",
+          "K",
+          "O",
+          "K",
+          "U"
+        ],
+        [
+          "I",
+          "C",
+          "N",
+          "H",
+          "T",
+          "Z",
+          "W",
+          "U"
+        ],
+        [
+          "H",
+          "N",
+          "P",
+          "Y",
+          "V",
+          "K",
+          "E",
+          "E"
+        ],
+        [
+          "P",
+          "V",
+          "N",
+          "V",
+          "J",
+          "B",
+          "E",
+          "I"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CORK",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "COW",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "KOI",
+          "startRow": 4,
+          "startCol": 6,
+          "direction": "BT"
+        },
+        {
+          "word": "FISH",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "SHARK",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "OWL",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 208,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "ELM",
+        "TIGER",
+        "JUICE",
+        "BAT",
+        "HEN",
+        "POST"
+      ],
+      "grid": [
+        [
+          "P",
+          "J",
+          "V",
+          "E",
+          "C",
+          "I",
+          "U",
+          "J"
+        ],
+        [
+          "X",
+          "M",
+          "S",
+          "W",
+          "T",
+          "A",
+          "B",
+          "H"
+        ],
+        [
+          "W",
+          "G",
+          "E",
+          "L",
+          "M",
+          "E",
+          "B",
+          "M"
+        ],
+        [
+          "C",
+          "D",
+          "I",
+          "A",
+          "X",
+          "I",
+          "V",
+          "I"
+        ],
+        [
+          "O",
+          "E",
+          "H",
+          "E",
+          "N",
+          "Z",
+          "H",
+          "C"
+        ],
+        [
+          "I",
+          "G",
+          "N",
+          "R",
+          "E",
+          "G",
+          "I",
+          "T"
+        ],
+        [
+          "F",
+          "M",
+          "V",
+          "N",
+          "E",
+          "W",
+          "X",
+          "Z"
+        ],
+        [
+          "P",
+          "O",
+          "S",
+          "T",
+          "I",
+          "T",
+          "G",
+          "F"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "ELM",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "TIGER",
+          "startRow": 5,
+          "startCol": 7,
+          "direction": "RL"
+        },
+        {
+          "word": "JUICE",
+          "startRow": 0,
+          "startCol": 7,
+          "direction": "RL"
+        },
+        {
+          "word": "BAT",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "HEN",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "POST",
+          "startRow": 7,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 209,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "BELT",
+        "DEW",
+        "BOOT",
+        "FOREST",
+        "CLAY"
+      ],
+      "grid": [
+        [
+          "W",
+          "A",
+          "N",
+          "C",
+          "E",
+          "P",
+          "O",
+          "D"
+        ],
+        [
+          "D",
+          "F",
+          "H",
+          "T",
+          "G",
+          "J",
+          "O",
+          "W"
+        ],
+        [
+          "X",
+          "L",
+          "O",
+          "Y",
+          "B",
+          "Y",
+          "H",
+          "R"
+        ],
+        [
+          "Q",
+          "O",
+          "A",
+          "R",
+          "S",
+          "P",
+          "Z",
+          "H"
+        ],
+        [
+          "B",
+          "L",
+          "P",
+          "T",
+          "E",
+          "U",
+          "F",
+          "K"
+        ],
+        [
+          "C",
+          "R",
+          "P",
+          "L",
+          "W",
+          "S",
+          "M",
+          "G"
+        ],
+        [
+          "N",
+          "N",
+          "T",
+          "E",
+          "M",
+          "L",
+          "T",
+          "B"
+        ],
+        [
+          "D",
+          "O",
+          "D",
+          "B",
+          "X",
+          "W",
+          "Q",
+          "H"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BELT",
+          "startRow": 7,
+          "startCol": 3,
+          "direction": "BT"
+        },
+        {
+          "word": "DEW",
+          "startRow": 7,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BOOT",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "FOREST",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "CLAY",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 210,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "KEY",
+        "MINE",
+        "KITE",
+        "DREAM",
+        "RIVER"
+      ],
+      "grid": [
+        [
+          "Q",
+          "X",
+          "O",
+          "X",
+          "R",
+          "P",
+          "S",
+          "B"
+        ],
+        [
+          "Q",
+          "T",
+          "Z",
+          "I",
+          "I",
+          "Q",
+          "J",
+          "K"
+        ],
+        [
+          "W",
+          "I",
+          "R",
+          "K",
+          "K",
+          "Q",
+          "V",
+          "N"
+        ],
+        [
+          "P",
+          "P",
+          "E",
+          "I",
+          "E",
+          "K",
+          "U",
+          "M"
+        ],
+        [
+          "M",
+          "O",
+          "T",
+          "V",
+          "V",
+          "Y",
+          "A",
+          "O"
+        ],
+        [
+          "I",
+          "S",
+          "I",
+          "O",
+          "L",
+          "E",
+          "M",
+          "T"
+        ],
+        [
+          "N",
+          "M",
+          "K",
+          "Z",
+          "R",
+          "I",
+          "R",
+          "U"
+        ],
+        [
+          "E",
+          "X",
+          "S",
+          "D",
+          "V",
+          "Z",
+          "V",
+          "U"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "KEY",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "MINE",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "KITE",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "BT"
+        },
+        {
+          "word": "DREAM",
+          "startRow": 7,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "RIVER",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 211,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "TIDE",
+        "BARK",
+        "ROBIN",
+        "DISH",
+        "SQUID"
+      ],
+      "grid": [
+        [
+          "F",
+          "N",
+          "T",
+          "D",
+          "I",
+          "U",
+          "Q",
+          "S"
+        ],
+        [
+          "F",
+          "F",
+          "W",
+          "V",
+          "A",
+          "B",
+          "O",
+          "T"
+        ],
+        [
+          "S",
+          "O",
+          "Z",
+          "H",
+          "W",
+          "R",
+          "G",
+          "I"
+        ],
+        [
+          "I",
+          "J",
+          "K",
+          "O",
+          "E",
+          "O",
+          "A",
+          "D"
+        ],
+        [
+          "T",
+          "W",
+          "R",
+          "T",
+          "A",
+          "B",
+          "Z",
+          "E"
+        ],
+        [
+          "Y",
+          "S",
+          "A",
+          "C",
+          "L",
+          "I",
+          "H",
+          "A"
+        ],
+        [
+          "V",
+          "G",
+          "B",
+          "M",
+          "R",
+          "N",
+          "R",
+          "C"
+        ],
+        [
+          "J",
+          "V",
+          "I",
+          "D",
+          "I",
+          "S",
+          "H",
+          "C"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "TIDE",
+          "startRow": 1,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "BARK",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "BT"
+        },
+        {
+          "word": "ROBIN",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "DISH",
+          "startRow": 7,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "SQUID",
+          "startRow": 0,
+          "startCol": 7,
+          "direction": "RL"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 212,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "PARK",
+        "BELT",
+        "BLUE",
+        "LION",
+        "SOFA"
+      ],
+      "grid": [
+        [
+          "X",
+          "W",
+          "M",
+          "K",
+          "R",
+          "A",
+          "P",
+          "K"
+        ],
+        [
+          "I",
+          "B",
+          "P",
+          "V",
+          "X",
+          "W",
+          "A",
+          "G"
+        ],
+        [
+          "U",
+          "X",
+          "N",
+          "E",
+          "Y",
+          "V",
+          "F",
+          "Q"
+        ],
+        [
+          "T",
+          "D",
+          "O",
+          "B",
+          "N",
+          "D",
+          "O",
+          "L"
+        ],
+        [
+          "A",
+          "H",
+          "H",
+          "E",
+          "E",
+          "R",
+          "S",
+          "I"
+        ],
+        [
+          "O",
+          "T",
+          "U",
+          "H",
+          "M",
+          "L",
+          "V",
+          "O"
+        ],
+        [
+          "E",
+          "L",
+          "O",
+          "G",
+          "N",
+          "P",
+          "T",
+          "N"
+        ],
+        [
+          "B",
+          "G",
+          "B",
+          "Q",
+          "W",
+          "P",
+          "A",
+          "O"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PARK",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "BELT",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BLUE",
+          "startRow": 7,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "LION",
+          "startRow": 3,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "SOFA",
+          "startRow": 4,
+          "startCol": 6,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 213,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "BEE",
+        "SAIL",
+        "NET",
+        "BAG",
+        "CAGE",
+        "HAND"
+      ],
+      "grid": [
+        [
+          "A",
+          "I",
+          "D",
+          "K",
+          "D",
+          "U",
+          "J",
+          "W"
+        ],
+        [
+          "G",
+          "T",
+          "X",
+          "N",
+          "V",
+          "V",
+          "B",
+          "H"
+        ],
+        [
+          "C",
+          "J",
+          "A",
+          "T",
+          "E",
+          "N",
+          "K",
+          "Z"
+        ],
+        [
+          "T",
+          "H",
+          "N",
+          "I",
+          "E",
+          "N",
+          "O",
+          "B"
+        ],
+        [
+          "Y",
+          "K",
+          "W",
+          "E",
+          "B",
+          "O",
+          "P",
+          "A"
+        ],
+        [
+          "J",
+          "J",
+          "K",
+          "S",
+          "T",
+          "C",
+          "A",
+          "G"
+        ],
+        [
+          "I",
+          "Q",
+          "E",
+          "G",
+          "A",
+          "C",
+          "G",
+          "Q"
+        ],
+        [
+          "M",
+          "F",
+          "S",
+          "A",
+          "I",
+          "L",
+          "S",
+          "C"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BEE",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "BT"
+        },
+        {
+          "word": "SAIL",
+          "startRow": 7,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "NET",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BAG",
+          "startRow": 3,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "CAGE",
+          "startRow": 6,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "HAND",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 214,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "CHERRY",
+        "MULE",
+        "PIPE",
+        "SWEET",
+        "LAMP",
+        "MIST"
+      ],
+      "grid": [
+        [
+          "L",
+          "A",
+          "M",
+          "P",
+          "B",
+          "T",
+          "R",
+          "T"
+        ],
+        [
+          "V",
+          "N",
+          "C",
+          "E",
+          "Y",
+          "P",
+          "H",
+          "G"
+        ],
+        [
+          "Z",
+          "S",
+          "I",
+          "X",
+          "R",
+          "H",
+          "G",
+          "Y"
+        ],
+        [
+          "N",
+          "T",
+          "W",
+          "M",
+          "F",
+          "F",
+          "R",
+          "Z"
+        ],
+        [
+          "P",
+          "O",
+          "H",
+          "E",
+          "U",
+          "R",
+          "B",
+          "W"
+        ],
+        [
+          "C",
+          "I",
+          "Y",
+          "I",
+          "E",
+          "L",
+          "G",
+          "H"
+        ],
+        [
+          "G",
+          "E",
+          "P",
+          "H",
+          "Z",
+          "T",
+          "E",
+          "T"
+        ],
+        [
+          "Z",
+          "O",
+          "C",
+          "E",
+          "M",
+          "I",
+          "S",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CHERRY",
+          "startRow": 7,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "MULE",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "PIPE",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "SWEET",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "LAMP",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "MIST",
+          "startRow": 7,
+          "startCol": 4,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 215,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "WOOD",
+        "EMU",
+        "GRAY",
+        "BEE",
+        "LAMP"
+      ],
+      "grid": [
+        [
+          "J",
+          "W",
+          "S",
+          "L",
+          "Z",
+          "X",
+          "X",
+          "B"
+        ],
+        [
+          "J",
+          "T",
+          "B",
+          "G",
+          "H",
+          "R",
+          "C",
+          "W"
+        ],
+        [
+          "Z",
+          "Y",
+          "L",
+          "I",
+          "R",
+          "K",
+          "I",
+          "U"
+        ],
+        [
+          "F",
+          "A",
+          "F",
+          "P",
+          "D",
+          "A",
+          "M",
+          "X"
+        ],
+        [
+          "L",
+          "X",
+          "B",
+          "W",
+          "L",
+          "E",
+          "Y",
+          "W"
+        ],
+        [
+          "Y",
+          "X",
+          "E",
+          "J",
+          "O",
+          "A",
+          "K",
+          "Q"
+        ],
+        [
+          "V",
+          "A",
+          "E",
+          "V",
+          "U",
+          "O",
+          "M",
+          "J"
+        ],
+        [
+          "H",
+          "T",
+          "O",
+          "V",
+          "T",
+          "M",
+          "D",
+          "P"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "WOOD",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "EMU",
+          "startRow": 4,
+          "startCol": 5,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GRAY",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BEE",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "LAMP",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 216,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "HORN",
+        "PIG",
+        "GOWN",
+        "CORN",
+        "SAW"
+      ],
+      "grid": [
+        [
+          "L",
+          "H",
+          "T",
+          "O",
+          "K",
+          "U",
+          "E",
+          "A"
+        ],
+        [
+          "H",
+          "Z",
+          "G",
+          "C",
+          "M",
+          "M",
+          "Q",
+          "D"
+        ],
+        [
+          "J",
+          "C",
+          "I",
+          "O",
+          "G",
+          "O",
+          "W",
+          "N"
+        ],
+        [
+          "T",
+          "F",
+          "P",
+          "G",
+          "S",
+          "A",
+          "W",
+          "N"
+        ],
+        [
+          "O",
+          "H",
+          "O",
+          "R",
+          "N",
+          "C",
+          "R",
+          "G"
+        ],
+        [
+          "L",
+          "X",
+          "X",
+          "N",
+          "Y",
+          "O",
+          "B",
+          "M"
+        ],
+        [
+          "D",
+          "C",
+          "I",
+          "A",
+          "C",
+          "C",
+          "I",
+          "J"
+        ],
+        [
+          "V",
+          "Z",
+          "R",
+          "M",
+          "J",
+          "K",
+          "W",
+          "K"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HORN",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "PIG",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "BT"
+        },
+        {
+          "word": "GOWN",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "CORN",
+          "startRow": 6,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SAW",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 217,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "HARE",
+        "NEWT",
+        "SHOE",
+        "REEF",
+        "PONY",
+        "ICE",
+        "GUST"
+      ],
+      "grid": [
+        [
+          "M",
+          "Y",
+          "O",
+          "G",
+          "U",
+          "A",
+          "Q",
+          "M"
+        ],
+        [
+          "Z",
+          "N",
+          "F",
+          "P",
+          "U",
+          "H",
+          "Y",
+          "A"
+        ],
+        [
+          "Z",
+          "O",
+          "S",
+          "C",
+          "Z",
+          "S",
+          "D",
+          "D"
+        ],
+        [
+          "W",
+          "P",
+          "E",
+          "R",
+          "A",
+          "H",
+          "T",
+          "S"
+        ],
+        [
+          "P",
+          "T",
+          "S",
+          "K",
+          "C",
+          "W",
+          "P",
+          "W"
+        ],
+        [
+          "Y",
+          "C",
+          "H",
+          "Y",
+          "E",
+          "U",
+          "G",
+          "I"
+        ],
+        [
+          "P",
+          "P",
+          "O",
+          "N",
+          "H",
+          "I",
+          "B",
+          "C"
+        ],
+        [
+          "R",
+          "E",
+          "E",
+          "F",
+          "V",
+          "N",
+          "U",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HARE",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "NEWT",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SHOE",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "REEF",
+          "startRow": 7,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "PONY",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "BT"
+        },
+        {
+          "word": "ICE",
+          "startRow": 5,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "GUST",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 218,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "DUCK",
+        "DREAM",
+        "CORD",
+        "CLOUDS",
+        "CHERRY",
+        "PLUM"
+      ],
+      "grid": [
+        [
+          "C",
+          "H",
+          "E",
+          "R",
+          "R",
+          "Y",
+          "M",
+          "D"
+        ],
+        [
+          "F",
+          "H",
+          "M",
+          "U",
+          "L",
+          "P",
+          "G",
+          "U"
+        ],
+        [
+          "I",
+          "X",
+          "I",
+          "S",
+          "P",
+          "L",
+          "O",
+          "C"
+        ],
+        [
+          "X",
+          "D",
+          "M",
+          "D",
+          "H",
+          "J",
+          "V",
+          "K"
+        ],
+        [
+          "I",
+          "P",
+          "A",
+          "U",
+          "X",
+          "F",
+          "C",
+          "D"
+        ],
+        [
+          "G",
+          "K",
+          "E",
+          "O",
+          "Q",
+          "U",
+          "R",
+          "Z"
+        ],
+        [
+          "V",
+          "I",
+          "R",
+          "L",
+          "S",
+          "O",
+          "R",
+          "Q"
+        ],
+        [
+          "W",
+          "L",
+          "D",
+          "C",
+          "C",
+          "L",
+          "Z",
+          "V"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "DUCK",
+          "startRow": 0,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "DREAM",
+          "startRow": 7,
+          "startCol": 2,
+          "direction": "BT"
+        },
+        {
+          "word": "CORD",
+          "startRow": 7,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CLOUDS",
+          "startRow": 7,
+          "startCol": 3,
+          "direction": "BT"
+        },
+        {
+          "word": "CHERRY",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "PLUM",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "RL"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 219,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "VINE",
+        "MINE",
+        "OWL",
+        "CORD",
+        "BUCK"
+      ],
+      "grid": [
+        [
+          "L",
+          "O",
+          "A",
+          "O",
+          "D",
+          "G",
+          "J",
+          "U"
+        ],
+        [
+          "W",
+          "S",
+          "U",
+          "R",
+          "Z",
+          "J",
+          "P",
+          "V"
+        ],
+        [
+          "O",
+          "B",
+          "O",
+          "E",
+          "E",
+          "B",
+          "Y",
+          "L"
+        ],
+        [
+          "O",
+          "C",
+          "B",
+          "N",
+          "N",
+          "L",
+          "J",
+          "W"
+        ],
+        [
+          "N",
+          "D",
+          "J",
+          "I",
+          "I",
+          "T",
+          "T",
+          "A"
+        ],
+        [
+          "M",
+          "D",
+          "E",
+          "V",
+          "M",
+          "Q",
+          "V",
+          "Q"
+        ],
+        [
+          "Y",
+          "B",
+          "Q",
+          "L",
+          "F",
+          "F",
+          "T",
+          "M"
+        ],
+        [
+          "D",
+          "K",
+          "C",
+          "U",
+          "B",
+          "O",
+          "O",
+          "F"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "VINE",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "BT"
+        },
+        {
+          "word": "MINE",
+          "startRow": 5,
+          "startCol": 4,
+          "direction": "BT"
+        },
+        {
+          "word": "OWL",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "CORD",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BUCK",
+          "startRow": 7,
+          "startCol": 4,
+          "direction": "RL"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 220,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "SHINE",
+        "SOCK",
+        "CAKE",
+        "RUG",
+        "KOALA",
+        "DUCK"
+      ],
+      "grid": [
+        [
+          "E",
+          "K",
+          "C",
+          "O",
+          "S",
+          "V",
+          "B",
+          "K"
+        ],
+        [
+          "O",
+          "B",
+          "B",
+          "R",
+          "G",
+          "G",
+          "R",
+          "U"
+        ],
+        [
+          "E",
+          "C",
+          "C",
+          "U",
+          "O",
+          "W",
+          "O",
+          "G"
+        ],
+        [
+          "U",
+          "R",
+          "R",
+          "S",
+          "H",
+          "I",
+          "N",
+          "E"
+        ],
+        [
+          "V",
+          "F",
+          "W",
+          "V",
+          "Z",
+          "E",
+          "K",
+          "M"
+        ],
+        [
+          "P",
+          "L",
+          "W",
+          "N",
+          "X",
+          "K",
+          "C",
+          "Y"
+        ],
+        [
+          "B",
+          "W",
+          "M",
+          "I",
+          "G",
+          "A",
+          "U",
+          "K"
+        ],
+        [
+          "A",
+          "L",
+          "A",
+          "O",
+          "K",
+          "C",
+          "D",
+          "F"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SHINE",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "SOCK",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "CAKE",
+          "startRow": 7,
+          "startCol": 5,
+          "direction": "BT"
+        },
+        {
+          "word": "RUG",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "KOALA",
+          "startRow": 7,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "DUCK",
+          "startRow": 7,
+          "startCol": 6,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 221,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "HOOD",
+        "GOAT",
+        "DOVE",
+        "RAIN",
+        "GRAY",
+        "CAKE"
+      ],
+      "grid": [
+        [
+          "H",
+          "X",
+          "C",
+          "B",
+          "G",
+          "Y",
+          "A",
+          "T"
+        ],
+        [
+          "V",
+          "O",
+          "A",
+          "R",
+          "R",
+          "K",
+          "Y",
+          "M"
+        ],
+        [
+          "E",
+          "H",
+          "A",
+          "E",
+          "A",
+          "A",
+          "D",
+          "C"
+        ],
+        [
+          "V",
+          "H",
+          "H",
+          "Q",
+          "Y",
+          "I",
+          "W",
+          "A"
+        ],
+        [
+          "O",
+          "G",
+          "O",
+          "A",
+          "T",
+          "V",
+          "N",
+          "K"
+        ],
+        [
+          "D",
+          "D",
+          "J",
+          "O",
+          "M",
+          "N",
+          "G",
+          "E"
+        ],
+        [
+          "A",
+          "L",
+          "A",
+          "S",
+          "D",
+          "N",
+          "E",
+          "R"
+        ],
+        [
+          "Z",
+          "Y",
+          "C",
+          "Q",
+          "C",
+          "O",
+          "I",
+          "P"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HOOD",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "GOAT",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "DOVE",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "RAIN",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "GRAY",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "CAKE",
+          "startRow": 2,
+          "startCol": 7,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 222,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "LOCK",
+        "BELT",
+        "REEF",
+        "WHALE",
+        "WIND"
+      ],
+      "grid": [
+        [
+          "X",
+          "K",
+          "N",
+          "G",
+          "V",
+          "T",
+          "J",
+          "H"
+        ],
+        [
+          "S",
+          "E",
+          "Y",
+          "D",
+          "L",
+          "H",
+          "T",
+          "L"
+        ],
+        [
+          "Z",
+          "A",
+          "N",
+          "E",
+          "N",
+          "Q",
+          "F",
+          "O"
+        ],
+        [
+          "W",
+          "I",
+          "B",
+          "V",
+          "H",
+          "E",
+          "U",
+          "C"
+        ],
+        [
+          "W",
+          "H",
+          "P",
+          "R",
+          "E",
+          "H",
+          "S",
+          "K"
+        ],
+        [
+          "Y",
+          "K",
+          "A",
+          "R",
+          "T",
+          "M",
+          "G",
+          "B"
+        ],
+        [
+          "R",
+          "P",
+          "K",
+          "L",
+          "Y",
+          "H",
+          "G",
+          "F"
+        ],
+        [
+          "L",
+          "J",
+          "C",
+          "E",
+          "E",
+          "D",
+          "H",
+          "N"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "LOCK",
+          "startRow": 1,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "BELT",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "REEF",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "WHALE",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "WIND",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 223,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "DOME",
+        "GOWN",
+        "TIN",
+        "LAMP",
+        "NEWT",
+        "ELK",
+        "HOOK"
+      ],
+      "grid": [
+        [
+          "P",
+          "D",
+          "K",
+          "Z",
+          "Z",
+          "F",
+          "D",
+          "P"
+        ],
+        [
+          "G",
+          "L",
+          "Q",
+          "V",
+          "O",
+          "B",
+          "O",
+          "M"
+        ],
+        [
+          "E",
+          "O",
+          "Z",
+          "P",
+          "J",
+          "V",
+          "R",
+          "A"
+        ],
+        [
+          "X",
+          "V",
+          "W",
+          "E",
+          "D",
+          "E",
+          "Z",
+          "L"
+        ],
+        [
+          "B",
+          "F",
+          "H",
+          "N",
+          "E",
+          "M",
+          "Q",
+          "T"
+        ],
+        [
+          "V",
+          "T",
+          "P",
+          "O",
+          "K",
+          "O",
+          "J",
+          "T"
+        ],
+        [
+          "N",
+          "E",
+          "W",
+          "T",
+          "O",
+          "D",
+          "V",
+          "I"
+        ],
+        [
+          "M",
+          "T",
+          "R",
+          "Q",
+          "U",
+          "K",
+          "V",
+          "N"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "DOME",
+          "startRow": 6,
+          "startCol": 5,
+          "direction": "BT"
+        },
+        {
+          "word": "GOWN",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "TIN",
+          "startRow": 5,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "LAMP",
+          "startRow": 3,
+          "startCol": 7,
+          "direction": "BT"
+        },
+        {
+          "word": "NEWT",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "ELK",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "HOOK",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 224,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "SHARK",
+        "BARK",
+        "CLOD",
+        "SQUID",
+        "CAMEL"
+      ],
+      "grid": [
+        [
+          "B",
+          "L",
+          "E",
+          "M",
+          "A",
+          "C",
+          "D",
+          "Q"
+        ],
+        [
+          "K",
+          "A",
+          "I",
+          "F",
+          "A",
+          "L",
+          "E",
+          "D"
+        ],
+        [
+          "R",
+          "S",
+          "R",
+          "O",
+          "G",
+          "L",
+          "F",
+          "Y"
+        ],
+        [
+          "A",
+          "P",
+          "Y",
+          "K",
+          "B",
+          "X",
+          "G",
+          "I"
+        ],
+        [
+          "H",
+          "U",
+          "U",
+          "E",
+          "Z",
+          "B",
+          "W",
+          "F"
+        ],
+        [
+          "S",
+          "D",
+          "I",
+          "U",
+          "Q",
+          "S",
+          "Q",
+          "W"
+        ],
+        [
+          "W",
+          "E",
+          "B",
+          "S",
+          "R",
+          "J",
+          "U",
+          "F"
+        ],
+        [
+          "A",
+          "D",
+          "O",
+          "L",
+          "C",
+          "D",
+          "L",
+          "B"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SHARK",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "BARK",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "CLOD",
+          "startRow": 7,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "SQUID",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "CAMEL",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "RL"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 225,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "EAGLE",
+        "MAP",
+        "SWAN",
+        "WAVE",
+        "BRONZE",
+        "ICE"
+      ],
+      "grid": [
+        [
+          "K",
+          "D",
+          "D",
+          "E",
+          "S",
+          "C",
+          "I",
+          "R"
+        ],
+        [
+          "E",
+          "G",
+          "C",
+          "V",
+          "W",
+          "W",
+          "Q",
+          "Q"
+        ],
+        [
+          "W",
+          "I",
+          "H",
+          "E",
+          "B",
+          "A",
+          "A",
+          "F"
+        ],
+        [
+          "T",
+          "E",
+          "A",
+          "G",
+          "L",
+          "E",
+          "V",
+          "N"
+        ],
+        [
+          "P",
+          "K",
+          "E",
+          "M",
+          "S",
+          "P",
+          "X",
+          "E"
+        ],
+        [
+          "O",
+          "C",
+          "M",
+          "D",
+          "A",
+          "L",
+          "Q",
+          "L"
+        ],
+        [
+          "L",
+          "H",
+          "W",
+          "M",
+          "H",
+          "L",
+          "R",
+          "G"
+        ],
+        [
+          "A",
+          "B",
+          "R",
+          "O",
+          "N",
+          "Z",
+          "E",
+          "N"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "EAGLE",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "MAP",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SWAN",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "WAVE",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BRONZE",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "ICE",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 226,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "APE",
+        "LION",
+        "CROP",
+        "EEL",
+        "JADE",
+        "SWAN"
+      ],
+      "grid": [
+        [
+          "S",
+          "W",
+          "A",
+          "N",
+          "E",
+          "E",
+          "G",
+          "G"
+        ],
+        [
+          "H",
+          "U",
+          "B",
+          "O",
+          "P",
+          "H",
+          "E",
+          "H"
+        ],
+        [
+          "V",
+          "F",
+          "Q",
+          "O",
+          "A",
+          "B",
+          "J",
+          "L"
+        ],
+        [
+          "Q",
+          "T",
+          "S",
+          "K",
+          "M",
+          "L",
+          "A",
+          "S"
+        ],
+        [
+          "P",
+          "O",
+          "R",
+          "C",
+          "W",
+          "M",
+          "D",
+          "D"
+        ],
+        [
+          "R",
+          "Z",
+          "D",
+          "K",
+          "S",
+          "O",
+          "E",
+          "G"
+        ],
+        [
+          "U",
+          "N",
+          "R",
+          "B",
+          "A",
+          "C",
+          "M",
+          "M"
+        ],
+        [
+          "S",
+          "N",
+          "N",
+          "O",
+          "I",
+          "L",
+          "L",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "APE",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "BT"
+        },
+        {
+          "word": "LION",
+          "startRow": 7,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "CROP",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "RL"
+        },
+        {
+          "word": "EEL",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "JADE",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "SWAN",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 227,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "POST",
+        "NEWT",
+        "BIRD",
+        "HAND",
+        "SEED",
+        "SILVER"
+      ],
+      "grid": [
+        [
+          "Z",
+          "T",
+          "X",
+          "W",
+          "P",
+          "U",
+          "T",
+          "Z"
+        ],
+        [
+          "A",
+          "S",
+          "S",
+          "V",
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ],
+        [
+          "S",
+          "O",
+          "P",
+          "B",
+          "N",
+          "E",
+          "W",
+          "T"
+        ],
+        [
+          "I",
+          "P",
+          "S",
+          "B",
+          "I",
+          "N",
+          "Q",
+          "R"
+        ],
+        [
+          "L",
+          "X",
+          "E",
+          "P",
+          "H",
+          "R",
+          "M",
+          "D"
+        ],
+        [
+          "V",
+          "N",
+          "E",
+          "G",
+          "C",
+          "C",
+          "D",
+          "N"
+        ],
+        [
+          "E",
+          "L",
+          "D",
+          "V",
+          "S",
+          "L",
+          "J",
+          "A"
+        ],
+        [
+          "R",
+          "Q",
+          "G",
+          "S",
+          "P",
+          "Y",
+          "E",
+          "H"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "POST",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "BT"
+        },
+        {
+          "word": "NEWT",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "BIRD",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "HAND",
+          "startRow": 7,
+          "startCol": 7,
+          "direction": "BT"
+        },
+        {
+          "word": "SEED",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "SILVER",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 228,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "SHOE",
+        "CART",
+        "TREE",
+        "VAN",
+        "SLUG"
+      ],
+      "grid": [
+        [
+          "B",
+          "W",
+          "S",
+          "A",
+          "K",
+          "J",
+          "E",
+          "G"
+        ],
+        [
+          "S",
+          "V",
+          "L",
+          "I",
+          "T",
+          "O",
+          "B",
+          "J"
+        ],
+        [
+          "I",
+          "G",
+          "U",
+          "T",
+          "H",
+          "H",
+          "G",
+          "D"
+        ],
+        [
+          "U",
+          "R",
+          "G",
+          "S",
+          "C",
+          "V",
+          "H",
+          "O"
+        ],
+        [
+          "F",
+          "E",
+          "W",
+          "A",
+          "T",
+          "A",
+          "A",
+          "M"
+        ],
+        [
+          "N",
+          "G",
+          "T",
+          "R",
+          "E",
+          "E",
+          "R",
+          "N"
+        ],
+        [
+          "X",
+          "T",
+          "Y",
+          "E",
+          "P",
+          "O",
+          "I",
+          "T"
+        ],
+        [
+          "S",
+          "I",
+          "C",
+          "U",
+          "H",
+          "G",
+          "W",
+          "I"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SHOE",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CART",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "TREE",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "VAN",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "SLUG",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 229,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "RUBY",
+        "CARD",
+        "SAW",
+        "BARK",
+        "SOIL",
+        "FOG"
+      ],
+      "grid": [
+        [
+          "X",
+          "I",
+          "X",
+          "Q",
+          "N",
+          "I",
+          "T",
+          "S"
+        ],
+        [
+          "L",
+          "F",
+          "X",
+          "E",
+          "W",
+          "Z",
+          "H",
+          "A"
+        ],
+        [
+          "Y",
+          "M",
+          "M",
+          "Y",
+          "B",
+          "U",
+          "R",
+          "W"
+        ],
+        [
+          "Z",
+          "T",
+          "A",
+          "Q",
+          "N",
+          "U",
+          "Q",
+          "S"
+        ],
+        [
+          "N",
+          "M",
+          "E",
+          "W",
+          "B",
+          "D",
+          "P",
+          "B"
+        ],
+        [
+          "L",
+          "I",
+          "O",
+          "S",
+          "R",
+          "A",
+          "C",
+          "I"
+        ],
+        [
+          "G",
+          "O",
+          "F",
+          "A",
+          "F",
+          "S",
+          "R",
+          "D"
+        ],
+        [
+          "B",
+          "L",
+          "C",
+          "H",
+          "O",
+          "R",
+          "W",
+          "K"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "RUBY",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "CARD",
+          "startRow": 7,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SAW",
+          "startRow": 0,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "BARK",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "SOIL",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "RL"
+        },
+        {
+          "word": "FOG",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "RL"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 230,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "WATER",
+        "CHEESE",
+        "BOWL",
+        "SMILE",
+        "POOL",
+        "LAMP",
+        "BEE"
+      ],
+      "grid": [
+        [
+          "L",
+          "E",
+          "W",
+          "W",
+          "F",
+          "M",
+          "C",
+          "Y"
+        ],
+        [
+          "W",
+          "U",
+          "C",
+          "A",
+          "E",
+          "D",
+          "S",
+          "U"
+        ],
+        [
+          "O",
+          "B",
+          "B",
+          "H",
+          "T",
+          "R",
+          "J",
+          "L"
+        ],
+        [
+          "B",
+          "A",
+          "K",
+          "L",
+          "E",
+          "E",
+          "Q",
+          "A"
+        ],
+        [
+          "U",
+          "X",
+          "O",
+          "S",
+          "L",
+          "E",
+          "R",
+          "M"
+        ],
+        [
+          "U",
+          "O",
+          "E",
+          "I",
+          "E",
+          "L",
+          "S",
+          "P"
+        ],
+        [
+          "P",
+          "C",
+          "M",
+          "B",
+          "E",
+          "E",
+          "L",
+          "E"
+        ],
+        [
+          "I",
+          "S",
+          "T",
+          "E",
+          "K",
+          "O",
+          "S",
+          "N"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "WATER",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "CHEESE",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BOWL",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "SMILE",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "POOL",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "LAMP",
+          "startRow": 2,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "BEE",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 231,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "CALL",
+        "BED",
+        "PANDA",
+        "SWAN",
+        "CHEESE",
+        "LEAF",
+        "PARK"
+      ],
+      "grid": [
+        [
+          "P",
+          "J",
+          "E",
+          "S",
+          "E",
+          "E",
+          "H",
+          "C"
+        ],
+        [
+          "W",
+          "X",
+          "P",
+          "A",
+          "N",
+          "D",
+          "A",
+          "P"
+        ],
+        [
+          "D",
+          "D",
+          "Y",
+          "T",
+          "S",
+          "O",
+          "A",
+          "A"
+        ],
+        [
+          "E",
+          "F",
+          "F",
+          "R",
+          "I",
+          "W",
+          "K",
+          "R"
+        ],
+        [
+          "B",
+          "C",
+          "O",
+          "U",
+          "L",
+          "L",
+          "A",
+          "K"
+        ],
+        [
+          "Z",
+          "U",
+          "A",
+          "J",
+          "C",
+          "E",
+          "V",
+          "N"
+        ],
+        [
+          "X",
+          "U",
+          "G",
+          "L",
+          "Z",
+          "A",
+          "Z",
+          "C"
+        ],
+        [
+          "N",
+          "Q",
+          "E",
+          "X",
+          "L",
+          "F",
+          "A",
+          "F"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CALL",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BED",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "PANDA",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "SWAN",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "CHEESE",
+          "startRow": 0,
+          "startCol": 7,
+          "direction": "RL"
+        },
+        {
+          "word": "LEAF",
+          "startRow": 4,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "PARK",
+          "startRow": 1,
+          "startCol": 7,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 232,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "OAK",
+        "PUMP",
+        "STAR",
+        "CORK",
+        "ZEBRA",
+        "EAGLE",
+        "FLOWER"
+      ],
+      "grid": [
+        [
+          "A",
+          "R",
+          "B",
+          "E",
+          "Z",
+          "S",
+          "Q",
+          "R"
+        ],
+        [
+          "O",
+          "A",
+          "K",
+          "K",
+          "H",
+          "F",
+          "A",
+          "H"
+        ],
+        [
+          "N",
+          "P",
+          "F",
+          "O",
+          "Y",
+          "T",
+          "L",
+          "G"
+        ],
+        [
+          "A",
+          "E",
+          "L",
+          "L",
+          "S",
+          "R",
+          "V",
+          "P"
+        ],
+        [
+          "P",
+          "B",
+          "E",
+          "C",
+          "O",
+          "R",
+          "K",
+          "N"
+        ],
+        [
+          "U",
+          "P",
+          "V",
+          "L",
+          "D",
+          "W",
+          "J",
+          "H"
+        ],
+        [
+          "M",
+          "D",
+          "E",
+          "L",
+          "G",
+          "A",
+          "E",
+          "M"
+        ],
+        [
+          "P",
+          "X",
+          "V",
+          "Q",
+          "G",
+          "P",
+          "R",
+          "R"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "OAK",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "PUMP",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "STAR",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CORK",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "ZEBRA",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "EAGLE",
+          "startRow": 6,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "FLOWER",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 233,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "MILK",
+        "GOLD",
+        "FERN",
+        "FLOWER",
+        "SKY",
+        "CLOUDS"
+      ],
+      "grid": [
+        [
+          "Z",
+          "F",
+          "L",
+          "O",
+          "W",
+          "E",
+          "R",
+          "G"
+        ],
+        [
+          "M",
+          "L",
+          "E",
+          "C",
+          "O",
+          "E",
+          "K",
+          "H"
+        ],
+        [
+          "G",
+          "G",
+          "Y",
+          "T",
+          "S",
+          "L",
+          "C",
+          "S"
+        ],
+        [
+          "O",
+          "D",
+          "D",
+          "S",
+          "I",
+          "K",
+          "D",
+          "Z"
+        ],
+        [
+          "L",
+          "C",
+          "S",
+          "M",
+          "R",
+          "U",
+          "Y",
+          "N"
+        ],
+        [
+          "D",
+          "S",
+          "E",
+          "F",
+          "O",
+          "L",
+          "R",
+          "R"
+        ],
+        [
+          "A",
+          "V",
+          "R",
+          "L",
+          "C",
+          "E",
+          "K",
+          "D"
+        ],
+        [
+          "Q",
+          "R",
+          "C",
+          "E",
+          "F",
+          "G",
+          "C",
+          "A"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MILK",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GOLD",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "FERN",
+          "startRow": 7,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "FLOWER",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "SKY",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "CLOUDS",
+          "startRow": 7,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 234,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "FORK",
+        "HAPPY",
+        "FLOWER",
+        "DISH",
+        "MILK"
+      ],
+      "grid": [
+        [
+          "Z",
+          "H",
+          "R",
+          "M",
+          "X",
+          "C",
+          "P",
+          "V"
+        ],
+        [
+          "H",
+          "A",
+          "D",
+          "O",
+          "I",
+          "R",
+          "P",
+          "K"
+        ],
+        [
+          "S",
+          "P",
+          "U",
+          "R",
+          "E",
+          "L",
+          "D",
+          "V"
+        ],
+        [
+          "I",
+          "P",
+          "W",
+          "W",
+          "U",
+          "E",
+          "K",
+          "E"
+        ],
+        [
+          "D",
+          "Y",
+          "O",
+          "D",
+          "G",
+          "R",
+          "V",
+          "C"
+        ],
+        [
+          "E",
+          "L",
+          "Z",
+          "U",
+          "O",
+          "I",
+          "H",
+          "P"
+        ],
+        [
+          "F",
+          "I",
+          "M",
+          "F",
+          "K",
+          "J",
+          "P",
+          "C"
+        ],
+        [
+          "S",
+          "D",
+          "B",
+          "Q",
+          "C",
+          "G",
+          "Y",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "FORK",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "HAPPY",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "FLOWER",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "DISH",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "MILK",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 235,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "FOREST",
+        "WAVE",
+        "DREAM",
+        "OWL",
+        "FISH"
+      ],
+      "grid": [
+        [
+          "F",
+          "I",
+          "S",
+          "H",
+          "T",
+          "R",
+          "X",
+          "A"
+        ],
+        [
+          "S",
+          "O",
+          "A",
+          "P",
+          "H",
+          "F",
+          "R",
+          "G"
+        ],
+        [
+          "D",
+          "K",
+          "S",
+          "A",
+          "P",
+          "V",
+          "D",
+          "K"
+        ],
+        [
+          "K",
+          "F",
+          "G",
+          "S",
+          "S",
+          "L",
+          "L",
+          "O"
+        ],
+        [
+          "M",
+          "E",
+          "V",
+          "A",
+          "W",
+          "M",
+          "Z",
+          "W"
+        ],
+        [
+          "C",
+          "P",
+          "D",
+          "R",
+          "E",
+          "A",
+          "M",
+          "L"
+        ],
+        [
+          "V",
+          "I",
+          "X",
+          "F",
+          "E",
+          "R",
+          "U",
+          "E"
+        ],
+        [
+          "F",
+          "O",
+          "R",
+          "E",
+          "S",
+          "T",
+          "P",
+          "H"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "FOREST",
+          "startRow": 7,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "WAVE",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "DREAM",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "OWL",
+          "startRow": 3,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "FISH",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 236,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "MIST",
+        "LION",
+        "CORK",
+        "RAT",
+        "COMB",
+        "GRAY"
+      ],
+      "grid": [
+        [
+          "X",
+          "Z",
+          "Y",
+          "L",
+          "T",
+          "S",
+          "T",
+          "Y"
+        ],
+        [
+          "R",
+          "M",
+          "D",
+          "L",
+          "I",
+          "S",
+          "T",
+          "V"
+        ],
+        [
+          "Y",
+          "A",
+          "U",
+          "Q",
+          "I",
+          "O",
+          "A",
+          "Y"
+        ],
+        [
+          "A",
+          "O",
+          "T",
+          "M",
+          "M",
+          "H",
+          "N",
+          "K"
+        ],
+        [
+          "R",
+          "D",
+          "H",
+          "T",
+          "Q",
+          "B",
+          "T",
+          "R"
+        ],
+        [
+          "G",
+          "N",
+          "B",
+          "O",
+          "M",
+          "J",
+          "I",
+          "O"
+        ],
+        [
+          "M",
+          "C",
+          "M",
+          "O",
+          "I",
+          "E",
+          "G",
+          "C"
+        ],
+        [
+          "F",
+          "H",
+          "C",
+          "Y",
+          "Y",
+          "Z",
+          "V",
+          "U"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MIST",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "LION",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "CORK",
+          "startRow": 6,
+          "startCol": 7,
+          "direction": "BT"
+        },
+        {
+          "word": "RAT",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "COMB",
+          "startRow": 7,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GRAY",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 237,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "BOOK",
+        "SOIL",
+        "PEAT",
+        "DESERT",
+        "KEY",
+        "HALL",
+        "RUBY"
+      ],
+      "grid": [
+        [
+          "E",
+          "M",
+          "D",
+          "E",
+          "S",
+          "E",
+          "R",
+          "T"
+        ],
+        [
+          "Y",
+          "Z",
+          "W",
+          "S",
+          "T",
+          "L",
+          "S",
+          "S"
+        ],
+        [
+          "B",
+          "S",
+          "Y",
+          "A",
+          "L",
+          "K",
+          "P",
+          "M"
+        ],
+        [
+          "U",
+          "N",
+          "E",
+          "A",
+          "L",
+          "E",
+          "I",
+          "C"
+        ],
+        [
+          "R",
+          "P",
+          "H",
+          "A",
+          "K",
+          "R",
+          "O",
+          "V"
+        ],
+        [
+          "M",
+          "M",
+          "R",
+          "O",
+          "Y",
+          "E",
+          "K",
+          "F"
+        ],
+        [
+          "R",
+          "O",
+          "O",
+          "I",
+          "Q",
+          "N",
+          "S",
+          "F"
+        ],
+        [
+          "J",
+          "B",
+          "Z",
+          "G",
+          "L",
+          "I",
+          "O",
+          "S"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BOOK",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SOIL",
+          "startRow": 7,
+          "startCol": 7,
+          "direction": "RL"
+        },
+        {
+          "word": "PEAT",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "DESERT",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "KEY",
+          "startRow": 5,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "HALL",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "RUBY",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 238,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "APPLE",
+        "STEP",
+        "GUST",
+        "BOAT",
+        "GOWN",
+        "DOME"
+      ],
+      "grid": [
+        [
+          "B",
+          "C",
+          "O",
+          "T",
+          "M",
+          "D",
+          "A",
+          "H"
+        ],
+        [
+          "G",
+          "O",
+          "J",
+          "Q",
+          "E",
+          "Z",
+          "C",
+          "E"
+        ],
+        [
+          "U",
+          "Z",
+          "A",
+          "M",
+          "I",
+          "L",
+          "G",
+          "D"
+        ],
+        [
+          "S",
+          "Y",
+          "O",
+          "T",
+          "E",
+          "G",
+          "O",
+          "X"
+        ],
+        [
+          "T",
+          "D",
+          "S",
+          "L",
+          "X",
+          "V",
+          "W",
+          "C"
+        ],
+        [
+          "R",
+          "E",
+          "P",
+          "P",
+          "H",
+          "N",
+          "N",
+          "Z"
+        ],
+        [
+          "L",
+          "P",
+          "E",
+          "T",
+          "S",
+          "V",
+          "A",
+          "X"
+        ],
+        [
+          "A",
+          "Q",
+          "J",
+          "O",
+          "E",
+          "V",
+          "S",
+          "Y"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "APPLE",
+          "startRow": 7,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "STEP",
+          "startRow": 6,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "GUST",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "BOAT",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "GOWN",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "DOME",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 239,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "LAMB",
+        "GALAXIES",
+        "DOVE",
+        "BULL",
+        "CAMEL",
+        "MILK"
+      ],
+      "grid": [
+        [
+          "A",
+          "O",
+          "T",
+          "M",
+          "Q",
+          "W",
+          "T",
+          "C"
+        ],
+        [
+          "E",
+          "J",
+          "M",
+          "I",
+          "L",
+          "K",
+          "Q",
+          "J"
+        ],
+        [
+          "G",
+          "A",
+          "L",
+          "A",
+          "X",
+          "I",
+          "E",
+          "S"
+        ],
+        [
+          "C",
+          "A",
+          "M",
+          "E",
+          "L",
+          "E",
+          "Y",
+          "C"
+        ],
+        [
+          "P",
+          "E",
+          "M",
+          "A",
+          "L",
+          "A",
+          "E",
+          "Z"
+        ],
+        [
+          "Q",
+          "V",
+          "L",
+          "R",
+          "L",
+          "W",
+          "M",
+          "G"
+        ],
+        [
+          "G",
+          "O",
+          "F",
+          "X",
+          "U",
+          "H",
+          "K",
+          "B"
+        ],
+        [
+          "Z",
+          "D",
+          "G",
+          "N",
+          "B",
+          "H",
+          "F",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "LAMB",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "GALAXIES",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "DOVE",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "BT"
+        },
+        {
+          "word": "BULL",
+          "startRow": 7,
+          "startCol": 4,
+          "direction": "BT"
+        },
+        {
+          "word": "CAMEL",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "MILK",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 240,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "FOREST",
+        "NEST",
+        "BOAT",
+        "DAWN",
+        "BREAD",
+        "DRUM"
+      ],
+      "grid": [
+        [
+          "W",
+          "T",
+          "A",
+          "O",
+          "B",
+          "U",
+          "B",
+          "U"
+        ],
+        [
+          "D",
+          "F",
+          "D",
+          "M",
+          "D",
+          "X",
+          "G",
+          "D"
+        ],
+        [
+          "N",
+          "V",
+          "O",
+          "R",
+          "N",
+          "E",
+          "S",
+          "T"
+        ],
+        [
+          "E",
+          "B",
+          "S",
+          "R",
+          "U",
+          "C",
+          "W",
+          "P"
+        ],
+        [
+          "D",
+          "R",
+          "O",
+          "N",
+          "E",
+          "M",
+          "Z",
+          "U"
+        ],
+        [
+          "X",
+          "E",
+          "M",
+          "G",
+          "D",
+          "S",
+          "C",
+          "Z"
+        ],
+        [
+          "D",
+          "A",
+          "W",
+          "N",
+          "W",
+          "T",
+          "T",
+          "Z"
+        ],
+        [
+          "L",
+          "D",
+          "Z",
+          "O",
+          "D",
+          "Z",
+          "P",
+          "X"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "FOREST",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "NEST",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "BOAT",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "DAWN",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "BREAD",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "DRUM",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 241,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "OTTER",
+        "CART",
+        "FAWN",
+        "CAMEL",
+        "KITE"
+      ],
+      "grid": [
+        [
+          "M",
+          "K",
+          "E",
+          "S",
+          "L",
+          "W",
+          "Q",
+          "D"
+        ],
+        [
+          "C",
+          "I",
+          "D",
+          "W",
+          "N",
+          "N",
+          "K",
+          "V"
+        ],
+        [
+          "Y",
+          "T",
+          "M",
+          "D",
+          "W",
+          "F",
+          "O",
+          "R"
+        ],
+        [
+          "C",
+          "E",
+          "C",
+          "A",
+          "I",
+          "M",
+          "B",
+          "C"
+        ],
+        [
+          "A",
+          "Z",
+          "F",
+          "T",
+          "R",
+          "A",
+          "C",
+          "R"
+        ],
+        [
+          "M",
+          "O",
+          "T",
+          "T",
+          "E",
+          "R",
+          "A",
+          "S"
+        ],
+        [
+          "E",
+          "K",
+          "V",
+          "J",
+          "Z",
+          "T",
+          "N",
+          "P"
+        ],
+        [
+          "L",
+          "H",
+          "P",
+          "U",
+          "H",
+          "T",
+          "L",
+          "C"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "OTTER",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "CART",
+          "startRow": 4,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "FAWN",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CAMEL",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "KITE",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 242,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "KOI",
+        "RUG",
+        "SHOP",
+        "HARP",
+        "PUMA"
+      ],
+      "grid": [
+        [
+          "Q",
+          "P",
+          "L",
+          "P",
+          "R",
+          "A",
+          "H",
+          "W"
+        ],
+        [
+          "K",
+          "O",
+          "W",
+          "L",
+          "D",
+          "C",
+          "M",
+          "Y"
+        ],
+        [
+          "K",
+          "H",
+          "E",
+          "B",
+          "Z",
+          "G",
+          "P",
+          "G"
+        ],
+        [
+          "M",
+          "S",
+          "W",
+          "P",
+          "F",
+          "U",
+          "E",
+          "I"
+        ],
+        [
+          "P",
+          "T",
+          "O",
+          "K",
+          "Q",
+          "R",
+          "I",
+          "Z"
+        ],
+        [
+          "R",
+          "U",
+          "S",
+          "K",
+          "O",
+          "Z",
+          "Z",
+          "X"
+        ],
+        [
+          "A",
+          "V",
+          "M",
+          "U",
+          "H",
+          "I",
+          "S",
+          "I"
+        ],
+        [
+          "G",
+          "A",
+          "Q",
+          "A",
+          "W",
+          "K",
+          "T",
+          "C"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "KOI",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "RUG",
+          "startRow": 4,
+          "startCol": 5,
+          "direction": "BT"
+        },
+        {
+          "word": "SHOP",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "BT"
+        },
+        {
+          "word": "HARP",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "PUMA",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 243,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "SOCK",
+        "JADE",
+        "APE",
+        "BUCK",
+        "APPLE",
+        "CHERRY"
+      ],
+      "grid": [
+        [
+          "Y",
+          "W",
+          "B",
+          "T",
+          "B",
+          "N",
+          "F",
+          "W"
+        ],
+        [
+          "U",
+          "I",
+          "C",
+          "S",
+          "U",
+          "L",
+          "L",
+          "E"
+        ],
+        [
+          "R",
+          "S",
+          "K",
+          "K",
+          "C",
+          "K",
+          "L",
+          "Q"
+        ],
+        [
+          "V",
+          "O",
+          "L",
+          "H",
+          "K",
+          "P",
+          "A",
+          "R"
+        ],
+        [
+          "S",
+          "C",
+          "U",
+          "Y",
+          "P",
+          "W",
+          "H",
+          "I"
+        ],
+        [
+          "C",
+          "K",
+          "E",
+          "A",
+          "T",
+          "R",
+          "E",
+          "D"
+        ],
+        [
+          "N",
+          "P",
+          "E",
+          "D",
+          "A",
+          "J",
+          "Y",
+          "T"
+        ],
+        [
+          "A",
+          "Y",
+          "R",
+          "R",
+          "E",
+          "H",
+          "C",
+          "R"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SOCK",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "JADE",
+          "startRow": 6,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "APE",
+          "startRow": 7,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BUCK",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "APPLE",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CHERRY",
+          "startRow": 7,
+          "startCol": 6,
+          "direction": "RL"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 244,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "CHERRY",
+        "SEED",
+        "OPAL",
+        "GUST",
+        "IBIS"
+      ],
+      "grid": [
+        [
+          "H",
+          "N",
+          "V",
+          "S",
+          "I",
+          "B",
+          "B",
+          "R"
+        ],
+        [
+          "D",
+          "I",
+          "Q",
+          "S",
+          "R",
+          "B",
+          "H",
+          "Y"
+        ],
+        [
+          "C",
+          "G",
+          "N",
+          "A",
+          "D",
+          "Y",
+          "I",
+          "J"
+        ],
+        [
+          "I",
+          "P",
+          "U",
+          "E",
+          "S",
+          "R",
+          "W",
+          "S"
+        ],
+        [
+          "V",
+          "N",
+          "E",
+          "S",
+          "P",
+          "R",
+          "C",
+          "R"
+        ],
+        [
+          "W",
+          "S",
+          "I",
+          "U",
+          "T",
+          "E",
+          "X",
+          "Z"
+        ],
+        [
+          "O",
+          "P",
+          "A",
+          "L",
+          "V",
+          "H",
+          "R",
+          "Q"
+        ],
+        [
+          "O",
+          "W",
+          "W",
+          "Y",
+          "D",
+          "C",
+          "Q",
+          "D"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CHERRY",
+          "startRow": 7,
+          "startCol": 5,
+          "direction": "BT"
+        },
+        {
+          "word": "SEED",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "OPAL",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "GUST",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "IBIS",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 245,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "HARE",
+        "WAVE",
+        "TIDE",
+        "CASE",
+        "RAT",
+        "HOOD"
+      ],
+      "grid": [
+        [
+          "X",
+          "N",
+          "Y",
+          "L",
+          "H",
+          "W",
+          "D",
+          "K"
+        ],
+        [
+          "D",
+          "E",
+          "J",
+          "A",
+          "X",
+          "K",
+          "E",
+          "O"
+        ],
+        [
+          "O",
+          "Z",
+          "S",
+          "M",
+          "K",
+          "R",
+          "E",
+          "W"
+        ],
+        [
+          "O",
+          "F",
+          "M",
+          "C",
+          "A",
+          "A",
+          "T",
+          "A"
+        ],
+        [
+          "H",
+          "R",
+          "J",
+          "H",
+          "A",
+          "T",
+          "I",
+          "V"
+        ],
+        [
+          "F",
+          "R",
+          "A",
+          "N",
+          "W",
+          "S",
+          "D",
+          "E"
+        ],
+        [
+          "E",
+          "G",
+          "J",
+          "Y",
+          "T",
+          "V",
+          "E",
+          "E"
+        ],
+        [
+          "P",
+          "Z",
+          "J",
+          "U",
+          "E",
+          "B",
+          "E",
+          "H"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HARE",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "WAVE",
+          "startRow": 2,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "TIDE",
+          "startRow": 3,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "CASE",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "RAT",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "HOOD",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 246,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "BARK",
+        "SEED",
+        "SUGAR",
+        "BED",
+        "CALL"
+      ],
+      "grid": [
+        [
+          "L",
+          "E",
+          "L",
+          "I",
+          "C",
+          "S",
+          "S",
+          "Z"
+        ],
+        [
+          "Y",
+          "K",
+          "R",
+          "A",
+          "G",
+          "U",
+          "S",
+          "G"
+        ],
+        [
+          "K",
+          "D",
+          "H",
+          "D",
+          "S",
+          "N",
+          "Y",
+          "G"
+        ],
+        [
+          "J",
+          "C",
+          "N",
+          "D",
+          "H",
+          "U",
+          "H",
+          "S"
+        ],
+        [
+          "I",
+          "A",
+          "U",
+          "E",
+          "H",
+          "T",
+          "O",
+          "B"
+        ],
+        [
+          "M",
+          "L",
+          "S",
+          "E",
+          "D",
+          "S",
+          "W",
+          "E"
+        ],
+        [
+          "C",
+          "L",
+          "B",
+          "S",
+          "H",
+          "H",
+          "J",
+          "D"
+        ],
+        [
+          "L",
+          "F",
+          "P",
+          "B",
+          "A",
+          "R",
+          "K",
+          "R"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BARK",
+          "startRow": 7,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "SEED",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "BT"
+        },
+        {
+          "word": "SUGAR",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "BED",
+          "startRow": 4,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "CALL",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 247,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "SUGAR",
+        "EAGLE",
+        "PEACH",
+        "GOLD",
+        "TAP",
+        "JUICE",
+        "BEE"
+      ],
+      "grid": [
+        [
+          "J",
+          "R",
+          "R",
+          "A",
+          "G",
+          "U",
+          "S",
+          "L"
+        ],
+        [
+          "U",
+          "E",
+          "F",
+          "K",
+          "R",
+          "K",
+          "L",
+          "J"
+        ],
+        [
+          "I",
+          "V",
+          "A",
+          "B",
+          "D",
+          "L",
+          "O",
+          "G"
+        ],
+        [
+          "C",
+          "I",
+          "P",
+          "G",
+          "N",
+          "P",
+          "A",
+          "T"
+        ],
+        [
+          "E",
+          "F",
+          "E",
+          "N",
+          "L",
+          "D",
+          "R",
+          "E"
+        ],
+        [
+          "C",
+          "N",
+          "A",
+          "T",
+          "U",
+          "E",
+          "E",
+          "Y"
+        ],
+        [
+          "B",
+          "E",
+          "C",
+          "L",
+          "T",
+          "B",
+          "X",
+          "S"
+        ],
+        [
+          "W",
+          "J",
+          "H",
+          "U",
+          "I",
+          "U",
+          "Q",
+          "I"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SUGAR",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "EAGLE",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "PEACH",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "GOLD",
+          "startRow": 2,
+          "startCol": 7,
+          "direction": "RL"
+        },
+        {
+          "word": "TAP",
+          "startRow": 3,
+          "startCol": 7,
+          "direction": "RL"
+        },
+        {
+          "word": "JUICE",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "BEE",
+          "startRow": 6,
+          "startCol": 5,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 248,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "MULE",
+        "GALAXIES",
+        "APPLE",
+        "OAK",
+        "RIVER",
+        "ROBIN",
+        "PEN"
+      ],
+      "grid": [
+        [
+          "P",
+          "G",
+          "N",
+          "I",
+          "B",
+          "O",
+          "R",
+          "B"
+        ],
+        [
+          "N",
+          "A",
+          "I",
+          "X",
+          "O",
+          "E",
+          "S",
+          "Z"
+        ],
+        [
+          "E",
+          "L",
+          "P",
+          "P",
+          "A",
+          "A",
+          "O",
+          "S"
+        ],
+        [
+          "C",
+          "A",
+          "M",
+          "R",
+          "Q",
+          "U",
+          "K",
+          "K"
+        ],
+        [
+          "E",
+          "X",
+          "O",
+          "Y",
+          "I",
+          "X",
+          "A",
+          "E"
+        ],
+        [
+          "N",
+          "I",
+          "F",
+          "U",
+          "R",
+          "V",
+          "L",
+          "W"
+        ],
+        [
+          "E",
+          "E",
+          "B",
+          "E",
+          "M",
+          "U",
+          "E",
+          "M"
+        ],
+        [
+          "P",
+          "S",
+          "Z",
+          "Z",
+          "M",
+          "M",
+          "D",
+          "R"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MULE",
+          "startRow": 7,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GALAXIES",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "APPLE",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "OAK",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "RIVER",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "ROBIN",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "PEN",
+          "startRow": 7,
+          "startCol": 0,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 249,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "LAMB",
+        "TUB",
+        "SHINE",
+        "POT",
+        "HAND"
+      ],
+      "grid": [
+        [
+          "J",
+          "G",
+          "L",
+          "N",
+          "F",
+          "C",
+          "B",
+          "S"
+        ],
+        [
+          "Y",
+          "T",
+          "Z",
+          "P",
+          "J",
+          "G",
+          "I",
+          "H"
+        ],
+        [
+          "H",
+          "X",
+          "Q",
+          "F",
+          "O",
+          "H",
+          "K",
+          "I"
+        ],
+        [
+          "V",
+          "A",
+          "T",
+          "U",
+          "B",
+          "T",
+          "B",
+          "N"
+        ],
+        [
+          "Y",
+          "V",
+          "N",
+          "J",
+          "H",
+          "M",
+          "X",
+          "E"
+        ],
+        [
+          "M",
+          "M",
+          "C",
+          "D",
+          "A",
+          "Z",
+          "E",
+          "Y"
+        ],
+        [
+          "J",
+          "W",
+          "A",
+          "L",
+          "E",
+          "D",
+          "C",
+          "W"
+        ],
+        [
+          "W",
+          "C",
+          "B",
+          "K",
+          "O",
+          "Y",
+          "V",
+          "G"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "LAMB",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "TUB",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "SHINE",
+          "startRow": 0,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "POT",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "HAND",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 120
+    },
+    {
+      "id": 250,
+      "world": "Desert Dunes",
+      "difficulty": 3,
+      "gridSize": 8,
+      "words": [
+        "BELL",
+        "OWL",
+        "SILK",
+        "GALAXIES",
+        "CANDY",
+        "CAKE",
+        "GOAT"
+      ],
+      "grid": [
+        [
+          "P",
+          "L",
+          "W",
+          "O",
+          "K",
+          "J",
+          "G",
+          "Q"
+        ],
+        [
+          "G",
+          "C",
+          "K",
+          "E",
+          "X",
+          "J",
+          "A",
+          "P"
+        ],
+        [
+          "W",
+          "O",
+          "K",
+          "Z",
+          "X",
+          "Y",
+          "L",
+          "P"
+        ],
+        [
+          "B",
+          "A",
+          "A",
+          "R",
+          "B",
+          "C",
+          "A",
+          "O"
+        ],
+        [
+          "C",
+          "E",
+          "X",
+          "T",
+          "T",
+          "A",
+          "X",
+          "R"
+        ],
+        [
+          "S",
+          "R",
+          "L",
+          "X",
+          "G",
+          "N",
+          "I",
+          "R"
+        ],
+        [
+          "H",
+          "S",
+          "D",
+          "L",
+          "B",
+          "D",
+          "E",
+          "G"
+        ],
+        [
+          "K",
+          "L",
+          "I",
+          "S",
+          "U",
+          "Y",
+          "S",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BELL",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "OWL",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "RL"
+        },
+        {
+          "word": "SILK",
+          "startRow": 7,
+          "startCol": 3,
+          "direction": "RL"
+        },
+        {
+          "word": "GALAXIES",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "CANDY",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "CAKE",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GOAT",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 120
+    }
+  ]
+}

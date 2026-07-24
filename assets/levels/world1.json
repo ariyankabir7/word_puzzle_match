@@ -1,0 +1,4820 @@
+{
+  "world": "Green Valley",
+  "worldNumber": 1,
+  "levels": [
+    {
+      "id": 1,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "HOOD",
+        "PUMA",
+        "GRAY",
+        "SNOW"
+      ],
+      "grid": [
+        [
+          "X",
+          "D",
+          "P",
+          "U",
+          "M",
+          "A"
+        ],
+        [
+          "F",
+          "G",
+          "R",
+          "A",
+          "Y",
+          "T"
+        ],
+        [
+          "D",
+          "D",
+          "H",
+          "O",
+          "O",
+          "D"
+        ],
+        [
+          "B",
+          "E",
+          "Q",
+          "L",
+          "T",
+          "U"
+        ],
+        [
+          "U",
+          "J",
+          "S",
+          "N",
+          "O",
+          "W"
+        ],
+        [
+          "A",
+          "N",
+          "S",
+          "E",
+          "L",
+          "N"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HOOD",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "PUMA",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "GRAY",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "SNOW",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 2,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "BEACH",
+        "RING",
+        "GRID",
+        "REEF",
+        "HEN"
+      ],
+      "grid": [
+        [
+          "E",
+          "R",
+          "E",
+          "E",
+          "F",
+          "W"
+        ],
+        [
+          "Q",
+          "B",
+          "E",
+          "A",
+          "C",
+          "H"
+        ],
+        [
+          "B",
+          "P",
+          "A",
+          "R",
+          "B",
+          "D"
+        ],
+        [
+          "H",
+          "G",
+          "R",
+          "I",
+          "D",
+          "L"
+        ],
+        [
+          "E",
+          "S",
+          "W",
+          "N",
+          "W",
+          "I"
+        ],
+        [
+          "N",
+          "K",
+          "Y",
+          "G",
+          "A",
+          "F"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BEACH",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "RING",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "GRID",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "REEF",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "HEN",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 3,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "GREEN",
+        "PEN",
+        "SONG",
+        "OAK",
+        "BOOT",
+        "DESERT"
+      ],
+      "grid": [
+        [
+          "G",
+          "O",
+          "A",
+          "K",
+          "M",
+          "D"
+        ],
+        [
+          "O",
+          "B",
+          "O",
+          "O",
+          "T",
+          "T"
+        ],
+        [
+          "D",
+          "E",
+          "S",
+          "E",
+          "R",
+          "T"
+        ],
+        [
+          "G",
+          "R",
+          "E",
+          "E",
+          "N",
+          "L"
+        ],
+        [
+          "U",
+          "P",
+          "E",
+          "N",
+          "Q",
+          "U"
+        ],
+        [
+          "D",
+          "N",
+          "S",
+          "O",
+          "N",
+          "G"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "GREEN",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "PEN",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "SONG",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "OAK",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "BOOT",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "DESERT",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 4,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "SOFA",
+        "HONEY",
+        "BAT",
+        "ROD"
+      ],
+      "grid": [
+        [
+          "I",
+          "G",
+          "O",
+          "V",
+          "A",
+          "S"
+        ],
+        [
+          "D",
+          "B",
+          "H",
+          "X",
+          "Q",
+          "O"
+        ],
+        [
+          "B",
+          "P",
+          "O",
+          "L",
+          "F",
+          "F"
+        ],
+        [
+          "A",
+          "M",
+          "N",
+          "Z",
+          "U",
+          "A"
+        ],
+        [
+          "T",
+          "E",
+          "E",
+          "G",
+          "W",
+          "T"
+        ],
+        [
+          "J",
+          "F",
+          "Y",
+          "R",
+          "O",
+          "D"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SOFA",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "HONEY",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "BAT",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "ROD",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 5,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "TIGER",
+        "DUCK",
+        "NEWT",
+        "CANDY",
+        "WORD"
+      ],
+      "grid": [
+        [
+          "J",
+          "D",
+          "D",
+          "U",
+          "C",
+          "K"
+        ],
+        [
+          "S",
+          "T",
+          "I",
+          "G",
+          "E",
+          "R"
+        ],
+        [
+          "A",
+          "Q",
+          "E",
+          "Z",
+          "G",
+          "Q"
+        ],
+        [
+          "M",
+          "N",
+          "E",
+          "W",
+          "T",
+          "X"
+        ],
+        [
+          "W",
+          "O",
+          "R",
+          "D",
+          "U",
+          "C"
+        ],
+        [
+          "H",
+          "C",
+          "A",
+          "N",
+          "D",
+          "Y"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "TIGER",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "DUCK",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "NEWT",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "CANDY",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "WORD",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 6,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "MOLE",
+        "GUST",
+        "MOON",
+        "WIRE",
+        "HARE"
+      ],
+      "grid": [
+        [
+          "W",
+          "I",
+          "R",
+          "E",
+          "H",
+          "I"
+        ],
+        [
+          "A",
+          "U",
+          "L",
+          "M",
+          "A",
+          "C"
+        ],
+        [
+          "M",
+          "M",
+          "G",
+          "G",
+          "R",
+          "L"
+        ],
+        [
+          "O",
+          "O",
+          "P",
+          "U",
+          "E",
+          "Z"
+        ],
+        [
+          "O",
+          "L",
+          "L",
+          "S",
+          "A",
+          "N"
+        ],
+        [
+          "N",
+          "E",
+          "S",
+          "T",
+          "W",
+          "J"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MOLE",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "GUST",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "MOON",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "WIRE",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "HARE",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 7,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "FORK",
+        "FISH",
+        "CAT",
+        "MOTH"
+      ],
+      "grid": [
+        [
+          "P",
+          "I",
+          "J",
+          "V",
+          "M",
+          "L"
+        ],
+        [
+          "C",
+          "T",
+          "F",
+          "S",
+          "O",
+          "K"
+        ],
+        [
+          "C",
+          "Z",
+          "I",
+          "F",
+          "T",
+          "X"
+        ],
+        [
+          "A",
+          "L",
+          "S",
+          "O",
+          "H",
+          "T"
+        ],
+        [
+          "T",
+          "U",
+          "H",
+          "R",
+          "G",
+          "X"
+        ],
+        [
+          "T",
+          "F",
+          "T",
+          "K",
+          "R",
+          "C"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "FORK",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "FISH",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "CAT",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "MOTH",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 8,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "CHEESE",
+        "APE",
+        "PONY",
+        "GLUE",
+        "BELT"
+      ],
+      "grid": [
+        [
+          "C",
+          "H",
+          "E",
+          "E",
+          "S",
+          "E"
+        ],
+        [
+          "G",
+          "L",
+          "U",
+          "E",
+          "A",
+          "I"
+        ],
+        [
+          "Q",
+          "D",
+          "B",
+          "H",
+          "P",
+          "K"
+        ],
+        [
+          "F",
+          "J",
+          "P",
+          "Q",
+          "E",
+          "O"
+        ],
+        [
+          "L",
+          "G",
+          "B",
+          "E",
+          "L",
+          "T"
+        ],
+        [
+          "B",
+          "P",
+          "O",
+          "N",
+          "Y",
+          "B"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CHEESE",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "APE",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "PONY",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "GLUE",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "BELT",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 9,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "OAK",
+        "DOVE",
+        "RUG",
+        "CORK",
+        "GALE"
+      ],
+      "grid": [
+        [
+          "I",
+          "W",
+          "D",
+          "O",
+          "V",
+          "E"
+        ],
+        [
+          "X",
+          "C",
+          "O",
+          "R",
+          "K",
+          "C"
+        ],
+        [
+          "B",
+          "R",
+          "G",
+          "X",
+          "I",
+          "O"
+        ],
+        [
+          "X",
+          "U",
+          "B",
+          "P",
+          "K",
+          "A"
+        ],
+        [
+          "D",
+          "G",
+          "F",
+          "E",
+          "R",
+          "K"
+        ],
+        [
+          "U",
+          "G",
+          "A",
+          "L",
+          "E",
+          "A"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "OAK",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "DOVE",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "RUG",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "CORK",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "GALE",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 10,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "PINE",
+        "ROSE",
+        "PIPE",
+        "LION",
+        "DOME",
+        "PIG"
+      ],
+      "grid": [
+        [
+          "V",
+          "D",
+          "O",
+          "M",
+          "E",
+          "W"
+        ],
+        [
+          "P",
+          "H",
+          "L",
+          "L",
+          "T",
+          "F"
+        ],
+        [
+          "I",
+          "R",
+          "P",
+          "I",
+          "P",
+          "E"
+        ],
+        [
+          "N",
+          "O",
+          "R",
+          "O",
+          "I",
+          "X"
+        ],
+        [
+          "E",
+          "S",
+          "J",
+          "N",
+          "G",
+          "N"
+        ],
+        [
+          "G",
+          "E",
+          "C",
+          "F",
+          "C",
+          "Z"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PINE",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "ROSE",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "PIPE",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "LION",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "DOME",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "PIG",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 11,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "WOOL",
+        "LIGHT",
+        "ELM",
+        "WICK"
+      ],
+      "grid": [
+        [
+          "Z",
+          "L",
+          "I",
+          "G",
+          "H",
+          "T"
+        ],
+        [
+          "X",
+          "W",
+          "G",
+          "K",
+          "J",
+          "S"
+        ],
+        [
+          "F",
+          "I",
+          "W",
+          "O",
+          "O",
+          "L"
+        ],
+        [
+          "N",
+          "C",
+          "J",
+          "B",
+          "Q",
+          "R"
+        ],
+        [
+          "M",
+          "K",
+          "F",
+          "D",
+          "V",
+          "K"
+        ],
+        [
+          "E",
+          "L",
+          "M",
+          "Z",
+          "J",
+          "P"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "WOOL",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "LIGHT",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "ELM",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "WICK",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 12,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "SMILE",
+        "SHINE",
+        "BOOT",
+        "LEAF",
+        "VAN"
+      ],
+      "grid": [
+        [
+          "S",
+          "Y",
+          "V",
+          "S",
+          "P",
+          "O"
+        ],
+        [
+          "H",
+          "W",
+          "L",
+          "M",
+          "D",
+          "B"
+        ],
+        [
+          "I",
+          "L",
+          "L",
+          "I",
+          "C",
+          "O"
+        ],
+        [
+          "N",
+          "S",
+          "E",
+          "L",
+          "U",
+          "O"
+        ],
+        [
+          "E",
+          "V",
+          "A",
+          "E",
+          "P",
+          "T"
+        ],
+        [
+          "W",
+          "I",
+          "F",
+          "V",
+          "A",
+          "N"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SMILE",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "SHINE",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "BOOT",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "LEAF",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "VAN",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 13,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "GOWN",
+        "SUN",
+        "WIRE",
+        "TEAL",
+        "BARK"
+      ],
+      "grid": [
+        [
+          "E",
+          "R",
+          "Q",
+          "I",
+          "E",
+          "B"
+        ],
+        [
+          "M",
+          "F",
+          "B",
+          "B",
+          "K",
+          "H"
+        ],
+        [
+          "I",
+          "K",
+          "A",
+          "I",
+          "T",
+          "O"
+        ],
+        [
+          "W",
+          "I",
+          "R",
+          "E",
+          "E",
+          "S"
+        ],
+        [
+          "D",
+          "V",
+          "K",
+          "C",
+          "A",
+          "U"
+        ],
+        [
+          "G",
+          "O",
+          "W",
+          "N",
+          "L",
+          "N"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "GOWN",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "SUN",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "WIRE",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "TEAL",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "BARK",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 14,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "CLAY",
+        "BARK",
+        "TEAL",
+        "GNU"
+      ],
+      "grid": [
+        [
+          "B",
+          "C",
+          "L",
+          "A",
+          "Y",
+          "T"
+        ],
+        [
+          "A",
+          "T",
+          "E",
+          "A",
+          "L",
+          "T"
+        ],
+        [
+          "R",
+          "L",
+          "V",
+          "P",
+          "Z",
+          "W"
+        ],
+        [
+          "K",
+          "W",
+          "X",
+          "W",
+          "X",
+          "A"
+        ],
+        [
+          "G",
+          "N",
+          "U",
+          "X",
+          "F",
+          "D"
+        ],
+        [
+          "C",
+          "S",
+          "P",
+          "U",
+          "U",
+          "X"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CLAY",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "BARK",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "TEAL",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "GNU",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 15,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "CALF",
+        "NET",
+        "ELM",
+        "NEST",
+        "COMB"
+      ],
+      "grid": [
+        [
+          "Y",
+          "C",
+          "A",
+          "L",
+          "F",
+          "F"
+        ],
+        [
+          "N",
+          "E",
+          "S",
+          "T",
+          "F",
+          "A"
+        ],
+        [
+          "U",
+          "G",
+          "N",
+          "E",
+          "L",
+          "M"
+        ],
+        [
+          "M",
+          "E",
+          "E",
+          "Z",
+          "P",
+          "I"
+        ],
+        [
+          "V",
+          "Y",
+          "T",
+          "U",
+          "B",
+          "Z"
+        ],
+        [
+          "C",
+          "O",
+          "M",
+          "B",
+          "O",
+          "Y"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CALF",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "NET",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "ELM",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "NEST",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "COMB",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 16,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "GOAT",
+        "PONY",
+        "JADE",
+        "WORM"
+      ],
+      "grid": [
+        [
+          "I",
+          "D",
+          "Q",
+          "G",
+          "F",
+          "B"
+        ],
+        [
+          "C",
+          "E",
+          "W",
+          "O",
+          "R",
+          "M"
+        ],
+        [
+          "O",
+          "J",
+          "P",
+          "A",
+          "J",
+          "H"
+        ],
+        [
+          "L",
+          "J",
+          "O",
+          "T",
+          "A",
+          "Z"
+        ],
+        [
+          "Z",
+          "J",
+          "N",
+          "D",
+          "D",
+          "M"
+        ],
+        [
+          "M",
+          "H",
+          "Y",
+          "X",
+          "E",
+          "Q"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "GOAT",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "PONY",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "JADE",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "WORM",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 17,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "PINK",
+        "LEAF",
+        "BUCK",
+        "SUN",
+        "PINE",
+        "CORK"
+      ],
+      "grid": [
+        [
+          "P",
+          "S",
+          "B",
+          "C",
+          "C",
+          "P"
+        ],
+        [
+          "I",
+          "P",
+          "U",
+          "O",
+          "F",
+          "I"
+        ],
+        [
+          "N",
+          "J",
+          "C",
+          "R",
+          "B",
+          "N"
+        ],
+        [
+          "K",
+          "X",
+          "K",
+          "K",
+          "J",
+          "E"
+        ],
+        [
+          "S",
+          "G",
+          "L",
+          "E",
+          "A",
+          "F"
+        ],
+        [
+          "G",
+          "G",
+          "O",
+          "S",
+          "U",
+          "N"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PINK",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "LEAF",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "BUCK",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "SUN",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "PINE",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "CORK",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 18,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "BIRD",
+        "HAWK",
+        "PARK",
+        "LYNX",
+        "SHOP",
+        "LAMP"
+      ],
+      "grid": [
+        [
+          "G",
+          "S",
+          "S",
+          "H",
+          "O",
+          "P"
+        ],
+        [
+          "L",
+          "B",
+          "I",
+          "R",
+          "D",
+          "H"
+        ],
+        [
+          "A",
+          "L",
+          "P",
+          "R",
+          "J",
+          "A"
+        ],
+        [
+          "M",
+          "Y",
+          "A",
+          "L",
+          "V",
+          "W"
+        ],
+        [
+          "P",
+          "N",
+          "R",
+          "L",
+          "G",
+          "K"
+        ],
+        [
+          "A",
+          "X",
+          "K",
+          "R",
+          "L",
+          "G"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BIRD",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "HAWK",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "PARK",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "LYNX",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "SHOP",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "LAMP",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 19,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "SAIL",
+        "DREAM",
+        "RED",
+        "BLUE",
+        "YELLOW",
+        "GLUE"
+      ],
+      "grid": [
+        [
+          "B",
+          "S",
+          "B",
+          "Y",
+          "X",
+          "W"
+        ],
+        [
+          "L",
+          "D",
+          "G",
+          "E",
+          "U",
+          "J"
+        ],
+        [
+          "U",
+          "R",
+          "L",
+          "L",
+          "S",
+          "H"
+        ],
+        [
+          "E",
+          "E",
+          "U",
+          "L",
+          "A",
+          "R"
+        ],
+        [
+          "B",
+          "A",
+          "E",
+          "O",
+          "I",
+          "E"
+        ],
+        [
+          "H",
+          "M",
+          "F",
+          "W",
+          "L",
+          "D"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SAIL",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "DREAM",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "RED",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "BLUE",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "YELLOW",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "GLUE",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 20,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "OTTER",
+        "RAM",
+        "PIPE",
+        "APPLE"
+      ],
+      "grid": [
+        [
+          "R",
+          "F",
+          "A",
+          "E",
+          "B",
+          "F"
+        ],
+        [
+          "T",
+          "A",
+          "C",
+          "P",
+          "A",
+          "O"
+        ],
+        [
+          "F",
+          "A",
+          "L",
+          "M",
+          "P",
+          "T"
+        ],
+        [
+          "P",
+          "Q",
+          "H",
+          "V",
+          "P",
+          "T"
+        ],
+        [
+          "X",
+          "R",
+          "A",
+          "M",
+          "L",
+          "E"
+        ],
+        [
+          "F",
+          "P",
+          "I",
+          "P",
+          "E",
+          "R"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "OTTER",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "RAM",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "PIPE",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "APPLE",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 21,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "CUP",
+        "PINK",
+        "BIRD",
+        "REEF",
+        "WIND"
+      ],
+      "grid": [
+        [
+          "W",
+          "Y",
+          "C",
+          "Z",
+          "V",
+          "S"
+        ],
+        [
+          "I",
+          "R",
+          "U",
+          "P",
+          "T",
+          "T"
+        ],
+        [
+          "N",
+          "P",
+          "P",
+          "O",
+          "Q",
+          "N"
+        ],
+        [
+          "D",
+          "N",
+          "R",
+          "E",
+          "E",
+          "F"
+        ],
+        [
+          "B",
+          "I",
+          "R",
+          "D",
+          "B",
+          "E"
+        ],
+        [
+          "W",
+          "P",
+          "I",
+          "N",
+          "K",
+          "M"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CUP",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "PINK",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "BIRD",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "REEF",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "WIND",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 22,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "SONG",
+        "JADE",
+        "WOOL",
+        "DISH",
+        "FERN",
+        "IVY"
+      ],
+      "grid": [
+        [
+          "D",
+          "I",
+          "S",
+          "H",
+          "L",
+          "F"
+        ],
+        [
+          "I",
+          "S",
+          "W",
+          "W",
+          "N",
+          "E"
+        ],
+        [
+          "V",
+          "O",
+          "H",
+          "O",
+          "U",
+          "R"
+        ],
+        [
+          "Y",
+          "N",
+          "U",
+          "O",
+          "Y",
+          "N"
+        ],
+        [
+          "X",
+          "G",
+          "Y",
+          "L",
+          "H",
+          "B"
+        ],
+        [
+          "M",
+          "P",
+          "J",
+          "A",
+          "D",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SONG",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "JADE",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "WOOL",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "DISH",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "FERN",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "IVY",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 23,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "RUG",
+        "CART",
+        "ZEBRA",
+        "WORD",
+        "HILL",
+        "BIRD"
+      ],
+      "grid": [
+        [
+          "W",
+          "O",
+          "R",
+          "D",
+          "X",
+          "Z"
+        ],
+        [
+          "D",
+          "C",
+          "W",
+          "B",
+          "X",
+          "E"
+        ],
+        [
+          "H",
+          "A",
+          "X",
+          "I",
+          "W",
+          "B"
+        ],
+        [
+          "I",
+          "R",
+          "H",
+          "R",
+          "T",
+          "R"
+        ],
+        [
+          "L",
+          "T",
+          "Z",
+          "D",
+          "W",
+          "A"
+        ],
+        [
+          "L",
+          "O",
+          "R",
+          "U",
+          "G",
+          "Y"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "RUG",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "CART",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "ZEBRA",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "WORD",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "HILL",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "BIRD",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 24,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "RAM",
+        "SOFA",
+        "GUST",
+        "EMU",
+        "YAK",
+        "HAWK"
+      ],
+      "grid": [
+        [
+          "W",
+          "X",
+          "D",
+          "P",
+          "R",
+          "E"
+        ],
+        [
+          "E",
+          "Y",
+          "A",
+          "K",
+          "A",
+          "M"
+        ],
+        [
+          "G",
+          "U",
+          "S",
+          "T",
+          "M",
+          "U"
+        ],
+        [
+          "G",
+          "Z",
+          "S",
+          "O",
+          "F",
+          "A"
+        ],
+        [
+          "K",
+          "L",
+          "D",
+          "I",
+          "H",
+          "Q"
+        ],
+        [
+          "M",
+          "M",
+          "H",
+          "A",
+          "W",
+          "K"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "RAM",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "SOFA",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "GUST",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "EMU",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "YAK",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "HAWK",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 25,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "MINT",
+        "SWEET",
+        "GIFT",
+        "SWAN",
+        "BEE",
+        "SEA"
+      ],
+      "grid": [
+        [
+          "R",
+          "S",
+          "W",
+          "E",
+          "E",
+          "T"
+        ],
+        [
+          "W",
+          "W",
+          "M",
+          "S",
+          "E",
+          "A"
+        ],
+        [
+          "F",
+          "A",
+          "I",
+          "O",
+          "N",
+          "B"
+        ],
+        [
+          "E",
+          "N",
+          "N",
+          "B",
+          "J",
+          "E"
+        ],
+        [
+          "O",
+          "L",
+          "T",
+          "H",
+          "U",
+          "E"
+        ],
+        [
+          "F",
+          "B",
+          "G",
+          "I",
+          "F",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MINT",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "SWEET",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "GIFT",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "SWAN",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "BEE",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "SEA",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 26,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "SHINE",
+        "RED",
+        "CHERRY",
+        "CHEESE",
+        "GATE"
+      ],
+      "grid": [
+        [
+          "C",
+          "F",
+          "R",
+          "E",
+          "D",
+          "C"
+        ],
+        [
+          "H",
+          "D",
+          "N",
+          "E",
+          "Q",
+          "H"
+        ],
+        [
+          "E",
+          "S",
+          "H",
+          "I",
+          "N",
+          "E"
+        ],
+        [
+          "R",
+          "P",
+          "N",
+          "Y",
+          "H",
+          "E"
+        ],
+        [
+          "R",
+          "P",
+          "P",
+          "L",
+          "S",
+          "S"
+        ],
+        [
+          "Y",
+          "G",
+          "A",
+          "T",
+          "E",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SHINE",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "RED",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "CHERRY",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "CHEESE",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "GATE",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 27,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "PIPE",
+        "RULE",
+        "WHALE",
+        "CLAY",
+        "KITE"
+      ],
+      "grid": [
+        [
+          "M",
+          "D",
+          "I",
+          "A",
+          "B",
+          "U"
+        ],
+        [
+          "D",
+          "P",
+          "I",
+          "P",
+          "E",
+          "W"
+        ],
+        [
+          "C",
+          "T",
+          "H",
+          "U",
+          "O",
+          "H"
+        ],
+        [
+          "L",
+          "R",
+          "U",
+          "L",
+          "E",
+          "A"
+        ],
+        [
+          "A",
+          "F",
+          "H",
+          "J",
+          "H",
+          "L"
+        ],
+        [
+          "Y",
+          "K",
+          "K",
+          "I",
+          "T",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PIPE",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "RULE",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "WHALE",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "CLAY",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "KITE",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 28,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "DAWN",
+        "ELM",
+        "GRAY",
+        "BELT",
+        "MOTH",
+        "MANGO"
+      ],
+      "grid": [
+        [
+          "M",
+          "A",
+          "N",
+          "G",
+          "O",
+          "E"
+        ],
+        [
+          "S",
+          "B",
+          "E",
+          "L",
+          "T",
+          "L"
+        ],
+        [
+          "M",
+          "O",
+          "T",
+          "H",
+          "O",
+          "M"
+        ],
+        [
+          "D",
+          "A",
+          "W",
+          "N",
+          "A",
+          "R"
+        ],
+        [
+          "S",
+          "E",
+          "G",
+          "R",
+          "A",
+          "Y"
+        ],
+        [
+          "W",
+          "L",
+          "T",
+          "I",
+          "P",
+          "H"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "DAWN",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "ELM",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "GRAY",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "BELT",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "MOTH",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "MANGO",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 29,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "OTTER",
+        "TIN",
+        "OPAL",
+        "CORD",
+        "DOVE"
+      ],
+      "grid": [
+        [
+          "A",
+          "E",
+          "H",
+          "D",
+          "W",
+          "D"
+        ],
+        [
+          "T",
+          "I",
+          "N",
+          "O",
+          "O",
+          "C"
+        ],
+        [
+          "Z",
+          "T",
+          "R",
+          "V",
+          "T",
+          "O"
+        ],
+        [
+          "K",
+          "C",
+          "R",
+          "E",
+          "T",
+          "R"
+        ],
+        [
+          "G",
+          "E",
+          "V",
+          "I",
+          "E",
+          "D"
+        ],
+        [
+          "O",
+          "P",
+          "A",
+          "L",
+          "R",
+          "Q"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "OTTER",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "TIN",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "OPAL",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "CORD",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "DOVE",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 30,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "HOOD",
+        "JAY",
+        "TUB",
+        "CAKE",
+        "GOAT",
+        "WOOD"
+      ],
+      "grid": [
+        [
+          "W",
+          "H",
+          "O",
+          "O",
+          "D",
+          "C"
+        ],
+        [
+          "O",
+          "P",
+          "V",
+          "J",
+          "J",
+          "A"
+        ],
+        [
+          "O",
+          "K",
+          "X",
+          "J",
+          "A",
+          "K"
+        ],
+        [
+          "D",
+          "P",
+          "P",
+          "Y",
+          "Y",
+          "E"
+        ],
+        [
+          "F",
+          "T",
+          "U",
+          "B",
+          "Q",
+          "G"
+        ],
+        [
+          "R",
+          "I",
+          "G",
+          "O",
+          "A",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HOOD",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "JAY",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "TUB",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "CAKE",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "GOAT",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "WOOD",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 31,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "FOX",
+        "RED",
+        "SHOP",
+        "TOAD",
+        "PAN",
+        "CAGE"
+      ],
+      "grid": [
+        [
+          "J",
+          "G",
+          "F",
+          "O",
+          "P",
+          "J"
+        ],
+        [
+          "Z",
+          "C",
+          "O",
+          "E",
+          "A",
+          "B"
+        ],
+        [
+          "S",
+          "A",
+          "X",
+          "N",
+          "N",
+          "V"
+        ],
+        [
+          "H",
+          "G",
+          "O",
+          "R",
+          "E",
+          "D"
+        ],
+        [
+          "O",
+          "E",
+          "T",
+          "O",
+          "A",
+          "D"
+        ],
+        [
+          "P",
+          "V",
+          "B",
+          "V",
+          "Y",
+          "I"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "FOX",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "RED",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "SHOP",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "TOAD",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "PAN",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "CAGE",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 32,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "GALE",
+        "BAG",
+        "CART",
+        "POT",
+        "SWAN",
+        "BOOT"
+      ],
+      "grid": [
+        [
+          "G",
+          "D",
+          "J",
+          "M",
+          "X",
+          "C"
+        ],
+        [
+          "A",
+          "C",
+          "G",
+          "R",
+          "B",
+          "A"
+        ],
+        [
+          "L",
+          "B",
+          "X",
+          "T",
+          "O",
+          "R"
+        ],
+        [
+          "E",
+          "A",
+          "I",
+          "K",
+          "O",
+          "T"
+        ],
+        [
+          "L",
+          "G",
+          "P",
+          "O",
+          "T",
+          "A"
+        ],
+        [
+          "R",
+          "S",
+          "W",
+          "A",
+          "N",
+          "Z"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "GALE",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "BAG",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "CART",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "POT",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "SWAN",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "BOOT",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 33,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "SWAN",
+        "VINE",
+        "IRON",
+        "KITE"
+      ],
+      "grid": [
+        [
+          "T",
+          "P",
+          "M",
+          "H",
+          "M",
+          "K"
+        ],
+        [
+          "I",
+          "R",
+          "O",
+          "N",
+          "F",
+          "I"
+        ],
+        [
+          "T",
+          "X",
+          "F",
+          "S",
+          "I",
+          "T"
+        ],
+        [
+          "E",
+          "C",
+          "V",
+          "W",
+          "M",
+          "E"
+        ],
+        [
+          "P",
+          "I",
+          "A",
+          "A",
+          "H",
+          "B"
+        ],
+        [
+          "W",
+          "V",
+          "I",
+          "N",
+          "E",
+          "B"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SWAN",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "VINE",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "IRON",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "KITE",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 34,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "MILK",
+        "CLAY",
+        "OAK",
+        "HAPPY",
+        "CORN"
+      ],
+      "grid": [
+        [
+          "C",
+          "H",
+          "A",
+          "P",
+          "P",
+          "Y"
+        ],
+        [
+          "O",
+          "A",
+          "K",
+          "D",
+          "K",
+          "G"
+        ],
+        [
+          "R",
+          "V",
+          "C",
+          "K",
+          "M",
+          "E"
+        ],
+        [
+          "N",
+          "Y",
+          "L",
+          "P",
+          "I",
+          "Q"
+        ],
+        [
+          "I",
+          "A",
+          "A",
+          "O",
+          "L",
+          "V"
+        ],
+        [
+          "X",
+          "A",
+          "Y",
+          "O",
+          "K",
+          "C"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MILK",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "CLAY",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "OAK",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "HAPPY",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "CORN",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 35,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "KITE",
+        "FROG",
+        "VAN",
+        "OTTER",
+        "NAIL",
+        "SNOW"
+      ],
+      "grid": [
+        [
+          "N",
+          "A",
+          "I",
+          "L",
+          "V",
+          "B"
+        ],
+        [
+          "S",
+          "N",
+          "O",
+          "W",
+          "L",
+          "F"
+        ],
+        [
+          "G",
+          "O",
+          "T",
+          "T",
+          "E",
+          "R"
+        ],
+        [
+          "Q",
+          "Q",
+          "V",
+          "A",
+          "N",
+          "O"
+        ],
+        [
+          "H",
+          "A",
+          "N",
+          "X",
+          "P",
+          "G"
+        ],
+        [
+          "O",
+          "K",
+          "I",
+          "T",
+          "E",
+          "L"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "KITE",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "FROG",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "VAN",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "OTTER",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "NAIL",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "SNOW",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 36,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "OAK",
+        "BIRD",
+        "CANDY",
+        "TOAD",
+        "BEE",
+        "DRUM"
+      ],
+      "grid": [
+        [
+          "C",
+          "Q",
+          "S",
+          "V",
+          "W",
+          "G"
+        ],
+        [
+          "A",
+          "D",
+          "O",
+          "B",
+          "E",
+          "E"
+        ],
+        [
+          "N",
+          "R",
+          "A",
+          "B",
+          "M",
+          "G"
+        ],
+        [
+          "D",
+          "U",
+          "K",
+          "I",
+          "Z",
+          "O"
+        ],
+        [
+          "Y",
+          "M",
+          "S",
+          "R",
+          "E",
+          "G"
+        ],
+        [
+          "T",
+          "O",
+          "A",
+          "D",
+          "T",
+          "V"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "OAK",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "BIRD",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "CANDY",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "TOAD",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "BEE",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "DRUM",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 37,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "PLAN",
+        "BAT",
+        "BOAT",
+        "CLOUDS"
+      ],
+      "grid": [
+        [
+          "J",
+          "P",
+          "R",
+          "H",
+          "K",
+          "P"
+        ],
+        [
+          "E",
+          "R",
+          "Y",
+          "I",
+          "H",
+          "L"
+        ],
+        [
+          "N",
+          "J",
+          "Y",
+          "X",
+          "F",
+          "A"
+        ],
+        [
+          "B",
+          "O",
+          "A",
+          "T",
+          "D",
+          "N"
+        ],
+        [
+          "X",
+          "X",
+          "B",
+          "A",
+          "T",
+          "O"
+        ],
+        [
+          "C",
+          "L",
+          "O",
+          "U",
+          "D",
+          "S"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PLAN",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "BAT",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "BOAT",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "CLOUDS",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 38,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "REEF",
+        "BALL",
+        "OTTER",
+        "BUCK"
+      ],
+      "grid": [
+        [
+          "E",
+          "A",
+          "J",
+          "K",
+          "I",
+          "D"
+        ],
+        [
+          "I",
+          "T",
+          "T",
+          "C",
+          "R",
+          "T"
+        ],
+        [
+          "B",
+          "O",
+          "T",
+          "T",
+          "E",
+          "R"
+        ],
+        [
+          "A",
+          "X",
+          "X",
+          "W",
+          "E",
+          "M"
+        ],
+        [
+          "L",
+          "X",
+          "L",
+          "J",
+          "F",
+          "P"
+        ],
+        [
+          "L",
+          "J",
+          "B",
+          "U",
+          "C",
+          "K"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "REEF",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "BALL",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "OTTER",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "BUCK",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 39,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "FOG",
+        "MUD",
+        "SEED",
+        "FIRE",
+        "PLAN"
+      ],
+      "grid": [
+        [
+          "J",
+          "A",
+          "M",
+          "E",
+          "R",
+          "X"
+        ],
+        [
+          "B",
+          "X",
+          "F",
+          "O",
+          "F",
+          "I"
+        ],
+        [
+          "I",
+          "P",
+          "J",
+          "S",
+          "I",
+          "F"
+        ],
+        [
+          "D",
+          "L",
+          "M",
+          "E",
+          "R",
+          "O"
+        ],
+        [
+          "C",
+          "A",
+          "U",
+          "E",
+          "E",
+          "G"
+        ],
+        [
+          "I",
+          "N",
+          "D",
+          "D",
+          "C",
+          "X"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "FOG",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "MUD",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "SEED",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "FIRE",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "PLAN",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 40,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "FLOWER",
+        "TIGER",
+        "GOWN",
+        "BOAT",
+        "COW",
+        "TREE"
+      ],
+      "grid": [
+        [
+          "Y",
+          "A",
+          "G",
+          "E",
+          "T",
+          "C"
+        ],
+        [
+          "X",
+          "P",
+          "D",
+          "G",
+          "I",
+          "O"
+        ],
+        [
+          "J",
+          "K",
+          "B",
+          "O",
+          "G",
+          "W"
+        ],
+        [
+          "F",
+          "L",
+          "O",
+          "W",
+          "E",
+          "R"
+        ],
+        [
+          "A",
+          "Q",
+          "A",
+          "N",
+          "R",
+          "N"
+        ],
+        [
+          "R",
+          "N",
+          "T",
+          "R",
+          "E",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "FLOWER",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "TIGER",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "GOWN",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "BOAT",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "COW",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "TREE",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 41,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "RULE",
+        "HORN",
+        "NEST",
+        "CRAB"
+      ],
+      "grid": [
+        [
+          "R",
+          "D",
+          "F",
+          "V",
+          "C",
+          "F"
+        ],
+        [
+          "U",
+          "H",
+          "F",
+          "K",
+          "R",
+          "Z"
+        ],
+        [
+          "L",
+          "O",
+          "B",
+          "L",
+          "A",
+          "Z"
+        ],
+        [
+          "E",
+          "R",
+          "F",
+          "J",
+          "B",
+          "P"
+        ],
+        [
+          "O",
+          "N",
+          "N",
+          "E",
+          "S",
+          "T"
+        ],
+        [
+          "O",
+          "L",
+          "L",
+          "B",
+          "Y",
+          "Q"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "RULE",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "HORN",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "NEST",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "CRAB",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 42,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "RUG",
+        "LEAF",
+        "CAGE",
+        "EMU",
+        "CORK"
+      ],
+      "grid": [
+        [
+          "S",
+          "L",
+          "M",
+          "R",
+          "C",
+          "W"
+        ],
+        [
+          "M",
+          "E",
+          "B",
+          "U",
+          "A",
+          "P"
+        ],
+        [
+          "B",
+          "A",
+          "B",
+          "G",
+          "G",
+          "Y"
+        ],
+        [
+          "X",
+          "F",
+          "E",
+          "E",
+          "E",
+          "Z"
+        ],
+        [
+          "C",
+          "O",
+          "R",
+          "K",
+          "W",
+          "G"
+        ],
+        [
+          "M",
+          "Z",
+          "E",
+          "M",
+          "U",
+          "F"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "RUG",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "LEAF",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "CAGE",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "EMU",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "CORK",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 43,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "FOREST",
+        "RAT",
+        "LAKE",
+        "CALF"
+      ],
+      "grid": [
+        [
+          "L",
+          "A",
+          "K",
+          "E",
+          "F",
+          "Z"
+        ],
+        [
+          "C",
+          "A",
+          "L",
+          "F",
+          "O",
+          "I"
+        ],
+        [
+          "T",
+          "F",
+          "Z",
+          "U",
+          "R",
+          "I"
+        ],
+        [
+          "A",
+          "F",
+          "Y",
+          "R",
+          "E",
+          "K"
+        ],
+        [
+          "N",
+          "B",
+          "F",
+          "A",
+          "S",
+          "H"
+        ],
+        [
+          "W",
+          "E",
+          "E",
+          "T",
+          "T",
+          "O"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "FOREST",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "RAT",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "LAKE",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "CALF",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 44,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "RIVER",
+        "MIST",
+        "VALE",
+        "SQUID",
+        "CHEESE"
+      ],
+      "grid": [
+        [
+          "K",
+          "J",
+          "V",
+          "A",
+          "L",
+          "E"
+        ],
+        [
+          "E",
+          "M",
+          "I",
+          "S",
+          "T",
+          "B"
+        ],
+        [
+          "C",
+          "H",
+          "E",
+          "E",
+          "S",
+          "E"
+        ],
+        [
+          "S",
+          "Q",
+          "U",
+          "I",
+          "D",
+          "T"
+        ],
+        [
+          "R",
+          "I",
+          "V",
+          "E",
+          "R",
+          "J"
+        ],
+        [
+          "V",
+          "Z",
+          "W",
+          "C",
+          "C",
+          "R"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "RIVER",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "MIST",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "VALE",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "SQUID",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "CHEESE",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 45,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "PARK",
+        "HOSE",
+        "MOTH",
+        "EMU"
+      ],
+      "grid": [
+        [
+          "H",
+          "A",
+          "E",
+          "E",
+          "M",
+          "U"
+        ],
+        [
+          "O",
+          "O",
+          "V",
+          "G",
+          "O",
+          "A"
+        ],
+        [
+          "S",
+          "A",
+          "K",
+          "X",
+          "T",
+          "J"
+        ],
+        [
+          "E",
+          "P",
+          "A",
+          "D",
+          "H",
+          "M"
+        ],
+        [
+          "G",
+          "N",
+          "R",
+          "W",
+          "N",
+          "T"
+        ],
+        [
+          "G",
+          "P",
+          "A",
+          "R",
+          "K",
+          "G"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PARK",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "HOSE",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "MOTH",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "EMU",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 46,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "CAT",
+        "CUP",
+        "BELL",
+        "GOLD"
+      ],
+      "grid": [
+        [
+          "Y",
+          "B",
+          "U",
+          "J",
+          "Y",
+          "G"
+        ],
+        [
+          "T",
+          "E",
+          "A",
+          "U",
+          "S",
+          "O"
+        ],
+        [
+          "B",
+          "L",
+          "V",
+          "X",
+          "T",
+          "L"
+        ],
+        [
+          "R",
+          "L",
+          "F",
+          "C",
+          "A",
+          "D"
+        ],
+        [
+          "C",
+          "U",
+          "P",
+          "A",
+          "C",
+          "B"
+        ],
+        [
+          "J",
+          "S",
+          "K",
+          "T",
+          "J",
+          "U"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CAT",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "CUP",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "BELL",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "GOLD",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 47,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "SALT",
+        "CLAY",
+        "DUSK",
+        "CAT",
+        "PEAT",
+        "HAND"
+      ],
+      "grid": [
+        [
+          "P",
+          "E",
+          "A",
+          "T",
+          "R",
+          "H"
+        ],
+        [
+          "H",
+          "A",
+          "N",
+          "D",
+          "Z",
+          "W"
+        ],
+        [
+          "C",
+          "D",
+          "Q",
+          "T",
+          "S",
+          "G"
+        ],
+        [
+          "L",
+          "U",
+          "C",
+          "C",
+          "A",
+          "X"
+        ],
+        [
+          "A",
+          "S",
+          "Y",
+          "A",
+          "L",
+          "L"
+        ],
+        [
+          "Y",
+          "K",
+          "J",
+          "T",
+          "T",
+          "F"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SALT",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "CLAY",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "DUSK",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "CAT",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "PEAT",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "HAND",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 48,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "FOX",
+        "MAZE",
+        "MAGIC",
+        "SILVER"
+      ],
+      "grid": [
+        [
+          "S",
+          "A",
+          "E",
+          "I",
+          "L",
+          "S"
+        ],
+        [
+          "I",
+          "M",
+          "M",
+          "M",
+          "Y",
+          "H"
+        ],
+        [
+          "L",
+          "M",
+          "A",
+          "Z",
+          "E",
+          "E"
+        ],
+        [
+          "V",
+          "O",
+          "G",
+          "A",
+          "X",
+          "L"
+        ],
+        [
+          "E",
+          "U",
+          "I",
+          "F",
+          "O",
+          "X"
+        ],
+        [
+          "R",
+          "I",
+          "C",
+          "V",
+          "E",
+          "L"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "FOX",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "MAZE",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "MAGIC",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "SILVER",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 49,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "YAK",
+        "FERN",
+        "CROP",
+        "LEMON"
+      ],
+      "grid": [
+        [
+          "A",
+          "F",
+          "U",
+          "L",
+          "C",
+          "R"
+        ],
+        [
+          "Y",
+          "L",
+          "F",
+          "E",
+          "R",
+          "N"
+        ],
+        [
+          "A",
+          "E",
+          "S",
+          "C",
+          "R",
+          "F"
+        ],
+        [
+          "K",
+          "M",
+          "W",
+          "R",
+          "U",
+          "I"
+        ],
+        [
+          "X",
+          "O",
+          "U",
+          "O",
+          "M",
+          "X"
+        ],
+        [
+          "K",
+          "N",
+          "O",
+          "P",
+          "X",
+          "F"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "YAK",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "FERN",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "CROP",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "LEMON",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 180
+    },
+    {
+      "id": 50,
+      "world": "Green Valley",
+      "difficulty": 1,
+      "gridSize": 6,
+      "words": [
+        "MOON",
+        "DUCK",
+        "TEAL",
+        "NAIL",
+        "HARP",
+        "NEWT"
+      ],
+      "grid": [
+        [
+          "N",
+          "D",
+          "Z",
+          "Q",
+          "X",
+          "S"
+        ],
+        [
+          "A",
+          "D",
+          "U",
+          "C",
+          "K",
+          "H"
+        ],
+        [
+          "I",
+          "U",
+          "L",
+          "K",
+          "C",
+          "M"
+        ],
+        [
+          "L",
+          "H",
+          "A",
+          "R",
+          "P",
+          "O"
+        ],
+        [
+          "L",
+          "N",
+          "E",
+          "W",
+          "T",
+          "O"
+        ],
+        [
+          "X",
+          "T",
+          "E",
+          "A",
+          "L",
+          "N"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MOON",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "DUCK",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "TEAL",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "NAIL",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "HARP",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "NEWT",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 180
+    }
+  ]
+}

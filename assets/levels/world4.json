@@ -1,0 +1,5542 @@
+{
+  "world": "Snowy Peaks",
+  "worldNumber": 4,
+  "levels": [
+    {
+      "id": 151,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "WOOL",
+        "BELT",
+        "WIRE",
+        "CORN"
+      ],
+      "grid": [
+        [
+          "A",
+          "G",
+          "X",
+          "L",
+          "P",
+          "N",
+          "I"
+        ],
+        [
+          "A",
+          "C",
+          "O",
+          "C",
+          "M",
+          "D",
+          "P"
+        ],
+        [
+          "B",
+          "O",
+          "O",
+          "R",
+          "O",
+          "Y",
+          "S"
+        ],
+        [
+          "W",
+          "E",
+          "U",
+          "O",
+          "R",
+          "R",
+          "Z"
+        ],
+        [
+          "I",
+          "M",
+          "L",
+          "U",
+          "W",
+          "V",
+          "N"
+        ],
+        [
+          "G",
+          "H",
+          "N",
+          "T",
+          "E",
+          "N",
+          "E"
+        ],
+        [
+          "E",
+          "D",
+          "I",
+          "W",
+          "I",
+          "R",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "WOOL",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BELT",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "WIRE",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "CORN",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 152,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "MAZE",
+        "SHIP",
+        "WREN",
+        "ELK",
+        "ICE"
+      ],
+      "grid": [
+        [
+          "P",
+          "S",
+          "F",
+          "W",
+          "O",
+          "X",
+          "P"
+        ],
+        [
+          "M",
+          "I",
+          "B",
+          "O",
+          "R",
+          "I",
+          "D"
+        ],
+        [
+          "X",
+          "C",
+          "H",
+          "I",
+          "H",
+          "E",
+          "D"
+        ],
+        [
+          "L",
+          "E",
+          "O",
+          "S",
+          "H",
+          "S",
+          "N"
+        ],
+        [
+          "M",
+          "A",
+          "Z",
+          "E",
+          "V",
+          "K",
+          "E"
+        ],
+        [
+          "A",
+          "G",
+          "P",
+          "R",
+          "L",
+          "I",
+          "K"
+        ],
+        [
+          "Y",
+          "D",
+          "F",
+          "E",
+          "L",
+          "E",
+          "R"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MAZE",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "SHIP",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "WREN",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "ELK",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "ICE",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 153,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "EEL",
+        "BREAD",
+        "ZEBRA",
+        "WAVE",
+        "CHEESE",
+        "LEAF"
+      ],
+      "grid": [
+        [
+          "X",
+          "F",
+          "V",
+          "L",
+          "E",
+          "A",
+          "F"
+        ],
+        [
+          "E",
+          "Z",
+          "E",
+          "E",
+          "B",
+          "U",
+          "R"
+        ],
+        [
+          "T",
+          "E",
+          "E",
+          "V",
+          "A",
+          "R",
+          "B"
+        ],
+        [
+          "S",
+          "E",
+          "Q",
+          "B",
+          "J",
+          "D",
+          "R"
+        ],
+        [
+          "W",
+          "A",
+          "V",
+          "E",
+          "R",
+          "F",
+          "E"
+        ],
+        [
+          "F",
+          "G",
+          "U",
+          "E",
+          "G",
+          "A",
+          "A"
+        ],
+        [
+          "C",
+          "H",
+          "E",
+          "E",
+          "S",
+          "E",
+          "D"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "EEL",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BREAD",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "ZEBRA",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "WAVE",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "CHEESE",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "LEAF",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 154,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "HEN",
+        "TIN",
+        "COW",
+        "BED"
+      ],
+      "grid": [
+        [
+          "R",
+          "J",
+          "W",
+          "N",
+          "Z",
+          "H",
+          "V"
+        ],
+        [
+          "Y",
+          "O",
+          "E",
+          "I",
+          "R",
+          "X",
+          "J"
+        ],
+        [
+          "C",
+          "H",
+          "Y",
+          "W",
+          "X",
+          "A",
+          "C"
+        ],
+        [
+          "W",
+          "T",
+          "B",
+          "C",
+          "T",
+          "Q",
+          "P"
+        ],
+        [
+          "W",
+          "I",
+          "G",
+          "E",
+          "A",
+          "K",
+          "I"
+        ],
+        [
+          "K",
+          "N",
+          "N",
+          "L",
+          "D",
+          "P",
+          "I"
+        ],
+        [
+          "O",
+          "C",
+          "A",
+          "K",
+          "G",
+          "L",
+          "N"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HEN",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "TIN",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "COW",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BED",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 155,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "BOAT",
+        "BRONZE",
+        "BIRD",
+        "SAND",
+        "SWEET",
+        "DOOR"
+      ],
+      "grid": [
+        [
+          "A",
+          "N",
+          "B",
+          "D",
+          "V",
+          "K",
+          "R"
+        ],
+        [
+          "T",
+          "M",
+          "N",
+          "I",
+          "B",
+          "B",
+          "D"
+        ],
+        [
+          "M",
+          "A",
+          "M",
+          "I",
+          "R",
+          "F",
+          "T"
+        ],
+        [
+          "S",
+          "T",
+          "W",
+          "T",
+          "O",
+          "D",
+          "D"
+        ],
+        [
+          "K",
+          "D",
+          "A",
+          "F",
+          "N",
+          "O",
+          "O"
+        ],
+        [
+          "K",
+          "O",
+          "P",
+          "R",
+          "Z",
+          "Q",
+          "O"
+        ],
+        [
+          "B",
+          "S",
+          "W",
+          "E",
+          "E",
+          "T",
+          "R"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BOAT",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BRONZE",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "BIRD",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "SAND",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SWEET",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "DOOR",
+          "startRow": 3,
+          "startCol": 6,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 156,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "MINE",
+        "SEED",
+        "SMILE",
+        "SOIL"
+      ],
+      "grid": [
+        [
+          "X",
+          "G",
+          "L",
+          "V",
+          "E",
+          "N",
+          "E"
+        ],
+        [
+          "T",
+          "I",
+          "V",
+          "L",
+          "R",
+          "H",
+          "S"
+        ],
+        [
+          "G",
+          "N",
+          "I",
+          "S",
+          "D",
+          "T",
+          "R"
+        ],
+        [
+          "Y",
+          "M",
+          "J",
+          "L",
+          "O",
+          "W",
+          "L"
+        ],
+        [
+          "S",
+          "E",
+          "E",
+          "D",
+          "V",
+          "I",
+          "Y"
+        ],
+        [
+          "F",
+          "L",
+          "M",
+          "I",
+          "N",
+          "E",
+          "L"
+        ],
+        [
+          "Y",
+          "E",
+          "M",
+          "J",
+          "M",
+          "R",
+          "Z"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MINE",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "SEED",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "SMILE",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SOIL",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 157,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "TEAL",
+        "RULE",
+        "PUMA",
+        "BED",
+        "ROPE",
+        "CART"
+      ],
+      "grid": [
+        [
+          "U",
+          "T",
+          "E",
+          "A",
+          "L",
+          "L",
+          "G"
+        ],
+        [
+          "P",
+          "I",
+          "P",
+          "P",
+          "E",
+          "D",
+          "E"
+        ],
+        [
+          "U",
+          "R",
+          "U",
+          "X",
+          "E",
+          "J",
+          "T"
+        ],
+        [
+          "P",
+          "G",
+          "M",
+          "B",
+          "E",
+          "R",
+          "F"
+        ],
+        [
+          "M",
+          "L",
+          "A",
+          "L",
+          "A",
+          "U",
+          "U"
+        ],
+        [
+          "M",
+          "E",
+          "U",
+          "C",
+          "Q",
+          "N",
+          "E"
+        ],
+        [
+          "T",
+          "R",
+          "O",
+          "P",
+          "E",
+          "I",
+          "L"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "TEAL",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "RULE",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "PUMA",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "BED",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "ROPE",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "CART",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 158,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "DREAM",
+        "RAIN",
+        "STEP",
+        "SUGAR"
+      ],
+      "grid": [
+        [
+          "I",
+          "Q",
+          "J",
+          "G",
+          "Z",
+          "J",
+          "C"
+        ],
+        [
+          "D",
+          "R",
+          "E",
+          "A",
+          "M",
+          "N",
+          "Z"
+        ],
+        [
+          "B",
+          "U",
+          "I",
+          "P",
+          "I",
+          "R",
+          "P"
+        ],
+        [
+          "H",
+          "W",
+          "S",
+          "A",
+          "A",
+          "E",
+          "N"
+        ],
+        [
+          "K",
+          "P",
+          "R",
+          "G",
+          "T",
+          "H",
+          "E"
+        ],
+        [
+          "A",
+          "D",
+          "U",
+          "S",
+          "B",
+          "P",
+          "T"
+        ],
+        [
+          "A",
+          "S",
+          "I",
+          "L",
+          "L",
+          "N",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "DREAM",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "RAIN",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "STEP",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SUGAR",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 159,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "BEAR",
+        "BAT",
+        "GOWN",
+        "ROBIN"
+      ],
+      "grid": [
+        [
+          "S",
+          "T",
+          "T",
+          "R",
+          "S",
+          "R",
+          "B"
+        ],
+        [
+          "D",
+          "A",
+          "G",
+          "I",
+          "Q",
+          "P",
+          "Y"
+        ],
+        [
+          "B",
+          "G",
+          "A",
+          "B",
+          "E",
+          "O",
+          "Y"
+        ],
+        [
+          "J",
+          "V",
+          "O",
+          "D",
+          "E",
+          "B",
+          "W"
+        ],
+        [
+          "X",
+          "J",
+          "B",
+          "W",
+          "E",
+          "A",
+          "L"
+        ],
+        [
+          "R",
+          "O",
+          "B",
+          "I",
+          "N",
+          "F",
+          "R"
+        ],
+        [
+          "Z",
+          "J",
+          "A",
+          "S",
+          "K",
+          "V",
+          "F"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BEAR",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BAT",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GOWN",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "ROBIN",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 160,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "GIFT",
+        "GLUE",
+        "LIGHT",
+        "SAND"
+      ],
+      "grid": [
+        [
+          "Z",
+          "Z",
+          "T",
+          "Z",
+          "K",
+          "H",
+          "D"
+        ],
+        [
+          "F",
+          "T",
+          "G",
+          "W",
+          "T",
+          "N",
+          "U"
+        ],
+        [
+          "G",
+          "W",
+          "L",
+          "I",
+          "A",
+          "T",
+          "I"
+        ],
+        [
+          "T",
+          "J",
+          "U",
+          "S",
+          "H",
+          "V",
+          "W"
+        ],
+        [
+          "E",
+          "B",
+          "E",
+          "G",
+          "I",
+          "F",
+          "T"
+        ],
+        [
+          "V",
+          "C",
+          "I",
+          "B",
+          "E",
+          "C",
+          "W"
+        ],
+        [
+          "F",
+          "L",
+          "I",
+          "X",
+          "X",
+          "G",
+          "X"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "GIFT",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "GLUE",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "LIGHT",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SAND",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 161,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "GLUE",
+        "ROSE",
+        "PIPE",
+        "TAP"
+      ],
+      "grid": [
+        [
+          "N",
+          "A",
+          "Q",
+          "I",
+          "P",
+          "L",
+          "T"
+        ],
+        [
+          "K",
+          "P",
+          "S",
+          "V",
+          "U",
+          "I",
+          "A"
+        ],
+        [
+          "K",
+          "P",
+          "I",
+          "P",
+          "U",
+          "X",
+          "P"
+        ],
+        [
+          "V",
+          "G",
+          "F",
+          "P",
+          "E",
+          "W",
+          "E"
+        ],
+        [
+          "T",
+          "J",
+          "L",
+          "N",
+          "E",
+          "S",
+          "I"
+        ],
+        [
+          "Q",
+          "K",
+          "X",
+          "U",
+          "O",
+          "C",
+          "P"
+        ],
+        [
+          "Q",
+          "G",
+          "F",
+          "R",
+          "E",
+          "D",
+          "P"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "GLUE",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "ROSE",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "PIPE",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "TAP",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 162,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "LAKE",
+        "MILL",
+        "PUMA",
+        "BULL",
+        "MILK",
+        "HAT"
+      ],
+      "grid": [
+        [
+          "A",
+          "I",
+          "W",
+          "K",
+          "E",
+          "R",
+          "H"
+        ],
+        [
+          "N",
+          "Q",
+          "I",
+          "K",
+          "P",
+          "O",
+          "P"
+        ],
+        [
+          "J",
+          "F",
+          "A",
+          "L",
+          "X",
+          "G",
+          "U"
+        ],
+        [
+          "S",
+          "L",
+          "L",
+          "V",
+          "L",
+          "K",
+          "M"
+        ],
+        [
+          "A",
+          "U",
+          "M",
+          "I",
+          "L",
+          "L",
+          "A"
+        ],
+        [
+          "B",
+          "J",
+          "H",
+          "A",
+          "T",
+          "Z",
+          "N"
+        ],
+        [
+          "Q",
+          "O",
+          "M",
+          "I",
+          "L",
+          "K",
+          "J"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "LAKE",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "MILL",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "PUMA",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "BULL",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "MILK",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "HAT",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 163,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "TREE",
+        "LOCK",
+        "BANANA",
+        "FERN",
+        "VALE"
+      ],
+      "grid": [
+        [
+          "Y",
+          "M",
+          "B",
+          "Z",
+          "R",
+          "Y",
+          "J"
+        ],
+        [
+          "L",
+          "F",
+          "C",
+          "N",
+          "Z",
+          "D",
+          "E"
+        ],
+        [
+          "U",
+          "C",
+          "R",
+          "E",
+          "F",
+          "L",
+          "Q"
+        ],
+        [
+          "J",
+          "E",
+          "E",
+          "R",
+          "A",
+          "L",
+          "L"
+        ],
+        [
+          "F",
+          "R",
+          "H",
+          "V",
+          "P",
+          "B",
+          "S"
+        ],
+        [
+          "T",
+          "Y",
+          "L",
+          "O",
+          "C",
+          "K",
+          "Z"
+        ],
+        [
+          "B",
+          "A",
+          "N",
+          "A",
+          "N",
+          "A",
+          "X"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "TREE",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "LOCK",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "BANANA",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "FERN",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "VALE",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 164,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "MAGIC",
+        "BUCK",
+        "SOFA",
+        "WAVE",
+        "POOL"
+      ],
+      "grid": [
+        [
+          "U",
+          "B",
+          "Q",
+          "T",
+          "A",
+          "V",
+          "Q"
+        ],
+        [
+          "K",
+          "S",
+          "U",
+          "E",
+          "O",
+          "E",
+          "B"
+        ],
+        [
+          "T",
+          "P",
+          "M",
+          "C",
+          "V",
+          "H",
+          "S"
+        ],
+        [
+          "F",
+          "S",
+          "O",
+          "A",
+          "K",
+          "G",
+          "O"
+        ],
+        [
+          "Z",
+          "T",
+          "W",
+          "O",
+          "G",
+          "N",
+          "F"
+        ],
+        [
+          "P",
+          "X",
+          "I",
+          "R",
+          "L",
+          "I",
+          "A"
+        ],
+        [
+          "K",
+          "I",
+          "Y",
+          "F",
+          "D",
+          "I",
+          "C"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MAGIC",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BUCK",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "SOFA",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "WAVE",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "POOL",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 165,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "HAND",
+        "KEY",
+        "SMILE",
+        "MULE"
+      ],
+      "grid": [
+        [
+          "S",
+          "S",
+          "E",
+          "F",
+          "Z",
+          "U",
+          "Q"
+        ],
+        [
+          "L",
+          "M",
+          "Q",
+          "Z",
+          "Y",
+          "X",
+          "C"
+        ],
+        [
+          "W",
+          "I",
+          "I",
+          "O",
+          "Q",
+          "H",
+          "Q"
+        ],
+        [
+          "Q",
+          "L",
+          "O",
+          "K",
+          "X",
+          "A",
+          "V"
+        ],
+        [
+          "K",
+          "E",
+          "Y",
+          "V",
+          "Y",
+          "N",
+          "P"
+        ],
+        [
+          "M",
+          "R",
+          "U",
+          "S",
+          "F",
+          "D",
+          "B"
+        ],
+        [
+          "V",
+          "T",
+          "M",
+          "U",
+          "L",
+          "E",
+          "U"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HAND",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "KEY",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "SMILE",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "MULE",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 166,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "SNOW",
+        "MAP",
+        "SILK",
+        "VALE",
+        "EMU"
+      ],
+      "grid": [
+        [
+          "S",
+          "C",
+          "V",
+          "A",
+          "N",
+          "G",
+          "G"
+        ],
+        [
+          "I",
+          "H",
+          "X",
+          "W",
+          "K",
+          "H",
+          "A"
+        ],
+        [
+          "L",
+          "X",
+          "O",
+          "N",
+          "D",
+          "C",
+          "O"
+        ],
+        [
+          "K",
+          "N",
+          "G",
+          "P",
+          "R",
+          "W",
+          "F"
+        ],
+        [
+          "S",
+          "Y",
+          "A",
+          "D",
+          "X",
+          "R",
+          "E"
+        ],
+        [
+          "G",
+          "M",
+          "S",
+          "G",
+          "I",
+          "C",
+          "M"
+        ],
+        [
+          "V",
+          "A",
+          "L",
+          "E",
+          "I",
+          "R",
+          "U"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SNOW",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "MAP",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SILK",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "VALE",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "EMU",
+          "startRow": 4,
+          "startCol": 6,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 167,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "CROP",
+        "KITE",
+        "LEAF",
+        "FLOWER",
+        "DOME",
+        "FERN"
+      ],
+      "grid": [
+        [
+          "N",
+          "O",
+          "P",
+          "E",
+          "Q",
+          "W",
+          "M"
+        ],
+        [
+          "O",
+          "K",
+          "T",
+          "C",
+          "Q",
+          "M",
+          "F"
+        ],
+        [
+          "L",
+          "I",
+          "C",
+          "R",
+          "W",
+          "E",
+          "E"
+        ],
+        [
+          "K",
+          "F",
+          "L",
+          "O",
+          "W",
+          "E",
+          "R"
+        ],
+        [
+          "R",
+          "I",
+          "E",
+          "P",
+          "O",
+          "T",
+          "N"
+        ],
+        [
+          "Q",
+          "D",
+          "A",
+          "D",
+          "O",
+          "M",
+          "E"
+        ],
+        [
+          "T",
+          "W",
+          "F",
+          "A",
+          "F",
+          "K",
+          "S"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CROP",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "KITE",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "LEAF",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "FLOWER",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "DOME",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "FERN",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 168,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "OPAL",
+        "HORN",
+        "BEAR",
+        "ROCK",
+        "GLUE"
+      ],
+      "grid": [
+        [
+          "W",
+          "H",
+          "S",
+          "H",
+          "O",
+          "R",
+          "N"
+        ],
+        [
+          "F",
+          "X",
+          "L",
+          "W",
+          "V",
+          "N",
+          "J"
+        ],
+        [
+          "J",
+          "D",
+          "G",
+          "R",
+          "I",
+          "J",
+          "Q"
+        ],
+        [
+          "F",
+          "O",
+          "A",
+          "L",
+          "F",
+          "J",
+          "B"
+        ],
+        [
+          "T",
+          "E",
+          "P",
+          "D",
+          "U",
+          "Z",
+          "N"
+        ],
+        [
+          "B",
+          "U",
+          "C",
+          "A",
+          "H",
+          "E",
+          "M"
+        ],
+        [
+          "R",
+          "O",
+          "C",
+          "K",
+          "L",
+          "E",
+          "W"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "OPAL",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "HORN",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "BEAR",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "ROCK",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "GLUE",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 169,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "TEAL",
+        "SAIL",
+        "SMILE",
+        "CART",
+        "GOLD",
+        "HAND"
+      ],
+      "grid": [
+        [
+          "C",
+          "J",
+          "B",
+          "T",
+          "E",
+          "Y",
+          "Z"
+        ],
+        [
+          "A",
+          "E",
+          "G",
+          "L",
+          "V",
+          "P",
+          "G"
+        ],
+        [
+          "R",
+          "T",
+          "I",
+          "H",
+          "T",
+          "G",
+          "O"
+        ],
+        [
+          "T",
+          "M",
+          "E",
+          "S",
+          "A",
+          "I",
+          "L"
+        ],
+        [
+          "S",
+          "J",
+          "A",
+          "A",
+          "C",
+          "N",
+          "D"
+        ],
+        [
+          "H",
+          "J",
+          "W",
+          "Z",
+          "L",
+          "J",
+          "D"
+        ],
+        [
+          "J",
+          "P",
+          "T",
+          "T",
+          "W",
+          "G",
+          "Y"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "TEAL",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "SAIL",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "SMILE",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CART",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "GOLD",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "HAND",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 170,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "FOREST",
+        "MIST",
+        "OWL",
+        "ELM",
+        "CLAY",
+        "TUB"
+      ],
+      "grid": [
+        [
+          "C",
+          "F",
+          "O",
+          "R",
+          "E",
+          "S",
+          "T"
+        ],
+        [
+          "G",
+          "L",
+          "F",
+          "F",
+          "L",
+          "Q",
+          "B"
+        ],
+        [
+          "J",
+          "H",
+          "A",
+          "J",
+          "H",
+          "C",
+          "M"
+        ],
+        [
+          "O",
+          "W",
+          "L",
+          "Y",
+          "R",
+          "L",
+          "T"
+        ],
+        [
+          "P",
+          "T",
+          "U",
+          "B",
+          "E",
+          "S",
+          "W"
+        ],
+        [
+          "E",
+          "S",
+          "T",
+          "U",
+          "I",
+          "H",
+          "F"
+        ],
+        [
+          "F",
+          "U",
+          "S",
+          "M",
+          "P",
+          "K",
+          "Q"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "FOREST",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "MIST",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "OWL",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "ELM",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CLAY",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "TUB",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 171,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "SONG",
+        "DOOR",
+        "PEACH",
+        "NET",
+        "LAMP"
+      ],
+      "grid": [
+        [
+          "W",
+          "L",
+          "L",
+          "A",
+          "M",
+          "P",
+          "J"
+        ],
+        [
+          "Y",
+          "N",
+          "E",
+          "T",
+          "N",
+          "P",
+          "O"
+        ],
+        [
+          "P",
+          "H",
+          "Q",
+          "U",
+          "G",
+          "V",
+          "F"
+        ],
+        [
+          "E",
+          "S",
+          "K",
+          "N",
+          "X",
+          "J",
+          "R"
+        ],
+        [
+          "A",
+          "D",
+          "O",
+          "X",
+          "D",
+          "O",
+          "R"
+        ],
+        [
+          "C",
+          "S",
+          "G",
+          "B",
+          "O",
+          "T",
+          "L"
+        ],
+        [
+          "H",
+          "K",
+          "E",
+          "D",
+          "C",
+          "D",
+          "D"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SONG",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "DOOR",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "PEACH",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "NET",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "LAMP",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 172,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "PAN",
+        "WIRE",
+        "CLOD",
+        "SWEET",
+        "PURPLE"
+      ],
+      "grid": [
+        [
+          "S",
+          "V",
+          "Q",
+          "L",
+          "D",
+          "E",
+          "S"
+        ],
+        [
+          "W",
+          "Q",
+          "O",
+          "O",
+          "R",
+          "G",
+          "N"
+        ],
+        [
+          "E",
+          "Y",
+          "L",
+          "I",
+          "H",
+          "V",
+          "B"
+        ],
+        [
+          "E",
+          "C",
+          "W",
+          "P",
+          "Q",
+          "Q",
+          "A"
+        ],
+        [
+          "T",
+          "G",
+          "O",
+          "A",
+          "M",
+          "O",
+          "K"
+        ],
+        [
+          "K",
+          "Z",
+          "F",
+          "N",
+          "X",
+          "U",
+          "S"
+        ],
+        [
+          "X",
+          "P",
+          "U",
+          "R",
+          "P",
+          "L",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PAN",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "WIRE",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CLOD",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SWEET",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "PURPLE",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 173,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "CHERRY",
+        "COW",
+        "CASE",
+        "DAWN",
+        "CLOUDS",
+        "RING"
+      ],
+      "grid": [
+        [
+          "Y",
+          "C",
+          "O",
+          "W",
+          "T",
+          "E",
+          "A"
+        ],
+        [
+          "S",
+          "U",
+          "D",
+          "O",
+          "S",
+          "Y",
+          "W"
+        ],
+        [
+          "Y",
+          "Q",
+          "L",
+          "A",
+          "R",
+          "R",
+          "U"
+        ],
+        [
+          "O",
+          "Y",
+          "C",
+          "R",
+          "W",
+          "I",
+          "H"
+        ],
+        [
+          "M",
+          "Y",
+          "E",
+          "I",
+          "A",
+          "N",
+          "D"
+        ],
+        [
+          "T",
+          "H",
+          "D",
+          "H",
+          "X",
+          "G",
+          "P"
+        ],
+        [
+          "C",
+          "C",
+          "L",
+          "O",
+          "U",
+          "D",
+          "S"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CHERRY",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "COW",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "CASE",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "DAWN",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "CLOUDS",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "RING",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 174,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "PINE",
+        "LOCK",
+        "COMB",
+        "HAPPY"
+      ],
+      "grid": [
+        [
+          "F",
+          "L",
+          "W",
+          "C",
+          "E",
+          "H",
+          "Y"
+        ],
+        [
+          "I",
+          "T",
+          "O",
+          "N",
+          "O",
+          "P",
+          "M"
+        ],
+        [
+          "Q",
+          "M",
+          "I",
+          "C",
+          "P",
+          "M",
+          "N"
+        ],
+        [
+          "I",
+          "P",
+          "R",
+          "A",
+          "K",
+          "Z",
+          "B"
+        ],
+        [
+          "Q",
+          "M",
+          "H",
+          "R",
+          "A",
+          "Z",
+          "T"
+        ],
+        [
+          "J",
+          "Z",
+          "L",
+          "P",
+          "D",
+          "P",
+          "A"
+        ],
+        [
+          "X",
+          "S",
+          "Y",
+          "L",
+          "A",
+          "H",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PINE",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "LOCK",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "COMB",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "HAPPY",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 175,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "BARK",
+        "PIPE",
+        "HAIL",
+        "HAND"
+      ],
+      "grid": [
+        [
+          "Y",
+          "O",
+          "V",
+          "H",
+          "A",
+          "I",
+          "L"
+        ],
+        [
+          "R",
+          "J",
+          "E",
+          "M",
+          "Q",
+          "D",
+          "F"
+        ],
+        [
+          "I",
+          "P",
+          "K",
+          "I",
+          "L",
+          "B",
+          "B"
+        ],
+        [
+          "G",
+          "O",
+          "T",
+          "O",
+          "E",
+          "D",
+          "A"
+        ],
+        [
+          "X",
+          "G",
+          "U",
+          "P",
+          "N",
+          "K",
+          "R"
+        ],
+        [
+          "U",
+          "J",
+          "I",
+          "A",
+          "Q",
+          "T",
+          "K"
+        ],
+        [
+          "L",
+          "P",
+          "H",
+          "H",
+          "B",
+          "Y",
+          "X"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BARK",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "PIPE",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "HAIL",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "HAND",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 176,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "ELK",
+        "OCEAN",
+        "KOI",
+        "NEWT",
+        "SHIP"
+      ],
+      "grid": [
+        [
+          "E",
+          "J",
+          "Q",
+          "S",
+          "O",
+          "W",
+          "H"
+        ],
+        [
+          "X",
+          "K",
+          "F",
+          "R",
+          "N",
+          "K",
+          "P"
+        ],
+        [
+          "G",
+          "D",
+          "O",
+          "A",
+          "D",
+          "I",
+          "N"
+        ],
+        [
+          "S",
+          "C",
+          "E",
+          "I",
+          "H",
+          "L",
+          "E"
+        ],
+        [
+          "Y",
+          "C",
+          "S",
+          "S",
+          "F",
+          "V",
+          "W"
+        ],
+        [
+          "O",
+          "E",
+          "L",
+          "K",
+          "A",
+          "J",
+          "T"
+        ],
+        [
+          "A",
+          "K",
+          "L",
+          "M",
+          "W",
+          "Q",
+          "U"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "ELK",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "OCEAN",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "KOI",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "NEWT",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "SHIP",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 177,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "PINK",
+        "MAGIC",
+        "CAGE",
+        "EMU",
+        "POT"
+      ],
+      "grid": [
+        [
+          "O",
+          "H",
+          "L",
+          "A",
+          "C",
+          "T",
+          "J"
+        ],
+        [
+          "P",
+          "X",
+          "Z",
+          "I",
+          "X",
+          "Y",
+          "C"
+        ],
+        [
+          "O",
+          "G",
+          "G",
+          "H",
+          "H",
+          "Z",
+          "X"
+        ],
+        [
+          "T",
+          "A",
+          "P",
+          "H",
+          "Z",
+          "D",
+          "Z"
+        ],
+        [
+          "M",
+          "I",
+          "I",
+          "C",
+          "A",
+          "G",
+          "E"
+        ],
+        [
+          "I",
+          "S",
+          "N",
+          "N",
+          "M",
+          "K",
+          "N"
+        ],
+        [
+          "W",
+          "R",
+          "K",
+          "Z",
+          "E",
+          "M",
+          "U"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PINK",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "MAGIC",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CAGE",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "EMU",
+          "startRow": 6,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "POT",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 178,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "GRID",
+        "ICE",
+        "BOAT",
+        "PIG",
+        "IVY"
+      ],
+      "grid": [
+        [
+          "C",
+          "Q",
+          "H",
+          "E",
+          "P",
+          "U",
+          "E"
+        ],
+        [
+          "C",
+          "L",
+          "W",
+          "N",
+          "G",
+          "I",
+          "Z"
+        ],
+        [
+          "B",
+          "I",
+          "C",
+          "E",
+          "R",
+          "W",
+          "G"
+        ],
+        [
+          "W",
+          "O",
+          "X",
+          "E",
+          "I",
+          "K",
+          "D"
+        ],
+        [
+          "A",
+          "N",
+          "A",
+          "G",
+          "D",
+          "W",
+          "E"
+        ],
+        [
+          "P",
+          "V",
+          "H",
+          "T",
+          "X",
+          "B",
+          "R"
+        ],
+        [
+          "I",
+          "V",
+          "Y",
+          "S",
+          "K",
+          "S",
+          "A"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "GRID",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "ICE",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "BOAT",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "PIG",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "IVY",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 179,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "GNU",
+        "STORM",
+        "TIDE",
+        "DAWN",
+        "FOREST",
+        "BOAT"
+      ],
+      "grid": [
+        [
+          "L",
+          "D",
+          "A",
+          "W",
+          "N",
+          "T",
+          "F"
+        ],
+        [
+          "O",
+          "S",
+          "A",
+          "G",
+          "S",
+          "R",
+          "T"
+        ],
+        [
+          "G",
+          "Z",
+          "Z",
+          "E",
+          "V",
+          "D",
+          "I"
+        ],
+        [
+          "S",
+          "N",
+          "R",
+          "R",
+          "R",
+          "N",
+          "D"
+        ],
+        [
+          "Y",
+          "O",
+          "U",
+          "L",
+          "L",
+          "Y",
+          "E"
+        ],
+        [
+          "F",
+          "T",
+          "P",
+          "B",
+          "O",
+          "A",
+          "T"
+        ],
+        [
+          "S",
+          "T",
+          "O",
+          "R",
+          "M",
+          "R",
+          "N"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "GNU",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "STORM",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "TIDE",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "DAWN",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "FOREST",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BOAT",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 180,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "HEN",
+        "PIZZA",
+        "KITE",
+        "MANGO",
+        "HAPPY"
+      ],
+      "grid": [
+        [
+          "B",
+          "J",
+          "O",
+          "X",
+          "O",
+          "A",
+          "Y"
+        ],
+        [
+          "Y",
+          "L",
+          "X",
+          "P",
+          "S",
+          "P",
+          "J"
+        ],
+        [
+          "K",
+          "I",
+          "T",
+          "E",
+          "P",
+          "I",
+          "P"
+        ],
+        [
+          "O",
+          "I",
+          "H",
+          "A",
+          "N",
+          "Z",
+          "K"
+        ],
+        [
+          "P",
+          "Y",
+          "H",
+          "E",
+          "K",
+          "Z",
+          "B"
+        ],
+        [
+          "K",
+          "O",
+          "U",
+          "I",
+          "N",
+          "A",
+          "N"
+        ],
+        [
+          "M",
+          "A",
+          "N",
+          "G",
+          "O",
+          "I",
+          "R"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HEN",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "PIZZA",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "KITE",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "MANGO",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "HAPPY",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 181,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "MOTH",
+        "IRON",
+        "BOWL",
+        "ROPE"
+      ],
+      "grid": [
+        [
+          "M",
+          "G",
+          "S",
+          "Z",
+          "V",
+          "E",
+          "O"
+        ],
+        [
+          "O",
+          "V",
+          "I",
+          "R",
+          "O",
+          "N",
+          "R"
+        ],
+        [
+          "B",
+          "U",
+          "Y",
+          "P",
+          "H",
+          "F",
+          "O"
+        ],
+        [
+          "O",
+          "M",
+          "N",
+          "T",
+          "B",
+          "M",
+          "P"
+        ],
+        [
+          "W",
+          "K",
+          "O",
+          "T",
+          "V",
+          "H",
+          "E"
+        ],
+        [
+          "L",
+          "M",
+          "B",
+          "B",
+          "G",
+          "B",
+          "F"
+        ],
+        [
+          "Y",
+          "O",
+          "U",
+          "Z",
+          "W",
+          "H",
+          "Q"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MOTH",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "IRON",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "BOWL",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "ROPE",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 182,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "SHOP",
+        "NOTE",
+        "LAMB",
+        "BOWL",
+        "RAM",
+        "GREEN"
+      ],
+      "grid": [
+        [
+          "S",
+          "X",
+          "H",
+          "E",
+          "R",
+          "A",
+          "M"
+        ],
+        [
+          "L",
+          "H",
+          "G",
+          "R",
+          "E",
+          "E",
+          "N"
+        ],
+        [
+          "A",
+          "W",
+          "O",
+          "Z",
+          "W",
+          "T",
+          "E"
+        ],
+        [
+          "M",
+          "T",
+          "B",
+          "P",
+          "E",
+          "T",
+          "D"
+        ],
+        [
+          "B",
+          "I",
+          "G",
+          "O",
+          "O",
+          "H",
+          "I"
+        ],
+        [
+          "A",
+          "Z",
+          "L",
+          "N",
+          "W",
+          "F",
+          "E"
+        ],
+        [
+          "X",
+          "I",
+          "O",
+          "E",
+          "D",
+          "L",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SHOP",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "NOTE",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "LAMB",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "BOWL",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "RAM",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "GREEN",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 183,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "CUP",
+        "BARK",
+        "HAT",
+        "KOALA"
+      ],
+      "grid": [
+        [
+          "K",
+          "B",
+          "A",
+          "R",
+          "K",
+          "B",
+          "H"
+        ],
+        [
+          "O",
+          "W",
+          "I",
+          "C",
+          "Q",
+          "Q",
+          "A"
+        ],
+        [
+          "A",
+          "O",
+          "U",
+          "A",
+          "U",
+          "B",
+          "T"
+        ],
+        [
+          "L",
+          "M",
+          "R",
+          "P",
+          "E",
+          "P",
+          "O"
+        ],
+        [
+          "A",
+          "D",
+          "V",
+          "C",
+          "R",
+          "D",
+          "W"
+        ],
+        [
+          "M",
+          "I",
+          "Q",
+          "U",
+          "Q",
+          "E",
+          "L"
+        ],
+        [
+          "K",
+          "L",
+          "T",
+          "W",
+          "T",
+          "I",
+          "Y"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CUP",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BARK",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "HAT",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "KOALA",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 184,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "PUMA",
+        "SOCK",
+        "ZEBRA",
+        "CORD"
+      ],
+      "grid": [
+        [
+          "F",
+          "W",
+          "C",
+          "D",
+          "G",
+          "Z",
+          "E"
+        ],
+        [
+          "B",
+          "Z",
+          "E",
+          "B",
+          "R",
+          "A",
+          "R"
+        ],
+        [
+          "X",
+          "S",
+          "G",
+          "C",
+          "H",
+          "N",
+          "K"
+        ],
+        [
+          "D",
+          "D",
+          "P",
+          "D",
+          "Z",
+          "C",
+          "D"
+        ],
+        [
+          "M",
+          "W",
+          "R",
+          "U",
+          "O",
+          "B",
+          "A"
+        ],
+        [
+          "X",
+          "O",
+          "H",
+          "S",
+          "M",
+          "H",
+          "W"
+        ],
+        [
+          "C",
+          "T",
+          "L",
+          "G",
+          "D",
+          "A",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PUMA",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "SOCK",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "ZEBRA",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "CORD",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 185,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "TAP",
+        "WICK",
+        "CHEESE",
+        "DOOR",
+        "OAK"
+      ],
+      "grid": [
+        [
+          "C",
+          "C",
+          "H",
+          "E",
+          "E",
+          "S",
+          "E"
+        ],
+        [
+          "E",
+          "J",
+          "W",
+          "X",
+          "J",
+          "S",
+          "K"
+        ],
+        [
+          "S",
+          "W",
+          "P",
+          "R",
+          "M",
+          "A",
+          "U"
+        ],
+        [
+          "H",
+          "D",
+          "I",
+          "S",
+          "O",
+          "O",
+          "T"
+        ],
+        [
+          "J",
+          "O",
+          "D",
+          "C",
+          "H",
+          "N",
+          "A"
+        ],
+        [
+          "P",
+          "O",
+          "I",
+          "R",
+          "K",
+          "K",
+          "P"
+        ],
+        [
+          "D",
+          "R",
+          "V",
+          "F",
+          "A",
+          "B",
+          "C"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "TAP",
+          "startRow": 3,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "WICK",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "CHEESE",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "DOOR",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "OAK",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 186,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "GUST",
+        "BIRD",
+        "BEAR",
+        "SHOP",
+        "PAGE",
+        "EEL"
+      ],
+      "grid": [
+        [
+          "P",
+          "L",
+          "P",
+          "V",
+          "F",
+          "O",
+          "Q"
+        ],
+        [
+          "N",
+          "A",
+          "J",
+          "A",
+          "L",
+          "U",
+          "T"
+        ],
+        [
+          "B",
+          "I",
+          "R",
+          "D",
+          "G",
+          "R",
+          "S"
+        ],
+        [
+          "B",
+          "D",
+          "E",
+          "W",
+          "A",
+          "E",
+          "H"
+        ],
+        [
+          "L",
+          "S",
+          "I",
+          "E",
+          "Q",
+          "U",
+          "O"
+        ],
+        [
+          "O",
+          "Y",
+          "B",
+          "U",
+          "L",
+          "I",
+          "P"
+        ],
+        [
+          "M",
+          "E",
+          "X",
+          "G",
+          "U",
+          "S",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "GUST",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "BIRD",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "BEAR",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SHOP",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "PAGE",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "EEL",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 187,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "PINK",
+        "MOLE",
+        "CARD",
+        "YELLOW",
+        "PEACH"
+      ],
+      "grid": [
+        [
+          "M",
+          "Y",
+          "G",
+          "O",
+          "N",
+          "D",
+          "V"
+        ],
+        [
+          "O",
+          "E",
+          "E",
+          "Z",
+          "R",
+          "S",
+          "E"
+        ],
+        [
+          "L",
+          "L",
+          "D",
+          "A",
+          "A",
+          "R",
+          "H"
+        ],
+        [
+          "E",
+          "L",
+          "C",
+          "P",
+          "K",
+          "C",
+          "U"
+        ],
+        [
+          "Q",
+          "O",
+          "V",
+          "N",
+          "A",
+          "Y",
+          "W"
+        ],
+        [
+          "A",
+          "W",
+          "I",
+          "E",
+          "N",
+          "W",
+          "Z"
+        ],
+        [
+          "N",
+          "P",
+          "P",
+          "L",
+          "G",
+          "H",
+          "I"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PINK",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "MOLE",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "CARD",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "YELLOW",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "PEACH",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 188,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "GRID",
+        "FROG",
+        "DISH",
+        "JUG",
+        "LOCK"
+      ],
+      "grid": [
+        [
+          "D",
+          "B",
+          "N",
+          "T",
+          "C",
+          "J",
+          "C"
+        ],
+        [
+          "Q",
+          "I",
+          "L",
+          "J",
+          "G",
+          "U",
+          "H"
+        ],
+        [
+          "J",
+          "M",
+          "S",
+          "O",
+          "Z",
+          "G",
+          "D"
+        ],
+        [
+          "Q",
+          "M",
+          "R",
+          "H",
+          "C",
+          "I",
+          "C"
+        ],
+        [
+          "M",
+          "F",
+          "Q",
+          "G",
+          "R",
+          "K",
+          "H"
+        ],
+        [
+          "H",
+          "C",
+          "S",
+          "G",
+          "T",
+          "K",
+          "Z"
+        ],
+        [
+          "W",
+          "C",
+          "U",
+          "A",
+          "L",
+          "L",
+          "U"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "GRID",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "FROG",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "DISH",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "JUG",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "LOCK",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 189,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "PINK",
+        "WOOL",
+        "DUSK",
+        "KITE",
+        "SQUID"
+      ],
+      "grid": [
+        [
+          "A",
+          "E",
+          "D",
+          "F",
+          "P",
+          "E",
+          "F"
+        ],
+        [
+          "S",
+          "M",
+          "U",
+          "W",
+          "T",
+          "P",
+          "I"
+        ],
+        [
+          "Q",
+          "Q",
+          "S",
+          "I",
+          "O",
+          "M",
+          "E"
+        ],
+        [
+          "U",
+          "D",
+          "K",
+          "O",
+          "S",
+          "O",
+          "Q"
+        ],
+        [
+          "I",
+          "P",
+          "I",
+          "N",
+          "K",
+          "C",
+          "L"
+        ],
+        [
+          "D",
+          "T",
+          "H",
+          "I",
+          "X",
+          "T",
+          "K"
+        ],
+        [
+          "J",
+          "N",
+          "D",
+          "D",
+          "X",
+          "Z",
+          "Q"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PINK",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "WOOL",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "DUSK",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "KITE",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SQUID",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 190,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "JAY",
+        "FIRE",
+        "GEAR",
+        "BUCK",
+        "PANDA",
+        "ROPE"
+      ],
+      "grid": [
+        [
+          "R",
+          "C",
+          "P",
+          "B",
+          "F",
+          "E",
+          "Q"
+        ],
+        [
+          "O",
+          "M",
+          "A",
+          "Q",
+          "U",
+          "A",
+          "C"
+        ],
+        [
+          "P",
+          "F",
+          "Y",
+          "I",
+          "D",
+          "C",
+          "X"
+        ],
+        [
+          "E",
+          "A",
+          "K",
+          "N",
+          "R",
+          "F",
+          "K"
+        ],
+        [
+          "J",
+          "V",
+          "A",
+          "A",
+          "U",
+          "I",
+          "V"
+        ],
+        [
+          "K",
+          "P",
+          "E",
+          "X",
+          "W",
+          "R",
+          "U"
+        ],
+        [
+          "U",
+          "G",
+          "L",
+          "E",
+          "S",
+          "E",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "JAY",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "FIRE",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "GEAR",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BUCK",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "PANDA",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "ROPE",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 191,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "CUP",
+        "TIN",
+        "GOLD",
+        "OPAL",
+        "HAT",
+        "DAWN"
+      ],
+      "grid": [
+        [
+          "X",
+          "S",
+          "G",
+          "L",
+          "U",
+          "T",
+          "P"
+        ],
+        [
+          "U",
+          "T",
+          "A",
+          "B",
+          "C",
+          "U",
+          "I"
+        ],
+        [
+          "A",
+          "P",
+          "I",
+          "N",
+          "S",
+          "G",
+          "N"
+        ],
+        [
+          "O",
+          "C",
+          "H",
+          "N",
+          "X",
+          "W",
+          "Y"
+        ],
+        [
+          "Q",
+          "U",
+          "X",
+          "A",
+          "A",
+          "P",
+          "R"
+        ],
+        [
+          "R",
+          "P",
+          "K",
+          "D",
+          "T",
+          "J",
+          "K"
+        ],
+        [
+          "G",
+          "O",
+          "L",
+          "D",
+          "M",
+          "P",
+          "O"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CUP",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "TIN",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "GOLD",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "OPAL",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "HAT",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "DAWN",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 192,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "WOOL",
+        "CHEESE",
+        "ANT",
+        "SALT",
+        "CUP",
+        "FLOWER"
+      ],
+      "grid": [
+        [
+          "Z",
+          "C",
+          "J",
+          "N",
+          "A",
+          "Q",
+          "B"
+        ],
+        [
+          "F",
+          "W",
+          "H",
+          "L",
+          "N",
+          "M",
+          "Z"
+        ],
+        [
+          "L",
+          "O",
+          "J",
+          "E",
+          "T",
+          "D",
+          "G"
+        ],
+        [
+          "O",
+          "O",
+          "D",
+          "F",
+          "E",
+          "S",
+          "J"
+        ],
+        [
+          "W",
+          "L",
+          "Y",
+          "T",
+          "G",
+          "S",
+          "W"
+        ],
+        [
+          "E",
+          "I",
+          "C",
+          "U",
+          "P",
+          "X",
+          "E"
+        ],
+        [
+          "R",
+          "E",
+          "S",
+          "S",
+          "A",
+          "L",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "WOOL",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "CHEESE",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "ANT",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "SALT",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "CUP",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "FLOWER",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 193,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "LOCK",
+        "CASE",
+        "MIST",
+        "CALL"
+      ],
+      "grid": [
+        [
+          "P",
+          "H",
+          "N",
+          "T",
+          "L",
+          "S",
+          "W"
+        ],
+        [
+          "Z",
+          "I",
+          "S",
+          "C",
+          "J",
+          "J",
+          "M"
+        ],
+        [
+          "E",
+          "I",
+          "K",
+          "A",
+          "L",
+          "V",
+          "C"
+        ],
+        [
+          "M",
+          "C",
+          "O",
+          "L",
+          "O",
+          "D",
+          "A"
+        ],
+        [
+          "S",
+          "Q",
+          "A",
+          "L",
+          "C",
+          "Q",
+          "O"
+        ],
+        [
+          "X",
+          "H",
+          "D",
+          "S",
+          "K",
+          "J",
+          "U"
+        ],
+        [
+          "I",
+          "D",
+          "P",
+          "Z",
+          "E",
+          "H",
+          "I"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "LOCK",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "CASE",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "MIST",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CALL",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 194,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "CRAB",
+        "HEN",
+        "IBIS",
+        "DEER",
+        "PINK"
+      ],
+      "grid": [
+        [
+          "Z",
+          "I",
+          "K",
+          "X",
+          "W",
+          "K",
+          "N"
+        ],
+        [
+          "V",
+          "P",
+          "P",
+          "R",
+          "J",
+          "W",
+          "B"
+        ],
+        [
+          "I",
+          "T",
+          "I",
+          "B",
+          "Y",
+          "A",
+          "T"
+        ],
+        [
+          "B",
+          "M",
+          "M",
+          "N",
+          "R",
+          "T",
+          "N"
+        ],
+        [
+          "I",
+          "X",
+          "B",
+          "C",
+          "K",
+          "E",
+          "I"
+        ],
+        [
+          "S",
+          "Y",
+          "D",
+          "N",
+          "H",
+          "U",
+          "S"
+        ],
+        [
+          "T",
+          "C",
+          "F",
+          "D",
+          "E",
+          "E",
+          "R"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CRAB",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "HEN",
+          "startRow": 5,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "IBIS",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "DEER",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "PINK",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 195,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "WORM",
+        "BUCK",
+        "MIST",
+        "PINE"
+      ],
+      "grid": [
+        [
+          "U",
+          "S",
+          "X",
+          "M",
+          "C",
+          "R",
+          "S"
+        ],
+        [
+          "P",
+          "H",
+          "W",
+          "H",
+          "I",
+          "Q",
+          "T"
+        ],
+        [
+          "F",
+          "I",
+          "B",
+          "O",
+          "N",
+          "S",
+          "M"
+        ],
+        [
+          "Z",
+          "R",
+          "K",
+          "U",
+          "R",
+          "F",
+          "T"
+        ],
+        [
+          "J",
+          "R",
+          "X",
+          "N",
+          "C",
+          "M",
+          "U"
+        ],
+        [
+          "J",
+          "B",
+          "Y",
+          "W",
+          "P",
+          "K",
+          "F"
+        ],
+        [
+          "C",
+          "S",
+          "P",
+          "I",
+          "N",
+          "E",
+          "P"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "WORM",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BUCK",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "MIST",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "PINE",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 196,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "MAZE",
+        "BULL",
+        "BELL",
+        "COMB"
+      ],
+      "grid": [
+        [
+          "W",
+          "B",
+          "U",
+          "Q",
+          "G",
+          "A",
+          "A"
+        ],
+        [
+          "R",
+          "U",
+          "B",
+          "E",
+          "L",
+          "L",
+          "I"
+        ],
+        [
+          "O",
+          "L",
+          "M",
+          "A",
+          "Z",
+          "E",
+          "Y"
+        ],
+        [
+          "T",
+          "L",
+          "C",
+          "A",
+          "K",
+          "C",
+          "K"
+        ],
+        [
+          "Q",
+          "H",
+          "S",
+          "O",
+          "Z",
+          "O",
+          "N"
+        ],
+        [
+          "N",
+          "B",
+          "C",
+          "J",
+          "M",
+          "E",
+          "M"
+        ],
+        [
+          "N",
+          "U",
+          "I",
+          "V",
+          "D",
+          "B",
+          "D"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MAZE",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "BULL",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "BELL",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "COMB",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 197,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "WICK",
+        "PINE",
+        "PUMA",
+        "WOOD"
+      ],
+      "grid": [
+        [
+          "C",
+          "B",
+          "R",
+          "X",
+          "B",
+          "D",
+          "W"
+        ],
+        [
+          "V",
+          "W",
+          "O",
+          "O",
+          "D",
+          "K",
+          "S"
+        ],
+        [
+          "M",
+          "K",
+          "E",
+          "E",
+          "C",
+          "K",
+          "H"
+        ],
+        [
+          "S",
+          "I",
+          "N",
+          "I",
+          "C",
+          "U",
+          "P"
+        ],
+        [
+          "C",
+          "I",
+          "W",
+          "M",
+          "F",
+          "G",
+          "U"
+        ],
+        [
+          "P",
+          "Y",
+          "Y",
+          "T",
+          "H",
+          "Q",
+          "M"
+        ],
+        [
+          "V",
+          "L",
+          "T",
+          "S",
+          "C",
+          "F",
+          "A"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "WICK",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "PINE",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "PUMA",
+          "startRow": 3,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "WOOD",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 198,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "SOIL",
+        "SWAN",
+        "MAGIC",
+        "TIDE"
+      ],
+      "grid": [
+        [
+          "O",
+          "R",
+          "R",
+          "B",
+          "R",
+          "U",
+          "Y"
+        ],
+        [
+          "N",
+          "P",
+          "T",
+          "W",
+          "L",
+          "N",
+          "O"
+        ],
+        [
+          "H",
+          "I",
+          "Z",
+          "I",
+          "A",
+          "S",
+          "N"
+        ],
+        [
+          "A",
+          "N",
+          "O",
+          "W",
+          "D",
+          "G",
+          "A"
+        ],
+        [
+          "W",
+          "S",
+          "S",
+          "J",
+          "Q",
+          "E",
+          "N"
+        ],
+        [
+          "D",
+          "C",
+          "F",
+          "C",
+          "V",
+          "X",
+          "U"
+        ],
+        [
+          "G",
+          "U",
+          "M",
+          "A",
+          "G",
+          "I",
+          "C"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SOIL",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SWAN",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "MAGIC",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "TIDE",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 199,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "GUST",
+        "PANDA",
+        "DOG",
+        "DEER",
+        "TUB",
+        "HOOD"
+      ],
+      "grid": [
+        [
+          "F",
+          "G",
+          "Y",
+          "G",
+          "D",
+          "F",
+          "E"
+        ],
+        [
+          "D",
+          "O",
+          "G",
+          "U",
+          "N",
+          "B",
+          "V"
+        ],
+        [
+          "A",
+          "R",
+          "E",
+          "S",
+          "U",
+          "T",
+          "O"
+        ],
+        [
+          "G",
+          "U",
+          "C",
+          "T",
+          "W",
+          "C",
+          "M"
+        ],
+        [
+          "I",
+          "P",
+          "A",
+          "N",
+          "D",
+          "A",
+          "P"
+        ],
+        [
+          "B",
+          "D",
+          "E",
+          "E",
+          "R",
+          "R",
+          "A"
+        ],
+        [
+          "H",
+          "O",
+          "O",
+          "D",
+          "Z",
+          "R",
+          "K"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "GUST",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "PANDA",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "DOG",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "DEER",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "TUB",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "HOOD",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 150
+    },
+    {
+      "id": 200,
+      "world": "Snowy Peaks",
+      "difficulty": 2,
+      "gridSize": 7,
+      "words": [
+        "WORD",
+        "EMU",
+        "BELT",
+        "BREAD",
+        "RAIN",
+        "EAGLE"
+      ],
+      "grid": [
+        [
+          "E",
+          "D",
+          "W",
+          "N",
+          "H",
+          "A",
+          "Y"
+        ],
+        [
+          "A",
+          "A",
+          "Z",
+          "O",
+          "N",
+          "Z",
+          "D"
+        ],
+        [
+          "G",
+          "V",
+          "G",
+          "I",
+          "R",
+          "A",
+          "Q"
+        ],
+        [
+          "L",
+          "L",
+          "A",
+          "G",
+          "E",
+          "D",
+          "K"
+        ],
+        [
+          "E",
+          "R",
+          "Q",
+          "R",
+          "D",
+          "V",
+          "U"
+        ],
+        [
+          "J",
+          "H",
+          "B",
+          "D",
+          "S",
+          "M",
+          "M"
+        ],
+        [
+          "B",
+          "E",
+          "L",
+          "T",
+          "E",
+          "C",
+          "V"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "WORD",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "EMU",
+          "startRow": 6,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BELT",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "BREAD",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "RAIN",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "EAGLE",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 150
+    }
+  ]
+}

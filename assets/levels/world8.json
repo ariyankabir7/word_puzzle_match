@@ -1,0 +1,7720 @@
+{
+  "world": "Candy Land",
+  "worldNumber": 8,
+  "levels": [
+    {
+      "id": 351,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "TOAD",
+        "APE",
+        "TIGER",
+        "MOLE",
+        "SWEET",
+        "WREN",
+        "CLOUDS"
+      ],
+      "grid": [
+        [
+          "T",
+          "R",
+          "F",
+          "P",
+          "U",
+          "X",
+          "P",
+          "G",
+          "H"
+        ],
+        [
+          "E",
+          "P",
+          "Y",
+          "T",
+          "I",
+          "G",
+          "E",
+          "R",
+          "B"
+        ],
+        [
+          "E",
+          "W",
+          "Q",
+          "E",
+          "D",
+          "C",
+          "M",
+          "I",
+          "O"
+        ],
+        [
+          "W",
+          "N",
+          "Q",
+          "S",
+          "D",
+          "U",
+          "O",
+          "L",
+          "C"
+        ],
+        [
+          "S",
+          "E",
+          "T",
+          "H",
+          "L",
+          "X",
+          "L",
+          "R",
+          "Y"
+        ],
+        [
+          "I",
+          "R",
+          "O",
+          "H",
+          "C",
+          "H",
+          "E",
+          "X",
+          "E"
+        ],
+        [
+          "Z",
+          "W",
+          "A",
+          "X",
+          "H",
+          "U",
+          "B",
+          "K",
+          "P"
+        ],
+        [
+          "P",
+          "W",
+          "D",
+          "M",
+          "H",
+          "Z",
+          "O",
+          "C",
+          "A"
+        ],
+        [
+          "U",
+          "N",
+          "W",
+          "E",
+          "M",
+          "W",
+          "U",
+          "O",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "TOAD",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "APE",
+          "startRow": 7,
+          "startCol": 8,
+          "direction": "BT"
+        },
+        {
+          "word": "TIGER",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "MOLE",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "SWEET",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "WREN",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "BT"
+        },
+        {
+          "word": "CLOUDS",
+          "startRow": 3,
+          "startCol": 8,
+          "direction": "RL"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 352,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "CHERRY",
+        "SLUG",
+        "WOOL",
+        "YELLOW",
+        "BALL",
+        "REEF",
+        "OWL"
+      ],
+      "grid": [
+        [
+          "D",
+          "C",
+          "G",
+          "Y",
+          "A",
+          "B",
+          "O",
+          "C",
+          "K"
+        ],
+        [
+          "I",
+          "P",
+          "C",
+          "H",
+          "E",
+          "R",
+          "R",
+          "Y",
+          "L"
+        ],
+        [
+          "K",
+          "Q",
+          "Q",
+          "I",
+          "T",
+          "S",
+          "X",
+          "N",
+          "L"
+        ],
+        [
+          "D",
+          "F",
+          "I",
+          "T",
+          "B",
+          "V",
+          "L",
+          "O",
+          "A"
+        ],
+        [
+          "Y",
+          "R",
+          "L",
+          "O",
+          "O",
+          "W",
+          "W",
+          "U",
+          "B"
+        ],
+        [
+          "Q",
+          "H",
+          "J",
+          "S",
+          "F",
+          "L",
+          "N",
+          "T",
+          "G"
+        ],
+        [
+          "I",
+          "M",
+          "N",
+          "E",
+          "Y",
+          "E",
+          "D",
+          "U",
+          "S"
+        ],
+        [
+          "J",
+          "L",
+          "E",
+          "F",
+          "X",
+          "A",
+          "R",
+          "F",
+          "A"
+        ],
+        [
+          "H",
+          "R",
+          "S",
+          "W",
+          "O",
+          "L",
+          "L",
+          "E",
+          "Y"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CHERRY",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "SLUG",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "WOOL",
+          "startRow": 4,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "YELLOW",
+          "startRow": 8,
+          "startCol": 8,
+          "direction": "RL"
+        },
+        {
+          "word": "BALL",
+          "startRow": 4,
+          "startCol": 8,
+          "direction": "BT"
+        },
+        {
+          "word": "REEF",
+          "startRow": 8,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "OWL",
+          "startRow": 3,
+          "startCol": 7,
+          "direction": "DIAG_DOWN_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 353,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "HAPPY",
+        "CUP",
+        "POOL",
+        "HAWK",
+        "TEAL",
+        "LION",
+        "LAMB"
+      ],
+      "grid": [
+        [
+          "F",
+          "C",
+          "Z",
+          "U",
+          "M",
+          "T",
+          "F",
+          "D",
+          "E"
+        ],
+        [
+          "D",
+          "A",
+          "R",
+          "X",
+          "L",
+          "E",
+          "O",
+          "O",
+          "Q"
+        ],
+        [
+          "K",
+          "W",
+          "A",
+          "H",
+          "Q",
+          "I",
+          "E",
+          "X",
+          "Y"
+        ],
+        [
+          "Q",
+          "Q",
+          "P",
+          "E",
+          "G",
+          "P",
+          "O",
+          "P",
+          "L"
+        ],
+        [
+          "T",
+          "H",
+          "Z",
+          "L",
+          "L",
+          "I",
+          "P",
+          "N",
+          "N"
+        ],
+        [
+          "V",
+          "B",
+          "P",
+          "L",
+          "A",
+          "A",
+          "P",
+          "X",
+          "P"
+        ],
+        [
+          "D",
+          "N",
+          "M",
+          "O",
+          "H",
+          "E",
+          "A",
+          "P",
+          "W"
+        ],
+        [
+          "S",
+          "H",
+          "K",
+          "A",
+          "O",
+          "Y",
+          "T",
+          "U",
+          "Z"
+        ],
+        [
+          "U",
+          "T",
+          "U",
+          "S",
+          "L",
+          "L",
+          "W",
+          "C",
+          "P"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HAPPY",
+          "startRow": 6,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CUP",
+          "startRow": 8,
+          "startCol": 7,
+          "direction": "BT"
+        },
+        {
+          "word": "POOL",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "HAWK",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "RL"
+        },
+        {
+          "word": "TEAL",
+          "startRow": 7,
+          "startCol": 6,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "LION",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "LAMB",
+          "startRow": 8,
+          "startCol": 4,
+          "direction": "DIAG_UP_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 354,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "MILL",
+        "WASP",
+        "RULE",
+        "SUGAR",
+        "PEN",
+        "SQUID",
+        "CAGE"
+      ],
+      "grid": [
+        [
+          "Q",
+          "U",
+          "J",
+          "R",
+          "A",
+          "M",
+          "I",
+          "L",
+          "L"
+        ],
+        [
+          "J",
+          "W",
+          "O",
+          "V",
+          "P",
+          "R",
+          "J",
+          "P",
+          "T"
+        ],
+        [
+          "P",
+          "Y",
+          "P",
+          "F",
+          "S",
+          "A",
+          "A",
+          "P",
+          "E"
+        ],
+        [
+          "E",
+          "C",
+          "G",
+          "A",
+          "A",
+          "G",
+          "W",
+          "G",
+          "S"
+        ],
+        [
+          "N",
+          "H",
+          "A",
+          "Q",
+          "W",
+          "U",
+          "M",
+          "Q",
+          "V"
+        ],
+        [
+          "E",
+          "K",
+          "N",
+          "G",
+          "D",
+          "S",
+          "U",
+          "H",
+          "K"
+        ],
+        [
+          "R",
+          "U",
+          "L",
+          "E",
+          "E",
+          "I",
+          "V",
+          "H",
+          "U"
+        ],
+        [
+          "G",
+          "S",
+          "W",
+          "G",
+          "D",
+          "X",
+          "F",
+          "C",
+          "P"
+        ],
+        [
+          "M",
+          "A",
+          "E",
+          "L",
+          "L",
+          "I",
+          "X",
+          "P",
+          "C"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MILL",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "LR"
+        },
+        {
+          "word": "WASP",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "BT"
+        },
+        {
+          "word": "RULE",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "SUGAR",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "BT"
+        },
+        {
+          "word": "PEN",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "SQUID",
+          "startRow": 3,
+          "startCol": 8,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "CAGE",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 355,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "VALE",
+        "CLAY",
+        "BOAT",
+        "PAGE",
+        "FOG",
+        "COAT",
+        "CORK"
+      ],
+      "grid": [
+        [
+          "X",
+          "B",
+          "Y",
+          "C",
+          "M",
+          "U",
+          "Q",
+          "O",
+          "X"
+        ],
+        [
+          "V",
+          "T",
+          "V",
+          "R",
+          "B",
+          "S",
+          "R",
+          "P",
+          "R"
+        ],
+        [
+          "P",
+          "S",
+          "M",
+          "C",
+          "H",
+          "C",
+          "C",
+          "A",
+          "C"
+        ],
+        [
+          "A",
+          "V",
+          "A",
+          "L",
+          "E",
+          "A",
+          "L",
+          "G",
+          "K"
+        ],
+        [
+          "G",
+          "L",
+          "E",
+          "C",
+          "M",
+          "Z",
+          "A",
+          "O",
+          "X"
+        ],
+        [
+          "E",
+          "T",
+          "O",
+          "L",
+          "F",
+          "L",
+          "Y",
+          "F",
+          "B"
+        ],
+        [
+          "E",
+          "R",
+          "A",
+          "P",
+          "W",
+          "I",
+          "W",
+          "Q",
+          "T"
+        ],
+        [
+          "K",
+          "R",
+          "P",
+          "O",
+          "R",
+          "T",
+          "P",
+          "P",
+          "B"
+        ],
+        [
+          "R",
+          "Z",
+          "W",
+          "G",
+          "B",
+          "T",
+          "A",
+          "O",
+          "C"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "VALE",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "CLAY",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "BOAT",
+          "startRow": 8,
+          "startCol": 4,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "PAGE",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "FOG",
+          "startRow": 5,
+          "startCol": 7,
+          "direction": "BT"
+        },
+        {
+          "word": "COAT",
+          "startRow": 8,
+          "startCol": 8,
+          "direction": "RL"
+        },
+        {
+          "word": "CORK",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "DIAG_DOWN_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 356,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "NAIL",
+        "BALL",
+        "CROW",
+        "MULE",
+        "PUMP",
+        "CHERRY",
+        "FOG"
+      ],
+      "grid": [
+        [
+          "G",
+          "M",
+          "C",
+          "H",
+          "P",
+          "M",
+          "E",
+          "D",
+          "H"
+        ],
+        [
+          "V",
+          "Q",
+          "D",
+          "R",
+          "Z",
+          "M",
+          "B",
+          "P",
+          "A"
+        ],
+        [
+          "W",
+          "M",
+          "M",
+          "X",
+          "O",
+          "A",
+          "U",
+          "E",
+          "C"
+        ],
+        [
+          "D",
+          "P",
+          "D",
+          "U",
+          "L",
+          "W",
+          "L",
+          "P",
+          "H"
+        ],
+        [
+          "S",
+          "G",
+          "S",
+          "L",
+          "B",
+          "U",
+          "E",
+          "F",
+          "E"
+        ],
+        [
+          "K",
+          "C",
+          "H",
+          "Y",
+          "M",
+          "N",
+          "U",
+          "O",
+          "R"
+        ],
+        [
+          "H",
+          "T",
+          "U",
+          "C",
+          "A",
+          "W",
+          "A",
+          "E",
+          "R"
+        ],
+        [
+          "R",
+          "O",
+          "Y",
+          "I",
+          "W",
+          "U",
+          "N",
+          "B",
+          "Y"
+        ],
+        [
+          "T",
+          "X",
+          "L",
+          "X",
+          "S",
+          "J",
+          "G",
+          "O",
+          "F"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "NAIL",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "BALL",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "CROW",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "MULE",
+          "startRow": 5,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "PUMP",
+          "startRow": 3,
+          "startCol": 7,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "CHERRY",
+          "startRow": 2,
+          "startCol": 8,
+          "direction": "TB"
+        },
+        {
+          "word": "FOG",
+          "startRow": 8,
+          "startCol": 8,
+          "direction": "RL"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 357,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "PIZZA",
+        "NEST",
+        "SONG",
+        "LYNX",
+        "SAIL"
+      ],
+      "grid": [
+        [
+          "N",
+          "F",
+          "C",
+          "C",
+          "P",
+          "L",
+          "F",
+          "Z",
+          "C"
+        ],
+        [
+          "B",
+          "B",
+          "O",
+          "L",
+          "N",
+          "I",
+          "I",
+          "W",
+          "C"
+        ],
+        [
+          "M",
+          "C",
+          "L",
+          "Y",
+          "N",
+          "X",
+          "Z",
+          "A",
+          "Y"
+        ],
+        [
+          "D",
+          "K",
+          "W",
+          "M",
+          "A",
+          "J",
+          "S",
+          "Z",
+          "S"
+        ],
+        [
+          "F",
+          "P",
+          "R",
+          "H",
+          "L",
+          "G",
+          "O",
+          "T",
+          "A"
+        ],
+        [
+          "M",
+          "U",
+          "K",
+          "G",
+          "F",
+          "K",
+          "S",
+          "Z",
+          "R"
+        ],
+        [
+          "A",
+          "G",
+          "C",
+          "N",
+          "N",
+          "E",
+          "Z",
+          "Z",
+          "A"
+        ],
+        [
+          "W",
+          "V",
+          "L",
+          "I",
+          "N",
+          "O",
+          "D",
+          "S",
+          "C"
+        ],
+        [
+          "W",
+          "I",
+          "G",
+          "Z",
+          "V",
+          "C",
+          "S",
+          "G",
+          "V"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PIZZA",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "NEST",
+          "startRow": 7,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SONG",
+          "startRow": 8,
+          "startCol": 6,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "LYNX",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "SAIL",
+          "startRow": 3,
+          "startCol": 8,
+          "direction": "DIAG_UP_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 358,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "YELLOW",
+        "TOAD",
+        "NAIL",
+        "DOOR",
+        "BRONZE",
+        "LYNX",
+        "CAGE"
+      ],
+      "grid": [
+        [
+          "N",
+          "V",
+          "H",
+          "P",
+          "B",
+          "C",
+          "N",
+          "H",
+          "Q"
+        ],
+        [
+          "C",
+          "J",
+          "Y",
+          "E",
+          "F",
+          "Z",
+          "W",
+          "F",
+          "G"
+        ],
+        [
+          "L",
+          "I",
+          "A",
+          "N",
+          "Z",
+          "O",
+          "W",
+          "W",
+          "T"
+        ],
+        [
+          "Z",
+          "Y",
+          "B",
+          "Y",
+          "L",
+          "N",
+          "V",
+          "L",
+          "O"
+        ],
+        [
+          "D",
+          "J",
+          "U",
+          "L",
+          "C",
+          "W",
+          "O",
+          "X",
+          "A"
+        ],
+        [
+          "O",
+          "X",
+          "E",
+          "O",
+          "A",
+          "N",
+          "S",
+          "R",
+          "D"
+        ],
+        [
+          "O",
+          "Y",
+          "N",
+          "D",
+          "G",
+          "X",
+          "P",
+          "A",
+          "B"
+        ],
+        [
+          "R",
+          "S",
+          "F",
+          "Y",
+          "E",
+          "S",
+          "H",
+          "F",
+          "A"
+        ],
+        [
+          "D",
+          "D",
+          "J",
+          "G",
+          "L",
+          "C",
+          "T",
+          "I",
+          "J"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "YELLOW",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "TOAD",
+          "startRow": 2,
+          "startCol": 8,
+          "direction": "TB"
+        },
+        {
+          "word": "NAIL",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "RL"
+        },
+        {
+          "word": "DOOR",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "BRONZE",
+          "startRow": 6,
+          "startCol": 8,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "LYNX",
+          "startRow": 8,
+          "startCol": 4,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "CAGE",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 359,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "SKY",
+        "FROG",
+        "SUN",
+        "BELT",
+        "FIRE",
+        "COMB"
+      ],
+      "grid": [
+        [
+          "X",
+          "I",
+          "E",
+          "A",
+          "H",
+          "F",
+          "B",
+          "B",
+          "H"
+        ],
+        [
+          "D",
+          "J",
+          "P",
+          "L",
+          "R",
+          "T",
+          "K",
+          "A",
+          "P"
+        ],
+        [
+          "V",
+          "Q",
+          "Z",
+          "O",
+          "S",
+          "B",
+          "D",
+          "W",
+          "K"
+        ],
+        [
+          "F",
+          "S",
+          "G",
+          "Q",
+          "K",
+          "T",
+          "E",
+          "Q",
+          "J"
+        ],
+        [
+          "C",
+          "A",
+          "C",
+          "N",
+          "Y",
+          "U",
+          "F",
+          "X",
+          "V"
+        ],
+        [
+          "R",
+          "Y",
+          "U",
+          "B",
+          "I",
+          "I",
+          "W",
+          "B",
+          "A"
+        ],
+        [
+          "S",
+          "S",
+          "L",
+          "M",
+          "E",
+          "Z",
+          "O",
+          "M",
+          "L"
+        ],
+        [
+          "E",
+          "V",
+          "U",
+          "T",
+          "R",
+          "L",
+          "Q",
+          "O",
+          "G"
+        ],
+        [
+          "F",
+          "I",
+          "R",
+          "E",
+          "A",
+          "X",
+          "T",
+          "C",
+          "V"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SKY",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "FROG",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "SUN",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BELT",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "FIRE",
+          "startRow": 8,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "COMB",
+          "startRow": 8,
+          "startCol": 7,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 360,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "PIPE",
+        "NAIL",
+        "NEST",
+        "STEM",
+        "SEED",
+        "JUICE"
+      ],
+      "grid": [
+        [
+          "Y",
+          "Q",
+          "A",
+          "D",
+          "J",
+          "A",
+          "A",
+          "B",
+          "T"
+        ],
+        [
+          "P",
+          "Z",
+          "E",
+          "W",
+          "E",
+          "R",
+          "Q",
+          "R",
+          "G"
+        ],
+        [
+          "E",
+          "T",
+          "X",
+          "S",
+          "L",
+          "E",
+          "D",
+          "P",
+          "Y"
+        ],
+        [
+          "I",
+          "P",
+          "Z",
+          "L",
+          "N",
+          "L",
+          "S",
+          "S",
+          "B"
+        ],
+        [
+          "W",
+          "V",
+          "I",
+          "U",
+          "G",
+          "E",
+          "G",
+          "H",
+          "Y"
+        ],
+        [
+          "Q",
+          "N",
+          "C",
+          "P",
+          "S",
+          "P",
+          "S",
+          "P",
+          "E"
+        ],
+        [
+          "U",
+          "V",
+          "A",
+          "A",
+          "T",
+          "D",
+          "N",
+          "T",
+          "R"
+        ],
+        [
+          "Q",
+          "J",
+          "U",
+          "I",
+          "C",
+          "E",
+          "X",
+          "G",
+          "F"
+        ],
+        [
+          "S",
+          "T",
+          "E",
+          "M",
+          "L",
+          "C",
+          "G",
+          "E",
+          "S"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PIPE",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "NAIL",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "NEST",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "STEM",
+          "startRow": 8,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "SEED",
+          "startRow": 3,
+          "startCol": 6,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "JUICE",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 361,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "SALT",
+        "CORK",
+        "ROCK",
+        "YAK",
+        "PUMP",
+        "MILL"
+      ],
+      "grid": [
+        [
+          "O",
+          "K",
+          "K",
+          "R",
+          "O",
+          "C",
+          "S",
+          "V",
+          "H"
+        ],
+        [
+          "U",
+          "C",
+          "W",
+          "K",
+          "K",
+          "Y",
+          "J",
+          "W",
+          "G"
+        ],
+        [
+          "R",
+          "O",
+          "Y",
+          "J",
+          "I",
+          "C",
+          "U",
+          "R",
+          "R"
+        ],
+        [
+          "Z",
+          "R",
+          "G",
+          "P",
+          "K",
+          "N",
+          "K",
+          "W",
+          "T"
+        ],
+        [
+          "D",
+          "T",
+          "Y",
+          "D",
+          "S",
+          "M",
+          "C",
+          "L",
+          "O"
+        ],
+        [
+          "I",
+          "E",
+          "X",
+          "M",
+          "N",
+          "P",
+          "A",
+          "W",
+          "P"
+        ],
+        [
+          "Z",
+          "Y",
+          "A",
+          "K",
+          "I",
+          "S",
+          "U",
+          "E",
+          "W"
+        ],
+        [
+          "Y",
+          "A",
+          "R",
+          "R",
+          "M",
+          "L",
+          "F",
+          "M",
+          "H"
+        ],
+        [
+          "F",
+          "W",
+          "G",
+          "D",
+          "F",
+          "Z",
+          "L",
+          "H",
+          "P"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SALT",
+          "startRow": 6,
+          "startCol": 5,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CORK",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "ROCK",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "BT"
+        },
+        {
+          "word": "YAK",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "PUMP",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "MILL",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 362,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "BEACH",
+        "WREN",
+        "BELL",
+        "MUG",
+        "HARP",
+        "PUMA"
+      ],
+      "grid": [
+        [
+          "S",
+          "N",
+          "V",
+          "O",
+          "P",
+          "V",
+          "Z",
+          "S",
+          "V"
+        ],
+        [
+          "E",
+          "Z",
+          "S",
+          "V",
+          "R",
+          "G",
+          "V",
+          "M",
+          "Y"
+        ],
+        [
+          "K",
+          "H",
+          "U",
+          "S",
+          "A",
+          "D",
+          "D",
+          "V",
+          "Y"
+        ],
+        [
+          "S",
+          "A",
+          "M",
+          "O",
+          "H",
+          "N",
+          "Y",
+          "G",
+          "H"
+        ],
+        [
+          "X",
+          "M",
+          "R",
+          "F",
+          "M",
+          "W",
+          "U",
+          "C",
+          "M"
+        ],
+        [
+          "I",
+          "U",
+          "B",
+          "E",
+          "L",
+          "L",
+          "A",
+          "K",
+          "A"
+        ],
+        [
+          "D",
+          "P",
+          "O",
+          "C",
+          "F",
+          "E",
+          "B",
+          "E",
+          "M"
+        ],
+        [
+          "M",
+          "U",
+          "G",
+          "G",
+          "B",
+          "C",
+          "R",
+          "H",
+          "H"
+        ],
+        [
+          "K",
+          "N",
+          "E",
+          "R",
+          "W",
+          "A",
+          "U",
+          "A",
+          "S"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BEACH",
+          "startRow": 7,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "WREN",
+          "startRow": 8,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "BELL",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "MUG",
+          "startRow": 7,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "HARP",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "BT"
+        },
+        {
+          "word": "PUMA",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 363,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "PIPE",
+        "LEAF",
+        "ELK",
+        "MILK",
+        "WORM",
+        "FERN",
+        "ELM"
+      ],
+      "grid": [
+        [
+          "Z",
+          "Q",
+          "N",
+          "R",
+          "E",
+          "F",
+          "C",
+          "T",
+          "E"
+        ],
+        [
+          "T",
+          "E",
+          "W",
+          "Z",
+          "X",
+          "O",
+          "A",
+          "M",
+          "M"
+        ],
+        [
+          "P",
+          "D",
+          "X",
+          "W",
+          "U",
+          "R",
+          "I",
+          "L",
+          "Z"
+        ],
+        [
+          "U",
+          "G",
+          "Q",
+          "O",
+          "P",
+          "L",
+          "E",
+          "F",
+          "A"
+        ],
+        [
+          "T",
+          "E",
+          "V",
+          "R",
+          "K",
+          "E",
+          "R",
+          "J",
+          "U"
+        ],
+        [
+          "S",
+          "P",
+          "L",
+          "M",
+          "L",
+          "L",
+          "W",
+          "Y",
+          "U"
+        ],
+        [
+          "T",
+          "I",
+          "G",
+          "E",
+          "V",
+          "K",
+          "D",
+          "M",
+          "O"
+        ],
+        [
+          "Y",
+          "P",
+          "A",
+          "G",
+          "G",
+          "X",
+          "R",
+          "B",
+          "J"
+        ],
+        [
+          "K",
+          "F",
+          "G",
+          "R",
+          "X",
+          "S",
+          "E",
+          "K",
+          "P"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PIPE",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "BT"
+        },
+        {
+          "word": "LEAF",
+          "startRow": 5,
+          "startCol": 4,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "ELK",
+          "startRow": 4,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "MILK",
+          "startRow": 1,
+          "startCol": 7,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "WORM",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "FERN",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "ELM",
+          "startRow": 3,
+          "startCol": 6,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 364,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "LYNX",
+        "JUICE",
+        "PLUM",
+        "RUG",
+        "LAMP",
+        "GLUE",
+        "HOOK"
+      ],
+      "grid": [
+        [
+          "G",
+          "O",
+          "U",
+          "A",
+          "J",
+          "T",
+          "H",
+          "F",
+          "H"
+        ],
+        [
+          "L",
+          "J",
+          "P",
+          "M",
+          "A",
+          "L",
+          "O",
+          "R",
+          "A"
+        ],
+        [
+          "W",
+          "H",
+          "S",
+          "N",
+          "P",
+          "Q",
+          "L",
+          "V",
+          "M"
+        ],
+        [
+          "V",
+          "P",
+          "E",
+          "U",
+          "L",
+          "G",
+          "Z",
+          "A",
+          "J"
+        ],
+        [
+          "N",
+          "C",
+          "L",
+          "E",
+          "C",
+          "I",
+          "U",
+          "J",
+          "L"
+        ],
+        [
+          "A",
+          "W",
+          "G",
+          "U",
+          "K",
+          "L",
+          "P",
+          "K",
+          "U"
+        ],
+        [
+          "U",
+          "U",
+          "M",
+          "O",
+          "M",
+          "U",
+          "Y",
+          "L",
+          "X"
+        ],
+        [
+          "R",
+          "D",
+          "O",
+          "I",
+          "F",
+          "A",
+          "S",
+          "N",
+          "A"
+        ],
+        [
+          "H",
+          "H",
+          "X",
+          "O",
+          "N",
+          "V",
+          "J",
+          "T",
+          "X"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "LYNX",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "JUICE",
+          "startRow": 4,
+          "startCol": 7,
+          "direction": "RL"
+        },
+        {
+          "word": "PLUM",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "RUG",
+          "startRow": 7,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "LAMP",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "GLUE",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "HOOK",
+          "startRow": 8,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 365,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "BANANA",
+        "DISH",
+        "PURPLE",
+        "WIND",
+        "PINE"
+      ],
+      "grid": [
+        [
+          "F",
+          "A",
+          "N",
+          "A",
+          "N",
+          "A",
+          "B",
+          "J",
+          "W"
+        ],
+        [
+          "B",
+          "M",
+          "P",
+          "R",
+          "N",
+          "D",
+          "F",
+          "I",
+          "C"
+        ],
+        [
+          "S",
+          "W",
+          "P",
+          "R",
+          "F",
+          "D",
+          "N",
+          "F",
+          "G"
+        ],
+        [
+          "C",
+          "E",
+          "N",
+          "P",
+          "V",
+          "D",
+          "I",
+          "B",
+          "M"
+        ],
+        [
+          "Q",
+          "L",
+          "H",
+          "G",
+          "E",
+          "Z",
+          "Z",
+          "S",
+          "P"
+        ],
+        [
+          "D",
+          "P",
+          "W",
+          "P",
+          "N",
+          "U",
+          "C",
+          "I",
+          "H"
+        ],
+        [
+          "D",
+          "R",
+          "E",
+          "I",
+          "A",
+          "E",
+          "N",
+          "T",
+          "V"
+        ],
+        [
+          "N",
+          "U",
+          "N",
+          "K",
+          "V",
+          "E",
+          "U",
+          "C",
+          "Y"
+        ],
+        [
+          "V",
+          "P",
+          "W",
+          "T",
+          "V",
+          "R",
+          "R",
+          "G",
+          "S"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BANANA",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "DISH",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "PURPLE",
+          "startRow": 8,
+          "startCol": 1,
+          "direction": "BT"
+        },
+        {
+          "word": "WIND",
+          "startRow": 0,
+          "startCol": 8,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "PINE",
+          "startRow": 4,
+          "startCol": 8,
+          "direction": "DIAG_DOWN_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 366,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "DAWN",
+        "FOREST",
+        "BEE",
+        "GALAXIES",
+        "WATER"
+      ],
+      "grid": [
+        [
+          "C",
+          "F",
+          "O",
+          "R",
+          "E",
+          "S",
+          "T",
+          "A",
+          "S"
+        ],
+        [
+          "H",
+          "T",
+          "Q",
+          "X",
+          "W",
+          "N",
+          "E",
+          "R",
+          "E"
+        ],
+        [
+          "B",
+          "G",
+          "Z",
+          "L",
+          "H",
+          "C",
+          "E",
+          "O",
+          "I"
+        ],
+        [
+          "I",
+          "M",
+          "E",
+          "G",
+          "E",
+          "T",
+          "I",
+          "E",
+          "X"
+        ],
+        [
+          "F",
+          "D",
+          "R",
+          "O",
+          "A",
+          "O",
+          "R",
+          "K",
+          "A"
+        ],
+        [
+          "K",
+          "C",
+          "E",
+          "W",
+          "B",
+          "D",
+          "Z",
+          "O",
+          "L"
+        ],
+        [
+          "J",
+          "E",
+          "G",
+          "K",
+          "R",
+          "R",
+          "A",
+          "F",
+          "A"
+        ],
+        [
+          "B",
+          "G",
+          "I",
+          "O",
+          "R",
+          "D",
+          "R",
+          "W",
+          "G"
+        ],
+        [
+          "R",
+          "P",
+          "J",
+          "E",
+          "U",
+          "H",
+          "P",
+          "U",
+          "N"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "DAWN",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "FOREST",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "BEE",
+          "startRow": 7,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GALAXIES",
+          "startRow": 7,
+          "startCol": 8,
+          "direction": "BT"
+        },
+        {
+          "word": "WATER",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 367,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "EEL",
+        "RING",
+        "MUD",
+        "SALT",
+        "BED",
+        "SHOE"
+      ],
+      "grid": [
+        [
+          "Y",
+          "V",
+          "U",
+          "N",
+          "S",
+          "D",
+          "H",
+          "W",
+          "C"
+        ],
+        [
+          "E",
+          "G",
+          "Q",
+          "N",
+          "U",
+          "H",
+          "K",
+          "N",
+          "Q"
+        ],
+        [
+          "R",
+          "Q",
+          "O",
+          "M",
+          "K",
+          "B",
+          "O",
+          "T",
+          "U"
+        ],
+        [
+          "N",
+          "Q",
+          "D",
+          "V",
+          "T",
+          "B",
+          "E",
+          "E",
+          "P"
+        ],
+        [
+          "L",
+          "U",
+          "J",
+          "L",
+          "B",
+          "O",
+          "C",
+          "D",
+          "N"
+        ],
+        [
+          "E",
+          "U",
+          "G",
+          "V",
+          "O",
+          "V",
+          "L",
+          "K",
+          "U"
+        ],
+        [
+          "E",
+          "A",
+          "N",
+          "J",
+          "G",
+          "U",
+          "T",
+          "Y",
+          "F"
+        ],
+        [
+          "Y",
+          "X",
+          "I",
+          "T",
+          "U",
+          "A",
+          "M",
+          "J",
+          "S"
+        ],
+        [
+          "S",
+          "J",
+          "R",
+          "Q",
+          "T",
+          "L",
+          "A",
+          "S",
+          "C"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "EEL",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "RING",
+          "startRow": 8,
+          "startCol": 2,
+          "direction": "BT"
+        },
+        {
+          "word": "MUD",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SALT",
+          "startRow": 8,
+          "startCol": 7,
+          "direction": "RL"
+        },
+        {
+          "word": "BED",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "SHOE",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 368,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "IVY",
+        "NAIL",
+        "CRAB",
+        "SOFA",
+        "BOOK"
+      ],
+      "grid": [
+        [
+          "Q",
+          "G",
+          "K",
+          "B",
+          "Q",
+          "M",
+          "G",
+          "I",
+          "D"
+        ],
+        [
+          "W",
+          "Y",
+          "H",
+          "O",
+          "T",
+          "P",
+          "P",
+          "U",
+          "B"
+        ],
+        [
+          "B",
+          "A",
+          "X",
+          "Y",
+          "O",
+          "J",
+          "R",
+          "J",
+          "M"
+        ],
+        [
+          "R",
+          "Q",
+          "V",
+          "S",
+          "K",
+          "B",
+          "G",
+          "F",
+          "N"
+        ],
+        [
+          "N",
+          "I",
+          "F",
+          "S",
+          "Y",
+          "S",
+          "B",
+          "Q",
+          "A"
+        ],
+        [
+          "V",
+          "F",
+          "E",
+          "Z",
+          "O",
+          "Y",
+          "A",
+          "B",
+          "I"
+        ],
+        [
+          "F",
+          "E",
+          "U",
+          "F",
+          "B",
+          "H",
+          "R",
+          "J",
+          "L"
+        ],
+        [
+          "G",
+          "O",
+          "A",
+          "F",
+          "R",
+          "N",
+          "C",
+          "C",
+          "P"
+        ],
+        [
+          "U",
+          "U",
+          "V",
+          "X",
+          "Q",
+          "N",
+          "X",
+          "M",
+          "F"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "IVY",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "NAIL",
+          "startRow": 3,
+          "startCol": 8,
+          "direction": "TB"
+        },
+        {
+          "word": "CRAB",
+          "startRow": 7,
+          "startCol": 6,
+          "direction": "BT"
+        },
+        {
+          "word": "SOFA",
+          "startRow": 4,
+          "startCol": 5,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "BOOK",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "DIAG_UP_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 369,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "FORK",
+        "SEA",
+        "PAN",
+        "SOCK",
+        "SWAN",
+        "RAIN"
+      ],
+      "grid": [
+        [
+          "N",
+          "F",
+          "A",
+          "I",
+          "I",
+          "B",
+          "Y",
+          "W",
+          "N"
+        ],
+        [
+          "U",
+          "V",
+          "U",
+          "F",
+          "A",
+          "G",
+          "M",
+          "A",
+          "S"
+        ],
+        [
+          "E",
+          "A",
+          "E",
+          "S",
+          "F",
+          "O",
+          "P",
+          "T",
+          "O"
+        ],
+        [
+          "U",
+          "Q",
+          "G",
+          "A",
+          "L",
+          "O",
+          "N",
+          "G",
+          "X"
+        ],
+        [
+          "D",
+          "Q",
+          "E",
+          "I",
+          "M",
+          "A",
+          "R",
+          "H",
+          "M"
+        ],
+        [
+          "K",
+          "K",
+          "A",
+          "N",
+          "W",
+          "S",
+          "O",
+          "K",
+          "C"
+        ],
+        [
+          "Q",
+          "K",
+          "I",
+          "S",
+          "Y",
+          "X",
+          "R",
+          "K",
+          "K"
+        ],
+        [
+          "O",
+          "A",
+          "F",
+          "G",
+          "E",
+          "K",
+          "C",
+          "O",
+          "S"
+        ],
+        [
+          "R",
+          "V",
+          "T",
+          "E",
+          "A",
+          "A",
+          "W",
+          "B",
+          "W"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "FORK",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "SEA",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "RL"
+        },
+        {
+          "word": "PAN",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SOCK",
+          "startRow": 7,
+          "startCol": 8,
+          "direction": "RL"
+        },
+        {
+          "word": "SWAN",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "RAIN",
+          "startRow": 8,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 370,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "PLAN",
+        "ROSE",
+        "BIRD",
+        "CORD",
+        "KITE"
+      ],
+      "grid": [
+        [
+          "U",
+          "U",
+          "Q",
+          "F",
+          "F",
+          "J",
+          "Y",
+          "H",
+          "O"
+        ],
+        [
+          "U",
+          "H",
+          "Z",
+          "D",
+          "C",
+          "G",
+          "B",
+          "Q",
+          "A"
+        ],
+        [
+          "S",
+          "Q",
+          "J",
+          "P",
+          "A",
+          "E",
+          "S",
+          "O",
+          "R"
+        ],
+        [
+          "R",
+          "C",
+          "I",
+          "L",
+          "G",
+          "F",
+          "E",
+          "O",
+          "G"
+        ],
+        [
+          "I",
+          "X",
+          "K",
+          "A",
+          "K",
+          "T",
+          "M",
+          "R",
+          "K"
+        ],
+        [
+          "R",
+          "X",
+          "R",
+          "N",
+          "I",
+          "A",
+          "C",
+          "L",
+          "G"
+        ],
+        [
+          "C",
+          "X",
+          "B",
+          "K",
+          "E",
+          "O",
+          "S",
+          "H",
+          "D"
+        ],
+        [
+          "K",
+          "W",
+          "W",
+          "T",
+          "R",
+          "O",
+          "N",
+          "K",
+          "Y"
+        ],
+        [
+          "S",
+          "M",
+          "Q",
+          "D",
+          "R",
+          "I",
+          "B",
+          "H",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PLAN",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "ROSE",
+          "startRow": 2,
+          "startCol": 8,
+          "direction": "RL"
+        },
+        {
+          "word": "BIRD",
+          "startRow": 8,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "CORD",
+          "startRow": 5,
+          "startCol": 6,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "KITE",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 371,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "MULE",
+        "APPLE",
+        "EMU",
+        "CRAB",
+        "CLOD"
+      ],
+      "grid": [
+        [
+          "R",
+          "A",
+          "B",
+          "C",
+          "O",
+          "P",
+          "R",
+          "Y",
+          "Q"
+        ],
+        [
+          "R",
+          "Z",
+          "P",
+          "H",
+          "Z",
+          "Y",
+          "Q",
+          "C",
+          "V"
+        ],
+        [
+          "I",
+          "J",
+          "B",
+          "P",
+          "M",
+          "I",
+          "E",
+          "R",
+          "L"
+        ],
+        [
+          "Z",
+          "O",
+          "D",
+          "J",
+          "L",
+          "U",
+          "X",
+          "A",
+          "V"
+        ],
+        [
+          "Y",
+          "I",
+          "L",
+          "O",
+          "R",
+          "E",
+          "L",
+          "B",
+          "H"
+        ],
+        [
+          "Q",
+          "T",
+          "B",
+          "Q",
+          "L",
+          "E",
+          "N",
+          "E",
+          "H"
+        ],
+        [
+          "V",
+          "G",
+          "K",
+          "C",
+          "W",
+          "C",
+          "U",
+          "A",
+          "D"
+        ],
+        [
+          "A",
+          "Y",
+          "A",
+          "A",
+          "A",
+          "P",
+          "M",
+          "K",
+          "R"
+        ],
+        [
+          "K",
+          "I",
+          "C",
+          "W",
+          "A",
+          "E",
+          "E",
+          "A",
+          "Q"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MULE",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "APPLE",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "EMU",
+          "startRow": 8,
+          "startCol": 6,
+          "direction": "BT"
+        },
+        {
+          "word": "CRAB",
+          "startRow": 1,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "CLOD",
+          "startRow": 6,
+          "startCol": 5,
+          "direction": "DIAG_UP_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 372,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "RAT",
+        "HONEY",
+        "DOOR",
+        "HAND",
+        "SAW"
+      ],
+      "grid": [
+        [
+          "P",
+          "A",
+          "R",
+          "Q",
+          "Y",
+          "E",
+          "N",
+          "O",
+          "H"
+        ],
+        [
+          "A",
+          "D",
+          "I",
+          "A",
+          "I",
+          "T",
+          "N",
+          "T",
+          "N"
+        ],
+        [
+          "G",
+          "F",
+          "Z",
+          "L",
+          "T",
+          "I",
+          "S",
+          "X",
+          "L"
+        ],
+        [
+          "J",
+          "R",
+          "U",
+          "U",
+          "O",
+          "A",
+          "D",
+          "A",
+          "W"
+        ],
+        [
+          "L",
+          "L",
+          "Y",
+          "A",
+          "W",
+          "R",
+          "T",
+          "V",
+          "N"
+        ],
+        [
+          "V",
+          "S",
+          "H",
+          "E",
+          "W",
+          "O",
+          "R",
+          "I",
+          "W"
+        ],
+        [
+          "J",
+          "B",
+          "B",
+          "A",
+          "E",
+          "O",
+          "A",
+          "T",
+          "P"
+        ],
+        [
+          "Y",
+          "D",
+          "C",
+          "N",
+          "N",
+          "D",
+          "F",
+          "R",
+          "J"
+        ],
+        [
+          "L",
+          "D",
+          "A",
+          "P",
+          "Y",
+          "D",
+          "A",
+          "N",
+          "C"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "RAT",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "HONEY",
+          "startRow": 0,
+          "startCol": 8,
+          "direction": "RL"
+        },
+        {
+          "word": "DOOR",
+          "startRow": 7,
+          "startCol": 5,
+          "direction": "BT"
+        },
+        {
+          "word": "HAND",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "SAW",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "DIAG_DOWN_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 373,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "BREAD",
+        "SHOE",
+        "VINE",
+        "DREAM",
+        "PLUM",
+        "FOX"
+      ],
+      "grid": [
+        [
+          "S",
+          "Z",
+          "G",
+          "B",
+          "S",
+          "H",
+          "U",
+          "F",
+          "Q"
+        ],
+        [
+          "H",
+          "O",
+          "E",
+          "I",
+          "D",
+          "S",
+          "I",
+          "M",
+          "F"
+        ],
+        [
+          "K",
+          "X",
+          "T",
+          "N",
+          "B",
+          "R",
+          "E",
+          "A",
+          "D"
+        ],
+        [
+          "K",
+          "Q",
+          "U",
+          "W",
+          "I",
+          "T",
+          "E",
+          "K",
+          "P"
+        ],
+        [
+          "Q",
+          "B",
+          "O",
+          "D",
+          "Y",
+          "V",
+          "F",
+          "A",
+          "B"
+        ],
+        [
+          "P",
+          "O",
+          "T",
+          "E",
+          "X",
+          "H",
+          "O",
+          "F",
+          "M"
+        ],
+        [
+          "T",
+          "X",
+          "O",
+          "R",
+          "I",
+          "G",
+          "X",
+          "X",
+          "Y"
+        ],
+        [
+          "V",
+          "H",
+          "R",
+          "P",
+          "L",
+          "U",
+          "M",
+          "N",
+          "Y"
+        ],
+        [
+          "S",
+          "U",
+          "S",
+          "O",
+          "X",
+          "A",
+          "X",
+          "D",
+          "X"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BREAD",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "SHOE",
+          "startRow": 8,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "VINE",
+          "startRow": 4,
+          "startCol": 5,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "DREAM",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "PLUM",
+          "startRow": 7,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "FOX",
+          "startRow": 4,
+          "startCol": 6,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 374,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "DOOR",
+        "PEAT",
+        "RAIN",
+        "FOG",
+        "HOOD",
+        "TIGER",
+        "ROCK"
+      ],
+      "grid": [
+        [
+          "F",
+          "P",
+          "Y",
+          "M",
+          "C",
+          "B",
+          "U",
+          "F",
+          "Q"
+        ],
+        [
+          "J",
+          "D",
+          "V",
+          "F",
+          "M",
+          "G",
+          "N",
+          "T",
+          "H"
+        ],
+        [
+          "P",
+          "N",
+          "X",
+          "B",
+          "P",
+          "I",
+          "I",
+          "E",
+          "F"
+        ],
+        [
+          "E",
+          "K",
+          "C",
+          "F",
+          "A",
+          "G",
+          "D",
+          "S",
+          "K"
+        ],
+        [
+          "A",
+          "O",
+          "J",
+          "R",
+          "E",
+          "D",
+          "O",
+          "O",
+          "R"
+        ],
+        [
+          "T",
+          "W",
+          "Z",
+          "R",
+          "F",
+          "O",
+          "O",
+          "G",
+          "Q"
+        ],
+        [
+          "Q",
+          "X",
+          "C",
+          "O",
+          "V",
+          "U",
+          "H",
+          "N",
+          "K"
+        ],
+        [
+          "R",
+          "J",
+          "G",
+          "I",
+          "R",
+          "J",
+          "M",
+          "B",
+          "T"
+        ],
+        [
+          "K",
+          "C",
+          "O",
+          "R",
+          "P",
+          "G",
+          "P",
+          "P",
+          "Y"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "DOOR",
+          "startRow": 4,
+          "startCol": 5,
+          "direction": "LR"
+        },
+        {
+          "word": "PEAT",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "RAIN",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "FOG",
+          "startRow": 5,
+          "startCol": 4,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "HOOD",
+          "startRow": 6,
+          "startCol": 6,
+          "direction": "BT"
+        },
+        {
+          "word": "TIGER",
+          "startRow": 1,
+          "startCol": 7,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "ROCK",
+          "startRow": 8,
+          "startCol": 3,
+          "direction": "RL"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 375,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "BLUE",
+        "TAP",
+        "FLOWER",
+        "BED",
+        "SILK",
+        "BALL"
+      ],
+      "grid": [
+        [
+          "L",
+          "A",
+          "F",
+          "C",
+          "Y",
+          "T",
+          "N",
+          "E",
+          "E"
+        ],
+        [
+          "X",
+          "H",
+          "X",
+          "L",
+          "E",
+          "Z",
+          "U",
+          "S",
+          "B"
+        ],
+        [
+          "Q",
+          "N",
+          "D",
+          "C",
+          "O",
+          "L",
+          "T",
+          "W",
+          "E"
+        ],
+        [
+          "T",
+          "W",
+          "K",
+          "Z",
+          "B",
+          "W",
+          "Y",
+          "Q",
+          "D"
+        ],
+        [
+          "E",
+          "X",
+          "Q",
+          "L",
+          "K",
+          "N",
+          "E",
+          "B",
+          "J"
+        ],
+        [
+          "E",
+          "N",
+          "D",
+          "V",
+          "I",
+          "W",
+          "J",
+          "R",
+          "W"
+        ],
+        [
+          "I",
+          "P",
+          "T",
+          "R",
+          "O",
+          "S",
+          "T",
+          "Q",
+          "E"
+        ],
+        [
+          "A",
+          "B",
+          "A",
+          "L",
+          "L",
+          "A",
+          "L",
+          "U",
+          "B"
+        ],
+        [
+          "T",
+          "H",
+          "A",
+          "U",
+          "P",
+          "R",
+          "R",
+          "B",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BLUE",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "TAP",
+          "startRow": 6,
+          "startCol": 6,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "FLOWER",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BED",
+          "startRow": 1,
+          "startCol": 8,
+          "direction": "TB"
+        },
+        {
+          "word": "SILK",
+          "startRow": 6,
+          "startCol": 5,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "BALL",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 376,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "NOTE",
+        "DEER",
+        "MANGO",
+        "BIRD",
+        "TEAL",
+        "GOLD"
+      ],
+      "grid": [
+        [
+          "M",
+          "B",
+          "K",
+          "K",
+          "G",
+          "T",
+          "B",
+          "B",
+          "H"
+        ],
+        [
+          "R",
+          "I",
+          "L",
+          "O",
+          "U",
+          "E",
+          "J",
+          "G",
+          "U"
+        ],
+        [
+          "B",
+          "R",
+          "L",
+          "F",
+          "M",
+          "A",
+          "T",
+          "M",
+          "X"
+        ],
+        [
+          "V",
+          "D",
+          "T",
+          "M",
+          "L",
+          "L",
+          "S",
+          "O",
+          "E"
+        ],
+        [
+          "M",
+          "T",
+          "R",
+          "I",
+          "A",
+          "O",
+          "W",
+          "L",
+          "N"
+        ],
+        [
+          "H",
+          "N",
+          "E",
+          "P",
+          "J",
+          "N",
+          "C",
+          "M",
+          "A"
+        ],
+        [
+          "F",
+          "M",
+          "E",
+          "X",
+          "P",
+          "Y",
+          "G",
+          "P",
+          "Y"
+        ],
+        [
+          "A",
+          "U",
+          "D",
+          "L",
+          "N",
+          "K",
+          "I",
+          "O",
+          "H"
+        ],
+        [
+          "K",
+          "L",
+          "H",
+          "F",
+          "R",
+          "C",
+          "C",
+          "I",
+          "S"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "NOTE",
+          "startRow": 4,
+          "startCol": 8,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "DEER",
+          "startRow": 7,
+          "startCol": 2,
+          "direction": "BT"
+        },
+        {
+          "word": "MANGO",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BIRD",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "TEAL",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "GOLD",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "DIAG_DOWN_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 377,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "HOSE",
+        "IBIS",
+        "WORD",
+        "RED",
+        "GALE",
+        "HAIL",
+        "TIGER"
+      ],
+      "grid": [
+        [
+          "Z",
+          "I",
+          "Z",
+          "Q",
+          "R",
+          "E",
+          "D",
+          "T",
+          "V"
+        ],
+        [
+          "D",
+          "H",
+          "T",
+          "C",
+          "L",
+          "Q",
+          "F",
+          "I",
+          "G"
+        ],
+        [
+          "D",
+          "W",
+          "A",
+          "I",
+          "U",
+          "D",
+          "J",
+          "Z",
+          "A"
+        ],
+        [
+          "Y",
+          "H",
+          "G",
+          "I",
+          "R",
+          "B",
+          "A",
+          "V",
+          "L"
+        ],
+        [
+          "R",
+          "T",
+          "O",
+          "O",
+          "L",
+          "L",
+          "F",
+          "P",
+          "E"
+        ],
+        [
+          "E",
+          "Z",
+          "W",
+          "C",
+          "T",
+          "I",
+          "G",
+          "E",
+          "R"
+        ],
+        [
+          "B",
+          "S",
+          "Y",
+          "W",
+          "U",
+          "N",
+          "B",
+          "M",
+          "G"
+        ],
+        [
+          "O",
+          "K",
+          "O",
+          "R",
+          "H",
+          "P",
+          "P",
+          "I",
+          "Q"
+        ],
+        [
+          "P",
+          "A",
+          "M",
+          "H",
+          "U",
+          "N",
+          "J",
+          "Z",
+          "S"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HOSE",
+          "startRow": 8,
+          "startCol": 3,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "IBIS",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "WORD",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "RED",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "GALE",
+          "startRow": 1,
+          "startCol": 8,
+          "direction": "TB"
+        },
+        {
+          "word": "HAIL",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "TIGER",
+          "startRow": 5,
+          "startCol": 4,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 378,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "KITE",
+        "SLUG",
+        "CART",
+        "BUCK",
+        "RUBY",
+        "PARK",
+        "PLAN"
+      ],
+      "grid": [
+        [
+          "A",
+          "F",
+          "R",
+          "S",
+          "W",
+          "Y",
+          "B",
+          "U",
+          "R"
+        ],
+        [
+          "X",
+          "D",
+          "K",
+          "M",
+          "L",
+          "B",
+          "B",
+          "C",
+          "A"
+        ],
+        [
+          "V",
+          "B",
+          "C",
+          "O",
+          "J",
+          "U",
+          "A",
+          "K",
+          "J"
+        ],
+        [
+          "C",
+          "R",
+          "U",
+          "W",
+          "F",
+          "R",
+          "G",
+          "L",
+          "B"
+        ],
+        [
+          "V",
+          "R",
+          "B",
+          "E",
+          "T",
+          "T",
+          "X",
+          "H",
+          "M"
+        ],
+        [
+          "P",
+          "B",
+          "I",
+          "E",
+          "P",
+          "C",
+          "R",
+          "D",
+          "X"
+        ],
+        [
+          "L",
+          "B",
+          "E",
+          "A",
+          "K",
+          "I",
+          "T",
+          "E",
+          "W"
+        ],
+        [
+          "A",
+          "P",
+          "R",
+          "B",
+          "X",
+          "E",
+          "Q",
+          "Z",
+          "V"
+        ],
+        [
+          "N",
+          "K",
+          "I",
+          "F",
+          "J",
+          "X",
+          "U",
+          "C",
+          "S"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "KITE",
+          "startRow": 6,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "SLUG",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "CART",
+          "startRow": 1,
+          "startCol": 7,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "BUCK",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "BT"
+        },
+        {
+          "word": "RUBY",
+          "startRow": 0,
+          "startCol": 8,
+          "direction": "RL"
+        },
+        {
+          "word": "PARK",
+          "startRow": 5,
+          "startCol": 4,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "PLAN",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 379,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "CROW",
+        "PANDA",
+        "HARE",
+        "GOWN",
+        "FLOWER"
+      ],
+      "grid": [
+        [
+          "O",
+          "W",
+          "Z",
+          "O",
+          "H",
+          "C",
+          "I",
+          "Z",
+          "J"
+        ],
+        [
+          "W",
+          "H",
+          "D",
+          "P",
+          "H",
+          "A",
+          "R",
+          "E",
+          "V"
+        ],
+        [
+          "Q",
+          "H",
+          "D",
+          "A",
+          "Q",
+          "K",
+          "M",
+          "O",
+          "F"
+        ],
+        [
+          "Z",
+          "G",
+          "E",
+          "O",
+          "Y",
+          "Y",
+          "I",
+          "L",
+          "W"
+        ],
+        [
+          "N",
+          "Q",
+          "T",
+          "D",
+          "U",
+          "E",
+          "O",
+          "K",
+          "T"
+        ],
+        [
+          "J",
+          "V",
+          "L",
+          "F",
+          "Z",
+          "W",
+          "I",
+          "X",
+          "N"
+        ],
+        [
+          "W",
+          "V",
+          "B",
+          "L",
+          "E",
+          "Z",
+          "Y",
+          "R",
+          "W"
+        ],
+        [
+          "X",
+          "X",
+          "I",
+          "R",
+          "W",
+          "G",
+          "S",
+          "U",
+          "O"
+        ],
+        [
+          "A",
+          "R",
+          "A",
+          "D",
+          "N",
+          "A",
+          "P",
+          "L",
+          "G"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CROW",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "PANDA",
+          "startRow": 8,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "HARE",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "GOWN",
+          "startRow": 8,
+          "startCol": 8,
+          "direction": "BT"
+        },
+        {
+          "word": "FLOWER",
+          "startRow": 2,
+          "startCol": 8,
+          "direction": "DIAG_DOWN_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 380,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "CARD",
+        "CRAB",
+        "GOLD",
+        "SWAN",
+        "CLAY"
+      ],
+      "grid": [
+        [
+          "U",
+          "P",
+          "N",
+          "X",
+          "V",
+          "E",
+          "L",
+          "G",
+          "P"
+        ],
+        [
+          "C",
+          "W",
+          "G",
+          "P",
+          "H",
+          "A",
+          "B",
+          "F",
+          "K"
+        ],
+        [
+          "B",
+          "L",
+          "F",
+          "C",
+          "A",
+          "R",
+          "D",
+          "P",
+          "E"
+        ],
+        [
+          "P",
+          "G",
+          "A",
+          "N",
+          "B",
+          "A",
+          "R",
+          "C",
+          "D"
+        ],
+        [
+          "Z",
+          "Q",
+          "O",
+          "Y",
+          "Z",
+          "S",
+          "U",
+          "V",
+          "I"
+        ],
+        [
+          "A",
+          "G",
+          "C",
+          "L",
+          "W",
+          "T",
+          "G",
+          "B",
+          "V"
+        ],
+        [
+          "K",
+          "K",
+          "B",
+          "A",
+          "D",
+          "E",
+          "T",
+          "I",
+          "I"
+        ],
+        [
+          "H",
+          "H",
+          "N",
+          "X",
+          "D",
+          "W",
+          "M",
+          "R",
+          "Z"
+        ],
+        [
+          "J",
+          "W",
+          "F",
+          "F",
+          "W",
+          "A",
+          "D",
+          "D",
+          "O"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CARD",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "CRAB",
+          "startRow": 3,
+          "startCol": 7,
+          "direction": "RL"
+        },
+        {
+          "word": "GOLD",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "SWAN",
+          "startRow": 4,
+          "startCol": 5,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "CLAY",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 381,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "FORK",
+        "ROBIN",
+        "MINT",
+        "BULL",
+        "MOLE"
+      ],
+      "grid": [
+        [
+          "E",
+          "F",
+          "V",
+          "N",
+          "C",
+          "Z",
+          "F",
+          "K",
+          "G"
+        ],
+        [
+          "L",
+          "B",
+          "Y",
+          "L",
+          "M",
+          "N",
+          "H",
+          "T",
+          "U"
+        ],
+        [
+          "O",
+          "B",
+          "U",
+          "L",
+          "L",
+          "Q",
+          "X",
+          "F",
+          "F"
+        ],
+        [
+          "M",
+          "I",
+          "L",
+          "Y",
+          "X",
+          "C",
+          "W",
+          "I",
+          "O"
+        ],
+        [
+          "I",
+          "E",
+          "H",
+          "I",
+          "A",
+          "C",
+          "Z",
+          "R",
+          "E"
+        ],
+        [
+          "N",
+          "Q",
+          "K",
+          "I",
+          "O",
+          "U",
+          "K",
+          "O",
+          "G"
+        ],
+        [
+          "T",
+          "R",
+          "D",
+          "F",
+          "K",
+          "R",
+          "I",
+          "B",
+          "E"
+        ],
+        [
+          "K",
+          "B",
+          "M",
+          "W",
+          "O",
+          "U",
+          "T",
+          "I",
+          "C"
+        ],
+        [
+          "Q",
+          "Z",
+          "S",
+          "F",
+          "Z",
+          "V",
+          "Z",
+          "N",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "FORK",
+          "startRow": 8,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "ROBIN",
+          "startRow": 4,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "MINT",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "BULL",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "MOLE",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 382,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "BELT",
+        "MAGIC",
+        "PAGE",
+        "SQUID",
+        "GRID",
+        "DOOR",
+        "HARP"
+      ],
+      "grid": [
+        [
+          "K",
+          "I",
+          "C",
+          "Q",
+          "M",
+          "I",
+          "T",
+          "Q",
+          "G"
+        ],
+        [
+          "D",
+          "N",
+          "D",
+          "C",
+          "T",
+          "S",
+          "U",
+          "D",
+          "A"
+        ],
+        [
+          "X",
+          "E",
+          "I",
+          "T",
+          "L",
+          "D",
+          "Y",
+          "O",
+          "D"
+        ],
+        [
+          "X",
+          "I",
+          "U",
+          "G",
+          "E",
+          "M",
+          "I",
+          "O",
+          "R"
+        ],
+        [
+          "G",
+          "X",
+          "Q",
+          "U",
+          "B",
+          "X",
+          "P",
+          "R",
+          "H"
+        ],
+        [
+          "I",
+          "P",
+          "S",
+          "D",
+          "V",
+          "O",
+          "M",
+          "A",
+          "G"
+        ],
+        [
+          "S",
+          "A",
+          "B",
+          "T",
+          "H",
+          "C",
+          "R",
+          "E",
+          "Q"
+        ],
+        [
+          "V",
+          "G",
+          "N",
+          "V",
+          "K",
+          "P",
+          "S",
+          "C",
+          "J"
+        ],
+        [
+          "U",
+          "E",
+          "P",
+          "I",
+          "M",
+          "A",
+          "G",
+          "I",
+          "C"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BELT",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "BT"
+        },
+        {
+          "word": "MAGIC",
+          "startRow": 8,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "PAGE",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "SQUID",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "BT"
+        },
+        {
+          "word": "GRID",
+          "startRow": 5,
+          "startCol": 8,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "DOOR",
+          "startRow": 1,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "HARP",
+          "startRow": 4,
+          "startCol": 8,
+          "direction": "DIAG_DOWN_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 383,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "PUMA",
+        "CRAB",
+        "MOLE",
+        "WREN",
+        "KOI",
+        "ELM",
+        "CAT"
+      ],
+      "grid": [
+        [
+          "Y",
+          "J",
+          "C",
+          "O",
+          "E",
+          "C",
+          "T",
+          "E",
+          "Y"
+        ],
+        [
+          "I",
+          "D",
+          "Z",
+          "B",
+          "W",
+          "L",
+          "H",
+          "G",
+          "S"
+        ],
+        [
+          "P",
+          "W",
+          "T",
+          "A",
+          "N",
+          "M",
+          "O",
+          "L",
+          "X"
+        ],
+        [
+          "U",
+          "C",
+          "S",
+          "R",
+          "S",
+          "E",
+          "R",
+          "M",
+          "T"
+        ],
+        [
+          "M",
+          "I",
+          "S",
+          "C",
+          "T",
+          "Z",
+          "R",
+          "C",
+          "I"
+        ],
+        [
+          "A",
+          "A",
+          "P",
+          "M",
+          "A",
+          "Y",
+          "A",
+          "W",
+          "S"
+        ],
+        [
+          "G",
+          "X",
+          "T",
+          "L",
+          "X",
+          "J",
+          "K",
+          "O",
+          "I"
+        ],
+        [
+          "I",
+          "E",
+          "A",
+          "E",
+          "R",
+          "M",
+          "B",
+          "T",
+          "J"
+        ],
+        [
+          "D",
+          "W",
+          "C",
+          "A",
+          "K",
+          "B",
+          "H",
+          "B",
+          "Y"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PUMA",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "CRAB",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "BT"
+        },
+        {
+          "word": "MOLE",
+          "startRow": 3,
+          "startCol": 7,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "WREN",
+          "startRow": 5,
+          "startCol": 7,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "KOI",
+          "startRow": 6,
+          "startCol": 6,
+          "direction": "LR"
+        },
+        {
+          "word": "ELM",
+          "startRow": 7,
+          "startCol": 3,
+          "direction": "BT"
+        },
+        {
+          "word": "CAT",
+          "startRow": 8,
+          "startCol": 2,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 384,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "CANDY",
+        "HAWK",
+        "POOL",
+        "HALL",
+        "KEY"
+      ],
+      "grid": [
+        [
+          "C",
+          "R",
+          "J",
+          "T",
+          "P",
+          "L",
+          "Q",
+          "T",
+          "P"
+        ],
+        [
+          "T",
+          "Z",
+          "O",
+          "Y",
+          "L",
+          "Q",
+          "S",
+          "R",
+          "X"
+        ],
+        [
+          "V",
+          "Q",
+          "O",
+          "A",
+          "G",
+          "Y",
+          "V",
+          "M",
+          "D"
+        ],
+        [
+          "V",
+          "Y",
+          "H",
+          "Y",
+          "A",
+          "N",
+          "E",
+          "F",
+          "D"
+        ],
+        [
+          "O",
+          "D",
+          "Q",
+          "M",
+          "Q",
+          "H",
+          "L",
+          "K",
+          "U"
+        ],
+        [
+          "H",
+          "N",
+          "N",
+          "H",
+          "H",
+          "O",
+          "C",
+          "S",
+          "J"
+        ],
+        [
+          "R",
+          "A",
+          "P",
+          "M",
+          "O",
+          "A",
+          "N",
+          "F",
+          "Y"
+        ],
+        [
+          "J",
+          "C",
+          "O",
+          "P",
+          "M",
+          "H",
+          "W",
+          "A",
+          "I"
+        ],
+        [
+          "P",
+          "U",
+          "G",
+          "G",
+          "Q",
+          "R",
+          "O",
+          "K",
+          "Y"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CANDY",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "BT"
+        },
+        {
+          "word": "HAWK",
+          "startRow": 5,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "POOL",
+          "startRow": 7,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "HALL",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "KEY",
+          "startRow": 4,
+          "startCol": 7,
+          "direction": "DIAG_UP_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 385,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "HORN",
+        "BOX",
+        "GALE",
+        "FAWN",
+        "RAIN",
+        "LAKE"
+      ],
+      "grid": [
+        [
+          "F",
+          "F",
+          "Y",
+          "E",
+          "D",
+          "A",
+          "C",
+          "Q",
+          "Q"
+        ],
+        [
+          "J",
+          "L",
+          "B",
+          "Z",
+          "L",
+          "N",
+          "P",
+          "V",
+          "T"
+        ],
+        [
+          "Z",
+          "Y",
+          "A",
+          "N",
+          "W",
+          "A",
+          "F",
+          "X",
+          "D"
+        ],
+        [
+          "A",
+          "M",
+          "U",
+          "K",
+          "I",
+          "B",
+          "G",
+          "D",
+          "Y"
+        ],
+        [
+          "J",
+          "N",
+          "A",
+          "S",
+          "E",
+          "T",
+          "R",
+          "Y",
+          "S"
+        ],
+        [
+          "X",
+          "R",
+          "D",
+          "X",
+          "Z",
+          "P",
+          "C",
+          "W",
+          "R"
+        ],
+        [
+          "P",
+          "O",
+          "D",
+          "O",
+          "Z",
+          "G",
+          "S",
+          "A",
+          "P"
+        ],
+        [
+          "G",
+          "H",
+          "O",
+          "B",
+          "I",
+          "Y",
+          "I",
+          "I",
+          "B"
+        ],
+        [
+          "G",
+          "X",
+          "T",
+          "S",
+          "E",
+          "N",
+          "E",
+          "F",
+          "P"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HORN",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "BT"
+        },
+        {
+          "word": "BOX",
+          "startRow": 7,
+          "startCol": 3,
+          "direction": "BT"
+        },
+        {
+          "word": "GALE",
+          "startRow": 3,
+          "startCol": 6,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "FAWN",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "RAIN",
+          "startRow": 5,
+          "startCol": 8,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "LAKE",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 386,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "DEER",
+        "HAND",
+        "CARD",
+        "RUG",
+        "FAWN"
+      ],
+      "grid": [
+        [
+          "H",
+          "A",
+          "M",
+          "J",
+          "X",
+          "M",
+          "Q",
+          "A",
+          "X"
+        ],
+        [
+          "X",
+          "W",
+          "G",
+          "D",
+          "J",
+          "W",
+          "S",
+          "G",
+          "W"
+        ],
+        [
+          "X",
+          "F",
+          "X",
+          "X",
+          "R",
+          "Z",
+          "I",
+          "H",
+          "J"
+        ],
+        [
+          "E",
+          "D",
+          "D",
+          "S",
+          "A",
+          "A",
+          "A",
+          "N",
+          "F"
+        ],
+        [
+          "G",
+          "E",
+          "M",
+          "U",
+          "D",
+          "N",
+          "C",
+          "A",
+          "B"
+        ],
+        [
+          "H",
+          "E",
+          "X",
+          "C",
+          "D",
+          "O",
+          "W",
+          "C",
+          "B"
+        ],
+        [
+          "C",
+          "R",
+          "R",
+          "C",
+          "O",
+          "N",
+          "C",
+          "W",
+          "V"
+        ],
+        [
+          "I",
+          "E",
+          "G",
+          "U",
+          "T",
+          "J",
+          "I",
+          "Q",
+          "T"
+        ],
+        [
+          "U",
+          "R",
+          "V",
+          "Y",
+          "G",
+          "U",
+          "I",
+          "B",
+          "S"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "DEER",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "HAND",
+          "startRow": 2,
+          "startCol": 7,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "CARD",
+          "startRow": 4,
+          "startCol": 6,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "RUG",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "FAWN",
+          "startRow": 3,
+          "startCol": 8,
+          "direction": "DIAG_DOWN_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 387,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "ICE",
+        "ANT",
+        "CLOUDS",
+        "CAT",
+        "IRON"
+      ],
+      "grid": [
+        [
+          "J",
+          "V",
+          "M",
+          "P",
+          "X",
+          "V",
+          "J",
+          "D",
+          "C"
+        ],
+        [
+          "I",
+          "N",
+          "W",
+          "C",
+          "E",
+          "K",
+          "T",
+          "G",
+          "A"
+        ],
+        [
+          "C",
+          "I",
+          "C",
+          "Z",
+          "L",
+          "Q",
+          "T",
+          "I",
+          "Y"
+        ],
+        [
+          "D",
+          "A",
+          "W",
+          "A",
+          "N",
+          "O",
+          "R",
+          "N",
+          "C"
+        ],
+        [
+          "R",
+          "W",
+          "M",
+          "D",
+          "T",
+          "O",
+          "U",
+          "D",
+          "Q"
+        ],
+        [
+          "J",
+          "G",
+          "J",
+          "U",
+          "N",
+          "L",
+          "Q",
+          "D",
+          "Q"
+        ],
+        [
+          "C",
+          "G",
+          "Q",
+          "H",
+          "E",
+          "T",
+          "X",
+          "Q",
+          "S"
+        ],
+        [
+          "I",
+          "C",
+          "U",
+          "C",
+          "L",
+          "N",
+          "P",
+          "F",
+          "R"
+        ],
+        [
+          "S",
+          "W",
+          "I",
+          "B",
+          "R",
+          "A",
+          "T",
+          "X",
+          "H"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "ICE",
+          "startRow": 8,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "ANT",
+          "startRow": 8,
+          "startCol": 5,
+          "direction": "BT"
+        },
+        {
+          "word": "CLOUDS",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "CAT",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "IRON",
+          "startRow": 2,
+          "startCol": 7,
+          "direction": "DIAG_DOWN_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 388,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "MANGO",
+        "GOWN",
+        "MUD",
+        "WOOD",
+        "COIN"
+      ],
+      "grid": [
+        [
+          "D",
+          "A",
+          "S",
+          "O",
+          "W",
+          "X",
+          "J",
+          "A",
+          "V"
+        ],
+        [
+          "F",
+          "Z",
+          "F",
+          "O",
+          "A",
+          "N",
+          "L",
+          "J",
+          "G"
+        ],
+        [
+          "F",
+          "J",
+          "O",
+          "Q",
+          "A",
+          "O",
+          "E",
+          "K",
+          "W"
+        ],
+        [
+          "G",
+          "D",
+          "M",
+          "G",
+          "C",
+          "G",
+          "Q",
+          "H",
+          "I"
+        ],
+        [
+          "R",
+          "O",
+          "K",
+          "R",
+          "P",
+          "N",
+          "U",
+          "B",
+          "I"
+        ],
+        [
+          "N",
+          "C",
+          "W",
+          "C",
+          "L",
+          "A",
+          "D",
+          "G",
+          "K"
+        ],
+        [
+          "D",
+          "I",
+          "H",
+          "N",
+          "O",
+          "M",
+          "N",
+          "H",
+          "R"
+        ],
+        [
+          "J",
+          "U",
+          "O",
+          "A",
+          "J",
+          "D",
+          "O",
+          "S",
+          "T"
+        ],
+        [
+          "K",
+          "L",
+          "M",
+          "C",
+          "E",
+          "Q",
+          "G",
+          "T",
+          "Z"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MANGO",
+          "startRow": 6,
+          "startCol": 5,
+          "direction": "BT"
+        },
+        {
+          "word": "GOWN",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "MUD",
+          "startRow": 8,
+          "startCol": 2,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "WOOD",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "COIN",
+          "startRow": 8,
+          "startCol": 3,
+          "direction": "DIAG_UP_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 389,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "NEST",
+        "HARE",
+        "DOOR",
+        "PIG",
+        "GNU"
+      ],
+      "grid": [
+        [
+          "X",
+          "X",
+          "B",
+          "P",
+          "D",
+          "W",
+          "E",
+          "E",
+          "Y"
+        ],
+        [
+          "M",
+          "M",
+          "U",
+          "O",
+          "I",
+          "T",
+          "S",
+          "E",
+          "N"
+        ],
+        [
+          "W",
+          "N",
+          "O",
+          "Z",
+          "F",
+          "P",
+          "R",
+          "M",
+          "Z"
+        ],
+        [
+          "G",
+          "R",
+          "M",
+          "B",
+          "A",
+          "A",
+          "I",
+          "K",
+          "X"
+        ],
+        [
+          "C",
+          "T",
+          "O",
+          "Z",
+          "H",
+          "B",
+          "D",
+          "G",
+          "D"
+        ],
+        [
+          "A",
+          "N",
+          "O",
+          "N",
+          "A",
+          "I",
+          "V",
+          "X",
+          "K"
+        ],
+        [
+          "P",
+          "J",
+          "M",
+          "J",
+          "S",
+          "D",
+          "B",
+          "I",
+          "M"
+        ],
+        [
+          "P",
+          "W",
+          "U",
+          "I",
+          "J",
+          "N",
+          "S",
+          "P",
+          "S"
+        ],
+        [
+          "X",
+          "D",
+          "N",
+          "V",
+          "E",
+          "P",
+          "V",
+          "A",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "NEST",
+          "startRow": 1,
+          "startCol": 8,
+          "direction": "RL"
+        },
+        {
+          "word": "HARE",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "DOOR",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "PIG",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "GNU",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 390,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "SILVER",
+        "NOTE",
+        "PAN",
+        "CLOD",
+        "JUICE",
+        "CAKE",
+        "BRONZE"
+      ],
+      "grid": [
+        [
+          "Y",
+          "T",
+          "R",
+          "X",
+          "F",
+          "G",
+          "H",
+          "A",
+          "E"
+        ],
+        [
+          "H",
+          "F",
+          "W",
+          "U",
+          "Z",
+          "R",
+          "R",
+          "Q",
+          "B"
+        ],
+        [
+          "J",
+          "V",
+          "X",
+          "Z",
+          "N",
+          "E",
+          "E",
+          "F",
+          "R"
+        ],
+        [
+          "M",
+          "Z",
+          "F",
+          "A",
+          "V",
+          "O",
+          "Z",
+          "S",
+          "O"
+        ],
+        [
+          "J",
+          "N",
+          "P",
+          "L",
+          "W",
+          "U",
+          "T",
+          "K",
+          "N"
+        ],
+        [
+          "F",
+          "U",
+          "I",
+          "F",
+          "C",
+          "P",
+          "H",
+          "E",
+          "Z"
+        ],
+        [
+          "K",
+          "S",
+          "I",
+          "R",
+          "D",
+          "K",
+          "X",
+          "X",
+          "E"
+        ],
+        [
+          "D",
+          "O",
+          "L",
+          "C",
+          "Q",
+          "D",
+          "S",
+          "U",
+          "K"
+        ],
+        [
+          "H",
+          "W",
+          "M",
+          "I",
+          "E",
+          "C",
+          "A",
+          "K",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SILVER",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "NOTE",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "PAN",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CLOD",
+          "startRow": 7,
+          "startCol": 3,
+          "direction": "RL"
+        },
+        {
+          "word": "JUICE",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "CAKE",
+          "startRow": 8,
+          "startCol": 5,
+          "direction": "LR"
+        },
+        {
+          "word": "BRONZE",
+          "startRow": 1,
+          "startCol": 8,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 391,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "SWEET",
+        "OAK",
+        "MILL",
+        "DAWN",
+        "SOCK",
+        "NEST"
+      ],
+      "grid": [
+        [
+          "X",
+          "L",
+          "V",
+          "O",
+          "A",
+          "K",
+          "R",
+          "T",
+          "B"
+        ],
+        [
+          "K",
+          "C",
+          "O",
+          "S",
+          "G",
+          "B",
+          "Q",
+          "B",
+          "M"
+        ],
+        [
+          "B",
+          "D",
+          "T",
+          "T",
+          "E",
+          "N",
+          "J",
+          "I",
+          "R"
+        ],
+        [
+          "Y",
+          "L",
+          "I",
+          "E",
+          "Q",
+          "C",
+          "L",
+          "L",
+          "O"
+        ],
+        [
+          "Y",
+          "V",
+          "Y",
+          "N",
+          "E",
+          "L",
+          "P",
+          "J",
+          "V"
+        ],
+        [
+          "C",
+          "N",
+          "D",
+          "I",
+          "E",
+          "W",
+          "M",
+          "U",
+          "A"
+        ],
+        [
+          "N",
+          "L",
+          "V",
+          "A",
+          "S",
+          "S",
+          "S",
+          "K",
+          "B"
+        ],
+        [
+          "F",
+          "F",
+          "N",
+          "U",
+          "W",
+          "V",
+          "T",
+          "C",
+          "T"
+        ],
+        [
+          "N",
+          "T",
+          "G",
+          "Y",
+          "R",
+          "N",
+          "L",
+          "R",
+          "H"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SWEET",
+          "startRow": 6,
+          "startCol": 6,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "OAK",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "MILL",
+          "startRow": 1,
+          "startCol": 8,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "DAWN",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "SOCK",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "RL"
+        },
+        {
+          "word": "NEST",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 392,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "SEED",
+        "MUD",
+        "CARD",
+        "SQUID",
+        "CAGE",
+        "TIGER",
+        "CUP"
+      ],
+      "grid": [
+        [
+          "H",
+          "R",
+          "E",
+          "G",
+          "I",
+          "T",
+          "D",
+          "D",
+          "I"
+        ],
+        [
+          "U",
+          "R",
+          "G",
+          "Q",
+          "Y",
+          "B",
+          "U",
+          "I",
+          "M"
+        ],
+        [
+          "B",
+          "Y",
+          "C",
+          "N",
+          "S",
+          "H",
+          "M",
+          "U",
+          "I"
+        ],
+        [
+          "Y",
+          "O",
+          "P",
+          "O",
+          "A",
+          "E",
+          "U",
+          "Q",
+          "I"
+        ],
+        [
+          "V",
+          "I",
+          "M",
+          "J",
+          "P",
+          "C",
+          "N",
+          "S",
+          "A"
+        ],
+        [
+          "T",
+          "X",
+          "W",
+          "U",
+          "A",
+          "K",
+          "A",
+          "T",
+          "W"
+        ],
+        [
+          "Q",
+          "N",
+          "C",
+          "R",
+          "C",
+          "J",
+          "L",
+          "G",
+          "B"
+        ],
+        [
+          "Y",
+          "T",
+          "D",
+          "D",
+          "E",
+          "E",
+          "S",
+          "V",
+          "E"
+        ],
+        [
+          "A",
+          "I",
+          "F",
+          "U",
+          "K",
+          "O",
+          "E",
+          "J",
+          "L"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SEED",
+          "startRow": 7,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "MUD",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "BT"
+        },
+        {
+          "word": "CARD",
+          "startRow": 4,
+          "startCol": 5,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "SQUID",
+          "startRow": 4,
+          "startCol": 7,
+          "direction": "BT"
+        },
+        {
+          "word": "CAGE",
+          "startRow": 4,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "TIGER",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "CUP",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 393,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "LEMON",
+        "ROPE",
+        "CANDY",
+        "SAIL",
+        "HOOD",
+        "PLUM",
+        "ELM"
+      ],
+      "grid": [
+        [
+          "N",
+          "N",
+          "U",
+          "O",
+          "D",
+          "M",
+          "U",
+          "L",
+          "P"
+        ],
+        [
+          "K",
+          "O",
+          "E",
+          "X",
+          "B",
+          "P",
+          "N",
+          "R",
+          "E"
+        ],
+        [
+          "V",
+          "M",
+          "Y",
+          "L",
+          "H",
+          "O",
+          "O",
+          "D",
+          "T"
+        ],
+        [
+          "B",
+          "E",
+          "V",
+          "Z",
+          "M",
+          "X",
+          "X",
+          "G",
+          "W"
+        ],
+        [
+          "M",
+          "L",
+          "G",
+          "S",
+          "Y",
+          "E",
+          "P",
+          "O",
+          "R"
+        ],
+        [
+          "F",
+          "E",
+          "A",
+          "C",
+          "D",
+          "L",
+          "M",
+          "J",
+          "S"
+        ],
+        [
+          "F",
+          "I",
+          "D",
+          "D",
+          "N",
+          "C",
+          "L",
+          "T",
+          "O"
+        ],
+        [
+          "L",
+          "T",
+          "Y",
+          "Q",
+          "A",
+          "O",
+          "D",
+          "F",
+          "V"
+        ],
+        [
+          "O",
+          "P",
+          "V",
+          "J",
+          "C",
+          "K",
+          "K",
+          "A",
+          "U"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "LEMON",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "BT"
+        },
+        {
+          "word": "ROPE",
+          "startRow": 4,
+          "startCol": 8,
+          "direction": "RL"
+        },
+        {
+          "word": "CANDY",
+          "startRow": 8,
+          "startCol": 4,
+          "direction": "BT"
+        },
+        {
+          "word": "SAIL",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "HOOD",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "PLUM",
+          "startRow": 0,
+          "startCol": 8,
+          "direction": "RL"
+        },
+        {
+          "word": "ELM",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 394,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "MIST",
+        "PIZZA",
+        "OWL",
+        "CRAB",
+        "SUGAR",
+        "TIGER"
+      ],
+      "grid": [
+        [
+          "J",
+          "N",
+          "Q",
+          "C",
+          "R",
+          "A",
+          "G",
+          "U",
+          "S"
+        ],
+        [
+          "C",
+          "J",
+          "R",
+          "E",
+          "T",
+          "J",
+          "D",
+          "Z",
+          "V"
+        ],
+        [
+          "S",
+          "A",
+          "G",
+          "Z",
+          "S",
+          "H",
+          "S",
+          "N",
+          "T"
+        ],
+        [
+          "B",
+          "I",
+          "R",
+          "L",
+          "I",
+          "V",
+          "W",
+          "U",
+          "E"
+        ],
+        [
+          "T",
+          "R",
+          "I",
+          "A",
+          "M",
+          "P",
+          "W",
+          "A",
+          "H"
+        ],
+        [
+          "Z",
+          "Z",
+          "Q",
+          "I",
+          "B",
+          "O",
+          "Z",
+          "O",
+          "U"
+        ],
+        [
+          "M",
+          "T",
+          "B",
+          "Y",
+          "W",
+          "Z",
+          "W",
+          "Q",
+          "G"
+        ],
+        [
+          "I",
+          "M",
+          "S",
+          "C",
+          "I",
+          "M",
+          "V",
+          "L",
+          "B"
+        ],
+        [
+          "C",
+          "C",
+          "N",
+          "P",
+          "D",
+          "S",
+          "X",
+          "R",
+          "O"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MIST",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "BT"
+        },
+        {
+          "word": "PIZZA",
+          "startRow": 8,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "OWL",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "CRAB",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "SUGAR",
+          "startRow": 0,
+          "startCol": 8,
+          "direction": "RL"
+        },
+        {
+          "word": "TIGER",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 395,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "WATER",
+        "PONY",
+        "BLUE",
+        "RAIN",
+        "ZEBRA"
+      ],
+      "grid": [
+        [
+          "P",
+          "Z",
+          "E",
+          "R",
+          "P",
+          "W",
+          "Q",
+          "K",
+          "P"
+        ],
+        [
+          "B",
+          "S",
+          "E",
+          "O",
+          "E",
+          "Y",
+          "B",
+          "G",
+          "B"
+        ],
+        [
+          "B",
+          "M",
+          "N",
+          "B",
+          "H",
+          "T",
+          "N",
+          "E",
+          "V"
+        ],
+        [
+          "Y",
+          "Y",
+          "P",
+          "R",
+          "R",
+          "E",
+          "A",
+          "M",
+          "M"
+        ],
+        [
+          "X",
+          "L",
+          "R",
+          "W",
+          "D",
+          "A",
+          "G",
+          "W",
+          "R"
+        ],
+        [
+          "M",
+          "Z",
+          "E",
+          "C",
+          "C",
+          "O",
+          "V",
+          "A",
+          "C"
+        ],
+        [
+          "X",
+          "M",
+          "R",
+          "U",
+          "Y",
+          "H",
+          "I",
+          "D",
+          "P"
+        ],
+        [
+          "N",
+          "F",
+          "G",
+          "O",
+          "L",
+          "N",
+          "E",
+          "N",
+          "P"
+        ],
+        [
+          "X",
+          "B",
+          "S",
+          "F",
+          "S",
+          "B",
+          "S",
+          "W",
+          "J"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "WATER",
+          "startRow": 4,
+          "startCol": 7,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "PONY",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "BLUE",
+          "startRow": 8,
+          "startCol": 5,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "RAIN",
+          "startRow": 4,
+          "startCol": 8,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "ZEBRA",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 396,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "OWL",
+        "TUB",
+        "VALE",
+        "BEACH",
+        "BEAR",
+        "HAT"
+      ],
+      "grid": [
+        [
+          "T",
+          "Z",
+          "K",
+          "P",
+          "R",
+          "I",
+          "L",
+          "W",
+          "U"
+        ],
+        [
+          "O",
+          "Z",
+          "Q",
+          "K",
+          "A",
+          "V",
+          "Z",
+          "O",
+          "H"
+        ],
+        [
+          "M",
+          "Y",
+          "V",
+          "U",
+          "M",
+          "A",
+          "V",
+          "C",
+          "P"
+        ],
+        [
+          "B",
+          "F",
+          "R",
+          "E",
+          "K",
+          "L",
+          "A",
+          "K",
+          "D"
+        ],
+        [
+          "J",
+          "F",
+          "L",
+          "W",
+          "O",
+          "E",
+          "L",
+          "W",
+          "X"
+        ],
+        [
+          "V",
+          "K",
+          "T",
+          "U",
+          "B",
+          "G",
+          "P",
+          "I",
+          "H"
+        ],
+        [
+          "G",
+          "U",
+          "I",
+          "R",
+          "H",
+          "B",
+          "N",
+          "T",
+          "P"
+        ],
+        [
+          "B",
+          "O",
+          "B",
+          "A",
+          "D",
+          "V",
+          "O",
+          "H",
+          "C"
+        ],
+        [
+          "O",
+          "S",
+          "T",
+          "H",
+          "B",
+          "E",
+          "A",
+          "R",
+          "B"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "OWL",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "TUB",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "VALE",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "BEACH",
+          "startRow": 5,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BEAR",
+          "startRow": 8,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "HAT",
+          "startRow": 6,
+          "startCol": 4,
+          "direction": "DIAG_DOWN_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 397,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "ELK",
+        "CHEESE",
+        "WREN",
+        "OAK",
+        "BOX",
+        "PEAT",
+        "MIST"
+      ],
+      "grid": [
+        [
+          "C",
+          "V",
+          "T",
+          "X",
+          "K",
+          "S",
+          "X",
+          "K",
+          "P"
+        ],
+        [
+          "W",
+          "R",
+          "E",
+          "N",
+          "T",
+          "I",
+          "G",
+          "K",
+          "Y"
+        ],
+        [
+          "I",
+          "H",
+          "U",
+          "V",
+          "W",
+          "B",
+          "L",
+          "G",
+          "D"
+        ],
+        [
+          "O",
+          "B",
+          "S",
+          "Z",
+          "Q",
+          "E",
+          "O",
+          "C",
+          "D"
+        ],
+        [
+          "B",
+          "R",
+          "U",
+          "D",
+          "T",
+          "K",
+          "H",
+          "X",
+          "C"
+        ],
+        [
+          "P",
+          "X",
+          "S",
+          "S",
+          "S",
+          "E",
+          "Z",
+          "B",
+          "W"
+        ],
+        [
+          "B",
+          "E",
+          "I",
+          "S",
+          "E",
+          "W",
+          "O",
+          "L",
+          "L"
+        ],
+        [
+          "F",
+          "M",
+          "A",
+          "S",
+          "E",
+          "Z",
+          "A",
+          "T",
+          "L"
+        ],
+        [
+          "Q",
+          "B",
+          "E",
+          "T",
+          "K",
+          "E",
+          "K",
+          "J",
+          "X"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "ELK",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CHEESE",
+          "startRow": 3,
+          "startCol": 7,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "WREN",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "OAK",
+          "startRow": 6,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "BOX",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "PEAT",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "MIST",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 398,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "KOI",
+        "MOON",
+        "CART",
+        "CHERRY",
+        "SHIP",
+        "DESERT"
+      ],
+      "grid": [
+        [
+          "N",
+          "S",
+          "U",
+          "A",
+          "W",
+          "O",
+          "B",
+          "O",
+          "D"
+        ],
+        [
+          "D",
+          "O",
+          "H",
+          "T",
+          "R",
+          "A",
+          "C",
+          "L",
+          "C"
+        ],
+        [
+          "B",
+          "E",
+          "O",
+          "I",
+          "B",
+          "X",
+          "G",
+          "H",
+          "D"
+        ],
+        [
+          "L",
+          "L",
+          "S",
+          "M",
+          "P",
+          "G",
+          "E",
+          "U",
+          "W"
+        ],
+        [
+          "A",
+          "G",
+          "W",
+          "E",
+          "W",
+          "R",
+          "I",
+          "Z",
+          "X"
+        ],
+        [
+          "T",
+          "I",
+          "N",
+          "S",
+          "R",
+          "O",
+          "F",
+          "J",
+          "L"
+        ],
+        [
+          "G",
+          "E",
+          "A",
+          "Y",
+          "K",
+          "T",
+          "B",
+          "G",
+          "U"
+        ],
+        [
+          "V",
+          "U",
+          "T",
+          "R",
+          "I",
+          "N",
+          "M",
+          "Y",
+          "D"
+        ],
+        [
+          "V",
+          "L",
+          "I",
+          "D",
+          "C",
+          "F",
+          "U",
+          "Z",
+          "F"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "KOI",
+          "startRow": 6,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "MOON",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "CART",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "CHERRY",
+          "startRow": 1,
+          "startCol": 8,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "SHIP",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "DESERT",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 399,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "PURPLE",
+        "JADE",
+        "SOIL",
+        "GATE",
+        "HAIL",
+        "MAZE"
+      ],
+      "grid": [
+        [
+          "J",
+          "D",
+          "G",
+          "E",
+          "N",
+          "X",
+          "N",
+          "N",
+          "F"
+        ],
+        [
+          "W",
+          "A",
+          "Z",
+          "F",
+          "G",
+          "D",
+          "L",
+          "L",
+          "E"
+        ],
+        [
+          "A",
+          "A",
+          "D",
+          "K",
+          "O",
+          "P",
+          "D",
+          "I",
+          "I"
+        ],
+        [
+          "M",
+          "F",
+          "E",
+          "E",
+          "A",
+          "D",
+          "E",
+          "O",
+          "F"
+        ],
+        [
+          "G",
+          "K",
+          "X",
+          "F",
+          "A",
+          "L",
+          "L",
+          "S",
+          "J"
+        ],
+        [
+          "Y",
+          "A",
+          "H",
+          "V",
+          "P",
+          "Z",
+          "I",
+          "U",
+          "N"
+        ],
+        [
+          "Q",
+          "J",
+          "T",
+          "R",
+          "B",
+          "S",
+          "A",
+          "Y",
+          "B"
+        ],
+        [
+          "V",
+          "Q",
+          "U",
+          "E",
+          "O",
+          "Z",
+          "H",
+          "Q",
+          "D"
+        ],
+        [
+          "C",
+          "P",
+          "U",
+          "W",
+          "X",
+          "M",
+          "F",
+          "X",
+          "P"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PURPLE",
+          "startRow": 8,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "JADE",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "SOIL",
+          "startRow": 4,
+          "startCol": 7,
+          "direction": "BT"
+        },
+        {
+          "word": "GATE",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "HAIL",
+          "startRow": 7,
+          "startCol": 6,
+          "direction": "BT"
+        },
+        {
+          "word": "MAZE",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 400,
+      "world": "Candy Land",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "ROPE",
+        "COAT",
+        "DISH",
+        "GIFT",
+        "SWAN",
+        "FOREST"
+      ],
+      "grid": [
+        [
+          "I",
+          "Y",
+          "F",
+          "P",
+          "R",
+          "W",
+          "F",
+          "W",
+          "L"
+        ],
+        [
+          "C",
+          "J",
+          "T",
+          "S",
+          "E",
+          "R",
+          "O",
+          "F",
+          "R"
+        ],
+        [
+          "B",
+          "O",
+          "L",
+          "E",
+          "K",
+          "R",
+          "U",
+          "R",
+          "U"
+        ],
+        [
+          "G",
+          "X",
+          "A",
+          "F",
+          "T",
+          "G",
+          "O",
+          "M",
+          "J"
+        ],
+        [
+          "I",
+          "M",
+          "C",
+          "T",
+          "D",
+          "Z",
+          "F",
+          "P",
+          "H"
+        ],
+        [
+          "F",
+          "H",
+          "T",
+          "I",
+          "W",
+          "S",
+          "U",
+          "Y",
+          "E"
+        ],
+        [
+          "T",
+          "G",
+          "S",
+          "O",
+          "A",
+          "W",
+          "R",
+          "G",
+          "E"
+        ],
+        [
+          "Q",
+          "G",
+          "U",
+          "I",
+          "L",
+          "A",
+          "O",
+          "J",
+          "X"
+        ],
+        [
+          "F",
+          "T",
+          "I",
+          "R",
+          "D",
+          "N",
+          "Y",
+          "I",
+          "Y"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "ROPE",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "COAT",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "DISH",
+          "startRow": 8,
+          "startCol": 4,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "GIFT",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "SWAN",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "FOREST",
+          "startRow": 1,
+          "startCol": 7,
+          "direction": "RL"
+        }
+      ],
+      "timeLimit": 105
+    }
+  ]
+}

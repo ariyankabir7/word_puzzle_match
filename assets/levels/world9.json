@@ -1,0 +1,7720 @@
+{
+  "world": "Volcano Isle",
+  "worldNumber": 9,
+  "levels": [
+    {
+      "id": 401,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "NAIL",
+        "BREAD",
+        "HALL",
+        "GALAXIES",
+        "CORN",
+        "MUG",
+        "GRAY"
+      ],
+      "grid": [
+        [
+          "S",
+          "I",
+          "C",
+          "H",
+          "F",
+          "G",
+          "Q",
+          "I",
+          "G"
+        ],
+        [
+          "S",
+          "E",
+          "A",
+          "P",
+          "V",
+          "R",
+          "I",
+          "D",
+          "Q"
+        ],
+        [
+          "C",
+          "L",
+          "I",
+          "N",
+          "I",
+          "A",
+          "A",
+          "A",
+          "U"
+        ],
+        [
+          "L",
+          "L",
+          "R",
+          "X",
+          "M",
+          "Y",
+          "Q",
+          "E",
+          "S"
+        ],
+        [
+          "G",
+          "O",
+          "P",
+          "M",
+          "A",
+          "F",
+          "U",
+          "R",
+          "N"
+        ],
+        [
+          "C",
+          "T",
+          "E",
+          "R",
+          "N",
+          "L",
+          "D",
+          "B",
+          "X"
+        ],
+        [
+          "B",
+          "Y",
+          "C",
+          "A",
+          "Z",
+          "Z",
+          "A",
+          "N",
+          "D"
+        ],
+        [
+          "R",
+          "K",
+          "I",
+          "E",
+          "B",
+          "Y",
+          "K",
+          "G",
+          "O"
+        ],
+        [
+          "X",
+          "L",
+          "Z",
+          "D",
+          "M",
+          "U",
+          "G",
+          "N",
+          "X"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "NAIL",
+          "startRow": 5,
+          "startCol": 4,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "BREAD",
+          "startRow": 5,
+          "startCol": 7,
+          "direction": "BT"
+        },
+        {
+          "word": "HALL",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "GALAXIES",
+          "startRow": 7,
+          "startCol": 7,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "CORN",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "MUG",
+          "startRow": 8,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "GRAY",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 402,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "BELT",
+        "EMU",
+        "HOOK",
+        "PUMA",
+        "SLUG",
+        "JUICE"
+      ],
+      "grid": [
+        [
+          "C",
+          "F",
+          "P",
+          "U",
+          "U",
+          "P",
+          "S",
+          "Q",
+          "N"
+        ],
+        [
+          "V",
+          "Y",
+          "D",
+          "X",
+          "P",
+          "B",
+          "O",
+          "O",
+          "E"
+        ],
+        [
+          "N",
+          "H",
+          "F",
+          "U",
+          "E",
+          "R",
+          "J",
+          "K",
+          "V"
+        ],
+        [
+          "T",
+          "X",
+          "M",
+          "L",
+          "X",
+          "S",
+          "L",
+          "U",
+          "G"
+        ],
+        [
+          "K",
+          "A",
+          "T",
+          "U",
+          "E",
+          "U",
+          "M",
+          "P",
+          "U"
+        ],
+        [
+          "O",
+          "T",
+          "O",
+          "I",
+          "C",
+          "X",
+          "U",
+          "A",
+          "P"
+        ],
+        [
+          "O",
+          "B",
+          "P",
+          "X",
+          "I",
+          "P",
+          "W",
+          "D",
+          "U"
+        ],
+        [
+          "H",
+          "P",
+          "K",
+          "I",
+          "U",
+          "R",
+          "K",
+          "M",
+          "P"
+        ],
+        [
+          "V",
+          "W",
+          "G",
+          "X",
+          "J",
+          "A",
+          "E",
+          "X",
+          "V"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BELT",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "EMU",
+          "startRow": 8,
+          "startCol": 6,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "HOOK",
+          "startRow": 7,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "PUMA",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "SLUG",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "LR"
+        },
+        {
+          "word": "JUICE",
+          "startRow": 8,
+          "startCol": 4,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 403,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "GIFT",
+        "RAT",
+        "DOME",
+        "SAW",
+        "HARP",
+        "COIN"
+      ],
+      "grid": [
+        [
+          "O",
+          "H",
+          "C",
+          "I",
+          "U",
+          "C",
+          "G",
+          "E",
+          "F"
+        ],
+        [
+          "R",
+          "T",
+          "K",
+          "P",
+          "C",
+          "I",
+          "L",
+          "K",
+          "J"
+        ],
+        [
+          "W",
+          "D",
+          "O",
+          "F",
+          "F",
+          "A",
+          "I",
+          "P",
+          "P"
+        ],
+        [
+          "Q",
+          "A",
+          "W",
+          "T",
+          "D",
+          "O",
+          "M",
+          "E",
+          "D"
+        ],
+        [
+          "A",
+          "R",
+          "W",
+          "O",
+          "N",
+          "F",
+          "K",
+          "Y",
+          "N"
+        ],
+        [
+          "L",
+          "A",
+          "P",
+          "A",
+          "N",
+          "U",
+          "K",
+          "R",
+          "O"
+        ],
+        [
+          "X",
+          "T",
+          "J",
+          "R",
+          "S",
+          "I",
+          "W",
+          "V",
+          "G"
+        ],
+        [
+          "V",
+          "O",
+          "D",
+          "G",
+          "A",
+          "Q",
+          "O",
+          "E",
+          "L"
+        ],
+        [
+          "B",
+          "G",
+          "P",
+          "R",
+          "X",
+          "H",
+          "R",
+          "C",
+          "A"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "GIFT",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "RAT",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "DOME",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "SAW",
+          "startRow": 6,
+          "startCol": 4,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "HARP",
+          "startRow": 8,
+          "startCol": 5,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "COIN",
+          "startRow": 8,
+          "startCol": 7,
+          "direction": "DIAG_UP_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 404,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "MILK",
+        "RED",
+        "BEAR",
+        "SOCK",
+        "GNU"
+      ],
+      "grid": [
+        [
+          "K",
+          "E",
+          "Z",
+          "O",
+          "U",
+          "S",
+          "S",
+          "V",
+          "O"
+        ],
+        [
+          "Z",
+          "L",
+          "K",
+          "G",
+          "U",
+          "W",
+          "O",
+          "G",
+          "H"
+        ],
+        [
+          "D",
+          "M",
+          "I",
+          "C",
+          "V",
+          "R",
+          "C",
+          "M",
+          "D"
+        ],
+        [
+          "D",
+          "B",
+          "W",
+          "M",
+          "B",
+          "W",
+          "K",
+          "N",
+          "C"
+        ],
+        [
+          "H",
+          "G",
+          "N",
+          "U",
+          "U",
+          "R",
+          "Z",
+          "D",
+          "G"
+        ],
+        [
+          "D",
+          "S",
+          "R",
+          "N",
+          "Q",
+          "C",
+          "Z",
+          "F",
+          "W"
+        ],
+        [
+          "E",
+          "S",
+          "W",
+          "Z",
+          "L",
+          "G",
+          "V",
+          "U",
+          "W"
+        ],
+        [
+          "R",
+          "I",
+          "R",
+          "A",
+          "E",
+          "B",
+          "J",
+          "Z",
+          "O"
+        ],
+        [
+          "O",
+          "V",
+          "N",
+          "A",
+          "N",
+          "G",
+          "N",
+          "W",
+          "V"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MILK",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "RED",
+          "startRow": 7,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "BEAR",
+          "startRow": 7,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "SOCK",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "GNU",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 405,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "HAPPY",
+        "GALAXIES",
+        "MILL",
+        "NEWT",
+        "PLAN",
+        "RUG"
+      ],
+      "grid": [
+        [
+          "Y",
+          "K",
+          "Q",
+          "P",
+          "B",
+          "Q",
+          "H",
+          "R",
+          "Y"
+        ],
+        [
+          "G",
+          "G",
+          "X",
+          "Q",
+          "X",
+          "J",
+          "X",
+          "P",
+          "H"
+        ],
+        [
+          "K",
+          "A",
+          "G",
+          "Z",
+          "O",
+          "N",
+          "P",
+          "N",
+          "S"
+        ],
+        [
+          "U",
+          "K",
+          "L",
+          "J",
+          "U",
+          "A",
+          "A",
+          "N",
+          "E"
+        ],
+        [
+          "J",
+          "U",
+          "P",
+          "A",
+          "H",
+          "Y",
+          "R",
+          "L",
+          "X"
+        ],
+        [
+          "N",
+          "P",
+          "D",
+          "R",
+          "X",
+          "A",
+          "G",
+          "U",
+          "P"
+        ],
+        [
+          "U",
+          "E",
+          "Q",
+          "L",
+          "L",
+          "I",
+          "M",
+          "U",
+          "G"
+        ],
+        [
+          "E",
+          "O",
+          "W",
+          "G",
+          "E",
+          "Y",
+          "E",
+          "J",
+          "X"
+        ],
+        [
+          "Z",
+          "N",
+          "N",
+          "T",
+          "L",
+          "X",
+          "Z",
+          "S",
+          "R"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HAPPY",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GALAXIES",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "MILL",
+          "startRow": 6,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "NEWT",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "PLAN",
+          "startRow": 5,
+          "startCol": 8,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "RUG",
+          "startRow": 4,
+          "startCol": 6,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 406,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "REEF",
+        "PIG",
+        "BALL",
+        "NET",
+        "GLUE"
+      ],
+      "grid": [
+        [
+          "M",
+          "K",
+          "U",
+          "R",
+          "T",
+          "J",
+          "D",
+          "O",
+          "L"
+        ],
+        [
+          "K",
+          "Z",
+          "M",
+          "G",
+          "E",
+          "I",
+          "L",
+          "Q",
+          "K"
+        ],
+        [
+          "Y",
+          "K",
+          "K",
+          "N",
+          "L",
+          "E",
+          "N",
+          "T",
+          "T"
+        ],
+        [
+          "T",
+          "W",
+          "G",
+          "Z",
+          "H",
+          "G",
+          "F",
+          "U",
+          "Z"
+        ],
+        [
+          "P",
+          "E",
+          "O",
+          "L",
+          "C",
+          "D",
+          "I",
+          "P",
+          "J"
+        ],
+        [
+          "P",
+          "K",
+          "N",
+          "E",
+          "U",
+          "O",
+          "O",
+          "P",
+          "R"
+        ],
+        [
+          "B",
+          "A",
+          "L",
+          "L",
+          "H",
+          "E",
+          "X",
+          "Z",
+          "T"
+        ],
+        [
+          "U",
+          "R",
+          "V",
+          "Q",
+          "K",
+          "N",
+          "Y",
+          "D",
+          "K"
+        ],
+        [
+          "E",
+          "G",
+          "N",
+          "X",
+          "L",
+          "J",
+          "M",
+          "N",
+          "F"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "REEF",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "PIG",
+          "startRow": 5,
+          "startCol": 7,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "BALL",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "NET",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "GLUE",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 407,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "POT",
+        "SUN",
+        "PURPLE",
+        "HOOK",
+        "DAWN"
+      ],
+      "grid": [
+        [
+          "G",
+          "A",
+          "D",
+          "E",
+          "G",
+          "K",
+          "I",
+          "I",
+          "C"
+        ],
+        [
+          "U",
+          "H",
+          "F",
+          "E",
+          "O",
+          "B",
+          "S",
+          "P",
+          "L"
+        ],
+        [
+          "T",
+          "S",
+          "O",
+          "U",
+          "L",
+          "U",
+          "X",
+          "Q",
+          "A"
+        ],
+        [
+          "P",
+          "C",
+          "T",
+          "O",
+          "N",
+          "P",
+          "A",
+          "M",
+          "X"
+        ],
+        [
+          "C",
+          "D",
+          "F",
+          "H",
+          "K",
+          "J",
+          "R",
+          "I",
+          "O"
+        ],
+        [
+          "J",
+          "V",
+          "A",
+          "L",
+          "T",
+          "O",
+          "P",
+          "U",
+          "B"
+        ],
+        [
+          "F",
+          "V",
+          "O",
+          "W",
+          "H",
+          "R",
+          "Z",
+          "E",
+          "P"
+        ],
+        [
+          "T",
+          "E",
+          "N",
+          "T",
+          "N",
+          "G",
+          "F",
+          "F",
+          "U"
+        ],
+        [
+          "Z",
+          "G",
+          "J",
+          "F",
+          "F",
+          "J",
+          "Y",
+          "G",
+          "X"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "POT",
+          "startRow": 5,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "SUN",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "PURPLE",
+          "startRow": 6,
+          "startCol": 8,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "HOOK",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "DAWN",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 408,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "VAN",
+        "FIRE",
+        "FAWN",
+        "TIGER",
+        "DEW"
+      ],
+      "grid": [
+        [
+          "O",
+          "Q",
+          "E",
+          "K",
+          "J",
+          "O",
+          "L",
+          "F",
+          "G"
+        ],
+        [
+          "P",
+          "T",
+          "I",
+          "G",
+          "E",
+          "R",
+          "A",
+          "X",
+          "E"
+        ],
+        [
+          "K",
+          "D",
+          "X",
+          "W",
+          "V",
+          "W",
+          "O",
+          "Z",
+          "D"
+        ],
+        [
+          "U",
+          "I",
+          "N",
+          "R",
+          "N",
+          "R",
+          "A",
+          "Y",
+          "S"
+        ],
+        [
+          "P",
+          "A",
+          "T",
+          "A",
+          "K",
+          "R",
+          "Y",
+          "H",
+          "W"
+        ],
+        [
+          "X",
+          "U",
+          "C",
+          "V",
+          "V",
+          "E",
+          "T",
+          "R",
+          "W"
+        ],
+        [
+          "C",
+          "D",
+          "X",
+          "W",
+          "T",
+          "F",
+          "R",
+          "T",
+          "S"
+        ],
+        [
+          "X",
+          "V",
+          "E",
+          "Z",
+          "U",
+          "G",
+          "L",
+          "I",
+          "F"
+        ],
+        [
+          "H",
+          "D",
+          "F",
+          "O",
+          "E",
+          "G",
+          "X",
+          "G",
+          "F"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "VAN",
+          "startRow": 5,
+          "startCol": 4,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "FIRE",
+          "startRow": 8,
+          "startCol": 8,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "FAWN",
+          "startRow": 0,
+          "startCol": 7,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "TIGER",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "DEW",
+          "startRow": 8,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 409,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "ROCK",
+        "NOTE",
+        "GNU",
+        "DUCK",
+        "NEWT",
+        "TREE"
+      ],
+      "grid": [
+        [
+          "R",
+          "Y",
+          "D",
+          "C",
+          "O",
+          "T",
+          "B",
+          "K",
+          "N"
+        ],
+        [
+          "X",
+          "W",
+          "C",
+          "J",
+          "R",
+          "A",
+          "C",
+          "A",
+          "F"
+        ],
+        [
+          "Y",
+          "R",
+          "Q",
+          "E",
+          "F",
+          "U",
+          "Z",
+          "K",
+          "Y"
+        ],
+        [
+          "I",
+          "C",
+          "E",
+          "Y",
+          "D",
+          "L",
+          "K",
+          "G",
+          "Z"
+        ],
+        [
+          "B",
+          "A",
+          "Y",
+          "D",
+          "R",
+          "K",
+          "G",
+          "N",
+          "U"
+        ],
+        [
+          "J",
+          "P",
+          "E",
+          "O",
+          "C",
+          "U",
+          "S",
+          "B",
+          "Q"
+        ],
+        [
+          "W",
+          "N",
+          "Q",
+          "O",
+          "F",
+          "R",
+          "V",
+          "N",
+          "D"
+        ],
+        [
+          "B",
+          "L",
+          "R",
+          "Q",
+          "E",
+          "T",
+          "O",
+          "N",
+          "H"
+        ],
+        [
+          "N",
+          "G",
+          "N",
+          "E",
+          "W",
+          "T",
+          "C",
+          "T",
+          "H"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "ROCK",
+          "startRow": 7,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "NOTE",
+          "startRow": 7,
+          "startCol": 7,
+          "direction": "RL"
+        },
+        {
+          "word": "GNU",
+          "startRow": 4,
+          "startCol": 6,
+          "direction": "LR"
+        },
+        {
+          "word": "DUCK",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "NEWT",
+          "startRow": 8,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "TREE",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "DIAG_DOWN_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 410,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "MAGIC",
+        "FOREST",
+        "RIVER",
+        "STAR",
+        "CALF",
+        "HONEY"
+      ],
+      "grid": [
+        [
+          "C",
+          "W",
+          "T",
+          "C",
+          "X",
+          "C",
+          "W",
+          "S",
+          "S"
+        ],
+        [
+          "A",
+          "S",
+          "S",
+          "Y",
+          "O",
+          "D",
+          "M",
+          "M",
+          "M"
+        ],
+        [
+          "L",
+          "O",
+          "E",
+          "R",
+          "S",
+          "I",
+          "A",
+          "Q",
+          "P"
+        ],
+        [
+          "F",
+          "L",
+          "R",
+          "T",
+          "L",
+          "A",
+          "G",
+          "H",
+          "B"
+        ],
+        [
+          "M",
+          "H",
+          "O",
+          "I",
+          "Y",
+          "R",
+          "I",
+          "P",
+          "V"
+        ],
+        [
+          "Y",
+          "J",
+          "F",
+          "R",
+          "I",
+          "L",
+          "C",
+          "P",
+          "S"
+        ],
+        [
+          "S",
+          "K",
+          "A",
+          "V",
+          "Y",
+          "E",
+          "N",
+          "O",
+          "H"
+        ],
+        [
+          "J",
+          "T",
+          "E",
+          "G",
+          "A",
+          "T",
+          "N",
+          "X",
+          "L"
+        ],
+        [
+          "S",
+          "R",
+          "Q",
+          "B",
+          "Y",
+          "A",
+          "R",
+          "W",
+          "P"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MAGIC",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "FOREST",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "BT"
+        },
+        {
+          "word": "RIVER",
+          "startRow": 4,
+          "startCol": 5,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "STAR",
+          "startRow": 8,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CALF",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "HONEY",
+          "startRow": 6,
+          "startCol": 8,
+          "direction": "RL"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 411,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "GLUE",
+        "FERN",
+        "HOOK",
+        "OWL",
+        "CAKE",
+        "FOG",
+        "SLUG"
+      ],
+      "grid": [
+        [
+          "S",
+          "L",
+          "U",
+          "G",
+          "E",
+          "Y",
+          "J",
+          "S",
+          "H"
+        ],
+        [
+          "J",
+          "M",
+          "S",
+          "G",
+          "L",
+          "U",
+          "J",
+          "U",
+          "O"
+        ],
+        [
+          "L",
+          "D",
+          "J",
+          "J",
+          "P",
+          "W",
+          "L",
+          "O",
+          "O"
+        ],
+        [
+          "G",
+          "S",
+          "I",
+          "H",
+          "Q",
+          "N",
+          "O",
+          "G",
+          "K"
+        ],
+        [
+          "E",
+          "N",
+          "N",
+          "S",
+          "E",
+          "T",
+          "H",
+          "O",
+          "A"
+        ],
+        [
+          "J",
+          "R",
+          "N",
+          "K",
+          "M",
+          "G",
+          "R",
+          "S",
+          "S"
+        ],
+        [
+          "K",
+          "F",
+          "A",
+          "R",
+          "O",
+          "J",
+          "B",
+          "C",
+          "B"
+        ],
+        [
+          "W",
+          "C",
+          "I",
+          "F",
+          "E",
+          "D",
+          "U",
+          "P",
+          "O"
+        ],
+        [
+          "N",
+          "K",
+          "S",
+          "U",
+          "X",
+          "F",
+          "V",
+          "S",
+          "L"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "GLUE",
+          "startRow": 3,
+          "startCol": 7,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "FERN",
+          "startRow": 8,
+          "startCol": 5,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "HOOK",
+          "startRow": 0,
+          "startCol": 8,
+          "direction": "TB"
+        },
+        {
+          "word": "OWL",
+          "startRow": 3,
+          "startCol": 6,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "CAKE",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "FOG",
+          "startRow": 7,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SLUG",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 412,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "ELK",
+        "SUN",
+        "TREE",
+        "PAN",
+        "RING"
+      ],
+      "grid": [
+        [
+          "O",
+          "A",
+          "W",
+          "P",
+          "N",
+          "Z",
+          "B",
+          "A",
+          "K"
+        ],
+        [
+          "I",
+          "J",
+          "B",
+          "O",
+          "Y",
+          "A",
+          "S",
+          "B",
+          "L"
+        ],
+        [
+          "Y",
+          "C",
+          "M",
+          "W",
+          "E",
+          "E",
+          "M",
+          "A",
+          "E"
+        ],
+        [
+          "W",
+          "D",
+          "Y",
+          "D",
+          "E",
+          "I",
+          "Q",
+          "F",
+          "B"
+        ],
+        [
+          "N",
+          "F",
+          "J",
+          "R",
+          "T",
+          "A",
+          "Z",
+          "F",
+          "E"
+        ],
+        [
+          "A",
+          "D",
+          "T",
+          "G",
+          "Y",
+          "D",
+          "O",
+          "N",
+          "G"
+        ],
+        [
+          "P",
+          "R",
+          "C",
+          "N",
+          "C",
+          "I",
+          "T",
+          "L",
+          "X"
+        ],
+        [
+          "G",
+          "A",
+          "Z",
+          "I",
+          "J",
+          "D",
+          "M",
+          "T",
+          "J"
+        ],
+        [
+          "R",
+          "J",
+          "F",
+          "R",
+          "O",
+          "T",
+          "N",
+          "U",
+          "S"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "ELK",
+          "startRow": 2,
+          "startCol": 8,
+          "direction": "BT"
+        },
+        {
+          "word": "SUN",
+          "startRow": 8,
+          "startCol": 8,
+          "direction": "RL"
+        },
+        {
+          "word": "TREE",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "PAN",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "RING",
+          "startRow": 8,
+          "startCol": 3,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 413,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "PONY",
+        "BRONZE",
+        "HALL",
+        "JUICE",
+        "KOI",
+        "YAK"
+      ],
+      "grid": [
+        [
+          "R",
+          "Y",
+          "Z",
+          "A",
+          "Y",
+          "K",
+          "D",
+          "Z",
+          "A"
+        ],
+        [
+          "K",
+          "L",
+          "B",
+          "L",
+          "R",
+          "A",
+          "M",
+          "B",
+          "D"
+        ],
+        [
+          "I",
+          "C",
+          "L",
+          "I",
+          "P",
+          "Y",
+          "R",
+          "K",
+          "Q"
+        ],
+        [
+          "T",
+          "A",
+          "X",
+          "O",
+          "V",
+          "O",
+          "E",
+          "A",
+          "F"
+        ],
+        [
+          "H",
+          "C",
+          "B",
+          "K",
+          "N",
+          "C",
+          "W",
+          "W",
+          "G"
+        ],
+        [
+          "U",
+          "A",
+          "F",
+          "Z",
+          "I",
+          "V",
+          "Y",
+          "G",
+          "Y"
+        ],
+        [
+          "L",
+          "H",
+          "E",
+          "U",
+          "S",
+          "C",
+          "N",
+          "N",
+          "J"
+        ],
+        [
+          "J",
+          "H",
+          "J",
+          "T",
+          "R",
+          "X",
+          "O",
+          "H",
+          "T"
+        ],
+        [
+          "K",
+          "A",
+          "U",
+          "G",
+          "B",
+          "F",
+          "P",
+          "M",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PONY",
+          "startRow": 8,
+          "startCol": 6,
+          "direction": "BT"
+        },
+        {
+          "word": "BRONZE",
+          "startRow": 1,
+          "startCol": 7,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "HALL",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "JUICE",
+          "startRow": 7,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "KOI",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "BT"
+        },
+        {
+          "word": "YAK",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 414,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "GALE",
+        "GREEN",
+        "WORM",
+        "REEF",
+        "EEL",
+        "MINT",
+        "WREN"
+      ],
+      "grid": [
+        [
+          "U",
+          "H",
+          "R",
+          "X",
+          "M",
+          "P",
+          "L",
+          "S",
+          "Q"
+        ],
+        [
+          "P",
+          "P",
+          "Q",
+          "R",
+          "H",
+          "R",
+          "U",
+          "V",
+          "B"
+        ],
+        [
+          "B",
+          "J",
+          "K",
+          "N",
+          "E",
+          "M",
+          "O",
+          "L",
+          "M"
+        ],
+        [
+          "A",
+          "T",
+          "D",
+          "U",
+          "H",
+          "E",
+          "Z",
+          "W",
+          "I"
+        ],
+        [
+          "V",
+          "Z",
+          "W",
+          "G",
+          "L",
+          "Y",
+          "F",
+          "X",
+          "N"
+        ],
+        [
+          "J",
+          "M",
+          "R",
+          "E",
+          "E",
+          "G",
+          "C",
+          "O",
+          "T"
+        ],
+        [
+          "N",
+          "E",
+          "E",
+          "R",
+          "G",
+          "L",
+          "P",
+          "V",
+          "M"
+        ],
+        [
+          "N",
+          "B",
+          "N",
+          "L",
+          "X",
+          "N",
+          "A",
+          "H",
+          "P"
+        ],
+        [
+          "S",
+          "P",
+          "X",
+          "P",
+          "N",
+          "L",
+          "F",
+          "G",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "GALE",
+          "startRow": 8,
+          "startCol": 7,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "GREEN",
+          "startRow": 6,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "WORM",
+          "startRow": 3,
+          "startCol": 7,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "REEF",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "EEL",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "MINT",
+          "startRow": 2,
+          "startCol": 8,
+          "direction": "TB"
+        },
+        {
+          "word": "WREN",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 415,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "KEY",
+        "BANANA",
+        "ROBIN",
+        "COMB",
+        "SONG",
+        "SLUG",
+        "FISH"
+      ],
+      "grid": [
+        [
+          "G",
+          "V",
+          "A",
+          "O",
+          "C",
+          "G",
+          "C",
+          "N",
+          "V"
+        ],
+        [
+          "U",
+          "Y",
+          "Q",
+          "N",
+          "F",
+          "N",
+          "C",
+          "R",
+          "Y"
+        ],
+        [
+          "L",
+          "Y",
+          "E",
+          "K",
+          "A",
+          "K",
+          "J",
+          "C",
+          "C"
+        ],
+        [
+          "S",
+          "N",
+          "T",
+          "S",
+          "P",
+          "N",
+          "O",
+          "A",
+          "I"
+        ],
+        [
+          "G",
+          "K",
+          "R",
+          "R",
+          "O",
+          "M",
+          "A",
+          "Q",
+          "Z"
+        ],
+        [
+          "L",
+          "U",
+          "F",
+          "O",
+          "B",
+          "N",
+          "F",
+          "B",
+          "A"
+        ],
+        [
+          "L",
+          "H",
+          "I",
+          "B",
+          "F",
+          "N",
+          "G",
+          "O",
+          "Z"
+        ],
+        [
+          "X",
+          "N",
+          "S",
+          "I",
+          "E",
+          "V",
+          "H",
+          "C",
+          "I"
+        ],
+        [
+          "H",
+          "J",
+          "H",
+          "N",
+          "R",
+          "L",
+          "H",
+          "H",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "KEY",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "RL"
+        },
+        {
+          "word": "BANANA",
+          "startRow": 5,
+          "startCol": 7,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "ROBIN",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "COMB",
+          "startRow": 2,
+          "startCol": 7,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "SONG",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "SLUG",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "FISH",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 416,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "PANDA",
+        "HOOD",
+        "TIDE",
+        "LEMON",
+        "JADE",
+        "RUG"
+      ],
+      "grid": [
+        [
+          "L",
+          "S",
+          "R",
+          "Z",
+          "J",
+          "O",
+          "Q",
+          "A",
+          "N"
+        ],
+        [
+          "U",
+          "E",
+          "D",
+          "A",
+          "J",
+          "T",
+          "Q",
+          "L",
+          "P"
+        ],
+        [
+          "H",
+          "K",
+          "P",
+          "I",
+          "I",
+          "I",
+          "E",
+          "J",
+          "D"
+        ],
+        [
+          "Q",
+          "A",
+          "A",
+          "I",
+          "I",
+          "D",
+          "G",
+          "H",
+          "L"
+        ],
+        [
+          "X",
+          "U",
+          "N",
+          "W",
+          "H",
+          "E",
+          "A",
+          "E",
+          "F"
+        ],
+        [
+          "R",
+          "X",
+          "D",
+          "T",
+          "Z",
+          "O",
+          "M",
+          "N",
+          "C"
+        ],
+        [
+          "J",
+          "W",
+          "A",
+          "X",
+          "V",
+          "O",
+          "O",
+          "R",
+          "E"
+        ],
+        [
+          "G",
+          "U",
+          "R",
+          "T",
+          "N",
+          "L",
+          "M",
+          "D",
+          "E"
+        ],
+        [
+          "X",
+          "E",
+          "F",
+          "Y",
+          "K",
+          "Z",
+          "L",
+          "L",
+          "Z"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PANDA",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "HOOD",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "TIDE",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "LEMON",
+          "startRow": 3,
+          "startCol": 8,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "JADE",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "RUG",
+          "startRow": 7,
+          "startCol": 2,
+          "direction": "RL"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 417,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "PLAN",
+        "HOOK",
+        "NEWT",
+        "BUCK",
+        "MAGIC",
+        "NEST"
+      ],
+      "grid": [
+        [
+          "I",
+          "P",
+          "C",
+          "Y",
+          "K",
+          "H",
+          "W",
+          "M",
+          "M"
+        ],
+        [
+          "K",
+          "O",
+          "O",
+          "H",
+          "Z",
+          "R",
+          "D",
+          "A",
+          "N"
+        ],
+        [
+          "N",
+          "W",
+          "J",
+          "Z",
+          "K",
+          "D",
+          "W",
+          "G",
+          "E"
+        ],
+        [
+          "V",
+          "R",
+          "U",
+          "H",
+          "G",
+          "C",
+          "I",
+          "I",
+          "S"
+        ],
+        [
+          "I",
+          "O",
+          "T",
+          "W",
+          "E",
+          "N",
+          "U",
+          "C",
+          "T"
+        ],
+        [
+          "P",
+          "L",
+          "A",
+          "N",
+          "A",
+          "X",
+          "Q",
+          "B",
+          "H"
+        ],
+        [
+          "S",
+          "S",
+          "H",
+          "T",
+          "O",
+          "E",
+          "I",
+          "F",
+          "S"
+        ],
+        [
+          "V",
+          "K",
+          "D",
+          "D",
+          "Z",
+          "R",
+          "D",
+          "J",
+          "S"
+        ],
+        [
+          "W",
+          "V",
+          "W",
+          "A",
+          "Q",
+          "L",
+          "H",
+          "T",
+          "R"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PLAN",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "HOOK",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "RL"
+        },
+        {
+          "word": "NEWT",
+          "startRow": 4,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "BUCK",
+          "startRow": 5,
+          "startCol": 7,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "MAGIC",
+          "startRow": 0,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "NEST",
+          "startRow": 1,
+          "startCol": 8,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 418,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "DESERT",
+        "BAT",
+        "WORM",
+        "OWL",
+        "GALE"
+      ],
+      "grid": [
+        [
+          "M",
+          "G",
+          "H",
+          "L",
+          "G",
+          "I",
+          "T",
+          "A",
+          "B"
+        ],
+        [
+          "F",
+          "Z",
+          "G",
+          "D",
+          "B",
+          "A",
+          "X",
+          "B",
+          "H"
+        ],
+        [
+          "Y",
+          "F",
+          "A",
+          "Z",
+          "N",
+          "G",
+          "L",
+          "J",
+          "L"
+        ],
+        [
+          "P",
+          "R",
+          "S",
+          "D",
+          "X",
+          "W",
+          "P",
+          "E",
+          "J"
+        ],
+        [
+          "L",
+          "B",
+          "A",
+          "G",
+          "E",
+          "L",
+          "W",
+          "O",
+          "W"
+        ],
+        [
+          "S",
+          "O",
+          "H",
+          "S",
+          "M",
+          "S",
+          "W",
+          "I",
+          "L"
+        ],
+        [
+          "T",
+          "V",
+          "P",
+          "R",
+          "G",
+          "J",
+          "E",
+          "Y",
+          "J"
+        ],
+        [
+          "C",
+          "P",
+          "O",
+          "U",
+          "Q",
+          "I",
+          "U",
+          "R",
+          "I"
+        ],
+        [
+          "W",
+          "W",
+          "C",
+          "A",
+          "B",
+          "I",
+          "E",
+          "U",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "DESERT",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BAT",
+          "startRow": 0,
+          "startCol": 8,
+          "direction": "RL"
+        },
+        {
+          "word": "WORM",
+          "startRow": 8,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "OWL",
+          "startRow": 4,
+          "startCol": 7,
+          "direction": "RL"
+        },
+        {
+          "word": "GALE",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 419,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "IVY",
+        "OCEAN",
+        "MOON",
+        "CROW",
+        "SAIL",
+        "WREN"
+      ],
+      "grid": [
+        [
+          "C",
+          "R",
+          "Q",
+          "C",
+          "T",
+          "X",
+          "Y",
+          "A",
+          "K"
+        ],
+        [
+          "Y",
+          "N",
+          "S",
+          "R",
+          "T",
+          "F",
+          "D",
+          "T",
+          "K"
+        ],
+        [
+          "U",
+          "A",
+          "O",
+          "O",
+          "C",
+          "U",
+          "O",
+          "G",
+          "A"
+        ],
+        [
+          "R",
+          "E",
+          "Q",
+          "W",
+          "F",
+          "T",
+          "X",
+          "A",
+          "M"
+        ],
+        [
+          "W",
+          "C",
+          "O",
+          "J",
+          "P",
+          "M",
+          "N",
+          "O",
+          "Q"
+        ],
+        [
+          "W",
+          "O",
+          "Q",
+          "M",
+          "N",
+          "P",
+          "O",
+          "K",
+          "D"
+        ],
+        [
+          "R",
+          "O",
+          "Y",
+          "V",
+          "I",
+          "N",
+          "O",
+          "L",
+          "G"
+        ],
+        [
+          "E",
+          "S",
+          "Q",
+          "T",
+          "M",
+          "Q",
+          "D",
+          "A",
+          "D"
+        ],
+        [
+          "N",
+          "C",
+          "J",
+          "N",
+          "S",
+          "L",
+          "I",
+          "A",
+          "S"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "IVY",
+          "startRow": 6,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "OCEAN",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "BT"
+        },
+        {
+          "word": "MOON",
+          "startRow": 3,
+          "startCol": 8,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "CROW",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "SAIL",
+          "startRow": 8,
+          "startCol": 8,
+          "direction": "RL"
+        },
+        {
+          "word": "WREN",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 420,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "DEW",
+        "CAT",
+        "TEAL",
+        "WICK",
+        "TIDE",
+        "SUGAR",
+        "CLOD"
+      ],
+      "grid": [
+        [
+          "Q",
+          "C",
+          "C",
+          "Z",
+          "V",
+          "J",
+          "X",
+          "U",
+          "T"
+        ],
+        [
+          "R",
+          "A",
+          "G",
+          "U",
+          "S",
+          "W",
+          "U",
+          "G",
+          "U"
+        ],
+        [
+          "E",
+          "T",
+          "L",
+          "R",
+          "B",
+          "F",
+          "R",
+          "W",
+          "H"
+        ],
+        [
+          "X",
+          "I",
+          "R",
+          "T",
+          "R",
+          "B",
+          "A",
+          "A",
+          "T"
+        ],
+        [
+          "O",
+          "M",
+          "L",
+          "A",
+          "E",
+          "T",
+          "J",
+          "I",
+          "K"
+        ],
+        [
+          "O",
+          "D",
+          "R",
+          "Z",
+          "P",
+          "B",
+          "D",
+          "W",
+          "J"
+        ],
+        [
+          "M",
+          "N",
+          "V",
+          "T",
+          "A",
+          "E",
+          "R",
+          "E",
+          "L"
+        ],
+        [
+          "L",
+          "O",
+          "D",
+          "O",
+          "L",
+          "C",
+          "U",
+          "D",
+          "W"
+        ],
+        [
+          "S",
+          "O",
+          "W",
+          "I",
+          "C",
+          "K",
+          "L",
+          "E",
+          "F"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "DEW",
+          "startRow": 7,
+          "startCol": 7,
+          "direction": "BT"
+        },
+        {
+          "word": "CAT",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "TEAL",
+          "startRow": 4,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "WICK",
+          "startRow": 8,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "TIDE",
+          "startRow": 3,
+          "startCol": 8,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "SUGAR",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "CLOD",
+          "startRow": 7,
+          "startCol": 5,
+          "direction": "RL"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 421,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "PAGE",
+        "RING",
+        "CORD",
+        "GUST",
+        "SOCK",
+        "GRAY"
+      ],
+      "grid": [
+        [
+          "D",
+          "C",
+          "J",
+          "Z",
+          "D",
+          "C",
+          "G",
+          "Q",
+          "E"
+        ],
+        [
+          "R",
+          "Y",
+          "Z",
+          "Y",
+          "S",
+          "B",
+          "X",
+          "S",
+          "Y"
+        ],
+        [
+          "R",
+          "Z",
+          "I",
+          "T",
+          "F",
+          "E",
+          "X",
+          "Q",
+          "M"
+        ],
+        [
+          "L",
+          "L",
+          "E",
+          "M",
+          "G",
+          "M",
+          "B",
+          "C",
+          "G"
+        ],
+        [
+          "H",
+          "S",
+          "L",
+          "E",
+          "G",
+          "A",
+          "P",
+          "N",
+          "V"
+        ],
+        [
+          "X",
+          "V",
+          "O",
+          "D",
+          "P",
+          "G",
+          "I",
+          "I",
+          "A"
+        ],
+        [
+          "N",
+          "G",
+          "R",
+          "C",
+          "R",
+          "R",
+          "E",
+          "O",
+          "M"
+        ],
+        [
+          "V",
+          "O",
+          "P",
+          "A",
+          "K",
+          "Z",
+          "I",
+          "T",
+          "O"
+        ],
+        [
+          "C",
+          "O",
+          "Y",
+          "T",
+          "S",
+          "U",
+          "G",
+          "U",
+          "M"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PAGE",
+          "startRow": 4,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "RING",
+          "startRow": 6,
+          "startCol": 5,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CORD",
+          "startRow": 8,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GUST",
+          "startRow": 8,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "SOCK",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "GRAY",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "DIAG_DOWN_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 422,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "HOOK",
+        "SWEET",
+        "BOAT",
+        "CLAY",
+        "POST",
+        "CART",
+        "MAP"
+      ],
+      "grid": [
+        [
+          "Y",
+          "A",
+          "U",
+          "C",
+          "M",
+          "P",
+          "A",
+          "I",
+          "Q"
+        ],
+        [
+          "V",
+          "C",
+          "S",
+          "E",
+          "L",
+          "B",
+          "F",
+          "M",
+          "X"
+        ],
+        [
+          "U",
+          "A",
+          "R",
+          "D",
+          "I",
+          "A",
+          "A",
+          "R",
+          "V"
+        ],
+        [
+          "B",
+          "R",
+          "I",
+          "I",
+          "F",
+          "P",
+          "Y",
+          "K",
+          "B"
+        ],
+        [
+          "G",
+          "T",
+          "N",
+          "T",
+          "H",
+          "V",
+          "J",
+          "O",
+          "O"
+        ],
+        [
+          "I",
+          "P",
+          "L",
+          "E",
+          "Y",
+          "U",
+          "F",
+          "O",
+          "A"
+        ],
+        [
+          "X",
+          "H",
+          "V",
+          "E",
+          "F",
+          "F",
+          "D",
+          "H",
+          "T"
+        ],
+        [
+          "G",
+          "E",
+          "Q",
+          "W",
+          "K",
+          "T",
+          "S",
+          "O",
+          "P"
+        ],
+        [
+          "H",
+          "A",
+          "Q",
+          "S",
+          "J",
+          "H",
+          "E",
+          "F",
+          "C"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HOOK",
+          "startRow": 6,
+          "startCol": 7,
+          "direction": "BT"
+        },
+        {
+          "word": "SWEET",
+          "startRow": 8,
+          "startCol": 3,
+          "direction": "BT"
+        },
+        {
+          "word": "BOAT",
+          "startRow": 3,
+          "startCol": 8,
+          "direction": "TB"
+        },
+        {
+          "word": "CLAY",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "POST",
+          "startRow": 7,
+          "startCol": 8,
+          "direction": "RL"
+        },
+        {
+          "word": "CART",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "MAP",
+          "startRow": 1,
+          "startCol": 7,
+          "direction": "DIAG_DOWN_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 423,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "GRID",
+        "PUMA",
+        "RAIN",
+        "WOOD",
+        "MOON",
+        "CHERRY",
+        "DOVE"
+      ],
+      "grid": [
+        [
+          "G",
+          "R",
+          "I",
+          "D",
+          "E",
+          "T",
+          "L",
+          "F",
+          "A"
+        ],
+        [
+          "K",
+          "W",
+          "K",
+          "O",
+          "J",
+          "C",
+          "V",
+          "N",
+          "B"
+        ],
+        [
+          "R",
+          "M",
+          "Q",
+          "R",
+          "D",
+          "E",
+          "Y",
+          "N",
+          "U"
+        ],
+        [
+          "Q",
+          "H",
+          "A",
+          "O",
+          "U",
+          "R",
+          "V",
+          "N",
+          "H"
+        ],
+        [
+          "N",
+          "I",
+          "O",
+          "R",
+          "R",
+          "N",
+          "O",
+          "O",
+          "M"
+        ],
+        [
+          "N",
+          "W",
+          "L",
+          "E",
+          "G",
+          "Z",
+          "B",
+          "P",
+          "D"
+        ],
+        [
+          "P",
+          "T",
+          "H",
+          "R",
+          "H",
+          "L",
+          "U",
+          "O",
+          "T"
+        ],
+        [
+          "W",
+          "C",
+          "D",
+          "X",
+          "O",
+          "M",
+          "S",
+          "H",
+          "U"
+        ],
+        [
+          "G",
+          "T",
+          "U",
+          "O",
+          "A",
+          "L",
+          "U",
+          "F",
+          "G"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "GRID",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "PUMA",
+          "startRow": 5,
+          "startCol": 7,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "RAIN",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "WOOD",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "MOON",
+          "startRow": 4,
+          "startCol": 8,
+          "direction": "RL"
+        },
+        {
+          "word": "CHERRY",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "DOVE",
+          "startRow": 5,
+          "startCol": 8,
+          "direction": "DIAG_UP_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 424,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "HAWK",
+        "POOL",
+        "TREE",
+        "SWAN",
+        "CLOD",
+        "TUB"
+      ],
+      "grid": [
+        [
+          "T",
+          "N",
+          "P",
+          "A",
+          "S",
+          "U",
+          "B",
+          "N",
+          "S"
+        ],
+        [
+          "R",
+          "K",
+          "S",
+          "M",
+          "W",
+          "Z",
+          "T",
+          "U",
+          "T"
+        ],
+        [
+          "E",
+          "N",
+          "H",
+          "I",
+          "A",
+          "G",
+          "C",
+          "F",
+          "T"
+        ],
+        [
+          "E",
+          "P",
+          "I",
+          "L",
+          "N",
+          "L",
+          "L",
+          "N",
+          "S"
+        ],
+        [
+          "G",
+          "G",
+          "O",
+          "R",
+          "U",
+          "T",
+          "O",
+          "R",
+          "X"
+        ],
+        [
+          "T",
+          "Z",
+          "O",
+          "O",
+          "A",
+          "Y",
+          "D",
+          "H",
+          "H"
+        ],
+        [
+          "B",
+          "P",
+          "V",
+          "G",
+          "L",
+          "H",
+          "A",
+          "W",
+          "K"
+        ],
+        [
+          "K",
+          "L",
+          "K",
+          "M",
+          "E",
+          "K",
+          "X",
+          "H",
+          "N"
+        ],
+        [
+          "O",
+          "Y",
+          "S",
+          "G",
+          "X",
+          "G",
+          "R",
+          "O",
+          "N"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HAWK",
+          "startRow": 6,
+          "startCol": 5,
+          "direction": "LR"
+        },
+        {
+          "word": "POOL",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "TREE",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "SWAN",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "CLOD",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "TUB",
+          "startRow": 2,
+          "startCol": 8,
+          "direction": "DIAG_UP_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 425,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "HAT",
+        "SAIL",
+        "ROCK",
+        "PIG",
+        "GALE"
+      ],
+      "grid": [
+        [
+          "M",
+          "W",
+          "G",
+          "V",
+          "H",
+          "F",
+          "I",
+          "C",
+          "V"
+        ],
+        [
+          "U",
+          "X",
+          "I",
+          "D",
+          "A",
+          "O",
+          "U",
+          "O",
+          "V"
+        ],
+        [
+          "L",
+          "H",
+          "P",
+          "S",
+          "T",
+          "S",
+          "A",
+          "I",
+          "L"
+        ],
+        [
+          "O",
+          "K",
+          "K",
+          "V",
+          "U",
+          "L",
+          "A",
+          "A",
+          "M"
+        ],
+        [
+          "R",
+          "A",
+          "Y",
+          "C",
+          "Q",
+          "W",
+          "E",
+          "J",
+          "Q"
+        ],
+        [
+          "W",
+          "P",
+          "U",
+          "N",
+          "O",
+          "U",
+          "Q",
+          "O",
+          "P"
+        ],
+        [
+          "A",
+          "Q",
+          "X",
+          "J",
+          "T",
+          "R",
+          "Z",
+          "M",
+          "P"
+        ],
+        [
+          "O",
+          "D",
+          "G",
+          "F",
+          "O",
+          "L",
+          "B",
+          "K",
+          "X"
+        ],
+        [
+          "Q",
+          "Y",
+          "J",
+          "E",
+          "L",
+          "A",
+          "G",
+          "G",
+          "H"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HAT",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "SAIL",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "LR"
+        },
+        {
+          "word": "ROCK",
+          "startRow": 6,
+          "startCol": 5,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "PIG",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "BT"
+        },
+        {
+          "word": "GALE",
+          "startRow": 8,
+          "startCol": 6,
+          "direction": "RL"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 426,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "MAP",
+        "PIPE",
+        "CORN",
+        "HAND",
+        "CLAY",
+        "RED"
+      ],
+      "grid": [
+        [
+          "Q",
+          "D",
+          "E",
+          "T",
+          "U",
+          "Y",
+          "J",
+          "J",
+          "J"
+        ],
+        [
+          "P",
+          "E",
+          "B",
+          "P",
+          "K",
+          "C",
+          "I",
+          "T",
+          "Y"
+        ],
+        [
+          "A",
+          "I",
+          "L",
+          "V",
+          "I",
+          "U",
+          "X",
+          "H",
+          "A"
+        ],
+        [
+          "M",
+          "B",
+          "R",
+          "G",
+          "V",
+          "P",
+          "J",
+          "A",
+          "Y"
+        ],
+        [
+          "A",
+          "H",
+          "M",
+          "E",
+          "C",
+          "Q",
+          "J",
+          "N",
+          "S"
+        ],
+        [
+          "P",
+          "V",
+          "W",
+          "B",
+          "D",
+          "M",
+          "G",
+          "D",
+          "C"
+        ],
+        [
+          "Y",
+          "A",
+          "L",
+          "C",
+          "N",
+          "B",
+          "Z",
+          "O",
+          "W"
+        ],
+        [
+          "Q",
+          "G",
+          "E",
+          "N",
+          "L",
+          "G",
+          "R",
+          "R",
+          "U"
+        ],
+        [
+          "Z",
+          "I",
+          "K",
+          "O",
+          "K",
+          "N",
+          "N",
+          "W",
+          "L"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MAP",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "PIPE",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "CORN",
+          "startRow": 5,
+          "startCol": 8,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "HAND",
+          "startRow": 2,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "CLAY",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "RL"
+        },
+        {
+          "word": "RED",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 427,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "SALT",
+        "GUST",
+        "CALF",
+        "TOAD",
+        "SUN",
+        "SLUG"
+      ],
+      "grid": [
+        [
+          "S",
+          "W",
+          "G",
+          "A",
+          "D",
+          "J",
+          "K",
+          "N",
+          "H"
+        ],
+        [
+          "Z",
+          "L",
+          "C",
+          "Y",
+          "P",
+          "Z",
+          "C",
+          "G",
+          "S"
+        ],
+        [
+          "E",
+          "V",
+          "U",
+          "A",
+          "J",
+          "K",
+          "Y",
+          "O",
+          "S"
+        ],
+        [
+          "A",
+          "B",
+          "D",
+          "G",
+          "M",
+          "D",
+          "G",
+          "J",
+          "K"
+        ],
+        [
+          "F",
+          "Y",
+          "Z",
+          "F",
+          "R",
+          "T",
+          "L",
+          "A",
+          "S"
+        ],
+        [
+          "N",
+          "S",
+          "K",
+          "H",
+          "L",
+          "T",
+          "X",
+          "B",
+          "D"
+        ],
+        [
+          "Y",
+          "U",
+          "G",
+          "U",
+          "S",
+          "A",
+          "K",
+          "W",
+          "A"
+        ],
+        [
+          "A",
+          "N",
+          "D",
+          "U",
+          "C",
+          "A",
+          "C",
+          "T",
+          "O"
+        ],
+        [
+          "H",
+          "B",
+          "G",
+          "H",
+          "M",
+          "J",
+          "U",
+          "G",
+          "T"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SALT",
+          "startRow": 4,
+          "startCol": 8,
+          "direction": "RL"
+        },
+        {
+          "word": "GUST",
+          "startRow": 8,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CALF",
+          "startRow": 7,
+          "startCol": 6,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "TOAD",
+          "startRow": 8,
+          "startCol": 8,
+          "direction": "BT"
+        },
+        {
+          "word": "SUN",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "SLUG",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 428,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "NET",
+        "ICE",
+        "BEE",
+        "BANANA",
+        "WORM",
+        "MOON",
+        "ROPE"
+      ],
+      "grid": [
+        [
+          "U",
+          "B",
+          "L",
+          "B",
+          "K",
+          "R",
+          "D",
+          "L",
+          "P"
+        ],
+        [
+          "P",
+          "Z",
+          "M",
+          "R",
+          "A",
+          "N",
+          "O",
+          "P",
+          "B"
+        ],
+        [
+          "M",
+          "E",
+          "R",
+          "N",
+          "E",
+          "N",
+          "H",
+          "P",
+          "R"
+        ],
+        [
+          "V",
+          "E",
+          "O",
+          "T",
+          "E",
+          "Y",
+          "A",
+          "G",
+          "E"
+        ],
+        [
+          "G",
+          "B",
+          "W",
+          "K",
+          "C",
+          "F",
+          "Y",
+          "N",
+          "L"
+        ],
+        [
+          "W",
+          "M",
+          "Y",
+          "K",
+          "I",
+          "Y",
+          "Q",
+          "T",
+          "A"
+        ],
+        [
+          "N",
+          "O",
+          "O",
+          "M",
+          "M",
+          "C",
+          "V",
+          "B",
+          "P"
+        ],
+        [
+          "X",
+          "D",
+          "V",
+          "X",
+          "N",
+          "N",
+          "I",
+          "H",
+          "K"
+        ],
+        [
+          "P",
+          "F",
+          "X",
+          "T",
+          "D",
+          "N",
+          "P",
+          "V",
+          "P"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "NET",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "ICE",
+          "startRow": 5,
+          "startCol": 4,
+          "direction": "BT"
+        },
+        {
+          "word": "BEE",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "BT"
+        },
+        {
+          "word": "BANANA",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "WORM",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "BT"
+        },
+        {
+          "word": "MOON",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "RL"
+        },
+        {
+          "word": "ROPE",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 429,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "SAW",
+        "OPAL",
+        "COW",
+        "SUGAR",
+        "EEL",
+        "IBIS",
+        "GIFT"
+      ],
+      "grid": [
+        [
+          "E",
+          "B",
+          "N",
+          "V",
+          "W",
+          "M",
+          "S",
+          "P",
+          "A"
+        ],
+        [
+          "D",
+          "X",
+          "X",
+          "P",
+          "C",
+          "A",
+          "T",
+          "Z",
+          "K"
+        ],
+        [
+          "B",
+          "G",
+          "P",
+          "N",
+          "W",
+          "S",
+          "H",
+          "U",
+          "Q"
+        ],
+        [
+          "S",
+          "S",
+          "O",
+          "R",
+          "R",
+          "G",
+          "L",
+          "B",
+          "V"
+        ],
+        [
+          "E",
+          "I",
+          "W",
+          "D",
+          "A",
+          "A",
+          "I",
+          "X",
+          "K"
+        ],
+        [
+          "D",
+          "B",
+          "H",
+          "O",
+          "P",
+          "G",
+          "C",
+          "F",
+          "X"
+        ],
+        [
+          "F",
+          "I",
+          "L",
+          "O",
+          "C",
+          "W",
+          "U",
+          "Q",
+          "T"
+        ],
+        [
+          "Y",
+          "E",
+          "R",
+          "M",
+          "H",
+          "P",
+          "L",
+          "S",
+          "Q"
+        ],
+        [
+          "E",
+          "V",
+          "E",
+          "H",
+          "B",
+          "D",
+          "X",
+          "M",
+          "S"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SAW",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "OPAL",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "COW",
+          "startRow": 6,
+          "startCol": 4,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "SUGAR",
+          "startRow": 7,
+          "startCol": 7,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "EEL",
+          "startRow": 8,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "IBIS",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "BT"
+        },
+        {
+          "word": "GIFT",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 430,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "HONEY",
+        "OPAL",
+        "WOOD",
+        "HOSE",
+        "VALE",
+        "OCEAN",
+        "WIRE"
+      ],
+      "grid": [
+        [
+          "F",
+          "K",
+          "R",
+          "M",
+          "D",
+          "T",
+          "I",
+          "I",
+          "T"
+        ],
+        [
+          "W",
+          "D",
+          "B",
+          "N",
+          "H",
+          "Y",
+          "O",
+          "G",
+          "H"
+        ],
+        [
+          "R",
+          "K",
+          "O",
+          "B",
+          "B",
+          "O",
+          "C",
+          "R",
+          "L"
+        ],
+        [
+          "W",
+          "L",
+          "L",
+          "O",
+          "H",
+          "P",
+          "E",
+          "U",
+          "K"
+        ],
+        [
+          "I",
+          "O",
+          "S",
+          "O",
+          "W",
+          "A",
+          "A",
+          "N",
+          "W"
+        ],
+        [
+          "R",
+          "E",
+          "N",
+          "G",
+          "B",
+          "L",
+          "N",
+          "E",
+          "Z"
+        ],
+        [
+          "E",
+          "E",
+          "S",
+          "D",
+          "Q",
+          "O",
+          "L",
+          "L",
+          "L"
+        ],
+        [
+          "Y",
+          "Q",
+          "R",
+          "O",
+          "P",
+          "F",
+          "Z",
+          "A",
+          "E"
+        ],
+        [
+          "N",
+          "W",
+          "E",
+          "S",
+          "H",
+          "Y",
+          "L",
+          "V",
+          "X"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HONEY",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "OPAL",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "WOOD",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "HOSE",
+          "startRow": 8,
+          "startCol": 4,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "VALE",
+          "startRow": 8,
+          "startCol": 7,
+          "direction": "BT"
+        },
+        {
+          "word": "OCEAN",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "WIRE",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 431,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "BOX",
+        "OAK",
+        "VINE",
+        "CALF",
+        "FIRE",
+        "COW"
+      ],
+      "grid": [
+        [
+          "L",
+          "V",
+          "K",
+          "Y",
+          "A",
+          "J",
+          "X",
+          "W",
+          "H"
+        ],
+        [
+          "J",
+          "D",
+          "V",
+          "I",
+          "N",
+          "E",
+          "K",
+          "O",
+          "H"
+        ],
+        [
+          "I",
+          "W",
+          "Z",
+          "P",
+          "B",
+          "F",
+          "W",
+          "H",
+          "X"
+        ],
+        [
+          "D",
+          "D",
+          "F",
+          "O",
+          "C",
+          "M",
+          "E",
+          "R",
+          "S"
+        ],
+        [
+          "S",
+          "A",
+          "X",
+          "A",
+          "J",
+          "F",
+          "P",
+          "U",
+          "D"
+        ],
+        [
+          "N",
+          "Y",
+          "L",
+          "D",
+          "C",
+          "F",
+          "I",
+          "R",
+          "E"
+        ],
+        [
+          "Q",
+          "F",
+          "B",
+          "C",
+          "O",
+          "W",
+          "E",
+          "P",
+          "N"
+        ],
+        [
+          "Q",
+          "J",
+          "N",
+          "J",
+          "H",
+          "L",
+          "M",
+          "W",
+          "N"
+        ],
+        [
+          "T",
+          "G",
+          "R",
+          "O",
+          "K",
+          "A",
+          "O",
+          "N",
+          "J"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BOX",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "OAK",
+          "startRow": 8,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "VINE",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "CALF",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "FIRE",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "LR"
+        },
+        {
+          "word": "COW",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 432,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "REEF",
+        "NAIL",
+        "IRON",
+        "DOME",
+        "PAGE",
+        "GRID",
+        "BOOT"
+      ],
+      "grid": [
+        [
+          "P",
+          "W",
+          "X",
+          "G",
+          "R",
+          "P",
+          "I",
+          "A",
+          "F"
+        ],
+        [
+          "T",
+          "P",
+          "X",
+          "C",
+          "D",
+          "Z",
+          "S",
+          "E",
+          "L"
+        ],
+        [
+          "C",
+          "N",
+          "A",
+          "I",
+          "L",
+          "Y",
+          "E",
+          "M",
+          "X"
+        ],
+        [
+          "Y",
+          "D",
+          "G",
+          "L",
+          "I",
+          "R",
+          "T",
+          "O",
+          "S"
+        ],
+        [
+          "M",
+          "X",
+          "F",
+          "N",
+          "B",
+          "E",
+          "P",
+          "D",
+          "U"
+        ],
+        [
+          "C",
+          "P",
+          "O",
+          "O",
+          "O",
+          "A",
+          "A",
+          "R",
+          "T"
+        ],
+        [
+          "W",
+          "R",
+          "O",
+          "Z",
+          "I",
+          "B",
+          "G",
+          "S",
+          "P"
+        ],
+        [
+          "I",
+          "T",
+          "K",
+          "T",
+          "C",
+          "N",
+          "E",
+          "F",
+          "P"
+        ],
+        [
+          "Z",
+          "G",
+          "U",
+          "N",
+          "G",
+          "R",
+          "I",
+          "D",
+          "U"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "REEF",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "NAIL",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "IRON",
+          "startRow": 7,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "DOME",
+          "startRow": 4,
+          "startCol": 7,
+          "direction": "BT"
+        },
+        {
+          "word": "PAGE",
+          "startRow": 4,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "GRID",
+          "startRow": 8,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "BOOT",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "DIAG_DOWN_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 433,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "HOSE",
+        "GOLD",
+        "BANANA",
+        "TREE",
+        "SUN"
+      ],
+      "grid": [
+        [
+          "Z",
+          "E",
+          "L",
+          "O",
+          "L",
+          "F",
+          "V",
+          "C",
+          "R"
+        ],
+        [
+          "T",
+          "R",
+          "E",
+          "E",
+          "L",
+          "G",
+          "V",
+          "H",
+          "Q"
+        ],
+        [
+          "V",
+          "K",
+          "W",
+          "B",
+          "G",
+          "W",
+          "O",
+          "B",
+          "Q"
+        ],
+        [
+          "R",
+          "M",
+          "B",
+          "O",
+          "O",
+          "U",
+          "B",
+          "L",
+          "S"
+        ],
+        [
+          "E",
+          "T",
+          "A",
+          "N",
+          "M",
+          "P",
+          "X",
+          "J",
+          "D"
+        ],
+        [
+          "D",
+          "J",
+          "N",
+          "E",
+          "B",
+          "K",
+          "N",
+          "H",
+          "S"
+        ],
+        [
+          "E",
+          "A",
+          "A",
+          "H",
+          "S",
+          "B",
+          "O",
+          "U",
+          "G"
+        ],
+        [
+          "A",
+          "Q",
+          "N",
+          "M",
+          "Y",
+          "O",
+          "D",
+          "H",
+          "S"
+        ],
+        [
+          "J",
+          "O",
+          "A",
+          "A",
+          "I",
+          "F",
+          "H",
+          "P",
+          "U"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HOSE",
+          "startRow": 8,
+          "startCol": 6,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "GOLD",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BANANA",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "TREE",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "SUN",
+          "startRow": 7,
+          "startCol": 8,
+          "direction": "DIAG_UP_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 434,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "SHIP",
+        "MAGIC",
+        "SONG",
+        "PLAN",
+        "NOTE",
+        "MULE",
+        "ROPE"
+      ],
+      "grid": [
+        [
+          "Z",
+          "I",
+          "J",
+          "D",
+          "Z",
+          "O",
+          "T",
+          "F",
+          "G"
+        ],
+        [
+          "X",
+          "H",
+          "P",
+          "I",
+          "H",
+          "S",
+          "R",
+          "C",
+          "U"
+        ],
+        [
+          "W",
+          "W",
+          "Z",
+          "K",
+          "U",
+          "J",
+          "U",
+          "G",
+          "Q"
+        ],
+        [
+          "S",
+          "O",
+          "Q",
+          "W",
+          "C",
+          "Y",
+          "Q",
+          "K",
+          "N"
+        ],
+        [
+          "P",
+          "E",
+          "P",
+          "O",
+          "R",
+          "I",
+          "E",
+          "X",
+          "O"
+        ],
+        [
+          "X",
+          "L",
+          "G",
+          "N",
+          "O",
+          "S",
+          "G",
+          "G",
+          "T"
+        ],
+        [
+          "B",
+          "L",
+          "A",
+          "O",
+          "R",
+          "L",
+          "L",
+          "A",
+          "E"
+        ],
+        [
+          "O",
+          "R",
+          "H",
+          "N",
+          "T",
+          "U",
+          "M",
+          "U",
+          "M"
+        ],
+        [
+          "J",
+          "B",
+          "X",
+          "E",
+          "L",
+          "U",
+          "M",
+          "J",
+          "N"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "SHIP",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "MAGIC",
+          "startRow": 7,
+          "startCol": 8,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "SONG",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "PLAN",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "NOTE",
+          "startRow": 3,
+          "startCol": 8,
+          "direction": "TB"
+        },
+        {
+          "word": "MULE",
+          "startRow": 8,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "ROPE",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "RL"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 435,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "PUMA",
+        "VAN",
+        "CROP",
+        "APPLE",
+        "JUG",
+        "ROCK",
+        "MILK"
+      ],
+      "grid": [
+        [
+          "M",
+          "T",
+          "W",
+          "A",
+          "C",
+          "Q",
+          "C",
+          "Q",
+          "R"
+        ],
+        [
+          "I",
+          "U",
+          "Y",
+          "O",
+          "R",
+          "E",
+          "M",
+          "O",
+          "V"
+        ],
+        [
+          "W",
+          "K",
+          "T",
+          "R",
+          "O",
+          "P",
+          "C",
+          "X",
+          "R"
+        ],
+        [
+          "J",
+          "H",
+          "H",
+          "V",
+          "P",
+          "K",
+          "U",
+          "S",
+          "S"
+        ],
+        [
+          "L",
+          "X",
+          "F",
+          "I",
+          "U",
+          "N",
+          "G",
+          "M",
+          "E"
+        ],
+        [
+          "Y",
+          "E",
+          "F",
+          "S",
+          "A",
+          "J",
+          "M",
+          "L",
+          "A"
+        ],
+        [
+          "V",
+          "U",
+          "G",
+          "V",
+          "O",
+          "I",
+          "P",
+          "N",
+          "M"
+        ],
+        [
+          "M",
+          "B",
+          "U",
+          "D",
+          "L",
+          "P",
+          "T",
+          "X",
+          "F"
+        ],
+        [
+          "K",
+          "R",
+          "J",
+          "K",
+          "A",
+          "F",
+          "B",
+          "Z",
+          "W"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PUMA",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "VAN",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CROP",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "APPLE",
+          "startRow": 8,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "JUG",
+          "startRow": 8,
+          "startCol": 2,
+          "direction": "BT"
+        },
+        {
+          "word": "ROCK",
+          "startRow": 0,
+          "startCol": 8,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "MILK",
+          "startRow": 5,
+          "startCol": 6,
+          "direction": "DIAG_DOWN_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 436,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "VINE",
+        "GALE",
+        "RED",
+        "RUBY",
+        "WAVE",
+        "BUCK",
+        "HEN"
+      ],
+      "grid": [
+        [
+          "Z",
+          "S",
+          "S",
+          "M",
+          "L",
+          "R",
+          "W",
+          "B",
+          "R"
+        ],
+        [
+          "H",
+          "H",
+          "Y",
+          "O",
+          "U",
+          "E",
+          "A",
+          "S",
+          "B"
+        ],
+        [
+          "V",
+          "N",
+          "R",
+          "P",
+          "D",
+          "D",
+          "V",
+          "P",
+          "V"
+        ],
+        [
+          "Z",
+          "A",
+          "C",
+          "X",
+          "Y",
+          "J",
+          "E",
+          "G",
+          "K"
+        ],
+        [
+          "E",
+          "B",
+          "D",
+          "S",
+          "G",
+          "B",
+          "K",
+          "C",
+          "G"
+        ],
+        [
+          "R",
+          "N",
+          "J",
+          "N",
+          "F",
+          "E",
+          "U",
+          "M",
+          "A"
+        ],
+        [
+          "R",
+          "N",
+          "I",
+          "H",
+          "E",
+          "B",
+          "N",
+          "R",
+          "L"
+        ],
+        [
+          "Y",
+          "Q",
+          "A",
+          "V",
+          "N",
+          "H",
+          "E",
+          "E",
+          "E"
+        ],
+        [
+          "L",
+          "L",
+          "R",
+          "O",
+          "K",
+          "U",
+          "G",
+          "S",
+          "P"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "VINE",
+          "startRow": 7,
+          "startCol": 3,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "GALE",
+          "startRow": 4,
+          "startCol": 8,
+          "direction": "TB"
+        },
+        {
+          "word": "RED",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "RUBY",
+          "startRow": 6,
+          "startCol": 7,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "WAVE",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "BUCK",
+          "startRow": 6,
+          "startCol": 5,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "HEN",
+          "startRow": 7,
+          "startCol": 5,
+          "direction": "DIAG_UP_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 437,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "STAR",
+        "WATER",
+        "LEAF",
+        "FOG",
+        "WOOL"
+      ],
+      "grid": [
+        [
+          "X",
+          "D",
+          "P",
+          "F",
+          "F",
+          "J",
+          "D",
+          "D",
+          "H"
+        ],
+        [
+          "V",
+          "W",
+          "A",
+          "L",
+          "G",
+          "L",
+          "D",
+          "K",
+          "B"
+        ],
+        [
+          "B",
+          "E",
+          "R",
+          "O",
+          "W",
+          "M",
+          "L",
+          "D",
+          "W"
+        ],
+        [
+          "L",
+          "F",
+          "F",
+          "E",
+          "L",
+          "D",
+          "K",
+          "Y",
+          "J"
+        ],
+        [
+          "G",
+          "H",
+          "W",
+          "Q",
+          "T",
+          "S",
+          "W",
+          "R",
+          "Y"
+        ],
+        [
+          "I",
+          "T",
+          "G",
+          "O",
+          "I",
+          "A",
+          "A",
+          "H",
+          "Z"
+        ],
+        [
+          "L",
+          "C",
+          "Y",
+          "X",
+          "O",
+          "T",
+          "W",
+          "V",
+          "X"
+        ],
+        [
+          "F",
+          "F",
+          "F",
+          "J",
+          "S",
+          "L",
+          "C",
+          "P",
+          "S"
+        ],
+        [
+          "I",
+          "L",
+          "J",
+          "K",
+          "D",
+          "B",
+          "O",
+          "O",
+          "D"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "STAR",
+          "startRow": 7,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "WATER",
+          "startRow": 6,
+          "startCol": 6,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "LEAF",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "FOG",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "WOOL",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 438,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "MOLE",
+        "POST",
+        "KOI",
+        "OTTER",
+        "DOME",
+        "SMILE"
+      ],
+      "grid": [
+        [
+          "A",
+          "F",
+          "W",
+          "Y",
+          "B",
+          "R",
+          "X",
+          "C",
+          "A"
+        ],
+        [
+          "N",
+          "E",
+          "P",
+          "I",
+          "M",
+          "A",
+          "T",
+          "B",
+          "H"
+        ],
+        [
+          "N",
+          "J",
+          "L",
+          "O",
+          "T",
+          "T",
+          "E",
+          "R",
+          "D"
+        ],
+        [
+          "X",
+          "Q",
+          "P",
+          "I",
+          "O",
+          "E",
+          "X",
+          "W",
+          "H"
+        ],
+        [
+          "O",
+          "M",
+          "K",
+          "O",
+          "M",
+          "A",
+          "P",
+          "J",
+          "S"
+        ],
+        [
+          "S",
+          "G",
+          "E",
+          "O",
+          "S",
+          "S",
+          "H",
+          "D",
+          "Z"
+        ],
+        [
+          "N",
+          "K",
+          "M",
+          "L",
+          "I",
+          "T",
+          "O",
+          "O",
+          "X"
+        ],
+        [
+          "P",
+          "T",
+          "C",
+          "X",
+          "O",
+          "M",
+          "N",
+          "D",
+          "L"
+        ],
+        [
+          "K",
+          "M",
+          "I",
+          "F",
+          "E",
+          "M",
+          "D",
+          "A",
+          "Z"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "MOLE",
+          "startRow": 8,
+          "startCol": 5,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "POST",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "KOI",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "OTTER",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "DOME",
+          "startRow": 5,
+          "startCol": 7,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "SMILE",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "DIAG_UP_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 439,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "ANT",
+        "ROPE",
+        "OPAL",
+        "CORD",
+        "TEAL"
+      ],
+      "grid": [
+        [
+          "J",
+          "Q",
+          "D",
+          "C",
+          "B",
+          "I",
+          "R",
+          "B",
+          "Z"
+        ],
+        [
+          "K",
+          "Y",
+          "Y",
+          "O",
+          "K",
+          "Y",
+          "O",
+          "P",
+          "Z"
+        ],
+        [
+          "T",
+          "I",
+          "L",
+          "R",
+          "J",
+          "L",
+          "P",
+          "Y",
+          "S"
+        ],
+        [
+          "N",
+          "M",
+          "R",
+          "D",
+          "A",
+          "J",
+          "E",
+          "Y",
+          "R"
+        ],
+        [
+          "Z",
+          "K",
+          "B",
+          "P",
+          "L",
+          "A",
+          "E",
+          "T",
+          "G"
+        ],
+        [
+          "I",
+          "L",
+          "O",
+          "L",
+          "U",
+          "W",
+          "Y",
+          "B",
+          "X"
+        ],
+        [
+          "X",
+          "A",
+          "W",
+          "Q",
+          "F",
+          "R",
+          "E",
+          "S",
+          "B"
+        ],
+        [
+          "O",
+          "J",
+          "N",
+          "Y",
+          "C",
+          "O",
+          "E",
+          "R",
+          "F"
+        ],
+        [
+          "Y",
+          "P",
+          "X",
+          "T",
+          "S",
+          "D",
+          "I",
+          "I",
+          "H"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "ANT",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "ROPE",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "OPAL",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CORD",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "TEAL",
+          "startRow": 4,
+          "startCol": 7,
+          "direction": "RL"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 440,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "JUICE",
+        "FOREST",
+        "TAP",
+        "PIPE",
+        "HOOD",
+        "CARD",
+        "PINE"
+      ],
+      "grid": [
+        [
+          "C",
+          "R",
+          "Z",
+          "W",
+          "K",
+          "H",
+          "F",
+          "V",
+          "P"
+        ],
+        [
+          "B",
+          "A",
+          "O",
+          "T",
+          "F",
+          "T",
+          "Q",
+          "I",
+          "W"
+        ],
+        [
+          "B",
+          "Z",
+          "R",
+          "J",
+          "O",
+          "E",
+          "N",
+          "D",
+          "X"
+        ],
+        [
+          "G",
+          "D",
+          "O",
+          "D",
+          "R",
+          "E",
+          "P",
+          "H",
+          "L"
+        ],
+        [
+          "H",
+          "T",
+          "Q",
+          "Z",
+          "E",
+          "J",
+          "Q",
+          "I",
+          "U"
+        ],
+        [
+          "F",
+          "O",
+          "T",
+          "P",
+          "S",
+          "U",
+          "O",
+          "Y",
+          "P"
+        ],
+        [
+          "X",
+          "A",
+          "O",
+          "A",
+          "T",
+          "I",
+          "G",
+          "U",
+          "O"
+        ],
+        [
+          "Z",
+          "F",
+          "F",
+          "D",
+          "P",
+          "C",
+          "N",
+          "T",
+          "H"
+        ],
+        [
+          "U",
+          "D",
+          "J",
+          "P",
+          "W",
+          "E",
+          "L",
+          "F",
+          "M"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "JUICE",
+          "startRow": 4,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "FOREST",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "TAP",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "PIPE",
+          "startRow": 5,
+          "startCol": 8,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "HOOD",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "CARD",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "PINE",
+          "startRow": 0,
+          "startCol": 8,
+          "direction": "DIAG_DOWN_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 441,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "LION",
+        "SQUID",
+        "NEWT",
+        "KITE",
+        "VALE",
+        "ROBIN"
+      ],
+      "grid": [
+        [
+          "U",
+          "I",
+          "D",
+          "U",
+          "P",
+          "S",
+          "E",
+          "B",
+          "M"
+        ],
+        [
+          "Y",
+          "G",
+          "I",
+          "D",
+          "S",
+          "E",
+          "H",
+          "G",
+          "G"
+        ],
+        [
+          "L",
+          "D",
+          "U",
+          "R",
+          "J",
+          "O",
+          "E",
+          "M",
+          "G"
+        ],
+        [
+          "Z",
+          "N",
+          "Q",
+          "L",
+          "I",
+          "O",
+          "N",
+          "N",
+          "G"
+        ],
+        [
+          "T",
+          "T",
+          "S",
+          "W",
+          "V",
+          "X",
+          "V",
+          "E",
+          "R"
+        ],
+        [
+          "D",
+          "C",
+          "K",
+          "G",
+          "T",
+          "A",
+          "Z",
+          "W",
+          "S"
+        ],
+        [
+          "H",
+          "R",
+          "A",
+          "I",
+          "L",
+          "T",
+          "W",
+          "T",
+          "M"
+        ],
+        [
+          "L",
+          "S",
+          "B",
+          "E",
+          "T",
+          "Q",
+          "Z",
+          "E",
+          "D"
+        ],
+        [
+          "N",
+          "I",
+          "B",
+          "O",
+          "R",
+          "E",
+          "W",
+          "O",
+          "W"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "LION",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "SQUID",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "BT"
+        },
+        {
+          "word": "NEWT",
+          "startRow": 3,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "KITE",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "VALE",
+          "startRow": 4,
+          "startCol": 6,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "ROBIN",
+          "startRow": 8,
+          "startCol": 4,
+          "direction": "RL"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 442,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "PURPLE",
+        "DEW",
+        "MIST",
+        "EAGLE",
+        "ROPE",
+        "MILL"
+      ],
+      "grid": [
+        [
+          "F",
+          "Z",
+          "U",
+          "T",
+          "N",
+          "D",
+          "U",
+          "B",
+          "D"
+        ],
+        [
+          "E",
+          "B",
+          "M",
+          "I",
+          "L",
+          "L",
+          "G",
+          "K",
+          "D"
+        ],
+        [
+          "P",
+          "E",
+          "V",
+          "T",
+          "S",
+          "I",
+          "M",
+          "O",
+          "L"
+        ],
+        [
+          "O",
+          "A",
+          "O",
+          "T",
+          "Q",
+          "O",
+          "A",
+          "Q",
+          "E"
+        ],
+        [
+          "R",
+          "G",
+          "W",
+          "T",
+          "F",
+          "S",
+          "X",
+          "T",
+          "W"
+        ],
+        [
+          "U",
+          "L",
+          "Y",
+          "L",
+          "W",
+          "Y",
+          "B",
+          "J",
+          "V"
+        ],
+        [
+          "W",
+          "E",
+          "W",
+          "E",
+          "D",
+          "V",
+          "U",
+          "V",
+          "J"
+        ],
+        [
+          "T",
+          "C",
+          "T",
+          "P",
+          "H",
+          "R",
+          "B",
+          "R",
+          "F"
+        ],
+        [
+          "E",
+          "L",
+          "P",
+          "R",
+          "U",
+          "P",
+          "B",
+          "O",
+          "O"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "PURPLE",
+          "startRow": 8,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "DEW",
+          "startRow": 6,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "MIST",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "EAGLE",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "ROPE",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "MILL",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 443,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "BOX",
+        "DEER",
+        "APE",
+        "CORK",
+        "FOX",
+        "VALE",
+        "BANANA"
+      ],
+      "grid": [
+        [
+          "M",
+          "A",
+          "N",
+          "A",
+          "N",
+          "A",
+          "B",
+          "D",
+          "S"
+        ],
+        [
+          "Z",
+          "V",
+          "X",
+          "E",
+          "Y",
+          "U",
+          "E",
+          "P",
+          "L"
+        ],
+        [
+          "H",
+          "A",
+          "K",
+          "V",
+          "D",
+          "E",
+          "W",
+          "K",
+          "Z"
+        ],
+        [
+          "T",
+          "L",
+          "C",
+          "Q",
+          "R",
+          "F",
+          "X",
+          "Y",
+          "G"
+        ],
+        [
+          "A",
+          "E",
+          "Q",
+          "N",
+          "G",
+          "C",
+          "O",
+          "P",
+          "O"
+        ],
+        [
+          "P",
+          "C",
+          "O",
+          "R",
+          "K",
+          "R",
+          "S",
+          "X",
+          "X"
+        ],
+        [
+          "E",
+          "B",
+          "F",
+          "Z",
+          "O",
+          "F",
+          "H",
+          "J",
+          "U"
+        ],
+        [
+          "E",
+          "T",
+          "O",
+          "W",
+          "O",
+          "O",
+          "T",
+          "Z",
+          "A"
+        ],
+        [
+          "Y",
+          "Y",
+          "C",
+          "X",
+          "C",
+          "J",
+          "A",
+          "K",
+          "L"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BOX",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "DEER",
+          "startRow": 0,
+          "startCol": 7,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "APE",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "CORK",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "FOX",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "VALE",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "BANANA",
+          "startRow": 0,
+          "startCol": 6,
+          "direction": "RL"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 444,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "HILL",
+        "BIRD",
+        "WIRE",
+        "WOOL",
+        "ROSE"
+      ],
+      "grid": [
+        [
+          "Q",
+          "S",
+          "L",
+          "L",
+          "I",
+          "H",
+          "D",
+          "X",
+          "L"
+        ],
+        [
+          "O",
+          "E",
+          "L",
+          "S",
+          "D",
+          "R",
+          "M",
+          "S",
+          "O"
+        ],
+        [
+          "T",
+          "C",
+          "J",
+          "E",
+          "I",
+          "C",
+          "W",
+          "R",
+          "T"
+        ],
+        [
+          "K",
+          "T",
+          "X",
+          "B",
+          "N",
+          "J",
+          "I",
+          "V",
+          "W"
+        ],
+        [
+          "B",
+          "Z",
+          "W",
+          "C",
+          "Q",
+          "U",
+          "R",
+          "D",
+          "W"
+        ],
+        [
+          "U",
+          "Z",
+          "O",
+          "U",
+          "U",
+          "V",
+          "E",
+          "U",
+          "R"
+        ],
+        [
+          "D",
+          "G",
+          "O",
+          "D",
+          "F",
+          "K",
+          "L",
+          "K",
+          "O"
+        ],
+        [
+          "M",
+          "C",
+          "L",
+          "Z",
+          "K",
+          "A",
+          "J",
+          "L",
+          "S"
+        ],
+        [
+          "E",
+          "Z",
+          "X",
+          "V",
+          "K",
+          "E",
+          "W",
+          "V",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "HILL",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "BIRD",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "WIRE",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "WOOL",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "ROSE",
+          "startRow": 5,
+          "startCol": 8,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 445,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "RED",
+        "KOI",
+        "IRON",
+        "DRUM",
+        "PEN"
+      ],
+      "grid": [
+        [
+          "U",
+          "G",
+          "R",
+          "V",
+          "T",
+          "F",
+          "Q",
+          "G",
+          "Y"
+        ],
+        [
+          "N",
+          "M",
+          "B",
+          "X",
+          "A",
+          "L",
+          "T",
+          "U",
+          "Y"
+        ],
+        [
+          "S",
+          "Z",
+          "U",
+          "I",
+          "I",
+          "M",
+          "C",
+          "M",
+          "A"
+        ],
+        [
+          "Z",
+          "I",
+          "R",
+          "Z",
+          "F",
+          "K",
+          "K",
+          "O",
+          "I"
+        ],
+        [
+          "X",
+          "O",
+          "D",
+          "S",
+          "N",
+          "N",
+          "E",
+          "I",
+          "M"
+        ],
+        [
+          "N",
+          "H",
+          "P",
+          "R",
+          "E",
+          "D",
+          "U",
+          "U",
+          "U"
+        ],
+        [
+          "N",
+          "F",
+          "E",
+          "K",
+          "C",
+          "J",
+          "Q",
+          "W",
+          "R"
+        ],
+        [
+          "U",
+          "Z",
+          "N",
+          "V",
+          "L",
+          "K",
+          "V",
+          "M",
+          "D"
+        ],
+        [
+          "N",
+          "W",
+          "F",
+          "Q",
+          "B",
+          "G",
+          "I",
+          "H",
+          "P"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "RED",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "KOI",
+          "startRow": 3,
+          "startCol": 6,
+          "direction": "LR"
+        },
+        {
+          "word": "IRON",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "DRUM",
+          "startRow": 7,
+          "startCol": 8,
+          "direction": "BT"
+        },
+        {
+          "word": "PEN",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "TB"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 446,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "BEACH",
+        "BED",
+        "GUST",
+        "CAT",
+        "KOALA",
+        "DEW"
+      ],
+      "grid": [
+        [
+          "C",
+          "G",
+          "H",
+          "O",
+          "W",
+          "A",
+          "E",
+          "L",
+          "E"
+        ],
+        [
+          "V",
+          "J",
+          "N",
+          "R",
+          "D",
+          "X",
+          "J",
+          "G",
+          "Y"
+        ],
+        [
+          "B",
+          "E",
+          "A",
+          "C",
+          "H",
+          "E",
+          "K",
+          "K",
+          "J"
+        ],
+        [
+          "H",
+          "T",
+          "O",
+          "F",
+          "B",
+          "Z",
+          "B",
+          "A",
+          "R"
+        ],
+        [
+          "P",
+          "B",
+          "A",
+          "U",
+          "P",
+          "K",
+          "C",
+          "X",
+          "O"
+        ],
+        [
+          "O",
+          "D",
+          "V",
+          "L",
+          "F",
+          "G",
+          "F",
+          "A",
+          "B"
+        ],
+        [
+          "M",
+          "X",
+          "E",
+          "O",
+          "A",
+          "G",
+          "U",
+          "S",
+          "T"
+        ],
+        [
+          "O",
+          "C",
+          "Y",
+          "W",
+          "V",
+          "O",
+          "P",
+          "K",
+          "F"
+        ],
+        [
+          "M",
+          "O",
+          "S",
+          "R",
+          "C",
+          "W",
+          "K",
+          "D",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BEACH",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "BED",
+          "startRow": 3,
+          "startCol": 6,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "GUST",
+          "startRow": 6,
+          "startCol": 5,
+          "direction": "LR"
+        },
+        {
+          "word": "CAT",
+          "startRow": 4,
+          "startCol": 6,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "KOALA",
+          "startRow": 8,
+          "startCol": 6,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "DEW",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 447,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "BAG",
+        "SHOP",
+        "HEN",
+        "CROW",
+        "COW"
+      ],
+      "grid": [
+        [
+          "L",
+          "T",
+          "G",
+          "P",
+          "W",
+          "I",
+          "Y",
+          "C",
+          "W"
+        ],
+        [
+          "Y",
+          "Y",
+          "N",
+          "E",
+          "O",
+          "S",
+          "X",
+          "X",
+          "E"
+        ],
+        [
+          "D",
+          "Q",
+          "H",
+          "C",
+          "C",
+          "O",
+          "S",
+          "S",
+          "T"
+        ],
+        [
+          "N",
+          "D",
+          "Z",
+          "M",
+          "R",
+          "I",
+          "U",
+          "X",
+          "L"
+        ],
+        [
+          "F",
+          "A",
+          "L",
+          "A",
+          "H",
+          "O",
+          "Y",
+          "L",
+          "D"
+        ],
+        [
+          "S",
+          "J",
+          "N",
+          "T",
+          "K",
+          "E",
+          "W",
+          "Q",
+          "S"
+        ],
+        [
+          "P",
+          "Z",
+          "Y",
+          "B",
+          "A",
+          "G",
+          "N",
+          "R",
+          "H"
+        ],
+        [
+          "U",
+          "J",
+          "Q",
+          "W",
+          "Z",
+          "P",
+          "Y",
+          "B",
+          "O"
+        ],
+        [
+          "R",
+          "U",
+          "F",
+          "Q",
+          "V",
+          "P",
+          "M",
+          "I",
+          "P"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "BAG",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "SHOP",
+          "startRow": 5,
+          "startCol": 8,
+          "direction": "TB"
+        },
+        {
+          "word": "HEN",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "CROW",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "COW",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "BT"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 448,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "CLOD",
+        "APE",
+        "BULL",
+        "HAND",
+        "SILK"
+      ],
+      "grid": [
+        [
+          "I",
+          "W",
+          "W",
+          "W",
+          "B",
+          "D",
+          "T",
+          "A",
+          "Q"
+        ],
+        [
+          "L",
+          "N",
+          "Y",
+          "F",
+          "V",
+          "U",
+          "O",
+          "C",
+          "K"
+        ],
+        [
+          "T",
+          "Q",
+          "G",
+          "I",
+          "A",
+          "D",
+          "L",
+          "L",
+          "I"
+        ],
+        [
+          "R",
+          "T",
+          "V",
+          "V",
+          "A",
+          "V",
+          "B",
+          "L",
+          "C"
+        ],
+        [
+          "P",
+          "D",
+          "P",
+          "J",
+          "T",
+          "O",
+          "S",
+          "V",
+          "U"
+        ],
+        [
+          "A",
+          "N",
+          "K",
+          "S",
+          "I",
+          "L",
+          "K",
+          "G",
+          "A"
+        ],
+        [
+          "T",
+          "A",
+          "Z",
+          "Z",
+          "V",
+          "F",
+          "A",
+          "T",
+          "G"
+        ],
+        [
+          "D",
+          "H",
+          "T",
+          "I",
+          "C",
+          "A",
+          "Q",
+          "P",
+          "C"
+        ],
+        [
+          "Z",
+          "H",
+          "J",
+          "B",
+          "V",
+          "H",
+          "E",
+          "I",
+          "E"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "CLOD",
+          "startRow": 3,
+          "startCol": 8,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "APE",
+          "startRow": 6,
+          "startCol": 6,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BULL",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "HAND",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "BT"
+        },
+        {
+          "word": "SILK",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "LR"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 449,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "FAWN",
+        "KOI",
+        "EAGLE",
+        "PINE",
+        "DISH",
+        "FERN"
+      ],
+      "grid": [
+        [
+          "G",
+          "J",
+          "S",
+          "O",
+          "Q",
+          "E",
+          "B",
+          "B",
+          "F"
+        ],
+        [
+          "E",
+          "R",
+          "O",
+          "F",
+          "E",
+          "H",
+          "N",
+          "K",
+          "P"
+        ],
+        [
+          "P",
+          "W",
+          "E",
+          "U",
+          "T",
+          "X",
+          "O",
+          "I",
+          "Q"
+        ],
+        [
+          "D",
+          "R",
+          "C",
+          "D",
+          "H",
+          "I",
+          "F",
+          "F",
+          "P"
+        ],
+        [
+          "N",
+          "N",
+          "K",
+          "E",
+          "A",
+          "Z",
+          "F",
+          "F",
+          "D"
+        ],
+        [
+          "W",
+          "S",
+          "X",
+          "A",
+          "L",
+          "Y",
+          "X",
+          "M",
+          "I"
+        ],
+        [
+          "L",
+          "F",
+          "A",
+          "W",
+          "N",
+          "G",
+          "M",
+          "W",
+          "S"
+        ],
+        [
+          "D",
+          "Y",
+          "T",
+          "C",
+          "R",
+          "W",
+          "A",
+          "O",
+          "H"
+        ],
+        [
+          "O",
+          "Y",
+          "U",
+          "L",
+          "F",
+          "B",
+          "T",
+          "E",
+          "M"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "FAWN",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "KOI",
+          "startRow": 1,
+          "startCol": 7,
+          "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "EAGLE",
+          "startRow": 8,
+          "startCol": 7,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "PINE",
+          "startRow": 3,
+          "startCol": 8,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "DISH",
+          "startRow": 4,
+          "startCol": 8,
+          "direction": "TB"
+        },
+        {
+          "word": "FERN",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "DIAG_DOWN_REV"
+        }
+      ],
+      "timeLimit": 105
+    },
+    {
+      "id": 450,
+      "world": "Volcano Isle",
+      "difficulty": 4,
+      "gridSize": 9,
+      "words": [
+        "RIVER",
+        "HALL",
+        "CLOUDS",
+        "NOTE",
+        "COMB",
+        "JUICE"
+      ],
+      "grid": [
+        [
+          "Z",
+          "M",
+          "X",
+          "W",
+          "E",
+          "B",
+          "H",
+          "I",
+          "Z"
+        ],
+        [
+          "M",
+          "Y",
+          "Z",
+          "S",
+          "R",
+          "C",
+          "M",
+          "O",
+          "S"
+        ],
+        [
+          "O",
+          "O",
+          "I",
+          "D",
+          "C",
+          "I",
+          "I",
+          "O",
+          "B"
+        ],
+        [
+          "L",
+          "V",
+          "Q",
+          "U",
+          "H",
+          "A",
+          "V",
+          "U",
+          "C"
+        ],
+        [
+          "L",
+          "A",
+          "U",
+          "O",
+          "K",
+          "G",
+          "X",
+          "E",
+          "J"
+        ],
+        [
+          "A",
+          "G",
+          "V",
+          "L",
+          "N",
+          "O",
+          "T",
+          "E",
+          "R"
+        ],
+        [
+          "H",
+          "U",
+          "M",
+          "C",
+          "A",
+          "L",
+          "B",
+          "E",
+          "N"
+        ],
+        [
+          "A",
+          "Y",
+          "G",
+          "O",
+          "J",
+          "B",
+          "Y",
+          "K",
+          "S"
+        ],
+        [
+          "J",
+          "D",
+          "Y",
+          "T",
+          "N",
+          "B",
+          "G",
+          "R",
+          "S"
+        ]
+      ],
+      "wordPositions": [
+        {
+          "word": "RIVER",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "HALL",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "CLOUDS",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "BT"
+        },
+        {
+          "word": "NOTE",
+          "startRow": 5,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "COMB",
+          "startRow": 3,
+          "startCol": 8,
+          "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "JUICE",
+          "startRow": 4,
+          "startCol": 8,
+          "direction": "DIAG_UP_REV"
+        }
+      ],
+      "timeLimit": 105
+    }
+  ]
+}
