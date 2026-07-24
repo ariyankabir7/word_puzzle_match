@@ -51,18 +51,22 @@ class WordPosition {
         dc = 0;
         break;
       case 'DIAG_DOWN':
+      case 'TLBR':
         dr = 1;
         dc = 1;
         break;
       case 'DIAG_UP':
+      case 'BLTR':
         dr = -1;
         dc = 1;
         break;
       case 'DIAG_DOWN_REV':
+      case 'TRBL':
         dr = 1;
         dc = -1;
         break;
       case 'DIAG_UP_REV':
+      case 'BRTL':
         dr = -1;
         dc = -1;
         break;

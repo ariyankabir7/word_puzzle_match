@@ -31,7 +31,7 @@ class _WorldMapScreenState extends ConsumerState<WorldMapScreen> {
   @override
   void initState() {
     super.initState();
-    _scrollController = ScrollController();
+    _scrollController = ScrollController(initialScrollOffset: canvasHeight);
     _activeWorldNumber = widget.worldNumber;
     WidgetsBinding.instance.addPostFrameCallback((_) => _scrollToCurrentLevel());
   }
@@ -48,7 +48,7 @@ class _WorldMapScreenState extends ConsumerState<WorldMapScreen> {
 
     if (_activeWorldNumber == currentWorldOfPlayer) {
       final currentLevelInWorld = ((progress.currentLevel - 1) % levelsPerWorld);
-      final targetY = canvasHeight - (currentLevelInWorld + 1) * nodeSpacingY - 200;
+      final targetY = canvasHeight - (currentLevelInWorld + 1) * nodeSpacingY - 100;
       if (_scrollController.hasClients) {
         _scrollController.animateTo(
           targetY.clamp(0, _scrollController.position.maxScrollExtent),
@@ -88,83 +88,97 @@ class _WorldMapScreenState extends ConsumerState<WorldMapScreen> {
     final startLevel = (_activeWorldNumber - 1) * levelsPerWorld + 1;
     final unlockedCount = (progress.currentLevel - startLevel).clamp(0, levelsPerWorld);
 
-    return Scaffold(
-      body: Stack(
-        children: [
-          // Map Background
-          Positioned.fill(
-            child: Image.asset(
-              AppImages.bgMap,
-              fit: BoxFit.cover,
-            ),
-          ),
-
-          SafeArea(
-            child: Column(
-              children: [
-                // Top Resources Header (Lives, Coins, Gems)
-                _buildTopResourcesBar(progress, context),
-
-                // Level Progress Card
-                _buildLevelProgressBar(progress),
-
-                // Map Path and Level Nodes (Centered, Full Height)
-                Expanded(
-                  child: LayoutBuilder(
-                    builder: (context, constraints) {
-                      final screenWidth = constraints.maxWidth;
-                      final nodePositions = _computeNodePositions(screenWidth);
-
-                      return SingleChildScrollView(
-                        controller: _scrollController,
-                        physics: const BouncingScrollPhysics(),
-                        child: SizedBox(
-                          width: double.infinity,
-                          height: canvasHeight,
-                          child: Stack(
-                            children: [
-                              // Path Line (High Contrast & Centered)
-                              Positioned.fill(
-                                child: CustomPaint(
-                                  painter: PathPainter(
-                                    nodePositions: nodePositions,
-                                    unlockedUpTo: unlockedCount,
-                                    pathColor: const Color(0xFFFFB300),
-                                    pathDashColor: const Color(0xFFFFFBEA),
-                                  ),
-                                ),
-                              ),
-
-                              // Floating Chests & Trophy Decors
-                              ..._buildDecorations(nodePositions),
-
-                              // Level Nodes
-                              ...List.generate(levelsPerWorld, (index) {
-                                final lvlNumber = startLevel + index;
-                                final pos = nodePositions[index];
-                                final state = worldState.nodeStateForLevel(lvlNumber);
-
-                                return Positioned(
-                                  left: pos.dx - 27,
-                                  top: pos.dy - 27,
-                                  child: LevelNodeWidget(
-                                    levelNumber: lvlNumber,
-                                    state: state,
-                                    onTap: () => context.push('${AppRoutes.gameplay}?level=$lvlNumber'),
-                                  ),
-                                );
-                              }),
-                            ],
-                          ),
-                        ),
-                      );
-                    },
-                  ),
+    return PopScope(
+      canPop: false,
+      onPopInvokedWithResult: (didPop, result) {
+        if (!didPop) {
+          context.go(AppRoutes.home);
+        }
+      },
+      child: Scaffold(
+        body: SizedBox.expand(
+          child: Stack(
+            fit: StackFit.expand,
+            children: [
+              // Map Background
+              Positioned.fill(
+                child: Image.asset(
+                  AppImages.bgMap,
+                  fit: BoxFit.cover,
+                  width: double.infinity,
+                  height: double.infinity,
+                  alignment: Alignment.center,
                 ),
-              ],
-            ),
+              ),
+
+              SafeArea(
+                child: Column(
+                  children: [
+                    // Top Resources Header (Back button, Lives, Coins, Gems)
+                    _buildTopResourcesBar(progress, context),
+
+                    // Level Progress Card
+                    _buildLevelProgressBar(progress),
+
+                    // Map Path and Level Nodes (Centered, Full Height)
+                    Expanded(
+                      child: LayoutBuilder(
+                        builder: (context, constraints) {
+                          final screenWidth = constraints.maxWidth;
+                          final nodePositions = _computeNodePositions(screenWidth);
+
+                          return SingleChildScrollView(
+                            controller: _scrollController,
+                            physics: const BouncingScrollPhysics(),
+                            child: SizedBox(
+                              width: double.infinity,
+                              height: canvasHeight,
+                              child: Stack(
+                                children: [
+                                  // Path Line (High Contrast & Centered)
+                                  Positioned.fill(
+                                    child: CustomPaint(
+                                      painter: PathPainter(
+                                        nodePositions: nodePositions,
+                                        unlockedUpTo: unlockedCount,
+                                        pathColor: const Color(0xFFFFB300),
+                                        pathDashColor: const Color(0xFFFFFBEA),
+                                      ),
+                                    ),
+                                  ),
+
+                                  // Floating Chests & Trophy Decors
+                                  ..._buildDecorations(nodePositions),
+
+                                  // Level Nodes
+                                  ...List.generate(levelsPerWorld, (index) {
+                                    final lvlNumber = startLevel + index;
+                                    final pos = nodePositions[index];
+                                    final state = worldState.nodeStateForLevel(lvlNumber);
+
+                                    return Positioned(
+                                      left: pos.dx - 27,
+                                      top: pos.dy - 27,
+                                      child: LevelNodeWidget(
+                                        levelNumber: lvlNumber,
+                                        state: state,
+                                        onTap: () => context.push('${AppRoutes.gameplay}?level=$lvlNumber'),
+                                      ),
+                                    );
+                                  }),
+                                ],
+                              ),
+                            ),
+                          );
+                        },
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
           ),
-        ],
+        ),
       ),
     );
   }
@@ -175,6 +189,26 @@ class _WorldMapScreenState extends ConsumerState<WorldMapScreen> {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
+          // Home / Back Button
+          GestureDetector(
+            onTap: () => context.go(AppRoutes.home),
+            child: Container(
+              padding: const EdgeInsets.all(8),
+              decoration: BoxDecoration(
+                color: const Color(0xFF263238).withValues(alpha: 0.85),
+                shape: BoxShape.circle,
+                border: Border.all(color: Colors.white38, width: 1.5),
+                boxShadow: const [
+                  BoxShadow(
+                    color: Color(0x33000000),
+                    blurRadius: 4,
+                    offset: Offset(0, 2),
+                  ),
+                ],
+              ),
+              child: const Icon(Icons.arrow_back_rounded, color: Colors.white, size: 20),
+            ),
+          ),
           // Lives Pill
           _ResourcePill(
             icon: const Icon(Icons.favorite_rounded, color: Colors.white, size: 16),

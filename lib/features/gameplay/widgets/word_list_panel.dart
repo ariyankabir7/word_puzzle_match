@@ -26,7 +26,7 @@ class WordListPanel extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomPaint(
-      painter: const _CloudRectBorderPainter(),
+      painter: const CloudRectBorderPainter(),
       child: Container(
         width: double.infinity,
         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
@@ -70,8 +70,8 @@ class WordListPanel extends StatelessWidget {
   }
 }
 
-class _CloudRectBorderPainter extends CustomPainter {
-  const _CloudRectBorderPainter();
+class CloudRectBorderPainter extends CustomPainter {
+  const CloudRectBorderPainter();
 
   @override
   void paint(Canvas canvas, Size size) {

@@ -6,130 +6,126 @@
       "id": 101,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "WORD",
-        "MUD",
-        "FIRE",
-        "PLUM",
-        "MINE",
-        "WICK",
-        "WAGING",
-        "ATTIC"
+        "ZEBRA",
+        "GNU",
+        "BRONZE",
+        "DOVE",
+        "HELMET"
       ],
       "grid": [
         [
-          "D",
-          "C",
-          "I",
-          "T",
-          "T",
-          "A",
-          "M"
-        ],
-        [
-          "W",
-          "A",
-          "G",
-          "I",
-          "N",
-          "G",
-          "I"
-        ],
-        [
-          "P",
           "F",
-          "J",
+          "T",
+          "T",
+          "D",
+          "G",
+          "A",
+          "D",
+          "Q"
+        ],
+        [
+          "G",
+          "N",
+          "U",
           "O",
           "X",
-          "B",
-          "N"
+          "V",
+          "G",
+          "R"
         ],
         [
-          "L",
-          "I",
+          "H",
           "W",
-          "O",
-          "R",
+          "Z",
+          "V",
+          "D",
+          "T",
           "D",
           "E"
         ],
         [
-          "U",
-          "R",
           "I",
-          "M",
-          "U",
-          "D",
-          "N"
-        ],
-        [
-          "M",
           "E",
-          "C",
-          "I",
-          "W",
-          "K",
-          "A"
+          "H",
+          "E",
+          "B",
+          "Y",
+          "Z",
+          "E"
         ],
         [
-          "M",
-          "Q",
-          "K",
-          "Z",
-          "F",
+          "X",
+          "L",
+          "L",
+          "V",
+          "B",
+          "N",
           "G",
-          "C"
+          "P"
+        ],
+        [
+          "D",
+          "I",
+          "U",
+          "M",
+          "O",
+          "R",
+          "K",
+          "L"
+        ],
+        [
+          "T",
+          "F",
+          "P",
+          "R",
+          "E",
+          "L",
+          "A",
+          "I"
+        ],
+        [
+          "N",
+          "G",
+          "B",
+          "V",
+          "C",
+          "T",
+          "C",
+          "W"
         ]
       ],
       "wordPositions": [
         {
-          "word": "WORD",
-          "startRow": 3,
-          "startCol": 2,
-          "direction": "LR"
-        },
-        {
-          "word": "MUD",
-          "startRow": 4,
-          "startCol": 3,
-          "direction": "LR"
-        },
-        {
-          "word": "FIRE",
+          "word": "ZEBRA",
           "startRow": 2,
-          "startCol": 1,
-          "direction": "TB"
-        },
-        {
-          "word": "PLUM",
-          "startRow": 2,
-          "startCol": 0,
-          "direction": "TB"
-        },
-        {
-          "word": "MINE",
-          "startRow": 0,
-          "startCol": 6,
-          "direction": "TB"
-        },
-        {
-          "word": "WICK",
-          "startRow": 3,
           "startCol": 2,
-          "direction": "TB"
+          "direction": "DIAG_DOWN"
         },
         {
-          "word": "WAGING",
+          "word": "GNU",
           "startRow": 1,
           "startCol": 0,
           "direction": "LR"
         },
         {
-          "word": "ATTIC",
+          "word": "BRONZE",
+          "startRow": 7,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "DOVE",
           "startRow": 0,
-          "startCol": 5,
-          "direction": "RL"
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "HELMET",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
         }
       ],
       "timeLimit": 150
@@ -138,130 +134,126 @@
       "id": 102,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "MOON",
-        "CAKE",
-        "LEMON",
-        "EEL",
-        "BREAD",
-        "APE",
-        "MILES",
-        "PHOBIA"
+        "WATER",
+        "DUSK",
+        "SMILE",
+        "HAT",
+        "MILL"
       ],
       "grid": [
         [
-          "S",
-          "M",
-          "C",
-          "D",
-          "K",
-          "N",
-          "A"
-        ],
-        [
-          "E",
-          "T",
-          "G",
-          "N",
-          "C",
-          "D",
-          "I"
-        ],
-        [
-          "L",
-          "F",
-          "O",
-          "B",
-          "A",
-          "I",
-          "B"
-        ],
-        [
-          "I",
-          "O",
-          "E",
-          "E",
-          "K",
-          "A",
-          "O"
-        ],
-        [
-          "M",
           "Z",
-          "R",
+          "G",
+          "H",
           "E",
+          "V",
+          "Q",
+          "U",
+          "F"
+        ],
+        [
           "E",
           "P",
+          "W",
+          "A",
+          "T",
+          "E",
+          "R",
+          "C"
+        ],
+        [
+          "E",
+          "E",
+          "N",
+          "S",
+          "C",
+          "L",
+          "G",
           "H"
         ],
         [
-          "N",
+          "R",
           "B",
-          "V",
-          "Q",
+          "T",
+          "M",
           "L",
-          "E",
-          "P"
+          "C",
+          "H",
+          "V"
         ],
         [
+          "T",
+          "A",
+          "T",
+          "I",
+          "D",
+          "G",
           "M",
+          "H"
+        ],
+        [
+          "H",
+          "B",
           "M",
           "L",
+          "J",
+          "U",
+          "W",
+          "C"
+        ],
+        [
+          "C",
+          "C",
+          "R",
           "E",
-          "M",
+          "X",
+          "Y",
+          "S",
+          "R"
+        ],
+        [
           "O",
-          "N"
+          "I",
+          "E",
+          "H",
+          "O",
+          "Q",
+          "X",
+          "K"
         ]
       ],
       "wordPositions": [
         {
-          "word": "MOON",
-          "startRow": 4,
-          "startCol": 0,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "CAKE",
+          "word": "WATER",
           "startRow": 1,
-          "startCol": 4,
-          "direction": "TB"
-        },
-        {
-          "word": "LEMON",
-          "startRow": 6,
           "startCol": 2,
           "direction": "LR"
         },
         {
-          "word": "EEL",
-          "startRow": 3,
-          "startCol": 2,
+          "word": "DUSK",
+          "startRow": 4,
+          "startCol": 4,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "BREAD",
-          "startRow": 5,
-          "startCol": 1,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "APE",
-          "startRow": 3,
-          "startCol": 5,
+          "word": "SMILE",
+          "startRow": 2,
+          "startCol": 3,
           "direction": "TB"
         },
         {
-          "word": "MILES",
-          "startRow": 4,
+          "word": "HAT",
+          "startRow": 5,
           "startCol": 0,
-          "direction": "BT"
+          "direction": "DIAG_UP"
         },
         {
-          "word": "PHOBIA",
+          "word": "MILL",
           "startRow": 5,
-          "startCol": 6,
-          "direction": "BT"
+          "startCol": 2,
+          "direction": "DIAG_UP"
         }
       ],
       "timeLimit": 150
@@ -270,116 +262,140 @@
       "id": 103,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "ROSE",
-        "MOTH",
-        "SUN",
-        "MOON",
-        "MINTIER",
-        "WOOL"
+        "APPLE",
+        "GRAY",
+        "ANT",
+        "BRONZE",
+        "HAND",
+        "SAIL",
+        "DRUM"
       ],
       "grid": [
         [
-          "L",
-          "M",
+          "J",
           "W",
-          "H",
-          "S",
           "C",
-          "L"
-        ],
-        [
-          "T",
           "O",
           "T",
-          "B",
-          "E",
-          "L",
-          "W"
-        ],
-        [
-          "C",
-          "O",
-          "W",
-          "Z",
-          "C",
-          "N",
-          "E"
-        ],
-        [
-          "M",
-          "N",
-          "O",
-          "S",
+          "K",
           "U",
-          "S",
-          "J"
+          "S"
         ],
         [
-          "R",
-          "S",
-          "O",
-          "S",
-          "O",
+          "W",
+          "C",
           "L",
-          "H"
-        ],
-        [
-          "L",
-          "L",
-          "L",
-          "R",
-          "V",
-          "T",
-          "Y"
-        ],
-        [
-          "R",
-          "E",
-          "I",
-          "T",
           "N",
+          "L",
+          "C",
+          "S",
+          "S"
+        ],
+        [
+          "T",
+          "H",
+          "A",
+          "Y",
+          "L",
+          "E",
+          "S",
+          "V"
+        ],
+        [
+          "S",
+          "M",
+          "A",
+          "P",
+          "Z",
+          "T",
+          "A",
+          "D"
+        ],
+        [
+          "R",
+          "K",
+          "S",
+          "N",
+          "P",
+          "P",
           "I",
-          "M"
+          "S"
+        ],
+        [
+          "H",
+          "U",
+          "O",
+          "H",
+          "D",
+          "L",
+          "L",
+          "O"
+        ],
+        [
+          "D",
+          "R",
+          "U",
+          "M",
+          "F",
+          "T",
+          "E",
+          "S"
+        ],
+        [
+          "B",
+          "V",
+          "G",
+          "R",
+          "A",
+          "Y",
+          "C",
+          "V"
         ]
       ],
       "wordPositions": [
         {
-          "word": "ROSE",
-          "startRow": 5,
-          "startCol": 3,
+          "word": "APPLE",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "GRAY",
+          "startRow": 7,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "ANT",
+          "startRow": 2,
+          "startCol": 2,
           "direction": "DIAG_UP"
         },
         {
-          "word": "MOTH",
-          "startRow": 3,
+          "word": "BRONZE",
+          "startRow": 7,
           "startCol": 0,
           "direction": "DIAG_UP"
         },
         {
-          "word": "SUN",
-          "startRow": 4,
-          "startCol": 3,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "MOON",
-          "startRow": 0,
-          "startCol": 1,
-          "direction": "TB"
-        },
-        {
-          "word": "MINTIER",
-          "startRow": 6,
-          "startCol": 6,
-          "direction": "RL"
-        },
-        {
-          "word": "WOOL",
+          "word": "HAND",
           "startRow": 2,
-          "startCol": 2,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "SAIL",
+          "startRow": 2,
+          "startCol": 6,
           "direction": "TB"
+        },
+        {
+          "word": "DRUM",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "LR"
         }
       ],
       "timeLimit": 150
@@ -388,123 +404,126 @@
       "id": 104,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "GOLD",
-        "ROPE",
-        "CART",
-        "CANDY",
-        "NET",
-        "MAGPIES",
-        "HOKUM"
+        "MAP",
+        "CLOCK",
+        "GLACIER",
+        "BACON",
+        "MILK"
       ],
       "grid": [
         [
-          "M",
-          "R",
-          "H",
-          "O",
           "K",
-          "U",
-          "M"
+          "P",
+          "P",
+          "V",
+          "P",
+          "F",
+          "O",
+          "I"
         ],
         [
-          "A",
-          "C",
-          "A",
-          "N",
-          "D",
+          "B",
+          "B",
+          "P",
+          "Q",
+          "Z",
+          "I",
           "Y",
-          "A"
+          "T"
         ],
         [
           "G",
+          "L",
+          "A",
+          "C",
+          "I",
+          "E",
+          "R",
+          "N"
+        ],
+        [
+          "R",
+          "M",
+          "P",
+          "P",
+          "K",
           "C",
           "O",
-          "J",
-          "R",
-          "A",
-          "E"
+          "H"
         ],
         [
-          "P",
+          "O",
           "A",
-          "N",
+          "I",
+          "C",
+          "T",
+          "C",
+          "Q",
+          "U"
+        ],
+        [
+          "M",
           "L",
-          "K",
-          "P",
-          "B"
+          "O",
+          "L",
+          "A",
+          "O",
+          "X",
+          "T"
         ],
         [
+          "M",
+          "L",
+          "H",
+          "B",
+          "K",
           "I",
           "R",
-          "N",
-          "G",
-          "O",
+          "X"
+        ],
+        [
+          "C",
+          "I",
+          "M",
+          "W",
+          "Y",
+          "Y",
           "L",
-          "D"
-        ],
-        [
-          "E",
-          "T",
-          "E",
-          "R",
-          "O",
-          "R",
-          "O"
-        ],
-        [
-          "S",
-          "U",
-          "T",
-          "A",
-          "K",
-          "B",
-          "D"
+          "B"
         ]
       ],
       "wordPositions": [
         {
-          "word": "GOLD",
-          "startRow": 4,
-          "startCol": 3,
+          "word": "MAP",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CLOCK",
+          "startRow": 7,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GLACIER",
+          "startRow": 2,
+          "startCol": 0,
           "direction": "LR"
         },
         {
-          "word": "ROPE",
-          "startRow": 5,
+          "word": "BACON",
+          "startRow": 6,
           "startCol": 3,
           "direction": "DIAG_UP"
         },
         {
-          "word": "CART",
-          "startRow": 2,
+          "word": "MILK",
+          "startRow": 3,
           "startCol": 1,
-          "direction": "TB"
-        },
-        {
-          "word": "CANDY",
-          "startRow": 1,
-          "startCol": 1,
-          "direction": "LR"
-        },
-        {
-          "word": "NET",
-          "startRow": 4,
-          "startCol": 2,
-          "direction": "TB"
-        },
-        {
-          "word": "MAGPIES",
-          "startRow": 0,
-          "startCol": 0,
-          "direction": "TB"
-        },
-        {
-          "word": "HOKUM",
-          "startRow": 0,
-          "startCol": 2,
-          "direction": "LR"
+          "direction": "DIAG_DOWN"
         }
       ],
       "timeLimit": 150
@@ -513,115 +532,139 @@
       "id": 105,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "GIFT",
-        "COAT",
-        "BANANA",
-        "JUG",
-        "JIMMY",
-        "LINGOES"
+        "WINTER",
+        "SHIP",
+        "COOKIE",
+        "CLOUDS",
+        "MUD",
+        "MOON",
+        "POTATO"
       ],
       "grid": [
         [
-          "B",
-          "B",
-          "A",
-          "N",
-          "A",
-          "N",
-          "A"
-        ],
-        [
-          "Y",
-          "B",
-          "S",
-          "G",
-          "E",
           "L",
-          "F"
+          "W",
+          "S",
+          "H",
+          "I",
+          "P",
+          "L",
+          "X"
         ],
         [
-          "M",
-          "B",
-          "J",
+          "C",
           "C",
           "I",
+          "M",
+          "C",
+          "J",
+          "Q",
+          "L"
+        ],
+        [
+          "V",
+          "L",
+          "O",
           "N",
-          "Z"
+          "O",
+          "U",
+          "S",
+          "B"
+        ],
+        [
+          "V",
+          "Y",
+          "O",
+          "O",
+          "T",
+          "O",
+          "P",
+          "W"
         ],
         [
           "M",
-          "X",
+          "U",
+          "D",
+          "U",
+          "K",
+          "E",
+          "N",
+          "M"
+        ],
+        [
+          "W",
+          "I",
           "U",
           "O",
-          "Y",
-          "F",
-          "O"
-        ],
-        [
+          "D",
           "I",
-          "Q",
-          "G",
-          "A",
-          "M",
-          "N",
-          "T"
+          "R",
+          "G"
         ],
         [
-          "J",
-          "Y",
+          "U",
+          "S",
+          "M",
+          "F",
+          "F",
+          "S",
           "E",
-          "T",
-          "K",
-          "A",
-          "S"
+          "X"
         ],
         [
           "L",
-          "I",
-          "N",
-          "G",
+          "U",
+          "P",
           "O",
-          "E",
-          "S"
+          "T",
+          "A",
+          "T",
+          "O"
         ]
       ],
       "wordPositions": [
         {
-          "word": "GIFT",
+          "word": "WINTER",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "SHIP",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "COOKIE",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "CLOUDS",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "MUD",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "MOON",
           "startRow": 1,
           "startCol": 3,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "COAT",
-          "startRow": 2,
-          "startCol": 3,
-          "direction": "TB"
-        },
-        {
-          "word": "BANANA",
-          "startRow": 0,
-          "startCol": 1,
-          "direction": "LR"
-        },
-        {
-          "word": "JUG",
-          "startRow": 2,
+          "word": "POTATO",
+          "startRow": 7,
           "startCol": 2,
-          "direction": "TB"
-        },
-        {
-          "word": "JIMMY",
-          "startRow": 5,
-          "startCol": 0,
-          "direction": "BT"
-        },
-        {
-          "word": "LINGOES",
-          "startRow": 6,
-          "startCol": 0,
           "direction": "LR"
         }
       ],
@@ -631,116 +674,140 @@
       "id": 106,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "DEER",
-        "FOX",
-        "CORD",
-        "IRON",
-        "HOARIER",
-        "INURES"
+        "GUITAR",
+        "RIVER",
+        "ROSE",
+        "WORD",
+        "SWAN",
+        "GRAPE",
+        "CLOUDS"
       ],
       "grid": [
         [
-          "R",
+          "S",
+          "C",
+          "G",
+          "M",
           "E",
-          "I",
-          "R",
-          "A",
-          "O",
-          "H"
+          "D",
+          "F",
+          "E"
         ],
         [
+          "A",
           "R",
-          "O",
-          "C",
-          "P",
-          "Y",
+          "L",
+          "U",
+          "R",
+          "M",
+          "U",
+          "C"
+        ],
+        [
+          "G",
+          "D",
           "I",
+          "O",
+          "I",
+          "D",
+          "F",
           "P"
         ],
         [
-          "C",
-          "O",
+          "Z",
           "R",
-          "D",
           "W",
-          "R",
-          "K"
-        ],
-        [
-          "E",
-          "W",
-          "X",
-          "D",
-          "A",
-          "O",
-          "Q"
-        ],
-        [
-          "H",
-          "O",
-          "L",
-          "H",
-          "E",
-          "N",
-          "O"
+          "V",
+          "U",
+          "T",
+          "J",
+          "R"
         ],
         [
           "F",
-          "I",
-          "N",
-          "U",
-          "R",
+          "G",
+          "A",
+          "S",
           "E",
-          "S"
+          "D",
+          "A",
+          "Z"
         ],
         [
-          "U",
-          "G",
-          "H",
-          "T",
+          "J",
+          "P",
           "Y",
-          "N",
+          "P",
+          "W",
+          "R",
+          "S",
           "R"
+        ],
+        [
+          "X",
+          "W",
+          "V",
+          "H",
+          "E",
+          "A",
+          "F",
+          "T"
+        ],
+        [
+          "R",
+          "O",
+          "S",
+          "E",
+          "Y",
+          "C",
+          "N",
+          "S"
         ]
       ],
       "wordPositions": [
         {
-          "word": "DEER",
+          "word": "GUITAR",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "RIVER",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "ROSE",
+          "startRow": 7,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "WORD",
           "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SWAN",
+          "startRow": 4,
           "startCol": 3,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "FOX",
-          "startRow": 5,
-          "startCol": 0,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "CORD",
+          "word": "GRAPE",
           "startRow": 2,
           "startCol": 0,
-          "direction": "LR"
+          "direction": "DIAG_DOWN"
         },
         {
-          "word": "IRON",
-          "startRow": 1,
-          "startCol": 5,
-          "direction": "TB"
-        },
-        {
-          "word": "HOARIER",
+          "word": "CLOUDS",
           "startRow": 0,
-          "startCol": 6,
-          "direction": "RL"
-        },
-        {
-          "word": "INURES",
-          "startRow": 5,
           "startCol": 1,
-          "direction": "LR"
+          "direction": "DIAG_DOWN"
         }
       ],
       "timeLimit": 150
@@ -749,123 +816,140 @@
       "id": 107,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "JADE",
-        "VALE",
-        "HILL",
-        "WATER",
-        "COIN",
-        "UNSNAPS",
-        "TOPEKA"
+        "SILVER",
+        "SHEEP",
+        "BEE",
+        "ENERGY",
+        "SPRING",
+        "SHARK",
+        "APE"
       ],
       "grid": [
         [
-          "Z",
-          "P",
-          "C",
-          "O",
-          "I",
-          "N",
-          "U"
-        ],
-        [
-          "W",
-          "A",
-          "T",
-          "E",
-          "R",
+          "F",
+          "S",
           "K",
-          "K"
+          "R",
+          "J",
+          "A",
+          "W",
+          "E"
         ],
         [
-          "V",
           "T",
-          "P",
-          "H",
-          "I",
           "L",
+          "H",
+          "F",
+          "F",
+          "Y",
+          "P",
+          "S"
+        ],
+        [
+          "L",
+          "S",
+          "Y",
+          "A",
+          "G",
+          "A",
+          "G",
+          "I"
+        ],
+        [
+          "L",
+          "L",
+          "H",
+          "R",
+          "R",
+          "N",
+          "T",
           "L"
         ],
         [
-          "N",
-          "A",
-          "J",
-          "A",
-          "D",
+          "I",
           "E",
-          "T"
-        ],
-        [
-          "W",
-          "H",
-          "L",
-          "Q",
-          "J",
-          "C",
-          "W"
-        ],
-        [
-          "W",
-          "A",
+          "E",
+          "E",
+          "I",
           "K",
+          "G",
+          "V"
+        ],
+        [
+          "T",
+          "N",
+          "M",
+          "R",
           "E",
+          "N",
+          "F",
+          "E"
+        ],
+        [
+          "E",
+          "D",
           "P",
           "O",
-          "T"
+          "G",
+          "P",
+          "V",
+          "R"
         ],
         [
+          "T",
           "S",
-          "P",
-          "A",
-          "N",
-          "S",
-          "N",
-          "U"
+          "T",
+          "B",
+          "E",
+          "E",
+          "J",
+          "K"
         ]
       ],
       "wordPositions": [
         {
-          "word": "JADE",
-          "startRow": 3,
-          "startCol": 2,
-          "direction": "LR"
+          "word": "SILVER",
+          "startRow": 1,
+          "startCol": 7,
+          "direction": "TB"
         },
         {
-          "word": "VALE",
+          "word": "SHEEP",
           "startRow": 2,
-          "startCol": 0,
+          "startCol": 1,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "HILL",
-          "startRow": 2,
+          "word": "BEE",
+          "startRow": 7,
           "startCol": 3,
           "direction": "LR"
         },
         {
-          "word": "WATER",
-          "startRow": 1,
-          "startCol": 0,
-          "direction": "LR"
-        },
-        {
-          "word": "COIN",
-          "startRow": 0,
-          "startCol": 2,
-          "direction": "LR"
-        },
-        {
-          "word": "UNSNAPS",
+          "word": "ENERGY",
           "startRow": 6,
-          "startCol": 6,
-          "direction": "RL"
+          "startCol": 0,
+          "direction": "DIAG_UP"
         },
         {
-          "word": "TOPEKA",
-          "startRow": 5,
-          "startCol": 6,
-          "direction": "RL"
+          "word": "SPRING",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SHARK",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "APE",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "DIAG_UP"
         }
       ],
       "timeLimit": 150
@@ -874,123 +958,133 @@
       "id": 108,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "BEE",
-        "FORK",
-        "RULE",
-        "MILL",
-        "DISH",
-        "TWERP",
-        "UGLY"
+        "SONG",
+        "HARE",
+        "ENERGY",
+        "CAGE",
+        "WINTER",
+        "BOX"
       ],
       "grid": [
         [
-          "K",
-          "T",
-          "I",
-          "D",
-          "D",
-          "Q",
-          "N"
-        ],
-        [
-          "Y",
-          "L",
-          "G",
-          "U",
-          "I",
-          "B",
-          "R"
-        ],
-        [
-          "R",
-          "U",
-          "L",
           "E",
-          "B",
+          "Y",
           "S",
+          "O",
+          "N",
+          "G",
+          "X",
+          "O"
+        ],
+        [
+          "K",
+          "B",
+          "O",
+          "X",
+          "J",
+          "L",
+          "U",
           "C"
         ],
         [
-          "D",
+          "W",
+          "B",
+          "L",
           "S",
           "X",
-          "L",
-          "E",
-          "Y",
-          "H"
-        ],
-        [
-          "W",
           "X",
           "L",
-          "I",
-          "E",
-          "U",
-          "G"
-        ],
-        [
-          "F",
-          "I",
-          "F",
-          "O",
-          "R",
-          "K",
           "N"
         ],
         [
-          "M",
-          "T",
+          "C",
+          "I",
+          "G",
+          "H",
           "W",
+          "P",
+          "J",
+          "L"
+        ],
+        [
+          "A",
+          "R",
+          "N",
+          "O",
+          "A",
+          "U",
+          "C",
+          "G"
+        ],
+        [
+          "G",
+          "O",
+          "N",
+          "T",
+          "A",
+          "R",
+          "D",
+          "C"
+        ],
+        [
+          "E",
+          "H",
+          "U",
+          "A",
+          "E",
+          "Z",
+          "E",
+          "X"
+        ],
+        [
+          "U",
+          "Q",
+          "E",
+          "N",
           "E",
           "R",
-          "P",
-          "D"
+          "G",
+          "Y"
         ]
       ],
       "wordPositions": [
         {
-          "word": "BEE",
-          "startRow": 2,
-          "startCol": 4,
-          "direction": "TB"
-        },
-        {
-          "word": "FORK",
-          "startRow": 5,
+          "word": "SONG",
+          "startRow": 0,
           "startCol": 2,
           "direction": "LR"
         },
         {
-          "word": "RULE",
-          "startRow": 2,
-          "startCol": 0,
-          "direction": "LR"
-        },
-        {
-          "word": "MILL",
-          "startRow": 6,
-          "startCol": 0,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "DISH",
-          "startRow": 0,
+          "word": "HARE",
+          "startRow": 3,
           "startCol": 3,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "TWERP",
-          "startRow": 6,
-          "startCol": 1,
+          "word": "ENERGY",
+          "startRow": 7,
+          "startCol": 2,
           "direction": "LR"
         },
         {
-          "word": "UGLY",
+          "word": "CAGE",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "WINTER",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BOX",
           "startRow": 1,
-          "startCol": 3,
-          "direction": "RL"
+          "startCol": 1,
+          "direction": "LR"
         }
       ],
       "timeLimit": 150
@@ -999,123 +1093,126 @@
       "id": 109,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "SHOE",
-        "WAVE",
-        "BOOT",
-        "BANANA",
-        "SAND",
-        "URBANER",
-        "SINS"
+        "EMU",
+        "LAMB",
+        "BAT",
+        "CANYON",
+        "JAY"
       ],
       "grid": [
         [
-          "R",
-          "S",
-          "N",
-          "I",
-          "S",
-          "T",
-          "Q"
+          "V",
+          "X",
+          "L",
+          "J",
+          "A",
+          "Y",
+          "D",
+          "N"
         ],
         [
-          "E",
-          "R",
-          "D",
+          "Z",
           "F",
+          "T",
+          "W",
+          "Y",
+          "Q",
           "O",
+          "A"
+        ],
+        [
+          "O",
+          "L",
+          "J",
+          "M",
+          "I",
+          "Y",
+          "F",
+          "L"
+        ],
+        [
+          "H",
+          "E",
+          "E",
+          "L",
+          "N",
           "B",
+          "M",
+          "Y"
+        ],
+        [
+          "H",
+          "M",
+          "G",
+          "A",
+          "F",
+          "L",
+          "A",
+          "T"
+        ],
+        [
+          "Q",
+          "U",
+          "C",
+          "W",
+          "P",
+          "A",
+          "W",
+          "T"
+        ],
+        [
+          "G",
+          "C",
+          "V",
+          "F",
+          "X",
+          "M",
+          "H",
           "X"
         ],
         [
-          "N",
+          "G",
+          "B",
+          "T",
           "X",
-          "P",
-          "O",
-          "E",
           "A",
-          "S"
-        ],
-        [
-          "A",
-          "S",
           "B",
-          "V",
-          "U",
-          "N",
-          "H"
-        ],
-        [
-          "B",
-          "N",
-          "A",
-          "U",
-          "Q",
-          "A",
-          "O"
-        ],
-        [
-          "R",
-          "W",
-          "Q",
-          "N",
-          "B",
-          "N",
-          "E"
-        ],
-        [
-          "U",
-          "D",
-          "X",
-          "Y",
-          "D",
-          "A",
-          "T"
+          "K",
+          "M"
         ]
       ],
       "wordPositions": [
         {
-          "word": "SHOE",
-          "startRow": 2,
-          "startCol": 6,
+          "word": "EMU",
+          "startRow": 3,
+          "startCol": 1,
           "direction": "TB"
         },
         {
-          "word": "WAVE",
-          "startRow": 5,
-          "startCol": 1,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "BOOT",
-          "startRow": 3,
-          "startCol": 2,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "BANANA",
-          "startRow": 1,
+          "word": "LAMB",
+          "startRow": 4,
           "startCol": 5,
           "direction": "TB"
         },
         {
-          "word": "SAND",
+          "word": "BAT",
           "startRow": 3,
-          "startCol": 1,
+          "startCol": 5,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "URBANER",
-          "startRow": 6,
-          "startCol": 0,
-          "direction": "BT"
+          "word": "CANYON",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "DIAG_UP"
         },
         {
-          "word": "SINS",
+          "word": "JAY",
           "startRow": 0,
-          "startCol": 4,
-          "direction": "RL"
+          "startCol": 3,
+          "direction": "LR"
         }
       ],
       "timeLimit": 150
@@ -1124,130 +1221,140 @@
       "id": 110,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "SHOE",
-        "NEST",
-        "PLAN",
-        "DESERT",
-        "MAGIC",
-        "SKY",
-        "JACUZZI",
-        "SCREW"
+        "HAT",
+        "CARROT",
+        "COIN",
+        "HELMET",
+        "BOWL",
+        "EMU",
+        "BRUSH"
       ],
       "grid": [
         [
-          "S",
+          "H",
           "C",
-          "P",
-          "S",
-          "K",
-          "Y",
-          "M"
+          "C",
+          "O",
+          "I",
+          "N",
+          "T",
+          "F"
         ],
         [
-          "H",
-          "C",
+          "E",
           "V",
+          "B",
+          "B",
           "L",
-          "T",
+          "O",
           "H",
+          "U"
+        ],
+        [
+          "L",
+          "D",
+          "X",
+          "W",
+          "R",
+          "G",
+          "E",
+          "P"
+        ],
+        [
+          "M",
+          "L",
+          "O",
+          "R",
+          "G",
+          "U",
+          "N",
+          "N"
+        ],
+        [
+          "E",
+          "B",
+          "A",
+          "W",
+          "R",
+          "W",
+          "S",
+          "L"
+        ],
+        [
+          "T",
+          "C",
+          "N",
+          "Q",
+          "F",
+          "U",
+          "S",
+          "H"
+        ],
+        [
+          "Y",
+          "Y",
+          "B",
+          "I",
+          "E",
+          "M",
+          "U",
           "A"
         ],
         [
-          "O",
-          "R",
-          "R",
+          "E",
+          "V",
+          "U",
           "S",
-          "A",
-          "B",
-          "G"
-        ],
-        [
-          "E",
-          "Y",
-          "E",
-          "E",
-          "J",
-          "N",
-          "I"
-        ],
-        [
-          "D",
-          "N",
+          "Q",
           "F",
           "Q",
-          "W",
-          "D",
-          "C"
-        ],
-        [
-          "D",
-          "E",
-          "S",
-          "E",
-          "R",
-          "T",
-          "S"
-        ],
-        [
-          "I",
-          "Z",
-          "Z",
-          "U",
-          "C",
-          "A",
-          "J"
+          "T"
         ]
       ],
       "wordPositions": [
         {
-          "word": "SHOE",
+          "word": "HAT",
+          "startRow": 5,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "CARROT",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "COIN",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "HELMET",
           "startRow": 0,
           "startCol": 0,
           "direction": "TB"
         },
         {
-          "word": "NEST",
+          "word": "BOWL",
           "startRow": 4,
           "startCol": 1,
           "direction": "DIAG_UP"
         },
         {
-          "word": "PLAN",
-          "startRow": 0,
-          "startCol": 2,
-          "direction": "DIAG_DOWN"
-        },
-        {
-          "word": "DESERT",
-          "startRow": 5,
-          "startCol": 0,
-          "direction": "LR"
-        },
-        {
-          "word": "MAGIC",
-          "startRow": 0,
-          "startCol": 6,
-          "direction": "TB"
-        },
-        {
-          "word": "SKY",
-          "startRow": 0,
-          "startCol": 3,
-          "direction": "LR"
-        },
-        {
-          "word": "JACUZZI",
+          "word": "EMU",
           "startRow": 6,
-          "startCol": 6,
-          "direction": "RL"
+          "startCol": 4,
+          "direction": "LR"
         },
         {
-          "word": "SCREW",
-          "startRow": 0,
-          "startCol": 0,
-          "direction": "TLBR"
+          "word": "BRUSH",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
         }
       ],
       "timeLimit": 150
@@ -1256,123 +1363,133 @@
       "id": 111,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "LYNX",
-        "SILVER",
-        "WORD",
-        "WORM",
-        "BAT",
-        "WHEAL",
-        "MIN"
+        "SEA",
+        "FALCON",
+        "PAGE",
+        "GEAR",
+        "CLOCK",
+        "SOCK"
       ],
       "grid": [
         [
-          "B",
-          "L",
-          "C",
-          "E",
-          "O",
           "M",
-          "J"
-        ],
-        [
-          "I",
-          "A",
-          "T",
+          "M",
+          "F",
           "W",
-          "P",
+          "C",
+          "A",
           "G",
-          "R"
+          "B"
         ],
         [
-          "C",
+          "B",
+          "V",
+          "N",
+          "S",
           "E",
-          "T",
-          "D",
+          "X",
+          "V",
+          "T"
+        ],
+        [
+          "F",
+          "G",
+          "Q",
+          "S",
           "O",
+          "K",
           "W",
           "L"
         ],
         [
+          "A",
           "W",
-          "H",
-          "S",
-          "J",
-          "F",
+          "C",
+          "L",
+          "O",
+          "C",
+          "K",
+          "E"
+        ],
+        [
+          "L",
+          "G",
+          "O",
+          "I",
+          "M",
           "R",
-          "M"
+          "K",
+          "I"
+        ],
+        [
+          "C",
+          "B",
+          "E",
+          "S",
+          "P",
+          "A",
+          "G",
+          "E"
         ],
         [
           "O",
-          "W",
-          "L",
           "Y",
+          "C",
+          "A",
+          "H",
+          "T",
+          "R",
+          "H"
+        ],
+        [
+          "N",
+          "M",
+          "V",
+          "V",
+          "R",
           "N",
           "X",
-          "D"
-        ],
-        [
-          "R",
-          "S",
-          "I",
-          "L",
-          "V",
-          "E",
-          "R"
-        ],
-        [
-          "M",
-          "H",
-          "M",
-          "I",
-          "N",
-          "W",
-          "M"
+          "X"
         ]
       ],
       "wordPositions": [
         {
-          "word": "LYNX",
-          "startRow": 4,
-          "startCol": 2,
-          "direction": "LR"
-        },
-        {
-          "word": "SILVER",
-          "startRow": 5,
-          "startCol": 1,
-          "direction": "LR"
-        },
-        {
-          "word": "WORD",
-          "startRow": 1,
+          "word": "SEA",
+          "startRow": 2,
           "startCol": 3,
-          "direction": "DIAG_DOWN"
+          "direction": "DIAG_UP"
         },
         {
-          "word": "WORM",
-          "startRow": 3,
+          "word": "FALCON",
+          "startRow": 2,
           "startCol": 0,
           "direction": "TB"
         },
         {
-          "word": "BAT",
-          "startRow": 0,
-          "startCol": 0,
+          "word": "PAGE",
+          "startRow": 5,
+          "startCol": 4,
+          "direction": "LR"
+        },
+        {
+          "word": "GEAR",
+          "startRow": 4,
+          "startCol": 1,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "WHEAL",
-          "startRow": 4,
-          "startCol": 1,
-          "direction": "BT"
-        },
-        {
-          "word": "MIN",
-          "startRow": 6,
+          "word": "CLOCK",
+          "startRow": 3,
           "startCol": 2,
           "direction": "LR"
+        },
+        {
+          "word": "SOCK",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
         }
       ],
       "timeLimit": 150
@@ -1381,130 +1498,140 @@
       "id": 112,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "TUB",
-        "NOTE",
-        "PUMP",
-        "MILK",
-        "BALL",
-        "WHALE",
-        "DORIS",
-        "MOTIF"
+        "PLUM",
+        "FRIEND",
+        "SMART",
+        "NEWT",
+        "BELL",
+        "BACON",
+        "SHARK"
       ],
       "grid": [
         [
-          "L",
-          "Q",
-          "D",
-          "O",
-          "R",
-          "I",
-          "S"
-        ],
-        [
-          "Y",
-          "B",
-          "A",
-          "L",
-          "L",
-          "S",
-          "M"
-        ],
-        [
-          "M",
+          "N",
+          "E",
           "W",
           "T",
-          "U",
+          "T",
+          "N",
+          "I",
+          "D"
+        ],
+        [
+          "J",
+          "H",
+          "P",
+          "D",
+          "L",
+          "T",
+          "N",
+          "E"
+        ],
+        [
+          "P",
+          "Q",
           "B",
-          "Y",
+          "L",
+          "U",
+          "E",
+          "S",
           "O"
         ],
         [
+          "V",
+          "L",
+          "E",
+          "E",
           "I",
-          "P",
-          "H",
-          "N",
-          "T",
-          "P",
-          "T"
-        ],
-        [
-          "L",
-          "U",
-          "Y",
-          "A",
-          "O",
-          "X",
-          "I"
-        ],
-        [
-          "K",
+          "Z",
           "M",
+          "D"
+        ],
+        [
           "U",
-          "L",
-          "L",
-          "T",
+          "B",
+          "U",
+          "R",
+          "E",
+          "P",
+          "A",
+          "G"
+        ],
+        [
+          "D",
+          "H",
+          "F",
+          "M",
+          "A",
+          "P",
+          "R",
           "F"
         ],
         [
           "E",
-          "P",
-          "N",
+          "B",
+          "A",
           "C",
-          "L",
-          "E",
-          "E"
+          "O",
+          "N",
+          "T",
+          "T"
+        ],
+        [
+          "Y",
+          "K",
+          "T",
+          "S",
+          "H",
+          "A",
+          "R",
+          "K"
         ]
       ],
       "wordPositions": [
         {
-          "word": "TUB",
-          "startRow": 2,
-          "startCol": 2,
-          "direction": "LR"
-        },
-        {
-          "word": "NOTE",
-          "startRow": 3,
-          "startCol": 3,
-          "direction": "DIAG_DOWN"
-        },
-        {
-          "word": "PUMP",
-          "startRow": 3,
-          "startCol": 1,
-          "direction": "TB"
-        },
-        {
-          "word": "MILK",
+          "word": "PLUM",
           "startRow": 2,
           "startCol": 0,
-          "direction": "TB"
-        },
-        {
-          "word": "BALL",
-          "startRow": 1,
-          "startCol": 1,
-          "direction": "LR"
-        },
-        {
-          "word": "WHALE",
-          "startRow": 2,
-          "startCol": 1,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "DORIS",
-          "startRow": 0,
+          "word": "FRIEND",
+          "startRow": 5,
           "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SMART",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "NEWT",
+          "startRow": 0,
+          "startCol": 0,
           "direction": "LR"
         },
         {
-          "word": "MOTIF",
-          "startRow": 1,
-          "startCol": 6,
-          "direction": "TB"
+          "word": "BELL",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BACON",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "SHARK",
+          "startRow": 7,
+          "startCol": 3,
+          "direction": "LR"
         }
       ],
       "timeLimit": 150
@@ -1513,130 +1640,140 @@
       "id": 113,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "LIGHT",
-        "GEAR",
-        "GLUE",
-        "CHERRY",
-        "RULE",
-        "SONG",
-        "GERALD",
-        "GRAVER"
+        "IVY",
+        "ELK",
+        "KNIFE",
+        "PAGE",
+        "CAGE",
+        "NEST",
+        "RUG"
       ],
       "grid": [
         [
-          "G",
-          "R",
-          "E",
           "V",
-          "A",
-          "R",
-          "G"
-        ],
-        [
-          "E",
-          "R",
-          "Q",
-          "Z",
+          "O",
+          "U",
           "T",
-          "G",
-          "S"
-        ],
-        [
+          "H",
           "A",
-          "X",
-          "U",
-          "H",
-          "N",
-          "L",
-          "O"
+          "B",
+          "I"
         ],
         [
-          "R",
+          "D",
           "V",
-          "G",
-          "L",
-          "W",
-          "U",
-          "N"
-        ],
-        [
-          "M",
+          "S",
+          "O",
           "I",
-          "Y",
+          "R",
           "J",
-          "E",
-          "E",
-          "G"
+          "H"
         ],
         [
-          "L",
-          "C",
-          "H",
+          "V",
           "E",
-          "R",
-          "R",
+          "E",
+          "D",
+          "V",
+          "U",
+          "N",
+          "P"
+        ],
+        [
+          "N",
+          "M",
+          "D",
+          "L",
+          "Y",
+          "G",
+          "S",
           "Y"
         ],
         [
+          "H",
+          "B",
+          "G",
+          "R",
+          "K",
+          "K",
+          "A",
+          "H"
+        ],
+        [
+          "C",
+          "A",
           "G",
           "E",
-          "R",
+          "M",
+          "V",
           "A",
-          "L",
-          "D",
-          "V"
+          "Z"
+        ],
+        [
+          "K",
+          "N",
+          "I",
+          "F",
+          "E",
+          "Z",
+          "I",
+          "X"
+        ],
+        [
+          "X",
+          "P",
+          "A",
+          "G",
+          "E",
+          "P",
+          "N",
+          "X"
         ]
       ],
       "wordPositions": [
         {
-          "word": "LIGHT",
-          "startRow": 5,
-          "startCol": 0,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "GEAR",
-          "startRow": 0,
-          "startCol": 0,
+          "word": "IVY",
+          "startRow": 1,
+          "startCol": 4,
           "direction": "TB"
         },
         {
-          "word": "GLUE",
-          "startRow": 1,
-          "startCol": 5,
-          "direction": "TB"
-        },
-        {
-          "word": "CHERRY",
-          "startRow": 5,
-          "startCol": 1,
-          "direction": "LR"
-        },
-        {
-          "word": "RULE",
-          "startRow": 1,
-          "startCol": 1,
+          "word": "ELK",
+          "startRow": 2,
+          "startCol": 2,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "SONG",
-          "startRow": 1,
-          "startCol": 6,
-          "direction": "TB"
-        },
-        {
-          "word": "GERALD",
+          "word": "KNIFE",
           "startRow": 6,
           "startCol": 0,
           "direction": "LR"
         },
         {
-          "word": "GRAVER",
-          "startRow": 0,
-          "startCol": 6,
-          "direction": "RL"
+          "word": "PAGE",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "CAGE",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "NEST",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "RUG",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "TB"
         }
       ],
       "timeLimit": 150
@@ -1645,116 +1782,126 @@
       "id": 114,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "SQUID",
-        "KITE",
-        "SHOE",
-        "RAT",
-        "PUDDING",
-        "STYMIED"
+        "EEL",
+        "ONION",
+        "COAT",
+        "CUP",
+        "HAT"
       ],
       "grid": [
         [
-          "X",
-          "K",
+          "C",
           "I",
-          "T",
-          "E",
-          "J",
-          "R"
+          "F",
+          "H",
+          "D",
+          "L",
+          "I",
+          "H"
         ],
         [
+          "E",
+          "J",
+          "O",
+          "C",
           "A",
+          "K",
+          "U",
+          "Q"
+        ],
+        [
+          "E",
+          "L",
           "D",
-          "V",
+          "N",
+          "U",
           "T",
-          "Q",
-          "V",
+          "K",
+          "M"
+        ],
+        [
+          "W",
+          "R",
+          "W",
+          "I",
+          "I",
+          "P",
+          "Z",
           "A"
         ],
         [
-          "K",
           "U",
-          "G",
-          "O",
+          "N",
+          "D",
+          "H",
           "T",
+          "O",
+          "P",
+          "G"
+        ],
+        [
+          "E",
+          "V",
+          "W",
+          "A",
+          "E",
+          "G",
+          "N",
+          "P"
+        ],
+        [
+          "E",
+          "E",
+          "O",
+          "I",
+          "S",
+          "A",
           "X",
           "T"
         ],
         [
-          "O",
-          "S",
-          "Q",
-          "U",
-          "I",
-          "D",
-          "P"
-        ],
-        [
-          "D",
-          "N",
+          "T",
+          "C",
+          "L",
           "S",
           "H",
-          "O",
-          "E",
-          "Y"
-        ],
-        [
           "D",
-          "E",
-          "I",
-          "M",
-          "Y",
-          "T",
-          "S"
-        ],
-        [
-          "P",
-          "U",
-          "D",
-          "D",
-          "I",
           "N",
-          "G"
+          "F"
         ]
       ],
       "wordPositions": [
         {
-          "word": "SQUID",
-          "startRow": 3,
-          "startCol": 1,
-          "direction": "LR"
-        },
-        {
-          "word": "KITE",
-          "startRow": 0,
-          "startCol": 1,
-          "direction": "LR"
-        },
-        {
-          "word": "SHOE",
-          "startRow": 4,
-          "startCol": 2,
-          "direction": "LR"
-        },
-        {
-          "word": "RAT",
-          "startRow": 0,
-          "startCol": 6,
-          "direction": "TB"
-        },
-        {
-          "word": "PUDDING",
-          "startRow": 6,
-          "startCol": 0,
-          "direction": "LR"
-        },
-        {
-          "word": "STYMIED",
+          "word": "EEL",
           "startRow": 5,
-          "startCol": 6,
-          "direction": "RL"
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "ONION",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "COAT",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CUP",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "HAT",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
         }
       ],
       "timeLimit": 150
@@ -1763,123 +1910,126 @@
       "id": 115,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "PLAN",
-        "GNU",
-        "GLUE",
-        "MAZE",
-        "CAGE",
-        "REORGS",
-        "BRONCHO"
+        "CANDY",
+        "ONION",
+        "MAGIC",
+        "ROPE",
+        "PLAN"
       ],
       "grid": [
         [
-          "B",
-          "G",
+          "R",
           "N",
-          "G",
+          "E",
           "O",
-          "Y",
-          "W"
-        ],
-        [
-          "J",
-          "N",
-          "T",
-          "L",
-          "H",
-          "P",
-          "S"
-        ],
-        [
-          "C",
+          "V",
           "U",
           "Z",
+          "K"
+        ],
+        [
+          "A",
+          "O",
+          "P",
+          "E",
+          "N",
+          "B",
+          "M",
+          "I"
+        ],
+        [
+          "W",
           "U",
-          "C",
-          "L",
+          "P",
+          "O",
+          "U",
+          "P",
+          "A",
           "G"
         ],
         [
-          "A",
-          "A",
           "P",
+          "P",
+          "I",
           "E",
-          "N",
-          "A",
-          "R"
-        ],
-        [
-          "O",
-          "B",
+          "S",
+          "C",
           "G",
-          "N",
-          "O",
-          "N",
-          "O"
+          "A"
         ],
         [
-          "U",
-          "E",
           "T",
-          "E",
-          "R",
-          "B",
-          "E"
+          "N",
+          "L",
+          "D",
+          "A",
+          "A",
+          "I",
+          "Z"
         ],
         [
+          "O",
+          "V",
           "M",
           "A",
-          "Z",
+          "Q",
+          "N",
+          "C",
+          "X"
+        ],
+        [
+          "X",
           "E",
+          "J",
+          "A",
+          "N",
+          "D",
+          "L",
+          "L"
+        ],
+        [
+          "I",
+          "N",
           "B",
+          "C",
           "U",
-          "R"
+          "Y",
+          "Q",
+          "U"
         ]
       ],
       "wordPositions": [
         {
-          "word": "PLAN",
-          "startRow": 1,
+          "word": "CANDY",
+          "startRow": 3,
           "startCol": 5,
           "direction": "TB"
         },
         {
-          "word": "GNU",
-          "startRow": 0,
-          "startCol": 1,
-          "direction": "TB"
-        },
-        {
-          "word": "GLUE",
-          "startRow": 0,
-          "startCol": 3,
-          "direction": "TB"
-        },
-        {
-          "word": "MAZE",
-          "startRow": 6,
+          "word": "ONION",
+          "startRow": 5,
           "startCol": 0,
-          "direction": "LR"
+          "direction": "DIAG_UP"
         },
         {
-          "word": "CAGE",
-          "startRow": 2,
+          "word": "MAGIC",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "ROPE",
+          "startRow": 0,
           "startCol": 0,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "REORGS",
-          "startRow": 6,
-          "startCol": 6,
-          "direction": "BT"
-        },
-        {
-          "word": "BRONCHO",
-          "startRow": 6,
-          "startCol": 4,
-          "direction": "BT"
+          "word": "PLAN",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
         }
       ],
       "timeLimit": 150
@@ -1888,116 +2038,140 @@
       "id": 116,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "BEACH",
-        "STORM",
-        "LYNX",
-        "FIRE",
-        "HUMID",
-        "TRICIA"
+        "SMILE",
+        "JAY",
+        "WALRUS",
+        "MULE",
+        "NEST",
+        "RAT",
+        "PONY"
       ],
       "grid": [
         [
-          "E",
-          "P",
-          "Z",
-          "Q",
-          "L",
-          "U",
-          "D"
-        ],
-        [
-          "T",
-          "F",
-          "L",
-          "I",
-          "G",
           "M",
+          "W",
+          "A",
+          "L",
+          "R",
+          "U",
+          "S",
           "I"
         ],
         [
-          "R",
-          "I",
+          "F",
           "U",
           "Y",
-          "R",
-          "L",
-          "M"
+          "G",
+          "Y",
+          "I",
+          "O",
+          "Z"
         ],
         [
-          "I",
-          "R",
+          "A",
+          "A",
+          "L",
+          "A",
+          "X",
+          "T",
+          "P",
+          "T"
+        ],
+        [
+          "J",
+          "S",
+          "W",
+          "E",
           "M",
+          "I",
+          "S",
+          "Q"
+        ],
+        [
+          "S",
+          "V",
+          "M",
+          "B",
+          "H",
+          "E",
+          "R",
+          "I"
+        ],
+        [
+          "A",
+          "R",
+          "Y",
+          "I",
+          "N",
+          "S",
+          "A",
+          "J"
+        ],
+        [
+          "P",
           "O",
           "N",
-          "R",
-          "U"
-        ],
-        [
-          "C",
-          "E",
-          "T",
-          "V",
-          "E",
-          "X",
-          "H"
-        ],
-        [
-          "I",
-          "S",
-          "B",
-          "E",
-          "A",
-          "C",
-          "H"
-        ],
-        [
-          "A",
-          "N",
-          "A",
           "Y",
-          "D",
+          "L",
           "S",
-          "N"
+          "T",
+          "T"
+        ],
+        [
+          "P",
+          "Z",
+          "O",
+          "R",
+          "N",
+          "E",
+          "Y",
+          "A"
         ]
       ],
       "wordPositions": [
         {
-          "word": "BEACH",
-          "startRow": 5,
-          "startCol": 2,
-          "direction": "LR"
-        },
-        {
-          "word": "STORM",
-          "startRow": 5,
+          "word": "SMILE",
+          "startRow": 3,
           "startCol": 1,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "LYNX",
-          "startRow": 1,
-          "startCol": 2,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "FIRE",
-          "startRow": 1,
-          "startCol": 1,
-          "direction": "TB"
+          "word": "JAY",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_UP"
         },
         {
-          "word": "HUMID",
+          "word": "WALRUS",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "MULE",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "NEST",
+          "startRow": 5,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "RAT",
           "startRow": 4,
           "startCol": 6,
-          "direction": "BT"
+          "direction": "TB"
         },
         {
-          "word": "TRICIA",
-          "startRow": 1,
+          "word": "PONY",
+          "startRow": 6,
           "startCol": 0,
-          "direction": "TB"
+          "direction": "LR"
         }
       ],
       "timeLimit": 150
@@ -2006,122 +2180,125 @@
       "id": 117,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "TEAL",
-        "NET",
-        "BULL",
-        "HONEY",
-        "CUP",
-        "SEPSIS",
-        "KAUNDA"
+        "SILK",
+        "PLUM",
+        "PUMP",
+        "SQUID",
+        "FISH"
       ],
       "grid": [
         [
-          "K",
-          "A",
-          "U",
-          "N",
-          "D",
-          "A",
-          "S"
-        ],
-        [
-          "B",
-          "J",
-          "Z",
-          "N",
-          "E",
-          "T",
-          "E"
-        ],
-        [
-          "U",
-          "M",
-          "M",
-          "C",
-          "U",
-          "P",
-          "P"
-        ],
-        [
-          "L",
-          "S",
-          "H",
-          "L",
-          "W",
-          "D",
-          "S"
-        ],
-        [
-          "L",
-          "A",
-          "A",
-          "H",
-          "J",
-          "E",
-          "I"
-        ],
-        [
-          "I",
-          "E",
-          "B",
-          "K",
-          "Y",
-          "E",
-          "S"
-        ],
-        [
           "T",
           "R",
+          "S",
+          "Y",
+          "V",
+          "Y",
+          "R",
+          "W"
+        ],
+        [
+          "V",
+          "W",
+          "Q",
+          "F",
+          "I",
+          "S",
           "H",
-          "O",
+          "N"
+        ],
+        [
+          "T",
           "N",
-          "E",
-          "Y"
+          "U",
+          "A",
+          "I",
+          "Y",
+          "Y",
+          "S"
+        ],
+        [
+          "J",
+          "L",
+          "I",
+          "J",
+          "S",
+          "Y",
+          "G",
+          "Z"
+        ],
+        [
+          "N",
+          "S",
+          "D",
+          "N",
+          "Y",
+          "Y",
+          "F",
+          "V"
+        ],
+        [
+          "D",
+          "P",
+          "U",
+          "M",
+          "P",
+          "R",
+          "Q",
+          "C"
+        ],
+        [
+          "S",
+          "I",
+          "L",
+          "K",
+          "G",
+          "J",
+          "F",
+          "M"
+        ],
+        [
+          "P",
+          "L",
+          "U",
+          "M",
+          "J",
+          "X",
+          "G",
+          "U"
         ]
       ],
       "wordPositions": [
         {
-          "word": "TEAL",
+          "word": "SILK",
           "startRow": 6,
           "startCol": 0,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "NET",
-          "startRow": 1,
-          "startCol": 3,
           "direction": "LR"
         },
         {
-          "word": "BULL",
-          "startRow": 1,
+          "word": "PLUM",
+          "startRow": 7,
           "startCol": 0,
-          "direction": "TB"
+          "direction": "LR"
         },
         {
-          "word": "HONEY",
-          "startRow": 6,
+          "word": "PUMP",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "SQUID",
+          "startRow": 0,
           "startCol": 2,
-          "direction": "LR"
-        },
-        {
-          "word": "CUP",
-          "startRow": 2,
-          "startCol": 3,
-          "direction": "LR"
-        },
-        {
-          "word": "SEPSIS",
-          "startRow": 0,
-          "startCol": 6,
           "direction": "TB"
         },
         {
-          "word": "KAUNDA",
-          "startRow": 0,
-          "startCol": 0,
+          "word": "FISH",
+          "startRow": 1,
+          "startCol": 3,
           "direction": "LR"
         }
       ],
@@ -2131,116 +2308,140 @@
       "id": 118,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "RAT",
-        "SOFA",
-        "ROCK",
-        "STAR",
-        "SEXTETS",
-        "RUB"
+        "CLOD",
+        "VALLEY",
+        "CANDLE",
+        "BOX",
+        "LAMB",
+        "HONEY",
+        "KOALA"
       ],
       "grid": [
         [
-          "S",
+          "B",
           "E",
-          "X",
-          "T",
+          "V",
+          "A",
+          "L",
+          "L",
           "E",
-          "T",
-          "S"
-        ],
-        [
-          "R",
-          "T",
-          "F",
-          "R",
-          "O",
-          "C",
-          "K"
+          "Y"
         ],
         [
           "Z",
-          "R",
-          "A",
-          "T",
-          "U",
-          "D",
-          "G"
+          "O",
+          "N",
+          "L",
+          "Y",
+          "S",
+          "E",
+          "K"
         ],
         [
-          "J",
-          "F",
-          "S",
-          "U",
+          "L",
+          "I",
+          "X",
+          "X",
+          "A",
+          "L",
+          "T",
+          "T"
+        ],
+        [
+          "C",
+          "I",
+          "B",
+          "H",
+          "D",
           "M",
           "B",
           "L"
         ],
         [
-          "U",
-          "C",
-          "T",
+          "L",
+          "R",
+          "S",
+          "N",
           "O",
-          "V",
-          "E",
-          "M"
+          "C",
+          "B",
+          "P"
         ],
         [
-          "U",
-          "G",
-          "A",
-          "S",
+          "O",
           "F",
-          "I",
+          "A",
+          "Q",
+          "K",
+          "S",
+          "A",
           "B"
         ],
         [
-          "X",
-          "S",
-          "R",
+          "D",
+          "C",
+          "U",
+          "H",
+          "O",
+          "N",
+          "E",
+          "Y"
+        ],
+        [
           "C",
           "E",
+          "K",
+          "O",
           "A",
-          "E"
+          "L",
+          "A",
+          "D"
         ]
       ],
       "wordPositions": [
         {
-          "word": "RAT",
-          "startRow": 2,
-          "startCol": 1,
-          "direction": "LR"
-        },
-        {
-          "word": "SOFA",
+          "word": "CLOD",
           "startRow": 3,
-          "startCol": 2,
-          "direction": "DIAG_DOWN"
-        },
-        {
-          "word": "ROCK",
-          "startRow": 1,
-          "startCol": 3,
-          "direction": "LR"
-        },
-        {
-          "word": "STAR",
-          "startRow": 3,
-          "startCol": 2,
+          "startCol": 0,
           "direction": "TB"
         },
         {
-          "word": "SEXTETS",
+          "word": "VALLEY",
           "startRow": 0,
-          "startCol": 0,
+          "startCol": 2,
           "direction": "LR"
         },
         {
-          "word": "RUB",
+          "word": "CANDLE",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BOX",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "LAMB",
           "startRow": 1,
           "startCol": 3,
-          "direction": "TLBR"
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "HONEY",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "KOALA",
+          "startRow": 7,
+          "startCol": 2,
+          "direction": "LR"
         }
       ],
       "timeLimit": 150
@@ -2249,130 +2450,133 @@
       "id": 119,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "DUCK",
-        "PUMP",
-        "FROG",
-        "HORN",
-        "MOTH",
-        "DREAM",
-        "TUPI",
-        "FERN"
+        "HONEY",
+        "CORN",
+        "MEADOW",
+        "STEP",
+        "SUGAR",
+        "HORSE"
       ],
       "grid": [
         [
-          "H",
-          "M",
-          "O",
-          "T",
-          "H",
-          "Q",
-          "B"
-        ],
-        [
-          "O",
-          "P",
-          "U",
-          "M",
-          "P",
-          "B",
-          "K"
-        ],
-        [
-          "F",
-          "D",
-          "T",
-          "I",
-          "C",
-          "C",
-          "H"
-        ],
-        [
-          "F",
-          "R",
           "K",
-          "T",
-          "U",
+          "X",
           "E",
-          "O"
-        ],
-        [
-          "E",
-          "E",
-          "O",
-          "D",
-          "U",
           "Y",
+          "T",
+          "T",
+          "M",
           "R"
         ],
         [
+          "M",
+          "T",
+          "W",
+          "P",
+          "P",
           "R",
+          "N",
+          "V"
+        ],
+        [
+          "J",
+          "E",
+          "E",
+          "I",
           "A",
-          "P",
-          "G",
+          "Z",
           "R",
-          "P",
+          "E"
+        ],
+        [
+          "M",
+          "T",
+          "A",
+          "G",
+          "Y",
+          "U",
+          "S",
+          "C"
+        ],
+        [
+          "S",
+          "J",
+          "U",
+          "D",
+          "J",
+          "R",
+          "O",
+          "O"
+        ],
+        [
+          "L",
+          "S",
+          "L",
+          "E",
+          "O",
+          "J",
+          "S",
+          "R"
+        ],
+        [
+          "V",
+          "E",
+          "O",
+          "H",
+          "Y",
+          "W",
+          "B",
           "N"
         ],
         [
-          "N",
-          "M",
+          "W",
+          "F",
           "H",
-          "U",
-          "X",
-          "V",
-          "I"
+          "O",
+          "N",
+          "E",
+          "Y",
+          "V"
         ]
       ],
       "wordPositions": [
         {
-          "word": "DUCK",
-          "startRow": 4,
-          "startCol": 3,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "PUMP",
-          "startRow": 1,
-          "startCol": 1,
+          "word": "HONEY",
+          "startRow": 7,
+          "startCol": 2,
           "direction": "LR"
         },
         {
-          "word": "FROG",
-          "startRow": 2,
+          "word": "CORN",
+          "startRow": 3,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "MEADOW",
+          "startRow": 1,
           "startCol": 0,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "HORN",
-          "startRow": 2,
-          "startCol": 6,
-          "direction": "TB"
-        },
-        {
-          "word": "MOTH",
-          "startRow": 0,
-          "startCol": 1,
-          "direction": "LR"
-        },
-        {
-          "word": "DREAM",
-          "startRow": 2,
-          "startCol": 1,
-          "direction": "TB"
-        },
-        {
-          "word": "TUPI",
-          "startRow": 3,
-          "startCol": 3,
-          "direction": "TLBR"
-        },
-        {
-          "word": "FERN",
-          "startRow": 3,
+          "word": "STEP",
+          "startRow": 4,
           "startCol": 0,
-          "direction": "TB"
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SUGAR",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "HORSE",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
         }
       ],
       "timeLimit": 150
@@ -2381,115 +2585,132 @@
       "id": 120,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "DRUM",
-        "SLUG",
-        "SEED",
-        "POST",
-        "AGUIRRE",
-        "RHYME"
+        "SHIELD",
+        "TUB",
+        "SPOON",
+        "HAIL",
+        "COW",
+        "WASP"
       ],
       "grid": [
         [
-          "B",
-          "G",
-          "W",
-          "D",
-          "X",
-          "L",
-          "C"
-        ],
-        [
-          "R",
-          "O",
-          "E",
           "P",
-          "U",
-          "C",
-          "G"
-        ],
-        [
-          "D",
-          "E",
-          "U",
+          "H",
+          "M",
           "A",
-          "O",
-          "B",
-          "K"
-        ],
-        [
-          "S",
-          "S",
+          "P",
+          "K",
           "L",
-          "U",
-          "G",
-          "S",
-          "J"
+          "O"
         ],
         [
-          "O",
-          "R",
           "H",
           "Y",
-          "M",
           "E",
-          "T"
-        ],
-        [
-          "D",
-          "R",
-          "U",
-          "M",
-          "D",
-          "U",
-          "R"
-        ],
-        [
-          "E",
-          "R",
-          "R",
+          "A",
+          "Z",
           "I",
+          "B",
+          "S"
+        ],
+        [
+          "I",
+          "S",
+          "W",
+          "N",
+          "A",
           "U",
+          "C",
+          "P"
+        ],
+        [
+          "V",
+          "M",
+          "H",
+          "H",
+          "T",
+          "H",
+          "O",
+          "O"
+        ],
+        [
+          "J",
+          "K",
+          "L",
+          "I",
+          "J",
+          "D",
+          "W",
+          "O"
+        ],
+        [
+          "N",
+          "E",
+          "K",
+          "U",
+          "E",
+          "Z",
+          "K",
+          "N"
+        ],
+        [
+          "W",
+          "A",
+          "S",
+          "P",
+          "E",
+          "L",
+          "D",
+          "O"
+        ],
+        [
+          "A",
+          "L",
+          "O",
           "G",
-          "A"
+          "S",
+          "V",
+          "D",
+          "V"
         ]
       ],
       "wordPositions": [
         {
-          "word": "DRUM",
-          "startRow": 5,
-          "startCol": 0,
-          "direction": "LR"
-        },
-        {
-          "word": "SLUG",
-          "startRow": 3,
+          "word": "SHIELD",
+          "startRow": 2,
           "startCol": 1,
-          "direction": "LR"
-        },
-        {
-          "word": "SEED",
-          "startRow": 3,
-          "startCol": 0,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "POST",
-          "startRow": 1,
-          "startCol": 3,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "AGUIRRE",
-          "startRow": 6,
-          "startCol": 6,
-          "direction": "RL"
+          "word": "TUB",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "DIAG_UP"
         },
         {
-          "word": "RHYME",
-          "startRow": 4,
-          "startCol": 1,
+          "word": "SPOON",
+          "startRow": 1,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "HAIL",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "COW",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "WASP",
+          "startRow": 6,
+          "startCol": 0,
           "direction": "LR"
         }
       ],
@@ -2499,123 +2720,140 @@
       "id": 121,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "PUMP",
-        "RING",
-        "HALL",
-        "FERN",
-        "BULL",
-        "VOLE",
-        "BADEN"
+        "BALL",
+        "BACON",
+        "KOI",
+        "WATER",
+        "PEAT",
+        "GALE",
+        "HYENA"
       ],
       "grid": [
         [
-          "H",
-          "B",
-          "C",
-          "X",
-          "C",
-          "T",
-          "G"
-        ],
-        [
+          "M",
+          "J",
+          "Q",
+          "R",
           "N",
           "U",
-          "V",
-          "K",
-          "K",
+          "I",
+          "J"
+        ],
+        [
+          "S",
+          "X",
+          "G",
+          "O",
+          "O",
+          "X",
           "N",
+          "I"
+        ],
+        [
+          "X",
+          "A",
+          "C",
+          "L",
+          "R",
+          "K",
+          "J",
           "F"
         ],
         [
-          "D",
-          "L",
-          "D",
-          "O",
-          "I",
-          "O",
-          "E"
-        ],
-        [
-          "D",
-          "L",
-          "Y",
-          "R",
-          "L",
-          "L",
-          "R"
-        ],
-        [
-          "P",
-          "U",
-          "M",
-          "P",
-          "L",
-          "E",
-          "N"
-        ],
-        [
-          "Y",
-          "P",
           "B",
           "A",
-          "D",
+          "L",
           "E",
+          "A",
+          "T",
+          "O",
           "N"
         ],
         [
+          "B",
           "A",
-          "W",
-          "H",
+          "T",
           "N",
+          "A",
+          "E",
+          "W",
+          "I"
+        ],
+        [
+          "B",
+          "A",
+          "E",
+          "E",
+          "L",
+          "Z",
+          "P",
+          "K"
+        ],
+        [
+          "W",
+          "Y",
+          "P",
+          "A",
+          "N",
+          "O",
+          "X",
+          "W"
+        ],
+        [
+          "H",
+          "R",
+          "G",
+          "O",
+          "Q",
+          "B",
           "M",
-          "M",
-          "D"
+          "L"
         ]
       ],
       "wordPositions": [
         {
-          "word": "PUMP",
-          "startRow": 4,
+          "word": "BALL",
+          "startRow": 5,
           "startCol": 0,
-          "direction": "LR"
-        },
-        {
-          "word": "RING",
-          "startRow": 3,
-          "startCol": 3,
           "direction": "DIAG_UP"
         },
         {
-          "word": "HALL",
+          "word": "BACON",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "KOI",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "WATER",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "PEAT",
           "startRow": 6,
           "startCol": 2,
           "direction": "DIAG_UP"
         },
         {
-          "word": "FERN",
-          "startRow": 1,
-          "startCol": 6,
-          "direction": "TB"
-        },
-        {
-          "word": "BULL",
-          "startRow": 0,
-          "startCol": 1,
-          "direction": "TB"
-        },
-        {
-          "word": "VOLE",
-          "startRow": 1,
+          "word": "GALE",
+          "startRow": 7,
           "startCol": 2,
-          "direction": "TLBR"
+          "direction": "DIAG_UP"
         },
         {
-          "word": "BADEN",
-          "startRow": 5,
-          "startCol": 2,
-          "direction": "LR"
+          "word": "HYENA",
+          "startRow": 7,
+          "startCol": 0,
+          "direction": "DIAG_UP"
         }
       ],
       "timeLimit": 150
@@ -2624,130 +2862,140 @@
       "id": 122,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "OTTER",
-        "RAT",
-        "GOWN",
-        "WIND",
-        "MOTH",
-        "SAIL",
-        "DOORMEN",
-        "RHINOS"
+        "GEAR",
+        "STREAM",
+        "JUNGLE",
+        "DEW",
+        "BEAR",
+        "LEMUR",
+        "MAP"
       ],
       "grid": [
         [
-          "D",
-          "O",
-          "O",
-          "R",
+          "N",
+          "Z",
+          "Y",
           "M",
-          "E",
-          "N"
+          "K",
+          "X",
+          "T",
+          "R"
         ],
         [
-          "S",
-          "U",
-          "S",
-          "W",
+          "R",
           "R",
           "Q",
-          "N"
-        ],
-        [
-          "O",
-          "W",
+          "D",
+          "M",
           "G",
-          "A",
-          "W",
           "A",
           "R"
         ],
         [
-          "N",
-          "I",
-          "O",
-          "L",
-          "I",
+          "U",
+          "B",
+          "T",
           "E",
+          "H",
+          "E",
+          "U",
+          "S"
+        ],
+        [
+          "M",
+          "G",
+          "E",
+          "W",
+          "G",
+          "M",
+          "W",
           "T"
         ],
         [
-          "I",
-          "N",
-          "W",
-          "J",
-          "T",
-          "L",
-          "C"
-        ],
-        [
-          "H",
-          "D",
-          "N",
-          "T",
-          "N",
           "A",
-          "Q"
+          "T",
+          "R",
+          "A",
+          "E",
+          "Q",
+          "T",
+          "R"
         ],
         [
+          "P",
+          "K",
+          "U",
+          "L",
           "R",
-          "M",
-          "O",
-          "T",
-          "H",
-          "H",
+          "P",
+          "V",
+          "E"
+        ],
+        [
+          "J",
+          "U",
+          "N",
+          "G",
+          "L",
+          "E",
+          "X",
+          "A"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "N",
+          "Y",
+          "L",
+          "Q",
           "M"
         ]
       ],
       "wordPositions": [
         {
-          "word": "OTTER",
-          "startRow": 6,
-          "startCol": 2,
+          "word": "GEAR",
+          "startRow": 3,
+          "startCol": 4,
           "direction": "DIAG_UP"
         },
         {
-          "word": "RAT",
-          "startRow": 1,
-          "startCol": 4,
-          "direction": "DIAG_DOWN"
-        },
-        {
-          "word": "GOWN",
+          "word": "STREAM",
           "startRow": 2,
-          "startCol": 2,
+          "startCol": 7,
           "direction": "TB"
         },
         {
-          "word": "WIND",
-          "startRow": 2,
-          "startCol": 1,
-          "direction": "TB"
-        },
-        {
-          "word": "MOTH",
+          "word": "JUNGLE",
           "startRow": 6,
-          "startCol": 1,
-          "direction": "LR"
-        },
-        {
-          "word": "SAIL",
-          "startRow": 1,
-          "startCol": 2,
-          "direction": "DIAG_DOWN"
-        },
-        {
-          "word": "DOORMEN",
-          "startRow": 0,
           "startCol": 0,
           "direction": "LR"
         },
         {
-          "word": "RHINOS",
-          "startRow": 6,
+          "word": "DEW",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "BEAR",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "LEMUR",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "MAP",
+          "startRow": 3,
           "startCol": 0,
-          "direction": "BT"
+          "direction": "TB"
         }
       ],
       "timeLimit": 150
@@ -2756,130 +3004,133 @@
       "id": 123,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "HAWK",
-        "GNU",
-        "HOOD",
-        "GRAY",
-        "APPLE",
-        "CAT",
-        "WARING",
-        "POEM"
+        "SUMMER",
+        "COMB",
+        "LYNX",
+        "BOOT",
+        "MAGIC",
+        "SUPER"
       ],
       "grid": [
         [
+          "S",
+          "V",
+          "J",
+          "E",
           "B",
-          "A",
-          "U",
-          "Y",
-          "D",
-          "W",
-          "W"
-        ],
-        [
-          "A",
-          "F",
           "P",
-          "O",
-          "T",
-          "L",
-          "W"
+          "P",
+          "B"
         ],
         [
-          "M",
+          "U",
+          "S",
+          "Y",
+          "W",
+          "C",
+          "T",
+          "E",
+          "O"
+        ],
+        [
+          "P",
+          "U",
+          "U",
+          "X",
+          "B",
+          "O",
+          "C",
+          "O"
+        ],
+        [
           "E",
           "O",
-          "P",
-          "H",
-          "U",
-          "A"
+          "N",
+          "M",
+          "C",
+          "T",
+          "M",
+          "T"
         ],
         [
-          "V",
-          "H",
-          "H",
-          "C",
+          "R",
+          "Y",
+          "A",
+          "I",
+          "M",
+          "X",
+          "I",
+          "B"
+        ],
+        [
           "L",
-          "K",
+          "Z",
+          "G",
+          "V",
+          "D",
+          "E",
+          "J",
           "R"
         ],
         [
-          "W",
-          "I",
           "T",
           "A",
-          "A",
-          "E",
-          "I"
-        ],
-        [
           "G",
-          "N",
+          "E",
+          "G",
           "U",
-          "E",
-          "W",
-          "T",
-          "N"
+          "R",
+          "A"
         ],
         [
-          "Y",
-          "G",
-          "R",
-          "A",
-          "Y",
-          "K",
-          "G"
+          "M",
+          "Q",
+          "Q",
+          "E",
+          "T",
+          "E",
+          "T",
+          "S"
         ]
       ],
       "wordPositions": [
         {
-          "word": "HAWK",
-          "startRow": 3,
-          "startCol": 2,
+          "word": "SUMMER",
+          "startRow": 1,
+          "startCol": 1,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "GNU",
-          "startRow": 5,
-          "startCol": 0,
-          "direction": "LR"
+          "word": "COMB",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
         },
         {
-          "word": "HOOD",
-          "startRow": 3,
-          "startCol": 1,
+          "word": "LYNX",
+          "startRow": 5,
+          "startCol": 0,
           "direction": "DIAG_UP"
         },
         {
-          "word": "GRAY",
-          "startRow": 6,
-          "startCol": 1,
-          "direction": "LR"
-        },
-        {
-          "word": "APPLE",
+          "word": "BOOT",
           "startRow": 0,
-          "startCol": 1,
-          "direction": "DIAG_DOWN"
-        },
-        {
-          "word": "CAT",
-          "startRow": 3,
-          "startCol": 3,
-          "direction": "DIAG_DOWN"
-        },
-        {
-          "word": "WARING",
-          "startRow": 1,
-          "startCol": 6,
+          "startCol": 7,
           "direction": "TB"
         },
         {
-          "word": "POEM",
-          "startRow": 2,
-          "startCol": 3,
-          "direction": "RL"
+          "word": "MAGIC",
+          "startRow": 7,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SUPER",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
         }
       ],
       "timeLimit": 150
@@ -2888,130 +3139,133 @@
       "id": 124,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "RULE",
-        "FORK",
-        "PIG",
-        "GNU",
-        "MAZE",
-        "FOREST",
-        "PONES",
-        "OFT"
+        "HALL",
+        "SHINE",
+        "LAKE",
+        "ROSE",
+        "GLACIER",
+        "SHARK"
       ],
       "grid": [
         [
-          "F",
-          "O",
-          "R",
-          "E",
+          "D",
           "S",
-          "T",
-          "V"
+          "H",
+          "I",
+          "N",
+          "E",
+          "J",
+          "G"
         ],
         [
-          "O",
-          "Q",
-          "I",
-          "R",
           "G",
-          "I",
-          "L"
+          "G",
+          "H",
+          "J",
+          "U",
+          "U",
+          "D",
+          "E"
         ],
         [
           "D",
-          "F",
-          "H",
-          "U",
-          "G",
-          "N",
-          "U"
-        ],
-        [
-          "F",
-          "N",
-          "T",
           "L",
-          "A",
-          "M",
-          "D"
-        ],
-        [
-          "P",
-          "O",
+          "B",
+          "H",
+          "K",
           "N",
-          "E",
-          "S",
-          "A",
+          "K",
           "J"
         ],
         [
-          "I",
-          "S",
+          "B",
+          "T",
+          "A",
           "R",
-          "U",
-          "K",
-          "Z",
-          "C"
+          "A",
+          "A",
+          "Y",
+          "Z"
         ],
         [
-          "G",
-          "M",
-          "X",
-          "K",
-          "Q",
           "E",
-          "G"
+          "G",
+          "A",
+          "C",
+          "L",
+          "L",
+          "E",
+          "V"
+        ],
+        [
+          "P",
+          "H",
+          "T",
+          "G",
+          "I",
+          "S",
+          "L",
+          "J"
+        ],
+        [
+          "S",
+          "A",
+          "C",
+          "H",
+          "O",
+          "E",
+          "J",
+          "W"
+        ],
+        [
+          "Z",
+          "J",
+          "J",
+          "R",
+          "P",
+          "T",
+          "R",
+          "T"
         ]
       ],
       "wordPositions": [
         {
-          "word": "RULE",
-          "startRow": 1,
+          "word": "HALL",
+          "startRow": 2,
           "startCol": 3,
-          "direction": "TB"
+          "direction": "DIAG_DOWN"
         },
         {
-          "word": "FORK",
-          "startRow": 3,
+          "word": "SHINE",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "LAKE",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "ROSE",
+          "startRow": 7,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GLACIER",
+          "startRow": 1,
           "startCol": 0,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "PIG",
-          "startRow": 4,
+          "word": "SHARK",
+          "startRow": 6,
           "startCol": 0,
-          "direction": "TB"
-        },
-        {
-          "word": "GNU",
-          "startRow": 2,
-          "startCol": 4,
-          "direction": "LR"
-        },
-        {
-          "word": "MAZE",
-          "startRow": 3,
-          "startCol": 5,
-          "direction": "TB"
-        },
-        {
-          "word": "FOREST",
-          "startRow": 0,
-          "startCol": 0,
-          "direction": "LR"
-        },
-        {
-          "word": "PONES",
-          "startRow": 4,
-          "startCol": 0,
-          "direction": "LR"
-        },
-        {
-          "word": "OFT",
-          "startRow": 1,
-          "startCol": 0,
-          "direction": "TLBR"
+          "direction": "DIAG_UP"
         }
       ],
       "timeLimit": 150
@@ -3020,116 +3274,140 @@
       "id": 125,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "KOALA",
-        "BULL",
-        "DEW",
-        "DOG",
-        "ACHIEST",
-        "MAZE"
+        "YAK",
+        "SNOW",
+        "POTATO",
+        "JUICE",
+        "FOG",
+        "HONEY",
+        "COMB"
       ],
       "grid": [
         [
-          "D",
-          "B",
-          "U",
-          "L",
-          "L",
-          "A",
-          "A"
-        ],
-        [
-          "D",
-          "I",
-          "U",
-          "Q",
-          "L",
-          "V",
-          "B"
-        ],
-        [
-          "O",
-          "X",
           "H",
-          "A",
+          "C",
+          "G",
+          "L",
           "U",
+          "D",
+          "O",
+          "H"
+        ],
+        [
+          "X",
+          "N",
+          "H",
+          "D",
+          "M",
+          "T",
+          "E",
+          "R"
+        ],
+        [
+          "C",
+          "O",
+          "M",
+          "B",
+          "A",
           "Y",
-          "S"
+          "A",
+          "K"
+        ],
+        [
+          "H",
+          "F",
+          "D",
+          "T",
+          "W",
+          "I",
+          "X",
+          "E"
         ],
         [
           "G",
-          "M",
           "O",
-          "Q",
-          "J",
-          "D",
-          "M"
-        ],
-        [
-          "D",
-          "K",
-          "P",
-          "E",
-          "J",
-          "E",
-          "O"
-        ],
-        [
-          "E",
-          "Z",
-          "A",
-          "M",
-          "B",
-          "W",
-          "U"
-        ],
-        [
+          "O",
+          "O",
           "T",
-          "S",
+          "Q",
+          "C",
+          "Y"
+        ],
+        [
+          "F",
+          "P",
+          "N",
+          "U",
           "E",
           "I",
-          "H",
-          "C",
-          "A"
+          "Z",
+          "K"
+        ],
+        [
+          "O",
+          "S",
+          "P",
+          "E",
+          "U",
+          "N",
+          "L",
+          "P"
+        ],
+        [
+          "G",
+          "W",
+          "W",
+          "J",
+          "Y",
+          "Y",
+          "X",
+          "H"
         ]
       ],
       "wordPositions": [
         {
-          "word": "KOALA",
-          "startRow": 4,
+          "word": "YAK",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "LR"
+        },
+        {
+          "word": "SNOW",
+          "startRow": 6,
           "startCol": 1,
           "direction": "DIAG_UP"
         },
         {
-          "word": "BULL",
-          "startRow": 0,
+          "word": "POTATO",
+          "startRow": 5,
           "startCol": 1,
-          "direction": "LR"
+          "direction": "DIAG_UP"
         },
         {
-          "word": "DEW",
-          "startRow": 3,
-          "startCol": 5,
-          "direction": "TB"
+          "word": "JUICE",
+          "startRow": 7,
+          "startCol": 3,
+          "direction": "DIAG_UP"
         },
         {
-          "word": "DOG",
-          "startRow": 1,
+          "word": "FOG",
+          "startRow": 5,
           "startCol": 0,
           "direction": "TB"
         },
         {
-          "word": "ACHIEST",
-          "startRow": 6,
-          "startCol": 6,
-          "direction": "RL"
+          "word": "HONEY",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
         },
         {
-          "word": "MAZE",
-          "startRow": 5,
-          "startCol": 3,
-          "direction": "RL"
+          "word": "COMB",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "LR"
         }
       ],
       "timeLimit": 150
@@ -3138,116 +3416,126 @@
       "id": 126,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "ROCK",
-        "BIRD",
-        "NEWT",
-        "SHOP",
-        "BECKETT",
-        "DARE"
+        "BREAD",
+        "GUITAR",
+        "PARROT",
+        "CLAY",
+        "GOLD"
       ],
       "grid": [
         [
-          "H",
-          "R",
-          "D",
-          "N",
-          "E",
-          "W",
-          "T"
-        ],
-        [
-          "Z",
-          "X",
-          "O",
-          "A",
-          "L",
-          "R",
-          "T"
-        ],
-        [
-          "H",
-          "S",
-          "S",
-          "C",
-          "R",
-          "U",
-          "E"
-        ],
-        [
-          "I",
-          "H",
-          "B",
-          "H",
-          "K",
-          "E",
-          "K"
-        ],
-        [
-          "L",
+          "F",
           "M",
-          "B",
-          "I",
           "O",
-          "O",
+          "Z",
+          "D",
+          "T",
+          "E",
           "C"
         ],
         [
-          "N",
-          "E",
-          "B",
-          "E",
-          "R",
-          "P",
-          "E"
+          "X",
+          "S",
+          "Y",
+          "A",
+          "O",
+          "O",
+          "O",
+          "G"
         ],
         [
-          "Z",
-          "U",
-          "H",
-          "H",
+          "X",
+          "E",
+          "E",
+          "R",
+          "Y",
+          "N",
           "L",
+          "U"
+        ],
+        [
+          "W",
+          "R",
+          "R",
+          "G",
+          "H",
+          "K",
+          "S",
+          "I"
+        ],
+        [
+          "B",
+          "A",
+          "K",
+          "C",
+          "O",
+          "Z",
+          "I",
+          "T"
+        ],
+        [
+          "P",
+          "Q",
+          "F",
           "D",
-          "B"
+          "L",
+          "L",
+          "B",
+          "A"
+        ],
+        [
+          "H",
+          "M",
+          "A",
+          "A",
+          "P",
+          "A",
+          "D",
+          "R"
+        ],
+        [
+          "G",
+          "T",
+          "W",
+          "N",
+          "S",
+          "E",
+          "Y",
+          "G"
         ]
       ],
       "wordPositions": [
         {
-          "word": "ROCK",
-          "startRow": 0,
-          "startCol": 1,
-          "direction": "DIAG_DOWN"
+          "word": "BREAD",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "DIAG_UP"
         },
         {
-          "word": "BIRD",
-          "startRow": 3,
-          "startCol": 2,
-          "direction": "DIAG_DOWN"
+          "word": "GUITAR",
+          "startRow": 1,
+          "startCol": 7,
+          "direction": "TB"
         },
         {
-          "word": "NEWT",
-          "startRow": 0,
+          "word": "PARROT",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "CLAY",
+          "startRow": 4,
           "startCol": 3,
-          "direction": "LR"
-        },
-        {
-          "word": "SHOP",
-          "startRow": 2,
-          "startCol": 2,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "BECKETT",
-          "startRow": 6,
-          "startCol": 6,
-          "direction": "BT"
-        },
-        {
-          "word": "DARE",
-          "startRow": 0,
-          "startCol": 2,
-          "direction": "TLBR"
+          "word": "GOLD",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
         }
       ],
       "timeLimit": 150
@@ -3256,116 +3544,126 @@
       "id": 127,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "PIZZA",
-        "BALL",
-        "SOCK",
-        "LYNX",
-        "PLAID",
-        "GUST"
+        "LAKE",
+        "JUNGLE",
+        "DOOR",
+        "RULE",
+        "FAWN"
       ],
       "grid": [
         [
+          "S",
+          "R",
+          "I",
+          "D",
           "E",
+          "E",
+          "L",
+          "N"
+        ],
+        [
           "S",
-          "G",
+          "H",
+          "Y",
+          "K",
+          "K",
+          "N",
           "U",
-          "S",
-          "T",
           "E"
         ],
         [
+          "U",
+          "F",
           "A",
-          "O",
-          "V",
-          "D",
-          "K",
           "E",
-          "S"
+          "R",
+          "U",
+          "L",
+          "E"
         ],
         [
-          "B",
-          "C",
-          "P",
+          "I",
           "L",
           "Y",
-          "N",
-          "X"
-        ],
-        [
-          "A",
-          "K",
-          "L",
-          "I",
-          "R",
-          "G",
-          "Y"
-        ],
-        [
-          "L",
           "B",
-          "A",
-          "L",
-          "Z",
-          "R",
-          "V"
+          "O",
+          "G",
+          "E",
+          "D"
         ],
         [
-          "L",
-          "I",
-          "I",
-          "V",
-          "M",
-          "Z",
-          "B"
-        ],
-        [
-          "Q",
-          "Q",
           "D",
+          "C",
+          "F",
+          "P",
+          "N",
+          "N",
           "R",
+          "I"
+        ],
+        [
+          "O",
+          "H",
+          "Y",
+          "U",
+          "W",
+          "D",
+          "L",
+          "K"
+        ],
+        [
+          "O",
+          "P",
+          "J",
           "A",
-          "X",
-          "A"
+          "F",
+          "P",
+          "Q",
+          "J"
+        ],
+        [
+          "R",
+          "O",
+          "F",
+          "V",
+          "A",
+          "R",
+          "E",
+          "O"
         ]
       ],
       "wordPositions": [
         {
-          "word": "PIZZA",
-          "startRow": 2,
-          "startCol": 2,
-          "direction": "DIAG_DOWN"
+          "word": "LAKE",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_UP"
         },
         {
-          "word": "BALL",
-          "startRow": 2,
+          "word": "JUNGLE",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "DOOR",
+          "startRow": 4,
           "startCol": 0,
           "direction": "TB"
         },
         {
-          "word": "SOCK",
-          "startRow": 0,
-          "startCol": 1,
-          "direction": "TB"
-        },
-        {
-          "word": "LYNX",
+          "word": "RULE",
           "startRow": 2,
-          "startCol": 3,
+          "startCol": 4,
           "direction": "LR"
         },
         {
-          "word": "PLAID",
-          "startRow": 2,
+          "word": "FAWN",
+          "startRow": 7,
           "startCol": 2,
-          "direction": "TB"
-        },
-        {
-          "word": "GUST",
-          "startRow": 0,
-          "startCol": 2,
-          "direction": "LR"
+          "direction": "DIAG_UP"
         }
       ],
       "timeLimit": 150
@@ -3374,128 +3672,124 @@
       "id": 128,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "CROW",
-        "FOX",
-        "DUSK",
-        "COW",
-        "PLAN",
-        "SMILE",
-        "LIKER",
-        "SAWS"
+        "DESERT",
+        "EMU",
+        "GOAT",
+        "JADE",
+        "VIPER"
       ],
       "grid": [
         [
-          "H",
-          "S",
-          "M",
-          "I",
-          "L",
-          "E",
-          "S"
-        ],
-        [
-          "C",
-          "T",
-          "K",
-          "U",
-          "L",
-          "K",
-          "S"
-        ],
-        [
-          "L",
-          "R",
-          "B",
-          "N",
-          "S",
-          "C",
-          "A"
-        ],
-        [
-          "P",
-          "R",
-          "O",
-          "U",
-          "C",
-          "O",
-          "W"
-        ],
-        [
-          "L",
-          "G",
-          "D",
           "W",
-          "F",
+          "Q",
           "D",
-          "S"
-        ],
-        [
-          "A",
-          "H",
-          "N",
           "T",
-          "F",
-          "O",
+          "A",
+          "B",
+          "V",
           "X"
         ],
         [
+          "W",
+          "H",
+          "G",
+          "E",
+          "V",
+          "T",
+          "I",
+          "U"
+        ],
+        [
+          "J",
+          "M",
+          "J",
+          "O",
+          "S",
           "N",
+          "P",
+          "C"
+        ],
+        [
           "R",
+          "Q",
+          "U",
+          "U",
+          "A",
+          "E",
+          "E",
+          "M"
+        ],
+        [
+          "B",
+          "M",
+          "K",
+          "Q",
+          "E",
+          "T",
+          "R",
+          "P"
+        ],
+        [
           "E",
           "K",
-          "I",
+          "J",
+          "D",
+          "K",
+          "S",
           "L",
-          "X"
+          "T"
+        ],
+        [
+          "X",
+          "J",
+          "A",
+          "U",
+          "L",
+          "H",
+          "V",
+          "G"
+        ],
+        [
+          "I",
+          "J",
+          "O",
+          "L",
+          "F",
+          "G",
+          "W",
+          "Y"
         ]
       ],
       "wordPositions": [
         {
-          "word": "CROW",
-          "startRow": 1,
-          "startCol": 0,
-          "direction": "DIAG_DOWN"
-        },
-        {
-          "word": "FOX",
-          "startRow": 4,
-          "startCol": 4,
-          "direction": "DIAG_DOWN"
-        },
-        {
-          "word": "DUSK",
-          "startRow": 4,
+          "word": "DESERT",
+          "startRow": 0,
           "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "EMU",
+          "startRow": 5,
+          "startCol": 0,
           "direction": "DIAG_UP"
         },
         {
-          "word": "COW",
-          "startRow": 3,
-          "startCol": 4,
-          "direction": "LR"
-        },
-        {
-          "word": "PLAN",
-          "startRow": 3,
-          "startCol": 0,
-          "direction": "TB"
-        },
-        {
-          "word": "SMILE",
-          "startRow": 0,
-          "startCol": 1,
-          "direction": "LR"
-        },
-        {
-          "word": "LIKER",
-          "startRow": 6,
-          "startCol": 5,
-          "direction": "RL"
-        },
-        {
-          "word": "SAWS",
+          "word": "GOAT",
           "startRow": 1,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "JADE",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "VIPER",
+          "startRow": 0,
           "startCol": 6,
           "direction": "TB"
         }
@@ -3506,130 +3800,126 @@
       "id": 129,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "KOI",
-        "WHALE",
-        "TEAL",
-        "SONG",
-        "CART",
-        "PEN",
-        "TOGAE",
-        "HAVE"
+        "POTATO",
+        "RUG",
+        "MANGO",
+        "HOOK",
+        "SUMMER"
       ],
       "grid": [
         [
-          "T",
-          "E",
+          "W",
           "A",
-          "L",
-          "J",
-          "Q",
+          "D",
+          "Z",
+          "K",
+          "R",
+          "Z",
           "M"
         ],
         [
-          "U",
-          "D",
-          "W",
-          "H",
-          "A",
-          "L",
-          "E"
-        ],
-        [
-          "F",
-          "D",
-          "H",
-          "H",
-          "I",
-          "S",
-          "T"
-        ],
-        [
-          "C",
-          "H",
-          "Q",
-          "O",
+          "M",
+          "M",
           "P",
           "O",
+          "F",
+          "A",
+          "R",
+          "Y"
+        ],
+        [
+          "A",
+          "P",
+          "O",
+          "E",
+          "T",
+          "A",
+          "G",
+          "Y"
+        ],
+        [
+          "N",
+          "H",
+          "P",
+          "O",
+          "T",
+          "A",
+          "T",
           "O"
         ],
         [
-          "J",
-          "A",
-          "K",
+          "G",
           "P",
+          "S",
+          "U",
+          "M",
+          "M",
           "E",
-          "N",
-          "G"
+          "R"
         ],
         [
-          "T",
+          "O",
+          "U",
           "V",
+          "O",
           "R",
-          "P",
+          "N",
+          "S",
+          "D"
+        ],
+        [
+          "W",
+          "O",
+          "D",
+          "O",
+          "G",
+          "U",
+          "T",
+          "U"
+        ],
+        [
+          "Y",
+          "W",
+          "D",
+          "Y",
+          "H",
           "N",
           "G",
-          "A"
-        ],
-        [
-          "A",
-          "E",
-          "O",
-          "T",
-          "H",
-          "Z",
           "E"
         ]
       ],
       "wordPositions": [
         {
-          "word": "KOI",
-          "startRow": 4,
-          "startCol": 2,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "WHALE",
-          "startRow": 1,
-          "startCol": 2,
-          "direction": "LR"
-        },
-        {
-          "word": "TEAL",
-          "startRow": 0,
-          "startCol": 0,
-          "direction": "LR"
-        },
-        {
-          "word": "SONG",
-          "startRow": 2,
-          "startCol": 5,
-          "direction": "TB"
-        },
-        {
-          "word": "CART",
+          "word": "POTATO",
           "startRow": 3,
-          "startCol": 0,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "RUG",
+          "startRow": 5,
+          "startCol": 4,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "PEN",
-          "startRow": 3,
-          "startCol": 4,
+          "word": "MANGO",
+          "startRow": 1,
+          "startCol": 0,
           "direction": "TB"
         },
         {
-          "word": "TOGAE",
-          "startRow": 2,
-          "startCol": 6,
-          "direction": "TB"
-        },
-        {
-          "word": "HAVE",
+          "word": "HOOK",
           "startRow": 3,
           "startCol": 1,
-          "direction": "TB"
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SUMMER",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "LR"
         }
       ],
       "timeLimit": 150
@@ -3638,116 +3928,133 @@
       "id": 130,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "DEER",
-        "MAP",
-        "BANANA",
-        "BALL",
-        "SABIK",
-        "INEZ"
+        "EMU",
+        "PARK",
+        "GOAT",
+        "RED",
+        "PIANO",
+        "GATE"
       ],
       "grid": [
         [
-          "K",
-          "I",
-          "N",
-          "E",
           "Z",
-          "B",
-          "B"
-        ],
-        [
-          "S",
-          "J",
-          "B",
-          "Y",
-          "C",
-          "O",
-          "A"
-        ],
-        [
+          "D",
+          "G",
           "A",
-          "P",
+          "Z",
+          "O",
+          "T",
+          "D"
+        ],
+        [
+          "Q",
           "M",
-          "A",
-          "H",
-          "R",
-          "N"
-        ],
-        [
-          "B",
-          "D",
-          "U",
-          "A",
-          "L",
-          "I",
-          "A"
-        ],
-        [
-          "I",
-          "C",
+          "Q",
+          "Z",
+          "Z",
           "E",
-          "D",
+          "W",
+          "Y"
+        ],
+        [
           "P",
-          "L",
+          "P",
+          "N",
+          "O",
+          "O",
+          "G",
+          "M",
+          "L"
+        ],
+        [
+          "E",
+          "O",
+          "A",
+          "N",
+          "G",
+          "R",
+          "G",
+          "U"
+        ],
+        [
+          "G",
+          "W",
+          "A",
+          "R",
+          "T",
+          "A",
+          "E",
+          "Z"
+        ],
+        [
+          "V",
+          "I",
+          "D",
+          "A",
+          "K",
+          "D",
+          "T",
           "N"
         ],
         [
-          "K",
-          "F",
+          "P",
           "O",
+          "O",
+          "J",
           "E",
-          "A",
-          "I",
-          "A"
+          "R",
+          "X",
+          "E"
         ],
         [
-          "N",
-          "Y",
-          "I",
-          "J",
+          "T",
+          "G",
+          "E",
           "R",
-          "C",
-          "F"
+          "T",
+          "Q",
+          "U",
+          "G"
         ]
       ],
       "wordPositions": [
         {
-          "word": "DEER",
-          "startRow": 3,
-          "startCol": 1,
+          "word": "EMU",
+          "startRow": 1,
+          "startCol": 5,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "MAP",
+          "word": "PARK",
           "startRow": 2,
-          "startCol": 2,
-          "direction": "DIAG_DOWN"
-        },
-        {
-          "word": "BANANA",
-          "startRow": 0,
-          "startCol": 6,
-          "direction": "TB"
-        },
-        {
-          "word": "BALL",
-          "startRow": 1,
-          "startCol": 2,
-          "direction": "DIAG_DOWN"
-        },
-        {
-          "word": "SABIK",
-          "startRow": 1,
-          "startCol": 0,
-          "direction": "TB"
-        },
-        {
-          "word": "INEZ",
-          "startRow": 0,
           "startCol": 1,
-          "direction": "LR"
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "GOAT",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "RED",
+          "startRow": 7,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "PIANO",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "GATE",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
         }
       ],
       "timeLimit": 150
@@ -3756,130 +4063,140 @@
       "id": 131,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "LEMON",
-        "BOX",
-        "FOX",
-        "RULE",
-        "CHEESE",
-        "HOSE",
-        "SAGER",
-        "XIX"
+        "WORM",
+        "OPAL",
+        "KOALA",
+        "DESERT",
+        "BED",
+        "CRAB",
+        "PAN"
       ],
       "grid": [
         [
-          "P",
-          "F",
           "O",
-          "X",
-          "E",
-          "J",
-          "S"
-        ],
-        [
-          "P",
-          "I",
-          "X",
-          "L",
-          "H",
-          "L",
-          "A"
-        ],
-        [
+          "K",
+          "T",
           "D",
           "O",
-          "U",
-          "H",
-          "X",
-          "G",
-          "G"
+          "A",
+          "B",
+          "T"
         ],
         [
           "B",
-          "R",
-          "U",
-          "U",
-          "O",
+          "N",
           "E",
-          "E"
-        ],
-        [
-          "X",
+          "P",
+          "L",
+          "U",
           "R",
-          "X",
-          "I",
-          "X",
-          "S",
-          "R"
+          "D"
         ],
         [
-          "H",
+          "F",
+          "O",
+          "P",
+          "A",
           "L",
           "E",
-          "M",
-          "O",
-          "N",
-          "E"
+          "C",
+          "W"
         ],
         [
           "P",
-          "C",
+          "M",
+          "O",
+          "S",
+          "S",
+          "H",
+          "R",
+          "J"
+        ],
+        [
+          "A",
+          "K",
+          "B",
+          "E",
+          "G",
+          "N",
+          "A",
+          "F"
+        ],
+        [
+          "N",
+          "D",
+          "D",
+          "H",
+          "Z",
+          "B",
+          "B",
+          "C"
+        ],
+        [
+          "P",
+          "O",
+          "L",
+          "R",
+          "X",
           "H",
           "E",
-          "E",
-          "S",
-          "E"
+          "C"
+        ],
+        [
+          "R",
+          "W",
+          "O",
+          "R",
+          "M",
+          "G",
+          "M",
+          "D"
         ]
       ],
       "wordPositions": [
         {
-          "word": "LEMON",
-          "startRow": 5,
+          "word": "WORM",
+          "startRow": 7,
           "startCol": 1,
           "direction": "LR"
         },
         {
-          "word": "BOX",
-          "startRow": 3,
-          "startCol": 0,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "FOX",
-          "startRow": 0,
-          "startCol": 1,
-          "direction": "LR"
-        },
-        {
-          "word": "RULE",
-          "startRow": 3,
-          "startCol": 1,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "CHEESE",
-          "startRow": 6,
-          "startCol": 1,
-          "direction": "LR"
-        },
-        {
-          "word": "HOSE",
+          "word": "OPAL",
           "startRow": 2,
-          "startCol": 3,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "KOALA",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "DESERT",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BED",
+          "startRow": 5,
+          "startCol": 5,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "SAGER",
-          "startRow": 0,
+          "word": "CRAB",
+          "startRow": 2,
           "startCol": 6,
           "direction": "TB"
         },
         {
-          "word": "XIX",
-          "startRow": 4,
-          "startCol": 4,
-          "direction": "RL"
+          "word": "PAN",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "TB"
         }
       ],
       "timeLimit": 150
@@ -3888,130 +4205,133 @@
       "id": 132,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
+        "SAND",
+        "PENCIL",
+        "HORSE",
         "PLAN",
-        "GOLD",
-        "SILVER",
-        "ROCK",
-        "COMB",
-        "SAW",
-        "PROVEN",
-        "VISCID"
+        "IBIS",
+        "GALAXY"
       ],
       "grid": [
         [
-          "P",
-          "R",
-          "A",
-          "A",
-          "C",
           "D",
-          "I"
-        ],
-        [
-          "R",
+          "D",
+          "I",
+          "Y",
+          "N",
           "O",
-          "C",
-          "K",
           "L",
-          "R",
-          "N"
+          "G"
         ],
         [
-          "O",
-          "S",
-          "K",
-          "O",
-          "E",
-          "A",
-          "B"
-        ],
-        [
-          "V",
-          "A",
           "G",
+          "Q",
+          "H",
+          "Q",
+          "A",
+          "I",
+          "C",
+          "A"
+        ],
+        [
+          "P",
           "V",
+          "K",
+          "B",
+          "C",
+          "A",
+          "A",
+          "L"
+        ],
+        [
+          "T",
+          "Z",
+          "V",
+          "N",
+          "J",
+          "D",
+          "I",
+          "A"
+        ],
+        [
+          "P",
+          "D",
+          "E",
           "L",
-          "M",
+          "N",
+          "B",
+          "V",
+          "X"
+        ],
+        [
+          "L",
+          "P",
+          "Z",
+          "A",
+          "Q",
+          "D",
+          "I",
+          "Y"
+        ],
+        [
+          "A",
+          "F",
+          "S",
+          "B",
+          "I",
+          "B",
+          "I",
           "S"
         ],
         [
-          "E",
-          "W",
-          "L",
-          "P",
+          "N",
+          "J",
           "O",
-          "X",
-          "U"
-        ],
-        [
-          "N",
-          "I",
-          "L",
-          "C",
-          "N",
-          "P",
-          "U"
-        ],
-        [
+          "H",
+          "O",
+          "R",
           "S",
-          "V",
-          "I",
-          "S",
-          "C",
-          "I",
-          "D"
+          "E"
         ]
       ],
       "wordPositions": [
         {
-          "word": "PLAN",
-          "startRow": 4,
-          "startCol": 3,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "GOLD",
-          "startRow": 3,
+          "word": "SAND",
+          "startRow": 6,
           "startCol": 2,
           "direction": "DIAG_UP"
         },
         {
-          "word": "SILVER",
-          "startRow": 6,
-          "startCol": 0,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "ROCK",
-          "startRow": 1,
-          "startCol": 0,
-          "direction": "LR"
-        },
-        {
-          "word": "COMB",
+          "word": "PENCIL",
           "startRow": 5,
-          "startCol": 3,
+          "startCol": 1,
           "direction": "DIAG_UP"
         },
         {
-          "word": "SAW",
-          "startRow": 2,
-          "startCol": 1,
-          "direction": "TB"
+          "word": "HORSE",
+          "startRow": 7,
+          "startCol": 3,
+          "direction": "LR"
         },
         {
-          "word": "PROVEN",
-          "startRow": 0,
+          "word": "PLAN",
+          "startRow": 4,
           "startCol": 0,
           "direction": "TB"
         },
         {
-          "word": "VISCID",
+          "word": "IBIS",
           "startRow": 6,
-          "startCol": 1,
+          "startCol": 4,
           "direction": "LR"
+        },
+        {
+          "word": "GALAXY",
+          "startRow": 0,
+          "startCol": 7,
+          "direction": "TB"
         }
       ],
       "timeLimit": 150
@@ -4020,123 +4340,140 @@
       "id": 133,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "HARP",
-        "IVY",
-        "CARD",
-        "CAGE",
-        "RAT",
-        "BICYCLE",
-        "BRINE"
+        "PAN",
+        "SALAD",
+        "PASTA",
+        "SOIL",
+        "OAK",
+        "FROG",
+        "SOUP"
       ],
       "grid": [
         [
-          "C",
-          "A",
-          "G",
-          "E",
-          "E",
-          "S",
-          "B"
-        ],
-        [
           "Z",
           "P",
-          "H",
-          "Z",
-          "S",
-          "Z",
-          "I"
-        ],
-        [
-          "Y",
-          "F",
-          "C",
-          "A",
-          "R",
-          "D",
-          "C"
-        ],
-        [
           "Q",
-          "T",
-          "I",
+          "S",
           "X",
-          "R",
-          "A",
-          "Y"
-        ],
-        [
-          "A",
-          "O",
-          "B",
-          "V",
-          "T",
-          "P",
-          "C"
-        ],
-        [
-          "C",
-          "F",
-          "Z",
-          "A",
-          "Y",
+          "J",
           "L",
           "L"
         ],
         [
+          "Y",
+          "L",
+          "M",
+          "G",
+          "O",
+          "Z",
+          "J",
+          "A"
+        ],
+        [
           "S",
-          "B",
-          "R",
+          "D",
+          "O",
+          "S",
+          "X",
           "I",
+          "T",
+          "H"
+        ],
+        [
+          "G",
+          "R",
+          "O",
+          "M",
+          "O",
+          "S",
+          "L",
+          "D"
+        ],
+        [
+          "F",
+          "A",
+          "M",
+          "A",
+          "A",
+          "U",
           "N",
-          "E",
-          "E"
+          "K"
+        ],
+        [
+          "P",
+          "A",
+          "N",
+          "P",
+          "K",
+          "G",
+          "P",
+          "T"
+        ],
+        [
+          "I",
+          "S",
+          "A",
+          "L",
+          "A",
+          "D",
+          "A",
+          "M"
+        ],
+        [
+          "D",
+          "X",
+          "H",
+          "B",
+          "A",
+          "I",
+          "U",
+          "Z"
         ]
       ],
       "wordPositions": [
         {
-          "word": "HARP",
-          "startRow": 1,
-          "startCol": 2,
+          "word": "PAN",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "SALAD",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "PASTA",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "SOIL",
+          "startRow": 0,
+          "startCol": 3,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "IVY",
+          "word": "OAK",
           "startRow": 3,
           "startCol": 2,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "CARD",
-          "startRow": 2,
-          "startCol": 2,
-          "direction": "LR"
-        },
-        {
-          "word": "CAGE",
-          "startRow": 0,
+          "word": "FROG",
+          "startRow": 4,
           "startCol": 0,
-          "direction": "LR"
-        },
-        {
-          "word": "RAT",
-          "startRow": 6,
-          "startCol": 2,
           "direction": "DIAG_UP"
         },
         {
-          "word": "BICYCLE",
-          "startRow": 0,
-          "startCol": 6,
-          "direction": "TB"
-        },
-        {
-          "word": "BRINE",
-          "startRow": 6,
-          "startCol": 1,
-          "direction": "LR"
+          "word": "SOUP",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
         }
       ],
       "timeLimit": 150
@@ -4145,130 +4482,140 @@
       "id": 134,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "SWAN",
-        "MUG",
-        "CALF",
-        "PIPE",
-        "WATER",
-        "BEACH",
-        "GLEANS",
-        "COY"
+        "MAZE",
+        "MANGO",
+        "PIG",
+        "CUP",
+        "SAIL",
+        "WICK",
+        "DAWN"
       ],
       "grid": [
         [
-          "S",
-          "S",
-          "L",
-          "Y",
-          "E",
-          "Q",
+          "D",
+          "A",
+          "W",
+          "N",
+          "C",
+          "G",
+          "N",
           "C"
         ],
         [
+          "Q",
+          "A",
+          "P",
+          "L",
+          "I",
+          "J",
+          "O",
+          "U"
+        ],
+        [
+          "K",
+          "Z",
+          "L",
+          "P",
+          "X",
+          "A",
+          "L",
+          "P"
+        ],
+        [
+          "M",
+          "A",
+          "M",
+          "M",
+          "A",
           "N",
-          "P",
-          "W",
-          "P",
-          "E",
-          "B",
+          "G",
           "O"
         ],
         [
+          "W",
+          "I",
+          "Z",
           "A",
+          "L",
+          "B",
+          "S",
+          "V"
+        ],
+        [
           "W",
           "I",
           "A",
-          "R",
-          "E",
-          "Y"
+          "O",
+          "Z",
+          "M",
+          "A",
+          "P"
         ],
         [
-          "E",
-          "P",
+          "Z",
           "A",
-          "H",
+          "C",
+          "C",
+          "F",
+          "E",
+          "I",
+          "X"
+        ],
+        [
+          "I",
+          "S",
+          "V",
+          "K",
           "N",
-          "A",
-          "C"
-        ],
-        [
+          "T",
           "L",
-          "N",
-          "M",
-          "T",
-          "H",
-          "C",
-          "A"
-        ],
-        [
-          "G",
-          "C",
-          "Q",
-          "U",
-          "E",
-          "H",
-          "L"
-        ],
-        [
-          "T",
-          "M",
-          "R",
-          "X",
-          "G",
-          "R",
-          "F"
+          "N"
         ]
       ],
       "wordPositions": [
         {
-          "word": "SWAN",
-          "startRow": 0,
-          "startCol": 1,
-          "direction": "DIAG_DOWN"
-        },
-        {
-          "word": "MUG",
-          "startRow": 4,
+          "word": "MAZE",
+          "startRow": 3,
           "startCol": 2,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "CALF",
+          "word": "MANGO",
           "startRow": 3,
-          "startCol": 6,
-          "direction": "TB"
+          "startCol": 3,
+          "direction": "LR"
         },
         {
-          "word": "PIPE",
-          "startRow": 3,
-          "startCol": 1,
+          "word": "PIG",
+          "startRow": 2,
+          "startCol": 3,
           "direction": "DIAG_UP"
         },
         {
-          "word": "WATER",
-          "startRow": 2,
-          "startCol": 1,
+          "word": "CUP",
+          "startRow": 0,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "SAIL",
+          "startRow": 4,
+          "startCol": 6,
+          "direction": "TB"
+        },
+        {
+          "word": "WICK",
+          "startRow": 4,
+          "startCol": 0,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "BEACH",
-          "startRow": 1,
-          "startCol": 5,
-          "direction": "TB"
-        },
-        {
-          "word": "GLEANS",
-          "startRow": 5,
-          "startCol": 0,
-          "direction": "BT"
-        },
-        {
-          "word": "COY",
+          "word": "DAWN",
           "startRow": 0,
-          "startCol": 6,
-          "direction": "TB"
+          "startCol": 0,
+          "direction": "LR"
         }
       ],
       "timeLimit": 150
@@ -4277,123 +4624,133 @@
       "id": 135,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "LEMON",
-        "DAWN",
-        "FISH",
-        "DOME",
-        "NAIL",
-        "GOA",
-        "TWIRL"
+        "RING",
+        "ENERGY",
+        "PIZZA",
+        "GALE",
+        "HARP",
+        "OPAL"
       ],
       "grid": [
         [
-          "D",
-          "A",
-          "W",
-          "N",
-          "W",
-          "T",
-          "H"
-        ],
-        [
-          "N",
-          "M",
-          "F",
-          "K",
-          "T",
+          "V",
+          "Y",
+          "H",
+          "B",
+          "B",
+          "P",
           "S",
-          "G"
+          "C"
         ],
         [
-          "L",
+          "V",
+          "W",
+          "T",
+          "G",
+          "R",
+          "F",
+          "Z",
+          "O"
+        ],
+        [
+          "V",
+          "E",
+          "N",
           "A",
+          "U",
+          "C",
+          "E",
+          "O"
+        ],
+        [
+          "I",
+          "I",
+          "H",
+          "B",
+          "K",
+          "L",
+          "N",
+          "P"
+        ],
+        [
+          "R",
+          "P",
+          "O",
+          "O",
+          "S",
+          "B",
+          "E",
+          "I"
+        ],
+        [
+          "D",
+          "Z",
+          "S",
+          "P",
+          "R",
           "L",
           "R",
-          "I",
-          "W",
-          "T"
+          "Z"
         ],
         [
-          "Y",
-          "E",
-          "I",
           "F",
-          "L",
-          "Q",
-          "E"
-        ],
-        [
           "W",
-          "S",
-          "M",
+          "C",
           "L",
           "A",
-          "M",
-          "Q"
-        ],
-        [
-          "A",
-          "O",
+          "W",
           "G",
-          "O",
-          "O",
-          "I",
-          "W"
+          "Z"
         ],
         [
+          "V",
           "J",
-          "Z",
-          "B",
-          "D",
-          "N",
-          "Z",
-          "S"
+          "T",
+          "G",
+          "J",
+          "L",
+          "Y",
+          "A"
         ]
       ],
       "wordPositions": [
         {
-          "word": "LEMON",
-          "startRow": 2,
+          "word": "RING",
+          "startRow": 4,
           "startCol": 0,
-          "direction": "DIAG_DOWN"
-        },
-        {
-          "word": "DAWN",
-          "startRow": 0,
-          "startCol": 0,
-          "direction": "LR"
-        },
-        {
-          "word": "FISH",
-          "startRow": 3,
-          "startCol": 3,
           "direction": "DIAG_UP"
         },
         {
-          "word": "DOME",
-          "startRow": 6,
-          "startCol": 3,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "NAIL",
-          "startRow": 1,
-          "startCol": 0,
-          "direction": "DIAG_DOWN"
-        },
-        {
-          "word": "GOA",
-          "startRow": 5,
-          "startCol": 2,
-          "direction": "RL"
-        },
-        {
-          "word": "TWIRL",
+          "word": "ENERGY",
           "startRow": 2,
           "startCol": 6,
-          "direction": "RL"
+          "direction": "TB"
+        },
+        {
+          "word": "PIZZA",
+          "startRow": 3,
+          "startCol": 7,
+          "direction": "TB"
+        },
+        {
+          "word": "GALE",
+          "startRow": 7,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "HARP",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "OPAL",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
         }
       ],
       "timeLimit": 150
@@ -4402,116 +4759,126 @@
       "id": 136,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "OTTER",
-        "HOOK",
-        "RUBY",
-        "CART",
-        "OGRES",
-        "MARCELO"
+        "MUG",
+        "LAKE",
+        "SUMMER",
+        "SHIELD",
+        "MEADOW"
       ],
       "grid": [
         [
-          "O",
+          "Q",
+          "M",
           "T",
-          "S",
-          "E",
-          "R",
+          "L",
           "G",
-          "O"
-        ],
-        [
-          "Q",
-          "A",
-          "A",
-          "F",
-          "J",
           "N",
-          "L"
+          "X",
+          "D"
         ],
         [
-          "O",
-          "T",
-          "T",
-          "E",
-          "R",
-          "Y",
-          "E"
-        ],
-        [
-          "V",
-          "C",
-          "T",
           "P",
-          "B",
-          "H",
-          "C"
+          "E",
+          "P",
+          "U",
+          "V",
+          "F",
+          "M",
+          "G"
         ],
         [
-          "I",
-          "Y",
+          "X",
           "A",
-          "U",
-          "Q",
-          "O",
+          "M",
+          "K",
+          "H",
+          "L",
+          "F",
           "R"
         ],
         [
-          "Q",
-          "V",
-          "R",
-          "R",
-          "M",
-          "O",
-          "A"
+          "D",
+          "D",
+          "X",
+          "X",
+          "L",
+          "A",
+          "X",
+          "I"
         ],
         [
-          "N",
-          "G",
-          "T",
+          "Y",
+          "O",
           "X",
-          "T",
+          "A",
+          "J",
           "K",
-          "M"
+          "S",
+          "P"
+        ],
+        [
+          "R",
+          "W",
+          "N",
+          "S",
+          "K",
+          "E",
+          "S",
+          "J"
+        ],
+        [
+          "P",
+          "S",
+          "U",
+          "M",
+          "M",
+          "E",
+          "R",
+          "V"
+        ],
+        [
+          "J",
+          "D",
+          "S",
+          "H",
+          "I",
+          "E",
+          "L",
+          "D"
         ]
       ],
       "wordPositions": [
         {
-          "word": "OTTER",
+          "word": "MUG",
           "startRow": 2,
-          "startCol": 0,
-          "direction": "LR"
-        },
-        {
-          "word": "HOOK",
-          "startRow": 3,
-          "startCol": 5,
-          "direction": "TB"
-        },
-        {
-          "word": "RUBY",
-          "startRow": 5,
           "startCol": 2,
           "direction": "DIAG_UP"
         },
         {
-          "word": "CART",
-          "startRow": 3,
-          "startCol": 1,
-          "direction": "DIAG_DOWN"
+          "word": "LAKE",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "TB"
         },
         {
-          "word": "OGRES",
-          "startRow": 0,
-          "startCol": 6,
-          "direction": "RL"
-        },
-        {
-          "word": "MARCELO",
+          "word": "SUMMER",
           "startRow": 6,
-          "startCol": 6,
-          "direction": "BT"
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "SHIELD",
+          "startRow": 7,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "MEADOW",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TB"
         }
       ],
       "timeLimit": 150
@@ -4520,123 +4887,133 @@
       "id": 137,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "MAZE",
-        "CALL",
-        "CLAY",
-        "ANT",
-        "HAIL",
-        "STOCKED",
-        "TRIBE"
+        "WOOD",
+        "VOLCANO",
+        "NEST",
+        "DEW",
+        "PINK",
+        "RAIN"
       ],
       "grid": [
         [
-          "N",
-          "C",
-          "A",
-          "L",
-          "L",
+          "J",
           "V",
-          "K"
-        ],
-        [
-          "A",
+          "Q",
           "B",
-          "M",
-          "A",
-          "Z",
-          "E",
-          "T"
-        ],
-        [
-          "L",
-          "S",
-          "P",
-          "X",
-          "H",
-          "N",
-          "A"
-        ],
-        [
-          "C",
-          "L",
-          "A",
           "Y",
-          "A",
-          "E",
+          "W",
+          "U",
+          "C"
+        ],
+        [
+          "U",
+          "O",
+          "W",
+          "O",
+          "O",
+          "D",
+          "Z",
+          "E"
+        ],
+        [
+          "O",
+          "L",
+          "O",
+          "N",
+          "K",
+          "R",
+          "C",
           "I"
         ],
         [
-          "S",
-          "H",
+          "Y",
+          "C",
+          "F",
           "E",
+          "D",
+          "A",
+          "X",
+          "V"
+        ],
+        [
+          "A",
+          "A",
           "B",
+          "S",
+          "E",
           "I",
           "R",
-          "T"
+          "K"
         ],
         [
-          "Y",
-          "Z",
-          "V",
-          "U",
-          "L",
-          "V",
-          "B"
-        ],
-        [
-          "D",
-          "E",
+          "F",
+          "N",
           "K",
-          "C",
-          "O",
           "T",
-          "S"
+          "W",
+          "N",
+          "N",
+          "N"
+        ],
+        [
+          "W",
+          "O",
+          "Z",
+          "H",
+          "R",
+          "I",
+          "K",
+          "I"
+        ],
+        [
+          "Q",
+          "W",
+          "L",
+          "L",
+          "P",
+          "P",
+          "J",
+          "O"
         ]
       ],
       "wordPositions": [
         {
-          "word": "MAZE",
+          "word": "WOOD",
           "startRow": 1,
           "startCol": 2,
           "direction": "LR"
         },
         {
-          "word": "CALL",
+          "word": "VOLCANO",
           "startRow": 0,
           "startCol": 1,
-          "direction": "LR"
+          "direction": "TB"
         },
         {
-          "word": "CLAY",
-          "startRow": 3,
-          "startCol": 0,
-          "direction": "LR"
-        },
-        {
-          "word": "ANT",
-          "startRow": 3,
-          "startCol": 4,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "HAIL",
+          "word": "NEST",
           "startRow": 2,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "DEW",
+          "startRow": 3,
           "startCol": 4,
           "direction": "TB"
         },
         {
-          "word": "STOCKED",
-          "startRow": 6,
-          "startCol": 6,
-          "direction": "RL"
+          "word": "PINK",
+          "startRow": 7,
+          "startCol": 4,
+          "direction": "DIAG_UP"
         },
         {
-          "word": "TRIBE",
-          "startRow": 4,
-          "startCol": 6,
-          "direction": "RL"
+          "word": "RAIN",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "TB"
         }
       ],
       "timeLimit": 150
@@ -4645,130 +5022,126 @@
       "id": 138,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "HONEY",
-        "CLOD",
-        "KOALA",
-        "SNOW",
-        "PIG",
-        "CAKE",
-        "AFIRE",
-        "SPIRO"
+        "PEN",
+        "EAGLE",
+        "WALRUS",
+        "SQUID",
+        "BEACH"
       ],
       "grid": [
         [
-          "O",
-          "D",
-          "V",
-          "C",
-          "B",
-          "A",
-          "A"
-        ],
-        [
-          "R",
-          "A",
-          "T",
-          "C",
-          "A",
-          "L",
-          "Q"
-        ],
-        [
-          "I",
+          "Q",
+          "W",
           "F",
-          "H",
-          "L",
-          "A",
-          "K",
-          "D"
+          "Q",
+          "N",
+          "W",
+          "I",
+          "P"
         ],
         [
           "P",
-          "I",
+          "L",
+          "F",
+          "E",
+          "D",
+          "W",
+          "H",
+          "Z"
+        ],
+        [
           "G",
-          "O",
-          "U",
-          "L",
-          "E"
-        ],
-        [
-          "S",
-          "R",
-          "K",
-          "D",
+          "Y",
+          "P",
+          "I",
+          "E",
+          "A",
           "N",
-          "X",
-          "Q"
-        ],
-        [
-          "D",
-          "E",
-          "U",
-          "L",
-          "U",
-          "E",
           "D"
         ],
         [
-          "S",
-          "N",
-          "O",
-          "W",
-          "B",
+          "A",
+          "E",
+          "U",
+          "A",
+          "A",
+          "L",
+          "M",
+          "N"
+        ],
+        [
+          "Z",
+          "Q",
+          "K",
+          "M",
           "G",
-          "Y"
+          "R",
+          "I",
+          "Z"
+        ],
+        [
+          "S",
+          "K",
+          "Q",
+          "B",
+          "L",
+          "U",
+          "Z",
+          "P"
+        ],
+        [
+          "S",
+          "U",
+          "S",
+          "T",
+          "E",
+          "S",
+          "I",
+          "N"
+        ],
+        [
+          "L",
+          "A",
+          "B",
+          "E",
+          "A",
+          "C",
+          "H",
+          "D"
         ]
       ],
       "wordPositions": [
         {
-          "word": "HONEY",
+          "word": "PEN",
           "startRow": 2,
-          "startCol": 2,
-          "direction": "DIAG_DOWN"
-        },
-        {
-          "word": "CLOD",
-          "startRow": 1,
-          "startCol": 3,
-          "direction": "TB"
-        },
-        {
-          "word": "KOALA",
-          "startRow": 4,
           "startCol": 2,
           "direction": "DIAG_UP"
         },
         {
-          "word": "SNOW",
-          "startRow": 6,
-          "startCol": 0,
-          "direction": "LR"
-        },
-        {
-          "word": "PIG",
-          "startRow": 3,
-          "startCol": 0,
-          "direction": "LR"
-        },
-        {
-          "word": "CAKE",
-          "startRow": 0,
-          "startCol": 3,
-          "direction": "DIAG_DOWN"
-        },
-        {
-          "word": "AFIRE",
-          "startRow": 1,
-          "startCol": 1,
+          "word": "EAGLE",
+          "startRow": 2,
+          "startCol": 4,
           "direction": "TB"
         },
         {
-          "word": "SPIRO",
-          "startRow": 4,
+          "word": "WALRUS",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "SQUID",
+          "startRow": 5,
           "startCol": 0,
-          "direction": "BT"
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BEACH",
+          "startRow": 7,
+          "startCol": 2,
+          "direction": "LR"
         }
       ],
       "timeLimit": 150
@@ -4777,116 +5150,140 @@
       "id": 139,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "GOLD",
-        "SHARK",
-        "CORN",
-        "HAPPY",
-        "DADO",
-        "DUSE"
+        "TIGER",
+        "SOCK",
+        "PARROT",
+        "POOL",
+        "PLUM",
+        "GRAY",
+        "LAMB"
       ],
       "grid": [
         [
-          "Q",
-          "X",
-          "G",
-          "D",
-          "O",
+          "L",
+          "A",
+          "M",
+          "B",
+          "K",
           "J",
-          "O"
+          "R",
+          "P"
         ],
         [
-          "D",
-          "B",
+          "G",
+          "H",
+          "C",
+          "C",
+          "M",
+          "V",
+          "V",
+          "A"
+        ],
+        [
+          "P",
+          "R",
           "O",
-          "A",
-          "A",
+          "M",
+          "K",
+          "Z",
+          "K",
+          "R"
+        ],
+        [
+          "G",
           "S",
-          "P"
+          "T",
+          "I",
+          "G",
+          "E",
+          "R",
+          "R"
+        ],
+        [
+          "A",
+          "R",
+          "A",
+          "P",
+          "X",
+          "O",
+          "L",
+          "O"
         ],
         [
           "Z",
-          "G",
+          "K",
+          "A",
+          "T",
           "L",
-          "G",
-          "U",
-          "D",
-          "P"
-        ],
-        [
-          "G",
-          "M",
-          "D",
-          "P",
-          "K",
-          "U",
-          "O"
-        ],
-        [
-          "H",
-          "A",
-          "P",
-          "P",
-          "Y",
-          "S",
-          "H"
-        ],
-        [
-          "S",
-          "H",
-          "A",
-          "R",
-          "K",
-          "E",
-          "I"
-        ],
-        [
-          "C",
           "O",
+          "A",
+          "T"
+        ],
+        [
+          "Q",
           "R",
-          "N",
+          "Y",
+          "Y",
+          "O",
+          "U",
+          "Z",
+          "V"
+        ],
+        [
+          "I",
+          "G",
           "F",
-          "F",
-          "H"
+          "P",
+          "R",
+          "M",
+          "M",
+          "Y"
         ]
       ],
       "wordPositions": [
         {
-          "word": "GOLD",
-          "startRow": 0,
+          "word": "TIGER",
+          "startRow": 3,
           "startCol": 2,
-          "direction": "TB"
-        },
-        {
-          "word": "SHARK",
-          "startRow": 5,
-          "startCol": 0,
           "direction": "LR"
         },
         {
-          "word": "CORN",
-          "startRow": 6,
-          "startCol": 0,
-          "direction": "LR"
+          "word": "SOCK",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_UP"
         },
         {
-          "word": "HAPPY",
-          "startRow": 4,
-          "startCol": 0,
-          "direction": "LR"
-        },
-        {
-          "word": "DADO",
+          "word": "PARROT",
           "startRow": 0,
-          "startCol": 3,
-          "direction": "TLBR"
+          "startCol": 7,
+          "direction": "TB"
         },
         {
-          "word": "DUSE",
-          "startRow": 2,
-          "startCol": 5,
-          "direction": "TB"
+          "word": "POOL",
+          "startRow": 7,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "PLUM",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "GRAY",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "LAMB",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
         }
       ],
       "timeLimit": 150
@@ -4895,116 +5292,140 @@
       "id": 140,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "BOOT",
+        "LIGHT",
+        "SHEEP",
+        "BELL",
+        "FOREST",
+        "WORM",
         "BEACH",
-        "EMU",
-        "IBIS",
-        "BABELS",
-        "CUR"
+        "CANDY"
       ],
       "grid": [
         [
-          "D",
-          "O",
-          "R",
-          "I",
+          "F",
+          "K",
+          "C",
+          "W",
+          "Y",
           "B",
-          "I",
-          "S"
-        ],
-        [
-          "S",
-          "D",
-          "G",
-          "T",
-          "T",
-          "D",
-          "U"
-        ],
-        [
-          "L",
-          "B",
-          "O",
-          "H",
-          "Z",
-          "B",
+          "N",
           "G"
         ],
         [
-          "E",
           "O",
+          "B",
           "E",
-          "R",
-          "U",
-          "C",
-          "F"
-        ],
-        [
-          "B",
-          "U",
-          "Q",
           "A",
-          "D",
-          "L",
-          "U"
-        ],
-        [
-          "A",
-          "V",
-          "B",
-          "K",
           "C",
-          "M",
-          "D"
-        ],
-        [
-          "B",
-          "W",
-          "K",
-          "X",
-          "E",
           "H",
-          "O"
+          "M",
+          "P"
+        ],
+        [
+          "R",
+          "Y",
+          "Y",
+          "T",
+          "S",
+          "R",
+          "L",
+          "J"
+        ],
+        [
+          "E",
+          "T",
+          "Z",
+          "F",
+          "O",
+          "L",
+          "O",
+          "E"
+        ],
+        [
+          "S",
+          "M",
+          "Z",
+          "W",
+          "E",
+          "I",
+          "F",
+          "I"
+        ],
+        [
+          "T",
+          "B",
+          "I",
+          "B",
+          "D",
+          "G",
+          "E",
+          "R"
+        ],
+        [
+          "S",
+          "H",
+          "E",
+          "E",
+          "P",
+          "H",
+          "N",
+          "Q"
+        ],
+        [
+          "C",
+          "A",
+          "N",
+          "D",
+          "Y",
+          "T",
+          "Y",
+          "Q"
         ]
       ],
       "wordPositions": [
         {
-          "word": "BOOT",
-          "startRow": 4,
+          "word": "LIGHT",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "SHEEP",
+          "startRow": 6,
           "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "BELL",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "FOREST",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "WORM",
+          "startRow": 4,
+          "startCol": 3,
           "direction": "DIAG_UP"
         },
         {
           "word": "BEACH",
-          "startRow": 2,
+          "startRow": 1,
           "startCol": 1,
-          "direction": "DIAG_DOWN"
-        },
-        {
-          "word": "EMU",
-          "startRow": 6,
-          "startCol": 4,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "IBIS",
-          "startRow": 0,
-          "startCol": 3,
           "direction": "LR"
         },
         {
-          "word": "BABELS",
-          "startRow": 6,
+          "word": "CANDY",
+          "startRow": 7,
           "startCol": 0,
-          "direction": "BT"
-        },
-        {
-          "word": "CUR",
-          "startRow": 3,
-          "startCol": 5,
-          "direction": "RL"
+          "direction": "LR"
         }
       ],
       "timeLimit": 150
@@ -5013,123 +5434,126 @@
       "id": 141,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "FOREST",
-        "BEAR",
-        "CASE",
-        "PIG",
-        "ELK",
-        "GIMME",
-        "REBUS"
+        "RAM",
+        "SUPER",
+        "BOX",
+        "CROW",
+        "IBIS"
       ],
       "grid": [
         [
-          "P",
-          "R",
+          "A",
           "E",
           "B",
-          "U",
-          "S",
-          "E"
-        ],
-        [
-          "G",
-          "I",
-          "M",
-          "M",
-          "E",
-          "S",
-          "T"
-        ],
-        [
-          "O",
-          "T",
-          "G",
-          "W",
-          "A",
-          "S",
-          "E"
-        ],
-        [
+          "V",
           "R",
-          "Z",
-          "D",
+          "B",
           "C",
-          "E",
-          "O",
-          "L"
+          "H"
         ],
         [
-          "M",
-          "X",
-          "C",
-          "R",
+          "S",
+          "L",
+          "V",
           "H",
-          "N",
-          "K"
+          "P",
+          "B",
+          "Z",
+          "W"
         ],
         [
-          "F",
-          "W",
-          "O",
-          "B",
+          "H",
+          "I",
+          "S",
+          "U",
+          "P",
           "E",
-          "A",
+          "R",
           "R"
         ],
         [
-          "K",
-          "F",
-          "A",
-          "X",
+          "S",
+          "S",
+          "G",
+          "G",
           "C",
+          "X",
+          "H",
+          "S"
+        ],
+        [
+          "T",
+          "H",
+          "R",
+          "I",
+          "C",
+          "R",
+          "G",
+          "Q"
+        ],
+        [
+          "Z",
+          "V",
+          "M",
+          "B",
+          "Z",
+          "G",
+          "O",
+          "S"
+        ],
+        [
           "K",
-          "T"
+          "A",
+          "K",
+          "I",
+          "H",
+          "P",
+          "P",
+          "W"
+        ],
+        [
+          "R",
+          "B",
+          "K",
+          "S",
+          "L",
+          "B",
+          "O",
+          "X"
         ]
       ],
       "wordPositions": [
         {
-          "word": "FOREST",
-          "startRow": 6,
-          "startCol": 1,
+          "word": "RAM",
+          "startRow": 7,
+          "startCol": 0,
           "direction": "DIAG_UP"
         },
         {
-          "word": "BEAR",
-          "startRow": 5,
-          "startCol": 3,
+          "word": "SUPER",
+          "startRow": 2,
+          "startCol": 2,
           "direction": "LR"
         },
         {
-          "word": "CASE",
-          "startRow": 3,
-          "startCol": 3,
-          "direction": "DIAG_UP"
+          "word": "BOX",
+          "startRow": 7,
+          "startCol": 5,
+          "direction": "LR"
         },
         {
-          "word": "PIG",
-          "startRow": 0,
-          "startCol": 0,
+          "word": "CROW",
+          "startRow": 3,
+          "startCol": 4,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "ELK",
-          "startRow": 2,
-          "startCol": 6,
+          "word": "IBIS",
+          "startRow": 4,
+          "startCol": 3,
           "direction": "TB"
-        },
-        {
-          "word": "GIMME",
-          "startRow": 1,
-          "startCol": 0,
-          "direction": "LR"
-        },
-        {
-          "word": "REBUS",
-          "startRow": 0,
-          "startCol": 1,
-          "direction": "LR"
         }
       ],
       "timeLimit": 150
@@ -5138,116 +5562,140 @@
       "id": 142,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "SOIL",
-        "GOWN",
-        "PEN",
-        "ROPE",
-        "CLEFS",
-        "MIL"
+        "FLOWER",
+        "RUG",
+        "SHINE",
+        "GATE",
+        "HOSE",
+        "BAG",
+        "LAKE"
       ],
       "grid": [
         [
-          "L",
-          "X",
-          "K",
-          "C",
-          "P",
-          "X",
-          "M"
-        ],
-        [
-          "R",
-          "M",
-          "I",
-          "L",
-          "S",
-          "E",
-          "B"
-        ],
-        [
-          "O",
-          "R",
-          "V",
-          "E",
-          "O",
-          "N",
-          "N"
-        ],
-        [
-          "P",
-          "Q",
+          "B",
+          "A",
           "G",
-          "F",
+          "L",
+          "R",
+          "E",
           "I",
-          "W",
+          "J"
+        ],
+        [
+          "G",
+          "A",
+          "N",
+          "V",
+          "S",
+          "T",
+          "T",
           "R"
         ],
         [
-          "E",
           "P",
-          "C",
-          "S",
-          "L",
-          "Z",
-          "X"
-        ],
-        [
-          "C",
-          "G",
-          "O",
-          "W",
-          "N",
-          "L",
-          "M"
-        ],
-        [
-          "W",
           "Q",
-          "A",
-          "A",
+          "S",
+          "O",
+          "O",
+          "S",
+          "C",
+          "R"
+        ],
+        [
+          "T",
           "R",
-          "M",
-          "B"
+          "H",
+          "H",
+          "K",
+          "T",
+          "E",
+          "U"
+        ],
+        [
+          "X",
+          "U",
+          "L",
+          "E",
+          "I",
+          "W",
+          "B",
+          "G"
+        ],
+        [
+          "V",
+          "X",
+          "T",
+          "A",
+          "O",
+          "N",
+          "F",
+          "H"
+        ],
+        [
+          "J",
+          "A",
+          "D",
+          "L",
+          "K",
+          "H",
+          "E",
+          "F"
+        ],
+        [
+          "G",
+          "A",
+          "F",
+          "A",
+          "S",
+          "E",
+          "Z",
+          "N"
         ]
       ],
       "wordPositions": [
         {
-          "word": "SOIL",
-          "startRow": 1,
-          "startCol": 4,
+          "word": "FLOWER",
+          "startRow": 7,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "RUG",
+          "startRow": 2,
+          "startCol": 7,
           "direction": "TB"
         },
         {
-          "word": "GOWN",
-          "startRow": 5,
-          "startCol": 1,
-          "direction": "LR"
-        },
-        {
-          "word": "PEN",
-          "startRow": 0,
-          "startCol": 4,
+          "word": "SHINE",
+          "startRow": 2,
+          "startCol": 2,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "ROPE",
-          "startRow": 1,
+          "word": "GATE",
+          "startRow": 7,
           "startCol": 0,
-          "direction": "TB"
+          "direction": "DIAG_UP"
         },
         {
-          "word": "CLEFS",
+          "word": "HOSE",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BAG",
           "startRow": 0,
-          "startCol": 3,
-          "direction": "TB"
+          "startCol": 0,
+          "direction": "LR"
         },
         {
-          "word": "MIL",
-          "startRow": 1,
-          "startCol": 1,
-          "direction": "LR"
+          "word": "LAKE",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
         }
       ],
       "timeLimit": 150
@@ -5256,123 +5704,140 @@
       "id": 143,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "TAP",
-        "OTTER",
-        "MOON",
-        "PLUM",
-        "FORK",
-        "INTONES",
-        "WINK"
+        "SOFA",
+        "CLOD",
+        "WIND",
+        "BISON",
+        "CAKE",
+        "SHIELD",
+        "IVY"
       ],
       "grid": [
         [
-          "I",
-          "N",
-          "T",
-          "O",
-          "N",
-          "E",
-          "S"
-        ],
-        [
-          "M",
-          "M",
-          "R",
+          "C",
+          "A",
           "K",
-          "N",
-          "I",
-          "W"
+          "E",
+          "B",
+          "V",
+          "X",
+          "Q"
         ],
         [
-          "D",
-          "O",
-          "T",
-          "T",
+          "H",
           "E",
-          "R",
+          "B",
+          "E",
+          "Q",
+          "A",
+          "I",
+          "D"
+        ],
+        [
+          "H",
+          "O",
+          "G",
+          "D",
+          "F",
+          "N",
+          "L",
           "B"
         ],
         [
-          "P",
-          "P",
+          "F",
+          "D",
+          "N",
           "O",
-          "W",
-          "P",
-          "P",
-          "F"
+          "G",
+          "E",
+          "H",
+          "I"
         ],
         [
-          "Y",
-          "L",
-          "J",
-          "N",
-          "A",
-          "K",
+          "P",
+          "I",
+          "S",
+          "D",
+          "I",
+          "G",
+          "H",
+          "S"
+        ],
+        [
+          "W",
+          "O",
+          "O",
+          "H",
+          "V",
+          "V",
+          "X",
           "O"
         ],
         [
-          "D",
-          "O",
-          "U",
-          "T",
-          "P",
+          "Q",
+          "L",
           "S",
-          "R"
+          "Z",
+          "Z",
+          "M",
+          "Y",
+          "N"
         ],
         [
-          "Y",
-          "P",
-          "W",
-          "M",
+          "C",
+          "C",
+          "H",
+          "F",
           "T",
-          "D",
-          "K"
+          "K",
+          "Z",
+          "S"
         ]
       ],
       "wordPositions": [
         {
-          "word": "TAP",
-          "startRow": 5,
-          "startCol": 3,
+          "word": "SOFA",
+          "startRow": 4,
+          "startCol": 2,
           "direction": "DIAG_UP"
         },
         {
-          "word": "OTTER",
+          "word": "CLOD",
+          "startRow": 7,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "WIND",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BISON",
           "startRow": 2,
-          "startCol": 1,
-          "direction": "LR"
-        },
-        {
-          "word": "MOON",
-          "startRow": 1,
-          "startCol": 0,
-          "direction": "DIAG_DOWN"
-        },
-        {
-          "word": "PLUM",
-          "startRow": 3,
-          "startCol": 0,
-          "direction": "DIAG_DOWN"
-        },
-        {
-          "word": "FORK",
-          "startRow": 3,
-          "startCol": 6,
+          "startCol": 7,
           "direction": "TB"
         },
         {
-          "word": "INTONES",
+          "word": "CAKE",
           "startRow": 0,
           "startCol": 0,
           "direction": "LR"
         },
         {
-          "word": "WINK",
-          "startRow": 1,
-          "startCol": 6,
-          "direction": "RL"
+          "word": "SHIELD",
+          "startRow": 6,
+          "startCol": 2,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "IVY",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
         }
       ],
       "timeLimit": 150
@@ -5381,130 +5846,126 @@
       "id": 144,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "MINT",
-        "HARP",
-        "WOOL",
-        "PUMP",
-        "HOSE",
-        "WAVE",
-        "MEWLED",
-        "CAVE"
+        "SOCK",
+        "SUGAR",
+        "VALE",
+        "CHAMP",
+        "KOALA"
       ],
       "grid": [
         [
-          "M",
-          "E",
+          "Y",
+          "F",
           "W",
+          "F",
+          "S",
+          "V",
+          "U",
+          "L"
+        ],
+        [
+          "C",
+          "B",
+          "C",
           "L",
-          "E",
+          "Z",
+          "O",
           "D",
+          "P"
+        ],
+        [
+          "H",
+          "R",
+          "V",
+          "R",
+          "R",
+          "N",
+          "C",
+          "U"
+        ],
+        [
+          "A",
+          "K",
+          "S",
+          "Q",
+          "A",
+          "H",
+          "H",
           "K"
         ],
         [
-          "G",
           "M",
           "O",
-          "E",
-          "V",
-          "A",
-          "C"
-        ],
-        [
-          "J",
-          "I",
-          "O",
-          "D",
-          "E",
-          "L",
-          "E"
-        ],
-        [
-          "P",
-          "N",
-          "L",
-          "H",
-          "E",
-          "V",
-          "N"
-        ],
-        [
+          "K",
           "U",
-          "T",
-          "P",
-          "S",
-          "A",
-          "T",
-          "T"
-        ],
-        [
-          "M",
-          "D",
+          "B",
           "O",
-          "W",
-          "P",
-          "R",
-          "T"
-        ],
-        [
-          "P",
-          "H",
-          "T",
-          "D",
-          "C",
           "O",
           "P"
+        ],
+        [
+          "P",
+          "A",
+          "X",
+          "V",
+          "G",
+          "V",
+          "E",
+          "M"
+        ],
+        [
+          "T",
+          "L",
+          "B",
+          "C",
+          "J",
+          "A",
+          "N",
+          "J"
+        ],
+        [
+          "V",
+          "A",
+          "L",
+          "E",
+          "H",
+          "G",
+          "R",
+          "K"
         ]
       ],
       "wordPositions": [
         {
-          "word": "MINT",
-          "startRow": 1,
-          "startCol": 1,
-          "direction": "TB"
-        },
-        {
-          "word": "HARP",
-          "startRow": 3,
-          "startCol": 3,
+          "word": "SOCK",
+          "startRow": 0,
+          "startCol": 4,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "WOOL",
-          "startRow": 0,
-          "startCol": 2,
-          "direction": "TB"
-        },
-        {
-          "word": "PUMP",
+          "word": "SUGAR",
           "startRow": 3,
-          "startCol": 0,
-          "direction": "TB"
+          "startCol": 2,
+          "direction": "DIAG_DOWN"
         },
         {
-          "word": "HOSE",
-          "startRow": 6,
-          "startCol": 1,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "WAVE",
-          "startRow": 5,
-          "startCol": 3,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "MEWLED",
-          "startRow": 0,
+          "word": "VALE",
+          "startRow": 7,
           "startCol": 0,
           "direction": "LR"
         },
         {
-          "word": "CAVE",
+          "word": "CHAMP",
           "startRow": 1,
-          "startCol": 6,
-          "direction": "RL"
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "KOALA",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "TB"
         }
       ],
       "timeLimit": 150
@@ -5513,116 +5974,133 @@
       "id": 145,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "DAWN",
-        "BEE",
-        "ZEBRA",
-        "COAT",
-        "GARBLE",
-        "THEMES"
+        "YELLOW",
+        "CAKE",
+        "TIGER",
+        "BARK",
+        "NEST",
+        "BOAT"
       ],
       "grid": [
         [
-          "C",
-          "O",
-          "A",
-          "T",
-          "F",
-          "K",
+          "J",
+          "Q",
+          "G",
+          "U",
+          "M",
+          "S",
+          "R",
           "R"
         ],
         [
-          "E",
-          "A",
-          "W",
-          "T",
-          "L",
-          "A",
-          "F"
-        ],
-        [
-          "L",
-          "L",
-          "Y",
-          "L",
           "R",
-          "L",
-          "T"
-        ],
-        [
-          "B",
-          "E",
-          "G",
-          "B",
-          "T",
-          "M",
-          "N"
-        ],
-        [
-          "R",
-          "B",
-          "E",
-          "D",
-          "A",
-          "W",
-          "N"
-        ],
-        [
-          "A",
           "Z",
+          "Y",
           "E",
+          "L",
+          "L",
           "O",
-          "G",
-          "V",
-          "T"
+          "W"
         ],
         [
-          "G",
+          "I",
+          "V",
+          "C",
           "T",
-          "H",
+          "J",
+          "G",
+          "Q",
+          "K"
+        ],
+        [
+          "Y",
+          "P",
+          "S",
+          "A",
+          "T",
+          "F",
+          "R",
+          "Y"
+        ],
+        [
+          "W",
           "E",
-          "M",
-          "E",
+          "J",
+          "A",
+          "K",
+          "A",
+          "O",
           "S"
+        ],
+        [
+          "N",
+          "Z",
+          "O",
+          "U",
+          "B",
+          "E",
+          "I",
+          "R"
+        ],
+        [
+          "Z",
+          "B",
+          "H",
+          "J",
+          "I",
+          "P",
+          "M",
+          "R"
+        ],
+        [
+          "P",
+          "T",
+          "I",
+          "G",
+          "E",
+          "R",
+          "O",
+          "U"
         ]
       ],
       "wordPositions": [
         {
-          "word": "DAWN",
-          "startRow": 4,
-          "startCol": 3,
+          "word": "YELLOW",
+          "startRow": 1,
+          "startCol": 2,
           "direction": "LR"
         },
         {
-          "word": "BEE",
-          "startRow": 4,
-          "startCol": 1,
+          "word": "CAKE",
+          "startRow": 2,
+          "startCol": 2,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "ZEBRA",
-          "startRow": 5,
+          "word": "TIGER",
+          "startRow": 7,
           "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "BARK",
+          "startRow": 5,
+          "startCol": 4,
           "direction": "DIAG_UP"
         },
         {
-          "word": "COAT",
-          "startRow": 0,
+          "word": "NEST",
+          "startRow": 5,
           "startCol": 0,
-          "direction": "LR"
+          "direction": "DIAG_UP"
         },
         {
-          "word": "GARBLE",
-          "startRow": 6,
-          "startCol": 0,
-          "direction": "BT"
-        },
-        {
-          "word": "THEMES",
+          "word": "BOAT",
           "startRow": 6,
           "startCol": 1,
-          "direction": "LR"
+          "direction": "DIAG_UP"
         }
       ],
       "timeLimit": 150
@@ -5631,130 +6109,133 @@
       "id": 146,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "MOON",
-        "REEF",
-        "MUD",
-        "YAK",
-        "PINE",
-        "FOG",
-        "SONDRA",
-        "SCALDS"
+        "MILK",
+        "FLOWER",
+        "ELM",
+        "KOALA",
+        "BLUE",
+        "LEAF"
       ],
       "grid": [
         [
-          "F",
-          "S",
-          "D",
+          "Z",
+          "V",
+          "Q",
+          "B",
           "L",
-          "A",
-          "C",
-          "S"
-        ],
-        [
-          "O",
-          "O",
-          "P",
-          "I",
-          "N",
-          "E",
-          "U"
-        ],
-        [
-          "G",
-          "N",
-          "M",
-          "O",
-          "O",
-          "N",
-          "K"
-        ],
-        [
-          "F",
-          "D",
-          "E",
-          "R",
-          "I",
-          "Y",
-          "X"
-        ],
-        [
-          "L",
-          "R",
-          "K",
-          "E",
-          "M",
           "U",
-          "D"
+          "E",
+          "L"
         ],
         [
-          "S",
+          "V",
+          "K",
+          "F",
+          "U",
           "A",
-          "Y",
+          "Z",
           "E",
-          "N",
-          "T",
+          "A"
+        ],
+        [
+          "E",
+          "R",
+          "L",
+          "K",
+          "M",
+          "A",
+          "U",
           "L"
         ],
         [
           "Y",
-          "E",
-          "H",
-          "F",
+          "L",
+          "O",
+          "G",
           "B",
-          "D",
-          "H"
+          "I",
+          "V",
+          "A"
+        ],
+        [
+          "V",
+          "E",
+          "W",
+          "E",
+          "A",
+          "Q",
+          "L",
+          "B"
+        ],
+        [
+          "L",
+          "A",
+          "E",
+          "K",
+          "L",
+          "A",
+          "H",
+          "K"
+        ],
+        [
+          "C",
+          "F",
+          "R",
+          "W",
+          "O",
+          "M",
+          "O",
+          "R"
+        ],
+        [
+          "J",
+          "N",
+          "B",
+          "K",
+          "A",
+          "Y",
+          "U",
+          "J"
         ]
       ],
       "wordPositions": [
         {
-          "word": "MOON",
+          "word": "MILK",
           "startRow": 2,
-          "startCol": 2,
-          "direction": "LR"
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
         },
         {
-          "word": "REEF",
-          "startRow": 3,
-          "startCol": 3,
+          "word": "FLOWER",
+          "startRow": 1,
+          "startCol": 2,
           "direction": "TB"
         },
         {
-          "word": "MUD",
+          "word": "ELM",
           "startRow": 4,
-          "startCol": 4,
-          "direction": "LR"
+          "startCol": 3,
+          "direction": "DIAG_DOWN"
         },
         {
-          "word": "YAK",
-          "startRow": 6,
-          "startCol": 0,
+          "word": "KOALA",
+          "startRow": 7,
+          "startCol": 3,
           "direction": "DIAG_UP"
         },
         {
-          "word": "PINE",
-          "startRow": 1,
-          "startCol": 2,
+          "word": "BLUE",
+          "startRow": 0,
+          "startCol": 3,
           "direction": "LR"
         },
         {
-          "word": "FOG",
-          "startRow": 0,
-          "startCol": 0,
-          "direction": "TB"
-        },
-        {
-          "word": "SONDRA",
-          "startRow": 0,
+          "word": "LEAF",
+          "startRow": 3,
           "startCol": 1,
           "direction": "TB"
-        },
-        {
-          "word": "SCALDS",
-          "startRow": 0,
-          "startCol": 6,
-          "direction": "RL"
         }
       ],
       "timeLimit": 150
@@ -5763,130 +6244,126 @@
       "id": 147,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "MILK",
+        "VIPER",
         "WOOL",
-        "POST",
-        "VALE",
-        "LYNX",
-        "WOOD",
-        "XIX",
-        "BARRY"
+        "FOX",
+        "CALF",
+        "RIVER"
       ],
       "grid": [
         [
-          "Y",
-          "R",
-          "R",
-          "A",
-          "B",
-          "P",
-          "D"
-        ],
-        [
-          "P",
-          "L",
-          "Y",
-          "N",
-          "X",
+          "S",
+          "W",
+          "Q",
           "O",
-          "G"
-        ],
-        [
-          "X",
-          "L",
-          "A",
-          "P",
-          "O",
-          "T",
-          "Z"
-        ],
-        [
-          "Z",
           "F",
           "Y",
-          "W",
-          "O",
-          "M",
-          "I"
-        ],
-        [
-          "X",
-          "I",
-          "X",
-          "X",
-          "O",
-          "S",
-          "Z"
-        ],
-        [
-          "G",
           "V",
-          "A",
-          "L",
-          "E",
-          "O",
           "T"
         ],
         [
+          "V",
+          "D",
+          "P",
+          "H",
           "C",
-          "M",
-          "I",
-          "L",
+          "B",
+          "G",
+          "R"
+        ],
+        [
+          "C",
+          "G",
+          "B",
+          "F",
+          "J",
+          "Z",
+          "E",
+          "L"
+        ],
+        [
           "K",
           "J",
-          "L"
+          "V",
+          "O",
+          "X",
+          "V",
+          "O",
+          "O"
+        ],
+        [
+          "P",
+          "U",
+          "I",
+          "X",
+          "I",
+          "O",
+          "F",
+          "R"
+        ],
+        [
+          "I",
+          "T",
+          "P",
+          "R",
+          "W",
+          "L",
+          "W",
+          "B"
+        ],
+        [
+          "Z",
+          "O",
+          "E",
+          "E",
+          "A",
+          "S",
+          "V",
+          "T"
+        ],
+        [
+          "S",
+          "O",
+          "R",
+          "C",
+          "F",
+          "E",
+          "W",
+          "G"
         ]
       ],
       "wordPositions": [
         {
-          "word": "MILK",
-          "startRow": 6,
-          "startCol": 1,
-          "direction": "LR"
+          "word": "VIPER",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "TB"
         },
         {
           "word": "WOOL",
-          "startRow": 3,
-          "startCol": 3,
-          "direction": "DIAG_DOWN"
+          "startRow": 5,
+          "startCol": 4,
+          "direction": "DIAG_UP"
         },
         {
-          "word": "POST",
+          "word": "FOX",
           "startRow": 2,
           "startCol": 3,
-          "direction": "DIAG_DOWN"
+          "direction": "TB"
         },
         {
-          "word": "VALE",
-          "startRow": 5,
-          "startCol": 1,
-          "direction": "LR"
-        },
-        {
-          "word": "LYNX",
-          "startRow": 1,
-          "startCol": 1,
-          "direction": "LR"
-        },
-        {
-          "word": "WOOD",
-          "startRow": 3,
+          "word": "CALF",
+          "startRow": 7,
           "startCol": 3,
           "direction": "DIAG_UP"
         },
         {
-          "word": "XIX",
-          "startRow": 4,
-          "startCol": 2,
-          "direction": "RL"
-        },
-        {
-          "word": "BARRY",
-          "startRow": 0,
-          "startCol": 4,
-          "direction": "RL"
+          "word": "RIVER",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "DIAG_UP"
         }
       ],
       "timeLimit": 150
@@ -5895,123 +6372,140 @@
       "id": 148,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "CASE",
-        "TEAL",
-        "RAT",
-        "TIGER",
-        "DOOR",
-        "SPITES",
-        "UMPIRES"
+        "BULL",
+        "KOI",
+        "GUITAR",
+        "APPLE",
+        "PEAT",
+        "MILK",
+        "WREN"
       ],
       "grid": [
         [
+          "W",
           "B",
-          "U",
           "O",
-          "D",
-          "R",
-          "Q",
-          "B"
+          "G",
+          "I",
+          "G",
+          "U",
+          "Q"
         ],
         [
           "E",
-          "M",
           "R",
-          "E",
-          "O",
-          "F",
+          "U",
+          "G",
+          "K",
+          "U",
+          "R",
           "J"
         ],
         [
-          "D",
-          "P",
-          "G",
-          "A",
+          "J",
+          "W",
           "E",
-          "O",
-          "F"
-        ],
-        [
-          "X",
-          "I",
-          "V",
-          "C",
-          "T",
-          "K",
-          "R"
-        ],
-        [
-          "T",
-          "R",
-          "T",
-          "E",
-          "A",
           "L",
-          "Z"
-        ],
-        [
-          "S",
-          "E",
-          "T",
+          "U",
           "I",
-          "P",
-          "S",
-          "C"
+          "Z",
+          "T"
         ],
         [
-          "X",
-          "S",
-          "B",
-          "R",
+          "Y",
+          "P",
+          "I",
+          "N",
+          "L",
+          "T",
+          "P",
+          "G"
+        ],
+        [
           "C",
+          "M",
+          "E",
+          "J",
+          "P",
+          "A",
+          "A",
+          "W"
+        ],
+        [
+          "T",
+          "C",
+          "M",
+          "A",
+          "K",
+          "R",
+          "Q",
+          "Y"
+        ],
+        [
+          "N",
+          "R",
+          "V",
+          "F",
+          "T",
           "O",
-          "E"
+          "F",
+          "U"
+        ],
+        [
+          "A",
+          "P",
+          "P",
+          "L",
+          "E",
+          "G",
+          "I",
+          "R"
         ]
       ],
       "wordPositions": [
         {
-          "word": "CASE",
-          "startRow": 3,
-          "startCol": 3,
+          "word": "BULL",
+          "startRow": 0,
+          "startCol": 1,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "TEAL",
-          "startRow": 4,
-          "startCol": 2,
+          "word": "KOI",
+          "startRow": 5,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "GUITAR",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "APPLE",
+          "startRow": 7,
+          "startCol": 0,
           "direction": "LR"
         },
         {
-          "word": "RAT",
-          "startRow": 1,
-          "startCol": 2,
+          "word": "PEAT",
+          "startRow": 3,
+          "startCol": 1,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "TIGER",
+          "word": "MILK",
           "startRow": 4,
-          "startCol": 0,
+          "startCol": 1,
           "direction": "DIAG_UP"
         },
         {
-          "word": "DOOR",
+          "word": "WREN",
           "startRow": 0,
-          "startCol": 3,
+          "startCol": 0,
           "direction": "DIAG_DOWN"
-        },
-        {
-          "word": "SPITES",
-          "startRow": 5,
-          "startCol": 5,
-          "direction": "RL"
-        },
-        {
-          "word": "UMPIRES",
-          "startRow": 0,
-          "startCol": 1,
-          "direction": "TB"
         }
       ],
       "timeLimit": 150
@@ -6020,130 +6514,126 @@
       "id": 149,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "WASP",
-        "GOAT",
-        "PAGE",
-        "DRUM",
-        "CLOUDS",
-        "RED",
-        "FAZED",
-        "MAJURO"
+        "DOME",
+        "BOX",
+        "JUICE",
+        "WIND",
+        "ANT"
       ],
       "grid": [
         [
-          "O",
-          "R",
-          "U",
-          "J",
-          "A",
-          "M",
-          "C"
-        ],
-        [
-          "G",
-          "D",
-          "R",
-          "U",
-          "M",
-          "P",
-          "L"
-        ],
-        [
-          "T",
-          "O",
-          "T",
-          "F",
           "S",
-          "D",
-          "O"
-        ],
-        [
-          "R",
+          "V",
+          "Q",
           "Z",
-          "A",
-          "A",
-          "M",
           "E",
-          "U"
-        ],
-        [
-          "E",
-          "X",
-          "W",
-          "T",
-          "G",
-          "Z",
-          "D"
-        ],
-        [
-          "D",
-          "H",
-          "D",
-          "A",
-          "P",
+          "L",
           "A",
           "S"
         ],
         [
-          "R",
+          "K",
           "Q",
-          "P",
+          "B",
+          "X",
+          "J",
           "M",
+          "N",
+          "B"
+        ],
+        [
+          "R",
+          "O",
+          "O",
+          "L",
+          "E",
+          "A",
+          "T",
+          "E"
+        ],
+        [
+          "U",
+          "B",
+          "S",
+          "M",
+          "N",
+          "C",
+          "C",
+          "K"
+        ],
+        [
+          "H",
+          "E",
+          "O",
+          "T",
+          "K",
+          "I",
+          "V",
+          "G"
+        ],
+        [
+          "J",
+          "D",
+          "U",
+          "U",
+          "U",
+          "S",
+          "U",
+          "A"
+        ],
+        [
           "X",
           "F",
-          "X"
+          "X",
+          "J",
+          "T",
+          "Q",
+          "Y",
+          "H"
+        ],
+        [
+          "A",
+          "C",
+          "W",
+          "I",
+          "N",
+          "D",
+          "D",
+          "Y"
         ]
       ],
       "wordPositions": [
         {
-          "word": "WASP",
-          "startRow": 4,
-          "startCol": 2,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "GOAT",
-          "startRow": 1,
-          "startCol": 0,
-          "direction": "DIAG_DOWN"
-        },
-        {
-          "word": "PAGE",
-          "startRow": 6,
-          "startCol": 2,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "DRUM",
-          "startRow": 1,
+          "word": "DOME",
+          "startRow": 5,
           "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "BOX",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "JUICE",
+          "startRow": 6,
+          "startCol": 3,
+          "direction": "DIAG_UP"
+        },
+        {
+          "word": "WIND",
+          "startRow": 7,
+          "startCol": 2,
           "direction": "LR"
         },
         {
-          "word": "CLOUDS",
+          "word": "ANT",
           "startRow": 0,
           "startCol": 6,
           "direction": "TB"
-        },
-        {
-          "word": "RED",
-          "startRow": 3,
-          "startCol": 0,
-          "direction": "TB"
-        },
-        {
-          "word": "FAZED",
-          "startRow": 6,
-          "startCol": 5,
-          "direction": "BT"
-        },
-        {
-          "word": "MAJURO",
-          "startRow": 0,
-          "startCol": 5,
-          "direction": "RL"
         }
       ],
       "timeLimit": 150
@@ -6152,130 +6642,126 @@
       "id": 150,
       "world": "Mystic Forest",
       "difficulty": 2,
-      "gridSize": 7,
+      "gridSize": 8,
       "words": [
-        "SUN",
-        "GUST",
-        "GOWN",
-        "VINE",
-        "SEED",
-        "PEACH",
-        "WEEP",
-        "YOCK"
+        "OWL",
+        "CASE",
+        "SUMMER",
+        "GEAR",
+        "GOAT"
       ],
       "grid": [
         [
-          "W",
-          "V",
-          "G",
-          "G",
-          "O",
-          "W",
-          "N"
-        ],
-        [
-          "E",
-          "O",
-          "I",
-          "U",
-          "E",
           "K",
-          "J"
+          "P",
+          "G",
+          "E",
+          "Q",
+          "J",
+          "I",
+          "L"
         ],
         [
-          "E",
-          "L",
-          "H",
-          "N",
+          "K",
+          "O",
           "S",
-          "T",
+          "U",
+          "M",
+          "M",
+          "E",
           "R"
         ],
         [
-          "P",
           "V",
-          "C",
-          "X",
-          "E",
-          "T",
-          "D"
-        ],
-        [
-          "P",
-          "E",
-          "A",
-          "C",
-          "H",
-          "E",
-          "S"
-        ],
-        [
-          "K",
-          "C",
-          "O",
-          "Y",
-          "E",
-          "S",
-          "U"
-        ],
-        [
-          "F",
-          "M",
-          "M",
-          "S",
-          "F",
+          "J",
           "W",
+          "R",
+          "G",
+          "G",
+          "K",
           "N"
+        ],
+        [
+          "Y",
+          "O",
+          "O",
+          "L",
+          "P",
+          "O",
+          "O",
+          "L"
+        ],
+        [
+          "F",
+          "G",
+          "J",
+          "G",
+          "I",
+          "C",
+          "A",
+          "N"
+        ],
+        [
+          "O",
+          "F",
+          "M",
+          "E",
+          "O",
+          "A",
+          "L",
+          "T"
+        ],
+        [
+          "Q",
+          "F",
+          "C",
+          "A",
+          "J",
+          "S",
+          "X",
+          "C"
+        ],
+        [
+          "S",
+          "L",
+          "B",
+          "R",
+          "N",
+          "E",
+          "X",
+          "M"
         ]
       ],
       "wordPositions": [
         {
-          "word": "SUN",
-          "startRow": 4,
-          "startCol": 6,
-          "direction": "TB"
-        },
-        {
-          "word": "GUST",
-          "startRow": 0,
-          "startCol": 2,
-          "direction": "DIAG_DOWN"
-        },
-        {
-          "word": "GOWN",
-          "startRow": 0,
-          "startCol": 3,
-          "direction": "LR"
-        },
-        {
-          "word": "VINE",
-          "startRow": 0,
+          "word": "OWL",
+          "startRow": 1,
           "startCol": 1,
           "direction": "DIAG_DOWN"
         },
         {
-          "word": "SEED",
-          "startRow": 6,
-          "startCol": 3,
-          "direction": "DIAG_UP"
-        },
-        {
-          "word": "PEACH",
+          "word": "CASE",
           "startRow": 4,
-          "startCol": 0,
-          "direction": "LR"
-        },
-        {
-          "word": "WEEP",
-          "startRow": 0,
-          "startCol": 0,
+          "startCol": 5,
           "direction": "TB"
         },
         {
-          "word": "YOCK",
-          "startRow": 5,
+          "word": "SUMMER",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "GEAR",
+          "startRow": 4,
           "startCol": 3,
-          "direction": "RL"
+          "direction": "TB"
+        },
+        {
+          "word": "GOAT",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "DIAG_DOWN"
         }
       ],
       "timeLimit": 150

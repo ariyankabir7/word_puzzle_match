@@ -4,7 +4,7 @@
 > **Version:** 1.1.0  
 > **Updated:** July 2026  
 > **Platform:** Android & iOS (Flutter)  
-> **Package ID:** com.vishal.word_puzzle_match  
+> **Package ID:** com.hindcash.wordpuzzlematch  
 > **Target Audience:** Casual gamers, ages 8 and above  
 > **Genre:** Word Puzzle / Casual (Single Player)  
 
@@ -326,7 +326,7 @@ class PlayerProgress {
 
 #### Deliverables:
 - [ ] Performance profiling (sub-3s cold start, 60fps steady gameplay)
-- [ ] Android APK / AAB signing setup (`com.vishal.word_puzzle_match`)
+- [ ] Android APK / AAB signing setup (`com.hindcash.wordpuzzlematch`)
 - [ ] iOS Xcode provisioning & build verification
 - [ ] Offline resilience pass (100% functional without internet)
 - [ ] Final store listing screenshots & metadata creation

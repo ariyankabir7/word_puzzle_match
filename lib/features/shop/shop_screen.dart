@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/constants/app_colors.dart';
@@ -8,8 +9,8 @@ import '../../core/providers/app_providers.dart';
 class ShopScreen extends ConsumerWidget {
   const ShopScreen({super.key});
 
-  static void show(BuildContext context) {
-    showModalBottomSheet(
+  static Future<T?> show<T>(BuildContext context) {
+    return showModalBottomSheet<T>(
       context: context,
       isScrollControlled: true,
       backgroundColor: Colors.transparent,
@@ -184,16 +185,68 @@ class ShopScreen extends ConsumerWidget {
   }
 
   void _showFeedback(BuildContext context, bool success, String message) {
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Text(
-          success ? '✅ $message' : '❌ Not enough coins/gems!',
-          style: const TextStyle(fontWeight: FontWeight.bold),
-        ),
-        backgroundColor: success ? AppColors.lushGreen : Colors.redAccent,
-        duration: const Duration(seconds: 2),
+    if (!context.mounted) return;
+
+    if (success) {
+      HapticFeedback.mediumImpact();
+    } else {
+      HapticFeedback.vibrate();
+    }
+
+    final overlay = Overlay.of(context);
+    late OverlayEntry entry;
+
+    entry = OverlayEntry(
+      builder: (ctx) => Positioned(
+        top: MediaQuery.of(ctx).padding.top + 16,
+        left: 20,
+        right: 20,
+        child: Material(
+          color: Colors.transparent,
+          child: Container(
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+            decoration: BoxDecoration(
+              color: success ? const Color(0xFF2E7D32) : const Color(0xFFD32F2F),
+              borderRadius: BorderRadius.circular(16),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.black.withValues(alpha: 0.25),
+                  blurRadius: 10,
+                  offset: const Offset(0, 4),
+                ),
+              ],
+            ),
+            child: Row(
+              children: [
+                Icon(
+                  success ? Icons.check_circle : Icons.error_outline,
+                  color: Colors.white,
+                  size: 24,
+                ),
+                const SizedBox(width: 12),
+                Expanded(
+                  child: Text(
+                    success ? 'SUCCESS! $message' : message,
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 15,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ).animate().slideY(begin: -0.5, end: 0, duration: 250.ms, curve: Curves.easeOutBack).fadeIn(),
       ),
     );
+
+    overlay.insert(entry);
+    Future.delayed(const Duration(seconds: 2), () {
+      if (entry.mounted) {
+        entry.remove();
+      }
+    });
   }
 }
 

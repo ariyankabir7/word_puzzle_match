@@ -5,7 +5,7 @@ import os
 random.seed(2026)
 
 WORD_BANK = [
-    # Animals
+    # Animals & Birds
     "CAT", "DOG", "OWL", "FOX", "COW", "PIG", "HEN", "ANT", "BEE", "EEL",
     "APE", "BAT", "ELK", "EMU", "GNU", "JAY", "KOI", "RAM", "RAT", "YAK",
     "BEAR", "BIRD", "BUCK", "BULL", "CALF", "CRAB", "CROW", "DEER", "DOVE",
@@ -13,30 +13,40 @@ WORD_BANK = [
     "LAMB", "LION", "LYNX", "MOLE", "MOTH", "MULE", "NEWT", "PONY", "PUMA",
     "SLUG", "SWAN", "TOAD", "WASP", "WORM", "WREN", "CAMEL", "TIGER", "ZEBRA",
     "PANDA", "KOALA", "OTTER", "EAGLE", "ROBIN", "SHARK", "WHALE", "SQUID",
-    # Nature
+    "HORSE", "BISON", "SHEEP", "VIPER", "HYENA", "RHINO", "HIPPO", "LEMUR",
+    "WALRUS", "DOLPHIN", "FALCON", "PARROT", "PELICAN", "PEACOCK", "TURTLE",
+    # Nature, Land & Weather
     "SUN", "SKY", "SEA", "ICE", "DEW", "FOG", "MUD", "OAK", "ELM", "IVY",
     "BARK", "CLAY", "CLOD", "DAWN", "DUSK", "FERN", "FIRE", "GALE", "GUST",
     "HAIL", "HILL", "LAKE", "LEAF", "MIST", "MOON", "PEAT", "PINE", "POOL",
     "RAIN", "REEF", "ROCK", "SAND", "SEED", "SNOW", "SOIL", "STAR", "STEM",
     "STORM", "TIDE", "TREE", "VALE", "VINE", "WAVE", "WIND", "WOOD", "FLOWER",
-    "OCEAN", "RIVER", "BEACH", "CLOUDS", "DESERT", "FOREST", "GALAXIES",
-    # Objects / Food / Misc
+    "OCEAN", "RIVER", "BEACH", "CLOUDS", "DESERT", "FOREST", "GALAXY", "STREAM",
+    "VALLEY", "CANYON", "ISLAND", "VOLCANO", "GLACIER", "MEADOW", "JUNGLE",
+    "SPRING", "SUMMER", "AUTUMN", "WINTER", "SUNSHINE", "THUNDER", "LIGHTNING",
+    # Objects, Home & Everyday Tools
     "BAG", "BED", "BOX", "CUP", "HAT", "JUG", "KEY", "MAP", "MUG", "NET",
     "PAN", "PEN", "POT", "ROD", "RUG", "SAW", "TAP", "TIN", "TUB", "VAN",
     "BALL", "BELL", "BELT", "BOAT", "BOOK", "BOOT", "BOWL", "CAGE", "CAKE",
     "CALL", "CARD", "CART", "CASE", "COAT", "COIN", "COMB", "CORD", "CORK",
     "CORN", "CROP", "DISH", "DOME", "DOOR", "DRUM", "FORK", "GATE",
     "GEAR", "GIFT", "GLUE", "GOLD", "GOWN", "GRID", "HALL", "HAND", "HARP",
-    "HOOD", "HOOK", "HORN", "HOSE", "IRON", "JADE", "KITE", "LAMP",
-    "LOCK", "MAZE", "MILL", "MINE", "MINT", "NAIL", "NEST", "NOTE",
-    "OPAL", "PAGE", "PARK", "PIPE", "PLAN", "PLUM", "POST", "PUMP", "RING",
-    "ROPE", "ROSE", "RUBY", "RULE", "SAIL", "SALT", "SHIP", "SHOE", "SHOP",
-    "SILK", "SOCK", "SOFA", "SONG", "STEP", "WICK", "WIRE", "WOOL", "WORD",
+    "HOOD", "HOOK", "HORN", "HOSE", "IRON", "JADE", "LAMP", "LOCK", "MAZE",
+    "MILL", "MINE", "MINT", "NAIL", "NEST", "NOTE", "OPAL", "PAGE", "PARK",
+    "PIPE", "PLAN", "PLUM", "POST", "PUMP", "RING", "ROPE", "ROSE", "RUBY",
+    "RULE", "SAIL", "SALT", "SHIP", "SHOE", "SHOP", "SILK", "SOCK", "SOFA",
+    "SONG", "STEP", "WICK", "WIRE", "WOOL", "WORD", "CLOCK", "CHAIR", "TABLE",
+    "GLASS", "SPOON", "KNIFE", "BRUSH", "CANDLE", "MIRROR", "PENCIL", "CAMERA",
+    "GUITAR", "PIANO", "FLUTE", "CELLO", "VIOLIN", "HELMET", "SHIELD", "SWORD",
+    # Food, Drinks & Fruits
     "APPLE", "BANANA", "CANDY", "PEACH", "HONEY", "PIZZA", "BREAD", "CHEESE",
     "CHERRY", "MANGO", "LEMON", "SUGAR", "SWEET", "MILK", "JUICE", "WATER",
-    # Colors & Fun
+    "BERRY", "GRAPE", "MELON", "ORANGE", "BUTTER", "COOKIE", "PASTA", "SALAD",
+    "SOUP", "STEAK", "CARROT", "POTATO", "TOMATO", "ONION", "GARLIC", "BACON",
+    # Colors, Positive Emotions & Concepts
     "RED", "BLUE", "GREEN", "GOLD", "PINK", "GRAY", "TEAL", "PURPLE", "YELLOW",
-    "SILVER", "BRONZE", "SHINE", "SMILE", "HAPPY", "MAGIC", "DREAM", "LIGHT"
+    "SILVER", "BRONZE", "SHINE", "SMILE", "HAPPY", "MAGIC", "DREAM", "LIGHT",
+    "PEACE", "BRAVE", "SMART", "SUPER", "WONDER", "FRIEND", "ENERGY", "CHAMP"
 ]
 
 WORLD_NAMES = [
@@ -64,16 +74,16 @@ DIRECTION_DELTAS = {
 }
 
 WORLD_SETTINGS = {
-    1: {'gridSize': 6, 'difficulty': 1, 'directions': ['LR', 'TB'], 'timeLimit': 180},
-    2: {'gridSize': 7, 'difficulty': 2, 'directions': ['LR', 'TB', 'DIAG_DOWN', 'DIAG_UP'], 'timeLimit': 150},
-    3: {'gridSize': 7, 'difficulty': 2, 'directions': ['LR', 'TB', 'DIAG_DOWN', 'DIAG_UP'], 'timeLimit': 150},
-    4: {'gridSize': 7, 'difficulty': 2, 'directions': ['LR', 'TB', 'DIAG_DOWN', 'DIAG_UP'], 'timeLimit': 150},
-    5: {'gridSize': 8, 'difficulty': 3, 'directions': ['LR', 'TB', 'RL', 'BT', 'DIAG_DOWN', 'DIAG_UP'], 'timeLimit': 120},
-    6: {'gridSize': 8, 'difficulty': 3, 'directions': ['LR', 'TB', 'RL', 'BT', 'DIAG_DOWN', 'DIAG_UP'], 'timeLimit': 120},
-    7: {'gridSize': 8, 'difficulty': 3, 'directions': ['LR', 'TB', 'RL', 'BT', 'DIAG_DOWN', 'DIAG_UP'], 'timeLimit': 120},
-    8: {'gridSize': 9, 'difficulty': 4, 'directions': ['LR', 'TB', 'RL', 'BT', 'DIAG_DOWN', 'DIAG_UP', 'DIAG_DOWN_REV', 'DIAG_UP_REV'], 'timeLimit': 105},
-    9: {'gridSize': 9, 'difficulty': 4, 'directions': ['LR', 'TB', 'RL', 'BT', 'DIAG_DOWN', 'DIAG_UP', 'DIAG_DOWN_REV', 'DIAG_UP_REV'], 'timeLimit': 105},
-    10: {'gridSize': 9, 'difficulty': 4, 'directions': ['LR', 'TB', 'RL', 'BT', 'DIAG_DOWN', 'DIAG_UP', 'DIAG_DOWN_REV', 'DIAG_UP_REV'], 'timeLimit': 105},
+    1: {'gridSize': 7, 'difficulty': 1, 'directions': ['LR', 'TB'], 'timeLimit': 180},
+    2: {'gridSize': 8, 'difficulty': 2, 'directions': ['LR', 'TB', 'DIAG_DOWN', 'DIAG_UP'], 'timeLimit': 150},
+    3: {'gridSize': 8, 'difficulty': 2, 'directions': ['LR', 'TB', 'DIAG_DOWN', 'DIAG_UP'], 'timeLimit': 150},
+    4: {'gridSize': 8, 'difficulty': 2, 'directions': ['LR', 'TB', 'DIAG_DOWN', 'DIAG_UP'], 'timeLimit': 150},
+    5: {'gridSize': 9, 'difficulty': 3, 'directions': ['LR', 'TB', 'RL', 'BT', 'DIAG_DOWN', 'DIAG_UP'], 'timeLimit': 120},
+    6: {'gridSize': 9, 'difficulty': 3, 'directions': ['LR', 'TB', 'RL', 'BT', 'DIAG_DOWN', 'DIAG_UP'], 'timeLimit': 120},
+    7: {'gridSize': 9, 'difficulty': 3, 'directions': ['LR', 'TB', 'RL', 'BT', 'DIAG_DOWN', 'DIAG_UP'], 'timeLimit': 120},
+    8: {'gridSize': 10, 'difficulty': 4, 'directions': ['LR', 'TB', 'RL', 'BT', 'DIAG_DOWN', 'DIAG_UP', 'DIAG_DOWN_REV', 'DIAG_UP_REV'], 'timeLimit': 105},
+    9: {'gridSize': 10, 'difficulty': 4, 'directions': ['LR', 'TB', 'RL', 'BT', 'DIAG_DOWN', 'DIAG_UP', 'DIAG_DOWN_REV', 'DIAG_UP_REV'], 'timeLimit': 105},
+    10: {'gridSize': 10, 'difficulty': 4, 'directions': ['LR', 'TB', 'RL', 'BT', 'DIAG_DOWN', 'DIAG_UP', 'DIAG_DOWN_REV', 'DIAG_UP_REV'], 'timeLimit': 105},
 }
 
 def can_place(grid, word, r, c, dr, dc, grid_size):

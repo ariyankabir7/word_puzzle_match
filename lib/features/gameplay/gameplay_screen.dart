@@ -66,9 +66,12 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
           ),
           ElevatedButton(
             style: ElevatedButton.styleFrom(backgroundColor: const Color(0xFF8CE62C)),
-            onPressed: () {
+            onPressed: () async {
               Navigator.of(ctx).pop();
-              ShopScreen.show(context);
+              await ShopScreen.show(context);
+              if (mounted) {
+                _checkLivesAndLoadLevel();
+              }
             },
             child: Text('Go to Shop', style: GoogleFonts.fredoka(color: Colors.white)),
           ),
@@ -103,24 +106,38 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
       }
     });
 
-    return Scaffold(
-      body: Stack(
-        children: [
-          // Gameplay Background Image
-          Positioned.fill(
-            child: Image.asset(
-              AppImages.bgGameplay,
-              fit: BoxFit.cover,
-            ),
-          ),
+    return PopScope(
+      canPop: false,
+      onPopInvokedWithResult: (didPop, result) {
+        if (!didPop) {
+          context.go(AppRoutes.worldMap);
+        }
+      },
+      child: Scaffold(
+        body: SizedBox.expand(
+          child: Stack(
+            fit: StackFit.expand,
+            children: [
+              // Gameplay Background Image
+              Positioned.fill(
+                child: Image.asset(
+                  AppImages.bgGameplay,
+                  fit: BoxFit.cover,
+                  width: double.infinity,
+                  height: double.infinity,
+                  alignment: Alignment.center,
+                ),
+              ),
 
-          SafeArea(
-            child: switch (state.status) {
-              GameStatus.loading => _buildLoading(),
-              _ => _buildGameplay(context, state, notifier),
-            },
+              SafeArea(
+                child: switch (state.status) {
+                  GameStatus.loading => _buildLoading(),
+                  _ => _buildGameplay(context, state, notifier),
+                },
+              ),
+            ],
           ),
-        ],
+        ),
       ),
     );
   }
@@ -148,7 +165,7 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
             children: [
               const SizedBox(height: 6),
 
-              // Header Bar (Timer, Moves, Coins)
+              // Header Bar (Back button, Timer, Moves, Coins)
               _buildHeader(context, state),
 
               const SizedBox(height: 10),
@@ -249,18 +266,42 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
             ),
           ),
 
-          // Left (Timer) & Right (Coins)
+          // Left (Back button & Timer) & Right (Coins)
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              // Timer Pill (Width 102px - decreased 2%)
-              TimerWidget(
-                timeRemaining: state.timeRemaining,
-                status: state.status,
+              Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  // Back to Map Button
+                  GestureDetector(
+                    onTap: () => context.go(AppRoutes.worldMap),
+                    child: Container(
+                      width: 38,
+                      height: 38,
+                      decoration: BoxDecoration(
+                        color: const Color(0xFF263238).withValues(alpha: 0.85),
+                        shape: BoxShape.circle,
+                        border: Border.all(color: Colors.white38, width: 1.5),
+                        boxShadow: const [
+                          BoxShadow(color: Color(0x33000000), blurRadius: 4, offset: Offset(0, 2)),
+                        ],
+                      ),
+                      child: const Icon(Icons.arrow_back_rounded, color: Colors.white, size: 20),
+                    ),
+                  ),
+                  const SizedBox(width: 6),
+
+                  // Timer Pill
+                  TimerWidget(
+                    timeRemaining: state.timeRemaining,
+                    status: state.status,
+                  ),
+                ],
               ),
 
-              // Coins Pill (Width 109px - increased 3%)
+              // Coins Pill
               GestureDetector(
                 onTap: () => ShopScreen.show(context),
                 child: Container(

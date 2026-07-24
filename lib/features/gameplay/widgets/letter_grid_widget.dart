@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import '../../../core/constants/app_colors.dart';
-import '../../../core/constants/app_images.dart';
 import '../../../core/constants/app_text_styles.dart';
 import '../gameplay_provider.dart';
 
@@ -84,68 +83,66 @@ class _LetterGridWidgetState extends State<LetterGridWidget> {
         return Container(
           width: outerWidth,
           height: outerWidth,
-          padding: const EdgeInsets.all(paddingAmount),
+          padding: const EdgeInsets.all(paddingAmount + 4),
           decoration: BoxDecoration(
-            image: const DecorationImage(
-              image: AssetImage(AppImages.wordsGridBg),
-              fit: BoxFit.fill,
-            ),
-            borderRadius: BorderRadius.circular(24),
+            color: const Color(0xFFFFFBEA),
+            borderRadius: BorderRadius.circular(16),
+            border: Border.all(color: const Color(0xFFFFB300), width: 3),
             boxShadow: [
               BoxShadow(
-                color: Colors.black.withValues(alpha: 0.12),
+                color: Colors.black.withValues(alpha: 0.15),
                 blurRadius: 10,
                 offset: const Offset(0, 4),
               ),
             ],
           ),
-          child: GestureDetector(
-            onPanStart: (details) {
-              final cell = _getCellAtPosition(details.localPosition, cellSize, gridSize);
-              if (cell != null) widget.onDragStart(cell.row, cell.col);
-            },
-            onPanUpdate: (details) {
-              final cell = _getCellAtPosition(details.localPosition, cellSize, gridSize);
-              if (cell != null) widget.onDragUpdate(cell.row, cell.col);
-            },
-            onPanEnd: (_) => widget.onDragEnd(),
-            child: GridView.builder(
-              physics: const NeverScrollableScrollPhysics(),
-              padding: EdgeInsets.zero,
-              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: gridSize,
-                childAspectRatio: 1,
-              ),
-              itemCount: gridSize * gridSize,
-              itemBuilder: (context, idx) {
-                final row = idx ~/ gridSize;
-                final col = idx % gridSize;
-                final cell = CellCoord(row, col);
-                final letter = widget.grid[row][col];
-
-                final isSelected = widget.currentSelection.contains(cell);
-                final isHinted = widget.hintCells.contains(cell);
-                final foundColorIdx = foundColorMap[cell];
-                final isFound = foundColorIdx != null;
-
-                return _GridCell(
-                  letter: letter,
-                  isSelected: isSelected,
-                  isFound: isFound,
-                  isHinted: isHinted,
-                  fontSize: fontSize,
-                  borderRadius: borderRadius,
-                  foundColor: isFound
-                      ? AppColors.wordFoundColors[foundColorIdx % AppColors.wordFoundColors.length]
-                      : null,
-                  showWrongFeedback: widget.showWrongFeedback && isSelected,
-                );
+            child: GestureDetector(
+              onPanStart: (details) {
+                final cell = _getCellAtPosition(details.localPosition, cellSize, gridSize);
+                if (cell != null) widget.onDragStart(cell.row, cell.col);
               },
+              onPanUpdate: (details) {
+                final cell = _getCellAtPosition(details.localPosition, cellSize, gridSize);
+                if (cell != null) widget.onDragUpdate(cell.row, cell.col);
+              },
+              onPanEnd: (_) => widget.onDragEnd(),
+              child: GridView.builder(
+                physics: const NeverScrollableScrollPhysics(),
+                padding: EdgeInsets.zero,
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: gridSize,
+                  childAspectRatio: 1,
+                ),
+                itemCount: gridSize * gridSize,
+                itemBuilder: (context, idx) {
+                  final row = idx ~/ gridSize;
+                  final col = idx % gridSize;
+                  final cell = CellCoord(row, col);
+                  final letter = widget.grid[row][col];
+
+                  final isSelected = widget.currentSelection.contains(cell);
+                  final isHinted = widget.hintCells.contains(cell);
+                  final foundColorIdx = foundColorMap[cell];
+                  final isFound = foundColorIdx != null;
+
+                  return _GridCell(
+                    letter: letter,
+                    isSelected: isSelected,
+                    isFound: isFound,
+                    isHinted: isHinted,
+                    fontSize: fontSize,
+                    borderRadius: borderRadius,
+                    foundColor: isFound
+                        ? AppColors.wordFoundColors[foundColorIdx % AppColors.wordFoundColors.length]
+                        : null,
+                    showWrongFeedback: widget.showWrongFeedback && isSelected,
+                  );
+                },
+              ),
             ),
-          ),
-        );
-      },
-    );
+          );
+        },
+      );
   }
 }
 

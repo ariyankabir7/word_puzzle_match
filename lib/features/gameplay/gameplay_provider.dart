@@ -183,13 +183,13 @@ class GameplayNotifier extends StateNotifier<GameState> {
   // ── Gesture Handling ───────────────────────────────────────────────────────
 
   void onDragStart(int row, int col) {
-    if (state.status != GameStatus.playing) return;
+    if (state.status != GameStatus.playing && state.status != GameStatus.frozen) return;
     _haptics.selectionClick();
     state = state.copyWith(currentSelection: [CellCoord(row, col)]);
   }
 
   void onDragUpdate(int row, int col) {
-    if (state.status != GameStatus.playing) return;
+    if (state.status != GameStatus.playing && state.status != GameStatus.frozen) return;
     if (state.currentSelection.isEmpty) {
       state = state.copyWith(currentSelection: [CellCoord(row, col)]);
       return;
@@ -230,7 +230,7 @@ class GameplayNotifier extends StateNotifier<GameState> {
   }
 
   void onDragEnd() {
-    if (state.status != GameStatus.playing) return;
+    if (state.status != GameStatus.playing && state.status != GameStatus.frozen) return;
     _evaluateSelection();
   }
 
@@ -315,7 +315,10 @@ class GameplayNotifier extends StateNotifier<GameState> {
   // ── Power-ups ──────────────────────────────────────────────────────────────
 
   void useHint() {
-    if (state.hintsRemaining <= 0 || state.status != GameStatus.playing) return;
+    if (state.hintsRemaining <= 0 ||
+        (state.status != GameStatus.playing && state.status != GameStatus.frozen)) {
+      return;
+    }
     final level = state.level;
     if (level == null) return;
 
@@ -337,7 +340,10 @@ class GameplayNotifier extends StateNotifier<GameState> {
   }
 
   void useShuffle() {
-    if (state.shufflesRemaining <= 0 || state.status != GameStatus.playing) return;
+    if (state.shufflesRemaining <= 0 ||
+        (state.status != GameStatus.playing && state.status != GameStatus.frozen)) {
+      return;
+    }
     if (state.level == null) return;
 
     final grid = state.currentGrid.map((row) => List<String>.from(row)).toList();

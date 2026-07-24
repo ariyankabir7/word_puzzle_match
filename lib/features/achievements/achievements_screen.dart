@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 import '../../core/constants/app_colors.dart';
 import '../../core/constants/app_text_styles.dart';
 import '../../core/models/achievement_model.dart';
 import '../../core/providers/app_providers.dart';
+import '../../core/router/app_router.dart';
 
 class AchievementsScreen extends ConsumerWidget {
   const AchievementsScreen({super.key});
@@ -50,10 +52,15 @@ class AchievementsScreen extends ConsumerWidget {
               children: [
                 Text(
                   'Achievements 🏆',
-                  style: AppTextStyles.headingLarge.copyWith(color: AppColors.textDark),
+                  style: AppTextStyles.headingLarge.copyWith(
+                    color: AppColors.textDark,
+                  ),
                 ),
                 Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 12,
+                    vertical: 6,
+                  ),
                   decoration: BoxDecoration(
                     color: AppColors.sunshineYellow.withValues(alpha: 0.2),
                     borderRadius: BorderRadius.circular(20),
@@ -71,135 +78,230 @@ class AchievementsScreen extends ConsumerWidget {
           ),
           const Divider(height: 24),
 
-          // List of achievements
+          // List of achievements & Cash Rewards Card
           Expanded(
-            child: ListView.separated(
+            child: ListView(
               padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
-              itemCount: Achievement.allAchievements.length,
-              separatorBuilder: (_, index) => const SizedBox(height: 12),
-              itemBuilder: (context, index) {
-                final achievement = Achievement.allAchievements[index];
-                final isClaimed = progress.claimedAchievements.contains(achievement.id);
-                final currentProgress = (progress.achievementProgress[achievement.id] ?? 0)
-                    .clamp(0, achievement.targetValue);
-                final isCompleted = currentProgress >= achievement.targetValue;
-
-                return Container(
-                  padding: const EdgeInsets.all(16),
-                  decoration: BoxDecoration(
-                    color: isClaimed
-                        ? Colors.grey.shade100
-                        : isCompleted
-                            ? const Color(0xFFEFFDFA)
-                            : Colors.grey.shade50,
-                    borderRadius: BorderRadius.circular(20),
-                    border: Border.all(
-                      color: isCompleted && !isClaimed
-                          ? AppColors.lushGreen
-                          : Colors.grey.shade200,
-                      width: isCompleted && !isClaimed ? 2 : 1,
+              children: [
+                // Cash Reward Claim Card
+                InkWell(
+                  onTap: () {
+                    Navigator.of(context).pop();
+                    context.push(AppRoutes.reward);
+                  },
+                  child: Container(
+                    margin: const EdgeInsets.only(bottom: 16),
+                    padding: const EdgeInsets.all(16),
+                    decoration: BoxDecoration(
+                      gradient: const LinearGradient(
+                        colors: [Color(0xFF059669), Color(0xFF10B981)],
+                      ),
+                      borderRadius: BorderRadius.circular(20),
+                      boxShadow: const [
+                        BoxShadow(
+                          color: Color(0x33000000),
+                          blurRadius: 6,
+                          offset: Offset(0, 3),
+                        ),
+                      ],
+                    ),
+                    child: Row(
+                      children: [
+                        const CircleAvatar(
+                          backgroundColor: Colors.white24,
+                          child: Icon(
+                            Icons.card_giftcard_rounded,
+                            color: Colors.amberAccent,
+                            size: 28,
+                          ),
+                        ),
+                        const SizedBox(width: 14),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                'Cash Reward Withdrawal',
+                                style: AppTextStyles.bodyLarge.copyWith(
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white,
+                                ),
+                              ),
+                              const SizedBox(height: 2),
+                              Text(
+                                'Claim via UPI ID or Google Play Voucher',
+                                style: AppTextStyles.bodySmall.copyWith(
+                                  color: Colors.white70,
+                                  fontSize: 11,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        const Icon(
+                          Icons.arrow_forward_ios_rounded,
+                          color: Colors.white,
+                          size: 16,
+                        ),
+                      ],
                     ),
                   ),
-                  child: Row(
-                    children: [
-                      Container(
-                        width: 48,
-                        height: 48,
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          shape: BoxShape.circle,
-                          boxShadow: [
-                            BoxShadow(color: Colors.black.withValues(alpha: 0.08), blurRadius: 4),
-                          ],
-                        ),
-                        child: Center(
-                          child: Text(
-                            achievement.iconEmoji,
-                            style: const TextStyle(fontSize: 24),
+                ),
+
+                ...List.generate(Achievement.allAchievements.length, (index) {
+                  final achievement = Achievement.allAchievements[index];
+                  final isClaimed = progress.claimedAchievements.contains(
+                    achievement.id,
+                  );
+                  final currentProgress =
+                      (progress.achievementProgress[achievement.id] ?? 0).clamp(
+                        0,
+                        achievement.targetValue,
+                      );
+                  final isCompleted =
+                      currentProgress >= achievement.targetValue;
+
+                  return Container(
+                    padding: const EdgeInsets.all(16),
+                    decoration: BoxDecoration(
+                      color: isClaimed
+                          ? Colors.grey.shade100
+                          : isCompleted
+                          ? const Color(0xFFEFFDFA)
+                          : Colors.grey.shade50,
+                      borderRadius: BorderRadius.circular(20),
+                      border: Border.all(
+                        color: isCompleted && !isClaimed
+                            ? AppColors.lushGreen
+                            : Colors.grey.shade200,
+                        width: isCompleted && !isClaimed ? 2 : 1,
+                      ),
+                    ),
+                    child: Row(
+                      children: [
+                        Container(
+                          width: 48,
+                          height: 48,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            shape: BoxShape.circle,
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.black.withValues(alpha: 0.08),
+                                blurRadius: 4,
+                              ),
+                            ],
+                          ),
+                          child: Center(
+                            child: Text(
+                              achievement.iconEmoji,
+                              style: const TextStyle(fontSize: 24),
+                            ),
                           ),
                         ),
-                      ),
-                      const SizedBox(width: 14),
-                      Expanded(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                              achievement.title,
-                              style: AppTextStyles.bodyLarge.copyWith(
-                                fontWeight: FontWeight.bold,
-                                color: AppColors.textDark,
-                              ),
-                            ),
-                            const SizedBox(height: 2),
-                            Text(
-                              achievement.description,
-                              style: AppTextStyles.bodySmall.copyWith(fontSize: 11),
-                            ),
-                            const SizedBox(height: 8),
-
-                            // Progress Bar
-                            ClipRRect(
-                              borderRadius: BorderRadius.circular(6),
-                              child: LinearProgressIndicator(
-                                value: currentProgress / achievement.targetValue,
-                                backgroundColor: Colors.grey.shade200,
-                                valueColor: AlwaysStoppedAnimation<Color>(
-                                  isCompleted ? AppColors.lushGreen : AppColors.skyBlue,
+                        const SizedBox(width: 14),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                achievement.title,
+                                style: AppTextStyles.bodyLarge.copyWith(
+                                  fontWeight: FontWeight.bold,
+                                  color: AppColors.textDark,
                                 ),
-                                minHeight: 6,
+                              ),
+                              const SizedBox(height: 2),
+                              Text(
+                                achievement.description,
+                                style: AppTextStyles.bodySmall.copyWith(
+                                  fontSize: 11,
+                                ),
+                              ),
+                              const SizedBox(height: 8),
+
+                              // Progress Bar
+                              ClipRRect(
+                                borderRadius: BorderRadius.circular(6),
+                                child: LinearProgressIndicator(
+                                  value:
+                                      currentProgress / achievement.targetValue,
+                                  backgroundColor: Colors.grey.shade200,
+                                  valueColor: AlwaysStoppedAnimation<Color>(
+                                    isCompleted
+                                        ? AppColors.lushGreen
+                                        : AppColors.skyBlue,
+                                  ),
+                                  minHeight: 6,
+                                ),
+                              ),
+                              const SizedBox(height: 2),
+                              Text(
+                                '$currentProgress / ${achievement.targetValue}',
+                                style: TextStyle(
+                                  fontSize: 10,
+                                  color: Colors.grey.shade600,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        const SizedBox(width: 12),
+
+                        // Claim Button
+                        if (isClaimed)
+                          const Chip(
+                            label: Text(
+                              'Claimed',
+                              style: TextStyle(fontSize: 11),
+                            ),
+                            backgroundColor: Colors.transparent,
+                          )
+                        else
+                          ElevatedButton(
+                            onPressed: isCompleted
+                                ? () {
+                                    final success = notifier.claimAchievement(
+                                      achievement,
+                                    );
+                                    if (success) {
+                                      ScaffoldMessenger.of(
+                                        context,
+                                      ).showSnackBar(
+                                        SnackBar(
+                                          content: Text(
+                                            '🎉 Claimed ${achievement.rewardAmount} ${achievement.rewardType.name}!',
+                                          ),
+                                          backgroundColor: AppColors.lushGreen,
+                                        ),
+                                      );
+                                    }
+                                  }
+                                : null,
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: AppColors.lushGreen,
+                              foregroundColor: Colors.white,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(20),
+                              ),
+                              padding: const EdgeInsets.symmetric(
+                                horizontal: 14,
+                                vertical: 8,
                               ),
                             ),
-                            const SizedBox(height: 2),
-                            Text(
-                              '$currentProgress / ${achievement.targetValue}',
-                              style: TextStyle(fontSize: 10, color: Colors.grey.shade600),
+                            child: Text(
+                              '+${achievement.rewardAmount} ${achievement.rewardType == AchievementRewardType.coins ? "🪙" : "💎"}',
+                              style: const TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 12,
+                              ),
                             ),
-                          ],
-                        ),
-                      ),
-                      const SizedBox(width: 12),
-
-                      // Claim Button
-                      if (isClaimed)
-                        const Chip(
-                          label: Text('Claimed', style: TextStyle(fontSize: 11)),
-                          backgroundColor: Colors.transparent,
-                        )
-                      else
-                        ElevatedButton(
-                          onPressed: isCompleted
-                              ? () {
-                                  final success = notifier.claimAchievement(achievement);
-                                  if (success) {
-                                    ScaffoldMessenger.of(context).showSnackBar(
-                                      SnackBar(
-                                        content: Text(
-                                          '🎉 Claimed ${achievement.rewardAmount} ${achievement.rewardType.name}!',
-                                        ),
-                                        backgroundColor: AppColors.lushGreen,
-                                      ),
-                                    );
-                                  }
-                                }
-                              : null,
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: AppColors.lushGreen,
-                            foregroundColor: Colors.white,
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(20),
-                            ),
-                            padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
                           ),
-                          child: Text(
-                            '+${achievement.rewardAmount} ${achievement.rewardType == AchievementRewardType.coins ? "🪙" : "💎"}',
-                            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 12),
-                          ),
-                        ),
-                    ],
-                  ),
-                ).animate().fadeIn(delay: Duration(milliseconds: index * 40));
-              },
+                      ],
+                    ),
+                  ).animate().fadeIn(delay: Duration(milliseconds: index * 40));
+                }),
+              ],
             ),
           ),
         ],

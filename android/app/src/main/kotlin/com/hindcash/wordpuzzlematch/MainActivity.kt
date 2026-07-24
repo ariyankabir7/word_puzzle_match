@@ -1,4 +1,4 @@
-package com.vishal.word_puzzle_match
+package com.hindcash.wordpuzzlematch
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -52,7 +52,7 @@ class AppConstants {
   static const double currentNodeSize = 62.0;
 
   // Splash duration
-  static const int splashDurationMs = 3500;
+  static const int splashDurationMs = 1800;
 
   // Difficulty levels
   static const int difficultyEasy = 1;

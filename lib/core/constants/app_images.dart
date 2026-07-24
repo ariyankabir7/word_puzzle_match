@@ -5,6 +5,7 @@ class AppImages {
   static const String bgVictory = 'assets/images/bg_victory.png';
 
   static const String logoTitle = 'assets/images/logo_title.png';
+  static const String appIcon = 'assets/images/app_icon.png';
   static const String iconChest = 'assets/images/icon_chest.png';
   static const String iconCoin = 'assets/images/icon_coin.png';
   static const String iconGem = 'assets/images/icon_gem.png';

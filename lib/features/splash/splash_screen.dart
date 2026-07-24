@@ -6,6 +6,8 @@ import 'package:google_fonts/google_fonts.dart';
 import '../../core/constants/app_constants.dart';
 import '../../core/constants/app_images.dart';
 import '../../core/router/app_router.dart';
+import '../../core/services/ads_service.dart';
+import '../../core/services/api_service.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -14,14 +16,33 @@ class SplashScreen extends StatefulWidget {
   State<SplashScreen> createState() => _SplashScreenState();
 }
 
-class _SplashScreenState extends State<SplashScreen> {
+class _SplashScreenState extends State<SplashScreen>
+    with SingleTickerProviderStateMixin {
+  late AnimationController _progressController;
   double _loadingProgress = 0.0;
-  String _statusText = 'Loading adventure...';
+  String _statusText = 'Preparing word puzzles...';
   bool _startedLoading = false;
 
   @override
   void initState() {
     super.initState();
+    _progressController = AnimationController(
+      vsync: this,
+      duration: Duration(milliseconds: AppConstants.splashDurationMs),
+    )..addListener(() {
+        if (!mounted) return;
+        setState(() {
+          _loadingProgress = _progressController.value;
+          if (_loadingProgress < 0.4) {
+            _statusText = 'Preparing word puzzles...';
+          } else if (_loadingProgress < 0.8) {
+            _statusText = 'Loading game resources...';
+          } else {
+            _statusText = 'Ready to play!';
+          }
+        });
+      });
+
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (!_startedLoading) {
         _startedLoading = true;
@@ -30,9 +51,81 @@ class _SplashScreenState extends State<SplashScreen> {
     });
   }
 
-  Future<void> _initAndPreload() async {
-    final startTime = DateTime.now();
+  @override
+  void dispose() {
+    _progressController.dispose();
+    super.dispose();
+  }
 
+  Future<void> _initAndPreload() async {
+    // 1. Optimistic UX: Start progress animation IMMEDIATELY on launch
+    final animFuture = _progressController.forward(from: 0.0);
+
+    // 2. Perform Ads init, Network checks, API login, and Image precaching in parallel
+    final tasksFuture = _performBackgroundTasks();
+
+    // Wait for both smooth progress animation & background tasks
+    final results = await Future.wait([
+      animFuture.orCancel.catchError((_) {}),
+      tasksFuture,
+    ]);
+
+    final apiResult = results[1] as ApiServiceResult<Map<String, dynamic>>?;
+
+    if (!mounted) return;
+
+    // 3. Handle server error/maintenance/update states if any
+    if (apiResult != null && !apiResult.isSuccess) {
+      if (apiResult.isMaintenance) {
+        context.go(AppRoutes.maintenance);
+        return;
+      }
+      if (apiResult.isUpdateRequired) {
+        context.go(AppRoutes.forceUpdate);
+        return;
+      }
+      if (apiResult.errorMessage == 'No internet connection') {
+        context.go(AppRoutes.noInternet, extra: () {
+          context.go(AppRoutes.splash);
+        });
+        return;
+      }
+    }
+
+    if (mounted) {
+      // 4. Show App Open Ad before completing splash flow
+      AdsService().showAppOpenAd(
+        onDismissed: () {
+          if (mounted) context.go(AppRoutes.home);
+        },
+      );
+    }
+  }
+
+  Future<ApiServiceResult<Map<String, dynamic>>> _performBackgroundTasks() async {
+    // Fire AdMob init (with timeout guard), Image precache, and API loginSignup in parallel
+    final adsInit = AdsService().init().timeout(
+      const Duration(seconds: 2),
+      onTimeout: () {},
+    );
+
+    final precache = _precacheImages();
+
+    final apiTask = ApiService().loginSignup().timeout(
+      const Duration(seconds: 4),
+      onTimeout: () => ApiServiceResult.failure('Timeout'),
+    );
+
+    final results = await Future.wait([
+      adsInit,
+      precache,
+      apiTask,
+    ]);
+
+    return results[2] as ApiServiceResult<Map<String, dynamic>>;
+  }
+
+  Future<void> _precacheImages() async {
     final imagePaths = [
       AppImages.bgHome,
       AppImages.bgMap,
@@ -49,203 +142,179 @@ class _SplashScreenState extends State<SplashScreen> {
       AppImages.levelComplete,
     ];
 
-    int loaded = 0;
     for (final path in imagePaths) {
-      if (!mounted) return;
+      if (!mounted) break;
       try {
         await precacheImage(AssetImage(path), context);
-      } catch (_) {
-        // Ignore precache errors for missing/optional assets
-      }
-      loaded++;
-      if (mounted) {
-        setState(() {
-          _loadingProgress = loaded / imagePaths.length;
-          if (_loadingProgress < 0.4) {
-            _statusText = 'Loading graphics...';
-          } else if (_loadingProgress < 0.8) {
-            _statusText = 'Preparing word puzzles...';
-          } else {
-            _statusText = 'Ready to play!';
-          }
-        });
-      }
-    }
-
-    // Ensure minimum splash duration for smooth visual experience
-    final elapsedMs = DateTime.now().difference(startTime).inMilliseconds;
-    final remainingMs = AppConstants.splashDurationMs - elapsedMs;
-    if (remainingMs > 0) {
-      await Future.delayed(Duration(milliseconds: remainingMs));
-    }
-
-    if (mounted) {
-      context.go(AppRoutes.home);
+      } catch (_) {}
     }
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Stack(
-        children: [
-          // Background Image matching Home Screen
-          Positioned.fill(
-            child: Image.asset(
-              AppImages.bgHome,
-              fit: BoxFit.cover,
+      body: SizedBox.expand(
+        child: Stack(
+          fit: StackFit.expand,
+          children: [
+            // Background Image matching Home Screen
+            Positioned.fill(
+              child: Image.asset(
+                AppImages.bgHome,
+                fit: BoxFit.cover,
+                width: double.infinity,
+                height: double.infinity,
+                alignment: Alignment.center,
+              ),
             ),
-          ),
 
-          // Subtle Darkening Overlay for contrast
-          Positioned.fill(
-            child: Container(
-              decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  begin: Alignment.topCenter,
-                  end: Alignment.bottomCenter,
-                  colors: [
-                    Colors.black.withValues(alpha: 0.15),
-                    Colors.transparent,
-                    Colors.black.withValues(alpha: 0.35),
-                  ],
+            // Subtle Darkening Overlay for contrast
+            Positioned.fill(
+              child: Container(
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    begin: Alignment.topCenter,
+                    end: Alignment.bottomCenter,
+                    colors: [
+                      Colors.black.withValues(alpha: 0.15),
+                      Colors.transparent,
+                      Colors.black.withValues(alpha: 0.35),
+                    ],
+                  ),
                 ),
               ),
             ),
-          ),
 
-          // Floating Animated Decorative Clouds
-          ..._buildClouds(),
+            // Floating Animated Decorative Clouds
+            ..._buildClouds(),
 
-          // Floating Sparkling Stars
-          ..._buildSparkles(),
+            // Floating Sparkling Stars
+            ..._buildSparkles(),
 
-          // Main Center Content
-          SafeArea(
-            child: Column(
-              children: [
-                const Spacer(flex: 2),
+            // Main Center Content
+            SafeArea(
+              child: Column(
+                children: [
+                  const Spacer(flex: 2),
 
-                // 3D Title Logo (Includes built-in tagline ribbon)
-                Image.asset(
-                      AppImages.logoTitle,
-                      width: 420,
-                      height: 240,
-                      fit: BoxFit.contain,
-                    )
-                    .animate()
-                    .fadeIn(duration: 600.ms)
-                    .scale(
-                      begin: const Offset(0.8, 0.8),
-                      duration: 700.ms,
-                      curve: Curves.elasticOut,
-                    )
-                    .animate(onPlay: (c) => c.repeat(reverse: true))
-                    .moveY(
-                      begin: -6,
-                      end: 6,
-                      duration: 2.seconds,
-                      curve: Curves.easeInOut,
-                    ),
-
-                const Spacer(flex: 3),
-
-
-                // Loading Status Text
-                Text(
-                  _statusText,
-                  style: GoogleFonts.fredoka(
-                    fontSize: 16,
-                    fontWeight: FontWeight.w600,
-                    color: Colors.white,
-                    shadows: const [
-                      Shadow(
-                        color: Color(0x66000000),
-                        offset: Offset(0, 2),
-                        blurRadius: 4,
+                  // 3D Title Logo
+                  Image.asset(
+                        AppImages.logoTitle,
+                        width: 420,
+                        height: 240,
+                        fit: BoxFit.contain,
+                      )
+                      .animate()
+                      .fadeIn(duration: 600.ms)
+                      .scale(
+                        begin: const Offset(0.8, 0.8),
+                        duration: 700.ms,
+                        curve: Curves.elasticOut,
+                      )
+                      .animate(onPlay: (c) => c.repeat(reverse: true))
+                      .moveY(
+                        begin: -6,
+                        end: 6,
+                        duration: 2.seconds,
+                        curve: Curves.easeInOut,
                       ),
-                    ],
-                  ),
-                ).animate().fadeIn(delay: 400.ms, duration: 300.ms),
 
-                const SizedBox(height: 10),
+                  const Spacer(flex: 3),
 
-                // 3D Game Loading Progress Bar
-                Container(
-                  width: 250,
-                  height: 22,
-                  padding: const EdgeInsets.all(3),
-                  decoration: BoxDecoration(
-                    color: const Color(0xBB000000),
-                    borderRadius: BorderRadius.circular(16),
-                    border: Border.all(
-                      color: Colors.white.withValues(alpha: 0.9),
-                      width: 2,
+                  // Loading Status Text
+                  Text(
+                    _statusText,
+                    style: GoogleFonts.fredoka(
+                      fontSize: 16,
+                      fontWeight: FontWeight.w600,
+                      color: Colors.white,
+                      shadows: const [
+                        Shadow(
+                          color: Color(0x66000000),
+                          offset: Offset(0, 2),
+                          blurRadius: 4,
+                        ),
+                      ],
                     ),
-                    boxShadow: const [
-                      BoxShadow(
-                        color: Color(0x44000000),
-                        blurRadius: 8,
-                        offset: Offset(0, 4),
+                  ).animate().fadeIn(delay: 400.ms, duration: 300.ms),
+
+                  const SizedBox(height: 10),
+
+                  // 3D Game Loading Progress Bar
+                  Container(
+                    width: 250,
+                    height: 22,
+                    padding: const EdgeInsets.all(3),
+                    decoration: BoxDecoration(
+                      color: const Color(0xBB000000),
+                      borderRadius: BorderRadius.circular(16),
+                      border: Border.all(
+                        color: Colors.white.withValues(alpha: 0.9),
+                        width: 2,
                       ),
-                    ],
-                  ),
-                  child: LayoutBuilder(
-                    builder: (context, constraints) {
-                      return Stack(
-                        children: [
-                          AnimatedContainer(
-                            duration: const Duration(milliseconds: 300),
-                            curve: Curves.easeOut,
-                            width: constraints.maxWidth * _loadingProgress,
-                            decoration: BoxDecoration(
-                              gradient: const LinearGradient(
-                                colors: [Color(0xFF4CAF50), Color(0xFF81C784)],
+                      boxShadow: const [
+                        BoxShadow(
+                          color: Color(0x44000000),
+                          blurRadius: 8,
+                          offset: Offset(0, 4),
+                        ),
+                      ],
+                    ),
+                    child: LayoutBuilder(
+                      builder: (context, constraints) {
+                        return Stack(
+                          children: [
+                            Container(
+                              width: constraints.maxWidth * _loadingProgress,
+                              decoration: BoxDecoration(
+                                gradient: const LinearGradient(
+                                  colors: [Color(0xFF4CAF50), Color(0xFF81C784)],
+                                ),
+                                borderRadius: BorderRadius.circular(12),
                               ),
-                              borderRadius: BorderRadius.circular(12),
                             ),
-                          ),
-                        ],
-                      );
-                    },
+                          ],
+                        );
+                      },
+                    ),
+                  ).animate().fadeIn(delay: 500.ms, duration: 400.ms),
+
+                  const SizedBox(height: 6),
+
+                  // Percentage Text
+                  Text(
+                    '${(_loadingProgress * 100).toInt()}%',
+                    style: GoogleFonts.fredoka(
+                      fontSize: 14,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white.withValues(alpha: 0.9),
+                      shadows: const [
+                        Shadow(
+                          color: Color(0x55000000),
+                          offset: Offset(0, 1),
+                          blurRadius: 3,
+                        ),
+                      ],
+                    ),
                   ),
-                ).animate().fadeIn(delay: 500.ms, duration: 400.ms),
 
-                const SizedBox(height: 6),
+                  const Spacer(flex: 1),
 
-                // Percentage Text
-                Text(
-                  '${(_loadingProgress * 100).toInt()}%',
-                  style: GoogleFonts.fredoka(
-                    fontSize: 14,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.white.withValues(alpha: 0.9),
-                    shadows: const [
-                      Shadow(
-                        color: Color(0x55000000),
-                        offset: Offset(0, 1),
-                        blurRadius: 3,
-                      ),
-                    ],
+                  // Version string
+                  Text(
+                    'v1.0.0',
+                    style: GoogleFonts.nunito(
+                      fontSize: 12,
+                      fontWeight: FontWeight.w600,
+                      color: Colors.white.withValues(alpha: 0.6),
+                    ),
                   ),
-                ),
-
-                const Spacer(flex: 1),
-
-                // Version string
-                Text(
-                  'v1.0.0',
-                  style: GoogleFonts.nunito(
-                    fontSize: 12,
-                    fontWeight: FontWeight.w600,
-                    color: Colors.white.withValues(alpha: 0.6),
-                  ),
-                ),
-                const SizedBox(height: 16),
-              ],
+                  const SizedBox(height: 16),
+                ],
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
@@ -316,4 +385,3 @@ class _SplashScreenState extends State<SplashScreen> {
     ];
   }
 }
-

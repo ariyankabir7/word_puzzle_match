@@ -6,6 +6,8 @@ import 'package:google_fonts/google_fonts.dart';
 import '../../core/constants/app_images.dart';
 import '../../core/providers/app_providers.dart';
 import '../../core/router/app_router.dart';
+import '../../core/services/api_service.dart';
+import '../../core/services/track_my_event_service.dart';
 import '../../shared/widgets/game_button.dart';
 
 class LevelCompleteScreen extends ConsumerStatefulWidget {
@@ -39,6 +41,10 @@ class _LevelCompleteScreenState extends ConsumerState<LevelCompleteScreen> {
         coinsEarned: widget.coinsEarned,
         gemsEarned: widget.gemsEarned,
       );
+
+      // Sync level completion with server & track event milestones
+      ApiService().logLevelCompletion(widget.levelId, widget.coinsEarned);
+      TrackMyEventService().checkAndTrackLevelMilestones(widget.levelId);
     });
   }
 
@@ -55,77 +61,56 @@ class _LevelCompleteScreenState extends ConsumerState<LevelCompleteScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Stack(
-        children: [
-          // Background Image
-          Positioned.fill(
-            child: Image.asset(
-              AppImages.bgVictory,
-              fit: BoxFit.cover,
-            ),
-          ),
+    return PopScope(
+      canPop: false,
+      onPopInvokedWithResult: (didPop, result) {
+        if (!didPop) {
+          context.go(AppRoutes.worldMap);
+        }
+      },
+      child: Scaffold(
+        body: SizedBox.expand(
+          child: Stack(
+            fit: StackFit.expand,
+            children: [
+              // Background Image
+              Positioned.fill(
+                child: Image.asset(
+                  AppImages.bgVictory,
+                  fit: BoxFit.cover,
+                  width: double.infinity,
+                  height: double.infinity,
+                  alignment: Alignment.center,
+                ),
+              ),
 
-          SafeArea(
-            child: Column(
-              children: [
-                const SizedBox(height: 24),
+              SafeArea(
+                child: Column(
+                  children: [
+                    const SizedBox(height: 16),
 
                 // Red Ribbon Title Banner
                 _buildBanner(),
 
-                const SizedBox(height: 20),
+                const SizedBox(height: 16),
 
-                // 3D Stars Row
+                // 3D Arc Stars Row
                 _buildStarsRow(),
 
                 const SizedBox(height: 14),
 
                 // Celebration Badge ("Wonderful!")
-                Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 8),
-                  decoration: BoxDecoration(
-                    gradient: const LinearGradient(
-                      colors: [Color(0xFF8E24AA), Color(0xFFAB47BC)],
-                    ),
-                    borderRadius: BorderRadius.circular(20),
-                    border: Border.all(color: Colors.white, width: 2),
-                    boxShadow: const [
-                      BoxShadow(color: Color(0x44000000), blurRadius: 6, offset: Offset(0, 3)),
-                    ],
-                  ),
-                  child: Text(
-                    _celebrationText,
-                    style: GoogleFonts.fredoka(
-                      fontSize: 22,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white,
-                    ),
-                  ),
-                )
-                    .animate()
-                    .fadeIn(delay: 500.ms, duration: 400.ms)
-                    .slideY(begin: 0.3, end: 0),
+                _buildCelebrationBadge(),
 
                 const SizedBox(height: 20),
 
-                // Rewards Card (+50 Coins, +5 Gems)
+                // Rewards Card (+50 Coins, +5 Gems side by side)
                 _buildRewardsCard(),
 
-                const SizedBox(height: 20),
+                const Spacer(),
 
-                // Treasure Chest & Watch Ad x2
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Image.asset(AppImages.iconChest, width: 100, height: 100)
-                        .animate()
-                        .fadeIn(delay: 400.ms)
-                        .scale(begin: const Offset(0.7, 0.7), curve: Curves.elasticOut),
-                    const SizedBox(width: 14),
-                    _buildWatchAdButton(context),
-                  ],
-                ),
+                // Centered Hero Watch Ad 2x Chest Button
+                _buildWatchAdHero(context),
 
                 const Spacer(),
 
@@ -138,7 +123,7 @@ class _LevelCompleteScreenState extends ConsumerState<LevelCompleteScreen> {
                     );
                   },
                   buttonColor: GameButtonColor.green,
-                  width: 260,
+                  width: 270,
                   height: 64,
                   fontSize: 26,
                 )
@@ -154,7 +139,7 @@ class _LevelCompleteScreenState extends ConsumerState<LevelCompleteScreen> {
                   icon: Icons.home_rounded,
                   onTap: () => context.go(AppRoutes.worldMap),
                   buttonColor: GameButtonColor.blue,
-                  width: 260,
+                  width: 270,
                   height: 56,
                   fontSize: 22,
                 )
@@ -168,14 +153,16 @@ class _LevelCompleteScreenState extends ConsumerState<LevelCompleteScreen> {
           ),
         ],
       ),
-    );
-  }
+    ),
+  ),
+);
+}
 
   Widget _buildBanner() {
     return Image.asset(
       AppImages.levelComplete,
-      width: 300,
-      height: 90,
+      width: 320,
+      height: 95,
       fit: BoxFit.contain,
     )
         .animate()
@@ -190,40 +177,108 @@ class _LevelCompleteScreenState extends ConsumerState<LevelCompleteScreen> {
   Widget _buildStarsRow() {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
-      children: List.generate(3, (index) {
-        final isFilled = index < widget.starsEarned;
-        final size = index == 1 ? 84.0 : 64.0;
-
-        return Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 6),
-          child: Image.asset(
-            AppImages.iconStar,
-            width: size,
-            height: size,
-            color: isFilled ? null : Colors.black45,
-            colorBlendMode: isFilled ? null : BlendMode.srcATop,
-          )
-              .animate(delay: Duration(milliseconds: 300 + index * 200))
-              .scale(
-                begin: const Offset(0, 0),
-                duration: 600.ms,
-                curve: Curves.elasticOut,
-              ),
-        );
-      }),
+      children: [
+        // Left Star
+        _buildStarItem(
+          index: 0,
+          size: 92.0,
+          angle: -0.12,
+          yOffset: 8.0,
+        ),
+        const SizedBox(width: 4),
+        // Center Star (Elevated and larger)
+        _buildStarItem(
+          index: 1,
+          size: 114.0,
+          angle: 0.0,
+          yOffset: -10.0,
+        ),
+        const SizedBox(width: 4),
+        // Right Star
+        _buildStarItem(
+          index: 2,
+          size: 92.0,
+          angle: 0.12,
+          yOffset: 8.0,
+        ),
+      ],
     );
   }
 
-  Widget _buildRewardsCard() {
+  Widget _buildStarItem({
+    required int index,
+    required double size,
+    required double angle,
+    required double yOffset,
+  }) {
+    final isFilled = index < widget.starsEarned;
+
+    return Transform.translate(
+      offset: Offset(0, yOffset),
+      child: Transform.rotate(
+        angle: angle,
+        child: Image.asset(
+          AppImages.iconStar,
+          width: size,
+          height: size,
+          color: isFilled ? null : Colors.black45,
+          colorBlendMode: isFilled ? null : BlendMode.srcATop,
+        )
+            .animate(delay: Duration(milliseconds: 300 + index * 200))
+            .scale(
+              begin: const Offset(0, 0),
+              duration: 600.ms,
+              curve: Curves.elasticOut,
+            ),
+      ),
+    );
+  }
+
+  Widget _buildCelebrationBadge() {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 14),
+      padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 8),
       decoration: BoxDecoration(
-        color: const Color(0xFFFFFBEA),
-        borderRadius: BorderRadius.circular(24),
-        border: Border.all(color: const Color(0xFFFFD54F), width: 3),
+        gradient: const LinearGradient(
+          colors: [Color(0xFF8E24AA), Color(0xFFAB47BC)],
+        ),
+        borderRadius: BorderRadius.circular(22),
+        border: Border.all(color: Colors.white, width: 2.5),
         boxShadow: const [
           BoxShadow(
             color: Color(0x44000000),
+            blurRadius: 8,
+            offset: Offset(0, 4),
+          ),
+        ],
+      ),
+      child: Text(
+        _celebrationText,
+        style: GoogleFonts.fredoka(
+          fontSize: 22,
+          fontWeight: FontWeight.bold,
+          color: Colors.white,
+          letterSpacing: 0.5,
+        ),
+      ),
+    )
+        .animate()
+        .fadeIn(delay: 500.ms, duration: 400.ms)
+        .slideY(begin: 0.3, end: 0);
+  }
+
+  Widget _buildRewardsCard() {
+    final coins = _adRewardClaimed ? widget.coinsEarned * 2 : widget.coinsEarned;
+    final gems = widget.gemsEarned > 0 ? widget.gemsEarned : 5;
+
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+      decoration: BoxDecoration(
+        color: const Color(0xFFFFF6E1),
+        borderRadius: BorderRadius.circular(24),
+        border: Border.all(color: const Color(0xFFF5DFB5), width: 3),
+        boxShadow: const [
+          BoxShadow(
+            color: Color(0x33000000),
             blurRadius: 10,
             offset: Offset(0, 4),
           ),
@@ -232,49 +287,90 @@ class _LevelCompleteScreenState extends ConsumerState<LevelCompleteScreen> {
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Image.asset(AppImages.iconCoin, width: 36, height: 36),
-          const SizedBox(width: 8),
-          Text(
-            '+${_adRewardClaimed ? widget.coinsEarned * 2 : widget.coinsEarned}',
-            style: GoogleFonts.fredoka(
-              fontSize: 24,
-              fontWeight: FontWeight.bold,
-              color: const Color(0xFFE65100),
+          // Coins Pill
+          Container(
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+            decoration: BoxDecoration(
+              color: const Color(0xFFFFF0C4),
+              borderRadius: BorderRadius.circular(16),
+              border: Border.all(color: const Color(0xFFFFE082), width: 1.5),
+            ),
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Image.asset(AppImages.iconCoin, width: 38, height: 38),
+                const SizedBox(width: 8),
+                Text(
+                  '+$coins',
+                  style: GoogleFonts.fredoka(
+                    fontSize: 26,
+                    fontWeight: FontWeight.bold,
+                    color: const Color(0xFF5D4037),
+                  ),
+                ),
+              ],
             ),
           ),
-          if (widget.gemsEarned > 0) ...[
-            const SizedBox(width: 24),
-            Image.asset(AppImages.iconGem, width: 36, height: 36),
-            const SizedBox(width: 8),
-            Text(
-              '+${widget.gemsEarned}',
-              style: GoogleFonts.fredoka(
-                fontSize: 24,
-                fontWeight: FontWeight.bold,
-                color: const Color(0xFF8E24AA),
-              ),
+          const SizedBox(width: 12),
+          // Gems Pill
+          Container(
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+            decoration: BoxDecoration(
+              color: const Color(0xFFFFE5F3),
+              borderRadius: BorderRadius.circular(16),
+              border: Border.all(color: const Color(0xFFF8BBD0), width: 1.5),
             ),
-          ],
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Image.asset(AppImages.iconGem, width: 38, height: 38),
+                const SizedBox(width: 8),
+                Text(
+                  '+$gems',
+                  style: GoogleFonts.fredoka(
+                    fontSize: 26,
+                    fontWeight: FontWeight.bold,
+                    color: const Color(0xFF5D4037),
+                  ),
+                ),
+              ],
+            ),
+          ),
         ],
       ),
     ).animate().fadeIn(delay: 600.ms);
   }
 
-  Widget _buildWatchAdButton(BuildContext context) {
+  Widget _buildWatchAdHero(BuildContext context) {
     if (_adRewardClaimed) {
       return Container(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+        padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
         decoration: BoxDecoration(
           color: const Color(0xFF8CE62C),
-          borderRadius: BorderRadius.circular(20),
+          borderRadius: BorderRadius.circular(24),
+          border: Border.all(color: Colors.white, width: 2.5),
+          boxShadow: const [
+            BoxShadow(
+              color: Color(0x33000000),
+              blurRadius: 8,
+              offset: Offset(0, 3),
+            ),
+          ],
         ),
-        child: Text(
-          '2× Claimed!',
-          style: GoogleFonts.fredoka(
-            fontSize: 16,
-            fontWeight: FontWeight.bold,
-            color: Colors.white,
-          ),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            const Icon(Icons.check_circle_rounded, color: Colors.white, size: 28),
+            const SizedBox(width: 8),
+            Text(
+              '2× Rewards Claimed!',
+              style: GoogleFonts.fredoka(
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+                color: Colors.white,
+              ),
+            ),
+          ],
         ),
       );
     }
@@ -296,13 +392,18 @@ class _LevelCompleteScreenState extends ConsumerState<LevelCompleteScreen> {
       },
       child: Image.asset(
         AppImages.watchAndWin2x,
-        width: 150,
-        height: 60,
+        width: 210,
+        height: 120,
         fit: BoxFit.contain,
       )
-          .animate()
-          .fadeIn(delay: 500.ms)
-          .scale(begin: const Offset(0.8, 0.8), curve: Curves.elasticOut),
+          .animate(onPlay: (controller) => controller.repeat(reverse: true))
+          .scale(
+            begin: const Offset(1.0, 1.0),
+            end: const Offset(1.04, 1.04),
+            duration: 1000.ms,
+            curve: Curves.easeInOut,
+          ),
     );
   }
 }
+
