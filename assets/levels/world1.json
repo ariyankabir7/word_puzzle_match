@@ -11,19 +11,23 @@
         "HOOD",
         "PUMA",
         "GRAY",
-        "SNOW"
+        "SNOW",
+        "SACHS",
+        "MUG",
+        "HINT",
+        "AGREES"
       ],
       "grid": [
         [
           "X",
-          "D",
+          "A",
           "P",
           "U",
           "M",
           "A"
         ],
         [
-          "F",
+          "H",
           "G",
           "R",
           "A",
@@ -31,24 +35,24 @@
           "T"
         ],
         [
-          "D",
-          "D",
+          "I",
+          "R",
           "H",
           "O",
           "O",
           "D"
         ],
         [
-          "B",
+          "N",
           "E",
-          "Q",
-          "L",
-          "T",
+          "G",
+          "U",
+          "M",
           "U"
         ],
         [
-          "U",
-          "J",
+          "T",
+          "E",
           "S",
           "N",
           "O",
@@ -56,11 +60,11 @@
         ],
         [
           "A",
-          "N",
           "S",
-          "E",
-          "L",
-          "N"
+          "A",
+          "C",
+          "H",
+          "S"
         ]
       ],
       "wordPositions": [
@@ -87,6 +91,30 @@
           "startRow": 4,
           "startCol": 2,
           "direction": "LR"
+        },
+        {
+          "word": "SACHS",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "MUG",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "HINT",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "AGREES",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TB"
         }
       ],
       "timeLimit": 180
@@ -101,7 +129,10 @@
         "RING",
         "GRID",
         "REEF",
-        "HEN"
+        "HEN",
+        "LATS",
+        "KREBS",
+        "EVE"
       ],
       "grid": [
         [
@@ -121,12 +152,12 @@
           "H"
         ],
         [
+          "S",
           "B",
-          "P",
-          "A",
+          "E",
           "R",
-          "B",
-          "D"
+          "K",
+          "L"
         ],
         [
           "H",
@@ -134,15 +165,15 @@
           "R",
           "I",
           "D",
-          "L"
+          "A"
         ],
         [
           "E",
-          "S",
-          "W",
+          "V",
+          "E",
           "N",
           "W",
-          "I"
+          "T"
         ],
         [
           "N",
@@ -150,7 +181,7 @@
           "Y",
           "G",
           "A",
-          "F"
+          "S"
         ]
       ],
       "wordPositions": [
@@ -183,6 +214,24 @@
           "startRow": 3,
           "startCol": 0,
           "direction": "TB"
+        },
+        {
+          "word": "LATS",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "KREBS",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "EVE",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "LR"
         }
       ],
       "timeLimit": 180
@@ -198,7 +247,9 @@
         "SONG",
         "OAK",
         "BOOT",
-        "DESERT"
+        "DESERT",
+        "ETA",
+        "PENT"
       ],
       "grid": [
         [
@@ -215,7 +266,7 @@
           "O",
           "O",
           "T",
-          "T"
+          "A"
         ],
         [
           "D",
@@ -231,14 +282,14 @@
           "E",
           "E",
           "N",
-          "L"
+          "E"
         ],
         [
           "U",
           "P",
           "E",
           "N",
-          "Q",
+          "T",
           "U"
         ],
         [
@@ -286,6 +337,18 @@
           "startRow": 2,
           "startCol": 0,
           "direction": "LR"
+        },
+        {
+          "word": "ETA",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "BT"
+        },
+        {
+          "word": "PENT",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "LR"
         }
       ],
       "timeLimit": 180
@@ -299,47 +362,51 @@
         "SOFA",
         "HONEY",
         "BAT",
-        "ROD"
+        "ROD",
+        "PBX",
+        "FAXING",
+        "VDT",
+        "BUY"
       ],
       "grid": [
         [
           "I",
           "G",
-          "O",
-          "V",
-          "A",
+          "P",
+          "B",
+          "X",
           "S"
         ],
         [
           "D",
-          "B",
+          "N",
           "H",
-          "X",
+          "B",
           "Q",
           "O"
         ],
         [
           "B",
-          "P",
+          "I",
           "O",
-          "L",
+          "U",
           "F",
           "F"
         ],
         [
           "A",
-          "M",
+          "X",
           "N",
-          "Z",
+          "Y",
           "U",
           "A"
         ],
         [
           "T",
+          "A",
           "E",
-          "E",
-          "G",
-          "W",
+          "V",
+          "D",
           "T"
         ],
         [
@@ -375,6 +442,30 @@
           "startRow": 5,
           "startCol": 3,
           "direction": "LR"
+        },
+        {
+          "word": "PBX",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "FAXING",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "BT"
+        },
+        {
+          "word": "VDT",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "LR"
+        },
+        {
+          "word": "BUY",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "TB"
         }
       ],
       "timeLimit": 180
@@ -389,11 +480,14 @@
         "DUCK",
         "NEWT",
         "CANDY",
-        "WORD"
+        "WORD",
+        "BIBLE",
+        "SEAR",
+        "SUB"
       ],
       "grid": [
         [
-          "J",
+          "R",
           "D",
           "D",
           "U",
@@ -401,7 +495,7 @@
           "K"
         ],
         [
-          "S",
+          "A",
           "T",
           "I",
           "G",
@@ -409,20 +503,20 @@
           "R"
         ],
         [
-          "A",
-          "Q",
           "E",
-          "Z",
-          "G",
-          "Q"
+          "E",
+          "L",
+          "B",
+          "I",
+          "B"
         ],
         [
-          "M",
+          "S",
           "N",
           "E",
           "W",
           "T",
-          "X"
+          "U"
         ],
         [
           "W",
@@ -430,7 +524,7 @@
           "R",
           "D",
           "U",
-          "C"
+          "S"
         ],
         [
           "H",
@@ -471,6 +565,24 @@
           "startRow": 4,
           "startCol": 0,
           "direction": "LR"
+        },
+        {
+          "word": "BIBLE",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "SEAR",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "SUB",
+          "startRow": 4,
+          "startCol": 5,
+          "direction": "BT"
         }
       ],
       "timeLimit": 180
@@ -485,7 +597,9 @@
         "GUST",
         "MOON",
         "WIRE",
-        "HARE"
+        "HARE",
+        "MUTATE",
+        "SHUCK"
       ],
       "grid": [
         [
@@ -494,39 +608,39 @@
           "R",
           "E",
           "H",
-          "I"
+          "M"
         ],
         [
           "A",
           "U",
-          "L",
+          "K",
           "M",
           "A",
-          "C"
+          "U"
         ],
         [
           "M",
           "M",
-          "G",
+          "C",
           "G",
           "R",
-          "L"
+          "T"
         ],
         [
           "O",
           "O",
-          "P",
+          "U",
           "U",
           "E",
-          "Z"
+          "A"
         ],
         [
           "O",
           "L",
-          "L",
+          "H",
           "S",
           "A",
-          "N"
+          "T"
         ],
         [
           "N",
@@ -534,7 +648,7 @@
           "S",
           "T",
           "W",
-          "J"
+          "E"
         ]
       ],
       "wordPositions": [
@@ -567,6 +681,18 @@
           "startRow": 0,
           "startCol": 4,
           "direction": "TB"
+        },
+        {
+          "word": "MUTATE",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "SHUCK",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "BT"
         }
       ],
       "timeLimit": 180
@@ -580,52 +706,56 @@
         "FORK",
         "FISH",
         "CAT",
-        "MOTH"
+        "MOTH",
+        "DARING",
+        "AMOS",
+        "ATP",
+        "UPC"
       ],
       "grid": [
         [
-          "P",
-          "I",
+          "U",
+          "D",
           "J",
           "V",
           "M",
           "L"
         ],
         [
-          "C",
-          "T",
+          "P",
+          "A",
           "F",
           "S",
           "O",
-          "K"
+          "S"
         ],
         [
           "C",
-          "Z",
+          "R",
           "I",
           "F",
           "T",
-          "X"
+          "O"
         ],
         [
           "A",
-          "L",
+          "I",
           "S",
           "O",
           "H",
-          "T"
+          "M"
         ],
         [
           "T",
-          "U",
+          "N",
           "H",
           "R",
           "G",
-          "X"
+          "A"
         ],
         [
-          "T",
-          "F",
+          "P",
+          "G",
           "T",
           "K",
           "R",
@@ -656,6 +786,30 @@
           "startRow": 0,
           "startCol": 4,
           "direction": "TB"
+        },
+        {
+          "word": "DARING",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "AMOS",
+          "startRow": 4,
+          "startCol": 5,
+          "direction": "BT"
+        },
+        {
+          "word": "ATP",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "UPC",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
         }
       ],
       "timeLimit": 180
@@ -670,7 +824,10 @@
         "APE",
         "PONY",
         "GLUE",
-        "BELT"
+        "BELT",
+        "OINK",
+        "BUD",
+        "ZEBUS"
       ],
       "grid": [
         [
@@ -690,31 +847,31 @@
           "I"
         ],
         [
-          "Q",
+          "O",
           "D",
           "B",
-          "H",
+          "B",
           "P",
           "K"
         ],
         [
-          "F",
-          "J",
-          "P",
-          "Q",
+          "I",
+          "S",
+          "U",
+          "B",
           "E",
-          "O"
+          "Z"
         ],
         [
-          "L",
-          "G",
+          "N",
+          "D",
           "B",
           "E",
           "L",
           "T"
         ],
         [
-          "B",
+          "K",
           "P",
           "O",
           "N",
@@ -752,6 +909,24 @@
           "startRow": 4,
           "startCol": 2,
           "direction": "LR"
+        },
+        {
+          "word": "OINK",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "BUD",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "TRBL"
+        },
+        {
+          "word": "ZEBUS",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "RL"
         }
       ],
       "timeLimit": 180
@@ -766,7 +941,10 @@
         "DOVE",
         "RUG",
         "CORK",
-        "GALE"
+        "GALE",
+        "MASH",
+        "COMER",
+        "GERE"
       ],
       "grid": [
         [
@@ -786,36 +964,36 @@
           "C"
         ],
         [
-          "B",
+          "H",
           "R",
-          "G",
+          "O",
           "X",
           "I",
           "O"
         ],
         [
-          "X",
+          "S",
           "U",
           "B",
-          "P",
+          "M",
           "K",
           "A"
         ],
         [
-          "D",
+          "A",
           "G",
-          "F",
           "E",
           "R",
+          "E",
           "K"
         ],
         [
-          "U",
+          "M",
           "G",
           "A",
           "L",
           "E",
-          "A"
+          "R"
         ]
       ],
       "wordPositions": [
@@ -848,6 +1026,24 @@
           "startRow": 5,
           "startCol": 1,
           "direction": "LR"
+        },
+        {
+          "word": "MASH",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "COMER",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "TLBR"
+        },
+        {
+          "word": "GERE",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "LR"
         }
       ],
       "timeLimit": 180
@@ -863,7 +1059,9 @@
         "PIPE",
         "LION",
         "DOME",
-        "PIG"
+        "PIG",
+        "LONE",
+        "BEES"
       ],
       "grid": [
         [
@@ -896,7 +1094,7 @@
           "R",
           "O",
           "I",
-          "X"
+          "N"
         ],
         [
           "E",
@@ -904,15 +1102,15 @@
           "J",
           "N",
           "G",
-          "N"
+          "O"
         ],
         [
-          "G",
+          "S",
           "E",
+          "E",
+          "B",
           "C",
-          "F",
-          "C",
-          "Z"
+          "L"
         ]
       ],
       "wordPositions": [
@@ -951,6 +1149,18 @@
           "startRow": 2,
           "startCol": 4,
           "direction": "TB"
+        },
+        {
+          "word": "LONE",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "BT"
+        },
+        {
+          "word": "BEES",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "RL"
         }
       ],
       "timeLimit": 180
@@ -964,7 +1174,11 @@
         "WOOL",
         "LIGHT",
         "ELM",
-        "WICK"
+        "WICK",
+        "KANO",
+        "VIZ",
+        "WHIMS",
+        "BSD"
       ],
       "grid": [
         [
@@ -976,15 +1190,15 @@
           "T"
         ],
         [
-          "X",
-          "W",
-          "G",
           "K",
-          "J",
+          "W",
+          "H",
+          "I",
+          "M",
           "S"
         ],
         [
-          "F",
+          "A",
           "I",
           "W",
           "O",
@@ -994,24 +1208,24 @@
         [
           "N",
           "C",
-          "J",
           "B",
-          "Q",
-          "R"
+          "S",
+          "D",
+          "Z"
         ],
         [
-          "M",
+          "O",
           "K",
           "F",
           "D",
-          "V",
+          "I",
           "K"
         ],
         [
           "E",
           "L",
           "M",
-          "Z",
+          "V",
           "J",
           "P"
         ]
@@ -1040,6 +1254,30 @@
           "startRow": 1,
           "startCol": 1,
           "direction": "TB"
+        },
+        {
+          "word": "KANO",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "VIZ",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "BLTR"
+        },
+        {
+          "word": "WHIMS",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "BSD",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "LR"
         }
       ],
       "timeLimit": 180
@@ -1054,7 +1292,9 @@
         "SHINE",
         "BOOT",
         "LEAF",
-        "VAN"
+        "VAN",
+        "NOTE",
+        "BOGIE"
       ],
       "grid": [
         [
@@ -1062,7 +1302,7 @@
           "Y",
           "V",
           "S",
-          "P",
+          "E",
           "O"
         ],
         [
@@ -1070,36 +1310,36 @@
           "W",
           "L",
           "M",
-          "D",
+          "I",
           "B"
         ],
         [
           "I",
-          "L",
+          "N",
           "L",
           "I",
-          "C",
+          "G",
           "O"
         ],
         [
           "N",
-          "S",
+          "O",
           "E",
           "L",
-          "U",
+          "O",
           "O"
         ],
         [
           "E",
-          "V",
+          "T",
           "A",
           "E",
-          "P",
+          "B",
           "T"
         ],
         [
           "W",
-          "I",
+          "E",
           "F",
           "V",
           "A",
@@ -1136,6 +1376,18 @@
           "startRow": 5,
           "startCol": 3,
           "direction": "LR"
+        },
+        {
+          "word": "NOTE",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "BOGIE",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "BT"
         }
       ],
       "timeLimit": 180
@@ -1150,30 +1402,33 @@
         "SUN",
         "WIRE",
         "TEAL",
-        "BARK"
+        "BARK",
+        "COHAN",
+        "GOD",
+        "IRIS"
       ],
       "grid": [
         [
-          "E",
-          "R",
-          "Q",
-          "I",
-          "E",
-          "B"
+          "N",
+          "A",
+          "H",
+          "O",
+          "C",
+          "D"
         ],
         [
           "M",
-          "F",
+          "I",
           "B",
           "B",
-          "K",
+          "O",
           "H"
         ],
         [
           "I",
-          "K",
+          "R",
           "A",
-          "I",
+          "G",
           "T",
           "O"
         ],
@@ -1187,7 +1442,7 @@
         ],
         [
           "D",
-          "V",
+          "S",
           "K",
           "C",
           "A",
@@ -1232,6 +1487,24 @@
           "startRow": 1,
           "startCol": 2,
           "direction": "TB"
+        },
+        {
+          "word": "COHAN",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "GOD",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "BLTR"
+        },
+        {
+          "word": "IRIS",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "TB"
         }
       ],
       "timeLimit": 180
@@ -1245,7 +1518,11 @@
         "CLAY",
         "BARK",
         "TEAL",
-        "GNU"
+        "GNU",
+        "INTEND",
+        "BEAN",
+        "GEE",
+        "POLL"
       ],
       "grid": [
         [
@@ -1254,7 +1531,7 @@
           "L",
           "A",
           "Y",
-          "T"
+          "I"
         ],
         [
           "A",
@@ -1262,39 +1539,39 @@
           "E",
           "A",
           "L",
-          "T"
+          "N"
         ],
         [
           "R",
-          "L",
-          "V",
+          "B",
+          "G",
           "P",
           "Z",
-          "W"
+          "T"
         ],
         [
           "K",
           "W",
+          "E",
+          "E",
           "X",
-          "W",
-          "X",
-          "A"
+          "E"
         ],
         [
           "G",
           "N",
           "U",
-          "X",
-          "F",
-          "D"
+          "A",
+          "E",
+          "N"
         ],
         [
-          "C",
-          "S",
+          "L",
+          "L",
+          "O",
           "P",
-          "U",
-          "U",
-          "X"
+          "N",
+          "D"
         ]
       ],
       "wordPositions": [
@@ -1321,6 +1598,30 @@
           "startRow": 4,
           "startCol": 0,
           "direction": "LR"
+        },
+        {
+          "word": "INTEND",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "BEAN",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TLBR"
+        },
+        {
+          "word": "GEE",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "TLBR"
+        },
+        {
+          "word": "POLL",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "RL"
         }
       ],
       "timeLimit": 180
@@ -1335,16 +1636,19 @@
         "NET",
         "ELM",
         "NEST",
-        "COMB"
+        "COMB",
+        "HERMES",
+        "RUNE",
+        "STINK"
       ],
       "grid": [
         [
-          "Y",
+          "K",
           "C",
           "A",
           "L",
           "F",
-          "F"
+          "S"
         ],
         [
           "N",
@@ -1352,10 +1656,10 @@
           "S",
           "T",
           "F",
-          "A"
+          "E"
         ],
         [
-          "U",
+          "I",
           "G",
           "N",
           "E",
@@ -1363,20 +1667,20 @@
           "M"
         ],
         [
-          "M",
+          "T",
           "E",
           "E",
-          "Z",
-          "P",
-          "I"
+          "N",
+          "U",
+          "R"
         ],
         [
-          "V",
+          "S",
           "Y",
           "T",
           "U",
           "B",
-          "Z"
+          "E"
         ],
         [
           "C",
@@ -1384,7 +1688,7 @@
           "M",
           "B",
           "O",
-          "Y"
+          "H"
         ]
       ],
       "wordPositions": [
@@ -1417,6 +1721,24 @@
           "startRow": 5,
           "startCol": 0,
           "direction": "LR"
+        },
+        {
+          "word": "HERMES",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "BT"
+        },
+        {
+          "word": "RUNE",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "STINK",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "BT"
         }
       ],
       "timeLimit": 180
@@ -1430,56 +1752,60 @@
         "GOAT",
         "PONY",
         "JADE",
-        "WORM"
+        "WORM",
+        "HUT",
+        "BISONS",
+        "BROW",
+        "DAY"
       ],
       "grid": [
         [
-          "I",
           "D",
+          "B",
           "Q",
           "G",
           "F",
           "B"
         ],
         [
-          "C",
-          "E",
+          "A",
+          "I",
           "W",
           "O",
           "R",
           "M"
         ],
         [
-          "O",
-          "J",
+          "Y",
+          "S",
           "P",
           "A",
           "J",
-          "H"
+          "B"
         ],
         [
-          "L",
-          "J",
+          "T",
+          "O",
           "O",
           "T",
           "A",
-          "Z"
+          "R"
         ],
         [
-          "Z",
-          "J",
+          "U",
+          "N",
           "N",
           "D",
           "D",
-          "M"
+          "O"
         ],
         [
-          "M",
           "H",
+          "S",
           "Y",
           "X",
           "E",
-          "Q"
+          "W"
         ]
       ],
       "wordPositions": [
@@ -1506,6 +1832,30 @@
           "startRow": 1,
           "startCol": 2,
           "direction": "LR"
+        },
+        {
+          "word": "HUT",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "BISONS",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "BROW",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "DAY",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
         }
       ],
       "timeLimit": 180
@@ -1521,44 +1871,46 @@
         "BUCK",
         "SUN",
         "PINE",
-        "CORK"
+        "CORK",
+        "CHEWED",
+        "HANG"
       ],
       "grid": [
         [
           "P",
-          "S",
+          "C",
           "B",
           "C",
-          "C",
+          "H",
           "P"
         ],
         [
           "I",
-          "P",
+          "H",
           "U",
           "O",
-          "F",
+          "A",
           "I"
         ],
         [
           "N",
-          "J",
+          "E",
           "C",
           "R",
-          "B",
+          "N",
           "N"
         ],
         [
           "K",
-          "X",
+          "W",
           "K",
           "K",
-          "J",
+          "G",
           "E"
         ],
         [
           "S",
-          "G",
+          "E",
           "L",
           "E",
           "A",
@@ -1566,7 +1918,7 @@
         ],
         [
           "G",
-          "G",
+          "D",
           "O",
           "S",
           "U",
@@ -1609,6 +1961,18 @@
           "startRow": 0,
           "startCol": 3,
           "direction": "TB"
+        },
+        {
+          "word": "CHEWED",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "HANG",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "TB"
         }
       ],
       "timeLimit": 180
@@ -1624,7 +1988,9 @@
         "PARK",
         "LYNX",
         "SHOP",
-        "LAMP"
+        "LAMP",
+        "PEAK",
+        "AUTO"
       ],
       "grid": [
         [
@@ -1647,32 +2013,32 @@
           "A",
           "L",
           "P",
-          "R",
-          "J",
+          "O",
+          "P",
           "A"
         ],
         [
           "M",
           "Y",
           "A",
-          "L",
-          "V",
+          "T",
+          "E",
           "W"
         ],
         [
           "P",
           "N",
           "R",
-          "L",
-          "G",
+          "U",
+          "A",
           "K"
         ],
         [
           "A",
           "X",
           "K",
-          "R",
-          "L",
+          "A",
+          "K",
           "G"
         ]
       ],
@@ -1712,6 +2078,18 @@
           "startRow": 1,
           "startCol": 0,
           "direction": "TB"
+        },
+        {
+          "word": "PEAK",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "AUTO",
+          "startRow": 5,
+          "startCol": 3,
+          "direction": "BT"
         }
       ],
       "timeLimit": 180
@@ -1727,7 +2105,9 @@
         "RED",
         "BLUE",
         "YELLOW",
-        "GLUE"
+        "GLUE",
+        "OIL",
+        "UMP"
       ],
       "grid": [
         [
@@ -1736,7 +2116,7 @@
           "B",
           "Y",
           "X",
-          "W"
+          "L"
         ],
         [
           "L",
@@ -1744,7 +2124,7 @@
           "G",
           "E",
           "U",
-          "J"
+          "I"
         ],
         [
           "U",
@@ -1752,7 +2132,7 @@
           "L",
           "L",
           "S",
-          "H"
+          "O"
         ],
         [
           "E",
@@ -1771,9 +2151,9 @@
           "E"
         ],
         [
-          "H",
+          "U",
           "M",
-          "F",
+          "P",
           "W",
           "L",
           "D"
@@ -1815,6 +2195,18 @@
           "startRow": 1,
           "startCol": 2,
           "direction": "TB"
+        },
+        {
+          "word": "OIL",
+          "startRow": 2,
+          "startCol": 5,
+          "direction": "BT"
+        },
+        {
+          "word": "UMP",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "LR"
         }
       ],
       "timeLimit": 180
@@ -1828,35 +2220,39 @@
         "OTTER",
         "RAM",
         "PIPE",
-        "APPLE"
+        "APPLE",
+        "NOKIA",
+        "VOWS",
+        "FAST",
+        "PIMP"
       ],
       "grid": [
         [
-          "R",
-          "F",
+          "S",
+          "P",
+          "T",
+          "S",
           "A",
-          "E",
-          "B",
           "F"
         ],
         [
-          "T",
           "A",
-          "C",
+          "W",
+          "I",
           "P",
           "A",
           "O"
         ],
         [
-          "F",
+          "I",
           "A",
-          "L",
+          "O",
           "M",
           "P",
           "T"
         ],
         [
-          "P",
+          "K",
           "Q",
           "H",
           "V",
@@ -1864,7 +2260,7 @@
           "T"
         ],
         [
-          "X",
+          "O",
           "R",
           "A",
           "M",
@@ -1872,7 +2268,7 @@
           "E"
         ],
         [
-          "F",
+          "N",
           "P",
           "I",
           "P",
@@ -1904,6 +2300,30 @@
           "startRow": 1,
           "startCol": 4,
           "direction": "TB"
+        },
+        {
+          "word": "NOKIA",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "VOWS",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "BRTL"
+        },
+        {
+          "word": "FAST",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "PIMP",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TLBR"
         }
       ],
       "timeLimit": 180
@@ -1918,36 +2338,39 @@
         "PINK",
         "BIRD",
         "REEF",
-        "WIND"
+        "WIND",
+        "GUY",
+        "TONER",
+        "AIDE"
       ],
       "grid": [
         [
           "W",
           "Y",
           "C",
-          "Z",
-          "V",
+          "A",
+          "T",
           "S"
         ],
         [
           "I",
-          "R",
+          "G",
           "U",
-          "P",
-          "T",
+          "I",
+          "O",
           "T"
         ],
         [
           "N",
+          "U",
           "P",
-          "P",
-          "O",
-          "Q",
+          "D",
+          "N",
           "N"
         ],
         [
           "D",
-          "N",
+          "Y",
           "R",
           "E",
           "E",
@@ -1958,7 +2381,7 @@
           "I",
           "R",
           "D",
-          "B",
+          "R",
           "E"
         ],
         [
@@ -2000,6 +2423,24 @@
           "startRow": 0,
           "startCol": 0,
           "direction": "TB"
+        },
+        {
+          "word": "GUY",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "TONER",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "AIDE",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "TB"
         }
       ],
       "timeLimit": 180
@@ -2015,7 +2456,9 @@
         "WOOL",
         "DISH",
         "FERN",
-        "IVY"
+        "IVY",
+        "SLABS",
+        "FUSS"
       ],
       "grid": [
         [
@@ -2023,31 +2466,31 @@
           "I",
           "S",
           "H",
-          "L",
+          "S",
           "F"
         ],
         [
           "I",
           "S",
+          "S",
           "W",
-          "W",
-          "N",
+          "L",
           "E"
         ],
         [
           "V",
           "O",
-          "H",
-          "O",
           "U",
+          "O",
+          "A",
           "R"
         ],
         [
           "Y",
           "N",
-          "U",
+          "F",
           "O",
-          "Y",
+          "B",
           "N"
         ],
         [
@@ -2055,7 +2498,7 @@
           "G",
           "Y",
           "L",
-          "H",
+          "S",
           "B"
         ],
         [
@@ -2103,6 +2546,18 @@
           "startRow": 1,
           "startCol": 0,
           "direction": "TB"
+        },
+        {
+          "word": "SLABS",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "FUSS",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "BT"
         }
       ],
       "timeLimit": 180
@@ -2118,7 +2573,9 @@
         "ZEBRA",
         "WORD",
         "HILL",
-        "BIRD"
+        "BIRD",
+        "OUR",
+        "MOOR"
       ],
       "grid": [
         [
@@ -2126,7 +2583,7 @@
           "O",
           "R",
           "D",
-          "X",
+          "R",
           "Z"
         ],
         [
@@ -2134,21 +2591,21 @@
           "C",
           "W",
           "B",
-          "X",
+          "U",
           "E"
         ],
         [
           "H",
           "A",
-          "X",
+          "M",
           "I",
-          "W",
+          "O",
           "B"
         ],
         [
           "I",
           "R",
-          "H",
+          "O",
           "R",
           "T",
           "R"
@@ -2156,7 +2613,7 @@
         [
           "L",
           "T",
-          "Z",
+          "O",
           "D",
           "W",
           "A"
@@ -2206,6 +2663,18 @@
           "startRow": 1,
           "startCol": 3,
           "direction": "TB"
+        },
+        {
+          "word": "OUR",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "BT"
+        },
+        {
+          "word": "MOOR",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "TB"
         }
       ],
       "timeLimit": 180
@@ -2221,14 +2690,16 @@
         "GUST",
         "EMU",
         "YAK",
-        "HAWK"
+        "HAWK",
+        "RUING",
+        "BELL"
       ],
       "grid": [
         [
-          "W",
-          "X",
-          "D",
-          "P",
+          "L",
+          "L",
+          "E",
+          "B",
           "R",
           "E"
         ],
@@ -2257,11 +2728,11 @@
           "A"
         ],
         [
-          "K",
-          "L",
-          "D",
+          "G",
+          "N",
           "I",
-          "H",
+          "U",
+          "R",
           "Q"
         ],
         [
@@ -2309,6 +2780,18 @@
           "startRow": 5,
           "startCol": 2,
           "direction": "LR"
+        },
+        {
+          "word": "RUING",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "BELL",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "RL"
         }
       ],
       "timeLimit": 180
@@ -2324,7 +2807,9 @@
         "GIFT",
         "SWAN",
         "BEE",
-        "SEA"
+        "SEA",
+        "LEAPS",
+        "KEY"
       ],
       "grid": [
         [
@@ -2336,7 +2821,7 @@
           "T"
         ],
         [
-          "W",
+          "L",
           "W",
           "M",
           "S",
@@ -2344,31 +2829,31 @@
           "A"
         ],
         [
-          "F",
+          "E",
           "A",
           "I",
           "O",
-          "N",
+          "K",
           "B"
         ],
         [
-          "E",
+          "A",
           "N",
           "N",
           "B",
-          "J",
+          "E",
           "E"
         ],
         [
-          "O",
+          "P",
           "L",
           "T",
           "H",
-          "U",
+          "Y",
           "E"
         ],
         [
-          "F",
+          "S",
           "B",
           "G",
           "I",
@@ -2412,6 +2897,18 @@
           "startRow": 1,
           "startCol": 3,
           "direction": "LR"
+        },
+        {
+          "word": "LEAPS",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "KEY",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "TB"
         }
       ],
       "timeLimit": 180
@@ -2426,7 +2923,10 @@
         "RED",
         "CHERRY",
         "CHEESE",
-        "GATE"
+        "GATE",
+        "LIEU",
+        "MISER",
+        "DAVY"
       ],
       "grid": [
         [
@@ -2439,10 +2939,10 @@
         ],
         [
           "H",
+          "Y",
+          "V",
+          "A",
           "D",
-          "N",
-          "E",
-          "Q",
           "H"
         ],
         [
@@ -2455,18 +2955,18 @@
         ],
         [
           "R",
-          "P",
-          "N",
-          "Y",
-          "H",
+          "E",
+          "S",
+          "I",
+          "M",
           "E"
         ],
         [
           "R",
-          "P",
-          "P",
           "L",
-          "S",
+          "I",
+          "E",
+          "U",
           "S"
         ],
         [
@@ -2508,6 +3008,24 @@
           "startRow": 5,
           "startCol": 1,
           "direction": "LR"
+        },
+        {
+          "word": "LIEU",
+          "startRow": 4,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "MISER",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "DAVY",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "RL"
         }
       ],
       "timeLimit": 180
@@ -2522,15 +3040,18 @@
         "RULE",
         "WHALE",
         "CLAY",
-        "KITE"
+        "KITE",
+        "LINER",
+        "PEN",
+        "AVER"
       ],
       "grid": [
         [
-          "M",
-          "D",
+          "R",
+          "E",
+          "N",
           "I",
-          "A",
-          "B",
+          "L",
           "U"
         ],
         [
@@ -2546,7 +3067,7 @@
           "T",
           "H",
           "U",
-          "O",
+          "P",
           "H"
         ],
         [
@@ -2559,10 +3080,10 @@
         ],
         [
           "A",
-          "F",
-          "H",
-          "J",
-          "H",
+          "V",
+          "E",
+          "R",
+          "N",
           "L"
         ],
         [
@@ -2604,6 +3125,24 @@
           "startRow": 5,
           "startCol": 2,
           "direction": "LR"
+        },
+        {
+          "word": "LINER",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "PEN",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "AVER",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "LR"
         }
       ],
       "timeLimit": 180
@@ -2619,7 +3158,9 @@
         "GRAY",
         "BELT",
         "MOTH",
-        "MANGO"
+        "MANGO",
+        "CPR",
+        "EFL"
       ],
       "grid": [
         [
@@ -2663,12 +3204,12 @@
           "Y"
         ],
         [
-          "W",
           "L",
-          "T",
-          "I",
+          "F",
+          "E",
+          "R",
           "P",
-          "H"
+          "C"
         ]
       ],
       "wordPositions": [
@@ -2707,6 +3248,18 @@
           "startRow": 0,
           "startCol": 0,
           "direction": "LR"
+        },
+        {
+          "word": "CPR",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "EFL",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "RL"
         }
       ],
       "timeLimit": 180
@@ -2721,13 +3274,16 @@
         "TIN",
         "OPAL",
         "CORD",
-        "DOVE"
+        "DOVE",
+        "IRE",
+        "SOW",
+        "NAYS"
       ],
       "grid": [
         [
-          "A",
-          "E",
-          "H",
+          "W",
+          "O",
+          "S",
           "D",
           "W",
           "D"
@@ -2742,16 +3298,16 @@
         ],
         [
           "Z",
-          "T",
-          "R",
+          "I",
+          "A",
           "V",
           "T",
           "O"
         ],
         [
           "K",
-          "C",
           "R",
+          "Y",
           "E",
           "T",
           "R"
@@ -2759,7 +3315,7 @@
         [
           "G",
           "E",
-          "V",
+          "S",
           "I",
           "E",
           "D"
@@ -2803,6 +3359,24 @@
           "startRow": 0,
           "startCol": 3,
           "direction": "TB"
+        },
+        {
+          "word": "IRE",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "SOW",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "RL"
+        },
+        {
+          "word": "NAYS",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "TB"
         }
       ],
       "timeLimit": 180
@@ -2818,7 +3392,9 @@
         "TUB",
         "CAKE",
         "GOAT",
-        "WOOD"
+        "WOOD",
+        "WORN",
+        "LIT"
       ],
       "grid": [
         [
@@ -2833,32 +3409,32 @@
           "O",
           "P",
           "V",
-          "J",
+          "N",
           "J",
           "A"
         ],
         [
           "O",
           "K",
-          "X",
+          "R",
           "J",
           "A",
           "K"
         ],
         [
           "D",
+          "O",
           "P",
-          "P",
-          "Y",
+          "L",
           "Y",
           "E"
         ],
         [
-          "F",
+          "W",
           "T",
           "U",
           "B",
-          "Q",
+          "I",
           "G"
         ],
         [
@@ -2906,6 +3482,18 @@
           "startRow": 0,
           "startCol": 0,
           "direction": "TB"
+        },
+        {
+          "word": "WORN",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "BLTR"
+        },
+        {
+          "word": "LIT",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "TLBR"
         }
       ],
       "timeLimit": 180
@@ -2921,14 +3509,16 @@
         "SHOP",
         "TOAD",
         "PAN",
-        "CAGE"
+        "CAGE",
+        "MCGEE",
+        "ROPE"
       ],
       "grid": [
         [
           "J",
           "G",
           "F",
-          "O",
+          "E",
           "P",
           "J"
         ],
@@ -2936,7 +3526,7 @@
           "Z",
           "C",
           "O",
-          "E",
+          "P",
           "A",
           "B"
         ],
@@ -2944,7 +3534,7 @@
           "S",
           "A",
           "X",
-          "N",
+          "O",
           "N",
           "V"
         ],
@@ -2966,11 +3556,11 @@
         ],
         [
           "P",
-          "V",
-          "B",
-          "V",
-          "Y",
-          "I"
+          "M",
+          "C",
+          "G",
+          "E",
+          "E"
         ]
       ],
       "wordPositions": [
@@ -3009,6 +3599,18 @@
           "startRow": 1,
           "startCol": 1,
           "direction": "TB"
+        },
+        {
+          "word": "MCGEE",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "ROPE",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "BT"
         }
       ],
       "timeLimit": 180
@@ -3024,21 +3626,23 @@
         "CART",
         "POT",
         "SWAN",
-        "BOOT"
+        "BOOT",
+        "CHEAP",
+        "INC"
       ],
       "grid": [
         [
           "G",
           "D",
-          "J",
-          "M",
-          "X",
+          "C",
+          "I",
+          "N",
           "C"
         ],
         [
           "A",
           "C",
-          "G",
+          "H",
           "R",
           "B",
           "A"
@@ -3046,7 +3650,7 @@
         [
           "L",
           "B",
-          "X",
+          "E",
           "T",
           "O",
           "R"
@@ -3054,7 +3658,7 @@
         [
           "E",
           "A",
-          "I",
+          "A",
           "K",
           "O",
           "T"
@@ -3112,6 +3716,18 @@
           "startRow": 1,
           "startCol": 4,
           "direction": "TB"
+        },
+        {
+          "word": "CHEAP",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "INC",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "LR"
         }
       ],
       "timeLimit": 180
@@ -3125,15 +3741,19 @@
         "SWAN",
         "VINE",
         "IRON",
-        "KITE"
+        "KITE",
+        "BAIZE",
+        "TAD",
+        "TOGA",
+        "VOW"
       ],
       "grid": [
         [
           "T",
           "P",
-          "M",
-          "H",
-          "M",
+          "T",
+          "A",
+          "D",
           "K"
         ],
         [
@@ -3141,35 +3761,35 @@
           "R",
           "O",
           "N",
-          "F",
+          "B",
           "I"
         ],
         [
           "T",
           "X",
-          "F",
+          "V",
           "S",
-          "I",
+          "A",
           "T"
         ],
         [
-          "E",
+          "O",
           "C",
-          "V",
+          "O",
           "W",
-          "M",
+          "I",
           "E"
         ],
         [
-          "P",
+          "G",
           "I",
+          "W",
           "A",
-          "A",
-          "H",
+          "Z",
           "B"
         ],
         [
-          "W",
+          "A",
           "V",
           "I",
           "N",
@@ -3201,6 +3821,30 @@
           "startRow": 0,
           "startCol": 5,
           "direction": "TB"
+        },
+        {
+          "word": "BAIZE",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "TAD",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "TOGA",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "VOW",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "TB"
         }
       ],
       "timeLimit": 180
@@ -3215,7 +3859,10 @@
         "CLAY",
         "OAK",
         "HAPPY",
-        "CORN"
+        "CORN",
+        "GILDA",
+        "PMING",
+        "IDS"
       ],
       "grid": [
         [
@@ -3231,40 +3878,40 @@
           "A",
           "K",
           "D",
-          "K",
+          "G",
           "G"
         ],
         [
           "R",
           "V",
           "C",
-          "K",
+          "I",
           "M",
-          "E"
+          "N"
         ],
         [
           "N",
           "Y",
           "L",
-          "P",
+          "D",
           "I",
-          "Q"
+          "I"
         ],
         [
           "I",
+          "D",
           "A",
-          "A",
-          "O",
+          "S",
           "L",
-          "V"
+          "M"
         ],
         [
-          "X",
+          "A",
           "A",
           "Y",
           "O",
           "K",
-          "C"
+          "P"
         ]
       ],
       "wordPositions": [
@@ -3297,6 +3944,24 @@
           "startRow": 0,
           "startCol": 0,
           "direction": "TB"
+        },
+        {
+          "word": "GILDA",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "TRBL"
+        },
+        {
+          "word": "PMING",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "BT"
+        },
+        {
+          "word": "IDS",
+          "startRow": 2,
+          "startCol": 3,
+          "direction": "TB"
         }
       ],
       "timeLimit": 180
@@ -3312,7 +3977,9 @@
         "VAN",
         "OTTER",
         "NAIL",
-        "SNOW"
+        "SNOW",
+        "LORN",
+        "AHA"
       ],
       "grid": [
         [
@@ -3332,7 +3999,7 @@
           "F"
         ],
         [
-          "G",
+          "L",
           "O",
           "T",
           "T",
@@ -3340,7 +4007,7 @@
           "R"
         ],
         [
-          "Q",
+          "O",
           "Q",
           "V",
           "A",
@@ -3348,15 +4015,15 @@
           "O"
         ],
         [
+          "R",
+          "A",
+          "A",
           "H",
           "A",
-          "N",
-          "X",
-          "P",
           "G"
         ],
         [
-          "O",
+          "N",
           "K",
           "I",
           "T",
@@ -3400,6 +4067,18 @@
           "startRow": 1,
           "startCol": 0,
           "direction": "LR"
+        },
+        {
+          "word": "LORN",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "AHA",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "LR"
         }
       ],
       "timeLimit": 180
@@ -3415,14 +4094,16 @@
         "CANDY",
         "TOAD",
         "BEE",
-        "DRUM"
+        "DRUM",
+        "HAM",
+        "ERA"
       ],
       "grid": [
         [
           "C",
-          "Q",
-          "S",
-          "V",
+          "H",
+          "A",
+          "M",
           "W",
           "G"
         ],
@@ -3439,7 +4120,7 @@
           "R",
           "A",
           "B",
-          "M",
+          "E",
           "G"
         ],
         [
@@ -3447,7 +4128,7 @@
           "U",
           "K",
           "I",
-          "Z",
+          "R",
           "O"
         ],
         [
@@ -3455,7 +4136,7 @@
           "M",
           "S",
           "R",
-          "E",
+          "A",
           "G"
         ],
         [
@@ -3503,6 +4184,18 @@
           "startRow": 1,
           "startCol": 1,
           "direction": "TB"
+        },
+        {
+          "word": "HAM",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "ERA",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "TB"
         }
       ],
       "timeLimit": 180
@@ -3516,30 +4209,34 @@
         "PLAN",
         "BAT",
         "BOAT",
-        "CLOUDS"
+        "CLOUDS",
+        "BOOED",
+        "FROGS",
+        "FETID",
+        "DOTE"
       ],
       "grid": [
         [
-          "J",
-          "P",
-          "R",
-          "H",
-          "K",
+          "D",
+          "O",
+          "T",
+          "E",
+          "D",
           "P"
         ],
         [
-          "E",
-          "R",
-          "Y",
+          "D",
           "I",
-          "H",
+          "T",
+          "E",
+          "F",
           "L"
         ],
         [
-          "N",
-          "J",
-          "Y",
-          "X",
+          "S",
+          "G",
+          "O",
+          "R",
           "F",
           "A"
         ],
@@ -3552,7 +4249,7 @@
           "N"
         ],
         [
-          "X",
+          "B",
           "X",
           "B",
           "A",
@@ -3592,6 +4289,30 @@
           "startRow": 5,
           "startCol": 0,
           "direction": "LR"
+        },
+        {
+          "word": "BOOED",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "BLTR"
+        },
+        {
+          "word": "FROGS",
+          "startRow": 2,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "FETID",
+          "startRow": 1,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "DOTE",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
         }
       ],
       "timeLimit": 180
@@ -3605,22 +4326,26 @@
         "REEF",
         "BALL",
         "OTTER",
-        "BUCK"
+        "BUCK",
+        "LIME",
+        "JOG",
+        "LEER",
+        "THEE"
       ],
       "grid": [
         [
           "E",
-          "A",
-          "J",
-          "K",
+          "M",
+          "I",
+          "L",
           "I",
           "D"
         ],
         [
-          "I",
-          "T",
-          "T",
-          "C",
+          "L",
+          "E",
+          "E",
+          "R",
           "R",
           "T"
         ],
@@ -3635,15 +4360,15 @@
         [
           "A",
           "X",
-          "X",
-          "W",
+          "T",
+          "H",
           "E",
-          "M"
+          "E"
         ],
         [
           "L",
-          "X",
-          "L",
+          "G",
+          "O",
           "J",
           "F",
           "P"
@@ -3681,6 +4406,30 @@
           "startRow": 5,
           "startCol": 2,
           "direction": "LR"
+        },
+        {
+          "word": "LIME",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "RL"
+        },
+        {
+          "word": "JOG",
+          "startRow": 4,
+          "startCol": 3,
+          "direction": "RL"
+        },
+        {
+          "word": "LEER",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "THEE",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "LR"
         }
       ],
       "timeLimit": 180
@@ -3695,27 +4444,30 @@
         "MUD",
         "SEED",
         "FIRE",
-        "PLAN"
+        "PLAN",
+        "MOURNS",
+        "KREBS",
+        "NARK"
       ],
       "grid": [
         [
-          "J",
-          "A",
-          "M",
-          "E",
+          "S",
+          "N",
           "R",
-          "X"
+          "U",
+          "O",
+          "M"
         ],
         [
-          "B",
-          "X",
-          "F",
-          "O",
+          "K",
+          "R",
+          "A",
+          "N",
           "F",
           "I"
         ],
         [
-          "I",
+          "R",
           "P",
           "J",
           "S",
@@ -3723,7 +4475,7 @@
           "F"
         ],
         [
-          "D",
+          "E",
           "L",
           "M",
           "E",
@@ -3731,7 +4483,7 @@
           "O"
         ],
         [
-          "C",
+          "B",
           "A",
           "U",
           "E",
@@ -3739,7 +4491,7 @@
           "G"
         ],
         [
-          "I",
+          "S",
           "N",
           "D",
           "D",
@@ -3777,6 +4529,24 @@
           "startRow": 2,
           "startCol": 1,
           "direction": "TB"
+        },
+        {
+          "word": "MOURNS",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "KREBS",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "NARK",
+          "startRow": 1,
+          "startCol": 3,
+          "direction": "RL"
         }
       ],
       "timeLimit": 180
@@ -3792,28 +4562,30 @@
         "GOWN",
         "BOAT",
         "COW",
-        "TREE"
+        "TREE",
+        "FAY",
+        "PCS"
       ],
       "grid": [
         [
-          "Y",
-          "A",
+          "S",
+          "F",
           "G",
           "E",
           "T",
           "C"
         ],
         [
-          "X",
-          "P",
+          "C",
+          "A",
           "D",
           "G",
           "I",
           "O"
         ],
         [
-          "J",
-          "K",
+          "P",
+          "Y",
           "B",
           "O",
           "G",
@@ -3880,6 +4652,18 @@
           "startRow": 5,
           "startCol": 2,
           "direction": "LR"
+        },
+        {
+          "word": "FAY",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "PCS",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "BT"
         }
       ],
       "timeLimit": 180
@@ -3893,40 +4677,44 @@
         "RULE",
         "HORN",
         "NEST",
-        "CRAB"
+        "CRAB",
+        "ASHORE",
+        "ALLEN",
+        "SCALE",
+        "ARGO"
       ],
       "grid": [
         [
           "R",
           "D",
-          "F",
-          "V",
+          "A",
+          "S",
           "C",
-          "F"
+          "A"
         ],
         [
           "U",
           "H",
-          "F",
-          "K",
+          "L",
+          "C",
           "R",
-          "Z"
+          "R"
         ],
         [
           "L",
           "O",
-          "B",
           "L",
           "A",
-          "Z"
+          "A",
+          "G"
         ],
         [
           "E",
           "R",
-          "F",
-          "J",
+          "E",
+          "L",
           "B",
-          "P"
+          "O"
         ],
         [
           "O",
@@ -3937,12 +4725,12 @@
           "T"
         ],
         [
+          "E",
+          "R",
           "O",
-          "L",
-          "L",
-          "B",
-          "Y",
-          "Q"
+          "H",
+          "S",
+          "A"
         ]
       ],
       "wordPositions": [
@@ -3969,6 +4757,30 @@
           "startRow": 0,
           "startCol": 4,
           "direction": "TB"
+        },
+        {
+          "word": "ASHORE",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "ALLEN",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "SCALE",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "TB"
+        },
+        {
+          "word": "ARGO",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
         }
       ],
       "timeLimit": 180
@@ -3983,11 +4795,14 @@
         "LEAF",
         "CAGE",
         "EMU",
-        "CORK"
+        "CORK",
+        "MEMO",
+        "PAT",
+        "CENT"
       ],
       "grid": [
         [
-          "S",
+          "O",
           "L",
           "M",
           "R",
@@ -4000,31 +4815,31 @@
           "B",
           "U",
           "A",
-          "P"
+          "T"
         ],
         [
-          "B",
+          "E",
           "A",
           "B",
           "G",
           "G",
-          "Y"
+          "N"
         ],
         [
-          "X",
+          "M",
           "F",
           "E",
+          "P",
           "E",
-          "E",
-          "Z"
+          "E"
         ],
         [
           "C",
           "O",
           "R",
           "K",
-          "W",
-          "G"
+          "A",
+          "C"
         ],
         [
           "M",
@@ -4032,7 +4847,7 @@
           "E",
           "M",
           "U",
-          "F"
+          "T"
         ]
       ],
       "wordPositions": [
@@ -4065,6 +4880,24 @@
           "startRow": 4,
           "startCol": 0,
           "direction": "LR"
+        },
+        {
+          "word": "MEMO",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "PAT",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "TLBR"
+        },
+        {
+          "word": "CENT",
+          "startRow": 4,
+          "startCol": 5,
+          "direction": "BT"
         }
       ],
       "timeLimit": 180
@@ -4078,7 +4911,11 @@
         "FOREST",
         "RAT",
         "LAKE",
-        "CALF"
+        "CALF",
+        "HOVERS",
+        "MAJ",
+        "ASTON",
+        "CHILE"
       ],
       "grid": [
         [
@@ -4095,39 +4932,39 @@
           "L",
           "F",
           "O",
-          "I"
+          "A"
         ],
         [
-          "T",
-          "F",
-          "Z",
-          "U",
+          "H",
+          "O",
+          "V",
+          "E",
           "R",
-          "I"
+          "S"
         ],
         [
-          "A",
-          "F",
+          "I",
+          "M",
           "Y",
           "R",
           "E",
-          "K"
+          "T"
         ],
         [
-          "N",
-          "B",
+          "L",
+          "A",
           "F",
           "A",
           "S",
-          "H"
+          "O"
         ],
         [
-          "W",
           "E",
+          "J",
           "E",
           "T",
           "T",
-          "O"
+          "N"
         ]
       ],
       "wordPositions": [
@@ -4154,6 +4991,30 @@
           "startRow": 1,
           "startCol": 0,
           "direction": "LR"
+        },
+        {
+          "word": "HOVERS",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "MAJ",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "ASTON",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "CHILE",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "TB"
         }
       ],
       "timeLimit": 180
@@ -4168,7 +5029,9 @@
         "MIST",
         "VALE",
         "SQUID",
-        "CHEESE"
+        "CHEESE",
+        "YEARN",
+        "EWES"
       ],
       "grid": [
         [
@@ -4185,7 +5048,7 @@
           "I",
           "S",
           "T",
-          "B"
+          "S"
         ],
         [
           "C",
@@ -4201,7 +5064,7 @@
           "U",
           "I",
           "D",
-          "T"
+          "W"
         ],
         [
           "R",
@@ -4209,15 +5072,15 @@
           "V",
           "E",
           "R",
-          "J"
+          "E"
         ],
         [
           "V",
-          "Z",
-          "W",
-          "C",
-          "C",
-          "R"
+          "Y",
+          "E",
+          "A",
+          "R",
+          "N"
         ]
       ],
       "wordPositions": [
@@ -4250,6 +5113,18 @@
           "startRow": 2,
           "startCol": 0,
           "direction": "LR"
+        },
+        {
+          "word": "YEARN",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "EWES",
+          "startRow": 4,
+          "startCol": 5,
+          "direction": "BT"
         }
       ],
       "timeLimit": 180
@@ -4263,47 +5138,51 @@
         "PARK",
         "HOSE",
         "MOTH",
-        "EMU"
+        "EMU",
+        "SIGNET",
+        "PIMPED",
+        "RODE",
+        "FEAT"
       ],
       "grid": [
         [
           "H",
-          "A",
-          "E",
+          "D",
+          "F",
           "E",
           "M",
           "U"
         ],
         [
           "O",
+          "E",
+          "E",
+          "D",
           "O",
-          "V",
-          "G",
-          "O",
-          "A"
+          "R"
         ],
         [
           "S",
+          "P",
           "A",
-          "K",
           "X",
           "T",
           "J"
         ],
         [
           "E",
-          "P",
-          "A",
+          "M",
+          "T",
           "D",
           "H",
           "M"
         ],
         [
+          "S",
+          "I",
           "G",
           "N",
-          "R",
-          "W",
-          "N",
+          "E",
           "T"
         ],
         [
@@ -4339,6 +5218,30 @@
           "startRow": 0,
           "startCol": 3,
           "direction": "LR"
+        },
+        {
+          "word": "SIGNET",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "PIMPED",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "BT"
+        },
+        {
+          "word": "RODE",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "FEAT",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "TB"
         }
       ],
       "timeLimit": 180
@@ -4352,39 +5255,43 @@
         "CAT",
         "CUP",
         "BELL",
-        "GOLD"
+        "GOLD",
+        "HURLS",
+        "TOO",
+        "LIP",
+        "FYI"
       ],
       "grid": [
         [
-          "Y",
+          "O",
           "B",
           "U",
           "J",
-          "Y",
+          "H",
           "G"
         ],
         [
-          "T",
+          "O",
           "E",
-          "A",
+          "P",
           "U",
-          "S",
+          "U",
           "O"
         ],
         [
-          "B",
-          "L",
-          "V",
-          "X",
           "T",
+          "L",
+          "I",
+          "X",
+          "R",
           "L"
         ],
         [
           "R",
           "L",
-          "F",
+          "L",
           "C",
-          "A",
+          "L",
           "D"
         ],
         [
@@ -4392,13 +5299,13 @@
           "U",
           "P",
           "A",
-          "C",
+          "S",
           "B"
         ],
         [
-          "J",
-          "S",
-          "K",
+          "F",
+          "Y",
+          "I",
           "T",
           "J",
           "U"
@@ -4428,6 +5335,30 @@
           "startRow": 0,
           "startCol": 5,
           "direction": "TB"
+        },
+        {
+          "word": "HURLS",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "TB"
+        },
+        {
+          "word": "TOO",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "LIP",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "BT"
+        },
+        {
+          "word": "FYI",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "LR"
         }
       ],
       "timeLimit": 180
@@ -4443,7 +5374,9 @@
         "DUSK",
         "CAT",
         "PEAT",
-        "HAND"
+        "HAND",
+        "TUTSI",
+        "MEGAN"
       ],
       "grid": [
         [
@@ -4452,7 +5385,7 @@
           "A",
           "T",
           "R",
-          "H"
+          "T"
         ],
         [
           "H",
@@ -4460,36 +5393,36 @@
           "N",
           "D",
           "Z",
-          "W"
+          "U"
         ],
         [
           "C",
           "D",
-          "Q",
+          "A",
           "T",
           "S",
-          "G"
+          "T"
         ],
         [
           "L",
           "U",
-          "C",
+          "G",
           "C",
           "A",
-          "X"
+          "S"
         ],
         [
           "A",
           "S",
-          "Y",
+          "E",
           "A",
           "L",
-          "L"
+          "I"
         ],
         [
           "Y",
           "K",
-          "J",
+          "M",
           "T",
           "T",
           "F"
@@ -4531,6 +5464,18 @@
           "startRow": 1,
           "startCol": 0,
           "direction": "LR"
+        },
+        {
+          "word": "TUTSI",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "MEGAN",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "BT"
         }
       ],
       "timeLimit": 180
@@ -4544,15 +5489,19 @@
         "FOX",
         "MAZE",
         "MAGIC",
-        "SILVER"
+        "SILVER",
+        "STOAT",
+        "RIB",
+        "HUI",
+        "ESQ"
       ],
       "grid": [
         [
           "S",
+          "T",
           "A",
-          "E",
-          "I",
-          "L",
+          "O",
+          "T",
           "S"
         ],
         [
@@ -4561,7 +5510,7 @@
           "M",
           "M",
           "Y",
-          "H"
+          "R"
         ],
         [
           "L",
@@ -4569,19 +5518,19 @@
           "A",
           "Z",
           "E",
-          "E"
+          "I"
         ],
         [
           "V",
-          "O",
+          "Q",
           "G",
           "A",
           "X",
-          "L"
+          "B"
         ],
         [
           "E",
-          "U",
+          "S",
           "I",
           "F",
           "O",
@@ -4589,11 +5538,11 @@
         ],
         [
           "R",
-          "I",
-          "C",
-          "V",
           "E",
-          "L"
+          "C",
+          "I",
+          "U",
+          "H"
         ]
       ],
       "wordPositions": [
@@ -4620,6 +5569,30 @@
           "startRow": 0,
           "startCol": 0,
           "direction": "TB"
+        },
+        {
+          "word": "STOAT",
+          "startRow": 0,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "RIB",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "TB"
+        },
+        {
+          "word": "HUI",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "ESQ",
+          "startRow": 5,
+          "startCol": 1,
+          "direction": "BT"
         }
       ],
       "timeLimit": 180
@@ -4633,16 +5606,20 @@
         "YAK",
         "FERN",
         "CROP",
-        "LEMON"
+        "LEMON",
+        "ABEL",
+        "CARD",
+        "BEND",
+        "LEA"
       ],
       "grid": [
         [
-          "A",
-          "F",
-          "U",
           "L",
+          "E",
+          "B",
+          "A",
           "C",
-          "R"
+          "D"
         ],
         [
           "Y",
@@ -4655,34 +5632,34 @@
         [
           "A",
           "E",
-          "S",
+          "D",
           "C",
           "R",
-          "F"
+          "E"
         ],
         [
           "K",
           "M",
-          "W",
+          "L",
           "R",
           "U",
-          "I"
+          "B"
         ],
         [
           "X",
           "O",
-          "U",
+          "E",
           "O",
-          "M",
+          "A",
           "X"
         ],
         [
           "K",
           "N",
-          "O",
+          "A",
           "P",
           "X",
-          "F"
+          "C"
         ]
       ],
       "wordPositions": [
@@ -4709,6 +5686,30 @@
           "startRow": 1,
           "startCol": 1,
           "direction": "TB"
+        },
+        {
+          "word": "ABEL",
+          "startRow": 0,
+          "startCol": 3,
+          "direction": "RL"
+        },
+        {
+          "word": "CARD",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "BRTL"
+        },
+        {
+          "word": "BEND",
+          "startRow": 3,
+          "startCol": 5,
+          "direction": "BT"
+        },
+        {
+          "word": "LEA",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "TB"
         }
       ],
       "timeLimit": 180
@@ -4724,15 +5725,17 @@
         "TEAL",
         "NAIL",
         "HARP",
-        "NEWT"
+        "NEWT",
+        "SEERS",
+        "PIXY"
       ],
       "grid": [
         [
           "N",
-          "D",
-          "Z",
-          "Q",
-          "X",
+          "S",
+          "E",
+          "E",
+          "R",
           "S"
         ],
         [
@@ -4745,10 +5748,10 @@
         ],
         [
           "I",
-          "U",
-          "L",
-          "K",
-          "C",
+          "P",
+          "I",
+          "X",
+          "Y",
           "M"
         ],
         [
@@ -4810,6 +5813,18 @@
         {
           "word": "NEWT",
           "startRow": 4,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "SEERS",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
+        },
+        {
+          "word": "PIXY",
+          "startRow": 2,
           "startCol": 1,
           "direction": "LR"
         }

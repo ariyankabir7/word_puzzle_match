@@ -36,51 +36,19 @@ class HomeScreen extends ConsumerWidget {
 
                 const Spacer(flex: 1),
 
-                // 3D Title Logo
+                // 3D Title Logo (Includes built-in tagline ribbon)
                 Image.asset(
                       AppImages.logoTitle,
-                      width: 387,
-                      height: 219,
+                      width: 420,
+                      height: 240,
                       fit: BoxFit.contain,
                     )
                     .animate()
                     .fadeIn(duration: 500.ms)
                     .slideY(begin: -0.2, end: 0),
 
-                const SizedBox(height: 4),
-
-                // Ribbon Tagline Badge
-                Container(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 24,
-                    vertical: 8,
-                  ),
-                  decoration: BoxDecoration(
-                    gradient: const LinearGradient(
-                      colors: [Color(0xFF8E24AA), Color(0xFFAB47BC)],
-                    ),
-                    borderRadius: BorderRadius.circular(20),
-                    border: Border.all(color: Colors.white, width: 2),
-                    boxShadow: const [
-                      BoxShadow(
-                        color: Color(0x44000000),
-                        blurRadius: 6,
-                        offset: Offset(0, 3),
-                      ),
-                    ],
-                  ),
-                  child: Text(
-                    'Fun Words, Big Smiles!',
-                    style: GoogleFonts.fredoka(
-                      fontSize: 16,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white,
-                      letterSpacing: 0.8,
-                    ),
-                  ),
-                ).animate().fadeIn(delay: 200.ms, duration: 400.ms),
-
                 const Spacer(flex: 2),
+
 
                 // 3D PLAY Button
                 GameButton(

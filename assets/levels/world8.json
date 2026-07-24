@@ -14,7 +14,8 @@
         "MOLE",
         "SWEET",
         "WREN",
-        "CLOUDS"
+        "CLOUDS",
+        "ZYGOTES"
       ],
       "grid": [
         [
@@ -41,7 +42,7 @@
         ],
         [
           "E",
-          "W",
+          "Z",
           "Q",
           "E",
           "D",
@@ -53,7 +54,7 @@
         [
           "W",
           "N",
-          "Q",
+          "Y",
           "S",
           "D",
           "U",
@@ -65,7 +66,7 @@
           "S",
           "E",
           "T",
-          "H",
+          "G",
           "L",
           "X",
           "L",
@@ -77,7 +78,7 @@
           "R",
           "O",
           "H",
-          "C",
+          "O",
           "H",
           "E",
           "X",
@@ -89,7 +90,7 @@
           "A",
           "X",
           "H",
-          "U",
+          "T",
           "B",
           "K",
           "P"
@@ -101,7 +102,7 @@
           "M",
           "H",
           "Z",
-          "O",
+          "E",
           "C",
           "A"
         ],
@@ -113,7 +114,7 @@
           "M",
           "W",
           "U",
-          "O",
+          "S",
           "E"
         ]
       ],
@@ -159,6 +160,12 @@
           "startRow": 3,
           "startCol": 8,
           "direction": "RL"
+        },
+        {
+          "word": "ZYGOTES",
+          "startRow": 2,
+          "startCol": 1,
+          "direction": "TLBR"
         }
       ],
       "timeLimit": 105
@@ -175,7 +182,8 @@
         "YELLOW",
         "BALL",
         "REEF",
-        "OWL"
+        "OWL",
+        "OVAL"
       ],
       "grid": [
         [
@@ -213,7 +221,7 @@
         ],
         [
           "D",
-          "F",
+          "L",
           "I",
           "T",
           "B",
@@ -224,7 +232,7 @@
         ],
         [
           "Y",
-          "R",
+          "A",
           "L",
           "O",
           "O",
@@ -235,7 +243,7 @@
         ],
         [
           "Q",
-          "H",
+          "V",
           "J",
           "S",
           "F",
@@ -246,7 +254,7 @@
         ],
         [
           "I",
-          "M",
+          "O",
           "N",
           "E",
           "Y",
@@ -320,6 +328,12 @@
           "startRow": 3,
           "startCol": 7,
           "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "OVAL",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "BT"
         }
       ],
       "timeLimit": 105
@@ -336,18 +350,19 @@
         "HAWK",
         "TEAL",
         "LION",
-        "LAMB"
+        "LAMB",
+        "FROLICS"
       ],
       "grid": [
         [
           "F",
-          "C",
-          "Z",
-          "U",
-          "M",
-          "T",
           "F",
-          "D",
+          "R",
+          "O",
+          "L",
+          "I",
+          "C",
+          "S",
           "E"
         ],
         [
@@ -481,6 +496,12 @@
           "startRow": 8,
           "startCol": 4,
           "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "FROLICS",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
         }
       ],
       "timeLimit": 105
@@ -497,7 +518,8 @@
         "SUGAR",
         "PEN",
         "SQUID",
-        "CAGE"
+        "CAGE",
+        "WAXWORK"
       ],
       "grid": [
         [
@@ -529,7 +551,7 @@
           "F",
           "S",
           "A",
-          "A",
+          "W",
           "P",
           "E"
         ],
@@ -540,7 +562,7 @@
           "A",
           "A",
           "G",
-          "W",
+          "A",
           "G",
           "S"
         ],
@@ -551,7 +573,7 @@
           "Q",
           "W",
           "U",
-          "M",
+          "X",
           "Q",
           "V"
         ],
@@ -562,7 +584,7 @@
           "G",
           "D",
           "S",
-          "U",
+          "W",
           "H",
           "K"
         ],
@@ -573,7 +595,7 @@
           "E",
           "E",
           "I",
-          "V",
+          "O",
           "H",
           "U"
         ],
@@ -584,7 +606,7 @@
           "G",
           "D",
           "X",
-          "F",
+          "R",
           "C",
           "P"
         ],
@@ -595,7 +617,7 @@
           "L",
           "L",
           "I",
-          "X",
+          "K",
           "P",
           "C"
         ]
@@ -642,6 +664,12 @@
           "startRow": 3,
           "startCol": 1,
           "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "WAXWORK",
+          "startRow": 2,
+          "startCol": 6,
+          "direction": "TB"
         }
       ],
       "timeLimit": 105
@@ -658,7 +686,8 @@
         "PAGE",
         "FOG",
         "COAT",
-        "CORK"
+        "CORK",
+        "AGONY"
       ],
       "grid": [
         [
@@ -719,10 +748,10 @@
         [
           "E",
           "T",
+          "A",
+          "G",
           "O",
-          "L",
-          "F",
-          "L",
+          "N",
           "Y",
           "F",
           "B"
@@ -803,6 +832,12 @@
           "startRow": 4,
           "startCol": 3,
           "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "AGONY",
+          "startRow": 5,
+          "startCol": 2,
+          "direction": "LR"
         }
       ],
       "timeLimit": 105
@@ -819,7 +854,8 @@
         "MULE",
         "PUMP",
         "CHERRY",
-        "FOG"
+        "FOG",
+        "CANTER"
       ],
       "grid": [
         [
@@ -902,12 +938,12 @@
         [
           "R",
           "O",
-          "Y",
-          "I",
-          "W",
-          "U",
+          "R",
+          "E",
+          "T",
           "N",
-          "B",
+          "A",
+          "C",
           "Y"
         ],
         [
@@ -964,6 +1000,12 @@
           "startRow": 8,
           "startCol": 8,
           "direction": "RL"
+        },
+        {
+          "word": "CANTER",
+          "startRow": 7,
+          "startCol": 7,
+          "direction": "RL"
         }
       ],
       "timeLimit": 105
@@ -978,7 +1020,9 @@
         "NEST",
         "SONG",
         "LYNX",
-        "SAIL"
+        "SAIL",
+        "VIETNAM",
+        "VIAGRA"
       ],
       "grid": [
         [
@@ -994,7 +1038,7 @@
         ],
         [
           "B",
-          "B",
+          "V",
           "O",
           "L",
           "N",
@@ -1005,7 +1049,7 @@
         ],
         [
           "M",
-          "C",
+          "I",
           "L",
           "Y",
           "N",
@@ -1016,7 +1060,7 @@
         ],
         [
           "D",
-          "K",
+          "E",
           "W",
           "M",
           "A",
@@ -1027,7 +1071,7 @@
         ],
         [
           "F",
-          "P",
+          "T",
           "R",
           "H",
           "L",
@@ -1038,7 +1082,7 @@
         ],
         [
           "M",
-          "U",
+          "N",
           "K",
           "G",
           "F",
@@ -1049,7 +1093,7 @@
         ],
         [
           "A",
-          "G",
+          "A",
           "C",
           "N",
           "N",
@@ -1060,7 +1104,7 @@
         ],
         [
           "W",
-          "V",
+          "M",
           "L",
           "I",
           "N",
@@ -1070,12 +1114,12 @@
           "C"
         ],
         [
-          "W",
-          "I",
-          "G",
-          "Z",
           "V",
-          "C",
+          "I",
+          "A",
+          "G",
+          "R",
+          "A",
           "S",
           "G",
           "V"
@@ -1111,6 +1155,18 @@
           "startRow": 3,
           "startCol": 8,
           "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "VIETNAM",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "TB"
+        },
+        {
+          "word": "VIAGRA",
+          "startRow": 8,
+          "startCol": 0,
+          "direction": "LR"
         }
       ],
       "timeLimit": 105
@@ -1127,7 +1183,8 @@
         "DOOR",
         "BRONZE",
         "LYNX",
-        "CAGE"
+        "CAGE",
+        "BEARD"
       ],
       "grid": [
         [
@@ -1180,7 +1237,7 @@
           "U",
           "L",
           "C",
-          "W",
+          "B",
           "O",
           "X",
           "A"
@@ -1191,7 +1248,7 @@
           "E",
           "O",
           "A",
-          "N",
+          "E",
           "S",
           "R",
           "D"
@@ -1202,7 +1259,7 @@
           "N",
           "D",
           "G",
-          "X",
+          "A",
           "P",
           "A",
           "B"
@@ -1213,7 +1270,7 @@
           "F",
           "Y",
           "E",
-          "S",
+          "R",
           "H",
           "F",
           "A"
@@ -1224,7 +1281,7 @@
           "J",
           "G",
           "L",
-          "C",
+          "D",
           "T",
           "I",
           "J"
@@ -1272,6 +1329,12 @@
           "startRow": 4,
           "startCol": 4,
           "direction": "TB"
+        },
+        {
+          "word": "BEARD",
+          "startRow": 4,
+          "startCol": 5,
+          "direction": "TB"
         }
       ],
       "timeLimit": 105
@@ -1287,7 +1350,9 @@
         "SUN",
         "BELT",
         "FIRE",
-        "COMB"
+        "COMB",
+        "TUTORS",
+        "SUPPLER"
       ],
       "grid": [
         [
@@ -1299,18 +1364,18 @@
           "F",
           "B",
           "B",
-          "H"
+          "R"
         ],
         [
-          "D",
-          "J",
-          "P",
-          "L",
+          "S",
           "R",
+          "O",
+          "T",
+          "U",
           "T",
           "K",
           "A",
-          "P"
+          "E"
         ],
         [
           "V",
@@ -1321,7 +1386,7 @@
           "B",
           "D",
           "W",
-          "K"
+          "L"
         ],
         [
           "F",
@@ -1332,7 +1397,7 @@
           "T",
           "E",
           "Q",
-          "J"
+          "P"
         ],
         [
           "C",
@@ -1343,7 +1408,7 @@
           "U",
           "F",
           "X",
-          "V"
+          "P"
         ],
         [
           "R",
@@ -1354,7 +1419,7 @@
           "I",
           "W",
           "B",
-          "A"
+          "U"
         ],
         [
           "S",
@@ -1365,7 +1430,7 @@
           "Z",
           "O",
           "M",
-          "L"
+          "S"
         ],
         [
           "E",
@@ -1426,6 +1491,18 @@
           "startRow": 8,
           "startCol": 7,
           "direction": "BT"
+        },
+        {
+          "word": "TUTORS",
+          "startRow": 1,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "SUPPLER",
+          "startRow": 6,
+          "startCol": 8,
+          "direction": "BT"
         }
       ],
       "timeLimit": 105
@@ -1441,29 +1518,31 @@
         "NEST",
         "STEM",
         "SEED",
-        "JUICE"
+        "JUICE",
+        "PRESENT",
+        "GENTRY"
       ],
       "grid": [
         [
-          "Y",
+          "P",
           "Q",
           "A",
           "D",
           "J",
           "A",
           "A",
-          "B",
+          "G",
           "T"
         ],
         [
-          "P",
+          "R",
           "Z",
           "E",
           "W",
           "E",
           "R",
           "Q",
-          "R",
+          "E",
           "G"
         ],
         [
@@ -1474,44 +1553,44 @@
           "L",
           "E",
           "D",
-          "P",
+          "N",
           "Y"
         ],
         [
-          "I",
+          "S",
           "P",
           "Z",
           "L",
           "N",
           "L",
           "S",
-          "S",
+          "T",
           "B"
         ],
         [
-          "W",
+          "E",
           "V",
           "I",
           "U",
           "G",
           "E",
           "G",
-          "H",
+          "R",
           "Y"
         ],
         [
-          "Q",
+          "N",
           "N",
           "C",
           "P",
           "S",
           "P",
           "S",
-          "P",
+          "Y",
           "E"
         ],
         [
-          "U",
+          "T",
           "V",
           "A",
           "A",
@@ -1580,6 +1659,18 @@
           "startRow": 7,
           "startCol": 1,
           "direction": "LR"
+        },
+        {
+          "word": "PRESENT",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "GENTRY",
+          "startRow": 0,
+          "startCol": 7,
+          "direction": "TB"
         }
       ],
       "timeLimit": 105
@@ -1595,7 +1686,9 @@
         "ROCK",
         "YAK",
         "PUMP",
-        "MILL"
+        "MILL",
+        "BUTTING",
+        "BELLOW"
       ],
       "grid": [
         [
@@ -1613,11 +1706,11 @@
           "U",
           "C",
           "W",
-          "K",
-          "K",
-          "Y",
-          "J",
-          "W",
+          "O",
+          "L",
+          "L",
+          "E",
+          "B",
           "G"
         ],
         [
@@ -1643,13 +1736,13 @@
           "T"
         ],
         [
-          "D",
+          "G",
+          "N",
+          "I",
           "T",
-          "Y",
-          "D",
-          "S",
-          "M",
-          "C",
+          "T",
+          "U",
+          "B",
           "L",
           "O"
         ],
@@ -1734,6 +1827,18 @@
           "startRow": 5,
           "startCol": 3,
           "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "BUTTING",
+          "startRow": 4,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "BELLOW",
+          "startRow": 1,
+          "startCol": 7,
+          "direction": "RL"
         }
       ],
       "timeLimit": 105
@@ -1749,18 +1854,20 @@
         "BELL",
         "MUG",
         "HARP",
-        "PUMA"
+        "PUMA",
+        "CULPRIT",
+        "JUNES"
       ],
       "grid": [
         [
           "S",
-          "N",
-          "V",
-          "O",
+          "T",
+          "I",
+          "R",
           "P",
-          "V",
-          "Z",
-          "S",
+          "L",
+          "U",
+          "C",
           "V"
         ],
         [
@@ -1775,7 +1882,7 @@
           "Y"
         ],
         [
-          "K",
+          "N",
           "H",
           "U",
           "S",
@@ -1786,7 +1893,7 @@
           "Y"
         ],
         [
-          "S",
+          "U",
           "A",
           "M",
           "O",
@@ -1797,7 +1904,7 @@
           "H"
         ],
         [
-          "X",
+          "J",
           "M",
           "R",
           "F",
@@ -1888,6 +1995,18 @@
           "startRow": 6,
           "startCol": 1,
           "direction": "BT"
+        },
+        {
+          "word": "CULPRIT",
+          "startRow": 0,
+          "startCol": 7,
+          "direction": "RL"
+        },
+        {
+          "word": "JUNES",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "BT"
         }
       ],
       "timeLimit": 105
@@ -1904,7 +2023,8 @@
         "MILK",
         "WORM",
         "FERN",
-        "ELM"
+        "ELM",
+        "ACUMEN"
       ],
       "grid": [
         [
@@ -1920,11 +2040,11 @@
         ],
         [
           "T",
+          "N",
           "E",
-          "W",
-          "Z",
-          "X",
-          "O",
+          "M",
+          "U",
+          "C",
           "A",
           "M",
           "M"
@@ -2049,6 +2169,12 @@
           "startRow": 3,
           "startCol": 6,
           "direction": "DIAG_UP"
+        },
+        {
+          "word": "ACUMEN",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "RL"
         }
       ],
       "timeLimit": 105
@@ -2065,7 +2191,8 @@
         "RUG",
         "LAMP",
         "GLUE",
-        "HOOK"
+        "HOOK",
+        "WOBBLED"
       ],
       "grid": [
         [
@@ -2092,13 +2219,13 @@
         ],
         [
           "W",
-          "H",
-          "S",
-          "N",
-          "P",
-          "Q",
+          "D",
+          "E",
           "L",
-          "V",
+          "B",
+          "B",
+          "O",
+          "W",
           "M"
         ],
         [
@@ -2210,6 +2337,12 @@
           "startRow": 8,
           "startCol": 1,
           "direction": "DIAG_UP"
+        },
+        {
+          "word": "WOBBLED",
+          "startRow": 2,
+          "startCol": 7,
+          "direction": "RL"
         }
       ],
       "timeLimit": 105
@@ -2224,7 +2357,9 @@
         "DISH",
         "PURPLE",
         "WIND",
-        "PINE"
+        "PINE",
+        "ARCTICS",
+        "LASTING"
       ],
       "grid": [
         [
@@ -2296,13 +2431,13 @@
         [
           "D",
           "R",
-          "E",
-          "I",
-          "A",
-          "E",
+          "G",
           "N",
+          "I",
           "T",
-          "V"
+          "S",
+          "A",
+          "L"
         ],
         [
           "N",
@@ -2318,13 +2453,13 @@
         [
           "V",
           "P",
-          "W",
+          "S",
+          "C",
+          "I",
           "T",
-          "V",
+          "C",
           "R",
-          "R",
-          "G",
-          "S"
+          "A"
         ]
       ],
       "wordPositions": [
@@ -2357,6 +2492,18 @@
           "startRow": 4,
           "startCol": 8,
           "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "ARCTICS",
+          "startRow": 8,
+          "startCol": 8,
+          "direction": "RL"
+        },
+        {
+          "word": "LASTING",
+          "startRow": 6,
+          "startCol": 8,
+          "direction": "RL"
         }
       ],
       "timeLimit": 105
@@ -2371,7 +2518,9 @@
         "FOREST",
         "BEE",
         "GALAXIES",
-        "WATER"
+        "WATER",
+        "DISMAYS",
+        "DARTED"
       ],
       "grid": [
         [
@@ -2386,7 +2535,7 @@
           "S"
         ],
         [
-          "H",
+          "D",
           "T",
           "Q",
           "X",
@@ -2397,8 +2546,8 @@
           "E"
         ],
         [
-          "B",
-          "G",
+          "E",
+          "I",
           "Z",
           "L",
           "H",
@@ -2408,9 +2557,9 @@
           "I"
         ],
         [
-          "I",
+          "T",
           "M",
-          "E",
+          "S",
           "G",
           "E",
           "T",
@@ -2419,10 +2568,10 @@
           "X"
         ],
         [
-          "F",
+          "R",
           "D",
           "R",
-          "O",
+          "M",
           "A",
           "O",
           "R",
@@ -2430,23 +2579,23 @@
           "A"
         ],
         [
-          "K",
+          "A",
           "C",
           "E",
           "W",
-          "B",
+          "A",
           "D",
           "Z",
           "O",
           "L"
         ],
         [
-          "J",
+          "D",
           "E",
           "G",
           "K",
           "R",
-          "R",
+          "Y",
           "A",
           "F",
           "A"
@@ -2458,7 +2607,7 @@
           "O",
           "R",
           "D",
-          "R",
+          "S",
           "W",
           "G"
         ],
@@ -2504,6 +2653,18 @@
           "startRow": 5,
           "startCol": 3,
           "direction": "DIAG_UP"
+        },
+        {
+          "word": "DISMAYS",
+          "startRow": 1,
+          "startCol": 0,
+          "direction": "TLBR"
+        },
+        {
+          "word": "DARTED",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "BT"
         }
       ],
       "timeLimit": 105
@@ -2519,7 +2680,9 @@
         "MUD",
         "SALT",
         "BED",
-        "SHOE"
+        "SHOE",
+        "CHEESED",
+        "OTTOMAN"
       ],
       "grid": [
         [
@@ -2531,7 +2694,7 @@
           "D",
           "H",
           "W",
-          "C"
+          "N"
         ],
         [
           "E",
@@ -2542,40 +2705,40 @@
           "H",
           "K",
           "N",
-          "Q"
+          "A"
         ],
         [
           "R",
           "Q",
-          "O",
+          "C",
           "M",
           "K",
           "B",
           "O",
           "T",
-          "U"
+          "M"
         ],
         [
           "N",
           "Q",
           "D",
-          "V",
+          "H",
           "T",
           "B",
           "E",
           "E",
-          "P"
+          "O"
         ],
         [
           "L",
           "U",
           "J",
           "L",
-          "B",
+          "E",
           "O",
           "C",
           "D",
-          "N"
+          "T"
         ],
         [
           "E",
@@ -2583,10 +2746,10 @@
           "G",
           "V",
           "O",
-          "V",
+          "E",
           "L",
           "K",
-          "U"
+          "T"
         ],
         [
           "E",
@@ -2595,9 +2758,9 @@
           "J",
           "G",
           "U",
-          "T",
+          "S",
           "Y",
-          "F"
+          "O"
         ],
         [
           "Y",
@@ -2607,7 +2770,7 @@
           "U",
           "A",
           "M",
-          "J",
+          "E",
           "S"
         ],
         [
@@ -2619,7 +2782,7 @@
           "L",
           "A",
           "S",
-          "C"
+          "D"
         ]
       ],
       "wordPositions": [
@@ -2658,6 +2821,18 @@
           "startRow": 0,
           "startCol": 4,
           "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "CHEESED",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "TLBR"
+        },
+        {
+          "word": "OTTOMAN",
+          "startRow": 6,
+          "startCol": 8,
+          "direction": "BT"
         }
       ],
       "timeLimit": 105
@@ -2672,7 +2847,9 @@
         "NAIL",
         "CRAB",
         "SOFA",
-        "BOOK"
+        "BOOK",
+        "EVERT",
+        "CONDUIT"
       ],
       "grid": [
         [
@@ -2698,7 +2875,7 @@
           "B"
         ],
         [
-          "B",
+          "T",
           "A",
           "X",
           "Y",
@@ -2720,7 +2897,7 @@
           "N"
         ],
         [
-          "N",
+          "E",
           "I",
           "F",
           "S",
@@ -2742,7 +2919,7 @@
           "I"
         ],
         [
-          "F",
+          "E",
           "E",
           "U",
           "F",
@@ -2753,12 +2930,12 @@
           "L"
         ],
         [
-          "G",
-          "O",
-          "A",
-          "F",
-          "R",
+          "T",
+          "I",
+          "U",
+          "D",
           "N",
+          "O",
           "C",
           "C",
           "P"
@@ -2805,6 +2982,18 @@
           "startRow": 3,
           "startCol": 5,
           "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "EVERT",
+          "startRow": 6,
+          "startCol": 0,
+          "direction": "BT"
+        },
+        {
+          "word": "CONDUIT",
+          "startRow": 7,
+          "startCol": 6,
+          "direction": "RL"
         }
       ],
       "timeLimit": 105
@@ -2820,15 +3009,17 @@
         "PAN",
         "SOCK",
         "SWAN",
-        "RAIN"
+        "RAIN",
+        "XXI",
+        "WIMP"
       ],
       "grid": [
         [
           "N",
-          "F",
-          "A",
+          "P",
+          "M",
           "I",
-          "I",
+          "W",
           "B",
           "Y",
           "W",
@@ -2860,7 +3051,7 @@
           "U",
           "Q",
           "G",
-          "A",
+          "X",
           "L",
           "O",
           "N",
@@ -2872,7 +3063,7 @@
           "Q",
           "E",
           "I",
-          "M",
+          "X",
           "A",
           "R",
           "H",
@@ -2884,7 +3075,7 @@
           "A",
           "N",
           "W",
-          "S",
+          "I",
           "O",
           "K",
           "C"
@@ -2959,6 +3150,18 @@
           "startRow": 8,
           "startCol": 0,
           "direction": "DIAG_UP"
+        },
+        {
+          "word": "XXI",
+          "startRow": 3,
+          "startCol": 3,
+          "direction": "TLBR"
+        },
+        {
+          "word": "WIMP",
+          "startRow": 0,
+          "startCol": 4,
+          "direction": "RL"
         }
       ],
       "timeLimit": 105
@@ -2973,7 +3176,9 @@
         "ROSE",
         "BIRD",
         "CORD",
-        "KITE"
+        "KITE",
+        "POST",
+        "WEAVE"
       ],
       "grid": [
         [
@@ -3011,7 +3216,7 @@
         ],
         [
           "R",
-          "C",
+          "E",
           "I",
           "L",
           "G",
@@ -3022,7 +3227,7 @@
         ],
         [
           "I",
-          "X",
+          "V",
           "K",
           "A",
           "K",
@@ -3033,7 +3238,7 @@
         ],
         [
           "R",
-          "X",
+          "A",
           "R",
           "N",
           "I",
@@ -3044,7 +3249,7 @@
         ],
         [
           "C",
-          "X",
+          "E",
           "B",
           "K",
           "E",
@@ -3058,10 +3263,10 @@
           "W",
           "W",
           "T",
-          "R",
+          "T",
+          "S",
           "O",
-          "N",
-          "K",
+          "P",
           "Y"
         ],
         [
@@ -3106,6 +3311,18 @@
           "startRow": 6,
           "startCol": 3,
           "direction": "DIAG_UP"
+        },
+        {
+          "word": "POST",
+          "startRow": 7,
+          "startCol": 7,
+          "direction": "RL"
+        },
+        {
+          "word": "WEAVE",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "BT"
         }
       ],
       "timeLimit": 105
@@ -3120,19 +3337,21 @@
         "APPLE",
         "EMU",
         "CRAB",
-        "CLOD"
+        "CLOD",
+        "LUCIAN",
+        "TAWNIER"
       ],
       "grid": [
         [
           "R",
           "A",
-          "B",
-          "C",
-          "O",
-          "P",
           "R",
-          "Y",
-          "Q"
+          "E",
+          "I",
+          "N",
+          "W",
+          "A",
+          "T"
         ],
         [
           "R",
@@ -3146,7 +3365,7 @@
           "V"
         ],
         [
-          "I",
+          "L",
           "J",
           "B",
           "P",
@@ -3158,7 +3377,7 @@
         ],
         [
           "Z",
-          "O",
+          "U",
           "D",
           "J",
           "L",
@@ -3170,7 +3389,7 @@
         [
           "Y",
           "I",
-          "L",
+          "C",
           "O",
           "R",
           "E",
@@ -3182,7 +3401,7 @@
           "Q",
           "T",
           "B",
-          "Q",
+          "I",
           "L",
           "E",
           "N",
@@ -3194,7 +3413,7 @@
           "G",
           "K",
           "C",
-          "W",
+          "A",
           "C",
           "U",
           "A",
@@ -3206,7 +3425,7 @@
           "A",
           "A",
           "A",
-          "P",
+          "N",
           "M",
           "K",
           "R"
@@ -3253,6 +3472,18 @@
           "startRow": 6,
           "startCol": 5,
           "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "LUCIAN",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TLBR"
+        },
+        {
+          "word": "TAWNIER",
+          "startRow": 0,
+          "startCol": 8,
+          "direction": "RL"
         }
       ],
       "timeLimit": 105
@@ -3267,7 +3498,9 @@
         "HONEY",
         "DOOR",
         "HAND",
-        "SAW"
+        "SAW",
+        "BOSNIA",
+        "COLON"
       ],
       "grid": [
         [
@@ -3304,18 +3537,18 @@
           "L"
         ],
         [
-          "J",
-          "R",
-          "U",
-          "U",
+          "B",
           "O",
+          "S",
+          "N",
+          "I",
           "A",
           "D",
           "A",
           "W"
         ],
         [
-          "L",
+          "C",
           "L",
           "Y",
           "A",
@@ -3327,7 +3560,7 @@
         ],
         [
           "V",
-          "S",
+          "O",
           "H",
           "E",
           "W",
@@ -3339,7 +3572,7 @@
         [
           "J",
           "B",
-          "B",
+          "L",
           "A",
           "E",
           "O",
@@ -3351,7 +3584,7 @@
           "Y",
           "D",
           "C",
-          "N",
+          "O",
           "N",
           "D",
           "F",
@@ -3363,7 +3596,7 @@
           "D",
           "A",
           "P",
-          "Y",
+          "N",
           "D",
           "A",
           "N",
@@ -3400,6 +3633,18 @@
           "startRow": 2,
           "startCol": 6,
           "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "BOSNIA",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "COLON",
+          "startRow": 4,
+          "startCol": 0,
+          "direction": "TLBR"
         }
       ],
       "timeLimit": 105
@@ -3415,23 +3660,25 @@
         "VINE",
         "DREAM",
         "PLUM",
-        "FOX"
+        "FOX",
+        "COWBOYS",
+        "ANTEED"
       ],
       "grid": [
         [
+          "A",
           "S",
-          "Z",
-          "G",
+          "Y",
+          "O",
           "B",
-          "S",
-          "H",
-          "U",
-          "F",
+          "W",
+          "O",
+          "C",
           "Q"
         ],
         [
           "H",
-          "O",
+          "N",
           "E",
           "I",
           "D",
@@ -3455,7 +3702,7 @@
           "K",
           "Q",
           "U",
-          "W",
+          "E",
           "I",
           "T",
           "E",
@@ -3467,7 +3714,7 @@
           "B",
           "O",
           "D",
-          "Y",
+          "E",
           "V",
           "F",
           "A",
@@ -3479,7 +3726,7 @@
           "T",
           "E",
           "X",
-          "H",
+          "D",
           "O",
           "F",
           "M"
@@ -3554,6 +3801,18 @@
           "startRow": 4,
           "startCol": 6,
           "direction": "TB"
+        },
+        {
+          "word": "COWBOYS",
+          "startRow": 0,
+          "startCol": 7,
+          "direction": "RL"
+        },
+        {
+          "word": "ANTEED",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TLBR"
         }
       ],
       "timeLimit": 105
@@ -3570,12 +3829,13 @@
         "FOG",
         "HOOD",
         "TIGER",
-        "ROCK"
+        "ROCK",
+        "IVANHOE"
       ],
       "grid": [
         [
           "F",
-          "P",
+          "I",
           "Y",
           "M",
           "C",
@@ -3586,7 +3846,7 @@
         ],
         [
           "J",
-          "D",
+          "V",
           "V",
           "F",
           "M",
@@ -3597,7 +3857,7 @@
         ],
         [
           "P",
-          "N",
+          "A",
           "X",
           "B",
           "P",
@@ -3608,7 +3868,7 @@
         ],
         [
           "E",
-          "K",
+          "N",
           "C",
           "F",
           "A",
@@ -3619,7 +3879,7 @@
         ],
         [
           "A",
-          "O",
+          "H",
           "J",
           "R",
           "E",
@@ -3630,7 +3890,7 @@
         ],
         [
           "T",
-          "W",
+          "O",
           "Z",
           "R",
           "F",
@@ -3641,7 +3901,7 @@
         ],
         [
           "Q",
-          "X",
+          "E",
           "C",
           "O",
           "V",
@@ -3715,6 +3975,12 @@
           "startRow": 8,
           "startCol": 3,
           "direction": "RL"
+        },
+        {
+          "word": "IVANHOE",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "TB"
         }
       ],
       "timeLimit": 105
@@ -3730,7 +3996,9 @@
         "FLOWER",
         "BED",
         "SILK",
-        "BALL"
+        "BALL",
+        "MINERAL",
+        "TUNA"
       ],
       "grid": [
         [
@@ -3756,9 +4024,9 @@
           "B"
         ],
         [
-          "Q",
+          "T",
           "N",
-          "D",
+          "M",
           "C",
           "O",
           "L",
@@ -3768,8 +4036,8 @@
         ],
         [
           "T",
-          "W",
-          "K",
+          "U",
+          "I",
           "Z",
           "B",
           "W",
@@ -3780,7 +4048,7 @@
         [
           "E",
           "X",
-          "Q",
+          "N",
           "L",
           "K",
           "N",
@@ -3791,8 +4059,8 @@
         [
           "E",
           "N",
-          "D",
-          "V",
+          "E",
+          "A",
           "I",
           "W",
           "J",
@@ -3802,7 +4070,7 @@
         [
           "I",
           "P",
-          "T",
+          "R",
           "R",
           "O",
           "S",
@@ -3824,7 +4092,7 @@
         [
           "T",
           "H",
-          "A",
+          "L",
           "U",
           "P",
           "R",
@@ -3869,6 +4137,18 @@
           "startRow": 7,
           "startCol": 1,
           "direction": "LR"
+        },
+        {
+          "word": "MINERAL",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "TUNA",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TLBR"
         }
       ],
       "timeLimit": 105
@@ -3884,7 +4164,9 @@
         "MANGO",
         "BIRD",
         "TEAL",
-        "GOLD"
+        "GOLD",
+        "DRINKS",
+        "HONORS"
       ],
       "grid": [
         [
@@ -3918,24 +4200,24 @@
           "A",
           "T",
           "M",
-          "X"
+          "H"
         ],
         [
           "V",
           "D",
-          "T",
+          "D",
           "M",
           "L",
           "L",
           "S",
           "O",
-          "E"
+          "O"
         ],
         [
           "M",
           "T",
           "R",
-          "I",
+          "R",
           "A",
           "O",
           "W",
@@ -3947,11 +4229,11 @@
           "N",
           "E",
           "P",
-          "J",
+          "I",
           "N",
           "C",
           "M",
-          "A"
+          "O"
         ],
         [
           "F",
@@ -3959,10 +4241,10 @@
           "E",
           "X",
           "P",
-          "Y",
+          "N",
           "G",
           "P",
-          "Y"
+          "R"
         ],
         [
           "A",
@@ -3971,9 +4253,9 @@
           "L",
           "N",
           "K",
-          "I",
+          "K",
           "O",
-          "H"
+          "S"
         ],
         [
           "K",
@@ -3983,7 +4265,7 @@
           "R",
           "C",
           "C",
-          "I",
+          "S",
           "S"
         ]
       ],
@@ -4023,6 +4305,18 @@
           "startRow": 0,
           "startCol": 4,
           "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "DRINKS",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "TLBR"
+        },
+        {
+          "word": "HONORS",
+          "startRow": 2,
+          "startCol": 8,
+          "direction": "TB"
         }
       ],
       "timeLimit": 105
@@ -4039,7 +4333,8 @@
         "RED",
         "GALE",
         "HAIL",
-        "TIGER"
+        "TIGER",
+        "ASHING"
       ],
       "grid": [
         [
@@ -4109,12 +4404,12 @@
           "R"
         ],
         [
-          "B",
-          "S",
-          "Y",
-          "W",
-          "U",
+          "G",
           "N",
+          "I",
+          "H",
+          "S",
+          "A",
           "B",
           "M",
           "G"
@@ -4184,6 +4479,12 @@
           "startRow": 5,
           "startCol": 4,
           "direction": "LR"
+        },
+        {
+          "word": "ASHING",
+          "startRow": 6,
+          "startCol": 5,
+          "direction": "RL"
         }
       ],
       "timeLimit": 105
@@ -4200,7 +4501,8 @@
         "BUCK",
         "RUBY",
         "PARK",
-        "PLAN"
+        "PLAN",
+        "STUMPY"
       ],
       "grid": [
         [
@@ -4293,12 +4595,12 @@
         ],
         [
           "N",
-          "K",
-          "I",
-          "F",
-          "J",
-          "X",
+          "S",
+          "T",
           "U",
+          "M",
+          "P",
+          "Y",
           "C",
           "S"
         ]
@@ -4345,6 +4647,12 @@
           "startRow": 5,
           "startCol": 0,
           "direction": "TB"
+        },
+        {
+          "word": "STUMPY",
+          "startRow": 8,
+          "startCol": 1,
+          "direction": "LR"
         }
       ],
       "timeLimit": 105
@@ -4359,7 +4667,9 @@
         "PANDA",
         "HARE",
         "GOWN",
-        "FLOWER"
+        "FLOWER",
+        "IMPACT",
+        "VIZIERS"
       ],
       "grid": [
         [
@@ -4375,7 +4685,7 @@
         ],
         [
           "W",
-          "H",
+          "S",
           "D",
           "P",
           "H",
@@ -4386,7 +4696,7 @@
         ],
         [
           "Q",
-          "H",
+          "R",
           "D",
           "A",
           "Q",
@@ -4397,18 +4707,18 @@
         ],
         [
           "Z",
-          "G",
           "E",
-          "O",
-          "Y",
-          "Y",
           "I",
-          "L",
+          "M",
+          "P",
+          "A",
+          "C",
+          "T",
           "W"
         ],
         [
           "N",
-          "Q",
+          "I",
           "T",
           "D",
           "U",
@@ -4419,7 +4729,7 @@
         ],
         [
           "J",
-          "V",
+          "Z",
           "L",
           "F",
           "Z",
@@ -4430,7 +4740,7 @@
         ],
         [
           "W",
-          "V",
+          "I",
           "B",
           "L",
           "E",
@@ -4441,7 +4751,7 @@
         ],
         [
           "X",
-          "X",
+          "V",
           "I",
           "R",
           "W",
@@ -4492,6 +4802,18 @@
           "startRow": 2,
           "startCol": 8,
           "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "IMPACT",
+          "startRow": 3,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "VIZIERS",
+          "startRow": 7,
+          "startCol": 1,
+          "direction": "BT"
         }
       ],
       "timeLimit": 105
@@ -4506,7 +4828,9 @@
         "CRAB",
         "GOLD",
         "SWAN",
-        "CLAY"
+        "CLAY",
+        "CODICES",
+        "SIKHS"
       ],
       "grid": [
         [
@@ -4534,7 +4858,7 @@
         [
           "B",
           "L",
-          "F",
+          "C",
           "C",
           "A",
           "R",
@@ -4546,7 +4870,7 @@
           "P",
           "G",
           "A",
-          "N",
+          "O",
           "B",
           "A",
           "R",
@@ -4558,7 +4882,7 @@
           "Q",
           "O",
           "Y",
-          "Z",
+          "D",
           "S",
           "U",
           "V",
@@ -4570,7 +4894,7 @@
           "C",
           "L",
           "W",
-          "T",
+          "I",
           "G",
           "B",
           "V"
@@ -4582,7 +4906,7 @@
           "A",
           "D",
           "E",
-          "T",
+          "C",
           "I",
           "I"
         ],
@@ -4594,19 +4918,19 @@
           "D",
           "W",
           "M",
-          "R",
+          "E",
           "Z"
         ],
         [
           "J",
-          "W",
-          "F",
-          "F",
-          "W",
-          "A",
+          "S",
+          "I",
+          "K",
+          "H",
+          "S",
           "D",
           "D",
-          "O"
+          "S"
         ]
       ],
       "wordPositions": [
@@ -4639,6 +4963,18 @@
           "startRow": 1,
           "startCol": 0,
           "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "CODICES",
+          "startRow": 2,
+          "startCol": 2,
+          "direction": "TLBR"
+        },
+        {
+          "word": "SIKHS",
+          "startRow": 8,
+          "startCol": 1,
+          "direction": "LR"
         }
       ],
       "timeLimit": 105
@@ -4653,18 +4989,20 @@
         "ROBIN",
         "MINT",
         "BULL",
-        "MOLE"
+        "MOLE",
+        "SWERVES",
+        "LATHES"
       ],
       "grid": [
         [
           "E",
-          "F",
+          "S",
+          "E",
           "V",
-          "N",
-          "C",
-          "Z",
-          "F",
-          "K",
+          "R",
+          "E",
+          "W",
+          "S",
           "G"
         ],
         [
@@ -4691,7 +5029,7 @@
         ],
         [
           "M",
-          "I",
+          "L",
           "L",
           "Y",
           "X",
@@ -4703,7 +5041,7 @@
         [
           "I",
           "E",
-          "H",
+          "A",
           "I",
           "A",
           "C",
@@ -4715,7 +5053,7 @@
           "N",
           "Q",
           "K",
-          "I",
+          "T",
           "O",
           "U",
           "K",
@@ -4727,7 +5065,7 @@
           "R",
           "D",
           "F",
-          "K",
+          "H",
           "R",
           "I",
           "B",
@@ -4739,7 +5077,7 @@
           "M",
           "W",
           "O",
-          "U",
+          "E",
           "T",
           "I",
           "C"
@@ -4751,7 +5089,7 @@
           "F",
           "Z",
           "V",
-          "Z",
+          "S",
           "N",
           "T"
         ]
@@ -4786,6 +5124,18 @@
           "startRow": 3,
           "startCol": 0,
           "direction": "BT"
+        },
+        {
+          "word": "SWERVES",
+          "startRow": 0,
+          "startCol": 7,
+          "direction": "RL"
+        },
+        {
+          "word": "LATHES",
+          "startRow": 3,
+          "startCol": 1,
+          "direction": "TLBR"
         }
       ],
       "timeLimit": 105
@@ -4802,18 +5152,19 @@
         "SQUID",
         "GRID",
         "DOOR",
-        "HARP"
+        "HARP",
+        "ZHIVAGO"
       ],
       "grid": [
         [
           "K",
+          "Z",
+          "H",
           "I",
-          "C",
-          "Q",
-          "M",
-          "I",
-          "T",
-          "Q",
+          "V",
+          "A",
+          "G",
+          "O",
           "G"
         ],
         [
@@ -4947,6 +5298,12 @@
           "startRow": 4,
           "startCol": 8,
           "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "ZHIVAGO",
+          "startRow": 0,
+          "startCol": 1,
+          "direction": "LR"
         }
       ],
       "timeLimit": 105
@@ -4963,7 +5320,8 @@
         "WREN",
         "KOI",
         "ELM",
-        "CAT"
+        "CAT",
+        "SCHISM"
       ],
       "grid": [
         [
@@ -4979,7 +5337,7 @@
         ],
         [
           "I",
-          "D",
+          "S",
           "Z",
           "B",
           "W",
@@ -4990,7 +5348,7 @@
         ],
         [
           "P",
-          "W",
+          "C",
           "T",
           "A",
           "N",
@@ -5001,7 +5359,7 @@
         ],
         [
           "U",
-          "C",
+          "H",
           "S",
           "R",
           "S",
@@ -5023,7 +5381,7 @@
         ],
         [
           "A",
-          "A",
+          "S",
           "P",
           "M",
           "A",
@@ -5034,7 +5392,7 @@
         ],
         [
           "G",
-          "X",
+          "M",
           "T",
           "L",
           "X",
@@ -5108,6 +5466,12 @@
           "startRow": 8,
           "startCol": 2,
           "direction": "BT"
+        },
+        {
+          "word": "SCHISM",
+          "startRow": 1,
+          "startCol": 1,
+          "direction": "TB"
         }
       ],
       "timeLimit": 105
@@ -5122,7 +5486,9 @@
         "HAWK",
         "POOL",
         "HALL",
-        "KEY"
+        "KEY",
+        "SOLACE",
+        "PURANA"
       ],
       "grid": [
         [
@@ -5138,11 +5504,11 @@
         ],
         [
           "T",
-          "Z",
-          "O",
-          "Y",
+          "E",
+          "C",
+          "A",
           "L",
-          "Q",
+          "O",
           "S",
           "R",
           "X"
@@ -5216,10 +5582,10 @@
         [
           "P",
           "U",
-          "G",
-          "G",
-          "Q",
           "R",
+          "A",
+          "N",
+          "A",
           "O",
           "K",
           "Y"
@@ -5255,6 +5621,18 @@
           "startRow": 4,
           "startCol": 7,
           "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "SOLACE",
+          "startRow": 1,
+          "startCol": 6,
+          "direction": "RL"
+        },
+        {
+          "word": "PURANA",
+          "startRow": 8,
+          "startCol": 0,
+          "direction": "LR"
         }
       ],
       "timeLimit": 105
@@ -5270,24 +5648,26 @@
         "GALE",
         "FAWN",
         "RAIN",
-        "LAKE"
+        "LAKE",
+        "WATCHER",
+        "SHIMMED"
       ],
       "grid": [
         [
-          "F",
-          "F",
-          "Y",
+          "S",
+          "H",
+          "I",
+          "M",
+          "M",
           "E",
           "D",
-          "A",
-          "C",
           "Q",
           "Q"
         ],
         [
           "J",
           "L",
-          "B",
+          "W",
           "Z",
           "L",
           "N",
@@ -5309,7 +5689,7 @@
         [
           "A",
           "M",
-          "U",
+          "T",
           "K",
           "I",
           "B",
@@ -5320,7 +5700,7 @@
         [
           "J",
           "N",
-          "A",
+          "C",
           "S",
           "E",
           "T",
@@ -5331,7 +5711,7 @@
         [
           "X",
           "R",
-          "D",
+          "H",
           "X",
           "Z",
           "P",
@@ -5342,7 +5722,7 @@
         [
           "P",
           "O",
-          "D",
+          "E",
           "O",
           "Z",
           "G",
@@ -5353,7 +5733,7 @@
         [
           "G",
           "H",
-          "O",
+          "R",
           "B",
           "I",
           "Y",
@@ -5409,6 +5789,18 @@
           "startRow": 1,
           "startCol": 1,
           "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "WATCHER",
+          "startRow": 1,
+          "startCol": 2,
+          "direction": "TB"
+        },
+        {
+          "word": "SHIMMED",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
         }
       ],
       "timeLimit": 105
@@ -5423,15 +5815,17 @@
         "HAND",
         "CARD",
         "RUG",
-        "FAWN"
+        "FAWN",
+        "STARE",
+        "HECK"
       ],
       "grid": [
         [
-          "H",
+          "S",
+          "T",
           "A",
-          "M",
-          "J",
-          "X",
+          "R",
+          "E",
           "M",
           "Q",
           "A",
@@ -5442,7 +5836,7 @@
           "W",
           "G",
           "D",
-          "J",
+          "K",
           "W",
           "S",
           "G",
@@ -5453,7 +5847,7 @@
           "F",
           "X",
           "X",
-          "R",
+          "C",
           "Z",
           "I",
           "H",
@@ -5464,7 +5858,7 @@
           "D",
           "D",
           "S",
-          "A",
+          "E",
           "A",
           "A",
           "N",
@@ -5475,7 +5869,7 @@
           "E",
           "M",
           "U",
-          "D",
+          "H",
           "N",
           "C",
           "A",
@@ -5556,6 +5950,18 @@
           "startRow": 3,
           "startCol": 8,
           "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "STARE",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "HECK",
+          "startRow": 4,
+          "startCol": 4,
+          "direction": "BT"
         }
       ],
       "timeLimit": 105
@@ -5570,11 +5976,13 @@
         "ANT",
         "CLOUDS",
         "CAT",
-        "IRON"
+        "IRON",
+        "HARTMAN",
+        "GUTSIER"
       ],
       "grid": [
         [
-          "J",
+          "H",
           "V",
           "M",
           "P",
@@ -5585,7 +5993,7 @@
           "C"
         ],
         [
-          "I",
+          "A",
           "N",
           "W",
           "C",
@@ -5596,8 +6004,8 @@
           "A"
         ],
         [
-          "C",
-          "I",
+          "R",
+          "R",
           "C",
           "Z",
           "L",
@@ -5607,8 +6015,8 @@
           "Y"
         ],
         [
-          "D",
-          "A",
+          "T",
+          "E",
           "W",
           "A",
           "N",
@@ -5618,8 +6026,8 @@
           "C"
         ],
         [
-          "R",
-          "W",
+          "M",
+          "I",
           "M",
           "D",
           "T",
@@ -5629,8 +6037,8 @@
           "Q"
         ],
         [
-          "J",
-          "G",
+          "A",
+          "S",
           "J",
           "U",
           "N",
@@ -5640,8 +6048,8 @@
           "Q"
         ],
         [
-          "C",
-          "G",
+          "N",
+          "T",
           "Q",
           "H",
           "E",
@@ -5652,7 +6060,7 @@
         ],
         [
           "I",
-          "C",
+          "U",
           "U",
           "C",
           "L",
@@ -5663,7 +6071,7 @@
         ],
         [
           "S",
-          "W",
+          "G",
           "I",
           "B",
           "R",
@@ -5703,6 +6111,18 @@
           "startRow": 2,
           "startCol": 7,
           "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "HARTMAN",
+          "startRow": 0,
+          "startCol": 0,
+          "direction": "TB"
+        },
+        {
+          "word": "GUTSIER",
+          "startRow": 8,
+          "startCol": 1,
+          "direction": "BT"
         }
       ],
       "timeLimit": 105
@@ -5717,7 +6137,9 @@
         "GOWN",
         "MUD",
         "WOOD",
-        "COIN"
+        "COIN",
+        "ZEST",
+        "HORNET"
       ],
       "grid": [
         [
@@ -5755,10 +6177,10 @@
         ],
         [
           "G",
-          "D",
-          "M",
-          "G",
-          "C",
+          "T",
+          "S",
+          "E",
+          "Z",
           "G",
           "Q",
           "H",
@@ -5767,12 +6189,12 @@
         [
           "R",
           "O",
-          "K",
+          "H",
+          "O",
           "R",
-          "P",
           "N",
-          "U",
-          "B",
+          "E",
+          "T",
           "I"
         ],
         [
@@ -5850,6 +6272,18 @@
           "startRow": 8,
           "startCol": 3,
           "direction": "DIAG_UP_REV"
+        },
+        {
+          "word": "ZEST",
+          "startRow": 3,
+          "startCol": 4,
+          "direction": "RL"
+        },
+        {
+          "word": "HORNET",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "LR"
         }
       ],
       "timeLimit": 105
@@ -5864,7 +6298,9 @@
         "HARE",
         "DOOR",
         "PIG",
-        "GNU"
+        "GNU",
+        "DVRS",
+        "AMIRS"
       ],
       "grid": [
         [
@@ -5914,11 +6350,11 @@
         [
           "C",
           "T",
-          "O",
+          "D",
           "Z",
           "H",
           "B",
-          "D",
+          "M",
           "G",
           "D"
         ],
@@ -5926,10 +6362,10 @@
           "A",
           "N",
           "O",
-          "N",
+          "V",
           "A",
           "I",
-          "V",
+          "A",
           "X",
           "K"
         ],
@@ -5938,7 +6374,7 @@
           "J",
           "M",
           "J",
-          "S",
+          "R",
           "D",
           "B",
           "I",
@@ -5950,7 +6386,7 @@
           "U",
           "I",
           "J",
-          "N",
+          "S",
           "S",
           "P",
           "S"
@@ -5997,6 +6433,18 @@
           "startRow": 3,
           "startCol": 0,
           "direction": "DIAG_UP"
+        },
+        {
+          "word": "DVRS",
+          "startRow": 4,
+          "startCol": 2,
+          "direction": "TLBR"
+        },
+        {
+          "word": "AMIRS",
+          "startRow": 5,
+          "startCol": 6,
+          "direction": "BT"
         }
       ],
       "timeLimit": 105
@@ -6013,7 +6461,8 @@
         "CLOD",
         "JUICE",
         "CAKE",
-        "BRONZE"
+        "BRONZE",
+        "SECRET"
       ],
       "grid": [
         [
@@ -6035,7 +6484,7 @@
           "Z",
           "R",
           "R",
-          "Q",
+          "S",
           "B"
         ],
         [
@@ -6046,7 +6495,7 @@
           "N",
           "E",
           "E",
-          "F",
+          "E",
           "R"
         ],
         [
@@ -6057,7 +6506,7 @@
           "V",
           "O",
           "Z",
-          "S",
+          "C",
           "O"
         ],
         [
@@ -6068,7 +6517,7 @@
           "W",
           "U",
           "T",
-          "K",
+          "R",
           "N"
         ],
         [
@@ -6090,7 +6539,7 @@
           "D",
           "K",
           "X",
-          "X",
+          "T",
           "E"
         ],
         [
@@ -6158,6 +6607,12 @@
           "startRow": 1,
           "startCol": 8,
           "direction": "TB"
+        },
+        {
+          "word": "SECRET",
+          "startRow": 1,
+          "startCol": 7,
+          "direction": "TB"
         }
       ],
       "timeLimit": 105
@@ -6173,7 +6628,9 @@
         "MILL",
         "DAWN",
         "SOCK",
-        "NEST"
+        "NEST",
+        "WEDGING",
+        "TRIKES"
       ],
       "grid": [
         [
@@ -6200,17 +6657,17 @@
         ],
         [
           "B",
-          "D",
-          "T",
-          "T",
-          "E",
+          "G",
           "N",
-          "J",
           "I",
+          "G",
+          "D",
+          "E",
+          "W",
           "R"
         ],
         [
-          "Y",
+          "T",
           "L",
           "I",
           "E",
@@ -6221,7 +6678,7 @@
           "O"
         ],
         [
-          "Y",
+          "R",
           "V",
           "Y",
           "N",
@@ -6232,7 +6689,7 @@
           "V"
         ],
         [
-          "C",
+          "I",
           "N",
           "D",
           "I",
@@ -6243,7 +6700,7 @@
           "A"
         ],
         [
-          "N",
+          "K",
           "L",
           "V",
           "A",
@@ -6254,7 +6711,7 @@
           "B"
         ],
         [
-          "F",
+          "E",
           "F",
           "N",
           "U",
@@ -6265,7 +6722,7 @@
           "T"
         ],
         [
-          "N",
+          "S",
           "T",
           "G",
           "Y",
@@ -6312,6 +6769,18 @@
           "startRow": 4,
           "startCol": 3,
           "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "WEDGING",
+          "startRow": 2,
+          "startCol": 7,
+          "direction": "RL"
+        },
+        {
+          "word": "TRIKES",
+          "startRow": 3,
+          "startCol": 0,
+          "direction": "TB"
         }
       ],
       "timeLimit": 105
@@ -6328,7 +6797,8 @@
         "SQUID",
         "CAGE",
         "TIGER",
-        "CUP"
+        "CUP",
+        "WELTER"
       ],
       "grid": [
         [
@@ -6421,12 +6891,12 @@
         ],
         [
           "A",
-          "I",
-          "F",
-          "U",
-          "K",
-          "O",
+          "R",
           "E",
+          "T",
+          "L",
+          "E",
+          "W",
           "J",
           "L"
         ]
@@ -6473,6 +6943,12 @@
           "startRow": 6,
           "startCol": 2,
           "direction": "DIAG_UP"
+        },
+        {
+          "word": "WELTER",
+          "startRow": 8,
+          "startCol": 6,
+          "direction": "RL"
         }
       ],
       "timeLimit": 105
@@ -6489,7 +6965,8 @@
         "SAIL",
         "HOOD",
         "PLUM",
-        "ELM"
+        "ELM",
+        "STALING"
       ],
       "grid": [
         [
@@ -6515,7 +6992,7 @@
           "E"
         ],
         [
-          "V",
+          "G",
           "M",
           "Y",
           "L",
@@ -6526,7 +7003,7 @@
           "T"
         ],
         [
-          "B",
+          "N",
           "E",
           "V",
           "Z",
@@ -6537,7 +7014,7 @@
           "W"
         ],
         [
-          "M",
+          "I",
           "L",
           "G",
           "S",
@@ -6548,7 +7025,7 @@
           "R"
         ],
         [
-          "F",
+          "L",
           "E",
           "A",
           "C",
@@ -6559,7 +7036,7 @@
           "S"
         ],
         [
-          "F",
+          "A",
           "I",
           "D",
           "D",
@@ -6570,7 +7047,7 @@
           "O"
         ],
         [
-          "L",
+          "T",
           "T",
           "Y",
           "Q",
@@ -6581,7 +7058,7 @@
           "V"
         ],
         [
-          "O",
+          "S",
           "P",
           "V",
           "J",
@@ -6634,6 +7111,12 @@
           "startRow": 1,
           "startCol": 2,
           "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "STALING",
+          "startRow": 8,
+          "startCol": 0,
+          "direction": "BT"
         }
       ],
       "timeLimit": 105
@@ -6649,7 +7132,9 @@
         "OWL",
         "CRAB",
         "SUGAR",
-        "TIGER"
+        "TIGER",
+        "UNITE",
+        "HUFFIER"
       ],
       "grid": [
         [
@@ -6683,7 +7168,7 @@
           "H",
           "S",
           "N",
-          "T"
+          "H"
         ],
         [
           "B",
@@ -6694,7 +7179,7 @@
           "V",
           "W",
           "U",
-          "E"
+          "U"
         ],
         [
           "T",
@@ -6705,18 +7190,18 @@
           "P",
           "W",
           "A",
-          "H"
+          "F"
         ],
         [
-          "Z",
-          "Z",
-          "Q",
+          "U",
+          "N",
           "I",
-          "B",
+          "T",
+          "E",
           "O",
           "Z",
           "O",
-          "U"
+          "F"
         ],
         [
           "M",
@@ -6727,7 +7212,7 @@
           "Z",
           "W",
           "Q",
-          "G"
+          "I"
         ],
         [
           "I",
@@ -6738,7 +7223,7 @@
           "M",
           "V",
           "L",
-          "B"
+          "E"
         ],
         [
           "C",
@@ -6749,7 +7234,7 @@
           "S",
           "X",
           "R",
-          "O"
+          "R"
         ]
       ],
       "wordPositions": [
@@ -6788,6 +7273,18 @@
           "startRow": 4,
           "startCol": 0,
           "direction": "DIAG_UP"
+        },
+        {
+          "word": "UNITE",
+          "startRow": 5,
+          "startCol": 0,
+          "direction": "LR"
+        },
+        {
+          "word": "HUFFIER",
+          "startRow": 2,
+          "startCol": 8,
+          "direction": "TB"
         }
       ],
       "timeLimit": 105
@@ -6802,7 +7299,9 @@
         "PONY",
         "BLUE",
         "RAIN",
-        "ZEBRA"
+        "ZEBRA",
+        "MISERS",
+        "CUBE"
       ],
       "grid": [
         [
@@ -6861,12 +7360,12 @@
           "R"
         ],
         [
-          "M",
-          "Z",
+          "S",
+          "R",
           "E",
-          "C",
-          "C",
-          "O",
+          "S",
+          "I",
+          "M",
           "V",
           "A",
           "C"
@@ -6883,10 +7382,10 @@
           "P"
         ],
         [
-          "N",
-          "F",
-          "G",
-          "O",
+          "E",
+          "B",
+          "U",
+          "C",
           "L",
           "N",
           "E",
@@ -6935,6 +7434,18 @@
           "startRow": 0,
           "startCol": 1,
           "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "MISERS",
+          "startRow": 5,
+          "startCol": 5,
+          "direction": "RL"
+        },
+        {
+          "word": "CUBE",
+          "startRow": 7,
+          "startCol": 3,
+          "direction": "RL"
         }
       ],
       "timeLimit": 105
@@ -6950,18 +7461,20 @@
         "VALE",
         "BEACH",
         "BEAR",
-        "HAT"
+        "HAT",
+        "DUDLEY",
+        "VILLA"
       ],
       "grid": [
         [
           "T",
           "Z",
           "K",
-          "P",
-          "R",
-          "I",
+          "A",
           "L",
-          "W",
+          "L",
+          "I",
+          "V",
           "U"
         ],
         [
@@ -6995,7 +7508,7 @@
           "L",
           "A",
           "K",
-          "D"
+          "Y"
         ],
         [
           "J",
@@ -7006,7 +7519,7 @@
           "E",
           "L",
           "W",
-          "X"
+          "E"
         ],
         [
           "V",
@@ -7017,7 +7530,7 @@
           "G",
           "P",
           "I",
-          "H"
+          "L"
         ],
         [
           "G",
@@ -7028,7 +7541,7 @@
           "B",
           "N",
           "T",
-          "P"
+          "D"
         ],
         [
           "B",
@@ -7039,7 +7552,7 @@
           "V",
           "O",
           "H",
-          "C"
+          "U"
         ],
         [
           "O",
@@ -7050,7 +7563,7 @@
           "E",
           "A",
           "R",
-          "B"
+          "D"
         ]
       ],
       "wordPositions": [
@@ -7089,6 +7602,18 @@
           "startRow": 6,
           "startCol": 4,
           "direction": "DIAG_DOWN_REV"
+        },
+        {
+          "word": "DUDLEY",
+          "startRow": 8,
+          "startCol": 8,
+          "direction": "BT"
+        },
+        {
+          "word": "VILLA",
+          "startRow": 0,
+          "startCol": 7,
+          "direction": "RL"
         }
       ],
       "timeLimit": 105
@@ -7105,7 +7630,8 @@
         "OAK",
         "BOX",
         "PEAT",
-        "MIST"
+        "MIST",
+        "BALLS"
       ],
       "grid": [
         [
@@ -7117,7 +7643,7 @@
           "S",
           "X",
           "K",
-          "P"
+          "S"
         ],
         [
           "W",
@@ -7128,7 +7654,7 @@
           "I",
           "G",
           "K",
-          "Y"
+          "L"
         ],
         [
           "I",
@@ -7139,7 +7665,7 @@
           "B",
           "L",
           "G",
-          "D"
+          "L"
         ],
         [
           "O",
@@ -7150,7 +7676,7 @@
           "E",
           "O",
           "C",
-          "D"
+          "A"
         ],
         [
           "B",
@@ -7161,7 +7687,7 @@
           "K",
           "H",
           "X",
-          "C"
+          "B"
         ],
         [
           "P",
@@ -7250,6 +7776,12 @@
           "startRow": 7,
           "startCol": 1,
           "direction": "DIAG_UP"
+        },
+        {
+          "word": "BALLS",
+          "startRow": 4,
+          "startCol": 8,
+          "direction": "BT"
         }
       ],
       "timeLimit": 105
@@ -7265,17 +7797,19 @@
         "CART",
         "CHERRY",
         "SHIP",
-        "DESERT"
+        "DESERT",
+        "WAXEN",
+        "YORKIE"
       ],
       "grid": [
         [
           "N",
           "S",
-          "U",
-          "A",
           "W",
-          "O",
-          "B",
+          "A",
+          "X",
+          "E",
+          "N",
           "O",
           "D"
         ],
@@ -7346,12 +7880,12 @@
           "U"
         ],
         [
-          "V",
-          "U",
-          "T",
-          "R",
+          "E",
           "I",
-          "N",
+          "K",
+          "R",
+          "O",
+          "Y",
           "M",
           "Y",
           "D"
@@ -7404,6 +7938,18 @@
           "startRow": 1,
           "startCol": 0,
           "direction": "DIAG_DOWN"
+        },
+        {
+          "word": "WAXEN",
+          "startRow": 0,
+          "startCol": 2,
+          "direction": "LR"
+        },
+        {
+          "word": "YORKIE",
+          "startRow": 7,
+          "startCol": 5,
+          "direction": "RL"
         }
       ],
       "timeLimit": 105
@@ -7419,7 +7965,9 @@
         "SOIL",
         "GATE",
         "HAIL",
-        "MAZE"
+        "MAZE",
+        "FOAMY",
+        "AERATED"
       ],
       "grid": [
         [
@@ -7442,10 +7990,10 @@
           "D",
           "L",
           "L",
-          "E"
+          "A"
         ],
         [
-          "A",
+          "F",
           "A",
           "D",
           "K",
@@ -7453,51 +8001,51 @@
           "P",
           "D",
           "I",
-          "I"
+          "E"
         ],
         [
           "M",
-          "F",
+          "O",
           "E",
           "E",
           "A",
           "D",
           "E",
           "O",
-          "F"
+          "R"
         ],
         [
           "G",
           "K",
-          "X",
+          "A",
           "F",
           "A",
           "L",
           "L",
           "S",
-          "J"
+          "A"
         ],
         [
           "Y",
           "A",
           "H",
-          "V",
+          "M",
           "P",
           "Z",
           "I",
           "U",
-          "N"
+          "T"
         ],
         [
           "Q",
           "J",
           "T",
           "R",
-          "B",
+          "Y",
           "S",
           "A",
           "Y",
-          "B"
+          "E"
         ],
         [
           "V",
@@ -7558,6 +8106,18 @@
           "startRow": 3,
           "startCol": 0,
           "direction": "DIAG_UP"
+        },
+        {
+          "word": "FOAMY",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TLBR"
+        },
+        {
+          "word": "AERATED",
+          "startRow": 1,
+          "startCol": 8,
+          "direction": "TB"
         }
       ],
       "timeLimit": 105
@@ -7573,7 +8133,9 @@
         "DISH",
         "GIFT",
         "SWAN",
-        "FOREST"
+        "FOREST",
+        "INFER",
+        "BERN"
       ],
       "grid": [
         [
@@ -7599,7 +8161,7 @@
           "R"
         ],
         [
-          "B",
+          "I",
           "O",
           "L",
           "E",
@@ -7611,7 +8173,7 @@
         ],
         [
           "G",
-          "X",
+          "N",
           "A",
           "F",
           "T",
@@ -7622,8 +8184,8 @@
         ],
         [
           "I",
-          "M",
-          "C",
+          "R",
+          "F",
           "T",
           "D",
           "Z",
@@ -7633,9 +8195,9 @@
         ],
         [
           "F",
-          "H",
+          "E",
           "T",
-          "I",
+          "E",
           "W",
           "S",
           "U",
@@ -7644,10 +8206,10 @@
         ],
         [
           "T",
-          "G",
+          "B",
           "S",
           "O",
-          "A",
+          "R",
           "W",
           "R",
           "G",
@@ -7712,6 +8274,18 @@
           "startRow": 1,
           "startCol": 7,
           "direction": "RL"
+        },
+        {
+          "word": "INFER",
+          "startRow": 2,
+          "startCol": 0,
+          "direction": "TLBR"
+        },
+        {
+          "word": "BERN",
+          "startRow": 6,
+          "startCol": 1,
+          "direction": "BT"
         }
       ],
       "timeLimit": 105

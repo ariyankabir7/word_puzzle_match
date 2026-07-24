@@ -78,12 +78,14 @@ class PathPainter extends CustomPainter {
   Path _buildPath({int? maxIndex}) {
     final max = maxIndex ?? nodePositions.length - 1;
     final path = Path();
+    if (nodePositions.isEmpty) return path;
+
     path.moveTo(nodePositions[0].dx, nodePositions[0].dy);
     for (int i = 1; i <= max; i++) {
       final prev = nodePositions[i - 1];
       final curr = nodePositions[i];
-      final cx = (prev.dx + curr.dx) / 2;
-      path.quadraticBezierTo(cx, prev.dy, curr.dx, curr.dy);
+      final midY = (prev.dy + curr.dy) / 2;
+      path.cubicTo(prev.dx, midY, curr.dx, midY, curr.dx, curr.dy);
     }
     return path;
   }

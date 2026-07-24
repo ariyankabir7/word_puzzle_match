@@ -211,98 +211,89 @@ class _GameplayScreenState extends ConsumerState<GameplayScreen> {
   Widget _buildHeader(BuildContext context, GameState state) {
     final progress = ref.watch(playerProgressProvider);
 
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: [
-        // Back Button
-        GestureDetector(
-          onTap: () => context.pop(),
-          child: Container(
-            width: 44,
-            height: 44,
-            decoration: BoxDecoration(
-              color: Colors.white,
-              shape: BoxShape.circle,
-              border: Border.all(color: const Color(0xFFB0BEC5), width: 2),
-              boxShadow: const [
-                BoxShadow(color: Colors.black12, blurRadius: 4, offset: Offset(0, 2)),
+    return SizedBox(
+      height: 52,
+      child: Stack(
+        alignment: Alignment.center,
+        children: [
+          // Center: Moves Counter Badge
+          Container(
+            width: 52,
+            height: 50,
+            decoration: const BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage(AppImages.movesLeftBg),
+                fit: BoxFit.contain,
+              ),
+            ),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  'Moves',
+                  style: GoogleFonts.fredoka(
+                    fontSize: 10,
+                    color: const Color(0xFF8D6E63),
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                Text(
+                  '${state.moves}',
+                  style: GoogleFonts.fredoka(
+                    fontSize: 17,
+                    fontWeight: FontWeight.bold,
+                    color: const Color(0xFFE65100),
+                  ),
+                ),
               ],
             ),
-            child: const Icon(Icons.arrow_back_ios_rounded, size: 20, color: Color(0xFF37474F)),
           ),
-        ),
 
-        // Timer Pill
-        TimerWidget(
-          timeRemaining: state.timeRemaining,
-          status: state.status,
-        ),
-
-        // Moves Counter Badge
-        Container(
-          width: 52,
-          height: 50,
-          decoration: const BoxDecoration(
-            image: DecorationImage(
-              image: AssetImage(AppImages.movesLeftBg),
-              fit: BoxFit.contain,
-            ),
-          ),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+          // Left (Timer) & Right (Coins)
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Text(
-                'Moves',
-                style: GoogleFonts.fredoka(
-                  fontSize: 10,
-                  color: const Color(0xFF8D6E63),
-                  fontWeight: FontWeight.bold,
-                ),
+              // Timer Pill (Width 102px - decreased 2%)
+              TimerWidget(
+                timeRemaining: state.timeRemaining,
+                status: state.status,
               ),
-              Text(
-                '${state.moves}',
-                style: GoogleFonts.fredoka(
-                  fontSize: 17,
-                  fontWeight: FontWeight.bold,
-                  color: const Color(0xFFE65100),
+
+              // Coins Pill (Width 109px - increased 3%)
+              GestureDetector(
+                onTap: () => ShopScreen.show(context),
+                child: Container(
+                  width: 109,
+                  height: 42,
+                  decoration: const BoxDecoration(
+                    image: DecorationImage(
+                      image: AssetImage(AppImages.coinsBalanceBg),
+                      fit: BoxFit.fill,
+                    ),
+                  ),
+                  child: Center(
+                    child: Padding(
+                      padding: const EdgeInsets.only(left: 28, right: 28),
+                      child: Text(
+                        '${progress.coins}',
+                        style: GoogleFonts.fredoka(
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                          shadows: const [
+                            Shadow(color: Colors.black45, blurRadius: 2, offset: Offset(0, 1)),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
                 ),
               ),
             ],
           ),
-        ),
-
-        // Coins Pill
-        GestureDetector(
-          onTap: () => ShopScreen.show(context),
-          child: Container(
-            width: 106,
-            height: 42,
-            decoration: const BoxDecoration(
-              image: DecorationImage(
-                image: AssetImage(AppImages.coinsBalanceBg),
-                fit: BoxFit.fill,
-              ),
-            ),
-            child: Center(
-              child: Padding(
-                padding: const EdgeInsets.only(left: 28, right: 28),
-                child: Text(
-                  '${progress.coins}',
-                  style: GoogleFonts.fredoka(
-                    fontSize: 15,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.white,
-                    shadows: const [
-                      Shadow(color: Colors.black45, blurRadius: 2, offset: Offset(0, 1)),
-                    ],
-                  ),
-                ),
-              ),
-            ),
-          ),
-        ),
-      ],
+        ],
+      ),
     );
   }
 }

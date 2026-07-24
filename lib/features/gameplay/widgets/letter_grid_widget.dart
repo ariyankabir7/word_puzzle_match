@@ -77,7 +77,7 @@ class _LetterGridWidgetState extends State<LetterGridWidget> {
     return LayoutBuilder(
       builder: (context, constraints) {
         final outerWidth = constraints.maxWidth;
-        const double paddingAmount = 14.0;
+        const double paddingAmount = 6.0;
         final innerSize = outerWidth - (paddingAmount * 2);
         final cellSize = innerSize / gridSize;
 

@@ -26,7 +26,7 @@ class TimerWidget extends StatelessWidget {
         : (isWarning ? AppColors.timerWarning : Colors.white);
 
     return Container(
-      width: 104,
+      width: 102,
       height: 44,
       decoration: const BoxDecoration(
         image: DecorationImage(

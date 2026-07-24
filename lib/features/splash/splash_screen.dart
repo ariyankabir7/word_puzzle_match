@@ -1,11 +1,11 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:go_router/go_router.dart';
-import '../../core/constants/app_colors.dart';
-import '../../core/constants/app_text_styles.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../../core/constants/app_constants.dart';
+import '../../core/constants/app_images.dart';
 import '../../core/router/app_router.dart';
-import '../../shared/widgets/owl_mascot.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -15,183 +15,305 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
+  double _loadingProgress = 0.0;
+  String _statusText = 'Loading adventure...';
+  bool _startedLoading = false;
+
   @override
   void initState() {
     super.initState();
-    Future.delayed(
-      Duration(milliseconds: AppConstants.splashDurationMs),
-      () {
-        if (mounted) context.go(AppRoutes.home);
-      },
-    );
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!_startedLoading) {
+        _startedLoading = true;
+        _initAndPreload();
+      }
+    });
+  }
+
+  Future<void> _initAndPreload() async {
+    final startTime = DateTime.now();
+
+    final imagePaths = [
+      AppImages.bgHome,
+      AppImages.bgMap,
+      AppImages.bgGameplay,
+      AppImages.bgVictory,
+      AppImages.logoTitle,
+      AppImages.iconChest,
+      AppImages.iconCoin,
+      AppImages.iconGem,
+      AppImages.iconStar,
+      AppImages.gear,
+      AppImages.wordsGridBg,
+      AppImages.coinsBalanceBg,
+      AppImages.levelComplete,
+    ];
+
+    int loaded = 0;
+    for (final path in imagePaths) {
+      if (!mounted) return;
+      try {
+        await precacheImage(AssetImage(path), context);
+      } catch (_) {
+        // Ignore precache errors for missing/optional assets
+      }
+      loaded++;
+      if (mounted) {
+        setState(() {
+          _loadingProgress = loaded / imagePaths.length;
+          if (_loadingProgress < 0.4) {
+            _statusText = 'Loading graphics...';
+          } else if (_loadingProgress < 0.8) {
+            _statusText = 'Preparing word puzzles...';
+          } else {
+            _statusText = 'Ready to play!';
+          }
+        });
+      }
+    }
+
+    // Ensure minimum splash duration for smooth visual experience
+    final elapsedMs = DateTime.now().difference(startTime).inMilliseconds;
+    final remainingMs = AppConstants.splashDurationMs - elapsedMs;
+    if (remainingMs > 0) {
+      await Future.delayed(Duration(milliseconds: remainingMs));
+    }
+
+    if (mounted) {
+      context.go(AppRoutes.home);
+    }
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        decoration: const BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            colors: [
-              Color(0xFF87CEEB),
-              Color(0xFF5CB8E4),
-              Color(0xFF3A9EC9),
-            ],
+      body: Stack(
+        children: [
+          // Background Image matching Home Screen
+          Positioned.fill(
+            child: Image.asset(
+              AppImages.bgHome,
+              fit: BoxFit.cover,
+            ),
           ),
-        ),
-        child: SafeArea(
-          child: Stack(
-            children: [
-              ..._buildClouds(),
 
-              Center(
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    _buildLogo()
-                        .animate()
-                        .fadeIn(duration: 600.ms, delay: 200.ms)
-                        .scale(
-                          begin: const Offset(0.7, 0.7),
-                          duration: 600.ms,
-                          curve: Curves.elasticOut,
-                        ),
-
-                    const SizedBox(height: 16),
-
-                    Text(
-                      'Fun Words, Big Smiles!',
-                      style: AppTextStyles.tagline,
-                    )
-                        .animate()
-                        .fadeIn(delay: 500.ms, duration: 400.ms)
-                        .slideY(begin: 0.3, end: 0),
-
-                    const SizedBox(height: 40),
-
-                    const OwlMascot(size: 140, mood: OwlMood.happy)
-                        .animate()
-                        .fadeIn(delay: 300.ms, duration: 500.ms)
-                        .scale(
-                          begin: const Offset(0.5, 0.5),
-                          duration: 700.ms,
-                          curve: Curves.elasticOut,
-                        ),
-
-                    const SizedBox(height: 40),
-
-                    SizedBox(
-                      width: 40,
-                      height: 40,
-                      child: CircularProgressIndicator(
-                        color: Colors.white.withValues(alpha: 0.7),
-                        strokeWidth: 3,
-                      ),
-                    )
-                        .animate()
-                        .fadeIn(delay: 800.ms, duration: 400.ms),
+          // Subtle Darkening Overlay for contrast
+          Positioned.fill(
+            child: Container(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                  colors: [
+                    Colors.black.withValues(alpha: 0.15),
+                    Colors.transparent,
+                    Colors.black.withValues(alpha: 0.35),
                   ],
                 ),
               ),
-            ],
+            ),
           ),
-        ),
-      ),
-    );
-  }
 
-  Widget _buildLogo() {
-    return Column(
-      children: [
-        RichText(
-          textAlign: TextAlign.center,
-          text: TextSpan(
-            children: [
-              TextSpan(
-                text: 'Word\n',
-                style: AppTextStyles.logoTitle.copyWith(
-                  fontSize: 52,
-                  color: AppColors.sunshineYellow,
-                  fontWeight: FontWeight.w900,
+          // Floating Animated Decorative Clouds
+          ..._buildClouds(),
+
+          // Floating Sparkling Stars
+          ..._buildSparkles(),
+
+          // Main Center Content
+          SafeArea(
+            child: Column(
+              children: [
+                const Spacer(flex: 2),
+
+                // 3D Title Logo (Includes built-in tagline ribbon)
+                Image.asset(
+                      AppImages.logoTitle,
+                      width: 420,
+                      height: 240,
+                      fit: BoxFit.contain,
+                    )
+                    .animate()
+                    .fadeIn(duration: 600.ms)
+                    .scale(
+                      begin: const Offset(0.8, 0.8),
+                      duration: 700.ms,
+                      curve: Curves.elasticOut,
+                    )
+                    .animate(onPlay: (c) => c.repeat(reverse: true))
+                    .moveY(
+                      begin: -6,
+                      end: 6,
+                      duration: 2.seconds,
+                      curve: Curves.easeInOut,
+                    ),
+
+                const Spacer(flex: 3),
+
+
+                // Loading Status Text
+                Text(
+                  _statusText,
+                  style: GoogleFonts.fredoka(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.white,
+                    shadows: const [
+                      Shadow(
+                        color: Color(0x66000000),
+                        offset: Offset(0, 2),
+                        blurRadius: 4,
+                      ),
+                    ],
+                  ),
+                ).animate().fadeIn(delay: 400.ms, duration: 300.ms),
+
+                const SizedBox(height: 10),
+
+                // 3D Game Loading Progress Bar
+                Container(
+                  width: 250,
+                  height: 22,
+                  padding: const EdgeInsets.all(3),
+                  decoration: BoxDecoration(
+                    color: const Color(0xBB000000),
+                    borderRadius: BorderRadius.circular(16),
+                    border: Border.all(
+                      color: Colors.white.withValues(alpha: 0.9),
+                      width: 2,
+                    ),
+                    boxShadow: const [
+                      BoxShadow(
+                        color: Color(0x44000000),
+                        blurRadius: 8,
+                        offset: Offset(0, 4),
+                      ),
+                    ],
+                  ),
+                  child: LayoutBuilder(
+                    builder: (context, constraints) {
+                      return Stack(
+                        children: [
+                          AnimatedContainer(
+                            duration: const Duration(milliseconds: 300),
+                            curve: Curves.easeOut,
+                            width: constraints.maxWidth * _loadingProgress,
+                            decoration: BoxDecoration(
+                              gradient: const LinearGradient(
+                                colors: [Color(0xFF4CAF50), Color(0xFF81C784)],
+                              ),
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                          ),
+                        ],
+                      );
+                    },
+                  ),
+                ).animate().fadeIn(delay: 500.ms, duration: 400.ms),
+
+                const SizedBox(height: 6),
+
+                // Percentage Text
+                Text(
+                  '${(_loadingProgress * 100).toInt()}%',
+                  style: GoogleFonts.fredoka(
+                    fontSize: 14,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white.withValues(alpha: 0.9),
+                    shadows: const [
+                      Shadow(
+                        color: Color(0x55000000),
+                        offset: Offset(0, 1),
+                        blurRadius: 3,
+                      ),
+                    ],
+                  ),
                 ),
-              ),
-              TextSpan(
-                text: 'Puzzle\n',
-                style: AppTextStyles.logoTitle.copyWith(
-                  fontSize: 48,
-                  color: Colors.white,
+
+                const Spacer(flex: 1),
+
+                // Version string
+                Text(
+                  'v1.0.0',
+                  style: GoogleFonts.nunito(
+                    fontSize: 12,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.white.withValues(alpha: 0.6),
+                  ),
                 ),
-              ),
-              TextSpan(
-                text: 'Match',
-                style: AppTextStyles.logoTitle.copyWith(
-                  fontSize: 48,
-                  color: AppColors.lushGreen,
-                ),
-              ),
-            ],
+                const SizedBox(height: 16),
+              ],
+            ),
           ),
-        ),
-      ],
+        ],
+      ),
     );
   }
 
   List<Widget> _buildClouds() {
     return [
-      const _Cloud(left: -20, top: 60, scale: 1.2)
+      Positioned(
+        left: -30,
+        top: 50,
+        child: Opacity(
+          opacity: 0.4,
+          child: Container(
+            width: 140,
+            height: 60,
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(30),
+            ),
+          ),
+        ),
+      )
           .animate(onPlay: (c) => c.repeat(reverse: true))
-          .moveX(begin: 0, end: 15, duration: 4000.ms, curve: Curves.easeInOut),
-      const _Cloud(right: -10, top: 120, scale: 0.8)
+          .moveX(begin: 0, end: 20, duration: 4.seconds, curve: Curves.easeInOut),
+      Positioned(
+        right: -20,
+        top: 130,
+        child: Opacity(
+          opacity: 0.35,
+          child: Container(
+            width: 110,
+            height: 50,
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(25),
+            ),
+          ),
+        ),
+      )
           .animate(onPlay: (c) => c.repeat(reverse: true))
-          .moveX(begin: 0, end: -10, duration: 5000.ms, curve: Curves.easeInOut),
-      const _Cloud(left: 40, bottom: 180, scale: 0.7)
+          .moveX(begin: 0, end: -15, duration: 5.seconds, curve: Curves.easeInOut),
+    ];
+  }
+
+  List<Widget> _buildSparkles() {
+    return [
+      Positioned(
+        top: 140,
+        left: 40,
+        child: Icon(
+          Icons.star_rounded,
+          color: const Color(0xFFFFD700).withValues(alpha: 0.8),
+          size: 24,
+        ),
+      )
           .animate(onPlay: (c) => c.repeat(reverse: true))
-          .moveX(begin: 0, end: 12, duration: 6000.ms, curve: Curves.easeInOut),
+          .scale(begin: const Offset(0.7, 0.7), end: const Offset(1.2, 1.2), duration: 1500.ms),
+      Positioned(
+        top: 180,
+        right: 45,
+        child: Icon(
+          Icons.auto_awesome,
+          color: const Color(0xFFFFEA00).withValues(alpha: 0.9),
+          size: 28,
+        ),
+      )
+          .animate(onPlay: (c) => c.repeat(reverse: true))
+          .scale(begin: const Offset(1.1, 1.1), end: const Offset(0.7, 0.7), duration: 1800.ms),
     ];
   }
 }
 
-class _Cloud extends StatelessWidget {
-  final double? left, right, top, bottom;
-  final double scale;
-
-  const _Cloud({this.left, this.right, this.top, this.bottom, this.scale = 1});
-
-  @override
-  Widget build(BuildContext context) {
-    return Positioned(
-      left: left,
-      right: right,
-      top: top,
-      bottom: bottom,
-      child: Transform.scale(
-        scale: scale,
-        child: const CustomPaint(
-          size: Size(130, 60),
-          painter: _CloudPainter(),
-        ),
-      ),
-    );
-  }
-}
-
-class _CloudPainter extends CustomPainter {
-  const _CloudPainter();
-
-  @override
-  void paint(Canvas canvas, Size size) {
-    final paint = Paint()..color = Colors.white.withValues(alpha: 0.55);
-    canvas.drawCircle(Offset(size.width * 0.3, size.height * 0.6), size.height * 0.42, paint);
-    canvas.drawCircle(Offset(size.width * 0.5, size.height * 0.45), size.height * 0.52, paint);
-    canvas.drawCircle(Offset(size.width * 0.7, size.height * 0.6), size.height * 0.38, paint);
-    canvas.drawRect(
-      Rect.fromLTRB(size.width * 0.1, size.height * 0.6, size.width * 0.9, size.height),
-      paint,
-    );
-  }
-
-  @override
-  bool shouldRepaint(_) => false;
-}
